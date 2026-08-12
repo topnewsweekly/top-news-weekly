@@ -39,7 +39,7 @@ jobs:
       - name: 조판 코드 체크아웃 (top-news-paper · 비공개)
         uses: actions/checkout@v4
         with:
-          repository: jp7856/top-news-paper
+          repository: topnewsweekly/top-news-paper
           token: ${{ secrets.BUILDER_TOKEN }}
           path: builder
 
