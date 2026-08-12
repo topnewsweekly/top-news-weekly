@@ -1,0 +1,257 @@
+{
+  "week_monday": "2026-07-27",
+  "week_range": [
+    "2026-07-27",
+    "2026-08-02"
+  ],
+  "generated_at": "2026-07-31T15:56:30",
+  "excluded_levels": [
+    "junior_m"
+  ],
+  "cover_layouts": {
+    "kinder": "feature",
+    "kids": "feature",
+    "junior": "feature",
+    "times": "feature"
+  },
+  "photo_scores": {
+    "assets/junior/8379d1d0f4df.jpg": 0.9474,
+    "assets/junior/04bbd597f37d.jpg": 0.916,
+    "assets/times/a9d8cddd95cd.jpg": 0.8846,
+    "assets/junior/407516f7c39b.jpg": 0.88,
+    "assets/kids/6f9fc8afebfb.jpg": 0.858,
+    "assets/junior/f5c5160e0093.jpg": 0.821,
+    "assets/kids/f445d5a63961.jpg": 0.7551,
+    "assets/times/23ac202de526.jpg": 0.7302,
+    "assets/junior/5318567f5487.jpg": 0.7217,
+    "assets/kids/6be0107dc86a.jpg": 0.7102,
+    "assets/junior/e413068fcda9.jpg": 0.6809,
+    "assets/kinder/0e96feb12999.jpg": 0.6758,
+    "assets/times/c8d18e44ae5c.jpg": 0.6699,
+    "assets/times/ce2a34de576c.jpg": 0.6572,
+    "assets/times/a40b3cca0f46.jpg": 0.6491,
+    "assets/kinder/3a1eff595ee3.jpg": 0.6449,
+    "assets/kinder/a842a2b329fb.jpg": 0.6401,
+    "assets/times/2c50728b528b.jpg": 0.6148,
+    "assets/junior/2d1dba3656bb.jpg": 0.6023,
+    "assets/junior/0d1169301583.jpg": 0.5859,
+    "assets/times/261f53637ce0.jpg": 0.5648,
+    "assets/times/c6f7e456900b.jpg": 0.5634,
+    "assets/times/42be01072039.jpg": 0.5577,
+    "assets/kinder/5bc6ed0daa3d.jpg": 0.5545,
+    "assets/kids/8a41e28acceb.jpg": 0.5176,
+    "assets/kids/67a098376e63.jpg": 0.3294,
+    "assets/kids/483991e041f1.jpg": 0.2006,
+    "assets/times/692d0325b478.jpg": 0.1946
+  },
+  "format": {
+    "name": "tabloid",
+    "width_mm": 279,
+    "height_mm": 432,
+    "margin_mm": 13
+  },
+  "validation": [
+    {
+      "level": "kinder",
+      "title": "TOP NEWS KINDER",
+      "quota": 4,
+      "found": 20,
+      "status": "over",
+      "message": "초과 16건 — 최신순 4건 채택, 16건 이월",
+      "selected": [
+        "How Do Big Planes Fly?",
+        "Where Do Frogs Go in Winter?",
+        "Seeds Can Travel Far Away!",
+        "What Do Squirrels Do in Winter?"
+      ],
+      "dropped": [
+        "Why Do Stars Twinkle at Night?",
+        "Where Does Salt Come From?",
+        "How Does a Butterfly Begin Its Life?",
+        "How Do Polar Bears Stay Warm?",
+        "Milk Comes From Cows!",
+        "Why Do Leaves Change Color?",
+        "Why Does the Moon Change Shape?",
+        "Flowers Grow in the Desert Too!",
+        "How Do Ants Find Their Way Home?",
+        "Why Are the Whites of Your Eyes White?",
+        "Why Do Dogs Wag Their Tails?",
+        "How Do Astronauts Sleep in Space?",
+        "Why Do Fireflies Glow at Night?",
+        "Sea Turtles Swim Very Far Away",
+        "Why Do Elephants Have Long Trunks?",
+        "Look Up! Here Comes a Rainbow!"
+      ]
+    },
+    {
+      "level": "kids",
+      "title": "TOP NEWS KIDS",
+      "quota": 6,
+      "found": 19,
+      "status": "over",
+      "message": "초과 13건 — 최신순 6건 채택, 13건 이월",
+      "selected": [
+        "What Students Learn in School Gardens",
+        "Loud Oceans Are Hurting Whales",
+        "Can Scientists Bring Back Extinct Animals?",
+        "What Is a Spacesuit Made Of?",
+        "How Do Migratory Birds Find Their Way?",
+        "Bringing Old Paintings Back to Life"
+      ],
+      "dropped": [
+        "How Does a Robot Vacuum Find Its Way?",
+        "How Does a Volcanic Island Form?",
+        "Meet the World's Biggest Tree",
+        "Spider Silk Is Stronger Than Steel",
+        "Kids on YouTube and Screen Time",
+        "Could We One Day Mine Asteroids?",
+        "Scientists Live and Work in Antarctica",
+        "Plants Feel Stress Too, Scientists Say",
+        "What Are Olympic Medals Made Of?",
+        "Building Homes With a Giant 3D Printer",
+        "What If All the Bees Were Gone?",
+        "The Deepest Place on Earth",
+        "How Do Chameleons Change Their Color?"
+      ]
+    },
+    {
+      "level": "junior",
+      "title": "TOP NEWS JUNIOR",
+      "quota": 8,
+      "found": 20,
+      "status": "over",
+      "message": "초과 12건 — 최신순 8건 채택, 12건 이월",
+      "selected": [
+        "Planting Trees on Empty Islands",
+        "Will There Be Enough Power for Electric Cars?",
+        "Who Really Owns Your Personal Data?",
+        "Are Genome-Edited Crops Safe to Eat?",
+        "Are Early School Times Hurting Teen Sleep?",
+        "How Scientists Create Life-Saving Vaccines",
+        "Why Cities Feel Hotter Than the Countryside",
+        "Secondhand Shopping Changes How People Buy"
+      ],
+      "dropped": [
+        "Why Hangul Is Spreading Around the World",
+        "AI Umpires Are Changing Sports",
+        "Climate Change Puts Coffee's Future at Risk",
+        "Do Zoos Still Have a Place Today?",
+        "Who Should Clean Up Space Junk?",
+        "Are Loot Boxes Fair for Young Players?",
+        "When Too Many Tourists Cause Problems",
+        "Tiny Plastic Pieces Are Everywhere",
+        "Should You Still Learn a Foreign Language?",
+        "Korean Food Is Taking Over the World",
+        "What Happens to Old EV Batteries?",
+        "Do Phone Bans in Schools Really Work?"
+      ]
+    },
+    {
+      "level": "times",
+      "title": "TOP NEWS TIMES",
+      "quota": 10,
+      "found": 10,
+      "status": "ok",
+      "message": "규정 충족 (10/10)",
+      "selected": [
+        "Cities Around the World Are Running Out of Groundwater",
+        "Global Race to Find Chip Engineers Heats Up",
+        "Nuclear Power Makes a Quiet Comeback",
+        "Nations Restrict Grain Exports, Raising Global Food Concerns",
+        "The High-Stakes Debate Over Regulating AI",
+        "The Race to Fill the Sky With Satellites",
+        "Robots Step In to Care for the Elderly",
+        "Europe's Carbon Tax Reshapes Global Trade",
+        "The Silent Pandemic Hiding in Plain Sight",
+        "The Hidden Water in Your Food"
+      ],
+      "dropped": []
+    }
+  ],
+  "output": [
+    {
+      "level": "kinder",
+      "title": "TOP NEWS KINDER",
+      "pdf": "C:\\Users\\jp\\work\\top-news-paper\\dist\\2026-07-27\\TopNews_Kinder_2026-07-27.pdf",
+      "pages": 6,
+      "expected_pages": 6,
+      "cover": "feature",
+      "cover_feature": {
+        "page": 4,
+        "article_no": 3,
+        "title": "Seeds Can Travel Far Away!",
+        "photo": "assets/kinder/0e96feb12999.jpg",
+        "score": 0.6758,
+        "forced": false
+      },
+      "photos_missing": 0,
+      "error": null,
+      "quota": 4,
+      "found": 20,
+      "quota_status": "over"
+    },
+    {
+      "level": "kids",
+      "title": "TOP NEWS KIDS",
+      "pdf": "C:\\Users\\jp\\work\\top-news-paper\\dist\\2026-07-27\\TopNews_Kids_2026-07-27.pdf",
+      "pages": 8,
+      "expected_pages": 8,
+      "cover": "feature",
+      "cover_feature": {
+        "page": 3,
+        "article_no": 2,
+        "title": "Loud Oceans Are Hurting Whales",
+        "photo": "assets/kids/6f9fc8afebfb.jpg",
+        "score": 0.858,
+        "forced": false
+      },
+      "photos_missing": 0,
+      "error": null,
+      "quota": 6,
+      "found": 19,
+      "quota_status": "over"
+    },
+    {
+      "level": "junior",
+      "title": "TOP NEWS JUNIOR",
+      "pdf": "C:\\Users\\jp\\work\\top-news-paper\\dist\\2026-07-27\\TopNews_Junior_2026-07-27.pdf",
+      "pages": 10,
+      "expected_pages": 10,
+      "cover": "feature",
+      "cover_feature": {
+        "page": 5,
+        "article_no": 4,
+        "title": "Are Genome-Edited Crops Safe to Eat?",
+        "photo": "assets/junior/8379d1d0f4df.jpg",
+        "score": 0.9474,
+        "forced": false
+      },
+      "photos_missing": 0,
+      "error": null,
+      "quota": 8,
+      "found": 20,
+      "quota_status": "over"
+    },
+    {
+      "level": "times",
+      "title": "TOP NEWS TIMES",
+      "pdf": "C:\\Users\\jp\\work\\top-news-paper\\dist\\2026-07-27\\TopNews_Times_2026-07-27.pdf",
+      "pages": 12,
+      "expected_pages": 12,
+      "cover": "feature",
+      "cover_feature": {
+        "page": 8,
+        "article_no": 7,
+        "title": "Robots Step In to Care for the Elderly",
+        "photo": "assets/times/a9d8cddd95cd.jpg",
+        "score": 0.8846,
+        "forced": false
+      },
+      "photos_missing": 0,
+      "error": null,
+      "quota": 10,
+      "found": 10,
+      "quota_status": "ok"
+    }
+  ]
+}

@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<!-- Google tag (gtag.js) -->
+<!-- 정식 오픈 전 검색 노출 차단 — 오픈할 때 이 meta 한 줄만 지우면 됩니다 -->
+<meta name="robots" content="noindex,nofollow">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RF1HDNNG86"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RF1HDNNG86');
+</script>  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOP NEWS WEEKLY — 발행 기사</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Noto+Serif+KR:wght@700;900&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--red:#d32f2f;--navy:#0d1b3e;--bg:#f4f4f4;--text:#111;--muted:#666;--border:#e0e0e0}
+body{font-family:'Noto Sans KR',sans-serif;background:var(--bg);color:var(--text);font-size:14px;line-height:1.6}
+
+.util-bar{background:var(--navy);color:#8899bb;font-size:11px;padding:5px 20px;display:flex;justify-content:space-between}
+header{background:#fff;border-bottom:3px solid var(--red);padding:14px 20px}
+.header-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.logo{font-family:'Noto Serif KR',serif;font-size:36px;font-weight:900;color:var(--navy);letter-spacing:-1px;line-height:1;cursor:pointer;display:inline-block}
+.logo:hover em{text-decoration:underline}
+.logo em{color:var(--red);font-style:normal}
+.logo-sub{font-size:10px;color:var(--muted);letter-spacing:.06em}
+.logo-sub-row{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:3px}
+.onair-btn{display:none;background:#fff;border:1px solid var(--red);color:var(--red);border-radius:999px;padding:3px 11px;font-size:11px;font-weight:700;cursor:pointer;font-family:inherit;white-space:nowrap;transition:background .15s}
+.onair-btn:hover,.onair-btn.active{background:#fbe9e7}
+.onair-btn .short{display:none}
+@media(max-width:760px){.onair-btn{display:inline-block}.cat-tab.onair-tab{display:none}}
+
+.cat-nav{background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100;box-shadow:0 1px 4px rgba(0,0,0,.06)}
+.cat-nav-inner{max-width:1200px;margin:0 auto;display:flex;overflow-x:auto}
+.cat-tab{padding:12px 20px;font-size:13px;font-weight:700;cursor:pointer;color:var(--muted);border-bottom:3px solid transparent;margin-bottom:-1px;transition:color .15s,border-color .15s;white-space:nowrap;display:flex;align-items:center;gap:6px}
+.cat-tab:hover{color:var(--text)}
+.cat-tab.active{color:var(--red);border-bottom-color:var(--red)}
+.cat-cnt{font-size:10px;background:#eee;color:var(--muted);padding:1px 6px;border-radius:10px;font-weight:700}
+.cat-tab.active .cat-cnt{background:var(--red);color:#fff}
+
+.page-wrap{max-width:1200px;margin:0 auto;padding:0 20px 48px}
+.section-bar{margin:16px 0 12px;display:flex;align-items:center;gap:10px}
+.section-title{font-size:15px;font-weight:900;color:var(--navy);border-left:4px solid var(--red);padding-left:10px}
+.section-count{font-size:11px;color:var(--muted)}
+.section-line{flex:1;height:1px;background:var(--border)}
+
+/* 메인 + 사이드 */
+.top-grid{display:grid;grid-template-columns:1fr 320px;gap:24px;margin-bottom:24px;padding-bottom:24px;border-bottom:1px solid var(--border)}
+.main-art{cursor:pointer}
+.main-art:hover .main-title{color:var(--red)}
+.main-img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;border-radius:2px;background:#e8e8e8}
+.main-img-ph{width:100%;aspect-ratio:16/9;background:#e8eaf6;border-radius:2px;display:flex;align-items:center;justify-content:center;color:#bbb;font-size:32px}
+.main-badges{display:flex;gap:6px;margin:10px 0 6px;align-items:center;flex-wrap:wrap}
+.main-title{font-family:'Noto Serif KR',serif;font-size:24px;font-weight:900;line-height:1.4;color:var(--text);margin-bottom:8px;transition:color .15s}
+.main-body{font-size:13px;color:var(--muted);line-height:1.8;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.main-date{font-size:11px;color:#aaa;margin-top:8px}
+
+.side-list{border-left:1px solid var(--border);padding-left:20px;display:flex;flex-direction:column}
+.side-item{display:grid;grid-template-columns:80px 1fr;gap:10px;padding:12px 0;border-bottom:1px solid var(--border);cursor:pointer}
+.side-item:first-child{padding-top:0}
+.side-item:last-child{border-bottom:none}
+.side-item:hover .side-title{color:var(--red)}
+.side-thumb{width:80px;aspect-ratio:4/3;object-fit:cover;border-radius:2px;display:block;background:#e8e8e8}
+.side-thumb-ph{width:80px;aspect-ratio:4/3;background:#e8eaf6;border-radius:2px;display:flex;align-items:center;justify-content:center;color:#bbb;font-size:16px}
+.side-title{font-size:13px;font-weight:700;line-height:1.4;color:var(--text);margin-bottom:5px;transition:color .15s;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.side-badges{display:flex;gap:5px;flex-wrap:wrap;align-items:center}
+.side-date{font-size:10px;color:#aaa}
+
+/* 그리드 */
+.grid-wrap{margin-bottom:24px;border-top:2px solid var(--red)}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr)}
+@media(max-width:760px){.grid-3{grid-template-columns:1fr}.top-grid{grid-template-columns:1fr}.side-list{border-left:none;padding-left:0}}
+.grid-item{padding:16px;border-right:1px solid var(--border);border-bottom:1px solid var(--border);cursor:pointer;background:#fff}
+.grid-item:nth-child(3n){border-right:none}
+.grid-item:hover .grid-title{color:var(--red)}
+.grid-img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;border-radius:2px;margin-bottom:8px;background:#e8e8e8}
+.grid-img-ph{width:100%;aspect-ratio:16/9;background:#e8eaf6;border-radius:2px;margin-bottom:8px;display:flex;align-items:center;justify-content:center;color:#bbb;font-size:20px}
+.grid-badges{display:flex;gap:5px;margin-bottom:6px;flex-wrap:wrap;align-items:center}
+.grid-title{font-size:14px;font-weight:700;line-height:1.45;color:var(--text);margin-bottom:5px;transition:color .15s;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.grid-body{font-size:12px;color:var(--muted);line-height:1.65;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.grid-date{font-size:10px;color:#aaa;margin-top:6px}
+
+/* 레벨 뱃지 */
+.mbadge{font-size:10px;font-weight:700;padding:2px 7px;border-radius:2px;letter-spacing:.04em}
+.b-kinder{background:#fff3e0;color:#bf360c}
+.b-kids{background:#e8f5e9;color:#1b5e20}
+.b-junior{background:#e3f2fd;color:#0d47a1}
+.b-times{background:#f3e5f5;color:#4a148c}
+.b-junior_m{background:#e0f2f1;color:#00695c}
+.lvbadge{font-size:10px;font-weight:700;padding:2px 7px;border-radius:2px;background:#eceff1;color:#546e7a}
+
+/* 기사 모달 */
+.article-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:500;align-items:flex-start;justify-content:center;overflow-y:auto;padding:40px 20px}
+.article-overlay.show{display:flex}
+.article-modal{background:#fff;border-radius:8px;width:100%;max-width:820px;margin:auto;overflow:hidden;position:relative;box-shadow:0 12px 48px rgba(0,0,0,.25)}
+.article-modal-close{position:absolute;top:14px;right:16px;background:rgba(0,0,0,.5);border:none;color:#fff;width:32px;height:32px;border-radius:50%;font-size:16px;cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:10}
+.article-modal-close:hover{background:var(--red)}
+.article-header{padding:24px 28px 16px;border-bottom:1px solid var(--border)}
+.article-badges{display:flex;gap:8px;align-items:center;margin-bottom:10px;flex-wrap:wrap}
+.article-title{font-family:'Noto Serif KR',serif;font-size:24px;font-weight:900;line-height:1.4;color:var(--navy);margin-bottom:6px}
+.article-meta{font-size:12px;color:var(--muted);display:flex;gap:12px;flex-wrap:wrap}
+.article-hero{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+.article-text-col{padding:24px 28px 32px}
+.article-body{font-size:15px;line-height:2;color:var(--text);white-space:pre-line}
+.ko-toggle{margin-top:18px;background:none;border:1px solid var(--border);border-radius:3px;padding:7px 14px;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit;color:var(--muted)}
+.ko-toggle:hover{border-color:var(--red);color:var(--red)}
+.ko-body{display:none;margin-top:14px;padding:16px;background:#fafafa;border-radius:6px;font-size:13px;line-height:1.9;white-space:pre-line;color:#333}
+.ko-body.show{display:block}
+.ko-summary{font-weight:700;color:var(--navy);margin-bottom:10px;padding-bottom:10px;border-bottom:1px dashed var(--border)}
+.vocab{color:var(--muted);font-size:13px;margin-top:16px;padding-top:14px;border-top:1px dashed var(--border);line-height:2}
+.vocab b{color:var(--red)}
+
+/* On Air 바이라인 */
+.byline{display:flex;align-items:center;gap:14px;margin:14px 0 4px;padding:10px 0;border-top:1px solid var(--border)}
+.byline-avatar{width:96px;height:96px;border-radius:50%;object-fit:cover;background:#e8eaf6;flex:0 0 auto}
+.byline-info{display:flex;flex-direction:column;gap:4px}
+.byline-name{font-size:15px;font-weight:900;color:var(--navy)}
+.byline-name small{font-weight:400;color:var(--muted);font-size:12px;margin-right:2px}
+.byline-team{font-size:11px;color:var(--muted)}
+.card-avatar{width:18px;height:18px;border-radius:50%;object-fit:cover;flex:0 0 auto;background:#e8eaf6}
+@media(max-width:760px){.byline-avatar{width:64px;height:64px}.byline{gap:10px}
+  /* 모바일: 메타(날짜·단어수·섹션)를 각각 한 줄씩 세로 나열 */
+  .article-meta{flex-direction:column;gap:6px}}
+
+/* On Air 필진 프로필 */
+.onair-tab{margin-left:auto;color:var(--red)!important;font-weight:900}
+.onair-tab.active{border-bottom-color:var(--red)}
+.profile-hero{text-align:center;padding:28px 12px 8px}
+.profile-hero .ph-logo{font-family:'Noto Serif KR',serif;font-size:26px;font-weight:900;color:var(--navy)}
+.profile-hero .ph-logo em{color:var(--red);font-style:normal}
+.profile-hero .ph-sub{font-size:13px;color:var(--muted);margin-top:8px;line-height:1.7}
+.profile-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin:20px 0 34px}
+.profile-card{background:#fff;border:1px solid var(--border);border-radius:10px;padding:24px 16px 18px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:10px;transition:outline-color .3s}
+.profile-card.hl{outline:3px solid var(--red);outline-offset:2px}
+.profile-order{font-size:10px;color:#bbb;letter-spacing:.08em}
+.profile-avatar{width:120px;height:120px;border-radius:50%;object-fit:cover;background:#e8eaf6}
+.profile-loop{width:100%;max-width:280px;height:auto;border-radius:10px;background:#e8eaf6;display:block}
+.profile-name{font-weight:900;font-size:17px;color:var(--navy)}
+.profile-intro{font-size:12.5px;color:var(--muted);line-height:1.8;text-align:left}
+.profile-btn{margin-top:auto;background:none;border:1px solid var(--red);color:var(--red);border-radius:3px;padding:8px 16px;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit}
+.profile-btn:hover{background:var(--red);color:#fff}
+.byline-click{display:flex;align-items:center;gap:14px;cursor:pointer}
+.tts-btn{margin-left:auto;background:#fff;border:1px solid var(--navy);color:var(--navy);border-radius:999px;padding:6px 14px;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit;white-space:nowrap;transition:background .15s,color .15s}
+.tts-btn:hover{background:var(--navy);color:#fff}
+.tts-btn.playing{background:var(--red);border-color:var(--red);color:#fff}
+.article-body p{margin:0 0 1.1em;white-space:pre-line}
+.tts-sent.speaking{background:#fff8e1;box-shadow:0 2px 0 #fff8e1,0 -2px 0 #fff8e1;border-radius:2px}
+/* TTS 캐릭터 영상 팝업 (프로필 .profile-loop과 별개 — 팝업 전용) */
+/* PC: 세로 화면 중앙, 가로 위치는 JS가 기사 모달 오른쪽 경계 기준으로 설정 */
+.tts-popup{position:fixed;top:50%;left:0;transform:translateY(-50%);z-index:1200;width:150px;background:#fff;border:1px solid var(--border);border-radius:14px;box-shadow:0 8px 28px rgba(0,0,0,.22);padding:8px 8px 6px;display:flex;flex-direction:column;align-items:center;gap:4px}
+.tts-popup-video{width:100%;height:auto;border-radius:9px;background:#e8eaf6;display:block;cursor:pointer}
+.tts-popup-paused .tts-popup-video{opacity:.55}
+.tts-popup-name{font-size:12px;font-weight:800;color:var(--navy)}
+.tts-popup-hint{font-size:9.5px;color:var(--muted)}
+.tts-popup-x{position:absolute;top:-9px;right:-9px;width:24px;height:24px;border-radius:50%;border:none;background:var(--navy);color:#fff;font-size:14px;line-height:1;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.3)}
+/* 모바일: 팝업을 바이라인의 tts-btn 자리에 인라인 배치(fixed 아님) — 스크롤하면 본문 따라 사라짐.
+   폭 120px = 기존 150의 80%(20% 축소, 세로 높이 감소로 본문 노출) */
+.tts-popup-inline{position:relative;top:auto;left:auto;transform:none;width:120px;margin-left:auto}
+@media(max-width:760px){
+  .byline{flex-wrap:wrap}
+  /* loop 캐릭터 기사: 좌(필진 정보 콤팩트) / 우(캐릭터 팝업) 2단, 상단 기준 정렬 */
+  .byline.has-popup{flex-wrap:nowrap;align-items:flex-start;gap:12px}
+  /* 아바타+이름/팀을 한 줄로(콤팩트), 뱃지는 그 아래 — 높이 최소화 */
+  .byline.has-popup .byline-click{flex-direction:row;align-items:center;gap:10px}
+  .byline.has-popup .byline-avatar{width:48px;height:48px}
+  .byline.has-popup .byline-team{font-size:10px}
+  /* 왼쪽 컬럼을 팝업 상단에 맞춰 정렬(아바타 상단 = 팝업 상단), 아래 여백 제거 */
+  .tts-byline-left{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;gap:6px;min-width:0;padding-top:8px}
+  .byline.has-popup .tts-popup-inline{flex:0 0 auto}
+  /* 인라인 팝업이 아닌 경우(폴백)만 하단 플로팅 바 */
+  .tts-popup:not(.tts-popup-inline){left:8px;right:8px;bottom:8px;top:auto;transform:none;width:auto;flex-direction:row;align-items:center;gap:10px;padding:6px 10px 6px 6px;border-radius:12px}
+  .tts-popup:not(.tts-popup-inline) .tts-popup-video{width:44px;flex:0 0 auto}
+  .tts-popup:not(.tts-popup-inline) .tts-popup-hint{margin-left:auto}
+}
+.byline-click:hover .byline-name{color:var(--red)}
+@media(max-width:760px){.profile-grid{grid-template-columns:1fr}}
+
+.state-box{padding:60px 20px;text-align:center}
+.state-icon{font-size:44px;margin-bottom:12px;opacity:.3}
+.state-title{font-size:18px;font-weight:700;color:var(--muted);margin-bottom:6px}
+.state-msg{font-size:13px;color:#aaa;line-height:1.8}
+.spinner{width:28px;height:28px;border:3px solid #ddd;border-top-color:var(--red);border-radius:50%;animation:spin .7s linear infinite;margin:0 auto 14px}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+footer{background:var(--navy);color:#8899bb;font-size:11px;text-align:center;padding:20px}
+
+/* 이번 호 PDF — 사이드 컬럼 아래 여백에 붙는 컴팩트 목록 */
+.pdf-box{margin-top:auto;padding-top:16px;border-top:2px solid var(--navy)}
+.pdf-box-head{display:flex;align-items:baseline;gap:8px;margin-bottom:8px}
+.pdf-box-title{font-family:'Noto Serif KR',serif;font-size:13px;font-weight:900;color:var(--navy)}
+.pdf-box-week{font-size:10px;color:var(--muted)}
+.pdf-row{display:flex;align-items:center;gap:8px;padding:7px 0 7px 10px;border-bottom:1px dotted var(--border);text-decoration:none;color:var(--text);position:relative;transition:background .12s}
+.pdf-row:last-of-type{border-bottom:none}
+.pdf-row::before{content:"";position:absolute;left:0;top:8px;bottom:8px;width:3px;background:var(--pc,#888)}
+.pdf-row:hover{background:#fafafa}
+.pdf-row.kinder{--pc:#e8590c}
+.pdf-row.kids{--pc:#2e7d32}
+.pdf-row.junior{--pc:#1565c0}
+.pdf-row.times{--pc:#4a148c}
+.pr-name{font-size:12px;font-weight:800;color:var(--navy);letter-spacing:.02em}
+.pr-meta{font-size:10px;color:var(--muted)}
+.pr-dl{margin-left:auto;font-size:10px;font-weight:800;color:var(--pc,#666);opacity:.75}
+.pdf-row:hover .pr-dl{opacity:1}
+
+/* 관리자 패널 */
+.admin-link{cursor:pointer;opacity:.55}
+.admin-link:hover{opacity:1;text-decoration:underline}
+.admin-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:400;padding:24px;overflow:auto}
+.admin-overlay.open{display:block}
+.admin-modal{background:#fff;max-width:620px;margin:40px auto;border-radius:6px;padding:22px 24px;position:relative}
+.admin-modal h2{font-family:'Noto Serif KR',serif;font-size:20px;color:var(--navy);margin-bottom:4px}
+.admin-modal .sub{font-size:11px;color:var(--muted);margin-bottom:16px}
+.admin-close{position:absolute;top:12px;right:14px;border:0;background:none;font-size:18px;cursor:pointer;color:var(--muted)}
+.admin-table{width:100%;border-collapse:collapse;font-size:12px;margin-bottom:14px}
+.admin-table th,.admin-table td{border-bottom:1px solid var(--border);padding:7px 6px;text-align:right}
+.admin-table th:first-child,.admin-table td:first-child{text-align:left}
+.admin-table th{font-size:10px;color:var(--muted);font-weight:700;letter-spacing:.04em}
+.admin-weekpick{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:12px;font-size:11px;color:var(--muted)}
+.admin-weekpick label{font-weight:700}
+.admin-weekpick input{border:1px solid var(--border);border-radius:4px;padding:5px 8px;font-size:12px;font-family:inherit}
+.admin-weekpick button{border:1px solid var(--border);background:#fff;border-radius:4px;padding:5px 10px;font-size:11px;cursor:pointer;font-family:inherit}
+.admin-weekpick button:hover{border-color:var(--red);color:var(--red)}
+.admin-weekpick .hint{flex:1;min-width:180px}
+.admin-row-form{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.admin-key{flex:1;min-width:180px;border:1px solid var(--border);border-radius:4px;padding:9px 11px;font-size:13px;font-family:inherit}
+.admin-btn{background:var(--red);color:#fff;border:0;border-radius:4px;padding:10px 18px;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit}
+.admin-btn:disabled{background:#bbb;cursor:default}
+.admin-note{font-size:11px;color:var(--muted);margin-top:10px;line-height:1.6}
+.admin-log{margin-top:14px;font-size:12px;line-height:1.7;background:#fafafa;border:1px solid var(--border);border-radius:4px;padding:10px 12px;max-height:220px;overflow:auto}
+.admin-log b{color:var(--navy)}
+.admin-log .ok{color:#1b7f3a}
+.admin-log .warn{color:#b8860b}
+.admin-log .err{color:var(--red)}
+</style>
+</head>
+<body>
+
+<div class="util-bar">
+  <span id="today"></span>
+  <span>TOP NEWS WEEKLY — Published Articles
+    <span class="admin-link" onclick="openAdmin()" title="관리자 · 이번 주 발행">· 발행</span>
+  </span>
+</div>
+
+<!-- 관리자: 이번 주 발행 (관리자 키 필요) -->
+<div class="admin-overlay" id="admin-overlay" onclick="if(event.target===this)closeAdmin()">
+  <div class="admin-modal">
+    <button class="admin-close" onclick="closeAdmin()">✕</button>
+    <h2>이번 주 발행</h2>
+    <div class="sub" id="admin-week">주간 현황을 불러오는 중...</div>
+    <div class="admin-weekpick">
+      <label for="admin-week-input">발행할 주</label>
+      <input type="date" id="admin-week-input" onchange="loadIssuePreview()">
+      <button type="button" onclick="clearIssueWeek()">이번 주로</button>
+      <span class="hint">지난 주 누락분을 채우려면 그 주의 아무 날짜나 고르세요</span>
+    </div>
+    <div id="admin-preview"></div>
+    <div class="admin-row-form">
+      <input class="admin-key" id="admin-key" type="password" placeholder="관리자 키"
+             autocomplete="off" onkeydown="if(event.key==='Enter')runIssuePublish()">
+      <button class="admin-btn" id="admin-run" onclick="runIssuePublish()">발행하기</button>
+    </div>
+    <div class="admin-note">
+      규정 수량(Kinder 4 · Kids 6 · Junior 8 · Times 10)만큼 이번 주 기사를 사이트에 노출하고,
+      타블로이드 PDF 4종 빌드를 요청합니다. PDF는 1~3분 뒤 아래 '이번 호 신문 PDF'에 나타납니다.
+    </div>
+    <div class="admin-log" id="admin-log" style="display:none"></div>
+  </div>
+</div>
+
+<header>
+  <div class="header-inner">
+    <div style="flex:1">
+      <div class="logo" onclick="goHome()" title="메인으로">TOP NEWS <em>WEEKLY</em></div>
+      <div class="logo-sub-row">
+        <div class="logo-sub">WEEKLY ENGLISH EDUCATION NEWSPAPER · 발행 기사 모음</div>
+        <button class="onair-btn" id="onair-btn" onclick="showProfiles(undefined,'header')">🔴 <span class="full">On Air 필진</span><span class="short">필진</span></button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<nav class="cat-nav">
+  <div class="cat-nav-inner" id="cat-tabs"></div>
+</nav>
+
+<div class="page-wrap" id="content">
+  <div class="state-box">
+    <div class="spinner"></div>
+    <div class="state-msg">발행된 기사를 불러오는 중...</div>
+  </div>
+</div>
+
+<!-- 기사 모달 -->
+<div class="article-overlay" id="article-overlay" onclick="if(event.target===this)closeArticle()">
+  <div class="article-modal">
+    <button class="article-modal-close" onclick="closeArticle()">✕</button>
+    <div id="article-content"></div>
+  </div>
+</div>
+
+<footer>© TOP NEWS WEEKLY · Powered by Claude</footer>
+
+<script>
+// ────────────────────────────────────────────────
+// 설정: 파이프라인 서버 주소 (Railway v5)
+const API_BASE = "https://web-production-0763d.up.railway.app";
+// ────────────────────────────────────────────────
+
+const LEVELS = [
+  { key: "all",      label: "전체" },
+  { key: "kinder",   label: "Kinder" },
+  { key: "kids",     label: "Kids" },
+  { key: "junior",   label: "Junior" },
+  { key: "times",    label: "Times" },
+  { key: "junior_m", label: "Junior M" },
+];
+
+// On Air 필자 — 시트 필자 필드(byline) 우선, 없으면(구버전 행) 발행물 매핑 폴백.
+// 캐릭터 IP 단일 소스: news-pipeline5/docs/on_air_bible.md (BYLINE_AUTHORS와 동일 매핑)
+const AVATAR_BASE = "assets/avatars/";
+const bylineAuthors = { kinder: "Leo", kids: "Ruby", junior: "Sunny", junior_m: "Erin", times: "Daniel" };
+
+// GA4 커스텀 이벤트 — SPA라 기사 열람이 페이지뷰로 안 잡히는 문제 보완.
+// gtag 미로드 환경(로컬 파일 열기 등)에서도 에러 없이 무시되도록 가드.
+function track(name, params) {
+  if (typeof gtag === "function") {
+    try { gtag("event", name, params); } catch (e) { /* 계측 실패는 무시 */ }
+  }
+}
+
+// TTS — Web Speech API (서버·비용 없음). 캐릭터별 pitch/rate 프리셋.
+// 보이스 자체는 기기별 가용 en-US 중 선택 — 기기 편차는 이번 단계의 알려진 한계.
+const voicePresets = {
+  Leo:    { rate: 0.85, pitch: 1.4  },  // 아이 목소리 근사
+  Ruby:   { rate: 0.95, pitch: 1.25 },
+  Sunny:  { rate: 1.05, pitch: 1.15 },  // 에너지
+  Erin:   { rate: 0.95, pitch: 1.0  },
+  Daniel: { rate: 0.9,  pitch: 0.85 },  // 앵커 톤
+};
+
+let _tts = { playing: false, articleIdx: null, lastPara: null, cancelled: false };
+let _enVoice = null;
+let _audioEl = null;  // 클라우드 MP3 재생용 (발행 시 사전 생성된 캐릭터 보이스)
+let _ttsPopup = null;  // 캐릭터 영상 팝업 상태 {el, source, paused}
+
+function ttsSupported() {
+  return typeof window !== "undefined" && "speechSynthesis" in window
+      && typeof SpeechSynthesisUtterance !== "undefined";
+}
+function pickVoice() {
+  if (!ttsSupported()) return;
+  const vs = speechSynthesis.getVoices() || [];
+  _enVoice = vs.find(v => v.lang === "en-US") || vs.find(v => (v.lang || "").startsWith("en")) || null;
+}
+if (ttsSupported()) {
+  pickVoice();
+  // getVoices()는 비동기 로드라 초기 빈 배열일 수 있음 — voiceschanged 대응
+  try { speechSynthesis.addEventListener("voiceschanged", pickVoice); } catch (e) {}
+}
+
+function _josa(name) { return /[aeiouy]$/i.test(name || "") ? "가" : "이"; }
+
+// 문장 분할(마침표/느낌표/물음표 기준) — 렌더링과 낭독이 동일 규칙을 써야 인덱스가 일치한다
+function splitSentences(text) {
+  return (text || "").split(/(?<=[.!?])\s+/).map(s => s.trim()).filter(Boolean);
+}
+// 본문 → 문단 <p> 안에 문장 <span id="tts-s-N"> — 문장 단위 하이라이트 대상
+function ttsBody(text) {
+  const paras = (text || "").split(/\n\s*\n/).map(s => s.trim()).filter(Boolean);
+  let n = 0;
+  return paras.map(p =>
+    `<p>${splitSentences(p).map(s => `<span class="tts-sent" id="tts-s-${n++}">${esc(s)}</span>`).join(" ")}</p>`
+  ).join("");
+}
+// 낭독 단위 목록 — 제목(하이라이트 없음) + 본문 문장(span 매핑). ttsBody와 같은 순서/분할.
+function ttsUnits(a) {
+  const units = [{ text: titleOf(a), spanId: null }];
+  const paras = (a.article.text || "").split(/\n\s*\n/).map(s => s.trim()).filter(Boolean);
+  let n = 0;
+  paras.forEach(p => splitSentences(p).forEach(s => units.push({ text: s, spanId: "tts-s-" + (n++) })));
+  return units;
+}
+// 현재 읽는 문장만 하이라이트 (이전 것은 해제) — 세션 상태에 마지막 요소 보관
+function highlightSentence(st, spanId) {
+  if (st.lastEl) { st.lastEl.classList.remove("speaking"); st.lastEl = null; }
+  if (!spanId) return;
+  const el = document.getElementById(spanId);
+  if (el) { el.classList.add("speaking"); st.lastEl = el; }
+}
+
+// ── 캐릭터 영상 팝업 (loopVideo와 파일명 규칙만 공유, DOM/클래스는 전용) ──
+function openTtsPopup(name, source) {
+  closeTtsPopup();  // 이전 세션 잔존분 방어적 제거
+  const c = characterProfiles.find(p => p.name === name);
+  if (!c || !c.loop) return;  // loop:true + 영상 있는 캐릭터만 (5명 전원)
+  const base = AVATAR_BASE + name.toLowerCase().replace(/\s+/g, "") + "-loop-540";
+  const el = document.createElement("div");
+  el.className = "tts-popup";
+  el.id = "tts-popup";
+  el.innerHTML =
+    `<button class="tts-popup-x" title="닫기" onclick="event.stopPropagation();stopTTS()">×</button>` +
+    `<video class="tts-popup-video" autoplay muted loop playsinline poster="${avatarUrl(name, true)}">` +
+      `<source src="${base}.webm" type="video/webm"><source src="${base}.mp4" type="video/mp4"></video>` +
+    `<div class="tts-popup-name">${esc(name)}</div>` +
+    `<div class="tts-popup-hint">탭하면 일시정지</div>`;
+  // 모바일: 바이라인의 tts-btn 자리에 인라인 삽입하고 버튼을 숨김(재생 진입점 → 팝업이 공간 차지).
+  // PC: 기존대로 body에 붙여 모달 오른쪽에 fixed 배치.
+  const isMobile = window.matchMedia("(max-width:760px)").matches;
+  const btn = document.getElementById("tts-btn");
+  let hidBtn = false, leftWrap = null, byline = null;
+  if (isMobile && btn && btn.parentNode) {
+    el.classList.add("tts-popup-inline");
+    byline = btn.closest(".byline");
+    if (byline) {
+      // 좌: 필진 정보(아바타·이름·팀·뱃지) 세로 컬럼 / 우: 캐릭터 팝업 — 2단
+      leftWrap = document.createElement("div");
+      leftWrap.className = "tts-byline-left";
+      const clickEl = byline.querySelector(".byline-click");
+      const badgeEl = byline.querySelector(".mbadge");
+      if (clickEl) leftWrap.appendChild(clickEl);
+      if (badgeEl) leftWrap.appendChild(badgeEl);
+      byline.insertBefore(leftWrap, btn);
+      byline.appendChild(el);
+      byline.classList.add("has-popup");
+    } else {
+      btn.parentNode.insertBefore(el, btn.nextSibling);
+    }
+    btn.style.display = "none";
+    hidBtn = true;
+  } else {
+    document.body.appendChild(el);
+  }
+  const video = el.querySelector(".tts-popup-video");
+  video.addEventListener("click", toggleTtsPopupPause);  // 캐릭터 클릭 = 일시정지/재개
+  const pv = video.play();
+  if (pv && pv.catch) pv.catch(() => {});
+  // 기사 모달 오른쪽 경계에 맞춰 배치 + 반응형(리사이즈) 추종 (PC 전용, 모바일은 인라인이라 no-op)
+  const onResize = () => positionTtsPopup(el);
+  _ttsPopup = { el, source, paused: false, onResize, hidBtn, leftWrap, byline };
+  positionTtsPopup(el);
+  window.addEventListener("resize", onResize);
+}
+
+// PC: 기사 모달 오른쪽 경계 바로 옆(간격 14px)에 가로 배치, 세로는 CSS가 화면 중앙 담당.
+// 모바일(≤760px): CSS 하단바를 쓰도록 인라인 위치를 비운다.
+function positionTtsPopup(el) {
+  const modal = document.querySelector(".article-modal");
+  if (window.matchMedia("(max-width:760px)").matches || !modal) {
+    el.style.left = "";  // 모바일 — CSS 미디어쿼리(하단바)에 위임
+    return;
+  }
+  const gap = 14;
+  const r = modal.getBoundingClientRect();
+  let left = r.right + gap;
+  const maxLeft = window.innerWidth - el.offsetWidth - 8;  // 화면 밖으로 나가지 않게
+  if (left > maxLeft) left = Math.max(8, maxLeft);
+  el.style.left = left + "px";
+}
+
+function closeTtsPopup() {
+  if (!_ttsPopup) return;
+  try {
+    if (_ttsPopup.onResize) window.removeEventListener("resize", _ttsPopup.onResize);
+    const v = _ttsPopup.el.querySelector(".tts-popup-video");
+    if (v) v.pause();
+    _ttsPopup.el.remove();
+    // 모바일 2단 구조 원복 (좌 컬럼 래퍼 해제 — 바이라인 원래 순서로)
+    if (_ttsPopup.leftWrap && _ttsPopup.byline) {
+      const bl = _ttsPopup.byline, lw = _ttsPopup.leftWrap;
+      while (lw.firstChild) bl.insertBefore(lw.firstChild, lw);
+      lw.remove();
+      bl.classList.remove("has-popup");
+    }
+    // 모바일에서 숨겼던 진입 버튼 복원 (재생 시작 상태로 복귀)
+    if (_ttsPopup.hidBtn) {
+      const btn = document.getElementById("tts-btn");
+      if (btn) btn.style.display = "";
+    }
+  } catch (e) {}
+  _ttsPopup = null;
+}
+
+// 캐릭터 클릭 — 음성+영상 동시 일시정지/재개 토글 (X와 다른 동작: 종료 아님)
+function toggleTtsPopupPause() {
+  if (!_ttsPopup) return;
+  const video = _ttsPopup.el.querySelector(".tts-popup-video");
+  if (!_ttsPopup.paused) {
+    // 일시정지
+    if (_ttsPopup.source === "cloud") { try { _audioEl.pause(); } catch (e) {} }
+    else { try { speechSynthesis.pause(); } catch (e) {} }
+    try { video.pause(); } catch (e) {}
+    _ttsPopup.paused = true;
+    _ttsPopup.el.classList.add("tts-popup-paused");
+  } else {
+    // 재개 — Web Speech resume은 불안정할 수 있으나, 영상은 항상 토글되고
+    // paused 플래그로 상태를 관리한다(음성 재개 실패가 팝업을 망가뜨리지 않음).
+    if (_ttsPopup.source === "cloud") { const p = _audioEl.play(); if (p && p.catch) p.catch(() => {}); }
+    else { try { speechSynthesis.resume(); } catch (e) {} }
+    const pv = video.play(); if (pv && pv.catch) pv.catch(() => {});
+    _ttsPopup.paused = false;
+    _ttsPopup.el.classList.remove("tts-popup-paused");
+  }
+}
+
+function stopTTS(keepPopup) {
+  _tts.cancelled = true;
+  _tts.playing = false;
+  if (_audioEl) {
+    try { _audioEl.pause(); _audioEl.removeAttribute("src"); _audioEl.load(); } catch (e) {}
+  }
+  if (ttsSupported()) {
+    try { speechSynthesis.cancel(); } catch (e) {}
+  }
+  if (_tts.lastEl) { _tts.lastEl.classList.remove("speaking"); _tts.lastEl = null; }
+  const btn = document.getElementById("tts-btn");
+  if (btn && _tts.label) { btn.textContent = _tts.label; btn.classList.remove("playing"); }
+  // 완청(onended/onend)에서는 팝업을 남긴다 — X로만 닫힘. 그 외(X·기사전환·재클릭)는 닫음.
+  if (!keepPopup) closeTtsPopup();
+}
+
+function playCloudTTS(idx, a) {
+  // 발행 시 사전 생성된 캐릭터 보이스 MP3. 문장 타이밍 정보가 없으므로
+  // 경과시간 비율 × 누적 문자수로 현재 문장을 추정해 하이라이트한다(근사).
+  const name = bylineOf(a);
+  const st = { playing: true, articleIdx: idx, lastEl: null, cancelled: false, label: null };
+  _tts = st;
+  const btn = document.getElementById("tts-btn");
+  if (btn) { st.label = btn.textContent; btn.textContent = "⏹ 정지"; btn.classList.add("playing"); }
+  openTtsPopup(name, "cloud");  // 캐릭터 영상 팝업 (loop 캐릭터만)
+
+  // 낭독 순서(제목+문장)에 누적 문자 구간을 매겨 currentTime을 문장에 매핑
+  const units = ttsUnits(a);
+  let acc = 0;
+  units.forEach(u => { u.start = acc; acc += u.text.length + 1; });
+  const totalChars = acc || 1;
+
+  if (!_audioEl) _audioEl = new Audio();
+  _audioEl.src = API_BASE + a.audio_url;
+  _audioEl.ontimeupdate = () => {
+    if (st.cancelled || _tts !== st || !_audioEl.duration) return;
+    const pos = (_audioEl.currentTime / _audioEl.duration) * totalChars;
+    let cur = units[0];
+    for (const u of units) { if (pos >= u.start) cur = u; else break; }
+    if (cur.spanId !== st.curSpan) { st.curSpan = cur.spanId; highlightSentence(st, cur.spanId); }
+  };
+  _audioEl.onended = () => {
+    if (st.cancelled || _tts !== st) return;
+    track("tts_complete", { byline: name, level: a.level, article_title: titleOf(a), tts_source: "cloud" });
+    stopTTS(true);  // 완청 — 팝업은 남기고 음성만 종료 (X로만 닫힘)
+  };
+  _audioEl.onerror = () => {
+    if (st.cancelled || _tts !== st) return;
+    stopTTS();  // 로드/재생 실패 — 버튼만 복원, 에러 노출 없음
+  };
+  track("tts_play", { byline: name, level: a.level, article_title: titleOf(a), tts_source: "cloud" });
+  // iOS: 사용자 클릭 핸들러 체인 안에서 play() 직접 호출
+  const p = _audioEl.play();
+  if (p && p.catch) p.catch(() => { if (_tts === st) stopTTS(); });
+}
+
+function toggleTTS(idx) {
+  // iOS Safari: 사용자 터치 핸들러 안에서 speak()/play()가 직접 호출돼야 재생됨 — 이 함수가 onclick
+  if (_tts.playing) { stopTTS(); return; }
+  const a = _articles[idx];
+  if (!a) return;
+  if (a.audio_url) { playCloudTTS(idx, a); return; }  // 클라우드 오디오 우선
+  if (!ttsSupported()) return;  // 구기사(오디오 없음)는 Web Speech 폴백
+  pickVoice();
+  const vs = speechSynthesis.getVoices() || [];
+  if (vs.length === 0 && !_enVoice) {
+    const btn = document.getElementById("tts-btn");
+    if (btn) btn.style.display = "none";  // 보이스 0개 — 버튼 숨김, 에러 노출 금지
+    return;
+  }
+  const name = bylineOf(a);
+  const preset = voicePresets[name] || { rate: 1.0, pitch: 1.0 };
+  const units = ttsUnits(a);  // 제목 + 문장 단위 (span 매핑)
+  const st = { playing: true, articleIdx: idx, lastEl: null, cancelled: false, label: null };
+  _tts = st;
+  const btn = document.getElementById("tts-btn");
+  if (btn) { st.label = btn.textContent; btn.textContent = "⏹ 정지"; btn.classList.add("playing"); }
+  openTtsPopup(name, "browser");  // 캐릭터 영상 팝업 (loop 캐릭터만)
+  track("tts_play", { byline: name, level: a.level, article_title: titleOf(a), tts_source: "browser" });
+
+  units.forEach((unit, i) => {
+    const u = new SpeechSynthesisUtterance(unit.text);
+    u.lang = "en-US";
+    if (_enVoice) u.voice = _enVoice;
+    u.rate = preset.rate;
+    u.pitch = preset.pitch;
+    u.onstart = () => {
+      if (st.cancelled || _tts !== st) return;  // 이전 세션의 지연 이벤트 무시
+      highlightSentence(st, unit.spanId);        // 현재 문장만 하이라이트 (제목은 spanId=null)
+    };
+    if (i === units.length - 1) {
+      u.onend = () => {
+        if (st.cancelled || _tts !== st) return;  // cancel()·세션 교체로 인한 onend는 완청 아님
+        track("tts_complete", { byline: name, level: a.level, article_title: titleOf(a), tts_source: "browser" });
+        stopTTS(true);  // 완청 — 팝업은 남기고 음성만 종료 (X로만 닫힘)
+      };
+    }
+    speechSynthesis.speak(u);  // 문장 단위 분할 — 하이라이트 동기 + 긴 utterance 끊김 회피
+  });
+}
+
+function bylineOf(a) {
+  return (a.byline || "").trim() || bylineAuthors[a.level] || "";
+}
+function avatarUrl(name, lg) {
+  return name ? `${AVATAR_BASE}${name.toLowerCase().replace(/\s+/g, "")}${lg ? "_lg" : ""}.webp` : "";
+}
+function cardAvatar(a) {
+  const name = bylineOf(a);
+  return name ? `<img class="card-avatar" src="${avatarUrl(name)}" alt="${esc(name)}" loading="lazy" onerror="this.remove()">` : "";
+}
+// 프로필 세로 루프 영상 — avatarUrl과 같은 이름 규칙(소문자), 원형 아바타 로직과 독립.
+// loop 플래그가 있는 캐릭터만 렌더링(파일 있음이 데이터로 보장됨).
+function loopVideo(c) {
+  if (!c.loop) return "";
+  const base = AVATAR_BASE + c.name.toLowerCase().replace(/\s+/g, "") + "-loop-540";
+  return `<video class="profile-loop" autoplay muted loop playsinline
+    poster="${avatarUrl(c.name, true)}">
+    <source src="${base}.webm" type="video/webm">
+    <source src="${base}.mp4" type="video/mp4">
+  </video>`;
+}
+
+// On Air 필진 프로필 — 소개문은 news-pipeline5/docs/on_air_bible.md 3.6이 단일 소스
+const characterProfiles = [
+  { name: "Leo",    level: "kinder",   loop: true, intro: "On Air의 막내 기자 레오예요. 이제 막 뉴스를 배우기 시작해서 궁금한 게 세상에서 제일 많아요. 동물과 탈것, 그리고 맛있는 간식 이야기가 나오면 눈이 반짝반짝해진답니다." },
+  { name: "Ruby",   level: "kids",     loop: true, intro: "신기한 걸 발견하면 제일 먼저 달려와 알려주는 주니어 리포터 루비예요. 과학 실험과 세계 여러 나라 친구들 이야기를 좋아해요. 아는 건 자랑이 아니라 나누는 거라고 믿어요." },
+  { name: "Sunny",  level: "junior",   loop: true, intro: "뉴스가 있는 곳이라면 어디든 달려가는 현장 리포터 써니예요. 스튜디오보다 현장이 좋아요. 스포츠, 환경, 요즘 유행하는 것들을 발로 뛰며 취재합니다." },
+  { name: "Erin",   level: "junior_m", loop: true, intro: "On Air의 신입 저널리스트 에린이에요. 뉴스가 여러분의 삶과 어떻게 이어지는지 보여주는 게 제 일이에요. 어느 한쪽으로 치우치지 않는 균형 잡힌 시선을 약속합니다." },
+  { name: "Daniel", level: "times",    loop: true, intro: "On Air의 메인 앵커 대니얼입니다. 세계의 소식을 차분하고 정확하게 전하는 것, 그것이 뉴스룸의 선장인 제 역할입니다. 레오와 루비가 자라 앉게 될 자리를 지키고 있습니다." },
+];
+
+let _articles = [];
+let _issues = [];            // issues/index.json — 주차별 PDF 목록
+let _issuePollTimer = null;
+let _activeTab = "all";
+let _view = "list";  // "list" | "profiles"
+
+function bylineClick(level, name) {
+  track("byline_click", { byline: name });
+  closeArticle();
+  showProfiles(level, "byline");
+}
+
+function goHome() {
+  closeArticle();
+  _view = "list";
+  _activeTab = "all";
+  renderTabs();
+  renderList();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function showProfiles(focusLevel, entryPoint) {
+  track("profile_view", { entry_point: entryPoint || "tab" });
+  _view = "profiles";
+  renderTabs();
+  renderProfiles(focusLevel);
+}
+
+function renderProfiles(focusLevel) {
+  const el = document.getElementById("content");
+  el.innerHTML = `
+    <div class="profile-hero">
+      <div class="ph-logo">ON <em>AIR</em> — 다섯 명의 뉴스룸</div>
+      <div class="ph-sub">막내 기자부터 메인 앵커까지, 독자가 자라면 바이라인의 얼굴도 함께 자랍니다</div>
+    </div>
+    <div class="profile-grid">
+      ${characterProfiles.map((c, i) => `
+        <div class="profile-card ${focusLevel === c.level ? "hl" : ""}" id="profile-${c.level}">
+          <div class="profile-order">${badge(c.level)}</div>
+          ${c.loop ? loopVideo(c) : `<img class="profile-avatar" src="${avatarUrl(c.name, true)}" alt="${esc(c.name)}" onerror="this.remove()">`}
+          <div class="profile-name">${esc(c.name)}</div>
+          <div class="profile-intro">${esc(c.intro)}</div>
+          <button class="profile-btn" onclick="switchTab('${c.level}')">이 필진의 기사 보기 →</button>
+        </div>`).join("")}
+    </div>`;
+  if (focusLevel) {
+    const card = document.getElementById("profile-" + focusLevel);
+    if (card && card.scrollIntoView) card.scrollIntoView({ behavior: "smooth", block: "center" });
+  }
+}
+
+document.getElementById("today").textContent =
+  new Date().toLocaleDateString("ko-KR", { year:"numeric", month:"long", day:"numeric", weekday:"long" });
+
+function esc(s) {
+  if (!s) return "";
+  return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+}
+
+// 화면 표기는 새 제호 기준 — 내부 level 코드(times/junior_m)는 API와 맞춰 그대로 둔다
+const LEVEL_BADGES = { kinder: "KINDER", kids: "KIDS", junior: "JUNIOR",
+                       times: "TIMES", junior_m: "JUNIOR M" };
+
+function badge(level) {
+  const text = LEVEL_BADGES[level] || level.toUpperCase().replace("_", " ");
+  return `<span class="mbadge b-${esc(level)}">${esc(text)}</span>`;
+}
+
+function imgOrPh(url, cls, phCls, icon) {
+  return url
+    ? `<img class="${cls}" src="${esc(url)}" alt="" loading="lazy" onerror="this.outerHTML='<div class=&quot;${phCls}&quot;>${icon}</div>'">`
+    : `<div class="${phCls}">${icon}</div>`;
+}
+
+// 기사 제목: 본문 첫 문장 사용 (토픽이 한국어면 본문에서 추출)
+// 주간지 표기 규칙: 카드·모달의 날짜는 '그 주 월요일 = 발행일'.
+// 기사마다 생성 시각이 달라도 같은 호는 같은 날짜로 보여야 신문답다.
+function issueDate(createdAt) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(createdAt || "");
+  if (!m) return createdAt || "";
+  const d = new Date(+m[1], +m[2] - 1, +m[3]);
+  d.setDate(d.getDate() - ((d.getDay() + 6) % 7));   // 월요일로 이동 (일요일=0 보정)
+  const p = n => String(n).padStart(2, "0");
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
+}
+
+function titleOf(a) {
+  // 신기사: 파이프라인이 분리 생성한 제목. 구기사(제목 없음): 첫 문장 폴백
+  const t = ((a.article || {}).title || "").trim();
+  if (t) return t;
+  const firstSentence = (a.article.text || "").split(/(?<=[.!?])\s/)[0] || a.topic;
+  return firstSentence.length > 90 ? a.topic : firstSentence;
+}
+
+function renderTabs() {
+  const hb = document.getElementById("onair-btn");
+  if (hb) hb.classList.toggle("active", _view === "profiles");
+  const counts = { all: _articles.length };
+  for (const lv of ["kinder","kids","junior","times","junior_m"]) {
+    counts[lv] = _articles.filter(a => a.level === lv).length;
+  }
+  document.getElementById("cat-tabs").innerHTML = LEVELS.map(t => `
+    <div class="cat-tab ${_view === "list" && t.key === _activeTab ? "active" : ""}" onclick="switchTab('${t.key}')">
+      ${t.label} <span class="cat-cnt">${counts[t.key] || 0}</span>
+    </div>`).join("") + `
+    <div class="cat-tab onair-tab ${_view === "profiles" ? "active" : ""}" onclick="showProfiles(undefined,'tab')">🔴 On Air 필진</div>`;
+}
+
+function switchTab(key) {
+  _view = "list";
+  _activeTab = key;
+  renderTabs();
+  renderList();
+}
+
+function renderList() {
+  const el = document.getElementById("content");
+  const list = _activeTab === "all" ? _articles : _articles.filter(a => a.level === _activeTab);
+
+  if (list.length === 0) {
+    el.innerHTML = `
+      <div class="state-box">
+        <div class="state-icon">📰</div>
+        <div class="state-title">발행된 기사가 없습니다</div>
+        <div class="state-msg">파이프라인에서 기사를 생성하고 '발행하기'를 누르면<br>이곳에 표시됩니다.</div>
+      </div>`;
+    return;
+  }
+
+  const [main, ...rest] = list;
+  const side = rest.slice(0, 4);
+  const grid = rest.slice(4);
+
+  let html = `
+    <div class="section-bar">
+      <div class="section-title">${_activeTab === "all" ? "최신 발행 기사" : "TOP NEWS " + (LEVELS.find(t => t.key === _activeTab) || { label: _activeTab }).label.toUpperCase()}</div>
+      <div class="section-count">${list.length}건</div>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="top-grid">
+      <div class="main-art" onclick="openArticle(${_articles.indexOf(main)})">
+        ${imgOrPh(main.image_url, "main-img", "main-img-ph", "📰")}
+        <div class="main-badges">${cardAvatar(main)}${badge(main.level)}<span class="lvbadge">${esc(main.section)}</span></div>
+        <div class="main-title">${esc(titleOf(main))}</div>
+        <div class="main-body">${esc(main.article.summary_ko || main.article.text)}</div>
+        <div class="main-date">${esc(issueDate(main.created_at))} 발행</div>
+      </div>
+      <div class="side-list">
+        ${side.map(a => `
+          <div class="side-item" onclick="openArticle(${_articles.indexOf(a)})">
+            ${imgOrPh(a.image_url, "side-thumb", "side-thumb-ph", "📰")}
+            <div>
+              <div class="side-title">${esc(titleOf(a))}</div>
+              <div class="side-badges">${cardAvatar(a)}${badge(a.level)}<span class="side-date">${esc(issueDate(a.created_at))}</span></div>
+            </div>
+          </div>`).join("")}
+        ${pdfBoxHtml()}
+      </div>
+    </div>`;
+
+  if (grid.length > 0) {
+    html += `
+      <div class="grid-wrap">
+        <div class="grid-3">
+          ${grid.map(a => `
+            <div class="grid-item" onclick="openArticle(${_articles.indexOf(a)})">
+              ${imgOrPh(a.image_url, "grid-img", "grid-img-ph", "📰")}
+              <div class="grid-badges">${cardAvatar(a)}${badge(a.level)}<span class="lvbadge">${esc(a.section)}</span></div>
+              <div class="grid-title">${esc(titleOf(a))}</div>
+              <div class="grid-body">${esc(a.article.summary_ko || a.article.text)}</div>
+              <div class="grid-date">${esc(issueDate(a.created_at))}</div>
+            </div>`).join("")}
+        </div>
+      </div>`;
+  }
+
+  el.innerHTML = html;
+}
+
+function openArticle(idx) {
+  const a = _articles[idx];
+  if (!a) return;
+  stopTTS();  // 다른 기사 열 때 이전 음성 정지
+  track("article_view", {
+    article_title: titleOf(a),
+    level: a.level,
+    sub_level: a.sub_level || "",
+    byline: bylineOf(a),
+    category: a.section,
+  });
+  document.getElementById("article-content").innerHTML = `
+    ${a.image_url ? `<img class="article-hero" src="${esc(a.image_url)}" alt="">` : ""}
+    <div class="article-header">
+      <div class="article-badges">${badge(a.level)}<span class="lvbadge">${esc(a.section)}</span></div>
+      <div class="article-title">${esc(titleOf(a))}</div>
+      ${(() => {
+        const name = bylineOf(a);   // 기사 객체 기준 매 렌더 계산 — 라우팅 잔존 없음
+        if (!name) return "";
+        return `<div class="byline">
+          <div class="byline-click" onclick="bylineClick('${a.level}','${esc(name)}')" title="필진 프로필 보기">
+            <img class="byline-avatar" src="${avatarUrl(name, true)}" alt="${esc(name)}" onerror="this.remove()">
+            <div class="byline-info">
+              <div class="byline-name"><small>By</small> ${esc(name)}</div>
+              <div class="byline-team">On Air 뉴스룸</div>
+            </div>
+          </div>
+          ${badge(a.level)}
+          ${(a.audio_url || ttsSupported()) ? `<button class="tts-btn" id="tts-btn" onclick="toggleTTS(${idx})">🔊 ${esc(name)}${_josa(name)} 읽어주기</button>` : ""}
+        </div>`;
+      })()}
+      <div class="article-meta">
+        <span>📅 ${esc(issueDate(a.created_at))} 발행</span>
+        <span>📝 ${a.article.word_count} words</span>
+        <span>🏷️ ${esc(a.topic)}</span>
+      </div>
+    </div>
+    <div class="article-text-col">
+      <div class="article-body">${ttsBody(a.article.text || "")}</div>
+      <button class="ko-toggle" onclick="document.getElementById('ko-body').classList.toggle('show')">🇰🇷 한국어 번역 보기 / 닫기</button>
+      <div class="ko-body" id="ko-body">
+        ${a.article.summary_ko ? `<div class="ko-summary">요약 — ${esc(a.article.summary_ko)}</div>` : ""}
+        ${esc(a.article.text_ko || "번역 없음")}
+      </div>
+      ${a.article.vocabulary && a.article.vocabulary.length ? `
+        <div class="vocab"><b>Vocabulary</b> — ${a.article.vocabulary.map(esc).join(" · ")}</div>` : ""}
+    </div>`;
+  document.getElementById("article-overlay").classList.add("show");
+  document.body.style.overflow = "hidden";
+}
+
+function closeArticle() {
+  stopTTS();  // SPA — 이전 기사 음성이 계속 나오는 사고 방지
+  document.getElementById("article-overlay").classList.remove("show");
+  document.body.style.overflow = "";
+}
+document.addEventListener("keydown", e => { if (e.key === "Escape") closeArticle(); });
+
+
+// ── 이번 호 신문 PDF ────────────────────────────────────────
+// GitHub Actions가 빌드해 이 저장소 issues/ 에 커밋한 결과를 읽는다.
+async function loadIssues() {
+  try {
+    const res = await fetch("issues/index.json?t=" + Date.now());
+    if (!res.ok) return;                       // 아직 발행한 호가 없으면 파일이 없다
+    _issues = (await res.json()).issues || [];
+  } catch (e) { /* 목록이 없으면 조용히 넘어간다 */ }
+}
+
+// PDF 다운로드 클릭 계측 — 어느 매체 신문을 얼마나 내려받는지 GA4에서 본다
+function trackPdf(file) {
+  const issue = _issues[0];
+  const f = issue && issue.files.find(x => x.file === file);
+  if (f) track("pdf_download", { media: f.media, week: issue.week, pages: f.pages });
+}
+
+// 매체명은 level로 짧게 — "TOP NEWS KINDER" 같은 긴 제목 대신 레벨만 표시
+const PDF_LABELS = { kinder: "KINDER", kids: "KIDS", junior: "JUNIOR", times: "TIMES" };
+
+function pdfBoxHtml() {
+  if (!_issues.length) return "";
+  const issue = _issues[0];
+  // 매체 탭에서는 그 매체 PDF만 (월간지 탭은 주간 신문이 없어 아무것도 안 나온다)
+  const files = _activeTab === "all"
+    ? issue.files
+    : issue.files.filter(f => f.level === _activeTab);
+  if (!files.length) return "";
+  const range = (issue.week_range || []).join(" ~ ");
+  return `
+    <div class="pdf-box" id="issue-${issue.week}">
+      <div class="pdf-box-head">
+        <span class="pdf-box-title">이번 호 신문 PDF</span>
+        <span class="pdf-box-week">${esc(range || issue.week)}</span>
+      </div>
+      ${files.map(f => `
+        <a class="pdf-row ${esc(f.level || "")}" href="${esc(f.file)}"
+           target="_blank" rel="noopener" onclick="trackPdf('${esc(f.file)}')">
+          <span class="pr-name">${esc(PDF_LABELS[f.level] || f.media || f.name)}</span>
+          <span class="pr-meta">${f.pages}면 · ${(f.size_kb / 1024).toFixed(1)}MB</span>
+          <span class="pr-dl">PDF ↓</span>
+        </a>`).join("")}
+    </div>`;
+}
+
+// ── 관리자: 이번 주 발행 ────────────────────────────────────
+function openAdmin() {
+  document.getElementById("admin-overlay").classList.add("open");
+  document.body.style.overflow = "hidden";
+  const saved = sessionStorage.getItem("jpt_admin_key");
+  if (saved) document.getElementById("admin-key").value = saved;
+  loadIssuePreview();
+}
+
+function closeAdmin() {
+  document.getElementById("admin-overlay").classList.remove("open");
+  document.body.style.overflow = "";
+  if (_issuePollTimer) { clearInterval(_issuePollTimer); _issuePollTimer = null; }
+}
+
+function selectedIssueWeek() {
+  return (document.getElementById("admin-week-input") || {}).value || "";
+}
+
+function clearIssueWeek() {
+  const el = document.getElementById("admin-week-input");
+  if (el) el.value = "";
+  loadIssuePreview();
+}
+
+async function loadIssuePreview() {
+  const box = document.getElementById("admin-preview");
+  const head = document.getElementById("admin-week");
+  const week = selectedIssueWeek();
+  try {
+    const res = await fetch(API_BASE + "/api/issue/preview" + (week ? "?week=" + week : ""));
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    const data = await res.json();
+    head.textContent = `기준 주 ${data.week} (월~일) · 월간지 제외`;
+    const rows = LEVELS.filter(l => data.media[l.key]).map(l => {
+      const m = data.media[l.key];
+      const state = m.short > 0 ? `<span class="warn">${m.short}건 부족</span>`
+                  : m.will_publish === 0 ? `<span class="ok">발행 완료</span>` : "준비됨";
+      return `<tr><td>${l.label}</td><td>${m.found}</td><td>${m.quota}</td>
+              <td>${m.already}</td><td>${m.will_publish}</td><td>${state}</td></tr>`;
+    }).join("");
+    box.innerHTML = `<table class="admin-table">
+        <tr><th>매체</th><th>이번 주 기사</th><th>규정</th><th>이미 발행</th><th>발행 예정</th><th>상태</th></tr>
+        ${rows}</table>`;
+  } catch (e) {
+    head.textContent = "주간 현황을 불러오지 못했습니다.";
+    box.innerHTML = `<div class="admin-log err">${esc(e.message)}</div>`;
+  }
+}
+
+function adminLog(html, cls) {
+  const el = document.getElementById("admin-log");
+  el.style.display = "block";
+  el.innerHTML += `<div class="${cls || ""}">${html}</div>`;
+  el.scrollTop = el.scrollHeight;
+}
+
+async function runIssuePublish() {
+  const key = document.getElementById("admin-key").value.trim();
+  if (!key) { alert("관리자 키를 입력하세요."); return; }
+  const btn = document.getElementById("admin-run");
+  btn.disabled = true;
+  document.getElementById("admin-log").innerHTML = "";
+
+  try {
+    const res = await fetch(API_BASE + "/api/issue/publish", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ admin_key: key, build_pdf: true, week: selectedIssueWeek() }),
+    });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.error || ("HTTP " + res.status));
+    sessionStorage.setItem("jpt_admin_key", key);
+    adminLog(`<b>${data.week}</b> 발행 시작 — 사이트 노출 처리 중`);
+    pollIssueJob(data.job_id, data.week);
+  } catch (e) {
+    adminLog(esc(e.message), "err");
+    btn.disabled = false;
+  }
+}
+
+function pollIssueJob(jobId, week) {
+  if (_issuePollTimer) clearInterval(_issuePollTimer);
+  _issuePollTimer = setInterval(async () => {
+    try {
+      const res = await fetch(API_BASE + "/api/issue/status/" + jobId);
+      const job = await res.json();
+      if (job.state !== "done") return;
+      clearInterval(_issuePollTimer); _issuePollTimer = null;
+
+      for (const l of LEVELS) {
+        const m = job.media && job.media[l.key];
+        if (!m) continue;
+        const cls = m.failed ? "err" : (m.short ? "warn" : "ok");
+        adminLog(`${l.label} — 발행 ${m.published_now}건 (누적 ${m.total_published}/${m.quota})`
+                 + (m.short ? ` · ${m.short}건 부족` : "")
+                 + (m.failed ? ` · 실패 ${m.failed}건` : ""), cls);
+      }
+      adminLog(job.build_dispatched
+        ? "PDF 빌드를 요청했습니다 — 1~3분 뒤 목록에 나타납니다."
+        : `PDF 빌드 요청 실패 — ${esc(job.build_message || "")}`,
+        job.build_dispatched ? "ok" : "err");
+
+      document.getElementById("admin-run").disabled = false;
+      await load();                                  // 사이트 기사 목록 갱신
+      if (job.build_dispatched) waitForPdf(week);
+    } catch (e) { /* 폴링 실패는 다음 회차에 다시 시도 */ }
+  }, 2000);
+}
+
+// PDF는 GitHub Actions가 굽고 커밋 → Pages 반영까지 걸리므로 목록이 생길 때까지 확인한다.
+function waitForPdf(week, tries) {
+  tries = tries || 0;
+  if (tries === 0) adminLog("PDF 빌드 대기 중...");
+  if (tries > 40) { adminLog("아직 PDF가 올라오지 않았습니다 — Actions 로그를 확인하세요.", "warn"); return; }
+  setTimeout(async () => {
+    await loadIssues();
+    const found = _issues.find(i => i.week === week);
+    if (found) {
+      adminLog(`PDF ${found.files.length}종 준비 완료 — 목록에서 내려받을 수 있습니다.`, "ok");
+      renderList();
+      return;
+    }
+    waitForPdf(week, tries + 1);
+  }, 10000);
+}
+
+async function load() {
+  try {
+    const res = await fetch(API_BASE + "/api/published");
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    _articles = (await res.json()).reverse(); // 최신순
+    await loadIssues();
+    renderTabs();
+    renderList();
+  } catch (e) {
+    document.getElementById("content").innerHTML = `
+      <div class="state-box">
+        <div class="state-icon">⚠️</div>
+        <div class="state-title">기사를 불러오지 못했습니다</div>
+        <div class="state-msg">파이프라인 서버에 연결할 수 없습니다.<br>${esc(e.message)}</div>
+      </div>`;
+    renderTabs();
+  }
+}
+
+load();
+</script>
+</body>
+</html>

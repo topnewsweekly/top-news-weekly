@@ -1,0 +1,98 @@
+name: 주간 신문 PDF 빌드
+
+# 사이트의 '이번 주 발행' 버튼 → Railway(/api/issue/publish) → 이 워크플로가 호출된다.
+# 러너(ubuntu)에는 크롬이 이미 있어서 PDF를 여기서 굽고, 결과를 이 저장소에 커밋한다.
+# 커밋은 기본 GITHUB_TOKEN으로 하므로 별도 토큰이 필요 없다.
+on:
+  repository_dispatch:
+    types: [build-issue]
+  workflow_dispatch:
+    inputs:
+      week:
+        description: "기준 날짜 YYYY-MM-DD (비우면 오늘). 그 주 월요일로 정렬됨"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-issue
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 사이트 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: 빌더 토큰 확인
+        # top-news-paper가 비공개라 읽기 토큰이 필요하다. 없으면 checkout이
+        # "repository not found"로 애매하게 죽으므로 여기서 먼저 이유를 밝힌다.
+        run: |
+          if [ -z "${{ secrets.BUILDER_TOKEN }}" ]; then
+            echo "::error::BUILDER_TOKEN 시크릿이 없습니다. 저장소 Settings → Secrets and variables → Actions 에 추가하세요 (top-news-paper 읽기 권한 토큰)."
+            exit 1
+          fi
+
+      - name: 조판 코드 체크아웃 (top-news-paper · 비공개)
+        uses: actions/checkout@v4
+        with:
+          repository: jp7856/top-news-paper
+          token: ${{ secrets.BUILDER_TOKEN }}
+          path: builder
+
+      - name: 파이썬 준비
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 한글 폰트 설치
+        # 러너에는 한글 폰트가 없어 그냥 굽으면 한글이 □□□로 나온다.
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-nanum fonts-noto-cjk
+          fc-cache -f
+
+      - name: 기준 주 결정
+        id: week
+        # 러너는 UTC — 발행 기준은 KST다. UTC로 계산하면 KST 월요일 오전 0~9시에
+        # 빌드할 때 지난 호를 만들어 버린다.
+        env:
+          TZ: Asia/Seoul
+        run: |
+          WEEK="${{ github.event.client_payload.week || github.event.inputs.week }}"
+          if [ -z "$WEEK" ]; then WEEK=$(date +%F); fi
+          MONDAY=$(date -d "$WEEK -$(( ($(date -d "$WEEK" +%u) - 1) )) days" +%F)
+          echo "week=$WEEK"       >> "$GITHUB_OUTPUT"
+          echo "monday=$MONDAY"   >> "$GITHUB_OUTPUT"
+          echo "기준 주 월요일: $MONDAY"
+
+      - name: 신문 PDF 생성
+        working-directory: builder
+        env:
+          CHROME_PATH: /usr/bin/google-chrome
+          PYTHONIOENCODING: utf-8
+        run: python orchestrator.py --week "${{ steps.week.outputs.week }}"
+
+      - name: 산출물 배치 + 목록 갱신
+        env:
+          MONDAY: ${{ steps.week.outputs.monday }}
+        run: python .github/scripts/collect_issue.py
+
+      - name: 커밋 & 푸시
+        run: |
+          if [ -z "$(git status --porcelain issues)" ]; then
+            echo "변경 없음 — 커밋 생략"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add issues
+          git commit -m "주간 신문 PDF ${{ steps.week.outputs.monday }}"
+          git push
+
+      - name: 실패 시 조판 로그 남기기
+        if: failure()
+        run: ls -R builder/dist 2>/dev/null || echo "dist 없음"

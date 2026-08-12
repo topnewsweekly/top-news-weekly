@@ -1,0 +1,213 @@
+{
+  "week_monday": "2026-08-03",
+  "week_range": [
+    "2026-08-03",
+    "2026-08-09"
+  ],
+  "generated_at": "2026-08-05T10:08:32",
+  "excluded_levels": [
+    "junior_m"
+  ],
+  "cover_layouts": {
+    "kinder": "feature",
+    "kids": "feature",
+    "junior": "feature",
+    "times": "feature"
+  },
+  "photo_scores": {
+    "assets/times/33a7d9c91c57.jpg": 0.9442,
+    "assets/kids/94ec5c5939cd.jpg": 0.8382,
+    "assets/junior/25c8bd76f1d1.jpg": 0.8216,
+    "assets/junior/16f75dd23122.jpg": 0.8071,
+    "assets/kinder/88a113d3cdaf.jpg": 0.7969,
+    "assets/times/a69fc9595ebf.jpg": 0.7505,
+    "assets/kids/36e85dd94295.jpg": 0.7245,
+    "assets/kinder/72572126d080.jpg": 0.7182,
+    "assets/junior/5d68621b4c36.jpg": 0.6898,
+    "assets/times/5510afe1a71f.jpg": 0.6825,
+    "assets/times/363496c31f0d.jpg": 0.6635,
+    "assets/junior/4500ca604c1a.jpg": 0.6592,
+    "assets/junior/9a0760de8b49.jpg": 0.6591,
+    "assets/kids/2d9e000957e8.jpg": 0.6342,
+    "assets/times/93a4473f97fb.jpg": 0.5995,
+    "assets/times/200e11b19619.jpg": 0.5944,
+    "assets/times/bc65ae4cf1ec.jpg": 0.5811,
+    "assets/kinder/3a18a5fa46de.jpg": 0.5586,
+    "assets/junior/c6f639b68daa.jpg": 0.5516,
+    "assets/times/ec85d99d8c00.jpg": 0.5408,
+    "assets/kids/ab6589b2c0e1.jpg": 0.5401,
+    "assets/junior/d57a427c56ef.jpg": 0.5339,
+    "assets/kids/7def078ef846.jpg": 0.4663,
+    "assets/times/4612314f5a6a.jpg": 0.4567,
+    "assets/kinder/f5efba85fcbe.jpg": 0.441,
+    "assets/times/9ebcff7b2441.jpg": 0.4314,
+    "assets/kids/1d4b25d54fb7.jpg": 0.3919,
+    "assets/junior/6aec94506004.jpg": 0.3904
+  },
+  "format": {
+    "name": "tabloid",
+    "width_mm": 279,
+    "height_mm": 432,
+    "margin_mm": 13
+  },
+  "validation": [
+    {
+      "level": "kinder",
+      "title": "TOP NEWS KINDER",
+      "quota": 4,
+      "found": 4,
+      "status": "ok",
+      "message": "규정 충족 (4/4)",
+      "selected": [
+        "How Do Clouds Turn Into Rain?",
+        "Bats Can See With Sound!",
+        "Why Do Snails Carry Their Shells?",
+        "Why Do Cicadas Sing in Summer?"
+      ],
+      "dropped": []
+    },
+    {
+      "level": "kids",
+      "title": "TOP NEWS KIDS",
+      "quota": 6,
+      "found": 6,
+      "status": "ok",
+      "message": "규정 충족 (6/6)",
+      "selected": [
+        "How Do Scientists Measure Earthquakes?",
+        "How Old Paper Becomes New Paper",
+        "What Happens When Glaciers Melt?",
+        "Why Can Some Birds Copy Our Words?",
+        "Why Sea Otters Hold Hands While Sleeping",
+        "Why Do Deep-Sea Fish Glow?"
+      ],
+      "dropped": []
+    },
+    {
+      "level": "junior",
+      "title": "TOP NEWS JUNIOR",
+      "quota": 8,
+      "found": 8,
+      "status": "ok",
+      "message": "규정 충족 (8/8)",
+      "selected": [
+        "Special Bridges Help Wildlife Cross Safely",
+        "What Young Workers Need to Know",
+        "Mining Gold From Old Electronics",
+        "What Happens to Old Solar Panels?",
+        "Are Short Videos Hurting Your Focus?",
+        "Why Pet Registration Matters for Everyone",
+        "Bees Are Moving Into the City",
+        "Smart Glasses Let You See with AI"
+      ],
+      "dropped": []
+    },
+    {
+      "level": "times",
+      "title": "TOP NEWS TIMES",
+      "quota": 10,
+      "found": 10,
+      "status": "ok",
+      "message": "규정 충족 (10/10)",
+      "selected": [
+        "More Ocean Protected, But Is It Enough?",
+        "The Hidden Workers Who Cross Borders to Care",
+        "AI's Growing Hunger for Electricity",
+        "Aviation Looks to Cleaner Fuels for Its Future",
+        "Who Should Tax the Tech Giants?",
+        "Can Carbon Capture Technology Pay for Itself?",
+        "AI Classes Are Entering Schools Worldwide",
+        "Youth Unemployment Stays High Around the World",
+        "Why Electricity Bills Differ Around the World",
+        "Satellite Internet Reshapes the Global Space Race"
+      ],
+      "dropped": []
+    }
+  ],
+  "output": [
+    {
+      "level": "kinder",
+      "title": "TOP NEWS KINDER",
+      "pdf": "C:\\Users\\jp\\work\\top-news-paper\\dist\\2026-08-03\\TopNews_Kinder_2026-08-03.pdf",
+      "pages": 6,
+      "expected_pages": 6,
+      "cover": "feature",
+      "cover_feature": {
+        "page": 4,
+        "article_no": 3,
+        "title": "Why Do Snails Carry Their Shells?",
+        "photo": "assets/kinder/88a113d3cdaf.jpg",
+        "score": 0.7969,
+        "forced": false
+      },
+      "photos_missing": 0,
+      "error": null,
+      "quota": 4,
+      "found": 4,
+      "quota_status": "ok"
+    },
+    {
+      "level": "kids",
+      "title": "TOP NEWS KIDS",
+      "pdf": "C:\\Users\\jp\\work\\top-news-paper\\dist\\2026-08-03\\TopNews_Kids_2026-08-03.pdf",
+      "pages": 8,
+      "expected_pages": 8,
+      "cover": "feature",
+      "cover_feature": {
+        "page": 6,
+        "article_no": 5,
+        "title": "Why Sea Otters Hold Hands While Sleeping",
+        "photo": "assets/kids/94ec5c5939cd.jpg",
+        "score": 0.8382,
+        "forced": false
+      },
+      "photos_missing": 0,
+      "error": null,
+      "quota": 6,
+      "found": 6,
+      "quota_status": "ok"
+    },
+    {
+      "level": "junior",
+      "title": "TOP NEWS JUNIOR",
+      "pdf": "C:\\Users\\jp\\work\\top-news-paper\\dist\\2026-08-03\\TopNews_Junior_2026-08-03.pdf",
+      "pages": 10,
+      "expected_pages": 10,
+      "cover": "feature",
+      "cover_feature": {
+        "page": 8,
+        "article_no": 7,
+        "title": "Bees Are Moving Into the City",
+        "photo": "assets/junior/25c8bd76f1d1.jpg",
+        "score": 0.8216,
+        "forced": false
+      },
+      "photos_missing": 0,
+      "error": null,
+      "quota": 8,
+      "found": 8,
+      "quota_status": "ok"
+    },
+    {
+      "level": "times",
+      "title": "TOP NEWS TIMES",
+      "pdf": "C:\\Users\\jp\\work\\top-news-paper\\dist\\2026-08-03\\TopNews_Times_2026-08-03.pdf",
+      "pages": 12,
+      "expected_pages": 12,
+      "cover": "feature",
+      "cover_feature": {
+        "page": 7,
+        "article_no": 6,
+        "title": "Can Carbon Capture Technology Pay for Itself?",
+        "photo": "assets/times/33a7d9c91c57.jpg",
+        "score": 0.9442,
+        "forced": false
+      },
+      "photos_missing": 0,
+      "error": null,
+      "quota": 10,
+      "found": 10,
+      "quota_status": "ok"
+    }
+  ]
+}

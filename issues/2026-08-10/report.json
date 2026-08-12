@@ -1,0 +1,213 @@
+{
+  "week_monday": "2026-08-10",
+  "week_range": [
+    "2026-08-10",
+    "2026-08-16"
+  ],
+  "generated_at": "2026-08-10T19:23:52",
+  "excluded_levels": [
+    "junior_m"
+  ],
+  "cover_layouts": {
+    "kinder": "feature",
+    "kids": "feature",
+    "junior": "feature",
+    "times": "feature"
+  },
+  "photo_scores": {
+    "assets/kids/dc6c9b2fcec0.jpg": 0.9167,
+    "assets/kids/48b10206df47.jpg": 0.8587,
+    "assets/kids/7e021e38fbaa.jpg": 0.7686,
+    "assets/junior/b755a428a9c5.jpg": 0.758,
+    "assets/kinder/bddc518490e3.jpg": 0.7523,
+    "assets/times/f4509e978ef5.jpg": 0.7489,
+    "assets/times/c610cfee7566.jpg": 0.7386,
+    "assets/times/6c01e8473386.jpg": 0.7239,
+    "assets/junior/6b22d7899f7a.jpg": 0.7196,
+    "assets/kids/ba2fb7e08ad8.jpg": 0.6922,
+    "assets/times/3726b75ff061.jpg": 0.6892,
+    "assets/junior/cbc65de6de5c.jpg": 0.6729,
+    "assets/times/292bf10f27e4.jpg": 0.6705,
+    "assets/kinder/8e2e7144d32c.jpg": 0.6392,
+    "assets/times/314df2efaf20.jpg": 0.604,
+    "assets/junior/eb061235ac11.jpg": 0.5917,
+    "assets/junior/05929ca47594.jpg": 0.5852,
+    "assets/kids/243fef29db86.jpg": 0.5762,
+    "assets/times/b31d83b7955b.jpg": 0.5684,
+    "assets/kinder/cfda76142c5a.jpg": 0.5682,
+    "assets/junior/9e655f931370.jpg": 0.5583,
+    "assets/times/dc99ce232b3c.jpg": 0.5554,
+    "assets/junior/75d3d738c443.jpg": 0.4537,
+    "assets/kids/7ecee22c299d.jpg": 0.4408,
+    "assets/kinder/a976fab6ed96.jpg": 0.4158,
+    "assets/times/901e5a5e4d79.jpg": 0.3811,
+    "assets/times/32c3e4411d61.jpg": 0.3602,
+    "assets/junior/d289b7ce3116.jpg": 0.0942
+  },
+  "format": {
+    "name": "tabloid",
+    "width_mm": 279,
+    "height_mm": 432,
+    "margin_mm": 13
+  },
+  "validation": [
+    {
+      "level": "kinder",
+      "title": "TOP NEWS KINDER",
+      "quota": 4,
+      "found": 4,
+      "status": "ok",
+      "message": "규정 충족 (4/4)",
+      "selected": [
+        "How Does a Baby Chick Crack Its Egg?",
+        "Why Does Ice Float on Water?",
+        "Why Does Your Shadow Follow You?",
+        "Why Do Giraffes Have Long Necks?"
+      ],
+      "dropped": []
+    },
+    {
+      "level": "kids",
+      "title": "TOP NEWS KIDS",
+      "quota": 6,
+      "found": 6,
+      "status": "ok",
+      "message": "규정 충족 (6/6)",
+      "selected": [
+        "Why More Cups Come Without Straws",
+        "Seed Banks Keep Plants Safe Forever",
+        "Ants and Aphids: A Tiny Team",
+        "Sound Travels Far and Fast Underwater",
+        "Where Do Shooting Stars Come From?",
+        "Why Do Jellyfish Sting You?"
+      ],
+      "dropped": []
+    },
+    {
+      "level": "junior",
+      "title": "TOP NEWS JUNIOR",
+      "quota": 8,
+      "found": 8,
+      "status": "ok",
+      "message": "규정 충족 (8/8)",
+      "selected": [
+        "Cities Try Buses That Drive Themselves",
+        "Fast Fashion Is Making Clothes Wear Out Faster",
+        "Sports Events Leave a Big Carbon Footprint",
+        "What Do We Lose Without Handwriting?",
+        "Libraries Lend More Than Just Books",
+        "Empty Houses and Disappearing Villages",
+        "How Far Should Facial Recognition Go?",
+        "Where Does Your School Lunch Leftovers Go?"
+      ],
+      "dropped": []
+    },
+    {
+      "level": "times",
+      "title": "TOP NEWS TIMES",
+      "quota": 10,
+      "found": 10,
+      "status": "ok",
+      "message": "규정 충족 (10/10)",
+      "selected": [
+        "The Growing Crisis of Doctor Shortages",
+        "Who Owns the Data That Trains AI?",
+        "Robots at the Docks: Who Benefits?",
+        "Cities Start Charging Tourists to Visit",
+        "Nations Join Forces Against Spreading Deserts",
+        "Turning Waste Heat Into Home Heating",
+        "Streaming Giants Battle for Sports Broadcasting Rights",
+        "Aging Power Grids Raise Blackout Fears Worldwide",
+        "Stablecoins Challenge National Currency Control",
+        "Who Controls Rare Earths Controls the Future"
+      ],
+      "dropped": []
+    }
+  ],
+  "output": [
+    {
+      "level": "kinder",
+      "title": "TOP NEWS KINDER",
+      "pdf": "C:\\Users\\jp\\work\\top-news-paper\\dist\\2026-08-10\\TopNews_Kinder_2026-08-10.pdf",
+      "pages": 6,
+      "expected_pages": 6,
+      "cover": "feature",
+      "cover_feature": {
+        "page": 4,
+        "article_no": 3,
+        "title": "Why Does Your Shadow Follow You?",
+        "photo": "assets/kinder/bddc518490e3.jpg",
+        "score": 0.7523,
+        "forced": false
+      },
+      "photos_missing": 0,
+      "error": null,
+      "quota": 4,
+      "found": 4,
+      "quota_status": "ok"
+    },
+    {
+      "level": "kids",
+      "title": "TOP NEWS KIDS",
+      "pdf": "C:\\Users\\jp\\work\\top-news-paper\\dist\\2026-08-10\\TopNews_Kids_2026-08-10.pdf",
+      "pages": 8,
+      "expected_pages": 8,
+      "cover": "feature",
+      "cover_feature": {
+        "page": 4,
+        "article_no": 3,
+        "title": "Ants and Aphids: A Tiny Team",
+        "photo": "assets/kids/dc6c9b2fcec0.jpg",
+        "score": 0.9167,
+        "forced": false
+      },
+      "photos_missing": 0,
+      "error": null,
+      "quota": 6,
+      "found": 6,
+      "quota_status": "ok"
+    },
+    {
+      "level": "junior",
+      "title": "TOP NEWS JUNIOR",
+      "pdf": "C:\\Users\\jp\\work\\top-news-paper\\dist\\2026-08-10\\TopNews_Junior_2026-08-10.pdf",
+      "pages": 10,
+      "expected_pages": 10,
+      "cover": "feature",
+      "cover_feature": {
+        "page": 6,
+        "article_no": 5,
+        "title": "Libraries Lend More Than Just Books",
+        "photo": "assets/junior/b755a428a9c5.jpg",
+        "score": 0.758,
+        "forced": false
+      },
+      "photos_missing": 0,
+      "error": null,
+      "quota": 8,
+      "found": 8,
+      "quota_status": "ok"
+    },
+    {
+      "level": "times",
+      "title": "TOP NEWS TIMES",
+      "pdf": "C:\\Users\\jp\\work\\top-news-paper\\dist\\2026-08-10\\TopNews_Times_2026-08-10.pdf",
+      "pages": 12,
+      "expected_pages": 12,
+      "cover": "feature",
+      "cover_feature": {
+        "page": 7,
+        "article_no": 6,
+        "title": "Turning Waste Heat Into Home Heating",
+        "photo": "assets/times/f4509e978ef5.jpg",
+        "score": 0.7489,
+        "forced": false
+      },
+      "photos_missing": 0,
+      "error": null,
+      "quota": 10,
+      "found": 10,
+      "quota_status": "ok"
+    }
+  ]
+}
