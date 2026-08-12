@@ -6,7 +6,7 @@
         "2026-08-10",
         "2026-08-16"
       ],
-      "generated_at": "2026-08-10T19:23:52",
+      "generated_at": "2026-08-12T06:41:35",
       "format": {
         "name": "tabloid",
         "width_mm": 279,
@@ -24,7 +24,7 @@
           "quota": 4,
           "found": 4,
           "quota_status": "ok",
-          "size_kb": 812
+          "size_kb": 803
         },
         {
           "file": "issues/2026-08-10/TopNews_Kids_2026-08-10.pdf",
@@ -36,7 +36,7 @@
           "quota": 6,
           "found": 6,
           "quota_status": "ok",
-          "size_kb": 958
+          "size_kb": 939
         },
         {
           "file": "issues/2026-08-10/TopNews_Junior_2026-08-10.pdf",
@@ -48,7 +48,7 @@
           "quota": 8,
           "found": 8,
           "quota_status": "ok",
-          "size_kb": 1554
+          "size_kb": 1534
         },
         {
           "file": "issues/2026-08-10/TopNews_Times_2026-08-10.pdf",
@@ -60,7 +60,7 @@
           "quota": 10,
           "found": 10,
           "quota_status": "ok",
-          "size_kb": 1883
+          "size_kb": 1864
         }
       ]
     },

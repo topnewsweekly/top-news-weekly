@@ -4,7 +4,7 @@
     "2026-08-10",
     "2026-08-16"
   ],
-  "generated_at": "2026-08-10T19:23:52",
+  "generated_at": "2026-08-12T06:41:35",
   "excluded_levels": [
     "junior_m"
   ],
@@ -128,7 +128,7 @@
     {
       "level": "kinder",
       "title": "TOP NEWS KINDER",
-      "pdf": "C:\\Users\\jp\\work\\top-news-paper\\dist\\2026-08-10\\TopNews_Kinder_2026-08-10.pdf",
+      "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-08-10/TopNews_Kinder_2026-08-10.pdf",
       "pages": 6,
       "expected_pages": 6,
       "cover": "feature",
@@ -149,7 +149,7 @@
     {
       "level": "kids",
       "title": "TOP NEWS KIDS",
-      "pdf": "C:\\Users\\jp\\work\\top-news-paper\\dist\\2026-08-10\\TopNews_Kids_2026-08-10.pdf",
+      "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-08-10/TopNews_Kids_2026-08-10.pdf",
       "pages": 8,
       "expected_pages": 8,
       "cover": "feature",
@@ -170,7 +170,7 @@
     {
       "level": "junior",
       "title": "TOP NEWS JUNIOR",
-      "pdf": "C:\\Users\\jp\\work\\top-news-paper\\dist\\2026-08-10\\TopNews_Junior_2026-08-10.pdf",
+      "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-08-10/TopNews_Junior_2026-08-10.pdf",
       "pages": 10,
       "expected_pages": 10,
       "cover": "feature",
@@ -191,7 +191,7 @@
     {
       "level": "times",
       "title": "TOP NEWS TIMES",
-      "pdf": "C:\\Users\\jp\\work\\top-news-paper\\dist\\2026-08-10\\TopNews_Times_2026-08-10.pdf",
+      "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-08-10/TopNews_Times_2026-08-10.pdf",
       "pages": 12,
       "expected_pages": 12,
       "cover": "feature",
