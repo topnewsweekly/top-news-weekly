@@ -205,70 +205,13 @@ footer{background:var(--navy);color:#8899bb;font-size:11px;text-align:center;pad
 .pr-dl{margin-left:auto;font-size:10px;font-weight:800;color:var(--pc,#666);opacity:.75}
 .pdf-row:hover .pr-dl{opacity:1}
 
-/* 관리자 패널 */
-.admin-link{cursor:pointer;opacity:.55}
-.admin-link:hover{opacity:1;text-decoration:underline}
-.admin-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:400;padding:24px;overflow:auto}
-.admin-overlay.open{display:block}
-.admin-modal{background:#fff;max-width:620px;margin:40px auto;border-radius:6px;padding:22px 24px;position:relative}
-.admin-modal h2{font-family:'Noto Serif KR',serif;font-size:20px;color:var(--navy);margin-bottom:4px}
-.admin-modal .sub{font-size:11px;color:var(--muted);margin-bottom:16px}
-.admin-close{position:absolute;top:12px;right:14px;border:0;background:none;font-size:18px;cursor:pointer;color:var(--muted)}
-.admin-table{width:100%;border-collapse:collapse;font-size:12px;margin-bottom:14px}
-.admin-table th,.admin-table td{border-bottom:1px solid var(--border);padding:7px 6px;text-align:right}
-.admin-table th:first-child,.admin-table td:first-child{text-align:left}
-.admin-table th{font-size:10px;color:var(--muted);font-weight:700;letter-spacing:.04em}
-.admin-weekpick{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:12px;font-size:11px;color:var(--muted)}
-.admin-weekpick label{font-weight:700}
-.admin-weekpick input{border:1px solid var(--border);border-radius:4px;padding:5px 8px;font-size:12px;font-family:inherit}
-.admin-weekpick button{border:1px solid var(--border);background:#fff;border-radius:4px;padding:5px 10px;font-size:11px;cursor:pointer;font-family:inherit}
-.admin-weekpick button:hover{border-color:var(--red);color:var(--red)}
-.admin-weekpick .hint{flex:1;min-width:180px}
-.admin-row-form{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
-.admin-key{flex:1;min-width:180px;border:1px solid var(--border);border-radius:4px;padding:9px 11px;font-size:13px;font-family:inherit}
-.admin-btn{background:var(--red);color:#fff;border:0;border-radius:4px;padding:10px 18px;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit}
-.admin-btn:disabled{background:#bbb;cursor:default}
-.admin-note{font-size:11px;color:var(--muted);margin-top:10px;line-height:1.6}
-.admin-log{margin-top:14px;font-size:12px;line-height:1.7;background:#fafafa;border:1px solid var(--border);border-radius:4px;padding:10px 12px;max-height:220px;overflow:auto}
-.admin-log b{color:var(--navy)}
-.admin-log .ok{color:#1b7f3a}
-.admin-log .warn{color:#b8860b}
-.admin-log .err{color:var(--red)}
 </style>
 </head>
 <body>
 
 <div class="util-bar">
   <span id="today"></span>
-  <span>TOP NEWS WEEKLY — Published Articles
-    <span class="admin-link" onclick="openAdmin()" title="관리자 · 이번 주 발행">· 발행</span>
-  </span>
-</div>
-
-<!-- 관리자: 이번 주 발행 (관리자 키 필요) -->
-<div class="admin-overlay" id="admin-overlay" onclick="if(event.target===this)closeAdmin()">
-  <div class="admin-modal">
-    <button class="admin-close" onclick="closeAdmin()">✕</button>
-    <h2>이번 주 발행</h2>
-    <div class="sub" id="admin-week">주간 현황을 불러오는 중...</div>
-    <div class="admin-weekpick">
-      <label for="admin-week-input">발행할 주</label>
-      <input type="date" id="admin-week-input" onchange="loadIssuePreview()">
-      <button type="button" onclick="clearIssueWeek()">이번 주로</button>
-      <span class="hint">지난 주 누락분을 채우려면 그 주의 아무 날짜나 고르세요</span>
-    </div>
-    <div id="admin-preview"></div>
-    <div class="admin-row-form">
-      <input class="admin-key" id="admin-key" type="password" placeholder="관리자 키"
-             autocomplete="off" onkeydown="if(event.key==='Enter')runIssuePublish()">
-      <button class="admin-btn" id="admin-run" onclick="runIssuePublish()">발행하기</button>
-    </div>
-    <div class="admin-note">
-      규정 수량(Kinder 4 · Kids 6 · Junior 8 · Times 10)만큼 이번 주 기사를 사이트에 노출하고,
-      타블로이드 PDF 4종 빌드를 요청합니다. PDF는 1~3분 뒤 아래 '이번 호 신문 PDF'에 나타납니다.
-    </div>
-    <div class="admin-log" id="admin-log" style="display:none"></div>
-  </div>
+  <span>TOP NEWS WEEKLY — Published Articles</span>
 </div>
 
 <header>
@@ -640,7 +583,6 @@ const characterProfiles = [
 
 let _articles = [];
 let _issues = [];            // issues/index.json — 주차별 PDF 목록
-let _issuePollTimer = null;
 let _activeTab = "all";
 let _view = "list";  // "list" | "profiles"
 
@@ -920,133 +862,6 @@ function pdfBoxHtml() {
           <span class="pr-dl">PDF ↓</span>
         </a>`).join("")}
     </div>`;
-}
-
-// ── 관리자: 이번 주 발행 ────────────────────────────────────
-function openAdmin() {
-  document.getElementById("admin-overlay").classList.add("open");
-  document.body.style.overflow = "hidden";
-  const saved = sessionStorage.getItem("jpt_admin_key");
-  if (saved) document.getElementById("admin-key").value = saved;
-  loadIssuePreview();
-}
-
-function closeAdmin() {
-  document.getElementById("admin-overlay").classList.remove("open");
-  document.body.style.overflow = "";
-  if (_issuePollTimer) { clearInterval(_issuePollTimer); _issuePollTimer = null; }
-}
-
-function selectedIssueWeek() {
-  return (document.getElementById("admin-week-input") || {}).value || "";
-}
-
-function clearIssueWeek() {
-  const el = document.getElementById("admin-week-input");
-  if (el) el.value = "";
-  loadIssuePreview();
-}
-
-async function loadIssuePreview() {
-  const box = document.getElementById("admin-preview");
-  const head = document.getElementById("admin-week");
-  const week = selectedIssueWeek();
-  try {
-    const res = await fetch(API_BASE + "/api/issue/preview" + (week ? "?week=" + week : ""));
-    if (!res.ok) throw new Error("HTTP " + res.status);
-    const data = await res.json();
-    head.textContent = `기준 주 ${data.week} (월~일) · 월간지 제외`;
-    const rows = LEVELS.filter(l => data.media[l.key]).map(l => {
-      const m = data.media[l.key];
-      const state = m.short > 0 ? `<span class="warn">${m.short}건 부족</span>`
-                  : m.will_publish === 0 ? `<span class="ok">발행 완료</span>` : "준비됨";
-      return `<tr><td>${l.label}</td><td>${m.found}</td><td>${m.quota}</td>
-              <td>${m.already}</td><td>${m.will_publish}</td><td>${state}</td></tr>`;
-    }).join("");
-    box.innerHTML = `<table class="admin-table">
-        <tr><th>매체</th><th>이번 주 기사</th><th>규정</th><th>이미 발행</th><th>발행 예정</th><th>상태</th></tr>
-        ${rows}</table>`;
-  } catch (e) {
-    head.textContent = "주간 현황을 불러오지 못했습니다.";
-    box.innerHTML = `<div class="admin-log err">${esc(e.message)}</div>`;
-  }
-}
-
-function adminLog(html, cls) {
-  const el = document.getElementById("admin-log");
-  el.style.display = "block";
-  el.innerHTML += `<div class="${cls || ""}">${html}</div>`;
-  el.scrollTop = el.scrollHeight;
-}
-
-async function runIssuePublish() {
-  const key = document.getElementById("admin-key").value.trim();
-  if (!key) { alert("관리자 키를 입력하세요."); return; }
-  const btn = document.getElementById("admin-run");
-  btn.disabled = true;
-  document.getElementById("admin-log").innerHTML = "";
-
-  try {
-    const res = await fetch(API_BASE + "/api/issue/publish", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ admin_key: key, build_pdf: true, week: selectedIssueWeek() }),
-    });
-    const data = await res.json();
-    if (!res.ok) throw new Error(data.error || ("HTTP " + res.status));
-    sessionStorage.setItem("jpt_admin_key", key);
-    adminLog(`<b>${data.week}</b> 발행 시작 — 사이트 노출 처리 중`);
-    pollIssueJob(data.job_id, data.week);
-  } catch (e) {
-    adminLog(esc(e.message), "err");
-    btn.disabled = false;
-  }
-}
-
-function pollIssueJob(jobId, week) {
-  if (_issuePollTimer) clearInterval(_issuePollTimer);
-  _issuePollTimer = setInterval(async () => {
-    try {
-      const res = await fetch(API_BASE + "/api/issue/status/" + jobId);
-      const job = await res.json();
-      if (job.state !== "done") return;
-      clearInterval(_issuePollTimer); _issuePollTimer = null;
-
-      for (const l of LEVELS) {
-        const m = job.media && job.media[l.key];
-        if (!m) continue;
-        const cls = m.failed ? "err" : (m.short ? "warn" : "ok");
-        adminLog(`${l.label} — 발행 ${m.published_now}건 (누적 ${m.total_published}/${m.quota})`
-                 + (m.short ? ` · ${m.short}건 부족` : "")
-                 + (m.failed ? ` · 실패 ${m.failed}건` : ""), cls);
-      }
-      adminLog(job.build_dispatched
-        ? "PDF 빌드를 요청했습니다 — 1~3분 뒤 목록에 나타납니다."
-        : `PDF 빌드 요청 실패 — ${esc(job.build_message || "")}`,
-        job.build_dispatched ? "ok" : "err");
-
-      document.getElementById("admin-run").disabled = false;
-      await load();                                  // 사이트 기사 목록 갱신
-      if (job.build_dispatched) waitForPdf(week);
-    } catch (e) { /* 폴링 실패는 다음 회차에 다시 시도 */ }
-  }, 2000);
-}
-
-// PDF는 GitHub Actions가 굽고 커밋 → Pages 반영까지 걸리므로 목록이 생길 때까지 확인한다.
-function waitForPdf(week, tries) {
-  tries = tries || 0;
-  if (tries === 0) adminLog("PDF 빌드 대기 중...");
-  if (tries > 40) { adminLog("아직 PDF가 올라오지 않았습니다 — Actions 로그를 확인하세요.", "warn"); return; }
-  setTimeout(async () => {
-    await loadIssues();
-    const found = _issues.find(i => i.week === week);
-    if (found) {
-      adminLog(`PDF ${found.files.length}종 준비 완료 — 목록에서 내려받을 수 있습니다.`, "ok");
-      renderList();
-      return;
-    }
-    waitForPdf(week, tries + 1);
-  }, 10000);
 }
 
 async function load() {
