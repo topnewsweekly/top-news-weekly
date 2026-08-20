@@ -6,7 +6,7 @@
         "2026-08-17",
         "2026-08-23"
       ],
-      "generated_at": "2026-08-20T00:42:09",
+      "generated_at": "2026-08-20T01:02:10",
       "format": {
         "name": "tabloid",
         "width_mm": 279,
@@ -19,48 +19,36 @@
           "name": "TopNews_Kinder_2026-08-17.pdf",
           "media": "TOP NEWS KINDER",
           "level": "kinder",
-          "pages": 6,
-          "articles": 4,
+          "pages": 3,
+          "articles": 1,
           "quota": 4,
-          "found": 4,
-          "quota_status": "ok",
-          "size_kb": 655
+          "found": 1,
+          "quota_status": "short",
+          "size_kb": 422
         },
         {
           "file": "issues/2026-08-17/TopNews_Kids_2026-08-17.pdf",
           "name": "TopNews_Kids_2026-08-17.pdf",
           "media": "TOP NEWS KIDS",
           "level": "kids",
-          "pages": 8,
-          "articles": 6,
+          "pages": 3,
+          "articles": 1,
           "quota": 6,
-          "found": 6,
-          "quota_status": "ok",
-          "size_kb": 1186
+          "found": 1,
+          "quota_status": "short",
+          "size_kb": 441
         },
         {
           "file": "issues/2026-08-17/TopNews_Junior_2026-08-17.pdf",
           "name": "TopNews_Junior_2026-08-17.pdf",
           "media": "TOP NEWS JUNIOR",
           "level": "junior",
-          "pages": 10,
-          "articles": 8,
+          "pages": 3,
+          "articles": 1,
           "quota": 8,
-          "found": 8,
-          "quota_status": "ok",
-          "size_kb": 1168
-        },
-        {
-          "file": "issues/2026-08-17/TopNews_Times_2026-08-17.pdf",
-          "name": "TopNews_Times_2026-08-17.pdf",
-          "media": "TOP NEWS TIMES",
-          "level": "times",
-          "pages": 12,
-          "articles": 10,
-          "quota": 10,
-          "found": 10,
-          "quota_status": "ok",
-          "size_kb": 1614
+          "found": 1,
+          "quota_status": "short",
+          "size_kb": 178
         }
       ]
     }
