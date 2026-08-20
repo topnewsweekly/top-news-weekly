@@ -1,0 +1,213 @@
+{
+  "week_monday": "2026-08-17",
+  "week_range": [
+    "2026-08-17",
+    "2026-08-23"
+  ],
+  "generated_at": "2026-08-20T00:42:09",
+  "excluded_levels": [
+    "junior_m"
+  ],
+  "cover_layouts": {
+    "kinder": "feature",
+    "kids": "feature",
+    "junior": "feature",
+    "times": "feature"
+  },
+  "photo_scores": {
+    "assets/junior/c2eac13ffa47.jpg": 0.9646,
+    "assets/times/ae1634ed9c06.jpg": 0.9396,
+    "assets/junior/f78e08279c4d.jpg": 0.9211,
+    "assets/junior/f655825a7e6d.jpg": 0.9064,
+    "assets/junior/947f7d584fc8.jpg": 0.8569,
+    "assets/times/671b35797fce.jpg": 0.8495,
+    "assets/kinder/d57a8b3c4808.jpg": 0.8368,
+    "assets/junior/e923aba233ce.jpg": 0.8299,
+    "assets/kids/1714f5fcff9a.jpg": 0.7805,
+    "assets/kids/736aa97b5bba.jpg": 0.7656,
+    "assets/times/fbc5b6c88342.jpg": 0.7619,
+    "assets/kinder/570077d4be88.jpg": 0.7522,
+    "assets/times/8210d3d4d914.jpg": 0.7516,
+    "assets/times/1e8ec7329100.jpg": 0.7322,
+    "assets/kinder/e85483e9ac01.jpg": 0.7161,
+    "assets/kids/05395a9c42fd.jpg": 0.702,
+    "assets/times/a337717318f7.jpg": 0.6982,
+    "assets/junior/4d2cf9c051ba.jpg": 0.6973,
+    "assets/junior/ef4f96efbda7.jpg": 0.6577,
+    "assets/times/391dbe30a3cf.jpg": 0.6515,
+    "assets/times/5a441d46c116.jpg": 0.6277,
+    "assets/kinder/f993612deafd.jpg": 0.6233,
+    "assets/kids/e8ffe0266b19.jpg": 0.6161,
+    "assets/times/8adfe0e57763.jpg": 0.5617,
+    "assets/kids/22fce852ce66.jpg": 0.5531,
+    "assets/junior/2d70269fe9fd.jpg": 0.4733,
+    "assets/kids/7e2fadf5be58.jpg": 0.3102,
+    "assets/times/7a6622983c6d.jpg": 0.1661
+  },
+  "format": {
+    "name": "tabloid",
+    "width_mm": 279,
+    "height_mm": 432,
+    "margin_mm": 13
+  },
+  "validation": [
+    {
+      "level": "kinder",
+      "title": "TOP NEWS KINDER",
+      "quota": 4,
+      "found": 4,
+      "status": "ok",
+      "message": "규정 충족 (4/4)",
+      "selected": [
+        "What Are a Hedgehog's Spines?",
+        "How Do Hummingbirds Float in the Air?",
+        "Why Does Your Echo Come Back?",
+        "Why Do Sunflowers Follow the Sun?"
+      ],
+      "dropped": []
+    },
+    {
+      "level": "kids",
+      "title": "TOP NEWS KIDS",
+      "quota": 6,
+      "found": 6,
+      "status": "ok",
+      "message": "규정 충족 (6/6)",
+      "selected": [
+        "Breakfast Looks Different Around the World",
+        "How Does an Elevator Know Which Floor?",
+        "Street Trees Do More Than You Think",
+        "Where Does Wind Come From?",
+        "How Octopuses Hide From Danger",
+        "How Do Fossils Form?"
+      ],
+      "dropped": []
+    },
+    {
+      "level": "junior",
+      "title": "TOP NEWS JUNIOR",
+      "quota": 8,
+      "found": 8,
+      "status": "ok",
+      "message": "규정 충족 (8/8)",
+      "selected": [
+        "Nations Work Together to Protect Migratory Birds",
+        "Cutting Down on Disposable Delivery Containers",
+        "Smart Tech Gives Disabled Athletes a New Edge",
+        "Korean Webtoons Win Fans Around the World",
+        "Schools Are Teaching Students to Manage Money",
+        "Can Teachers Tell If AI Wrote Your Homework?",
+        "Why Are More Teens Going Nearsighted?",
+        "Unmanned Stores Change Local Shopping Streets"
+      ],
+      "dropped": []
+    },
+    {
+      "level": "times",
+      "title": "TOP NEWS TIMES",
+      "quota": 10,
+      "found": 10,
+      "status": "ok",
+      "message": "규정 충족 (10/10)",
+      "selected": [
+        "Sleeper Trains Make a Comeback in Europe",
+        "Can Democracies Defend Against Election Misinformation?",
+        "Should College Be Free for Everyone?",
+        "Arctic Routes Open, Global Competition Heats Up",
+        "The Hidden Cost of Poor Mental Health",
+        "Cities Rethink Flood Management From the Ground Up",
+        "Satellites Are Now Watching Greenhouse Gas Emissions",
+        "Can the World Agree to Cut Plastic?",
+        "Climate Change Pushes Grain Prices Higher",
+        "Can Immigration Fix a Shrinking Workforce?"
+      ],
+      "dropped": []
+    }
+  ],
+  "output": [
+    {
+      "level": "kinder",
+      "title": "TOP NEWS KINDER",
+      "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-08-17/TopNews_Kinder_2026-08-17.pdf",
+      "pages": 6,
+      "expected_pages": 6,
+      "cover": "feature",
+      "cover_feature": {
+        "page": 4,
+        "article_no": 3,
+        "title": "Why Does Your Echo Come Back?",
+        "photo": "assets/kinder/d57a8b3c4808.jpg",
+        "score": 0.8368,
+        "forced": false
+      },
+      "photos_missing": 0,
+      "error": null,
+      "quota": 4,
+      "found": 4,
+      "quota_status": "ok"
+    },
+    {
+      "level": "kids",
+      "title": "TOP NEWS KIDS",
+      "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-08-17/TopNews_Kids_2026-08-17.pdf",
+      "pages": 8,
+      "expected_pages": 8,
+      "cover": "feature",
+      "cover_feature": {
+        "page": 5,
+        "article_no": 4,
+        "title": "Where Does Wind Come From?",
+        "photo": "assets/kids/736aa97b5bba.jpg",
+        "score": 0.7656,
+        "forced": false
+      },
+      "photos_missing": 0,
+      "error": null,
+      "quota": 6,
+      "found": 6,
+      "quota_status": "ok"
+    },
+    {
+      "level": "junior",
+      "title": "TOP NEWS JUNIOR",
+      "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-08-17/TopNews_Junior_2026-08-17.pdf",
+      "pages": 10,
+      "expected_pages": 10,
+      "cover": "feature",
+      "cover_feature": {
+        "page": 3,
+        "article_no": 2,
+        "title": "Cutting Down on Disposable Delivery Containers",
+        "photo": "assets/junior/c2eac13ffa47.jpg",
+        "score": 0.9646,
+        "forced": false
+      },
+      "photos_missing": 0,
+      "error": null,
+      "quota": 8,
+      "found": 8,
+      "quota_status": "ok"
+    },
+    {
+      "level": "times",
+      "title": "TOP NEWS TIMES",
+      "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-08-17/TopNews_Times_2026-08-17.pdf",
+      "pages": 12,
+      "expected_pages": 12,
+      "cover": "feature",
+      "cover_feature": {
+        "page": 11,
+        "article_no": 10,
+        "title": "Can Immigration Fix a Shrinking Workforce?",
+        "photo": "assets/times/671b35797fce.jpg",
+        "score": 0.8495,
+        "forced": false
+      },
+      "photos_missing": 0,
+      "error": null,
+      "quota": 10,
+      "found": 10,
+      "quota_status": "ok"
+    }
+  ]
+}
