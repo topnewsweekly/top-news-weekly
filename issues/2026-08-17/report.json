@@ -4,7 +4,7 @@
     "2026-08-17",
     "2026-08-23"
   ],
-  "generated_at": "2026-08-20T04:35:10",
+  "generated_at": "2026-08-20T04:54:42",
   "excluded_levels": [
     "junior_m"
   ],
@@ -15,6 +15,7 @@
     "times": "feature"
   },
   "photo_scores": {
+    "assets/kinder/9afc7816648f.jpg": 0.8253,
     "assets/kinder/5dd3c9c7c6a8.jpg": 0.661,
     "assets/kids/465cc6eb623c.jpg": 0.6062
   },
@@ -29,11 +30,12 @@
       "level": "kinder",
       "title": "TOP NEWS KINDER",
       "quota": 4,
-      "found": 1,
+      "found": 2,
       "status": "short",
-      "message": "부족 3건 — 1/4건으로 조판",
+      "message": "부족 2건 — 2/4건으로 조판",
       "selected": [
-        "Trees Are Great for Us!"
+        "Trees Are Great for Us!",
+        "Bees Are Busy Little Workers!"
       ],
       "dropped": []
     },
@@ -95,21 +97,21 @@
       "level": "kinder",
       "title": "TOP NEWS KINDER",
       "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-08-17/TopNews_Kinder_2026-08-17.pdf",
-      "pages": 3,
-      "expected_pages": 3,
+      "pages": 4,
+      "expected_pages": 4,
       "cover": "feature",
       "cover_feature": {
-        "page": 2,
-        "article_no": 1,
-        "title": "Trees Are Great for Us!",
-        "photo": "assets/kinder/5dd3c9c7c6a8.jpg",
-        "score": 0.661,
+        "page": 3,
+        "article_no": 2,
+        "title": "Bees Are Busy Little Workers!",
+        "photo": "assets/kinder/9afc7816648f.jpg",
+        "score": 0.8253,
         "forced": false
       },
       "photos_missing": 0,
       "error": null,
       "quota": 4,
-      "found": 1,
+      "found": 2,
       "quota_status": "short"
     },
     {
