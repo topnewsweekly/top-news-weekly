@@ -4,7 +4,7 @@
     "2026-08-24",
     "2026-08-30"
   ],
-  "generated_at": "2026-08-24T01:07:50",
+  "generated_at": "2026-08-24T01:09:06",
   "excluded_levels": [
     "junior_m"
   ],
@@ -29,6 +29,7 @@
     "assets/kinder/b2e4a15a8519.jpg": 0.5748,
     "assets/kids/2522c9f4e4fb.jpg": 0.5742,
     "assets/kids/e4a7d1faf545.jpg": 0.5344,
+    "assets/times/66f1bcb2d5df.jpg": 0.3935,
     "assets/junior/ad995eac859b.jpg": 0.384,
     "assets/junior/f073cf027ffd.jpg": 0.3661,
     "assets/kinder/b0a00bb66908.jpg": 0.2718
@@ -94,24 +95,16 @@
       "level": "times",
       "title": "TOP NEWS TIMES",
       "quota": 10,
-      "found": 0,
-      "status": "empty",
-      "message": "수집 0건 — 지면 생성 불가 (규정 10)",
-      "selected": [],
+      "found": 1,
+      "status": "short",
+      "message": "부족 9건 — 1/10건으로 조판",
+      "selected": [
+        "The Race to Subsidize Semiconductors: Worth the Cost?"
+      ],
       "dropped": []
     }
   ],
   "output": [
-    {
-      "level": "times",
-      "title": "TOP NEWS TIMES",
-      "pdf": null,
-      "pages": 0,
-      "error": "기사 0건 — 지면 생성 생략",
-      "quota": 10,
-      "found": 0,
-      "quota_status": "empty"
-    },
     {
       "level": "kinder",
       "title": "TOP NEWS KINDER",
@@ -173,6 +166,27 @@
       "error": null,
       "quota": 8,
       "found": 7,
+      "quota_status": "short"
+    },
+    {
+      "level": "times",
+      "title": "TOP NEWS TIMES",
+      "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-08-24/TopNews_Times_2026-08-24.pdf",
+      "pages": 3,
+      "expected_pages": 3,
+      "cover": "feature",
+      "cover_feature": {
+        "page": 2,
+        "article_no": 1,
+        "title": "The Race to Subsidize Semiconductors: Worth the Cost?",
+        "photo": "assets/times/66f1bcb2d5df.jpg",
+        "score": 0.3935,
+        "forced": false
+      },
+      "photos_missing": 0,
+      "error": null,
+      "quota": 10,
+      "found": 1,
       "quota_status": "short"
     }
   ]
