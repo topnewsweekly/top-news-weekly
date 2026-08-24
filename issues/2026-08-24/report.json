@@ -4,7 +4,7 @@
     "2026-08-24",
     "2026-08-30"
   ],
-  "generated_at": "2026-08-24T01:12:07",
+  "generated_at": "2026-08-24T01:14:04",
   "excluded_levels": [
     "junior_m"
   ],
@@ -15,7 +15,7 @@
     "times": "feature"
   },
   "photo_scores": {
-    "assets/junior/22e982cc4c86.jpg": 0.8852,
+    "assets/junior/22e982cc4c86.jpg": 0.8853,
     "assets/junior/1b1e941f0a6b.jpg": 0.8766,
     "assets/times/7c0efaaa118d.jpg": 0.8714,
     "assets/kids/5d638618bb46.jpg": 0.841,
@@ -32,6 +32,7 @@
     "assets/kids/2522c9f4e4fb.jpg": 0.5742,
     "assets/kids/e4a7d1faf545.jpg": 0.5344,
     "assets/times/b558cbc76f6e.jpg": 0.5212,
+    "assets/times/4f979f79fe3a.jpg": 0.5031,
     "assets/times/66f1bcb2d5df.jpg": 0.3935,
     "assets/junior/ad995eac859b.jpg": 0.384,
     "assets/junior/f073cf027ffd.jpg": 0.3661,
@@ -98,10 +99,11 @@
       "level": "times",
       "title": "TOP NEWS TIMES",
       "quota": 10,
-      "found": 4,
+      "found": 5,
       "status": "short",
-      "message": "부족 6건 — 4/10건으로 조판",
+      "message": "부족 5건 — 5/10건으로 조판",
       "selected": [
+        "When School Skills Don't Match Job Needs",
         "Better Forest Management Can Reduce Wildfire Damage",
         "Undersea Cables Keep the World Connected",
         "AI Translation Tools Reshape Interpreter Jobs",
@@ -165,7 +167,7 @@
         "article_no": 7,
         "title": "Why School Safety Zones Are Hard to Follow",
         "photo": "assets/junior/22e982cc4c86.jpg",
-        "score": 0.8852,
+        "score": 0.8853,
         "forced": false
       },
       "photos_missing": 0,
@@ -178,12 +180,12 @@
       "level": "times",
       "title": "TOP NEWS TIMES",
       "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-08-24/TopNews_Times_2026-08-24.pdf",
-      "pages": 6,
-      "expected_pages": 6,
+      "pages": 7,
+      "expected_pages": 7,
       "cover": "feature",
       "cover_feature": {
-        "page": 3,
-        "article_no": 2,
+        "page": 4,
+        "article_no": 3,
         "title": "Undersea Cables Keep the World Connected",
         "photo": "assets/times/7c0efaaa118d.jpg",
         "score": 0.8714,
@@ -192,7 +194,7 @@
       "photos_missing": 0,
       "error": null,
       "quota": 10,
-      "found": 4,
+      "found": 5,
       "quota_status": "short"
     }
   ]
