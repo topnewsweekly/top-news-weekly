@@ -4,7 +4,7 @@
     "2026-08-24",
     "2026-08-30"
   ],
-  "generated_at": "2026-08-24T01:03:13",
+  "generated_at": "2026-08-24T01:04:42",
   "excluded_levels": [
     "junior_m"
   ],
@@ -20,6 +20,7 @@
     "assets/kids/5d638618bb46.jpg": 0.841,
     "assets/kids/be10b030a078.jpg": 0.8326,
     "assets/kids/4c9b68a66303.jpg": 0.8043,
+    "assets/junior/0c33ff6a370a.jpg": 0.7657,
     "assets/kinder/cc88e2cac347.jpg": 0.718,
     "assets/junior/f71d984ed72a.jpg": 0.6654,
     "assets/kids/768f2e458ae6.jpg": 0.6553,
@@ -72,10 +73,11 @@
       "level": "junior",
       "title": "TOP NEWS JUNIOR",
       "quota": 8,
-      "found": 3,
+      "found": 4,
       "status": "short",
-      "message": "부족 5건 — 3/8건으로 조판",
+      "message": "부족 4건 — 4/8건으로 조판",
       "selected": [
+        "Why Used Textbooks Change Hands",
         "Earbuds That Translate Languages While You Travel",
         "Repair Shops Are Making a Comeback",
         "Why School Safety Zones Are Hard to Follow"
@@ -150,12 +152,12 @@
       "level": "junior",
       "title": "TOP NEWS JUNIOR",
       "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-08-24/TopNews_Junior_2026-08-24.pdf",
-      "pages": 5,
-      "expected_pages": 5,
+      "pages": 6,
+      "expected_pages": 6,
       "cover": "feature",
       "cover_feature": {
-        "page": 4,
-        "article_no": 3,
+        "page": 5,
+        "article_no": 4,
         "title": "Why School Safety Zones Are Hard to Follow",
         "photo": "assets/junior/22e982cc4c86.jpg",
         "score": 0.8852,
@@ -164,7 +166,7 @@
       "photos_missing": 0,
       "error": null,
       "quota": 8,
-      "found": 3,
+      "found": 4,
       "quota_status": "short"
     }
   ]
