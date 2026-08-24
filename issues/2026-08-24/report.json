@@ -4,7 +4,7 @@
     "2026-08-24",
     "2026-08-30"
   ],
-  "generated_at": "2026-08-24T01:15:10",
+  "generated_at": "2026-08-24T01:18:19",
   "excluded_levels": [
     "junior_m"
   ],
@@ -22,7 +22,9 @@
     "assets/kids/be10b030a078.jpg": 0.8326,
     "assets/kids/4c9b68a66303.jpg": 0.8043,
     "assets/junior/0c33ff6a370a.jpg": 0.7657,
+    "assets/times/59fa77a94f4f.jpg": 0.7215,
     "assets/kinder/cc88e2cac347.jpg": 0.718,
+    "assets/times/6b6708aa9c33.jpg": 0.6976,
     "assets/junior/d05aba466319.jpg": 0.6931,
     "assets/junior/f71d984ed72a.jpg": 0.6654,
     "assets/kids/768f2e458ae6.jpg": 0.6553,
@@ -100,10 +102,12 @@
       "level": "times",
       "title": "TOP NEWS TIMES",
       "quota": 10,
-      "found": 6,
+      "found": 8,
       "status": "short",
-      "message": "부족 4건 — 6/10건으로 조판",
+      "message": "부족 2건 — 8/10건으로 조판",
       "selected": [
+        "When Food Aid Hurts More Than It Helps",
+        "Can Local Governments Stand on Their Own?",
         "The True Cost of Chronic Disease",
         "When School Skills Don't Match Job Needs",
         "Better Forest Management Can Reduce Wildfire Damage",
@@ -182,12 +186,12 @@
       "level": "times",
       "title": "TOP NEWS TIMES",
       "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-08-24/TopNews_Times_2026-08-24.pdf",
-      "pages": 8,
-      "expected_pages": 8,
+      "pages": 10,
+      "expected_pages": 10,
       "cover": "feature",
       "cover_feature": {
-        "page": 5,
-        "article_no": 4,
+        "page": 7,
+        "article_no": 6,
         "title": "Undersea Cables Keep the World Connected",
         "photo": "assets/times/7c0efaaa118d.jpg",
         "score": 0.8714,
@@ -196,7 +200,7 @@
       "photos_missing": 0,
       "error": null,
       "quota": 10,
-      "found": 6,
+      "found": 8,
       "quota_status": "short"
     }
   ]

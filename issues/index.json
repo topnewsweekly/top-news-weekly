@@ -6,7 +6,7 @@
         "2026-08-24",
         "2026-08-30"
       ],
-      "generated_at": "2026-08-24T01:15:10",
+      "generated_at": "2026-08-24T01:18:19",
       "format": {
         "name": "tabloid",
         "width_mm": 279,
@@ -55,12 +55,12 @@
           "name": "TopNews_Times_2026-08-24.pdf",
           "media": "TOP NEWS TIMES",
           "level": "times",
-          "pages": 8,
-          "articles": 6,
+          "pages": 10,
+          "articles": 8,
           "quota": 10,
-          "found": 6,
+          "found": 8,
           "quota_status": "short",
-          "size_kb": 1277
+          "size_kb": 1715
         }
       ]
     }
