@@ -4,7 +4,7 @@
     "2026-08-24",
     "2026-08-30"
   ],
-  "generated_at": "2026-08-24T00:58:12",
+  "generated_at": "2026-08-24T00:59:37",
   "excluded_levels": [
     "junior_m"
   ],
@@ -18,9 +18,11 @@
     "assets/kids/5d638618bb46.jpg": 0.841,
     "assets/kids/4c9b68a66303.jpg": 0.8043,
     "assets/kinder/cc88e2cac347.jpg": 0.718,
+    "assets/kids/768f2e458ae6.jpg": 0.6553,
     "assets/kinder/d50c45f2da28.jpg": 0.6099,
     "assets/kinder/b2e4a15a8519.jpg": 0.5748,
     "assets/kids/2522c9f4e4fb.jpg": 0.5742,
+    "assets/kids/e4a7d1faf545.jpg": 0.5344,
     "assets/kinder/b0a00bb66908.jpg": 0.2718
   },
   "format": {
@@ -49,10 +51,12 @@
       "level": "kids",
       "title": "TOP NEWS KIDS",
       "quota": 6,
-      "found": 3,
+      "found": 5,
       "status": "short",
-      "message": "부족 3건 — 3/6건으로 조판",
+      "message": "부족 1건 — 5/6건으로 조판",
       "selected": [
+        "How Do Automatic Doors Know You Are There?",
+        "Lost Fishing Nets Still Trap Sea Animals",
         "Why Is the Ocean So Salty?",
         "Why Do We See Lightning Before Thunder?",
         "How Arctic Foxes Stay Warm in Winter"
@@ -126,12 +130,12 @@
       "level": "kids",
       "title": "TOP NEWS KIDS",
       "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-08-24/TopNews_Kids_2026-08-24.pdf",
-      "pages": 5,
-      "expected_pages": 5,
+      "pages": 7,
+      "expected_pages": 7,
       "cover": "feature",
       "cover_feature": {
-        "page": 4,
-        "article_no": 3,
+        "page": 6,
+        "article_no": 5,
         "title": "How Arctic Foxes Stay Warm in Winter",
         "photo": "assets/kids/5d638618bb46.jpg",
         "score": 0.841,
@@ -140,7 +144,7 @@
       "photos_missing": 0,
       "error": null,
       "quota": 6,
-      "found": 3,
+      "found": 5,
       "quota_status": "short"
     }
   ]
