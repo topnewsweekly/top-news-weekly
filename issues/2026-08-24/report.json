@@ -4,7 +4,7 @@
     "2026-08-24",
     "2026-08-30"
   ],
-  "generated_at": "2026-08-24T02:43:23",
+  "generated_at": "2026-08-24T07:55:18",
   "excluded_levels": [
     "junior_m"
   ],
@@ -19,7 +19,6 @@
     "assets/junior/1b1e941f0a6b.jpg": 0.8766,
     "assets/times/7c0efaaa118d.jpg": 0.8714,
     "assets/kids/5d638618bb46.jpg": 0.841,
-    "assets/kids/be10b030a078.jpg": 0.8326,
     "assets/kids/4c9b68a66303.jpg": 0.8043,
     "assets/junior/22d288168998.jpg": 0.7728,
     "assets/junior/0c33ff6a370a.jpg": 0.7657,
@@ -34,6 +33,7 @@
     "assets/times/0431ddfeb47e.jpg": 0.6213,
     "assets/times/967500a05cb3.jpg": 0.6173,
     "assets/kinder/d50c45f2da28.jpg": 0.6099,
+    "assets/kids/6bc741d6a0e7.jpg": 0.5885,
     "assets/kinder/b2e4a15a8519.jpg": 0.5748,
     "assets/kids/2522c9f4e4fb.jpg": 0.5742,
     "assets/kids/e4a7d1faf545.jpg": 0.5344,
@@ -60,9 +60,9 @@
       "message": "규정 충족 (4/4)",
       "selected": [
         "Make Fun Shadows With Light!",
-        "Why Are Soap Bubbles Always Round?",
+        "Why Do Snails Move So Slowly?",
         "Why Do Birds Sing Every Morning?",
-        "Why Do Snails Move So Slowly?"
+        "Why Are Soap Bubbles Always Round?"
       ],
       "dropped": []
     },
@@ -70,18 +70,20 @@
       "level": "kids",
       "title": "TOP NEWS KIDS",
       "quota": 6,
-      "found": 6,
-      "status": "ok",
-      "message": "규정 충족 (6/6)",
+      "found": 7,
+      "status": "over",
+      "message": "초과 1건 — 최신순 6건 채택, 1건 이월",
       "selected": [
-        "Fun Traditional Games From Around the World",
-        "How Do Automatic Doors Know You Are There?",
         "Lost Fishing Nets Still Trap Sea Animals",
+        "How Do Automatic Doors Know You Are There?",
         "Why Is the Ocean So Salty?",
         "Why Do We See Lightning Before Thunder?",
-        "How Arctic Foxes Stay Warm in Winter"
+        "How Arctic Foxes Stay Warm in Winter",
+        "Why Do People Love Quizzes So Much?"
       ],
-      "dropped": []
+      "dropped": [
+        "Fun Traditional Games From Around the World"
+      ]
     },
     {
       "level": "junior",
@@ -91,14 +93,14 @@
       "status": "ok",
       "message": "규정 충족 (8/8)",
       "selected": [
+        "Why School Safety Zones Are Hard to Follow",
         "Turn It Down: Earphones and Hearing Loss",
         "Balancing Sports and Studies at School",
         "Racing to Save the World's Lost Languages",
         "Museums Around the World Return Old Artifacts",
         "Why Used Textbooks Change Hands",
         "Earbuds That Translate Languages While You Travel",
-        "Repair Shops Are Making a Comeback",
-        "Why School Safety Zones Are Hard to Follow"
+        "Repair Shops Are Making a Comeback"
       ],
       "dropped": []
     },
@@ -133,8 +135,8 @@
       "expected_pages": 6,
       "cover": "feature",
       "cover_feature": {
-        "page": 5,
-        "article_no": 4,
+        "page": 3,
+        "article_no": 2,
         "title": "Why Do Snails Move So Slowly?",
         "photo": "assets/kinder/cc88e2cac347.jpg",
         "score": 0.718,
@@ -154,8 +156,8 @@
       "expected_pages": 8,
       "cover": "feature",
       "cover_feature": {
-        "page": 7,
-        "article_no": 6,
+        "page": 6,
+        "article_no": 5,
         "title": "How Arctic Foxes Stay Warm in Winter",
         "photo": "assets/kids/5d638618bb46.jpg",
         "score": 0.841,
@@ -164,8 +166,8 @@
       "photos_missing": 0,
       "error": null,
       "quota": 6,
-      "found": 6,
-      "quota_status": "ok"
+      "found": 7,
+      "quota_status": "over"
     },
     {
       "level": "junior",
@@ -175,11 +177,11 @@
       "expected_pages": 10,
       "cover": "feature",
       "cover_feature": {
-        "page": 9,
-        "article_no": 8,
-        "title": "Why School Safety Zones Are Hard to Follow",
-        "photo": "assets/junior/22e982cc4c86.jpg",
-        "score": 0.8852,
+        "page": 8,
+        "article_no": 7,
+        "title": "Earbuds That Translate Languages While You Travel",
+        "photo": "assets/junior/1b1e941f0a6b.jpg",
+        "score": 0.8766,
         "forced": false
       },
       "photos_missing": 0,
