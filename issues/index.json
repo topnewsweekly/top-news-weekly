@@ -1,3 +1,32 @@
 {
-  "issues": []
+  "issues": [
+    {
+      "week": "2026-08-24",
+      "week_range": [
+        "2026-08-24",
+        "2026-08-30"
+      ],
+      "generated_at": "2026-08-24T00:54:34",
+      "format": {
+        "name": "tabloid",
+        "width_mm": 279,
+        "height_mm": 432,
+        "margin_mm": 13
+      },
+      "files": [
+        {
+          "file": "issues/2026-08-24/TopNews_Kinder_2026-08-24.pdf",
+          "name": "TopNews_Kinder_2026-08-24.pdf",
+          "media": "TOP NEWS KINDER",
+          "level": "kinder",
+          "pages": 5,
+          "articles": 3,
+          "quota": 4,
+          "found": 3,
+          "quota_status": "short",
+          "size_kb": 466
+        }
+      ]
+    }
+  ]
 }

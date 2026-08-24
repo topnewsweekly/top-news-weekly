@@ -1,0 +1,127 @@
+{
+  "week_monday": "2026-08-24",
+  "week_range": [
+    "2026-08-24",
+    "2026-08-30"
+  ],
+  "generated_at": "2026-08-24T00:54:34",
+  "excluded_levels": [
+    "junior_m"
+  ],
+  "cover_layouts": {
+    "kinder": "feature",
+    "kids": "feature",
+    "junior": "feature",
+    "times": "feature"
+  },
+  "photo_scores": {
+    "assets/kinder/cc88e2cac347.jpg": 0.718,
+    "assets/kinder/d50c45f2da28.jpg": 0.6099,
+    "assets/kinder/b0a00bb66908.jpg": 0.2718
+  },
+  "format": {
+    "name": "tabloid",
+    "width_mm": 279,
+    "height_mm": 432,
+    "margin_mm": 13
+  },
+  "validation": [
+    {
+      "level": "kinder",
+      "title": "TOP NEWS KINDER",
+      "quota": 4,
+      "found": 3,
+      "status": "short",
+      "message": "부족 1건 — 3/4건으로 조판",
+      "selected": [
+        "Why Are Soap Bubbles Always Round?",
+        "Why Do Birds Sing Every Morning?",
+        "Why Do Snails Move So Slowly?"
+      ],
+      "dropped": []
+    },
+    {
+      "level": "kids",
+      "title": "TOP NEWS KIDS",
+      "quota": 6,
+      "found": 0,
+      "status": "empty",
+      "message": "수집 0건 — 지면 생성 불가 (규정 6)",
+      "selected": [],
+      "dropped": []
+    },
+    {
+      "level": "junior",
+      "title": "TOP NEWS JUNIOR",
+      "quota": 8,
+      "found": 0,
+      "status": "empty",
+      "message": "수집 0건 — 지면 생성 불가 (규정 8)",
+      "selected": [],
+      "dropped": []
+    },
+    {
+      "level": "times",
+      "title": "TOP NEWS TIMES",
+      "quota": 10,
+      "found": 0,
+      "status": "empty",
+      "message": "수집 0건 — 지면 생성 불가 (규정 10)",
+      "selected": [],
+      "dropped": []
+    }
+  ],
+  "output": [
+    {
+      "level": "kids",
+      "title": "TOP NEWS KIDS",
+      "pdf": null,
+      "pages": 0,
+      "error": "기사 0건 — 지면 생성 생략",
+      "quota": 6,
+      "found": 0,
+      "quota_status": "empty"
+    },
+    {
+      "level": "junior",
+      "title": "TOP NEWS JUNIOR",
+      "pdf": null,
+      "pages": 0,
+      "error": "기사 0건 — 지면 생성 생략",
+      "quota": 8,
+      "found": 0,
+      "quota_status": "empty"
+    },
+    {
+      "level": "times",
+      "title": "TOP NEWS TIMES",
+      "pdf": null,
+      "pages": 0,
+      "error": "기사 0건 — 지면 생성 생략",
+      "quota": 10,
+      "found": 0,
+      "quota_status": "empty"
+    },
+    {
+      "level": "kinder",
+      "title": "TOP NEWS KINDER",
+      "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-08-24/TopNews_Kinder_2026-08-24.pdf",
+      "pages": 5,
+      "expected_pages": 5,
+      "cover": "feature",
+      "cover_feature": {
+        "page": 4,
+        "article_no": 3,
+        "title": "Why Do Snails Move So Slowly?",
+        "photo": "assets/kinder/cc88e2cac347.jpg",
+        "score": 0.718,
+        "forced": false
+      },
+      "photos_missing": 0,
+      "error": null,
+      "quota": 4,
+      "found": 3,
+      "quota_status": "short"
+    }
+  ]
+}
