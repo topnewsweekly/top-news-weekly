@@ -4,7 +4,7 @@
     "2026-08-24",
     "2026-08-30"
   ],
-  "generated_at": "2026-08-24T01:00:31",
+  "generated_at": "2026-08-24T01:01:31",
   "excluded_levels": [
     "junior_m"
   ],
@@ -17,6 +17,7 @@
   "photo_scores": {
     "assets/junior/22e982cc4c86.jpg": 0.8853,
     "assets/kids/5d638618bb46.jpg": 0.841,
+    "assets/kids/be10b030a078.jpg": 0.8326,
     "assets/kids/4c9b68a66303.jpg": 0.8043,
     "assets/kinder/cc88e2cac347.jpg": 0.718,
     "assets/kids/768f2e458ae6.jpg": 0.6553,
@@ -52,10 +53,11 @@
       "level": "kids",
       "title": "TOP NEWS KIDS",
       "quota": 6,
-      "found": 5,
-      "status": "short",
-      "message": "부족 1건 — 5/6건으로 조판",
+      "found": 6,
+      "status": "ok",
+      "message": "규정 충족 (6/6)",
       "selected": [
+        "Fun Traditional Games From Around the World",
         "How Do Automatic Doors Know You Are There?",
         "Lost Fishing Nets Still Trap Sea Animals",
         "Why Is the Ocean So Salty?",
@@ -123,12 +125,12 @@
       "level": "kids",
       "title": "TOP NEWS KIDS",
       "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-08-24/TopNews_Kids_2026-08-24.pdf",
-      "pages": 7,
-      "expected_pages": 7,
+      "pages": 8,
+      "expected_pages": 8,
       "cover": "feature",
       "cover_feature": {
-        "page": 6,
-        "article_no": 5,
+        "page": 7,
+        "article_no": 6,
         "title": "How Arctic Foxes Stay Warm in Winter",
         "photo": "assets/kids/5d638618bb46.jpg",
         "score": 0.841,
@@ -137,8 +139,8 @@
       "photos_missing": 0,
       "error": null,
       "quota": 6,
-      "found": 5,
-      "quota_status": "short"
+      "found": 6,
+      "quota_status": "ok"
     },
     {
       "level": "junior",
