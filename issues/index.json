@@ -6,7 +6,7 @@
         "2026-08-24",
         "2026-08-30"
       ],
-      "generated_at": "2026-08-24T00:59:37",
+      "generated_at": "2026-08-24T01:00:31",
       "format": {
         "name": "tabloid",
         "width_mm": 279,
@@ -37,6 +37,18 @@
           "found": 5,
           "quota_status": "short",
           "size_kb": 1079
+        },
+        {
+          "file": "issues/2026-08-24/TopNews_Junior_2026-08-24.pdf",
+          "name": "TopNews_Junior_2026-08-24.pdf",
+          "media": "TOP NEWS JUNIOR",
+          "level": "junior",
+          "pages": 3,
+          "articles": 1,
+          "quota": 8,
+          "found": 1,
+          "quota_status": "short",
+          "size_kb": 220
         }
       ]
     }

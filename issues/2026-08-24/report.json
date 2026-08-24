@@ -4,7 +4,7 @@
     "2026-08-24",
     "2026-08-30"
   ],
-  "generated_at": "2026-08-24T00:59:37",
+  "generated_at": "2026-08-24T01:00:31",
   "excluded_levels": [
     "junior_m"
   ],
@@ -15,6 +15,7 @@
     "times": "feature"
   },
   "photo_scores": {
+    "assets/junior/22e982cc4c86.jpg": 0.8853,
     "assets/kids/5d638618bb46.jpg": 0.841,
     "assets/kids/4c9b68a66303.jpg": 0.8043,
     "assets/kinder/cc88e2cac347.jpg": 0.718,
@@ -67,10 +68,12 @@
       "level": "junior",
       "title": "TOP NEWS JUNIOR",
       "quota": 8,
-      "found": 0,
-      "status": "empty",
-      "message": "수집 0건 — 지면 생성 불가 (규정 8)",
-      "selected": [],
+      "found": 1,
+      "status": "short",
+      "message": "부족 7건 — 1/8건으로 조판",
+      "selected": [
+        "Why School Safety Zones Are Hard to Follow"
+      ],
       "dropped": []
     },
     {
@@ -85,16 +88,6 @@
     }
   ],
   "output": [
-    {
-      "level": "junior",
-      "title": "TOP NEWS JUNIOR",
-      "pdf": null,
-      "pages": 0,
-      "error": "기사 0건 — 지면 생성 생략",
-      "quota": 8,
-      "found": 0,
-      "quota_status": "empty"
-    },
     {
       "level": "times",
       "title": "TOP NEWS TIMES",
@@ -145,6 +138,27 @@
       "error": null,
       "quota": 6,
       "found": 5,
+      "quota_status": "short"
+    },
+    {
+      "level": "junior",
+      "title": "TOP NEWS JUNIOR",
+      "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-08-24/TopNews_Junior_2026-08-24.pdf",
+      "pages": 3,
+      "expected_pages": 3,
+      "cover": "feature",
+      "cover_feature": {
+        "page": 2,
+        "article_no": 1,
+        "title": "Why School Safety Zones Are Hard to Follow",
+        "photo": "assets/junior/22e982cc4c86.jpg",
+        "score": 0.8853,
+        "forced": false
+      },
+      "photos_missing": 0,
+      "error": null,
+      "quota": 8,
+      "found": 1,
       "quota_status": "short"
     }
   ]
