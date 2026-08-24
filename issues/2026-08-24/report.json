@@ -4,7 +4,7 @@
     "2026-08-24",
     "2026-08-30"
   ],
-  "generated_at": "2026-08-24T01:09:06",
+  "generated_at": "2026-08-24T01:10:43",
   "excluded_levels": [
     "junior_m"
   ],
@@ -25,6 +25,7 @@
     "assets/junior/d05aba466319.jpg": 0.6931,
     "assets/junior/f71d984ed72a.jpg": 0.6654,
     "assets/kids/768f2e458ae6.jpg": 0.6553,
+    "assets/times/6e6b7704c627.jpg": 0.6548,
     "assets/kinder/d50c45f2da28.jpg": 0.6099,
     "assets/kinder/b2e4a15a8519.jpg": 0.5748,
     "assets/kids/2522c9f4e4fb.jpg": 0.5742,
@@ -95,10 +96,11 @@
       "level": "times",
       "title": "TOP NEWS TIMES",
       "quota": 10,
-      "found": 1,
+      "found": 2,
       "status": "short",
-      "message": "부족 9건 — 1/10건으로 조판",
+      "message": "부족 8건 — 2/10건으로 조판",
       "selected": [
+        "AI Translation Tools Reshape Interpreter Jobs",
         "The Race to Subsidize Semiconductors: Worth the Cost?"
       ],
       "dropped": []
@@ -172,12 +174,12 @@
       "level": "times",
       "title": "TOP NEWS TIMES",
       "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-08-24/TopNews_Times_2026-08-24.pdf",
-      "pages": 3,
-      "expected_pages": 3,
+      "pages": 4,
+      "expected_pages": 4,
       "cover": "feature",
       "cover_feature": {
-        "page": 2,
-        "article_no": 1,
+        "page": 3,
+        "article_no": 2,
         "title": "The Race to Subsidize Semiconductors: Worth the Cost?",
         "photo": "assets/times/66f1bcb2d5df.jpg",
         "score": 0.3935,
@@ -186,7 +188,7 @@
       "photos_missing": 0,
       "error": null,
       "quota": 10,
-      "found": 1,
+      "found": 2,
       "quota_status": "short"
     }
   ]
