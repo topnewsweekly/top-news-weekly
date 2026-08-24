@@ -4,7 +4,7 @@
     "2026-08-24",
     "2026-08-30"
   ],
-  "generated_at": "2026-08-24T01:04:42",
+  "generated_at": "2026-08-24T01:06:52",
   "excluded_levels": [
     "junior_m"
   ],
@@ -15,19 +15,21 @@
     "times": "feature"
   },
   "photo_scores": {
-    "assets/junior/22e982cc4c86.jpg": 0.8852,
+    "assets/junior/22e982cc4c86.jpg": 0.8853,
     "assets/junior/1b1e941f0a6b.jpg": 0.8766,
     "assets/kids/5d638618bb46.jpg": 0.841,
     "assets/kids/be10b030a078.jpg": 0.8326,
     "assets/kids/4c9b68a66303.jpg": 0.8043,
-    "assets/junior/0c33ff6a370a.jpg": 0.7657,
+    "assets/junior/0c33ff6a370a.jpg": 0.7656,
     "assets/kinder/cc88e2cac347.jpg": 0.718,
     "assets/junior/f71d984ed72a.jpg": 0.6654,
     "assets/kids/768f2e458ae6.jpg": 0.6553,
-    "assets/kinder/d50c45f2da28.jpg": 0.6099,
+    "assets/kinder/d50c45f2da28.jpg": 0.6097,
     "assets/kinder/b2e4a15a8519.jpg": 0.5748,
     "assets/kids/2522c9f4e4fb.jpg": 0.5742,
     "assets/kids/e4a7d1faf545.jpg": 0.5344,
+    "assets/junior/ad995eac859b.jpg": 0.384,
+    "assets/junior/f073cf027ffd.jpg": 0.3661,
     "assets/kinder/b0a00bb66908.jpg": 0.2718
   },
   "format": {
@@ -73,10 +75,12 @@
       "level": "junior",
       "title": "TOP NEWS JUNIOR",
       "quota": 8,
-      "found": 4,
+      "found": 6,
       "status": "short",
-      "message": "부족 4건 — 4/8건으로 조판",
+      "message": "부족 2건 — 6/8건으로 조판",
       "selected": [
+        "Racing to Save the World's Lost Languages",
+        "Museums Around the World Return Old Artifacts",
         "Why Used Textbooks Change Hands",
         "Earbuds That Translate Languages While You Travel",
         "Repair Shops Are Making a Comeback",
@@ -152,21 +156,21 @@
       "level": "junior",
       "title": "TOP NEWS JUNIOR",
       "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-08-24/TopNews_Junior_2026-08-24.pdf",
-      "pages": 6,
-      "expected_pages": 6,
+      "pages": 8,
+      "expected_pages": 8,
       "cover": "feature",
       "cover_feature": {
-        "page": 5,
-        "article_no": 4,
+        "page": 7,
+        "article_no": 6,
         "title": "Why School Safety Zones Are Hard to Follow",
         "photo": "assets/junior/22e982cc4c86.jpg",
-        "score": 0.8852,
+        "score": 0.8853,
         "forced": false
       },
       "photos_missing": 0,
       "error": null,
       "quota": 8,
-      "found": 4,
+      "found": 6,
       "quota_status": "short"
     }
   ]
