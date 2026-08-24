@@ -4,7 +4,7 @@
     "2026-08-24",
     "2026-08-30"
   ],
-  "generated_at": "2026-08-24T01:14:04",
+  "generated_at": "2026-08-24T01:15:10",
   "excluded_levels": [
     "junior_m"
   ],
@@ -27,6 +27,7 @@
     "assets/junior/f71d984ed72a.jpg": 0.6654,
     "assets/kids/768f2e458ae6.jpg": 0.6553,
     "assets/times/6e6b7704c627.jpg": 0.6548,
+    "assets/times/967500a05cb3.jpg": 0.6173,
     "assets/kinder/d50c45f2da28.jpg": 0.6099,
     "assets/kinder/b2e4a15a8519.jpg": 0.5748,
     "assets/kids/2522c9f4e4fb.jpg": 0.5742,
@@ -99,10 +100,11 @@
       "level": "times",
       "title": "TOP NEWS TIMES",
       "quota": 10,
-      "found": 5,
+      "found": 6,
       "status": "short",
-      "message": "부족 5건 — 5/10건으로 조판",
+      "message": "부족 4건 — 6/10건으로 조판",
       "selected": [
+        "The True Cost of Chronic Disease",
         "When School Skills Don't Match Job Needs",
         "Better Forest Management Can Reduce Wildfire Damage",
         "Undersea Cables Keep the World Connected",
@@ -180,12 +182,12 @@
       "level": "times",
       "title": "TOP NEWS TIMES",
       "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-08-24/TopNews_Times_2026-08-24.pdf",
-      "pages": 7,
-      "expected_pages": 7,
+      "pages": 8,
+      "expected_pages": 8,
       "cover": "feature",
       "cover_feature": {
-        "page": 4,
-        "article_no": 3,
+        "page": 5,
+        "article_no": 4,
         "title": "Undersea Cables Keep the World Connected",
         "photo": "assets/times/7c0efaaa118d.jpg",
         "score": 0.8714,
@@ -194,7 +196,7 @@
       "photos_missing": 0,
       "error": null,
       "quota": 10,
-      "found": 5,
+      "found": 6,
       "quota_status": "short"
     }
   ]
