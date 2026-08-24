@@ -4,7 +4,7 @@
     "2026-08-24",
     "2026-08-30"
   ],
-  "generated_at": "2026-08-24T00:56:15",
+  "generated_at": "2026-08-24T00:57:21",
   "excluded_levels": [
     "junior_m"
   ],
@@ -16,6 +16,7 @@
   },
   "photo_scores": {
     "assets/kids/5d638618bb46.jpg": 0.841,
+    "assets/kids/4c9b68a66303.jpg": 0.8043,
     "assets/kinder/cc88e2cac347.jpg": 0.718,
     "assets/kinder/d50c45f2da28.jpg": 0.6099,
     "assets/kinder/b2e4a15a8519.jpg": 0.5748,
@@ -47,10 +48,11 @@
       "level": "kids",
       "title": "TOP NEWS KIDS",
       "quota": 6,
-      "found": 1,
+      "found": 2,
       "status": "short",
-      "message": "부족 5건 — 1/6건으로 조판",
+      "message": "부족 4건 — 2/6건으로 조판",
       "selected": [
+        "Why Do We See Lightning Before Thunder?",
         "How Arctic Foxes Stay Warm in Winter"
       ],
       "dropped": []
@@ -122,12 +124,12 @@
       "level": "kids",
       "title": "TOP NEWS KIDS",
       "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-08-24/TopNews_Kids_2026-08-24.pdf",
-      "pages": 3,
-      "expected_pages": 3,
+      "pages": 4,
+      "expected_pages": 4,
       "cover": "feature",
       "cover_feature": {
-        "page": 2,
-        "article_no": 1,
+        "page": 3,
+        "article_no": 2,
         "title": "How Arctic Foxes Stay Warm in Winter",
         "photo": "assets/kids/5d638618bb46.jpg",
         "score": 0.841,
@@ -136,7 +138,7 @@
       "photos_missing": 0,
       "error": null,
       "quota": 6,
-      "found": 1,
+      "found": 2,
       "quota_status": "short"
     }
   ]

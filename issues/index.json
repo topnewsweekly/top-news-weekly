@@ -6,7 +6,7 @@
         "2026-08-24",
         "2026-08-30"
       ],
-      "generated_at": "2026-08-24T00:56:15",
+      "generated_at": "2026-08-24T00:57:21",
       "format": {
         "name": "tabloid",
         "width_mm": 279,
@@ -31,12 +31,12 @@
           "name": "TopNews_Kids_2026-08-24.pdf",
           "media": "TOP NEWS KIDS",
           "level": "kids",
-          "pages": 3,
-          "articles": 1,
+          "pages": 4,
+          "articles": 2,
           "quota": 6,
-          "found": 1,
+          "found": 2,
           "quota_status": "short",
-          "size_kb": 352
+          "size_kb": 442
         }
       ]
     }
