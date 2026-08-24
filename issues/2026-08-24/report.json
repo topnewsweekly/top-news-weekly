@@ -4,7 +4,7 @@
     "2026-08-24",
     "2026-08-30"
   ],
-  "generated_at": "2026-08-24T02:41:57",
+  "generated_at": "2026-08-24T02:43:23",
   "excluded_levels": [
     "junior_m"
   ],
@@ -15,17 +15,19 @@
     "times": "feature"
   },
   "photo_scores": {
-    "assets/junior/22e982cc4c86.jpg": 0.8853,
+    "assets/junior/22e982cc4c86.jpg": 0.8852,
     "assets/junior/1b1e941f0a6b.jpg": 0.8766,
     "assets/times/7c0efaaa118d.jpg": 0.8714,
     "assets/kids/5d638618bb46.jpg": 0.841,
     "assets/kids/be10b030a078.jpg": 0.8326,
     "assets/kids/4c9b68a66303.jpg": 0.8043,
+    "assets/junior/22d288168998.jpg": 0.7728,
     "assets/junior/0c33ff6a370a.jpg": 0.7657,
     "assets/times/59fa77a94f4f.jpg": 0.7215,
     "assets/kinder/cc88e2cac347.jpg": 0.718,
     "assets/times/6b6708aa9c33.jpg": 0.6976,
     "assets/junior/d05aba466319.jpg": 0.6931,
+    "assets/times/c2085cd14e43.jpg": 0.6883,
     "assets/junior/f71d984ed72a.jpg": 0.6654,
     "assets/kids/768f2e458ae6.jpg": 0.6553,
     "assets/times/6e6b7704c627.jpg": 0.6548,
@@ -85,10 +87,11 @@
       "level": "junior",
       "title": "TOP NEWS JUNIOR",
       "quota": 8,
-      "found": 7,
-      "status": "short",
-      "message": "부족 1건 — 7/8건으로 조판",
+      "found": 8,
+      "status": "ok",
+      "message": "규정 충족 (8/8)",
       "selected": [
+        "Turn It Down: Earphones and Hearing Loss",
         "Balancing Sports and Studies at School",
         "Racing to Save the World's Lost Languages",
         "Museums Around the World Return Old Artifacts",
@@ -103,10 +106,11 @@
       "level": "times",
       "title": "TOP NEWS TIMES",
       "quota": 10,
-      "found": 9,
-      "status": "short",
-      "message": "부족 1건 — 9/10건으로 조판",
+      "found": 10,
+      "status": "ok",
+      "message": "규정 충족 (10/10)",
       "selected": [
+        "Older Workers Face a Tough Return to Work",
         "Cities Find New Ways to Reuse Water",
         "When Food Aid Hurts More Than It Helps",
         "Can Local Governments Stand on Their Own?",
@@ -167,33 +171,33 @@
       "level": "junior",
       "title": "TOP NEWS JUNIOR",
       "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-08-24/TopNews_Junior_2026-08-24.pdf",
-      "pages": 9,
-      "expected_pages": 9,
+      "pages": 10,
+      "expected_pages": 10,
       "cover": "feature",
       "cover_feature": {
-        "page": 8,
-        "article_no": 7,
+        "page": 9,
+        "article_no": 8,
         "title": "Why School Safety Zones Are Hard to Follow",
         "photo": "assets/junior/22e982cc4c86.jpg",
-        "score": 0.8853,
+        "score": 0.8852,
         "forced": false
       },
       "photos_missing": 0,
       "error": null,
       "quota": 8,
-      "found": 7,
-      "quota_status": "short"
+      "found": 8,
+      "quota_status": "ok"
     },
     {
       "level": "times",
       "title": "TOP NEWS TIMES",
       "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-08-24/TopNews_Times_2026-08-24.pdf",
-      "pages": 11,
-      "expected_pages": 11,
+      "pages": 12,
+      "expected_pages": 12,
       "cover": "feature",
       "cover_feature": {
-        "page": 8,
-        "article_no": 7,
+        "page": 9,
+        "article_no": 8,
         "title": "Undersea Cables Keep the World Connected",
         "photo": "assets/times/7c0efaaa118d.jpg",
         "score": 0.8714,
@@ -202,8 +206,8 @@
       "photos_missing": 0,
       "error": null,
       "quota": 10,
-      "found": 9,
-      "quota_status": "short"
+      "found": 10,
+      "quota_status": "ok"
     }
   ]
 }
