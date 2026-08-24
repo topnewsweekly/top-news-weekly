@@ -4,7 +4,7 @@
     "2026-08-24",
     "2026-08-30"
   ],
-  "generated_at": "2026-08-24T00:54:34",
+  "generated_at": "2026-08-24T00:56:15",
   "excluded_levels": [
     "junior_m"
   ],
@@ -15,8 +15,10 @@
     "times": "feature"
   },
   "photo_scores": {
+    "assets/kids/5d638618bb46.jpg": 0.841,
     "assets/kinder/cc88e2cac347.jpg": 0.718,
     "assets/kinder/d50c45f2da28.jpg": 0.6099,
+    "assets/kinder/b2e4a15a8519.jpg": 0.5748,
     "assets/kinder/b0a00bb66908.jpg": 0.2718
   },
   "format": {
@@ -30,10 +32,11 @@
       "level": "kinder",
       "title": "TOP NEWS KINDER",
       "quota": 4,
-      "found": 3,
-      "status": "short",
-      "message": "부족 1건 — 3/4건으로 조판",
+      "found": 4,
+      "status": "ok",
+      "message": "규정 충족 (4/4)",
       "selected": [
+        "Make Fun Shadows With Light!",
         "Why Are Soap Bubbles Always Round?",
         "Why Do Birds Sing Every Morning?",
         "Why Do Snails Move So Slowly?"
@@ -44,10 +47,12 @@
       "level": "kids",
       "title": "TOP NEWS KIDS",
       "quota": 6,
-      "found": 0,
-      "status": "empty",
-      "message": "수집 0건 — 지면 생성 불가 (규정 6)",
-      "selected": [],
+      "found": 1,
+      "status": "short",
+      "message": "부족 5건 — 1/6건으로 조판",
+      "selected": [
+        "How Arctic Foxes Stay Warm in Winter"
+      ],
       "dropped": []
     },
     {
@@ -73,16 +78,6 @@
   ],
   "output": [
     {
-      "level": "kids",
-      "title": "TOP NEWS KIDS",
-      "pdf": null,
-      "pages": 0,
-      "error": "기사 0건 — 지면 생성 생략",
-      "quota": 6,
-      "found": 0,
-      "quota_status": "empty"
-    },
-    {
       "level": "junior",
       "title": "TOP NEWS JUNIOR",
       "pdf": null,
@@ -106,12 +101,12 @@
       "level": "kinder",
       "title": "TOP NEWS KINDER",
       "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-08-24/TopNews_Kinder_2026-08-24.pdf",
-      "pages": 5,
-      "expected_pages": 5,
+      "pages": 6,
+      "expected_pages": 6,
       "cover": "feature",
       "cover_feature": {
-        "page": 4,
-        "article_no": 3,
+        "page": 5,
+        "article_no": 4,
         "title": "Why Do Snails Move So Slowly?",
         "photo": "assets/kinder/cc88e2cac347.jpg",
         "score": 0.718,
@@ -120,7 +115,28 @@
       "photos_missing": 0,
       "error": null,
       "quota": 4,
-      "found": 3,
+      "found": 4,
+      "quota_status": "ok"
+    },
+    {
+      "level": "kids",
+      "title": "TOP NEWS KIDS",
+      "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-08-24/TopNews_Kids_2026-08-24.pdf",
+      "pages": 3,
+      "expected_pages": 3,
+      "cover": "feature",
+      "cover_feature": {
+        "page": 2,
+        "article_no": 1,
+        "title": "How Arctic Foxes Stay Warm in Winter",
+        "photo": "assets/kids/5d638618bb46.jpg",
+        "score": 0.841,
+        "forced": false
+      },
+      "photos_missing": 0,
+      "error": null,
+      "quota": 6,
+      "found": 1,
       "quota_status": "short"
     }
   ]

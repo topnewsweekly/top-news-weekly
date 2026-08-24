@@ -6,7 +6,7 @@
         "2026-08-24",
         "2026-08-30"
       ],
-      "generated_at": "2026-08-24T00:54:34",
+      "generated_at": "2026-08-24T00:56:15",
       "format": {
         "name": "tabloid",
         "width_mm": 279,
@@ -19,12 +19,24 @@
           "name": "TopNews_Kinder_2026-08-24.pdf",
           "media": "TOP NEWS KINDER",
           "level": "kinder",
-          "pages": 5,
-          "articles": 3,
+          "pages": 6,
+          "articles": 4,
           "quota": 4,
-          "found": 3,
+          "found": 4,
+          "quota_status": "ok",
+          "size_kb": 525
+        },
+        {
+          "file": "issues/2026-08-24/TopNews_Kids_2026-08-24.pdf",
+          "name": "TopNews_Kids_2026-08-24.pdf",
+          "media": "TOP NEWS KIDS",
+          "level": "kids",
+          "pages": 3,
+          "articles": 1,
+          "quota": 6,
+          "found": 1,
           "quota_status": "short",
-          "size_kb": 466
+          "size_kb": 352
         }
       ]
     }
