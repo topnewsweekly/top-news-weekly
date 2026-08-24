@@ -4,7 +4,7 @@
     "2026-08-24",
     "2026-08-30"
   ],
-  "generated_at": "2026-08-24T01:01:31",
+  "generated_at": "2026-08-24T01:02:29",
   "excluded_levels": [
     "junior_m"
   ],
@@ -15,11 +15,12 @@
     "times": "feature"
   },
   "photo_scores": {
-    "assets/junior/22e982cc4c86.jpg": 0.8853,
+    "assets/junior/22e982cc4c86.jpg": 0.8852,
     "assets/kids/5d638618bb46.jpg": 0.841,
     "assets/kids/be10b030a078.jpg": 0.8326,
     "assets/kids/4c9b68a66303.jpg": 0.8043,
     "assets/kinder/cc88e2cac347.jpg": 0.718,
+    "assets/junior/f71d984ed72a.jpg": 0.6654,
     "assets/kids/768f2e458ae6.jpg": 0.6553,
     "assets/kinder/d50c45f2da28.jpg": 0.6099,
     "assets/kinder/b2e4a15a8519.jpg": 0.5748,
@@ -70,10 +71,11 @@
       "level": "junior",
       "title": "TOP NEWS JUNIOR",
       "quota": 8,
-      "found": 1,
+      "found": 2,
       "status": "short",
-      "message": "부족 7건 — 1/8건으로 조판",
+      "message": "부족 6건 — 2/8건으로 조판",
       "selected": [
+        "Repair Shops Are Making a Comeback",
         "Why School Safety Zones Are Hard to Follow"
       ],
       "dropped": []
@@ -146,21 +148,21 @@
       "level": "junior",
       "title": "TOP NEWS JUNIOR",
       "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-08-24/TopNews_Junior_2026-08-24.pdf",
-      "pages": 3,
-      "expected_pages": 3,
+      "pages": 4,
+      "expected_pages": 4,
       "cover": "feature",
       "cover_feature": {
-        "page": 2,
-        "article_no": 1,
+        "page": 3,
+        "article_no": 2,
         "title": "Why School Safety Zones Are Hard to Follow",
         "photo": "assets/junior/22e982cc4c86.jpg",
-        "score": 0.8853,
+        "score": 0.8852,
         "forced": false
       },
       "photos_missing": 0,
       "error": null,
       "quota": 8,
-      "found": 1,
+      "found": 2,
       "quota_status": "short"
     }
   ]
