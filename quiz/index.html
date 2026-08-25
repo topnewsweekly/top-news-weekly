@@ -230,11 +230,10 @@ const TYPE_NAME = { match:'짝 맞추기', choice:'단어 뜻', scramble:'문장
 const GAUGE_ORDER = ['match','scramble','roleplay','fix'];
 const GAUGES = ['match','choice','scramble','roleplay','fix'];
 
-/* 레벨별 한 판 문항 수. 기사에 든 단어보다 많을 수는 없으므로
-   카드 수와 이 값 중 작은 쪽을 쓴다. */
-const PER_LEVEL = { kinder:4, kids:5, junior:6, junior_m:7, times:7 };
-const quota = lv => PER_LEVEL[lv] || 6;
-const sizeOf = iss => Math.min(iss.cards.length, quota(iss.level));
+/* 짝 맞추기는 기사 단어 전부. 문항은 문장 순서 3 + 상황 판단 3 고정. */
+const N_SCRAMBLE = 3;
+const N_ROLEPLAY = 3;
+const sizeOf = () => N_SCRAMBLE + N_ROLEPLAY;
 
 let DATA = {}, level = null, issue = null, ST = null;
 let steps = [], pos = 0, wrong = [], round = 1, cur = null, answered = false;
