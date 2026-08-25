@@ -230,7 +230,11 @@ const TYPE_NAME = { match:'짝 맞추기', choice:'단어 뜻', scramble:'문장
 const GAUGE_ORDER = ['match','scramble','roleplay','fix'];
 const GAUGES = ['match','choice','scramble','roleplay','fix'];
 
-/* 짝 맞추기는 기사 단어 전부. 문항은 문장 순서 3 + 상황 판단 3 고정. */
+/* 짝 맞추기 쌍 수는 매체별. 기사에 든 단어보다 많을 수는 없다. */
+const MATCH_PAIRS = { kinder:4, kids:6, junior:8, junior_m:8, times:10 };
+const pairsOf = iss => Math.min(iss.cards.length, MATCH_PAIRS[iss.level] || 7);
+
+/* 문항은 문장 순서 3 + 상황 판단 3 고정. */
 const N_SCRAMBLE = 3;
 const N_ROLEPLAY = 3;
 const sizeOf = () => N_SCRAMBLE + N_ROLEPLAY;
@@ -316,7 +320,8 @@ function assignTypes(cards){
 /* ── 세션 만들기 ──────────────────────── */
 function startIssue(iss){
   issue = iss;
-  steps = [{ kind:'match', cards: iss.cards.slice() }];
+  const pairs = shuffle(iss.cards.slice()).slice(0, pairsOf(iss));
+  steps = [{ kind:'match', cards: pairs }];
   assignTypes(iss.cards.slice()).forEach(x => steps.push(x));
   pos = 0; wrong = []; round = 1;
   matchNow = null; fixNow = {ok:0,n:0};
@@ -324,7 +329,7 @@ function startIssue(iss){
   document.getElementById('playview').style.display = '';
   document.getElementById('title').textContent = iss.topic;
   document.getElementById('sub').textContent =
-    iss.level + ' · 단어 ' + iss.cards.length + '개 · 문항 ' + (steps.length - 1) + '개';
+    iss.level + ' · 짝 ' + pairs.length + '쌍 · 문항 ' + (steps.length - 1) + '개';
   step();
 }
 
@@ -750,7 +755,7 @@ function drawIssues(){
       '<div class="chips">' +
         iss.cards.map(c => '<span class="chip">' + esc(c.word) + '</span>').join('') +
       '</div>' +
-      '<div class="iss-foot"><span>단어 ' + iss.cards.length + '개 · 한 판 ' + sizeOf() + '문항</span>' +
+      '<div class="iss-foot"><span>단어 ' + iss.cards.length + '개 · 짝 ' + pairsOf(iss) + '쌍 · 문항 ' + sizeOf() + '개</span>' +
       '<span class="iss-go">시작 →</span></div>';
     b.onclick = () => startIssue(iss);
     box.appendChild(b);
