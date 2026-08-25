@@ -136,6 +136,15 @@ h1{font-family:var(--disp);font-size:24px;font-weight:700;margin:0 0 4px;letter-
 .m.gone{opacity:.16;pointer-events:none;border-style:dashed}
 .m.miss{border-color:var(--red)}
 
+/* 읽어주는 동안 그 단어를 표시. 굵기·크기는 건드리지 않는다 — 글자가 밀려
+   문장이 출렁이면 오히려 따라 읽기 어렵다. */
+.wd{border-radius:2px;padding:0 1px;margin:0 -1px}
+.wd.on{background:rgba(201,138,34,.32)}
+
+/* 내용 확인 — 판단할 문장이 주인공이라 크게 둔다 */
+.tf-s{font-family:var(--disp);font-size:21px;line-height:1.5;text-align:center;
+  color:var(--ink);margin:14px auto 0;max-width:460px;word-break:keep-all}
+
 .opts{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:18px}
 .reply{display:flex;flex-direction:column;gap:8px;margin-top:16px}
 .opt{font-family:var(--body);font-size:15px;padding:15px 12px;border-radius:3px;border:1px solid var(--line);
@@ -235,6 +244,11 @@ button:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
 .err{border-left:3px solid var(--amber);padding-left:14px;text-align:left}
 .err h2{font-family:var(--disp);font-size:19px;margin:0 0 10px}
 .err pre{font-family:var(--mono);font-size:11.5px;background:var(--paper);border:1px solid var(--line);padding:10px;overflow-x:auto}
+/* 폭죽 (킨더 전용) — 화면 위에 얹는 레이어라 레이아웃에 영향을 주지 않는다 */
+#fx{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:9}
+#fx i{position:absolute;display:block;width:9px;height:9px;border-radius:2px;will-change:transform,opacity}
+#fx i.round{border-radius:50%}
+
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 @media (max-width:520px){.term{font-size:32px}.opts{grid-template-columns:1fr}.m{font-size:14px;padding:12px 6px}.m.en{font-size:17px}
   .gate{gap:10px}.gcard{min-height:150px;padding:15px}.gcard .gname{font-size:22px}.gcard .gmeta{font-size:10px}}
@@ -268,17 +282,19 @@ button:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
     <div class="tools">
       <button id="restart">이 기사 다시</button>
       <label><input type="checkbox" id="autoplay"> 발음 자동 재생</label>
+      <label><input type="checkbox" id="sfx" checked> 효과음</label>
     </div>
   </div>
 
   <p class="note" id="note"></p>
 </div>
+<div id="fx" aria-hidden="true"></div>
 
 <script>
 const SRC = 'cards.json';
-const TYPE_NAME = { match:'짝 맞추기', choice:'단어 뜻', scramble:'문장 순서', roleplay:'상황 판단', fix:'오답 교정' };
-const GAUGE_ORDER = ['match','scramble','roleplay','fix'];
-const GAUGES = ['match','choice','scramble','roleplay','fix'];
+const TYPE_NAME = { match:'짝 맞추기', tf:'내용 확인', choice:'단어 뜻', scramble:'문장 순서', roleplay:'상황 판단', fix:'오답 교정' };
+const GAUGE_ORDER = ['match','tf','scramble','roleplay','fix'];
+const GAUGES = ['match','tf','choice','scramble','roleplay','fix'];
 
 /* 짝 맞추기 쌍 수는 매체별. 기사에 든 단어보다 많을 수는 없다. */
 const MATCH_PAIRS = { kinder:4, kids:6, junior:8, junior_m:8, times:10 };
@@ -287,7 +303,12 @@ const pairsOf = iss => Math.min(iss.cards.length, MATCH_PAIRS[iss.level] || 7);
 /* 문항은 문장 순서 3 + 상황 판단 3 고정. */
 const N_SCRAMBLE = 3;
 const N_ROLEPLAY = 3;
-const sizeOf = () => N_SCRAMBLE + N_ROLEPLAY;
+
+/* 기사 내용을 묻는 문항 수는 매체별. 나머지 문항이 전부 어휘·문법이라,
+   이것만이 '기사를 읽었는지'를 묻는다. 재료(워크북)보다 많이 낼 수는 없다. */
+const N_TF = { kinder:3, kids:3, junior:4, junior_m:4, times:4 };
+const tfOf = iss => Math.min((iss.tf || []).length, N_TF[iss.level] || 3);
+const sizeOf = iss => N_SCRAMBLE + N_ROLEPLAY + (iss ? tfOf(iss) : 0);
 
 let DATA = {}, level = null, week = null, issue = null, ST = null;
 let steps = [], pos = 0, wrong = [], round = 1, cur = null, answered = false;
@@ -305,15 +326,120 @@ function pickVoice(){
   voice = vs.find(v=>/en-US/i.test(v.lang) && /google|natural|samantha/i.test(v.name)) || vs.find(v=>/en-US/i.test(v.lang)) || vs[0] || null;
 }
 if('speechSynthesis' in window){ pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; }
-function say(t, rate, btn){
+/* 문장을 단어 조각으로 다시 그린다. 각 조각에 원문에서의 위치를 붙여두면
+   boundary 이벤트의 charIndex 로 지금 읽는 단어를 찾을 수 있다. */
+function paintWords(el, text){
+  const re = /\S+/g;
+  let html = '', last = 0, m;
+  while((m = re.exec(text))){
+    html += esc(text.slice(last, m.index)) +
+      '<span class="wd" data-s="' + m.index + '" data-e="' + (m.index + m[0].length) + '">' +
+      esc(m[0]) + '</span>';
+    last = m.index + m[0].length;
+  }
+  el.innerHTML = html + esc(text.slice(last));
+  return [...el.querySelectorAll('.wd')];
+}
+
+/* markEl 을 주면 읽는 동안 그 단어에 표시가 따라간다. boundary 이벤트를
+   안 주는 브라우저(모바일 사파리 등)에서는 표시만 빠지고 소리는 그대로 난다. */
+function say(t, rate, btn, markEl){
   if(!('speechSynthesis' in window) || !t) return;
   speechSynthesis.cancel();
   const u = new SpeechSynthesisUtterance(t);
   if(voice) u.voice = voice;
   u.lang = voice ? voice.lang : 'en-US'; u.rate = rate || 0.9;
-  if(btn){ btn.classList.add('playing'); u.onend = u.onerror = () => btn.classList.remove('playing'); }
+
+  const spans = markEl ? paintWords(markEl, t) : null;
+  const clear = () => spans && spans.forEach(x => x.classList.remove('on'));
+  if(spans){
+    u.onboundary = e => {
+      if(e.name && e.name !== 'word') return;
+      clear();
+      const hit = spans.find(x => e.charIndex >= +x.dataset.s && e.charIndex < +x.dataset.e);
+      if(hit) hit.classList.add('on');
+    };
+  }
+  if(btn) btn.classList.add('playing');
+  u.onend = u.onerror = () => { if(btn) btn.classList.remove('playing'); clear(); };
   speechSynthesis.speak(u);
 }
+/* ── 효과음 ───────────────────────────────
+   짝 맞추기 정답·오답 피드백. 음원 파일 없이 WebAudio로 만든다 — 받을 것도,
+   캐시할 것도 없다. AudioContext는 첫 탭(사용자 제스처) 뒤에 만들어야 iOS에서
+   소리가 난다. 소리는 부가 기능이라 실패해도 게임은 그대로 진행한다. */
+let AC = null;
+const SFX_KEY = 'quiz.sfx';
+
+function tone(freq, at, dur, type, peak){
+  const o = AC.createOscillator(), g = AC.createGain();
+  o.type = type; o.frequency.value = freq;
+  o.connect(g); g.connect(AC.destination);
+  const t = AC.currentTime + at;
+  g.gain.setValueAtTime(.0001, t);
+  g.gain.exponentialRampToValueAtTime(peak, t + .012);
+  g.gain.exponentialRampToValueAtTime(.0001, t + dur);
+  o.start(t); o.stop(t + dur + .03);
+}
+
+function sfx(kind){
+  const box = document.getElementById('sfx');
+  if(box && !box.checked) return;
+  try{
+    AC = AC || new (window.AudioContext || window.webkitAudioContext)();
+    if(AC.state === 'suspended') AC.resume();
+    if(kind === 'ok'){          // 밝게 두 음 올라간다 (B5 → E6)
+      tone(987.77,  0,   .11, 'sine', .16);
+      tone(1318.51, .09, .20, 'sine', .14);
+    }else{                      // 낮고 부드럽게 내려간다 — 야단치는 소리가 되지 않게
+      tone(311.13, 0,   .12, 'triangle', .10);
+      tone(233.08, .10, .20, 'triangle', .09);
+    }
+  }catch(e){}
+}
+
+/* ── 폭죽 (킨더 전용) ──────────────────────
+   짝을 맞출 때마다 터지므로 가볍게 유지한다 — 조각 12개, 1초 안에 사라지고
+   스스로 지운다. 애니메이션을 끈 사용자(prefers-reduced-motion)는 건너뛴다. */
+const REDUCE = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* 색은 기사마다 새로 뽑는다. 무작위 RGB는 서로 부딪혀 탁해지므로, 기준 색상
+   하나를 무작위로 정하고 그 둘레에서 고른다 — 매번 달라지되 늘 어울린다.
+   종이색(크림) 위에 얹히니 명도는 너무 밝지 않게 잡는다. */
+function makePalette(){
+  const h = Math.floor(Math.random() * 360);
+  return [0, 35, -35, 120, -120, 180].map((off, i) =>
+    `hsl(${(h + off + 360) % 360} ${62 + (i % 2) * 12}% ${44 + (i % 3) * 8}%)`);
+}
+let POP = makePalette();
+
+function burst(el){
+  // 탭이 가려져 있으면 애니메이션 시계가 멈춰 조각만 쌓인다 — 아예 만들지 않는다
+  if(REDUCE || !el || document.hidden) return;
+  const fx = document.getElementById('fx');
+  const r = el.getBoundingClientRect();
+  const cx = r.left + r.width / 2, cy = r.top + r.height / 2;
+  for(let i = 0; i < 12; i++){
+    const p = document.createElement('i');
+    if(i % 2) p.className = 'round';
+    p.style.background = POP[i % POP.length];
+    p.style.left = cx + 'px';
+    p.style.top = cy + 'px';
+    fx.appendChild(p);
+    const ang = (Math.PI * 2 * i) / 12 + Math.random() * .5;
+    const dist = 55 + Math.random() * 70;
+    const dx = Math.cos(ang) * dist;
+    const dy = Math.sin(ang) * dist + 40;      // +40 = 살짝 떨어지는 느낌
+    const a = p.animate([
+      { transform: 'translate(-50%,-50%) scale(1) rotate(0deg)', opacity: 1 },
+      { transform: `translate(calc(-50% + ${dx}px), calc(-50% + ${dy}px)) scale(.35) rotate(${(Math.random()*2-1)*300}deg)`, opacity: 0 },
+    ], { duration: 700 + Math.random() * 300, easing: 'cubic-bezier(.15,.7,.3,1)' });
+    a.onfinish = () => p.remove();
+    // onfinish 는 탭이 가려지면 오지 않는다. 타이머로 반드시 치운다.
+    setTimeout(() => p.remove(), 1600);
+  }
+}
+
 const ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
 
 /* ── 기록 ─────────────────────────────── */
@@ -370,9 +496,11 @@ function assignTypes(cards){
 /* ── 세션 만들기 ──────────────────────── */
 function startIssue(iss){
   issue = iss;
+  POP = makePalette();          // 기사마다 폭죽 색을 새로 뽑는다
   const pairs = shuffle(iss.cards.slice()).slice(0, pairsOf(iss));
-  steps = [{ kind:'match', cards: pairs }];
-  assignTypes(iss.cards.slice()).forEach(x => steps.push(x));
+  // 어휘 문항과 내용 확인 문항을 섞는다 — 내용 문항이 몰려 나오지 않게
+  const qs = shuffle([...assignTypes(iss.cards.slice()), ...tfSteps(iss)]);
+  steps = [{ kind:'match', cards: pairs }, ...qs];
   pos = 0; wrong = []; round = 1;
   matchNow = null; fixNow = {ok:0,n:0};
   show('playview');
@@ -404,6 +532,24 @@ function drawBar(){
       : '<span class="fix">틀린 것 다시 보기 · ' + Math.min(pos+1, list.length) + ' / ' + list.length + '</span><span></span>';
 }
 
+/* 워크북의 true_false → 문항. 카드(단어)가 아니라 기사 단위라 화면·복습·집계가
+   기대하는 card 모양을 최소한으로 맞춰 준다. word 는 틀린 목록에 뜨는 라벨이라
+   짧게 줄이고, 원문은 filled 에 그대로 둔다(들어보기·복습용). */
+function tfSteps(iss){
+  const items = shuffle((iss.tf || []).slice()).slice(0, tfOf(iss));
+  return items.map((q, i) => ({
+    kind: 'tf',
+    tf: q,
+    card: {
+      id: iss.id + '#tf' + i,
+      word: q.s.length > 38 ? q.s.slice(0, 37) + '…' : q.s,
+      ko: '내용 확인',
+      filled: q.s,
+      sent_ko: '',
+    },
+  }));
+}
+
 function step(){
   answered = false;
   const list = round === 1 ? steps : wrong;
@@ -414,6 +560,7 @@ function step(){
   cur = list[pos];
   drawBar();
   if(cur.kind === 'match')          renderMatch(cur.cards);
+  else if(cur.kind === 'tf')        renderTF(cur);
   else if(cur.kind === 'scramble')  renderScramble(cur.card, cur.chunks);
   else if(cur.kind === 'roleplay')  renderRoleplay(cur.card);
   else                              renderChoice(cur.card);
@@ -423,13 +570,13 @@ function step(){
 function renderBreak(){
   document.getElementById('bar').innerHTML = '';
   document.getElementById('round').innerHTML = '<span class="fix">1라운드 끝</span><span></span>';
-  const words = wrong.map(w => '<span>' + esc(w.card.word) + '</span>').join('');
+  // 무엇을 틀렸는지는 마지막 결과 화면에서 한 번에 보여준다. 여기서 미리
+  // 나열하면 같은 목록이 두 번 나오고, 다시 풀기 전에 답이 노출된다.
   document.getElementById('card').innerHTML =
     '<div class="breakcard">' +
       '<p class="big">' + wrong.length + '</p>' +
       '<h2>틀린 문항 다시 보기</h2>' +
       '<p>같은 문제로 한 번 더 나옵니다. 이번에 맞히면 오답 교정 점수가 올라갑니다.</p>' +
-      '<div class="wordlist">' + words + '</div>' +
       '<div class="btn-row"><button class="main" id="go">시작</button></div>' +
     '</div>';
   const g = document.getElementById('go');
@@ -459,11 +606,56 @@ function tail(ok, extra){
       '<button class="spk" id="sx" style="flex:0 0 auto">' + ICON + '들어보기</button>' +
       '<button class="main" id="next">다음</button></div>';
 }
-function bindTail(text, ok){
+function bindTail(text, ok, markEl){
   const sx = document.getElementById('sx');
-  sx.onclick = () => say(text, 0.9, sx);
+  sx.onclick = () => say(text, 0.9, sx, markEl);
   const nx = document.getElementById('next');
   nx.onclick = () => done(ok); nx.focus();
+}
+
+/* ── 내용 확인 (기사를 읽었는지) ───────── */
+function renderTF(x){
+  const el = document.getElementById('card');
+  const q = x.tf;
+  const young = level === 'kinder' || level === 'kids';
+  const LABEL = young ? ['맞아요', '아니에요'] : ['맞다', '아니다'];
+
+  el.innerHTML =
+    '<p class="prompt">기사 내용과 맞나요</p>' +
+    '<p class="tf-s">' + esc(q.s) + '</p>' +
+    '<div class="hear"><button class="spk" id="pl">' + ICON + '읽어주기</button></div>' +
+    '<div class="opts" id="opts"></div><div id="after"></div>';
+
+  const pl = document.getElementById('pl');
+  // 처음부터 단어 조각으로 그려 둔다. 읽어줄 때 비로소 쪼개면 그 순간
+  // 줄바꿈이 달라져 문장이 튄다.
+  const line = el.querySelector('.tf-s');
+  paintWords(line, q.s);
+  pl.onclick = () => say(q.s, 0.85, pl, line);
+  // 킨더·키즈는 아직 문장을 스스로 읽지 못하는 나이라 기본으로 읽어준다.
+  // ('발음 자동 재생'은 단어 발음용 설정이라 여기에 걸지 않는다)
+  if(young || document.getElementById('autoplay').checked){
+    setTimeout(()=>say(q.s, 0.85, pl, line), 250);
+  }
+
+  const box = document.getElementById('opts');
+  [true, false].forEach((val, n)=>{
+    const b = document.createElement('button');
+    b.className = 'opt'; b.textContent = LABEL[n];
+    b.onclick = () => {
+      if(answered) return; answered = true;
+      const ok = val === q.a;
+      [...box.children].forEach((y, k)=>{
+        y.disabled = true;
+        if((k === 0) === q.a) y.classList.add('right');
+        else if(y === b) y.classList.add('wrong');
+        else y.classList.add('dim');
+      });
+      document.getElementById('after').innerHTML = tail(ok, '');
+      bindTail(q.s, ok, line);
+    };
+    box.appendChild(b);
+  });
 }
 
 /* ── 1. 짝 맞추기 (워밍업, 채점 없음) ──── */
@@ -507,11 +699,14 @@ function renderMatch(cards){
     if(a.dataset.id === b.dataset.id){
       if(!soiled.has(a.dataset.id)) clean++;
       a.classList.add('gone'); b.classList.add('gone');
+      sfx('ok');
+      burst(a); burst(b);
       const c = cards.find(x=>x.id === a.dataset.id);
       say(c.word, 0.85);
       if(--left === 0) setTimeout(finishMatch, 400);
     }else{
       soiled.add(a.dataset.id); soiled.add(b.dataset.id);
+      sfx('no');
       a.classList.add('miss'); b.classList.add('miss');
       setTimeout(()=>{ a.classList.remove('miss'); b.classList.remove('miss'); }, 450);
     }
@@ -692,7 +887,13 @@ let lastDone = null;   // 완료 화면 복귀용
 function showReview(x){
   const c = x.card, el = document.getElementById('card');
   let body = '';
-  if(x.kind === 'roleplay' && c.rp){
+  if(x.kind === 'tf'){
+    body =
+      '<div class="rv-box"><p class="rv-lb">기사 내용과 맞나요</p>' +
+      '<p class="rv-en">' + esc(x.tf.s) + '</p></div>' +
+      '<div class="rv-box"><p class="rv-lb rv-ok">정답</p>' +
+      '<p class="rv-en">' + (x.tf.a ? '맞다 (True)' : '아니다 (False)') + '</p></div>';
+  }else if(x.kind === 'roleplay' && c.rp){
     const r = c.rp;
     body =
       '<div class="rv-box"><p class="rv-lb">' + (r.prompt ? '상황과 상대의 말' : '상황') + '</p>' +
@@ -706,10 +907,10 @@ function showReview(x){
       '<p class="rv-en">' + markWord(c.filled, c.word) + '</p>' +
       (c.sent_ko ? '<p class="rv-kr">' + esc(c.sent_ko) + '</p>' : '') + '</div>';
   }
+  const head = x.kind === 'tf' ? ''
+    : '<p class="rv-word">' + esc(c.word) + '</p><p class="rv-ko">' + esc(c.ko) + '</p>';
   el.innerHTML =
-    '<div class="review">' +
-      '<p class="rv-word">' + esc(c.word) + '</p>' +
-      '<p class="rv-ko">' + esc(c.ko) + '</p>' + body +
+    '<div class="review">' + head + body +
       '<div class="btn-row">' +
         '<button class="spk" id="sv" style="flex:0 0 auto">' + ICON + '들어보기</button>' +
         '<button class="main" id="cl">닫기</button></div>' +
@@ -765,7 +966,7 @@ function finish(again){
 
   const fixedCnt = missed.filter(x => x.fixed).length;
   const m = missed.length
-    ? '<div class="missed"><h3>이번에 틀린 단어 — 눌러서 정답 보기</h3><ul>' +
+    ? '<div class="missed"><h3>이번에 틀린 문항 — 눌러서 정답 보기</h3><ul>' +
       missed.map((x,i)=>'<li><button data-k="' + i + '">' +
         '<span>' + esc(x.card.word) + (x.fixed ? '' : '<span class="twice">두 번 틀림</span>') + '</span>' +
         '<span><em>' + esc(x.card.ko) + '</em> <span class="arw">보기 →</span></span></button></li>').join('') +
@@ -804,7 +1005,7 @@ function drawIssues(){
       '<div class="chips">' +
         iss.cards.map(c => '<span class="chip">' + esc(c.word) + '</span>').join('') +
       '</div>' +
-      '<div class="iss-foot"><span>단어 ' + iss.cards.length + '개 · 짝 ' + pairsOf(iss) + '쌍 · 문항 ' + sizeOf() + '개</span>' +
+      '<div class="iss-foot"><span>단어 ' + iss.cards.length + '개 · 짝 ' + pairsOf(iss) + '쌍 · 문항 ' + sizeOf(iss) + '개</span>' +
       '<span class="iss-go">시작 →</span></div>';
     b.onclick = () => startIssue(iss);
     box.appendChild(b);
@@ -902,6 +1103,7 @@ function drawWeeks(){
 /* ── 화면 전환 ─────────────────────────── */
 function show(id){
   speechSynthesis && speechSynthesis.cancel();
+  document.getElementById('fx').innerHTML = '';   // 화면을 뜨면 남은 폭죽도 치운다
   ['gateview','weekview','pickview','playview'].forEach(v=>{
     document.getElementById(v).style.display = v === id ? '' : 'none';
   });
@@ -942,6 +1144,13 @@ document.getElementById('back').onclick = toList;
 document.getElementById('to-weeks').onclick = toWeeks;
 document.getElementById('to-gate').onclick = toGate;
 document.getElementById('restart').onclick = () => startIssue(issue);
+
+/* 효과음 켬/끔은 기억한다 — 수업 중엔 꺼두고 쓰는 경우가 있다 */
+(() => {
+  const box = document.getElementById('sfx');
+  try{ box.checked = localStorage.getItem(SFX_KEY) !== 'off'; }catch(e){}
+  box.onchange = () => { try{ localStorage.setItem(SFX_KEY, box.checked ? 'on' : 'off'); }catch(e){} };
+})();
 
 /* ── 부팅 ─────────────────────────────── */
 (async () => {

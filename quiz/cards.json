@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-25 14:50:20",
+ "generated": "2026-08-25 16:34:12",
  "levels": {
   "kinder": [
    {
@@ -8,6 +8,24 @@
     "topic": "비눗방울은 왜 둥글까",
     "section": "과학",
     "week": "2026-08-24",
+    "tf": [
+     {
+      "s": "A bubble is made of soap and water.",
+      "a": true
+     },
+     {
+      "s": "Bubbles are made of juice and water.",
+      "a": false
+     },
+     {
+      "s": "Air gets trapped inside a bubble.",
+      "a": true
+     },
+     {
+      "s": "Bubbles can be square or triangle shapes.",
+      "a": false
+     }
+    ],
     "cards": [
      {
       "id": "kinder:bubble",
@@ -229,6 +247,24 @@
     "topic": "새는 왜 아침에 노래할까",
     "section": "과학",
     "week": "2026-08-24",
+    "tf": [
+     {
+      "s": "Birds sing in the morning.",
+      "a": true
+     },
+     {
+      "s": "Birds sing because they are hungry.",
+      "a": false
+     },
+     {
+      "s": "Sound goes far in quiet air.",
+      "a": true
+     },
+     {
+      "s": "Only one bird can hear another bird sing.",
+      "a": false
+     }
+    ],
     "cards": [
      {
       "id": "kinder:sing",
@@ -450,6 +486,24 @@
     "topic": "달팽이는 왜 느리게 갈까",
     "section": "과학",
     "week": "2026-08-24",
+    "tf": [
+     {
+      "s": "A snail has a soft body and a hard shell.",
+      "a": true
+     },
+     {
+      "s": "Snails move very fast.",
+      "a": false
+     },
+     {
+      "s": "Snails make slime to help them slide on the ground.",
+      "a": true
+     },
+     {
+      "s": "Snails hide under a rock when danger comes.",
+      "a": false
+     }
+    ],
     "cards": [
      {
       "id": "kinder:snail",
@@ -715,6 +769,24 @@
     "topic": "그림자놀이는 어떻게 만들까",
     "section": "과학",
     "week": "2026-08-24",
+    "tf": [
+     {
+      "s": "You need a light to make a shadow.",
+      "a": true
+     },
+     {
+      "s": "A shadow is a bright shape on the wall.",
+      "a": false
+     },
+     {
+      "s": "You can use a lamp to make shadows.",
+      "a": true
+     },
+     {
+      "s": "Light can go through your hand.",
+      "a": false
+     }
+    ],
     "cards": [
      {
       "id": "kinder:shadow",
@@ -938,6 +1010,24 @@
     "topic": "북극여우는 어떻게 겨울을 버틸까",
     "section": "과학",
     "week": "2026-08-24",
+    "tf": [
+     {
+      "s": "Arctic foxes grow a thick, fluffy coat in winter to stay warm.",
+      "a": true
+     },
+     {
+      "s": "Arctic foxes have long ears and a long nose to help them hear and smell food.",
+      "a": false
+     },
+     {
+      "s": "Arctic foxes use their tail like a blanket by wrapping it around their body.",
+      "a": true
+     },
+     {
+      "s": "Arctic foxes only eat polar bears for food in winter.",
+      "a": false
+     }
+    ],
     "cards": [
      {
       "id": "kids:temperature",
@@ -1145,6 +1235,24 @@
     "topic": "번개는 왜 소리보다 먼저 보일까",
     "section": "과학",
     "week": "2026-08-24",
+    "tf": [
+     {
+      "s": "Light travels at about 300,000 kilometers every second.",
+      "a": true
+     },
+     {
+      "s": "You hear thunder before you see lightning.",
+      "a": false
+     },
+     {
+      "s": "Lightning makes both light and sound at the same time.",
+      "a": true
+     },
+     {
+      "s": "Sound travels faster than light.",
+      "a": false
+     }
+    ],
     "cards": [
      {
       "id": "kids:lightning",
@@ -1382,6 +1490,24 @@
     "topic": "바닷물은 왜 짤까",
     "section": "과학",
     "week": "2026-08-24",
+    "tf": [
+     {
+      "s": "Rivers carry salt and minerals from rocks into the ocean.",
+      "a": true
+     },
+     {
+      "s": "Salt can evaporate along with water and leave the ocean.",
+      "a": false
+     },
+     {
+      "s": "On average, ocean water is about 3.5 percent salt.",
+      "a": true
+     },
+     {
+      "s": "The Dead Sea is about three times saltier than the ocean.",
+      "a": false
+     }
+    ],
     "cards": [
      {
       "id": "kids:salty",
@@ -1603,6 +1729,24 @@
     "topic": "자동문은 사람을 어떻게 알아볼까",
     "section": "기술",
     "week": "2026-08-24",
+    "tf": [
+     {
+      "s": "A sensor is a small device that can feel things around it.",
+      "a": true
+     },
+     {
+      "s": "A microwave sensor uses heat from your body to detect you.",
+      "a": false
+     },
+     {
+      "s": "When waves from a microwave sensor hit a moving person, they bounce back differently.",
+      "a": true
+     },
+     {
+      "s": "Most automatic doors only use one type of sensor at a time.",
+      "a": false
+     }
+    ],
     "cards": [
      {
       "id": "kids:sensor",
@@ -1892,6 +2036,24 @@
     "topic": "버려진 어망이 바다에서 하는 일",
     "section": "환경",
     "week": "2026-08-24",
+    "tf": [
+     {
+      "s": "Lost fishing nets sink to the bottom of the ocean and disappear quickly.",
+      "a": false
+     },
+     {
+      "s": "Animals trapped in ghost nets often die because they cannot reach the surface to breathe.",
+      "a": true
+     },
+     {
+      "s": "Ghost nets are easy for animals to see underwater.",
+      "a": false
+     },
+     {
+      "s": "Volunteer divers help by finding and pulling ghost nets out of the ocean.",
+      "a": true
+     }
+    ],
     "cards": [
      {
       "id": "kids:net",
@@ -2129,6 +2291,24 @@
     "topic": "세계의 전통 놀이는 어떻게 다를까",
     "section": "문화",
     "week": "2026-08-24",
+    "tf": [
+     {
+      "s": "In Kabaddi, the player must keep chanting 'kabaddi, kabaddi' to show they are still on one breath.",
+      "a": true
+     },
+     {
+      "s": "Boca de Sapo is a traditional game from Sweden.",
+      "a": false
+     },
+     {
+      "s": "In Kubb, players throw wooden sticks to knock down wooden blocks.",
+      "a": true
+     },
+     {
+      "s": "In Boca de Sapo, players throw a coin into a large hole in a metal box.",
+      "a": false
+     }
+    ],
     "cards": [
      {
       "id": "kids:traditional",
@@ -2358,6 +2538,24 @@
     "topic": "퀴즈",
     "section": "문화",
     "week": "2026-08-24",
+    "tf": [
+     {
+      "s": "Quizzes have only been popular since the invention of smartphones.",
+      "a": false
+     },
+     {
+      "s": "Some quizzes on TV attract millions of viewers around the world.",
+      "a": true
+     },
+     {
+      "s": "Only teachers and professionals are allowed to make quizzes.",
+      "a": false
+     },
+     {
+      "s": "Teachers use quizzes in class to help students check what they remember from their lessons.",
+      "a": true
+     }
+    ],
     "cards": [
      {
       "id": "kids:quiz",
@@ -2605,6 +2803,24 @@
     "topic": "학교 앞 안전 구역이 지켜지지 않는 이유",
     "section": "사회",
     "week": "2026-08-24",
+    "tf": [
+     {
+      "s": "All drivers in school safety zones follow the rules carefully.",
+      "a": false
+     },
+     {
+      "s": "One reason drivers break school zone rules is that they are in a hurry.",
+      "a": true
+     },
+     {
+      "s": "Every school has a speed camera to catch drivers who go too fast.",
+      "a": false
+     },
+     {
+      "s": "Parents and teachers want better signs and more cameras near schools.",
+      "a": true
+     }
+    ],
     "cards": [
      {
       "id": "junior:safety zone",
@@ -2842,6 +3058,24 @@
     "topic": "옷을 고쳐 입는 수선 가게가 늘어난다",
     "section": "환경",
     "week": "2026-08-24",
+    "tf": [
+     {
+      "s": "Fast fashion means buying cheap clothes very often.",
+      "a": true
+     },
+     {
+      "s": "Repair shops only fix broken zippers and nothing else.",
+      "a": false
+     },
+     {
+      "s": "Repairing clothes can help save money and reduce waste in landfills.",
+      "a": true
+     },
+     {
+      "s": "Only older people are joining the slow fashion movement.",
+      "a": false
+     }
+    ],
     "cards": [
      {
       "id": "junior:repair",
@@ -3131,6 +3365,24 @@
     "topic": "번역 이어폰이 바꾸는 여행",
     "section": "기술",
     "week": "2026-08-24",
+    "tf": [
+     {
+      "s": "Translation earbuds change a foreign language into your own language within seconds.",
+      "a": true
+     },
+     {
+      "s": "The Pilot earpiece was made by Google.",
+      "a": false
+     },
+     {
+      "s": "Translation earbuds can help travelers talk to local people without knowing their language.",
+      "a": true
+     },
+     {
+      "s": "Translation earbuds are already a very common travel tool used by most people.",
+      "a": false
+     }
+    ],
     "cards": [
      {
       "id": "junior:translate",
@@ -3384,6 +3636,24 @@
     "topic": "중고 교과서가 오가는 이유",
     "section": "경제",
     "week": "2026-08-24",
+    "tf": [
+     {
+      "s": "New textbooks are costly partly because publishers spend money writing, printing, and updating them.",
+      "a": true
+     },
+     {
+      "s": "In the used textbook market, only the buyer benefits because they pay less money.",
+      "a": false
+     },
+     {
+      "s": "Some schools create their own exchange programs so that students can trade textbooks with one another.",
+      "a": true
+     },
+     {
+      "s": "Publishers release new editions in order to help students save money on used books.",
+      "a": false
+     }
+    ],
     "cards": [
      {
       "id": "junior:expensive",
@@ -3624,6 +3894,24 @@
     "topic": "박물관이 유물을 돌려주는 문제",
     "section": "문화",
     "week": "2026-08-24",
+    "tf": [
+     {
+      "s": "Germany and France have returned artifacts to Nigeria in recent years.",
+      "a": true
+     },
+     {
+      "s": "All museums around the world have agreed to return objects to their home countries.",
+      "a": false
+     },
+     {
+      "s": "Repatriation means returning an object to the country it originally came from.",
+      "a": true
+     },
+     {
+      "s": "The British Museum has already returned all the sculptures that Greece has asked for.",
+      "a": false
+     }
+    ],
     "cards": [
      {
       "id": "junior:artifact",
@@ -3913,6 +4201,24 @@
     "topic": "사라져가는 언어를 기록하는 사람들",
     "section": "세계",
     "week": "2026-08-24",
+    "tf": [
+     {
+      "s": "About 7,000 languages exist in the world today.",
+      "a": true
+     },
+     {
+      "s": "When the last speaker of a language dies, a new language is created to replace it.",
+      "a": false
+     },
+     {
+      "s": "Field linguists travel to remote areas to meet speakers of endangered languages.",
+      "a": true
+     },
+     {
+      "s": "Wikitongues is a project that prints physical books to preserve endangered languages.",
+      "a": false
+     }
+    ],
     "cards": [
      {
       "id": "junior:disappear",
@@ -4206,6 +4512,24 @@
     "topic": "학교 운동부와 공부의 균형",
     "section": "스포츠",
     "week": "2026-08-24",
+    "tf": [
+     {
+      "s": "Student athletes sometimes practice for two or more hours after school.",
+      "a": true
+     },
+     {
+      "s": "Schools never set any rules about grades for students who play on sports teams.",
+      "a": false
+     },
+     {
+      "s": "Physical tiredness from sports can make studying more difficult for student athletes.",
+      "a": true
+     },
+     {
+      "s": "The article says that playing sports always makes it impossible to study well.",
+      "a": false
+     }
+    ],
     "cards": [
      {
       "id": "junior:athlete",
@@ -4467,6 +4791,24 @@
     "topic": "이어폰 볼륨과 청력 손상",
     "section": "건강",
     "week": "2026-08-24",
+    "tf": [
+     {
+      "s": "The tiny hair cells inside the ear can grow back after they are damaged by loud sounds.",
+      "a": false
+     },
+     {
+      "s": "Sounds similar to heavy street traffic can start to harm your ears after just a couple of hours.",
+      "a": true
+     },
+     {
+      "s": "Health experts recommend keeping your volume below 60 percent of the maximum level.",
+      "a": true
+     },
+     {
+      "s": "In-ear earphones are generally safer for your ears than over-ear headphones.",
+      "a": false
+     }
+    ],
     "cards": [
      {
       "id": "junior:permanent",
@@ -4722,6 +5064,24 @@
     "topic": "반도체 보조금 경쟁의 득실",
     "section": "경제",
     "week": "2026-08-24",
+    "tf": [
+     {
+      "s": "The United States passed the CHIPS and Science Act in 2022, committing around $52 billion to support chip manufacturing and research.",
+      "a": true
+     },
+     {
+      "s": "According to the article, most of the world's chip production is concentrated in Japan and South Korea.",
+      "a": false
+     },
+     {
+      "s": "Supporters of the U.S. CHIPS Act claim that the law has helped create more than 120,000 jobs.",
+      "a": true
+     },
+     {
+      "s": "Intel successfully used U.S. government support to avoid any major financial problems.",
+      "a": false
+     }
+    ],
     "cards": [
      {
       "id": "times:semiconductor",
@@ -4999,6 +5359,24 @@
     "topic": "AI 번역이 바꾸는 통번역 직업",
     "section": "기술",
     "week": "2026-08-24",
+    "tf": [
+     {
+      "s": "AI translation tools have become more powerful and can now convert speech or text between languages in seconds.",
+      "a": true
+     },
+     {
+      "s": "According to a study, translation job volume dropped by roughly 19 percent after ChatGPT became widely available.",
+      "a": false
+     },
+     {
+      "s": "In medical and legal settings, small translation mistakes can have serious consequences.",
+      "a": true
+     },
+     {
+      "s": "The article suggests that human translators will completely disappear because of AI tools.",
+      "a": false
+     }
+    ],
     "cards": [
      {
       "id": "times:interpreter",
@@ -5216,6 +5594,24 @@
     "topic": "해저 케이블과 통신 안보",
     "section": "기술",
     "week": "2026-08-24",
+    "tf": [
+     {
+      "s": "More than half of the world's international internet traffic travels through undersea cables.",
+      "a": true
+     },
+     {
+      "s": "Undersea cables carry only financial transactions and are not used for everyday communication.",
+      "a": false
+     },
+     {
+      "s": "A single break in an undersea cable can disrupt communications for days or even weeks.",
+      "a": true
+     },
+     {
+      "s": "Governments are currently reducing the number of patrols in areas near undersea cables to cut costs.",
+      "a": false
+     }
+    ],
     "cards": [
      {
       "id": "times:fiber-optic",
@@ -5493,6 +5889,24 @@
     "topic": "산불 대응과 산림 관리 정책",
     "section": "환경",
     "week": "2026-08-24",
+    "tf": [
+     {
+      "s": "Wildfires are spreading more slowly than they did in the past because of improved firefighting technology.",
+      "a": false
+     },
+     {
+      "s": "Controlled burns are intentionally set fires designed to reduce the risk of larger wildfires.",
+      "a": true
+     },
+     {
+      "s": "Experts believe that a single prevention method, if done correctly, is enough to stop wildfires completely.",
+      "a": false
+     },
+     {
+      "s": "Many governments are increasing funding for wildfire prevention efforts.",
+      "a": true
+     }
+    ],
     "cards": [
      {
       "id": "times:frequent",
@@ -5758,6 +6172,24 @@
     "topic": "직업 교육과 산업 수요의 불일치",
     "section": "교육",
     "week": "2026-08-24",
+    "tf": [
+     {
+      "s": "According to the article, employers believe that most graduates are fully prepared for the demands of modern jobs.",
+      "a": false
+     },
+     {
+      "s": "The article mentions technology, manufacturing, and healthcare as industries that have difficulty finding workers with the right skills.",
+      "a": true
+     },
+     {
+      "s": "The article states that vocational schools update their programs faster than new tools and technologies appear in industry.",
+      "a": false
+     },
+     {
+      "s": "The article suggests that when companies help design school courses, graduates tend to be better prepared from the start.",
+      "a": true
+     }
+    ],
     "cards": [
      {
       "id": "times:graduate",
@@ -6023,6 +6455,24 @@
     "topic": "만성 질환과 예방 의료의 경제학",
     "section": "건강",
     "week": "2026-08-24",
+    "tf": [
+     {
+      "s": "Chronic diseases like diabetes and heart disease are among the leading causes of death around the world.",
+      "a": true
+     },
+     {
+      "s": "When many people suffer from chronic illness, the financial impact on a country is limited mainly to hospital bills.",
+      "a": false
+     },
+     {
+      "s": "Economic modelling suggests that government investment in disease prevention programs can lead to strong financial returns.",
+      "a": true
+     },
+     {
+      "s": "The economic benefits of prevention programs are usually seen very quickly, making it easy for policymakers to justify the spending.",
+      "a": false
+     }
+    ],
     "cards": [
      {
       "id": "times:chronic",
@@ -6304,6 +6754,24 @@
     "topic": "지방 분권과 재정 자립",
     "section": "정치",
     "week": "2026-08-24",
+    "tf": [
+     {
+      "s": "Supporters of decentralization argue that local leaders are better at understanding the needs of their communities than central government officials.",
+      "a": true
+     },
+     {
+      "s": "According to the article, all local governments have strong enough tax bases to achieve fiscal independence.",
+      "a": false
+     },
+     {
+      "s": "A region that relies heavily on funding transfers from the central government faces limits on how freely it can plan and govern itself.",
+      "a": true
+     },
+     {
+      "s": "The article states that decentralization has already been successfully implemented in every country that has attempted it.",
+      "a": false
+     }
+    ],
     "cards": [
      {
       "id": "times:decentralization",
@@ -6589,6 +7057,24 @@
     "topic": "식량 원조와 자립의 딜레마",
     "section": "세계",
     "week": "2026-08-24",
+    "tf": [
+     {
+      "s": "When free food aid arrives in large quantities, local farmers are often able to compete easily and continue selling their harvests at normal prices.",
+      "a": false
+     },
+     {
+      "s": "Some humanitarian organizations have shifted toward giving families cash or vouchers instead of direct food handouts.",
+      "a": true
+     },
+     {
+      "s": "Research suggests that cash-based aid is always a safer and more effective option than food aid, regardless of local conditions.",
+      "a": false
+     },
+     {
+      "s": "Yemen is used in the article as an example of a country where long-term food aid has led to communities becoming dependent on outside support.",
+      "a": true
+     }
+    ],
     "cards": [
      {
       "id": "times:humanitarian",
@@ -6874,6 +7360,24 @@
     "topic": "물 재이용 기술의 확산",
     "section": "환경",
     "week": "2026-08-24",
+    "tf": [
+     {
+      "s": "Droughts are becoming more frequent partly because of climate change.",
+      "a": true
+     },
+     {
+      "s": "Water reuse technology can only be used for drinking water, not for farming or industry.",
+      "a": false
+     },
+     {
+      "s": "Smaller, local water treatment systems are being tested in cities in the United States, Australia, and parts of Europe.",
+      "a": true
+     },
+     {
+      "s": "Regulations around water reuse are already fully updated and complete in most countries.",
+      "a": false
+     }
+    ],
     "cards": [
      {
       "id": "times:drought",
@@ -7151,6 +7655,24 @@
     "topic": "고령 노동자의 재취업 시장",
     "section": "경제",
     "week": "2026-08-24",
+    "tf": [
+     {
+      "s": "Many employers still prefer younger job candidates, often assuming that older applicants are unable to adapt to new work environments.",
+      "a": true
+     },
+     {
+      "s": "According to the article, older workers who return to employment after a career break typically earn the same wages as they did before.",
+      "a": false
+     },
+     {
+      "s": "Falling birth rates and a growing older population are contributing to labor shortages in many industries.",
+      "a": true
+     },
+     {
+      "s": "The article states that policymakers have already successfully passed new anti-discrimination laws to protect older workers.",
+      "a": false
+     }
+    ],
     "cards": [
      {
       "id": "times:discrimination",
