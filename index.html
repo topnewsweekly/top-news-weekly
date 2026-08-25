@@ -126,6 +126,8 @@ header{background:#fff;border-bottom:3px solid var(--red);padding:14px 20px}
   .article-meta{flex-direction:column;gap:6px}}
 
 /* On Air 필진 프로필 */
+.quiz-tab{margin-left:auto;cursor:pointer}
+.quiz-tab + .onair-tab{margin-left:0}
 .onair-tab{margin-left:auto;color:var(--red)!important;font-weight:900}
 .onair-tab.active{border-bottom-color:var(--red)}
 .profile-hero{text-align:center;padding:28px 12px 8px}
@@ -686,6 +688,7 @@ function renderTabs() {
     <div class="cat-tab ${_view === "list" && t.key === _activeTab ? "active" : ""}" onclick="switchTab('${t.key}')">
       ${t.label} <span class="cat-cnt">${counts[t.key] || 0}</span>
     </div>`).join("") + `
+    <div class="cat-tab quiz-tab" onclick="location.href='quiz/'">Quiz</div>
     <div class="cat-tab onair-tab ${_view === "profiles" ? "active" : ""}" onclick="showProfiles(undefined,'tab')">🔴 On Air 필진</div>`;
 }
 
