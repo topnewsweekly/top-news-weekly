@@ -202,6 +202,10 @@ button:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
 .g{margin-bottom:14px}
 .g-head{display:flex;justify-content:space-between;font-size:13px;margin-bottom:5px}
 .g-head b{font-weight:400}
+/* 짝 맞추기는 다 맞출 때까지 안 끝나므로 채점 대상이 아니다. 점수와 나란히
+   놓이면 등급처럼 읽혀서, 무엇을 재는 값인지 라벨로 밝힌다. */
+.g-tag{font-family:var(--mono);font-size:9.5px;letter-spacing:.05em;color:var(--ink-soft);
+  border:1px solid var(--line);border-radius:2px;padding:1px 5px;margin-left:7px;vertical-align:1px}
 .g-head span{font-family:var(--mono);font-size:12px;color:var(--ink-soft)}
 .g-bar{height:8px;background:var(--line);border-radius:4px;overflow:hidden}
 .g-fill{height:100%;width:0;background:var(--moss);border-radius:4px;transition:width .9s cubic-bezier(.3,1,.5,1)}
@@ -956,11 +960,15 @@ function finish(again){
     const nw = nowStat[t];
     const p = nw && nw.n ? Math.round(nw.ok/nw.n*100) : 0;
     const weakNow = nw && nw.n >= 2 && p < 60;
+    const warmUp = t === 'match';
     g += '<div class="g' + (weakNow?' weak':'') + '">' +
-      '<div class="g-head"><b>' + TYPE_NAME[t] + '</b><span>' +
-      (nw && nw.n ? p + '%  ·  ' + nw.ok + '/' + nw.n : '없음') + '</span></div>' +
+      '<div class="g-head"><b>' + TYPE_NAME[t] +
+        (warmUp ? '<span class="g-tag">점수 제외</span>' : '') + '</b><span>' +
+      (nw && nw.n
+        ? (warmUp ? '한 번에 ' + nw.ok + '/' + nw.n + '쌍' : p + '%  ·  ' + nw.ok + '/' + nw.n)
+        : '없음') + '</span></div>' +
       '<div class="g-bar"><div class="g-fill" data-w="' + (nw && nw.n ? p : 0) + '"></div></div>' +
-      (weakNow ? '<div class="g-note">' + (t==='fix' ? '틀린 것이 잘 안 고쳐집니다' : t==='match' ? '뜻을 헷갈립니다' : '여기가 약합니다') + '</div>' : '') +
+      (weakNow ? '<div class="g-note">' + (t==='fix' ? '틀린 것이 잘 안 고쳐집니다' : t==='match' ? '뜻을 헷갈립니다 (준비운동이라 점수와 무관)' : '여기가 약합니다') + '</div>' : '') +
       '</div>';
   });
 
