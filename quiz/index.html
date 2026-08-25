@@ -54,6 +54,23 @@ h1{font-family:var(--disp);font-size:24px;font-weight:700;margin:0 0 4px;letter-
 .gcard.empty:hover{transform:none;box-shadow:var(--shadow)}
 .gate-note{font-family:var(--mono);font-size:11px;color:var(--ink-soft);text-align:center;margin:18px 0 0}
 
+/* 호수 목록 */
+.weeks{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;margin-bottom:20px}
+.wk{display:flex;flex-direction:column;padding:18px;border:1px solid var(--line);border-radius:3px;
+  background:var(--paper-2);cursor:pointer;text-align:left;
+  font-family:var(--body);color:var(--ink);box-shadow:var(--shadow);
+  transition:border-color .18s,transform .18s}
+.wk:hover{border-color:var(--ink);transform:translateY(-1px)}
+.wk-top{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin-bottom:4px}
+.wk-year{font-family:var(--mono);font-size:10px;letter-spacing:.12em;color:var(--ink-soft)}
+.wk-new{font-family:var(--mono);font-size:10px;letter-spacing:.08em;color:var(--moss)}
+.wk h3{font-family:var(--disp);font-size:22px;font-weight:700;margin:0 0 2px;letter-spacing:-.01em}
+.wk-range{font-family:var(--mono);font-size:11px;color:var(--ink-soft)}
+.wk-foot{display:flex;justify-content:space-between;align-items:center;margin-top:14px;
+  padding-top:12px;border-top:1px solid var(--line);
+  font-family:var(--mono);font-size:10.5px;color:var(--ink-soft)}
+.wk-go{color:var(--ink)}
+
 /* 기사 목록 */
 .issues{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;margin-bottom:20px}
 .iss{display:flex;flex-direction:column;gap:0;padding:18px 18px 16px;border:1px solid var(--line);
@@ -233,8 +250,13 @@ button:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
     <p class="gate-note" id="gate-note"></p>
   </div>
 
-  <div id="pickview" style="display:none">
+  <div id="weekview" style="display:none">
     <button class="back" id="to-gate">← 매체 선택</button>
+    <div class="weeks" id="weeks"></div>
+  </div>
+
+  <div id="pickview" style="display:none">
+    <button class="back" id="to-weeks">← 호수 선택</button>
     <div class="issues" id="issues"></div>
   </div>
 
@@ -267,7 +289,7 @@ const N_SCRAMBLE = 3;
 const N_ROLEPLAY = 3;
 const sizeOf = () => N_SCRAMBLE + N_ROLEPLAY;
 
-let DATA = {}, level = null, issue = null, ST = null;
+let DATA = {}, level = null, week = null, issue = null, ST = null;
 let steps = [], pos = 0, wrong = [], round = 1, cur = null, answered = false;
 let matchNow = null, fixNow = {ok:0,n:0};
 
@@ -353,8 +375,7 @@ function startIssue(iss){
   assignTypes(iss.cards.slice()).forEach(x => steps.push(x));
   pos = 0; wrong = []; round = 1;
   matchNow = null; fixNow = {ok:0,n:0};
-  document.getElementById('pickview').style.display = 'none';
-  document.getElementById('playview').style.display = '';
+  show('playview');
   document.getElementById('title').textContent = iss.topic;
   document.getElementById('sub').textContent =
     iss.level + ' · 짝 ' + pairs.length + '쌍 · 문항 ' + (steps.length - 1) + '개';
@@ -769,7 +790,7 @@ function finish(again){
 function drawIssues(){
   const box = document.getElementById('issues');
   box.innerHTML = '';
-  (DATA[level]||[]).forEach(iss=>{
+  issuesOf(level, week).forEach(iss=>{
     const st = ST.issues[iss.id];
     const b = document.createElement('button');
     b.className = 'iss';
@@ -788,7 +809,7 @@ function drawIssues(){
     b.onclick = () => startIssue(iss);
     box.appendChild(b);
   });
-  if(!box.children.length) box.innerHTML = '<p class="sub">이 레벨에는 기사가 없습니다.</p>';
+  if(!box.children.length) box.innerHTML = '<p class="sub">이 호수에는 기사가 없습니다.</p>';
 }
 
 /* 매체 표시 정보 — 색은 나중에 표지 이미지로 대체 가능 */
@@ -823,41 +844,102 @@ function drawGate(){
   document.getElementById('gate-note').textContent = DATA._sub || '';
 }
 
-function toGate(){
+/* ── 호수(발행 주차) ───────────────────── */
+/* 호수 키는 발행 주 월요일(YYYY-MM-DD). build_cards.py 가 시트 '생성일시'로 넣는다.
+   week 가 없는 낡은 cards.json 도 '' 한 덩어리로 묶여 그대로 돌아간다. */
+const weekOf = iss => iss.week || '';
+const issuesOf = (lv, wk) => (DATA[lv]||[]).filter(i => weekOf(i) === wk);
+
+/* 해당 매체의 호수 목록 — 최신순 */
+function weeksOf(lv){
+  const g = new Map();
+  (DATA[lv]||[]).forEach(i=>{
+    const w = weekOf(i);
+    if(!g.has(w)) g.set(w, {week:w, items:0, cards:0});
+    const e = g.get(w);
+    e.items += 1;
+    e.cards += i.cards.length;
+  });
+  return [...g.values()].sort((a,b)=> a.week < b.week ? 1 : a.week > b.week ? -1 : 0);
+}
+
+/* '2026-08-24' → { year:'2026', name:'8월 24일 호', range:'08.24 – 08.30' } */
+function fmtWeek(w){
+  if(!w) return { year:'', name:'날짜 미상', range:'생성일시가 없는 기사' };
+  const [y,m,d] = w.split('-').map(Number);
+  const mon = new Date(y, m-1, d), sun = new Date(y, m-1, d+6);
+  const p = n => String(n).padStart(2,'0');
+  return {
+    year: String(y),
+    name: m + '월 ' + d + '일 호',
+    range: p(mon.getMonth()+1) + '.' + p(mon.getDate()) + ' – ' +
+           p(sun.getMonth()+1) + '.' + p(sun.getDate()),
+  };
+}
+
+function drawWeeks(){
+  const box = document.getElementById('weeks');
+  box.innerHTML = '';
+  weeksOf(level).forEach((g, k)=>{
+    const f = fmtWeek(g.week);
+    const b = document.createElement('button');
+    b.className = 'wk';
+    b.innerHTML =
+      '<div class="wk-top">' +
+        '<span class="wk-year">' + esc(f.year) + '</span>' +
+        (k === 0 && g.week ? '<span class="wk-new">최신호</span>' : '') +
+      '</div>' +
+      '<h3>' + esc(f.name) + '</h3>' +
+      '<div class="wk-range">' + esc(f.range) + '</div>' +
+      '<div class="wk-foot"><span>기사 ' + g.items + '편 · 단어 ' + g.cards + '개</span>' +
+      '<span class="wk-go">열기 →</span></div>';
+    b.onclick = () => pickWeek(g.week);
+    box.appendChild(b);
+  });
+  if(!box.children.length) box.innerHTML = '<p class="sub">이 매체에는 발행된 호수가 없습니다.</p>';
+}
+
+/* ── 화면 전환 ─────────────────────────── */
+function show(id){
   speechSynthesis && speechSynthesis.cancel();
-  document.getElementById('playview').style.display = 'none';
-  document.getElementById('pickview').style.display = 'none';
-  document.getElementById('gateview').style.display = '';
-  document.getElementById('title').textContent = '매체를 고르세요';
-  document.getElementById('sub').textContent = '읽은 신문을 골라 어휘를 연습합니다.';
+  ['gateview','weekview','pickview','playview'].forEach(v=>{
+    document.getElementById(v).style.display = v === id ? '' : 'none';
+  });
+}
+
+function head(title, sub){
+  document.getElementById('title').textContent = title;
+  document.getElementById('sub').textContent = sub;
+}
+
+const mediaName = lv => (MEDIA.find(x=>x.key===lv) || {name:lv}).name;
+
+function toGate(){
+  show('gateview');
+  head('매체를 고르세요', '읽은 신문을 골라 어휘를 연습합니다.');
   drawGate();
 }
 
 function pickLevel(lv){
   level = lv;
   ST = loadST(lv);
-  const m = MEDIA.find(x=>x.key===lv) || {name:lv};
-  document.getElementById('gateview').style.display = 'none';
-  document.getElementById('playview').style.display = 'none';
-  document.getElementById('pickview').style.display = '';
-  document.getElementById('title').textContent = m.name;
-  document.getElementById('sub').textContent =
-    (DATA[lv]||[]).length + '편 · 기사를 고르세요';
-  drawIssues();
+  show('weekview');
+  head(mediaName(lv), weeksOf(lv).length + '개 호수 · 호수를 고르세요');
+  drawWeeks();
 }
+const toWeeks = () => pickLevel(level);
 
-function toList(){
-  speechSynthesis && speechSynthesis.cancel();
-  document.getElementById('playview').style.display = 'none';
-  document.getElementById('gateview').style.display = 'none';
-  document.getElementById('pickview').style.display = '';
-  const m = MEDIA.find(x=>x.key===level) || {name:level};
-  document.getElementById('title').textContent = m.name;
-  document.getElementById('sub').textContent =
-    (DATA[level]||[]).length + '편 · 기사를 고르세요';
+function pickWeek(w){
+  week = w;
+  show('pickview');
+  head(mediaName(level) + ' · ' + fmtWeek(w).name,
+       issuesOf(level, w).length + '편 · 기사를 고르세요');
   drawIssues();
 }
+const toList = () => pickWeek(week);
+
 document.getElementById('back').onclick = toList;
+document.getElementById('to-weeks').onclick = toWeeks;
 document.getElementById('to-gate').onclick = toGate;
 document.getElementById('restart').onclick = () => startIssue(issue);
 

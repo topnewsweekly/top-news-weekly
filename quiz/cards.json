@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-25 11:18:35",
+ "generated": "2026-08-25 13:41:20",
  "levels": {
   "kinder": [
    {
@@ -7,6 +7,7 @@
     "level": "kinder",
     "topic": "비눗방울은 왜 둥글까",
     "section": "과학",
+    "week": "2026-08-24",
     "cards": [
      {
       "id": "kinder:bubble",
@@ -227,6 +228,7 @@
     "level": "kinder",
     "topic": "새는 왜 아침에 노래할까",
     "section": "과학",
+    "week": "2026-08-24",
     "cards": [
      {
       "id": "kinder:sing",
@@ -447,6 +449,7 @@
     "level": "kinder",
     "topic": "달팽이는 왜 느리게 갈까",
     "section": "과학",
+    "week": "2026-08-24",
     "cards": [
      {
       "id": "kinder:snail",
@@ -711,6 +714,7 @@
     "level": "kinder",
     "topic": "그림자놀이는 어떻게 만들까",
     "section": "과학",
+    "week": "2026-08-24",
     "cards": [
      {
       "id": "kinder:shadow",
@@ -933,6 +937,7 @@
     "level": "kids",
     "topic": "북극여우는 어떻게 겨울을 버틸까",
     "section": "과학",
+    "week": "2026-08-24",
     "cards": [
      {
       "id": "kids:temperature",
@@ -1139,6 +1144,7 @@
     "level": "kids",
     "topic": "번개는 왜 소리보다 먼저 보일까",
     "section": "과학",
+    "week": "2026-08-24",
     "cards": [
      {
       "id": "kids:lightning",
@@ -1375,6 +1381,7 @@
     "level": "kids",
     "topic": "바닷물은 왜 짤까",
     "section": "과학",
+    "week": "2026-08-24",
     "cards": [
      {
       "id": "kids:salty",
@@ -1595,6 +1602,7 @@
     "level": "kids",
     "topic": "자동문은 사람을 어떻게 알아볼까",
     "section": "기술",
+    "week": "2026-08-24",
     "cards": [
      {
       "id": "kids:sensor",
@@ -1883,6 +1891,7 @@
     "level": "kids",
     "topic": "버려진 어망이 바다에서 하는 일",
     "section": "환경",
+    "week": "2026-08-24",
     "cards": [
      {
       "id": "kids:net",
@@ -2119,6 +2128,7 @@
     "level": "kids",
     "topic": "세계의 전통 놀이는 어떻게 다를까",
     "section": "문화",
+    "week": "2026-08-24",
     "cards": [
      {
       "id": "kids:traditional",
@@ -2347,6 +2357,7 @@
     "level": "kids",
     "topic": "퀴즈",
     "section": "문화",
+    "week": "2026-08-24",
     "cards": [
      {
       "id": "kids:quiz",
@@ -2593,6 +2604,7 @@
     "level": "junior",
     "topic": "학교 앞 안전 구역이 지켜지지 않는 이유",
     "section": "사회",
+    "week": "2026-08-24",
     "cards": [
      {
       "id": "junior:safety zone",
@@ -2829,6 +2841,7 @@
     "level": "junior",
     "topic": "옷을 고쳐 입는 수선 가게가 늘어난다",
     "section": "환경",
+    "week": "2026-08-24",
     "cards": [
      {
       "id": "junior:repair",
@@ -3117,6 +3130,7 @@
     "level": "junior",
     "topic": "번역 이어폰이 바꾸는 여행",
     "section": "기술",
+    "week": "2026-08-24",
     "cards": [
      {
       "id": "junior:translate",
@@ -3369,6 +3383,7 @@
     "level": "junior",
     "topic": "중고 교과서가 오가는 이유",
     "section": "경제",
+    "week": "2026-08-24",
     "cards": [
      {
       "id": "junior:expensive",
@@ -3608,6 +3623,7 @@
     "level": "junior",
     "topic": "박물관이 유물을 돌려주는 문제",
     "section": "문화",
+    "week": "2026-08-24",
     "cards": [
      {
       "id": "junior:artifact",
@@ -3896,6 +3912,7 @@
     "level": "junior",
     "topic": "사라져가는 언어를 기록하는 사람들",
     "section": "세계",
+    "week": "2026-08-24",
     "cards": [
      {
       "id": "junior:disappear",
@@ -4188,6 +4205,7 @@
     "level": "junior",
     "topic": "학교 운동부와 공부의 균형",
     "section": "스포츠",
+    "week": "2026-08-24",
     "cards": [
      {
       "id": "junior:athlete",
@@ -4448,6 +4466,7 @@
     "level": "junior",
     "topic": "이어폰 볼륨과 청력 손상",
     "section": "건강",
+    "week": "2026-08-24",
     "cards": [
      {
       "id": "junior:permanent",
@@ -4702,6 +4721,7 @@
     "level": "times",
     "topic": "반도체 보조금 경쟁의 득실",
     "section": "경제",
+    "week": "2026-08-24",
     "cards": [
      {
       "id": "times:semiconductor",
@@ -4978,6 +4998,7 @@
     "level": "times",
     "topic": "AI 번역이 바꾸는 통번역 직업",
     "section": "기술",
+    "week": "2026-08-24",
     "cards": [
      {
       "id": "times:interpreter",
@@ -5194,6 +5215,7 @@
     "level": "times",
     "topic": "해저 케이블과 통신 안보",
     "section": "기술",
+    "week": "2026-08-24",
     "cards": [
      {
       "id": "times:fiber-optic",
@@ -5470,6 +5492,7 @@
     "level": "times",
     "topic": "산불 대응과 산림 관리 정책",
     "section": "환경",
+    "week": "2026-08-24",
     "cards": [
      {
       "id": "times:frequent",
@@ -5734,6 +5757,7 @@
     "level": "times",
     "topic": "직업 교육과 산업 수요의 불일치",
     "section": "교육",
+    "week": "2026-08-24",
     "cards": [
      {
       "id": "times:graduate",
@@ -5998,6 +6022,7 @@
     "level": "times",
     "topic": "만성 질환과 예방 의료의 경제학",
     "section": "건강",
+    "week": "2026-08-24",
     "cards": [
      {
       "id": "times:chronic",
@@ -6278,6 +6303,7 @@
     "level": "times",
     "topic": "지방 분권과 재정 자립",
     "section": "정치",
+    "week": "2026-08-24",
     "cards": [
      {
       "id": "times:decentralization",
@@ -6562,6 +6588,7 @@
     "level": "times",
     "topic": "식량 원조와 자립의 딜레마",
     "section": "세계",
+    "week": "2026-08-24",
     "cards": [
      {
       "id": "times:humanitarian",
@@ -6846,6 +6873,7 @@
     "level": "times",
     "topic": "물 재이용 기술의 확산",
     "section": "환경",
+    "week": "2026-08-24",
     "cards": [
      {
       "id": "times:drought",
@@ -7122,6 +7150,7 @@
     "level": "times",
     "topic": "고령 노동자의 재취업 시장",
     "section": "경제",
+    "week": "2026-08-24",
     "cards": [
      {
       "id": "times:discrimination",
