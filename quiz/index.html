@@ -32,6 +32,28 @@ h1{font-family:var(--disp);font-size:24px;font-weight:700;margin:0 0 4px;letter-
 .lv.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
 .lv b{font-weight:400;opacity:.6;margin-left:5px}
 
+/* 매체 선택 게이트 */
+.gate{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:8px}
+.gcard{position:relative;display:flex;flex-direction:column;justify-content:flex-end;
+  min-height:190px;padding:20px;border:1px solid var(--line);border-radius:4px;
+  background:var(--paper-2);cursor:pointer;text-align:left;overflow:hidden;
+  box-shadow:var(--shadow);transition:transform .18s,box-shadow .18s;
+  font-family:var(--body);color:var(--ink)}
+.gcard:hover{transform:translateY(-2px);box-shadow:0 1px 0 #FFF,0 14px 30px -16px rgba(27,42,38,.5)}
+.gcard::before{content:'';position:absolute;inset:0;background:var(--tint);opacity:.14}
+.gcard::after{content:'';position:absolute;left:0;right:0;top:0;height:4px;background:var(--tint)}
+.gcard > *{position:relative}
+.gcard .gname{font-family:var(--disp);font-size:27px;font-weight:700;letter-spacing:-.02em;line-height:1.1}
+.gcard .gsub{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink-soft);margin-bottom:auto}
+.gcard .gmeta{display:flex;justify-content:space-between;align-items:flex-end;gap:8px;margin-top:14px;
+  padding-top:12px;border-top:1px solid var(--line);
+  font-family:var(--mono);font-size:11px;color:var(--ink-soft)}
+.gcard .gmeta b{font-weight:400;color:var(--ink)}
+.gcard.empty{opacity:.45;cursor:default}
+.gcard.empty:hover{transform:none;box-shadow:var(--shadow)}
+.gate-note{font-family:var(--mono);font-size:11px;color:var(--ink-soft);text-align:center;margin:18px 0 0}
+
 /* 기사 목록 */
 .issues{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;margin-bottom:20px}
 .iss{display:flex;flex-direction:column;gap:0;padding:18px 18px 16px;border:1px solid var(--line);
@@ -197,7 +219,8 @@ button:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
 .err h2{font-family:var(--disp);font-size:19px;margin:0 0 10px}
 .err pre{font-family:var(--mono);font-size:11.5px;background:var(--paper);border:1px solid var(--line);padding:10px;overflow-x:auto}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
-@media (max-width:520px){.term{font-size:32px}.opts{grid-template-columns:1fr}.m{font-size:14px;padding:12px 6px}.m.en{font-size:17px}}
+@media (max-width:520px){.term{font-size:32px}.opts{grid-template-columns:1fr}.m{font-size:14px;padding:12px 6px}.m.en{font-size:17px}
+  .gate{gap:10px}.gcard{min-height:150px;padding:15px}.gcard .gname{font-size:22px}.gcard .gmeta{font-size:10px}}
 </style>
 
 <div class="wrap">
@@ -205,8 +228,13 @@ button:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
   <h1 id="title">기사를 고르세요</h1>
   <p class="sub" id="sub">불러오는 중…</p>
 
-  <div id="pickview">
-    <div class="levels" id="levels"></div>
+  <div id="gateview">
+    <div class="gate" id="gate"></div>
+    <p class="gate-note" id="gate-note"></p>
+  </div>
+
+  <div id="pickview" style="display:none">
+    <button class="back" id="to-gate">← 매체 선택</button>
     <div class="issues" id="issues"></div>
   </div>
 
@@ -763,22 +791,74 @@ function drawIssues(){
   if(!box.children.length) box.innerHTML = '<p class="sub">이 레벨에는 기사가 없습니다.</p>';
 }
 
+/* 매체 표시 정보 — 색은 나중에 표지 이미지로 대체 가능 */
+const MEDIA = [
+  { key:'kinder',   name:'KINDER',    sub:'Top News Kinder',   tint:'#C98A22' },
+  { key:'kids',     name:'KIDS',      sub:'Top News Kids',     tint:'#3F6C51' },
+  { key:'junior',   name:'JUNIOR',    sub:'Top News Junior',   tint:'#2F5D7C' },
+  { key:'times',    name:'TIMES',     sub:'Top News Times',    tint:'#A8452F' },
+  { key:'junior_m', name:'JUNIOR M',  sub:'Junior Monthly',    tint:'#6B5B8A' },
+];
+
+function drawGate(){
+  const box = document.getElementById('gate');
+  box.innerHTML = '';
+  MEDIA.forEach(m=>{
+    const its = DATA[m.key] || [];
+    if(!its.length && m.key === 'junior_m') return;   // 발행 없으면 감춘다
+    const words = its.reduce((a,i)=>a+i.cards.length, 0);
+    const b = document.createElement('button');
+    b.className = 'gcard' + (its.length ? '' : ' empty');
+    b.style.setProperty('--tint', m.tint);
+    b.innerHTML =
+      '<span class="gsub">' + esc(m.sub) + '</span>' +
+      '<span class="gname">' + esc(m.name) + '</span>' +
+      '<span class="gmeta">' +
+        (its.length ? '<span><b>' + its.length + '</b>편 · 단어 <b>' + words + '</b>개</span><span>시작 →</span>'
+                    : '<span>준비 중</span><span></span>') +
+      '</span>';
+    if(its.length) b.onclick = () => pickLevel(m.key);
+    box.appendChild(b);
+  });
+  document.getElementById('gate-note').textContent = DATA._sub || '';
+}
+
+function toGate(){
+  speechSynthesis && speechSynthesis.cancel();
+  document.getElementById('playview').style.display = 'none';
+  document.getElementById('pickview').style.display = 'none';
+  document.getElementById('gateview').style.display = '';
+  document.getElementById('title').textContent = '매체를 고르세요';
+  document.getElementById('sub').textContent = '읽은 신문을 골라 어휘를 연습합니다.';
+  drawGate();
+}
+
 function pickLevel(lv){
   level = lv;
   ST = loadST(lv);
-  [...document.querySelectorAll('.lv')].forEach(b=>b.classList.toggle('on', b.dataset.lv===lv));
+  const m = MEDIA.find(x=>x.key===lv) || {name:lv};
+  document.getElementById('gateview').style.display = 'none';
+  document.getElementById('playview').style.display = 'none';
+  document.getElementById('pickview').style.display = '';
+  document.getElementById('title').textContent = m.name;
+  document.getElementById('sub').textContent =
+    (DATA[lv]||[]).length + '편 · 기사를 고르세요';
   drawIssues();
 }
 
 function toList(){
   speechSynthesis && speechSynthesis.cancel();
   document.getElementById('playview').style.display = 'none';
+  document.getElementById('gateview').style.display = 'none';
   document.getElementById('pickview').style.display = '';
-  document.getElementById('title').textContent = '기사를 고르세요';
-  document.getElementById('sub').textContent = DATA._sub || '';
+  const m = MEDIA.find(x=>x.key===level) || {name:level};
+  document.getElementById('title').textContent = m.name;
+  document.getElementById('sub').textContent =
+    (DATA[level]||[]).length + '편 · 기사를 고르세요';
   drawIssues();
 }
 document.getElementById('back').onclick = toList;
+document.getElementById('to-gate').onclick = toGate;
 document.getElementById('restart').onclick = () => startIssue(issue);
 
 /* ── 부팅 ─────────────────────────────── */
@@ -795,21 +875,13 @@ document.getElementById('restart').onclick = () => startIssue(issue);
     DATA._sub = '기사 ' + arts + '편 · 단어 ' + cards + '개 · ' + (data.generated||'') + ' 기준';
     document.getElementById('sub').textContent = DATA._sub;
 
-    const box = document.getElementById('levels');
-    Object.keys(DATA).filter(k=>k[0]!=='_').sort().forEach(lv=>{
-      const b = document.createElement('button');
-      b.className='lv'; b.dataset.lv=lv;
-      b.innerHTML = lv + '<b>' + DATA[lv].length + '</b>';
-      b.onclick = () => pickLevel(lv);
-      box.appendChild(b);
-    });
-    pickLevel(Object.keys(DATA).filter(k=>k[0]!=='_').sort()[0]);
+    toGate();
 
     document.getElementById('note').innerHTML =
       '기사 하나가 한 판입니다. 짝 맞추기로 시작해 문항을 풀고, 틀린 것만 한 번 더 봅니다. ' +
       '카드를 갱신하려면 <code>export_json.py</code>를 다시 돌리세요.';
   }catch(err){
-    document.getElementById('pickview').innerHTML =
+    document.getElementById('gateview').innerHTML =
       '<div class="card"><div class="err"><h2>cards.json 을 불러오지 못했습니다</h2><p>' +
       esc(String(err.message||err)) + '</p>' +
       '<pre>cd C:\\Users\\jp\\work\\vocab-cards\npython -m http.server 8000\n\n→ http://localhost:8000/</pre></div></div>';
