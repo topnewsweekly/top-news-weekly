@@ -1,0 +1,6902 @@
+{
+ "generated": "2026-08-25 09:51:11",
+ "levels": {
+  "kinder": [
+   {
+    "id": "kinder|비눗방울은 왜 둥글까",
+    "level": "kinder",
+    "topic": "비눗방울은 왜 둥글까",
+    "section": "과학",
+    "cards": [
+     {
+      "id": "kinder:bubble",
+      "word": "bubble",
+      "ko": "거품, 방울",
+      "filled": "Do you like soap bubbles?",
+      "sent_ko": "비눗방울 좋아하니?",
+      "chunks": [
+       {
+        "en": "Do you like",
+        "ko": "좋아하니?"
+       },
+       {
+        "en": "soap bubbles?",
+        "ko": "비눗방울을"
+       }
+      ],
+      "rp": {
+       "situation": "아이가 비눗방울을 불고 있어요.",
+       "prompt": "What are those floating things?",
+       "options": [
+        "They are bubbles.",
+        "They are bubbly."
+       ],
+       "answer": 0,
+       "why": "bubble은 명사(방울), bubbly는 형용사라 명사 자리에 못 써요."
+      },
+      "topic": "비눗방울은 왜 둥글까"
+     },
+     {
+      "id": "kinder:soap",
+      "word": "soap",
+      "ko": "비누",
+      "filled": "Do you like soap bubbles?",
+      "sent_ko": "비눗방울 좋아하니?",
+      "chunks": [
+       {
+        "en": "Do you like",
+        "ko": "좋아하니?"
+       },
+       {
+        "en": "soap bubbles?",
+        "ko": "비눗방울을"
+       }
+      ],
+      "rp": {
+       "situation": "손을 씻으려고 세면대 앞에 서 있어요.",
+       "prompt": "What do you need to wash your hands?",
+       "options": [
+        "I need soap.",
+        "I need a soap."
+       ],
+       "answer": 0,
+       "why": "soap은 셀 수 없는 명사라 a를 붙이지 않아요."
+      },
+      "topic": "비눗방울은 왜 둥글까"
+     },
+     {
+      "id": "kinder:round",
+      "word": "round",
+      "ko": "둥근, 원형의",
+      "filled": "So bubbles always go round!",
+      "sent_ko": "그래서 방울은 항상 둥글어요!",
+      "chunks": [
+       {
+        "en": "So bubbles",
+        "ko": "그래서 방울은"
+       },
+       {
+        "en": "always",
+        "ko": "항상"
+       },
+       {
+        "en": "go round!",
+        "ko": "둥글게 돼요!"
+       }
+      ],
+      "rp": {
+       "situation": "친구가 비눗방울 모양을 물어봐요.",
+       "prompt": "What shape is a bubble?",
+       "options": [
+        "It is round.",
+        "It is roundly."
+       ],
+       "answer": 0,
+       "why": "round는 형용사로 모양을 설명해요. roundly는 부사라 여기서 쓸 수 없어요."
+      },
+      "topic": "비눗방울은 왜 둥글까"
+     },
+     {
+      "id": "kinder:air",
+      "word": "air",
+      "ko": "공기",
+      "filled": "Air gets trapped inside.",
+      "sent_ko": "공기가 안에 갇혀요.",
+      "chunks": [
+       {
+        "en": "Air",
+        "ko": "공기가"
+       },
+       {
+        "en": "gets trapped",
+        "ko": "갇혀요"
+       },
+       {
+        "en": "inside.",
+        "ko": "안에"
+       }
+      ],
+      "rp": {
+       "situation": "풍선 안에 무엇이 들어 있는지 물어봐요.",
+       "prompt": "What is inside the balloon?",
+       "options": [
+        "There is air inside.",
+        "There is an air inside."
+       ],
+       "answer": 0,
+       "why": "air는 셀 수 없는 명사라 an을 붙이지 않아요."
+      },
+      "topic": "비눗방울은 왜 둥글까"
+     },
+     {
+      "id": "kinder:thin",
+      "word": "thin",
+      "ko": "얇은, 가는",
+      "filled": "The outside of a bubble is very thin.",
+      "sent_ko": "비눗방울의 바깥쪽은 아주 얇아요.",
+      "chunks": [
+       {
+        "en": "The outside of a bubble",
+        "ko": "비눗방울의 바깥쪽은"
+       },
+       {
+        "en": "is very thin.",
+        "ko": "아주 얇아요."
+       }
+      ],
+      "rp": {
+       "situation": "종이 두 장이 있어요. 한 장은 아주 얇고 한 장은 두꺼워요.",
+       "prompt": "How is this piece of paper?",
+       "options": [
+        "It is thin.",
+        "It is thinly."
+       ],
+       "answer": 0,
+       "why": "thin은 형용사로 상태를 설명해요. thinly는 부사라 be동사 뒤에 쓸 수 없어요."
+      },
+      "topic": "비눗방울은 왜 둥글까"
+     },
+     {
+      "id": "kinder:float",
+      "word": "float",
+      "ko": "떠다니다, 뜨다",
+      "filled": "They float and shine!",
+      "sent_ko": "방울들은 떠다니며 반짝여요!",
+      "chunks": [
+       {
+        "en": "They",
+        "ko": "방울들은"
+       },
+       {
+        "en": "float",
+        "ko": "떠다녀요"
+       },
+       {
+        "en": "and shine!",
+        "ko": "그리고 반짝여요!"
+       }
+      ],
+      "rp": {
+       "situation": "비눗방울이 하늘로 올라가고 있어요.",
+       "prompt": "What do the bubbles do?",
+       "options": [
+        "They float up.",
+        "They are float up."
+       ],
+       "answer": 0,
+       "why": "float는 일반동사예요. are float처럼 be동사와 함께 쓸 수 없어요."
+      },
+      "topic": "비눗방울은 왜 둥글까"
+     },
+     {
+      "id": "kinder:shape",
+      "word": "shape",
+      "ko": "모양, 형태",
+      "filled": "A round shape uses the least soap.",
+      "sent_ko": "둥근 모양이 비누를 가장 적게 써요.",
+      "chunks": [
+       {
+        "en": "A round shape",
+        "ko": "둥근 모양이"
+       },
+       {
+        "en": "uses",
+        "ko": "써요"
+       },
+       {
+        "en": "the least soap.",
+        "ko": "비누를 가장 적게"
+       }
+      ],
+      "rp": {
+       "situation": "친구가 비눗방울이 왜 둥근지 물어봐요.",
+       "prompt": "Why are bubbles round?",
+       "options": [
+        "A round shape uses the least soap.",
+        "A round shape uses the least soaps."
+       ],
+       "answer": 0,
+       "why": "soap은 셀 수 없는 명사라 복수형 soaps로 쓸 수 없어요."
+      },
+      "topic": "비눗방울은 왜 둥글까"
+     }
+    ]
+   },
+   {
+    "id": "kinder|새는 왜 아침에 노래할까",
+    "level": "kinder",
+    "topic": "새는 왜 아침에 노래할까",
+    "section": "과학",
+    "cards": [
+     {
+      "id": "kinder:sing",
+      "word": "sing",
+      "ko": "노래하다",
+      "filled": "Birds sing in the morning.",
+      "sent_ko": "새들은 아침에 노래해요.",
+      "chunks": [
+       {
+        "en": "Birds",
+        "ko": "새들은"
+       },
+       {
+        "en": "sing",
+        "ko": "노래해요"
+       },
+       {
+        "en": "in the morning.",
+        "ko": "아침에"
+       }
+      ],
+      "rp": {
+       "situation": "새 한 마리가 나뭇가지에 앉아 소리를 내고 있어요.",
+       "prompt": "What is the bird doing?",
+       "options": [
+        "The bird is singing.",
+        "The bird is singed."
+       ],
+       "answer": 0,
+       "why": "sing의 진행형은 singing이고, singed는 동사 형태가 틀렸어요."
+      },
+      "topic": "새는 왜 아침에 노래할까"
+     },
+     {
+      "id": "kinder:morning",
+      "word": "morning",
+      "ko": "아침",
+      "filled": "Birds sing in the morning.",
+      "sent_ko": "새들은 아침에 노래해요.",
+      "chunks": [
+       {
+        "en": "Birds",
+        "ko": "새들은"
+       },
+       {
+        "en": "sing",
+        "ko": "노래해요"
+       },
+       {
+        "en": "in the morning.",
+        "ko": "아침에"
+       }
+      ],
+      "rp": {
+       "situation": "해가 막 뜨고 하늘이 밝아지는 시간이에요.",
+       "prompt": "When is it?",
+       "options": [
+        "It is the morning.",
+        "It is the mornings."
+       ],
+       "answer": 0,
+       "why": "특정 시간대를 말할 때 morning은 단수로 써요."
+      },
+      "topic": "새는 왜 아침에 노래할까"
+     },
+     {
+      "id": "kinder:quiet",
+      "word": "quiet",
+      "ko": "조용한",
+      "filled": "The air is quiet and still.",
+      "sent_ko": "공기가 조용하고 고요해요.",
+      "chunks": [
+       {
+        "en": "The air",
+        "ko": "공기가"
+       },
+       {
+        "en": "is quiet",
+        "ko": "조용하고"
+       },
+       {
+        "en": "and still.",
+        "ko": "고요해요"
+       }
+      ],
+      "rp": {
+       "situation": "도서관 안에서 아이들이 책을 읽고 있어요.",
+       "prompt": "How is the library?",
+       "options": [
+        "The library is quiet.",
+        "The library is quiets."
+       ],
+       "answer": 0,
+       "why": "형용사 quiet에는 s를 붙이지 않아요."
+      },
+      "topic": "새는 왜 아침에 노래할까"
+     },
+     {
+      "id": "kinder:sound",
+      "word": "sound",
+      "ko": "소리",
+      "filled": "Sound goes far in quiet air.",
+      "sent_ko": "소리는 조용한 공기 속에서 멀리 가요.",
+      "chunks": [
+       {
+        "en": "Sound goes far",
+        "ko": "소리는 멀리 가요"
+       },
+       {
+        "en": "in quiet air.",
+        "ko": "조용한 공기 속에서"
+       }
+      ],
+      "rp": {
+       "situation": "멀리서 종소리가 들려오고 있어요.",
+       "prompt": "What travels through the air?",
+       "options": [
+        "Sound travels through the air.",
+        "Sounds travel on the air."
+       ],
+       "answer": 0,
+       "why": "일반적인 소리를 뜻할 때 sound는 셀 수 없는 명사로 단수 동사를 써요."
+      },
+      "topic": "새는 왜 아침에 노래할까"
+     },
+     {
+      "id": "kinder:far",
+      "word": "far",
+      "ko": "멀리, 먼",
+      "filled": "Sound goes far in quiet air.",
+      "sent_ko": "소리는 조용한 공기 속에서 멀리 가요.",
+      "chunks": [
+       {
+        "en": "Sound goes far",
+        "ko": "소리는 멀리 가요"
+       },
+       {
+        "en": "in quiet air.",
+        "ko": "조용한 공기 속에서"
+       }
+      ],
+      "rp": {
+       "situation": "새 소리가 산 너머까지 들릴 정도로 넓고 조용한 들판이에요.",
+       "prompt": "How does the sound travel?",
+       "options": [
+        "The sound goes far.",
+        "The sound goes faraway."
+       ],
+       "answer": 0,
+       "why": "동사 goes 뒤에는 부사 far를 쓰고, faraway는 형용사로 이 자리에 맞지 않아요."
+      },
+      "topic": "새는 왜 아침에 노래할까"
+     },
+     {
+      "id": "kinder:friend",
+      "word": "friend",
+      "ko": "친구",
+      "filled": "Some birds sing to find a friend.",
+      "sent_ko": "어떤 새들은 친구를 찾기 위해 노래해요.",
+      "chunks": [
+       {
+        "en": "Some birds sing",
+        "ko": "어떤 새들은 노래해요"
+       },
+       {
+        "en": "to find",
+        "ko": "찾기 위해"
+       },
+       {
+        "en": "a friend.",
+        "ko": "친구를"
+       }
+      ],
+      "rp": {
+       "situation": "새 한 마리가 혼자 있고 다른 새들이 근처에 있어요.",
+       "prompt": "Why is the bird singing?",
+       "options": [
+        "It sings to find a friend.",
+        "It sings to find a friends."
+       ],
+       "answer": 0,
+       "why": "a friend에서 friend는 단수이고 a와 s를 같이 쓸 수 없어요."
+      },
+      "topic": "새는 왜 아침에 노래할까"
+     },
+     {
+      "id": "kinder:hear",
+      "word": "hear",
+      "ko": "듣다, 들리다",
+      "filled": "Do you hear birds in the morning?",
+      "sent_ko": "당신은 아침에 새 소리가 들리나요?",
+      "chunks": [
+       {
+        "en": "Do you hear birds",
+        "ko": "새 소리가 들리나요"
+       },
+       {
+        "en": "in the morning?",
+        "ko": "아침에"
+       }
+      ],
+      "rp": {
+       "situation": "아침에 창문 밖에서 새 소리가 나고 있어요.",
+       "prompt": "Can you notice the birds?",
+       "options": [
+        "Do you hear birds?",
+        "Do you listen birds?"
+       ],
+       "answer": 0,
+       "why": "소리가 저절로 들릴 때는 hear를 쓰고, listen은 반드시 to와 함께 써야 해요."
+      },
+      "topic": "새는 왜 아침에 노래할까"
+     }
+    ]
+   },
+   {
+    "id": "kinder|달팽이는 왜 느리게 갈까",
+    "level": "kinder",
+    "topic": "달팽이는 왜 느리게 갈까",
+    "section": "과학",
+    "cards": [
+     {
+      "id": "kinder:snail",
+      "word": "snail",
+      "ko": "달팽이",
+      "filled": "Snails also make slime.",
+      "sent_ko": "달팽이들은 점액도 만들어요.",
+      "chunks": [
+       {
+        "en": "Snails",
+        "ko": "달팽이들은"
+       },
+       {
+        "en": "also make",
+        "ko": "~도 만들어요"
+       },
+       {
+        "en": "slime.",
+        "ko": "점액을"
+       }
+      ],
+      "rp": {
+       "situation": "달팽이 한 마리가 땅 위를 기어가고 있어요.",
+       "prompt": "What is that animal?",
+       "options": [
+        "It's a snail.",
+        "It's a snale."
+       ],
+       "answer": 0,
+       "why": "snail이 올바른 철자이고 snale은 존재하지 않는 단어예요."
+      },
+      "topic": "달팽이는 왜 느리게 갈까"
+     },
+     {
+      "id": "kinder:shell",
+      "word": "shell",
+      "ko": "껍데기, 껍질",
+      "filled": "When danger comes, snails hide in their shell.",
+      "sent_ko": "위험이 오면, 달팽이들은 껍데기 안에 숨어요.",
+      "chunks": [
+       {
+        "en": "When danger comes,",
+        "ko": "위험이 오면"
+       },
+       {
+        "en": "snails hide",
+        "ko": "달팽이들은 숨어요"
+       },
+       {
+        "en": "in their shell.",
+        "ko": "껍데기 안에"
+       }
+      ],
+      "rp": {
+       "situation": "달팽이가 딱딱한 집을 등에 지고 있어요.",
+       "prompt": "What do you see on the snail's back?",
+       "options": [
+        "I see a shell.",
+        "I see a skin."
+       ],
+       "answer": 0,
+       "why": "달팽이 등의 딱딱한 집은 shell이라고 해요."
+      },
+      "topic": "달팽이는 왜 느리게 갈까"
+     },
+     {
+      "id": "kinder:soft",
+      "word": "soft",
+      "ko": "부드러운, 연한",
+      "filled": "They have a soft body and a hard shell.",
+      "sent_ko": "그것들은 부드러운 몸과 딱딱한 껍데기를 가지고 있어요.",
+      "chunks": [
+       {
+        "en": "They have",
+        "ko": "그것들은 가지고 있어요"
+       },
+       {
+        "en": "a soft body",
+        "ko": "부드러운 몸을"
+       },
+       {
+        "en": "and a hard shell.",
+        "ko": "그리고 딱딱한 껍데기를"
+       }
+      ],
+      "rp": {
+       "situation": "달팽이의 몸을 살짝 만져 보았더니 말랑말랑해요.",
+       "prompt": "How does the snail's body feel?",
+       "options": [
+        "It feels soft.",
+        "It feels softly."
+       ],
+       "answer": 0,
+       "why": "feel 뒤에는 형용사 soft를 써야 해요. softly는 부사라서 틀려요."
+      },
+      "topic": "달팽이는 왜 느리게 갈까"
+     },
+     {
+      "id": "kinder:belly",
+      "word": "belly",
+      "ko": "배, 복부",
+      "filled": "Snails move on their belly.",
+      "sent_ko": "달팽이들은 배로 움직여요.",
+      "chunks": [
+       {
+        "en": "Snails",
+        "ko": "달팽이들은"
+       },
+       {
+        "en": "move",
+        "ko": "움직여요"
+       },
+       {
+        "en": "on their belly.",
+        "ko": "배로"
+       }
+      ],
+      "rp": {
+       "situation": "달팽이가 배 부분을 바닥에 대고 이동하고 있어요.",
+       "prompt": "Which part of the snail touches the ground?",
+       "options": [
+        "Its belly does.",
+        "Its back does."
+       ],
+       "answer": 0,
+       "why": "달팽이는 배(belly)로 땅을 짚으며 이동해요."
+      },
+      "topic": "달팽이는 왜 느리게 갈까"
+     },
+     {
+      "id": "kinder:slime",
+      "word": "slime",
+      "ko": "점액, 끈적끈적한 물질",
+      "filled": "Snails also make slime.",
+      "sent_ko": "달팽이들은 점액도 만들어요.",
+      "chunks": [
+       {
+        "en": "Snails",
+        "ko": "달팽이들은"
+       },
+       {
+        "en": "also make",
+        "ko": "~도 만들어요"
+       },
+       {
+        "en": "slime.",
+        "ko": "점액을"
+       }
+      ],
+      "rp": {
+       "situation": "달팽이가 지나간 자리에 끈적끈적한 흔적이 남아 있어요.",
+       "prompt": "What did the snail leave behind?",
+       "options": [
+        "It left slime.",
+        "It left slimes."
+       ],
+       "answer": 0,
+       "why": "slime은 셀 수 없는 명사라서 복수형 slimes는 쓰지 않아요."
+      },
+      "topic": "달팽이는 왜 느리게 갈까"
+     },
+     {
+      "id": "kinder:slide",
+      "word": "slide",
+      "ko": "미끄러지다, 滑동하다",
+      "filled": "The slime helps them slide on the ground.",
+      "sent_ko": "점액은 달팽이들이 땅 위를 미끄러지도록 도와줘요.",
+      "chunks": [
+       {
+        "en": "The slime helps them",
+        "ko": "점액은 그것들이 ~하도록 도와줘요"
+       },
+       {
+        "en": "slide",
+        "ko": "미끄러지도록"
+       },
+       {
+        "en": "on the ground.",
+        "ko": "땅 위를"
+       }
+      ],
+      "rp": {
+       "situation": "달팽이가 끈적한 점액 덕분에 부드럽게 앞으로 나아가고 있어요.",
+       "prompt": "What does the slime help snails do?",
+       "options": [
+        "It helps them slide.",
+        "It helps them slides."
+       ],
+       "answer": 0,
+       "why": "help 다음에 동사원형 slide를 써야 해요. slides처럼 s를 붙이면 틀려요."
+      },
+      "topic": "달팽이는 왜 느리게 갈까"
+     },
+     {
+      "id": "kinder:danger",
+      "word": "danger",
+      "ko": "위험",
+      "filled": "When danger comes, snails hide in their shell.",
+      "sent_ko": "위험이 오면, 달팽이들은 껍데기 안에 숨어요.",
+      "chunks": [
+       {
+        "en": "When danger comes,",
+        "ko": "위험이 오면"
+       },
+       {
+        "en": "snails hide",
+        "ko": "달팽이들은 숨어요"
+       },
+       {
+        "en": "in their shell.",
+        "ko": "껍데기 안에"
+       }
+      ],
+      "rp": {
+       "situation": "큰 새가 달팽이 쪽으로 날아오고 있어서 달팽이가 위험해요.",
+       "prompt": "Is the snail safe right now?",
+       "options": [
+        "No, there is danger.",
+        "No, there is a danger."
+       ],
+       "answer": 0,
+       "why": "위험 일반을 나타낼 때 danger는 관사 없이 써요. a danger는 어색해요."
+      },
+      "topic": "달팽이는 왜 느리게 갈까"
+     },
+     {
+      "id": "kinder:hide",
+      "word": "hide",
+      "ko": "숨다, 숨기다",
+      "filled": "When danger comes, snails hide in their shell.",
+      "sent_ko": "위험이 오면, 달팽이들은 껍데기 안에 숨어요.",
+      "chunks": [
+       {
+        "en": "When danger comes,",
+        "ko": "위험이 오면"
+       },
+       {
+        "en": "snails hide",
+        "ko": "달팽이들은 숨어요"
+       },
+       {
+        "en": "in their shell.",
+        "ko": "껍데기 안에"
+       }
+      ],
+      "rp": {
+       "situation": "위험이 다가오자 달팽이가 껍데기 속으로 몸을 집어넣고 있어요.",
+       "prompt": "What do snails do when danger comes?",
+       "options": [
+        "They hide in their shell.",
+        "They hides in their shell."
+       ],
+       "answer": 0,
+       "why": "주어가 복수(they)이면 동사에 s를 붙이지 않아요. hides는 틀려요."
+      },
+      "topic": "달팽이는 왜 느리게 갈까"
+     }
+    ]
+   }
+  ],
+  "kids": [
+   {
+    "id": "kids|북극여우는 어떻게 겨울을 버틸까",
+    "level": "kids",
+    "topic": "북극여우는 어떻게 겨울을 버틸까",
+    "section": "과학",
+    "cards": [
+     {
+      "id": "kids:temperature",
+      "word": "temperature",
+      "ko": "온도, 기온",
+      "filled": "Temperatures can drop to minus 50 degrees Celsius.",
+      "sent_ko": "기온은 영하 50도(섭씨)까지 내려갈 수 있습니다.",
+      "chunks": [
+       {
+        "en": "Temperatures",
+        "ko": "기온은"
+       },
+       {
+        "en": "can drop",
+        "ko": "내려갈 수 있습니다"
+       },
+       {
+        "en": "to minus 50 degrees Celsius.",
+        "ko": "영하 섭씨 50도까지"
+       }
+      ],
+      "rp": {
+       "situation": "날씨 앱에서 오늘 기온이 영하 10도라고 나와 있어요.",
+       "prompt": "How is the weather today?",
+       "options": [
+        "The temperature is very low today.",
+        "The temperature is very tall today."
+       ],
+       "answer": 0,
+       "why": "온도가 낮을 때는 low를 써야 하고, tall은 키나 높이에 쓰는 말이에요."
+      },
+      "topic": "북극여우는 어떻게 겨울을 버틸까"
+     },
+     {
+      "id": "kids:survive",
+      "word": "survive",
+      "ko": "살아남다, 생존하다",
+      "filled": "Let's look at three ways arctic foxes survive the freezing winter.",
+      "sent_ko": "북극여우가 혹독한 겨울을 살아남는 세 가지 방법을 살펴봅시다.",
+      "chunks": [
+       {
+        "en": "Let's look at three ways",
+        "ko": "세 가지 방법을 살펴봅시다"
+       },
+       {
+        "en": "arctic foxes",
+        "ko": "북극여우가"
+       },
+       {
+        "en": "survive the freezing winter.",
+        "ko": "혹독한 겨울을 살아남는"
+       }
+      ],
+      "rp": {
+       "situation": "북극여우 한 마리가 눈보라 속에서 먹이를 찾으며 버티고 있어요.",
+       "prompt": "What is the fox doing?",
+       "options": [
+        "The fox is trying to survive.",
+        "The fox is trying to surviving."
+       ],
+       "answer": 0,
+       "why": "try to 뒤에는 동사원형이 와야 하므로 surviving은 틀려요."
+      },
+      "topic": "북극여우는 어떻게 겨울을 버틸까"
+     },
+     {
+      "id": "kids:thick",
+      "word": "thick",
+      "ko": "두꺼운, 촘촘한",
+      "filled": "They also have thick fur on the bottom of their paws.",
+      "sent_ko": "그들은 또한 발바닥 아래쪽에 두꺼운 털을 가지고 있습니다.",
+      "chunks": [
+       {
+        "en": "They also have",
+        "ko": "그들은 또한 가지고 있습니다"
+       },
+       {
+        "en": "thick fur",
+        "ko": "두꺼운 털을"
+       },
+       {
+        "en": "on the bottom of their paws.",
+        "ko": "발바닥 아래쪽에"
+       }
+      ],
+      "rp": {
+       "situation": "겨울에 북극여우 발바닥을 만져 보니 털이 아주 많고 두툼해요.",
+       "prompt": "What is the fur like?",
+       "options": [
+        "The fur is thick.",
+        "The fur is thickness."
+       ],
+       "answer": 0,
+       "why": "형용사 thick이 맞고, thickness는 명사라서 이 자리에 쓸 수 없어요."
+      },
+      "topic": "북극여우는 어떻게 겨울을 버틸까"
+     },
+     {
+      "id": "kids:freeze",
+      "word": "freeze",
+      "ko": "얼다, 얼어붙다",
+      "filled": "Let's look at three ways arctic foxes survive the freezing winter.",
+      "sent_ko": "북극여우가 혹독한 겨울을 살아남는 세 가지 방법을 살펴봅시다.",
+      "chunks": [
+       {
+        "en": "Let's look at three ways",
+        "ko": "세 가지 방법을 살펴봅시다"
+       },
+       {
+        "en": "arctic foxes",
+        "ko": "북극여우가"
+       },
+       {
+        "en": "survive the freezing winter.",
+        "ko": "혹독하게 추운 겨울을 살아남는"
+       }
+      ],
+      "rp": {
+       "situation": "냉동실에 넣어 둔 물이 딱딱하게 굳어 버렸어요.",
+       "prompt": "What happened to the water?",
+       "options": [
+        "The water froze.",
+        "The water freezing."
+       ],
+       "answer": 0,
+       "why": "과거에 일어난 일이므로 동사 과거형 froze가 맞고, freezing만으로는 문장이 안 돼요."
+      },
+      "topic": "북극여우는 어떻게 겨울을 버틸까"
+     },
+     {
+      "id": "kids:curl up",
+      "word": "curl up",
+      "ko": "몸을 웅크리다, 동그랗게 말다",
+      "filled": "🐾 Staying Safe and Fed Arctic foxes curl up and wrap their big, fluffy tail around their body like a blanket.",
+      "sent_ko": "북극여우는 몸을 웅크리고 크고 복슬복슬한 꼬리를 담요처럼 몸 주위에 두릅니다.",
+      "chunks": null,
+      "rp": {
+       "situation": "고양이 한 마리가 소파 위에서 몸을 동그랗게 말고 자고 있어요.",
+       "prompt": "What is the cat doing?",
+       "options": [
+        "The cat is curling up to sleep.",
+        "The cat is curling down to sleep."
+       ],
+       "answer": 0,
+       "why": "몸을 웅크리는 표현은 curl up이고, curl down은 존재하지 않는 표현이에요."
+      },
+      "topic": "북극여우는 어떻게 겨울을 버틸까"
+     },
+     {
+      "id": "kids:wrap",
+      "word": "wrap",
+      "ko": "감싸다, 두르다",
+      "filled": "🐾 Staying Safe and Fed Arctic foxes curl up and wrap their big, fluffy tail around their body like a blanket.",
+      "sent_ko": "북극여우는 몸을 웅크리고 크고 복슬복슬한 꼬리를 담요처럼 몸 주위에 두릅니다.",
+      "chunks": null,
+      "rp": {
+       "situation": "생일 선물을 예쁜 종이로 빙 둘러 싸고 있어요.",
+       "prompt": "What are you doing to the gift?",
+       "options": [
+        "I am wrapping the gift.",
+        "I am rapping the gift."
+       ],
+       "answer": 0,
+       "why": "선물을 감싸는 동작은 wrap이고, rap은 전혀 다른 뜻의 단어예요."
+      },
+      "topic": "북극여우는 어떻게 겨울을 버틸까"
+     },
+     {
+      "id": "kids:paw",
+      "word": "paw",
+      "ko": "발, 발바닥 (동물의)",
+      "filled": "They also have thick fur on the bottom of their paws.",
+      "sent_ko": "그들은 또한 발바닥 아래쪽에 두꺼운 털을 가지고 있습니다.",
+      "chunks": [
+       {
+        "en": "They also have",
+        "ko": "그들은 또한 가지고 있습니다"
+       },
+       {
+        "en": "thick fur",
+        "ko": "두꺼운 털을"
+       },
+       {
+        "en": "on the bottom of their paws.",
+        "ko": "발바닥 아래쪽에"
+       }
+      ],
+      "rp": {
+       "situation": "강아지가 진흙 속을 걷다가 발바닥이 더러워졌어요.",
+       "prompt": "What should we clean?",
+       "options": [
+        "Let's wash the dog's paws.",
+        "Let's wash the dog's claws."
+       ],
+       "answer": 0,
+       "why": "발바닥 전체를 가리키는 말은 paws이고, claws는 발톱만을 뜻해요."
+      },
+      "topic": "북극여우는 어떻게 겨울을 버틸까"
+     }
+    ]
+   },
+   {
+    "id": "kids|번개는 왜 소리보다 먼저 보일까",
+    "level": "kids",
+    "topic": "번개는 왜 소리보다 먼저 보일까",
+    "section": "과학",
+    "cards": [
+     {
+      "id": "kids:lightning",
+      "word": "lightning",
+      "ko": "번개",
+      "filled": "Count the seconds between the lightning flash and the thunder.",
+      "sent_ko": "번개 번쩍임과 천둥 사이의 초를 세어 보세요.",
+      "chunks": [
+       {
+        "en": "Count the seconds",
+        "ko": "초를 세어라"
+       },
+       {
+        "en": "between the lightning flash",
+        "ko": "번개 번쩍임과"
+       },
+       {
+        "en": "and the thunder.",
+        "ko": "천둥 사이의"
+       }
+      ],
+      "rp": {
+       "situation": "폭풍우 치는 밤, 하늘에서 번쩍 빛이 났다.",
+       "prompt": "What did you just see in the sky?",
+       "options": [
+        "I saw lightning!",
+        "I saw a lighten!"
+       ],
+       "answer": 0,
+       "why": "lightning이 올바른 명사형이고, lighten은 동사라 틀림"
+      },
+      "topic": "번개는 왜 소리보다 먼저 보일까"
+     },
+     {
+      "id": "kids:thunder",
+      "word": "thunder",
+      "ko": "천둥",
+      "filled": "Count the seconds between the lightning flash and the thunder.",
+      "sent_ko": "번개 번쩍임과 천둥 사이의 초를 세어 보세요.",
+      "chunks": [
+       {
+        "en": "Count the seconds",
+        "ko": "초를 세어라"
+       },
+       {
+        "en": "between the lightning flash",
+        "ko": "번개 번쩍임과"
+       },
+       {
+        "en": "and the thunder.",
+        "ko": "천둥 사이의"
+       }
+      ],
+      "rp": {
+       "situation": "번개가 친 뒤 하늘에서 큰 소리가 들렸다.",
+       "prompt": "What was that loud noise?",
+       "options": [
+        "That was thunder.",
+        "That was thundering."
+       ],
+       "answer": 0,
+       "why": "명사 thunder가 '천둥'을 가리키고, thundering은 동사형이라 틀림"
+      },
+      "topic": "번개는 왜 소리보다 먼저 보일까"
+     },
+     {
+      "id": "kids:flash",
+      "word": "flash",
+      "ko": "번쩍임, 섬광",
+      "filled": "Count the seconds between the lightning flash and the thunder.",
+      "sent_ko": "번개 번쩍임과 천둥 사이의 초를 세어 보세요.",
+      "chunks": [
+       {
+        "en": "Count the seconds",
+        "ko": "초를 세어라"
+       },
+       {
+        "en": "between the lightning flash",
+        "ko": "번개 번쩍임과"
+       },
+       {
+        "en": "and the thunder.",
+        "ko": "천둥 사이의"
+       }
+      ],
+      "rp": {
+       "situation": "번개가 순간적으로 밝게 빛났다 사라졌다.",
+       "prompt": "What did the lightning do?",
+       "options": [
+        "It made a flash.",
+        "It made a flush."
+       ],
+       "answer": 0,
+       "why": "flash는 '번쩍임'이고 flush는 전혀 다른 단어라 틀림"
+      },
+      "topic": "번개는 왜 소리보다 먼저 보일까"
+     },
+     {
+      "id": "kids:speed",
+      "word": "speed",
+      "ko": "속도",
+      "filled": "Light and sound travel at very different speeds.",
+      "sent_ko": "빛과 소리는 매우 다른 속도로 이동합니다.",
+      "chunks": [
+       {
+        "en": "Light and sound",
+        "ko": "빛과 소리는"
+       },
+       {
+        "en": "travel at",
+        "ko": "이동한다"
+       },
+       {
+        "en": "very different speeds.",
+        "ko": "매우 다른 속도로"
+       }
+      ],
+      "rp": {
+       "situation": "선생님이 빛과 소리 중 무엇이 더 빨리 이동하는지 물어봤다.",
+       "prompt": "Do light and sound move at the same speed?",
+       "options": [
+        "No, they travel at different speeds.",
+        "No, they travel at different fastness."
+       ],
+       "answer": 0,
+       "why": "speeds가 올바른 명사형이고, fastness는 속도의 자연스러운 명사로 쓰이지 않음"
+      },
+      "topic": "번개는 왜 소리보다 먼저 보일까"
+     },
+     {
+      "id": "kids:sound",
+      "word": "sound",
+      "ko": "소리",
+      "filled": "Light and sound travel at very different speeds.",
+      "sent_ko": "빛과 소리는 매우 다른 속도로 이동합니다.",
+      "chunks": [
+       {
+        "en": "Light and sound",
+        "ko": "빛과 소리는"
+       },
+       {
+        "en": "travel at",
+        "ko": "이동한다"
+       },
+       {
+        "en": "very different speeds.",
+        "ko": "매우 다른 속도로"
+       }
+      ],
+      "rp": {
+       "situation": "폭풍 속에서 눈에 보이는 것과 귀에 들리는 것이 있다.",
+       "prompt": "What do your ears pick up?",
+       "options": [
+        "My ears pick up sound.",
+        "My ears pick up sight."
+       ],
+       "answer": 0,
+       "why": "sound는 귀로 듣는 것이고, sight는 눈으로 보는 것이라 틀림"
+      },
+      "topic": "번개는 왜 소리보다 먼저 보일까"
+     },
+     {
+      "id": "kids:expand",
+      "word": "expand",
+      "ko": "팽창하다, 확장되다",
+      "filled": "Thunder happens because lightning heats the air, and the hot air expands quickly.",
+      "sent_ko": "천둥은 번개가 공기를 가열하고 뜨거운 공기가 빠르게 팽창하기 때문에 생깁니다.",
+      "chunks": [
+       {
+        "en": "Thunder happens",
+        "ko": "천둥이 생긴다"
+       },
+       {
+        "en": "because lightning heats the air,",
+        "ko": "번개가 공기를 가열하기 때문에"
+       },
+       {
+        "en": "and the hot air",
+        "ko": "그리고 뜨거운 공기가"
+       },
+       {
+        "en": "expands quickly.",
+        "ko": "빠르게 팽창한다"
+       }
+      ],
+      "rp": {
+       "situation": "선생님이 뜨거운 공기가 어떻게 되는지 설명하고 있다.",
+       "prompt": "What does hot air do?",
+       "options": [
+        "Hot air expands quickly.",
+        "Hot air expansion quickly."
+       ],
+       "answer": 0,
+       "why": "expands는 올바른 동사형이고, expansion은 명사라 동사 자리에 틀림"
+      },
+      "topic": "번개는 왜 소리보다 먼저 보일까"
+     },
+     {
+      "id": "kids:instantly",
+      "word": "instantly",
+      "ko": "즉시, 순간적으로",
+      "filled": "But the light reaches your eyes almost instantly, while sound takes much longer.",
+      "sent_ko": "하지만 빛은 거의 순간적으로 눈에 닿는 반면, 소리는 훨씬 더 오래 걸립니다.",
+      "chunks": [
+       {
+        "en": "But the light reaches your eyes",
+        "ko": "하지만 빛은 눈에 닿는다"
+       },
+       {
+        "en": "almost instantly,",
+        "ko": "거의 순간적으로"
+       },
+       {
+        "en": "while sound takes much longer.",
+        "ko": "소리는 훨씬 더 오래 걸리는 반면"
+       }
+      ],
+      "rp": {
+       "situation": "번개가 쳤을 때 빛이 눈에 보이는 속도를 설명해야 한다.",
+       "prompt": "How fast did you see the light?",
+       "options": [
+        "I saw it almost instantly.",
+        "I saw it almost instance."
+       ],
+       "answer": 0,
+       "why": "instantly는 올바른 부사형이고, instance는 명사라 부사 자리에 틀림"
+      },
+      "topic": "번개는 왜 소리보다 먼저 보일까"
+     }
+    ]
+   },
+   {
+    "id": "kids|바닷물은 왜 짤까",
+    "level": "kids",
+    "topic": "바닷물은 왜 짤까",
+    "section": "과학",
+    "cards": [
+     {
+      "id": "kids:salty",
+      "word": "salty",
+      "ko": "짠, 소금기가 있는",
+      "filled": "It is very salty!",
+      "sent_ko": "그것은 매우 짜요!",
+      "chunks": [
+       {
+        "en": "It",
+        "ko": "그것은"
+       },
+       {
+        "en": "is very salty!",
+        "ko": "매우 짜요!"
+       }
+      ],
+      "rp": {
+       "situation": "친구가 국을 한 모금 마셨는데 소금을 너무 많이 넣었어요.",
+       "prompt": "How does the soup taste?",
+       "options": [
+        "It is very salty!",
+        "It is very salt!"
+       ],
+       "answer": 0,
+       "why": "맛을 표현할 때는 형용사 salty를 써야 해요."
+      },
+      "topic": "바닷물은 왜 짤까"
+     },
+     {
+      "id": "kids:mineral",
+      "word": "mineral",
+      "ko": "미네랄, 광물질",
+      "filled": "As water moves over rocks, it picks up tiny bits of salt and minerals.",
+      "sent_ko": "물이 바위 위를 흐르면서, 소금과 미네랄의 작은 알갱이들을 집어 올려요.",
+      "chunks": [
+       {
+        "en": "As water moves over rocks,",
+        "ko": "물이 바위 위를 흐르면서,"
+       },
+       {
+        "en": "it picks up",
+        "ko": "집어 올려요"
+       },
+       {
+        "en": "tiny bits of salt and minerals.",
+        "ko": "소금과 미네랄의 작은 알갱이들을"
+       }
+      ],
+      "rp": {
+       "situation": "선생님이 뼈를 튼튼하게 하는 영양소에 대해 설명하고 있어요.",
+       "prompt": "What do our bones need to stay strong?",
+       "options": [
+        "They need minerals.",
+        "They need mineral."
+       ],
+       "answer": 0,
+       "why": "minerals는 여러 종류가 있어서 복수형을 써야 해요."
+      },
+      "topic": "바닷물은 왜 짤까"
+     },
+     {
+      "id": "kids:evaporate",
+      "word": "evaporate",
+      "ko": "증발하다",
+      "filled": "Water leaves the ocean by evaporating into the air, but salt cannot evaporate.",
+      "sent_ko": "물은 공기 중으로 증발하면서 바다를 떠나지만, 소금은 증발할 수 없어요.",
+      "chunks": [
+       {
+        "en": "Water leaves the ocean",
+        "ko": "물은 바다를 떠나요"
+       },
+       {
+        "en": "by evaporating into the air,",
+        "ko": "공기 중으로 증발하면서,"
+       },
+       {
+        "en": "but salt cannot evaporate.",
+        "ko": "하지만 소금은 증발할 수 없어요."
+       }
+      ],
+      "rp": {
+       "situation": "햇볕이 쨍쨍한 날 젖은 운동장 바닥의 물웅덩이가 사라졌어요.",
+       "prompt": "Where did the puddle go?",
+       "options": [
+        "It evaporated into the air.",
+        "It evaporated into the water."
+       ],
+       "answer": 0,
+       "why": "증발은 액체가 공기 중으로 사라지는 것이에요."
+      },
+      "topic": "바닷물은 왜 짤까"
+     },
+     {
+      "id": "kids:average",
+      "word": "average",
+      "ko": "평균, 평균의",
+      "filled": "On average, ocean water is about 3.5 percent salt.",
+      "sent_ko": "평균적으로, 바닷물은 소금이 약 3.5퍼센트예요.",
+      "chunks": [
+       {
+        "en": "On average,",
+        "ko": "평균적으로,"
+       },
+       {
+        "en": "ocean water is",
+        "ko": "바닷물은"
+       },
+       {
+        "en": "about 3.5 percent salt.",
+        "ko": "약 3.5퍼센트 소금이에요."
+       }
+      ],
+      "rp": {
+       "situation": "선생님이 우리 반 학생들의 키를 모두 재서 하나의 대표 숫자를 구했어요.",
+       "prompt": "What did the teacher find?",
+       "options": [
+        "She found the average height.",
+        "She found the averaging height."
+       ],
+       "answer": 0,
+       "why": "average는 형용사로 명사 앞에 그대로 써야 해요."
+      },
+      "topic": "바닷물은 왜 짤까"
+     },
+     {
+      "id": "kids:billion",
+      "word": "billion",
+      "ko": "10억",
+      "filled": "This has happened for billions of years.",
+      "sent_ko": "이것은 수십억 년 동안 일어났어요.",
+      "chunks": [
+       {
+        "en": "This has happened",
+        "ko": "이것은 일어났어요"
+       },
+       {
+        "en": "for billions of years.",
+        "ko": "수십억 년 동안"
+       }
+      ],
+      "rp": {
+       "situation": "책에서 지구의 나이가 45억 년이라고 읽었어요.",
+       "prompt": "How old is the Earth?",
+       "options": [
+        "It is about 4.5 billion years old.",
+        "It is about 4.5 million years old."
+       ],
+       "answer": 0,
+       "why": "billion은 10억이고 million은 100만이라 수가 달라요."
+      },
+      "topic": "바닷물은 왜 짤까"
+     },
+     {
+      "id": "kids:flow",
+      "word": "flow",
+      "ko": "흐르다, 흐름",
+      "filled": "Rain falls on land and flows into rivers.",
+      "sent_ko": "비가 땅에 내리고 강으로 흘러들어요.",
+      "chunks": [
+       {
+        "en": "Rain falls on land",
+        "ko": "비가 땅에 내리고"
+       },
+       {
+        "en": "and flows into rivers.",
+        "ko": "강으로 흘러들어요."
+       }
+      ],
+      "rp": {
+       "situation": "산에서 내린 비가 모여 강이 되어 움직이고 있어요.",
+       "prompt": "What is the river doing?",
+       "options": [
+        "The river is flowing down the mountain.",
+        "The river is flowed down the mountain."
+       ],
+       "answer": 0,
+       "why": "지금 일어나는 동작은 is flowing처럼 진행형을 써야 해요."
+      },
+      "topic": "바닷물은 왜 짤까"
+     },
+     {
+      "id": "kids:percent",
+      "word": "percent",
+      "ko": "퍼센트, 백분율",
+      "filled": "On average, ocean water is about 3.5 percent salt.",
+      "sent_ko": "평균적으로, 바닷물은 소금이 약 3.5퍼센트예요.",
+      "chunks": [
+       {
+        "en": "On average,",
+        "ko": "평균적으로,"
+       },
+       {
+        "en": "ocean water is",
+        "ko": "바닷물은"
+       },
+       {
+        "en": "about 3.5 percent salt.",
+        "ko": "약 3.5퍼센트 소금이에요."
+       }
+      ],
+      "rp": {
+       "situation": "시험에서 100문제 중 90문제를 맞혔어요.",
+       "prompt": "How did you do on the test?",
+       "options": [
+        "I got 90 percent correct.",
+        "I got 90 percents correct."
+       ],
+       "answer": 0,
+       "why": "percent는 숫자 뒤에 와도 복수형으로 쓰지 않아요."
+      },
+      "topic": "바닷물은 왜 짤까"
+     }
+    ]
+   },
+   {
+    "id": "kids|자동문은 사람을 어떻게 알아볼까",
+    "level": "kids",
+    "topic": "자동문은 사람을 어떻게 알아볼까",
+    "section": "기술",
+    "cards": [
+     {
+      "id": "kids:sensor",
+      "word": "sensor",
+      "ko": "감지기, 센서",
+      "filled": "Another type is an infrared sensor.",
+      "sent_ko": "또 다른 종류는 적외선 센서입니다.",
+      "chunks": [
+       {
+        "en": "Another type",
+        "ko": "또 다른 종류"
+       },
+       {
+        "en": "is",
+        "ko": "이다"
+       },
+       {
+        "en": "an infrared sensor.",
+        "ko": "적외선 센서"
+       }
+      ],
+      "rp": {
+       "situation": "선생님이 교실 천장에 달린 물건을 가리키며 설명하고 있어요.",
+       "prompt": "What is that thing on the ceiling?",
+       "options": [
+        "It's a sensor. It detects motion.",
+        "It's a sensor. It detects motion very good."
+       ],
+       "answer": 0,
+       "why": "'very good'이 아니라 'very well'을 써야 하므로 b는 문법적으로 틀렸어요."
+      },
+      "topic": "자동문은 사람을 어떻게 알아볼까"
+     },
+     {
+      "id": "kids:device",
+      "word": "device",
+      "ko": "장치, 기기",
+      "filled": "A sensor is a small device that can feel things around it.",
+      "sent_ko": "센서는 주변의 것들을 느낄 수 있는 작은 장치입니다.",
+      "chunks": [
+       {
+        "en": "A sensor",
+        "ko": "센서는"
+       },
+       {
+        "en": "is a small device",
+        "ko": "작은 장치입니다"
+       },
+       {
+        "en": "that can feel",
+        "ko": "느낄 수 있는"
+       },
+       {
+        "en": "things around it.",
+        "ko": "주변의 것들을"
+       }
+      ],
+      "rp": {
+       "situation": "엄마가 부엌 서랍에서 작은 전자 기기를 꺼내서 보여주고 있어요.",
+       "prompt": "What is this?",
+       "options": [
+        "It's a small device that measures temperature.",
+        "It's a small device that measure temperature."
+       ],
+       "answer": 0,
+       "why": "주어가 'that'(단수)이므로 동사는 'measures'가 맞고 b의 'measure'는 문법적으로 틀렸어요."
+      },
+      "topic": "자동문은 사람을 어떻게 알아볼까"
+     },
+     {
+      "id": "kids:invisible",
+      "word": "invisible",
+      "ko": "보이지 않는, 눈에 띄지 않는",
+      "filled": "It sends out invisible waves, like a bat sending out sound.",
+      "sent_ko": "박쥐가 소리를 내보내는 것처럼, 그것은 보이지 않는 파동을 내보냅니다.",
+      "chunks": [
+       {
+        "en": "It sends out",
+        "ko": "그것은 내보냅니다"
+       },
+       {
+        "en": "invisible waves,",
+        "ko": "보이지 않는 파동을"
+       },
+       {
+        "en": "like a bat",
+        "ko": "박쥐처럼"
+       },
+       {
+        "en": "sending out sound.",
+        "ko": "소리를 내보내는"
+       }
+      ],
+      "rp": {
+       "situation": "친구가 왜 문이 저절로 열렸는지 물어보고 있어요.",
+       "prompt": "How does the door know we are here?",
+       "options": [
+        "It uses invisible waves to detect us.",
+        "It uses invisibly waves to detect us."
+       ],
+       "answer": 0,
+       "why": "'waves'는 명사이므로 형용사 'invisible'이 맞고 부사 'invisibly'는 쓸 수 없어요."
+      },
+      "topic": "자동문은 사람을 어떻게 알아볼까"
+     },
+     {
+      "id": "kids:wave",
+      "word": "wave",
+      "ko": "파동, 파장",
+      "filled": "It sends out invisible waves, like a bat sending out sound.",
+      "sent_ko": "박쥐가 소리를 내보내는 것처럼, 그것은 보이지 않는 파동을 내보냅니다.",
+      "chunks": [
+       {
+        "en": "It sends out",
+        "ko": "그것은 내보냅니다"
+       },
+       {
+        "en": "invisible waves,",
+        "ko": "보이지 않는 파동을"
+       },
+       {
+        "en": "like a bat",
+        "ko": "박쥐처럼"
+       },
+       {
+        "en": "sending out sound.",
+        "ko": "소리를 내보내는"
+       }
+      ],
+      "rp": {
+       "situation": "과학 시간에 선생님이 소리가 어떻게 이동하는지 설명하고 있어요.",
+       "prompt": "How does sound travel?",
+       "options": [
+        "Sound travels in waves.",
+        "Sound travels in wave."
+       ],
+       "answer": 0,
+       "why": "'waves'는 셀 수 있는 명사로 복수형을 써야 하므로 단수형 'wave'는 틀렸어요."
+      },
+      "topic": "자동문은 사람을 어떻게 알아볼까"
+     },
+     {
+      "id": "kids:bounce",
+      "word": "bounce",
+      "ko": "튀다, 반사되다",
+      "filled": "When the waves hit a moving person, they bounce back differently.",
+      "sent_ko": "파동이 움직이는 사람에게 부딪히면, 파동은 다르게 튀어 돌아옵니다.",
+      "chunks": [
+       {
+        "en": "When the waves",
+        "ko": "파동이"
+       },
+       {
+        "en": "hit a moving person,",
+        "ko": "움직이는 사람에게 부딪히면"
+       },
+       {
+        "en": "they bounce back",
+        "ko": "튀어 돌아옵니다"
+       },
+       {
+        "en": "differently.",
+        "ko": "다르게"
+       }
+      ],
+      "rp": {
+       "situation": "체육 시간에 선생님이 공을 바닥에 치고 있어요.",
+       "prompt": "What happens when I drop the ball?",
+       "options": [
+        "It bounces back up.",
+        "It bounces back up good."
+       ],
+       "answer": 0,
+       "why": "동사를 꾸밀 때는 부사를 써야 하므로 형용사 'good' 대신 부사 'well'이나 다른 부사가 맞아요."
+      },
+      "topic": "자동문은 사람을 어떻게 알아볼까"
+     },
+     {
+      "id": "kids:infrared",
+      "word": "infrared",
+      "ko": "적외선의",
+      "filled": "Another type is an infrared sensor.",
+      "sent_ko": "또 다른 종류는 적외선 센서입니다.",
+      "chunks": [
+       {
+        "en": "Another type",
+        "ko": "또 다른 종류"
+       },
+       {
+        "en": "is",
+        "ko": "이다"
+       },
+       {
+        "en": "an infrared sensor.",
+        "ko": "적외선 센서"
+       }
+      ],
+      "rp": {
+       "situation": "과학관에서 안내판에 적외선 카메라 사진이 있고 선생님이 설명하고 있어요.",
+       "prompt": "What kind of camera is this?",
+       "options": [
+        "It is an infrared camera.",
+        "It is an infrareds camera."
+       ],
+       "answer": 0,
+       "why": "'infrared'는 형용사로 복수형이 없으므로 'infrareds'는 문법적으로 틀렸어요."
+      },
+      "topic": "자동문은 사람을 어떻게 알아볼까"
+     },
+     {
+      "id": "kids:signal",
+      "word": "signal",
+      "ko": "신호",
+      "filled": "When the sensor finds heat nearby, it sends a signal.",
+      "sent_ko": "센서가 근처에서 열을 감지하면, 신호를 보냅니다.",
+      "chunks": [
+       {
+        "en": "When the sensor",
+        "ko": "센서가"
+       },
+       {
+        "en": "finds heat nearby,",
+        "ko": "근처에서 열을 감지하면"
+       },
+       {
+        "en": "it sends",
+        "ko": "보냅니다"
+       },
+       {
+        "en": "a signal.",
+        "ko": "신호를"
+       }
+      ],
+      "rp": {
+       "situation": "집에서 화재경보기가 갑자기 소리를 내고 있어요.",
+       "prompt": "Why is the alarm making noise?",
+       "options": [
+        "It is sending a signal that there is smoke.",
+        "It is sending a signal what there is smoke."
+       ],
+       "answer": 0,
+       "why": "접속사 자리에는 'that'이 맞고 'what'은 이 문장에서 쓸 수 없어요."
+      },
+      "topic": "자동문은 사람을 어떻게 알아볼까"
+     },
+     {
+      "id": "kids:automatic",
+      "word": "automatic",
+      "ko": "자동의, 자동적인",
+      "filled": "Automatic doors use special sensors to find people nearby.",
+      "sent_ko": "자동문은 근처의 사람들을 찾기 위해 특별한 센서를 사용합니다.",
+      "chunks": [
+       {
+        "en": "Automatic doors",
+        "ko": "자동문은"
+       },
+       {
+        "en": "use special sensors",
+        "ko": "특별한 센서를 사용합니다"
+       },
+       {
+        "en": "to find",
+        "ko": "찾기 위해"
+       },
+       {
+        "en": "people nearby.",
+        "ko": "근처의 사람들을"
+       }
+      ],
+      "rp": {
+       "situation": "마트 입구에서 문이 저절로 열리는 것을 보고 있어요.",
+       "prompt": "Why did the door open by itself?",
+       "options": [
+        "It is an automatic door.",
+        "It is an automatically door."
+       ],
+       "answer": 0,
+       "why": "'door'는 명사이므로 형용사 'automatic'이 맞고 부사 'automatically'는 명사를 꾸밀 수 없어요."
+      },
+      "topic": "자동문은 사람을 어떻게 알아볼까"
+     }
+    ]
+   },
+   {
+    "id": "kids|버려진 어망이 바다에서 하는 일",
+    "level": "kids",
+    "topic": "버려진 어망이 바다에서 하는 일",
+    "section": "환경",
+    "cards": [
+     {
+      "id": "kids:net",
+      "word": "net",
+      "ko": "그물",
+      "filled": "Ghost nets are made of nylon.",
+      "sent_ko": "유령 그물들은 나일론으로 만들어졌습니다.",
+      "chunks": [
+       {
+        "en": "Ghost nets",
+        "ko": "유령 그물들은"
+       },
+       {
+        "en": "are made of",
+        "ko": "~로 만들어졌습니다"
+       },
+       {
+        "en": "nylon.",
+        "ko": "나일론"
+       }
+      ],
+      "rp": {
+       "situation": "할머니가 생선을 잡는 도구를 보여 주며 이름을 물어봅니다.",
+       "prompt": "What is this fishing tool called?",
+       "options": [
+        "It is a net.",
+        "It is a nets."
+       ],
+       "answer": 0,
+       "why": "단수 명사 앞에는 복수형을 쓸 수 없습니다."
+      },
+      "topic": "버려진 어망이 바다에서 하는 일"
+     },
+     {
+      "id": "kids:trap",
+      "word": "trap",
+      "ko": "덫, 가두다",
+      "filled": "Animals that get trapped cannot escape.",
+      "sent_ko": "갇혀버린 동물들은 탈출할 수 없습니다.",
+      "chunks": [
+       {
+        "en": "Animals that get trapped",
+        "ko": "갇혀버린 동물들은"
+       },
+       {
+        "en": "cannot escape.",
+        "ko": "탈출할 수 없습니다"
+       }
+      ],
+      "rp": {
+       "situation": "쥐가 상자 안에 들어갔고 뚜껑이 닫혀서 나올 수 없습니다.",
+       "prompt": "What happened to the mouse?",
+       "options": [
+        "The mouse got trapped.",
+        "The mouse got trapping."
+       ],
+       "answer": 0,
+       "why": "get 뒤에는 과거분사(trapped)를 써야 합니다."
+      },
+      "topic": "버려진 어망이 바다에서 하는 일"
+     },
+     {
+      "id": "kids:escape",
+      "word": "escape",
+      "ko": "탈출하다, 빠져나오다",
+      "filled": "Animals that get trapped cannot escape.",
+      "sent_ko": "갇혀버린 동물들은 탈출할 수 없습니다.",
+      "chunks": [
+       {
+        "en": "Animals that get trapped",
+        "ko": "갇혀버린 동물들은"
+       },
+       {
+        "en": "cannot escape.",
+        "ko": "탈출할 수 없습니다"
+       }
+      ],
+      "rp": {
+       "situation": "새가 새장 안에 갇혀서 문이 잠겨 있습니다.",
+       "prompt": "Can the bird get out?",
+       "options": [
+        "No, it cannot escape.",
+        "No, it cannot escapes."
+       ],
+       "answer": 0,
+       "why": "cannot 뒤에는 동사원형을 써야 합니다."
+      },
+      "topic": "버려진 어망이 바다에서 하는 일"
+     },
+     {
+      "id": "kids:surface",
+      "word": "surface",
+      "ko": "표면, 수면",
+      "filled": "Many of them die because they cannot move or reach the surface to breathe.",
+      "sent_ko": "그들 중 많은 수가 움직이거나 숨을 쉬기 위해 수면으로 올라올 수 없기 때문에 죽습니다.",
+      "chunks": [
+       {
+        "en": "Many of them die",
+        "ko": "그들 중 많은 수가 죽습니다"
+       },
+       {
+        "en": "because they cannot move",
+        "ko": "왜냐하면 움직일 수 없고"
+       },
+       {
+        "en": "or reach the surface",
+        "ko": "수면에 닿을 수 없어서"
+       },
+       {
+        "en": "to breathe.",
+        "ko": "숨을 쉬기 위해"
+       }
+      ],
+      "rp": {
+       "situation": "수영장에서 잠수했던 아이가 물 위로 올라왔습니다.",
+       "prompt": "Where did you go?",
+       "options": [
+        "I came up to the surface.",
+        "I came up to the surfacing."
+       ],
+       "answer": 0,
+       "why": "전치사 to 뒤에는 명사형(surface)을 써야 합니다."
+      },
+      "topic": "버려진 어망이 바다에서 하는 일"
+     },
+     {
+      "id": "kids:volunteer",
+      "word": "volunteer",
+      "ko": "자원봉사자, 자원하다",
+      "filled": "Volunteer divers help by going underwater to find and pull out ghost nets.",
+      "sent_ko": "자원봉사 잠수부들은 유령 그물을 찾아 끌어내기 위해 물속으로 들어가서 도움을 줍니다.",
+      "chunks": [
+       {
+        "en": "Volunteer divers",
+        "ko": "자원봉사 잠수부들은"
+       },
+       {
+        "en": "help by going underwater",
+        "ko": "물속으로 들어가서 도움을 줍니다"
+       },
+       {
+        "en": "to find and pull out",
+        "ko": "찾아 끌어내기 위해"
+       },
+       {
+        "en": "ghost nets.",
+        "ko": "유령 그물을"
+       }
+      ],
+      "rp": {
+       "situation": "선생님이 청소를 도와줄 사람을 찾고 있고 민준이가 손을 들었습니다.",
+       "prompt": "Did anyone ask Minjun to help?",
+       "options": [
+        "No, he volunteered to help.",
+        "No, he volunteering to help."
+       ],
+       "answer": 0,
+       "why": "주어 뒤에는 동사원형(volunteered)이 와야 합니다."
+      },
+      "topic": "버려진 어망이 바다에서 하는 일"
+     },
+     {
+      "id": "kids:nylon",
+      "word": "nylon",
+      "ko": "나일론",
+      "filled": "Ghost nets are made of nylon.",
+      "sent_ko": "유령 그물들은 나일론으로 만들어졌습니다.",
+      "chunks": [
+       {
+        "en": "Ghost nets",
+        "ko": "유령 그물들은"
+       },
+       {
+        "en": "are made of",
+        "ko": "~로 만들어졌습니다"
+       },
+       {
+        "en": "nylon.",
+        "ko": "나일론"
+       }
+      ],
+      "rp": {
+       "situation": "친구가 가방 소재를 궁금해하며 만져보고 있습니다.",
+       "prompt": "What is your bag made of?",
+       "options": [
+        "It is made of nylon.",
+        "It is made of nylons."
+       ],
+       "answer": 0,
+       "why": "재료를 나타내는 물질명사는 복수형으로 쓰지 않습니다."
+      },
+      "topic": "버려진 어망이 바다에서 하는 일"
+     },
+     {
+      "id": "kids:diver",
+      "word": "diver",
+      "ko": "잠수부",
+      "filled": "Volunteer divers help by going underwater to find and pull out ghost nets.",
+      "sent_ko": "자원봉사 잠수부들은 유령 그물을 찾아 끌어내기 위해 물속으로 들어가서 도움을 줍니다.",
+      "chunks": [
+       {
+        "en": "Volunteer divers",
+        "ko": "자원봉사 잠수부들은"
+       },
+       {
+        "en": "help by going underwater",
+        "ko": "물속으로 들어가서 도움을 줍니다"
+       },
+       {
+        "en": "to find and pull out",
+        "ko": "찾아 끌어내기 위해"
+       },
+       {
+        "en": "ghost nets.",
+        "ko": "유령 그물을"
+       }
+      ],
+      "rp": {
+       "situation": "바닷속으로 들어가서 물고기를 관찰하는 사람을 보고 있습니다.",
+       "prompt": "What do you call that person?",
+       "options": [
+        "That person is a diver.",
+        "That person is a diving."
+       ],
+       "answer": 0,
+       "why": "부정관사 a 뒤에는 명사(diver)가 와야 합니다."
+      },
+      "topic": "버려진 어망이 바다에서 하는 일"
+     }
+    ]
+   },
+   {
+    "id": "kids|세계의 전통 놀이는 어떻게 다를까",
+    "level": "kids",
+    "topic": "세계의 전통 놀이는 어떻게 다를까",
+    "section": "문화",
+    "cards": [
+     {
+      "id": "kids:traditional",
+      "word": "traditional",
+      "ko": "전통적인",
+      "filled": "Let's look at three fun traditional games from different places!",
+      "sent_ko": "다양한 나라의 재미있는 전통 놀이 세 가지를 살펴봐요!",
+      "chunks": [
+       {
+        "en": "Let's look at",
+        "ko": "~을 살펴봐요"
+       },
+       {
+        "en": "three fun traditional games",
+        "ko": "재미있는 전통 놀이 세 가지"
+       },
+       {
+        "en": "from different places!",
+        "ko": "다양한 나라에서 온"
+       }
+      ],
+      "rp": {
+       "situation": "할머니가 옛날부터 내려오는 놀이를 가르쳐 주고 있어요.",
+       "prompt": "What kind of game is this?",
+       "options": [
+        "It is a traditional game.",
+        "It is a tradition game."
+       ],
+       "answer": 0,
+       "why": "명사 앞에는 형용사 traditional을 써야 해요."
+      },
+      "topic": "세계의 전통 놀이는 어떻게 다를까"
+     },
+     {
+      "id": "kids:chant",
+      "word": "chant",
+      "ko": "구호, 성가; 구호를 외치다",
+      "filled": "The player must keep chanting 'kabaddi, kabaddi' the whole time.",
+      "sent_ko": "선수는 경기 내내 '카바디, 카바디'를 계속 외쳐야 해요.",
+      "chunks": [
+       {
+        "en": "The player must keep chanting",
+        "ko": "선수는 계속 외쳐야 해요"
+       },
+       {
+        "en": "'kabaddi, kabaddi'",
+        "ko": "'카바디, 카바디'를"
+       },
+       {
+        "en": "the whole time.",
+        "ko": "경기 내내"
+       }
+      ],
+      "rp": {
+       "situation": "운동회에서 응원단이 큰 소리로 같은 말을 반복해서 외치고 있어요.",
+       "prompt": "What are they doing?",
+       "options": [
+        "They are chanting.",
+        "They are chanted."
+       ],
+       "answer": 0,
+       "why": "지금 하고 있는 동작이니까 are chanting이 맞아요."
+      },
+      "topic": "세계의 전통 놀이는 어떻게 다를까"
+     },
+     {
+      "id": "kids:breath",
+      "word": "breath",
+      "ko": "숨, 호흡",
+      "filled": "This shows they are still on one breath.",
+      "sent_ko": "이것은 그들이 아직 한 호흡 안에 있다는 것을 보여줘요.",
+      "chunks": [
+       {
+        "en": "This shows",
+        "ko": "이것은 보여줘요"
+       },
+       {
+        "en": "they are still",
+        "ko": "그들이 아직"
+       },
+       {
+        "en": "on one breath.",
+        "ko": "한 호흡 안에 있다는 것을"
+       }
+      ],
+      "rp": {
+       "situation": "친구가 물속에서 숨을 참고 있어요.",
+       "prompt": "Can you swim to the other side?",
+       "options": [
+        "I will hold my breath.",
+        "I will hold my breathe."
+       ],
+       "answer": 0,
+       "why": "명사는 breath이고, breathe는 동사라서 여기서는 쓸 수 없어요."
+      },
+      "topic": "세계의 전통 놀이는 어떻게 다를까"
+     },
+     {
+      "id": "kids:wooden",
+      "word": "wooden",
+      "ko": "나무로 만든",
+      "filled": "Players throw wooden sticks to knock down wooden blocks.",
+      "sent_ko": "선수들은 나무 막대를 던져서 나무 블록을 쓰러뜨려요.",
+      "chunks": [
+       {
+        "en": "Players throw wooden sticks",
+        "ko": "선수들은 나무 막대를 던져요"
+       },
+       {
+        "en": "to knock down",
+        "ko": "쓰러뜨리기 위해"
+       },
+       {
+        "en": "wooden blocks.",
+        "ko": "나무 블록을"
+       }
+      ],
+      "rp": {
+       "situation": "친구가 나무로 만든 의자를 가리키고 있어요.",
+       "prompt": "What is that chair made of?",
+       "options": [
+        "It is a wooden chair.",
+        "It is a wood chair."
+       ],
+       "answer": 0,
+       "why": "명사 앞에서 재료를 나타낼 때는 형용사 wooden을 써야 해요."
+      },
+      "topic": "세계의 전통 놀이는 어떻게 다를까"
+     },
+     {
+      "id": "kids:knock down",
+      "word": "knock down",
+      "ko": "쓰러뜨리다, 무너뜨리다",
+      "filled": "Players throw wooden sticks to knock down wooden blocks.",
+      "sent_ko": "선수들은 나무 막대를 던져서 나무 블록을 쓰러뜨려요.",
+      "chunks": [
+       {
+        "en": "Players throw wooden sticks",
+        "ko": "선수들은 나무 막대를 던져요"
+       },
+       {
+        "en": "to knock down",
+        "ko": "쓰러뜨리기 위해"
+       },
+       {
+        "en": "wooden blocks.",
+        "ko": "나무 블록을"
+       }
+      ],
+      "rp": {
+       "situation": "바람이 세게 불어서 담장의 블록들이 넘어지려 하고 있어요.",
+       "prompt": "What will the strong wind do?",
+       "options": [
+        "It will knock down the blocks.",
+        "It will knock the blocks."
+       ],
+       "answer": 0,
+       "why": "'쓰러뜨리다'는 knock down으로 down을 빠뜨리면 안 돼요."
+      },
+      "topic": "세계의 전통 놀이는 어떻게 다를까"
+     },
+     {
+      "id": "kids:tricky",
+      "word": "tricky",
+      "ko": "까다로운, 어려운",
+      "filled": "It sounds easy, but it is tricky!",
+      "sent_ko": "쉬워 보이지만, 사실은 까다로워요!",
+      "chunks": [
+       {
+        "en": "It sounds easy,",
+        "ko": "쉬워 보이지만"
+       },
+       {
+        "en": "but it is tricky!",
+        "ko": "사실은 까다로워요!"
+       }
+      ],
+      "rp": {
+       "situation": "퍼즐이 처음엔 쉬워 보였는데 계속 틀리고 있어요.",
+       "prompt": "How is the puzzle?",
+       "options": [
+        "It is tricky.",
+        "It is trickily."
+       ],
+       "answer": 0,
+       "why": "be동사 뒤에는 형용사 tricky를 써야 하고, 부사는 쓸 수 없어요."
+      },
+      "topic": "세계의 전통 놀이는 어떻게 다를까"
+     },
+     {
+      "id": "kids:block",
+      "word": "block",
+      "ko": "막다, 차단하다",
+      "filled": "Players throw wooden sticks to knock down wooden blocks.",
+      "sent_ko": "선수들은 나무 막대를 던져서 나무 블록을 쓰러뜨려요.",
+      "chunks": [
+       {
+        "en": "Players throw wooden sticks",
+        "ko": "선수들은 나무 막대를 던져요"
+       },
+       {
+        "en": "to knock down",
+        "ko": "쓰러뜨리기 위해"
+       },
+       {
+        "en": "wooden blocks.",
+        "ko": "나무 블록을"
+       }
+      ],
+      "rp": {
+       "situation": "친구가 문 앞에 서서 내가 지나가지 못하게 막고 있어요.",
+       "prompt": "Why can't I get through?",
+       "options": [
+        "She is blocking the door.",
+        "She is block the door."
+       ],
+       "answer": 0,
+       "why": "주어가 She이고 지금 하는 동작이니까 is blocking이 맞아요."
+      },
+      "topic": "세계의 전통 놀이는 어떻게 다를까"
+     }
+    ]
+   },
+   {
+    "id": "kids|퀴즈",
+    "level": "kids",
+    "topic": "퀴즈",
+    "section": "문화",
+    "cards": [
+     {
+      "id": "kids:quiz",
+      "word": "quiz",
+      "ko": "퀴즈, 간단한 시험",
+      "filled": "Do you enjoy answering quiz questions with your friends?",
+      "sent_ko": "당신은 친구들과 함께 퀴즈 문제에 답하는 것을 즐기나요?",
+      "chunks": [
+       {
+        "en": "Do you enjoy",
+        "ko": "당신은 즐기나요"
+       },
+       {
+        "en": "answering quiz questions",
+        "ko": "퀴즈 문제에 답하는 것을"
+       },
+       {
+        "en": "with your friends?",
+        "ko": "친구들과 함께"
+       }
+      ],
+      "rp": {
+       "situation": "선생님이 학생들에게 퀴즈 문제를 내고 있다.",
+       "prompt": "What is 2 + 2?",
+       "options": [
+        "I know! The answer is 4.",
+        "I know! The question is 4."
+       ],
+       "answer": 0,
+       "why": "퀴즈에서 정답을 말할 때는 answer를 써야 한다."
+      },
+      "topic": "퀴즈"
+     },
+     {
+      "id": "kids:culture",
+      "word": "culture",
+      "ko": "문화",
+      "filled": "Quizzes are fun, but they are also a big part of culture around the world.",
+      "sent_ko": "퀴즈는 재미있지만, 그것들은 또한 전 세계 문화의 중요한 일부이기도 합니다.",
+      "chunks": [
+       {
+        "en": "Quizzes are fun,",
+        "ko": "퀴즈는 재미있지만"
+       },
+       {
+        "en": "but they are also",
+        "ko": "그것들은 또한"
+       },
+       {
+        "en": "a big part of culture",
+        "ko": "문화의 중요한 일부"
+       },
+       {
+        "en": "around the world.",
+        "ko": "전 세계의"
+       }
+      ],
+      "rp": {
+       "situation": "선생님이 다른 나라의 음식, 음악, 축제를 가르치고 있다.",
+       "prompt": "What are we learning about today?",
+       "options": [
+        "We are learning about culture.",
+        "We are learning about popular."
+       ],
+       "answer": 0,
+       "why": "나라의 생활 방식을 나타내는 명사는 culture이다."
+      },
+      "topic": "퀴즈"
+     },
+     {
+      "id": "kids:popular",
+      "word": "popular",
+      "ko": "인기 있는",
+      "filled": "Quizzes have been popular for a very long time.",
+      "sent_ko": "퀴즈는 아주 오랫동안 인기 있었습니다.",
+      "chunks": [
+       {
+        "en": "Quizzes have been popular",
+        "ko": "퀴즈는 인기 있었습니다"
+       },
+       {
+        "en": "for a very long time.",
+        "ko": "아주 오랫동안"
+       }
+      ],
+      "rp": {
+       "situation": "반 친구들이 모두 같은 게임을 하고 싶어 한다.",
+       "prompt": "Why does everyone want to play that game?",
+       "options": [
+        "Because it is very popular.",
+        "Because it is very popularity."
+       ],
+       "answer": 0,
+       "why": "형용사 자리에는 popular를 써야 하고 popularity는 명사이다."
+      },
+      "topic": "퀴즈"
+     },
+     {
+      "id": "kids:magazine",
+      "word": "magazine",
+      "ko": "잡지",
+      "filled": "Magazines printed quiz pages for readers as far back as the early 1900s.",
+      "sent_ko": "잡지들은 1900년대 초까지 거슬러 올라가 독자들을 위해 퀴즈 페이지를 인쇄했습니다.",
+      "chunks": [
+       {
+        "en": "Magazines printed quiz pages",
+        "ko": "잡지들은 퀴즈 페이지를 인쇄했습니다"
+       },
+       {
+        "en": "for readers",
+        "ko": "독자들을 위해"
+       },
+       {
+        "en": "as far back as the early 1900s.",
+        "ko": "1900년대 초까지 거슬러 올라가"
+       }
+      ],
+      "rp": {
+       "situation": "도서관에서 친구가 그림과 기사가 가득한 책자를 들고 있다.",
+       "prompt": "What is that?",
+       "options": [
+        "It is a magazine.",
+        "It is a magazines."
+       ],
+       "answer": 0,
+       "why": "하나를 가리킬 때는 단수형 magazine을 써야 한다."
+      },
+      "topic": "퀴즈"
+     },
+     {
+      "id": "kids:personality",
+      "word": "personality",
+      "ko": "성격, 개성",
+      "filled": "Online quizzes about personalities and hobbies are especially popular with young people.",
+      "sent_ko": "성격과 취미에 관한 온라인 퀴즈는 특히 젊은 사람들에게 인기 있습니다.",
+      "chunks": [
+       {
+        "en": "Online quizzes",
+        "ko": "온라인 퀴즈는"
+       },
+       {
+        "en": "about personalities and hobbies",
+        "ko": "성격과 취미에 관한"
+       },
+       {
+        "en": "are especially popular",
+        "ko": "특히 인기 있습니다"
+       },
+       {
+        "en": "with young people.",
+        "ko": "젊은 사람들에게"
+       }
+      ],
+      "rp": {
+       "situation": "친구가 나에게 어떤 사람인지 묻고 있다.",
+       "prompt": "What are you like?",
+       "options": [
+        "I have a friendly personality.",
+        "I have a friendly personally."
+       ],
+       "answer": 0,
+       "why": "명사 자리에는 personality를 써야 하고 personally는 부사이다."
+      },
+      "topic": "퀴즈"
+     },
+     {
+      "id": "kids:attract",
+      "word": "attract",
+      "ko": "끌다, 매료시키다",
+      "filled": "TV quiz shows attract millions of viewers in many different countries around the world.",
+      "sent_ko": "TV 퀴즈 쇼는 전 세계 여러 나라에서 수백만 명의 시청자를 끌어모읍니다.",
+      "chunks": [
+       {
+        "en": "TV quiz shows attract",
+        "ko": "TV 퀴즈 쇼는 끌어모읍니다"
+       },
+       {
+        "en": "millions of viewers",
+        "ko": "수백만 명의 시청자를"
+       },
+       {
+        "en": "in many different countries",
+        "ko": "여러 나라에서"
+       },
+       {
+        "en": "around the world.",
+        "ko": "전 세계의"
+       }
+      ],
+      "rp": {
+       "situation": "학교 축제 포스터가 많은 학생들을 행사로 불러 모으고 있다.",
+       "prompt": "Why are so many students coming?",
+       "options": [
+        "The poster attracts many students.",
+        "The poster attraction many students."
+       ],
+       "answer": 0,
+       "why": "동사 자리에는 attracts를 써야 하고 attraction은 명사이다."
+      },
+      "topic": "퀴즈"
+     },
+     {
+      "id": "kids:viewer",
+      "word": "viewer",
+      "ko": "시청자",
+      "filled": "TV quiz shows attract millions of viewers in many different countries around the world.",
+      "sent_ko": "TV 퀴즈 쇼는 전 세계 여러 나라에서 수백만 명의 시청자를 끌어모읍니다.",
+      "chunks": [
+       {
+        "en": "TV quiz shows attract",
+        "ko": "TV 퀴즈 쇼는 끌어모읍니다"
+       },
+       {
+        "en": "millions of viewers",
+        "ko": "수백만 명의 시청자를"
+       },
+       {
+        "en": "in many different countries",
+        "ko": "여러 나라에서"
+       },
+       {
+        "en": "around the world.",
+        "ko": "전 세계의"
+       }
+      ],
+      "rp": {
+       "situation": "온 가족이 거실에서 TV 앞에 앉아 프로그램을 보고 있다.",
+       "prompt": "What are they?",
+       "options": [
+        "They are viewers.",
+        "They are watchers the TV."
+       ],
+       "answer": 0,
+       "why": "TV를 보는 사람을 나타내는 올바른 단어는 viewers이다."
+      },
+      "topic": "퀴즈"
+     }
+    ]
+   }
+  ],
+  "junior": [
+   {
+    "id": "junior|학교 앞 안전 구역이 지켜지지 않는 이유",
+    "level": "junior",
+    "topic": "학교 앞 안전 구역이 지켜지지 않는 이유",
+    "section": "사회",
+    "cards": [
+     {
+      "id": "junior:safety zone",
+      "word": "safety zone",
+      "ko": "안전 구역",
+      "filled": "Many countries have special safety zones near schools.",
+      "sent_ko": "많은 나라들은 학교 근처에 특별한 안전 구역을 두고 있습니다.",
+      "chunks": [
+       {
+        "en": "Many countries",
+        "ko": "많은 나라들은"
+       },
+       {
+        "en": "have special safety zones",
+        "ko": "특별한 안전 구역을 두고 있습니다"
+       },
+       {
+        "en": "near schools.",
+        "ko": "학교 근처에"
+       }
+      ],
+      "rp": {
+       "situation": "학교 앞 도로에 어린이 보호 구역 표지판이 있다.",
+       "prompt": "What is this area called?",
+       "options": [
+        "It's a safety zone for children.",
+        "It's a safety zoom for children."
+       ],
+       "answer": 0,
+       "why": "zone(구역)이 올바른 단어이고 zoom은 틀린 단어입니다."
+      },
+      "topic": "학교 앞 안전 구역이 지켜지지 않는 이유"
+     },
+     {
+      "id": "junior:strict",
+      "word": "strict",
+      "ko": "엄격한",
+      "filled": "In these zones, drivers must slow down and follow strict rules to protect children.",
+      "sent_ko": "이 구역에서 운전자들은 속도를 줄이고 어린이를 보호하기 위한 엄격한 규칙을 따라야 합니다.",
+      "chunks": [
+       {
+        "en": "In these zones,",
+        "ko": "이 구역에서"
+       },
+       {
+        "en": "drivers must slow down",
+        "ko": "운전자들은 속도를 줄여야 합니다"
+       },
+       {
+        "en": "and follow strict rules",
+        "ko": "그리고 엄격한 규칙을 따라야 합니다"
+       },
+       {
+        "en": "to protect children.",
+        "ko": "어린이를 보호하기 위해"
+       }
+      ],
+      "rp": {
+       "situation": "선생님이 교실 규칙에 대해 이야기하고 있다. 규칙이 매우 엄격하다.",
+       "prompt": "How would you describe the classroom rules?",
+       "options": [
+        "The rules are very strict.",
+        "The rules are very strictly."
+       ],
+       "answer": 0,
+       "why": "명사 rules를 꾸밀 때는 형용사 strict를 써야 합니다."
+      },
+      "topic": "학교 앞 안전 구역이 지켜지지 않는 이유"
+     },
+     {
+      "id": "junior:enforce",
+      "word": "enforce",
+      "ko": "시행하다, 집행하다",
+      "filled": "Enforcing the rules is also difficult.",
+      "sent_ko": "규칙을 시행하는 것도 어렵습니다.",
+      "chunks": [
+       {
+        "en": "Enforcing the rules",
+        "ko": "규칙을 시행하는 것은"
+       },
+       {
+        "en": "is also difficult.",
+        "ko": "또한 어렵습니다"
+       }
+      ],
+      "rp": {
+       "situation": "경찰관이 학교 앞 속도 제한 규칙을 지키도록 단속하고 있다.",
+       "prompt": "What is the police officer doing?",
+       "options": [
+        "The officer is enforcing the speed limit.",
+        "The officer is informing the speed limit."
+       ],
+       "answer": 0,
+       "why": "규칙을 집행하는 행동에는 enforce를 써야 하고 inform은 틀린 표현입니다."
+      },
+      "topic": "학교 앞 안전 구역이 지켜지지 않는 이유"
+     },
+     {
+      "id": "junior:notice",
+      "word": "notice",
+      "ko": "알아차리다, 인지하다",
+      "filled": "Others may not notice the signs because they are not clear enough.",
+      "sent_ko": "다른 사람들은 표지판이 충분히 명확하지 않기 때문에 알아차리지 못할 수도 있습니다.",
+      "chunks": [
+       {
+        "en": "Others may not notice the signs",
+        "ko": "다른 사람들은 표지판을 알아차리지 못할 수도 있습니다"
+       },
+       {
+        "en": "because they are not clear enough.",
+        "ko": "표지판이 충분히 명확하지 않기 때문에"
+       }
+      ],
+      "rp": {
+       "situation": "친구가 교실 문에 붙은 안내문을 그냥 지나쳤다.",
+       "prompt": "Did your friend see the sign on the door?",
+       "options": [
+        "No, she didn't notice it.",
+        "No, she didn't know it."
+       ],
+       "answer": 0,
+       "why": "눈앞의 것을 알아차리지 못할 때는 notice를 써야 합니다."
+      },
+      "topic": "학교 앞 안전 구역이 지켜지지 않는 이유"
+     },
+     {
+      "id": "junior:speed camera",
+      "word": "speed camera",
+      "ko": "과속 단속 카메라",
+      "filled": "Some schools do not have speed cameras, so drivers do not worry about getting caught.",
+      "sent_ko": "일부 학교에는 과속 단속 카메라가 없어서 운전자들이 단속될 것을 걱정하지 않습니다.",
+      "chunks": [
+       {
+        "en": "Some schools do not have speed cameras,",
+        "ko": "일부 학교에는 과속 단속 카메라가 없습니다"
+       },
+       {
+        "en": "so drivers do not worry",
+        "ko": "그래서 운전자들은 걱정하지 않습니다"
+       },
+       {
+        "en": "about getting caught.",
+        "ko": "단속될 것에 대해"
+       }
+      ],
+      "rp": {
+       "situation": "학교 앞 도로에 과속을 단속하는 카메라가 설치되어 있다.",
+       "prompt": "What is that device on the road for?",
+       "options": [
+        "It's a speed camera to catch fast drivers.",
+        "It's a speed camcorder to catch fast drivers."
+       ],
+       "answer": 0,
+       "why": "과속 단속 장치는 speed camera이고 camcorder는 틀린 표현입니다."
+      },
+      "topic": "학교 앞 안전 구역이 지켜지지 않는 이유"
+     },
+     {
+      "id": "junior:regular",
+      "word": "regular",
+      "ko": "정기적인, 규칙적인",
+      "filled": "They hope that better signs, more cameras, and regular checks will help keep children safe on their way to school.",
+      "sent_ko": "그들은 더 나은 표지판, 더 많은 카메라, 그리고 정기적인 점검이 학교 가는 길에 어린이들을 안전하게 지키는 데 도움이 되기를 바랍니다.",
+      "chunks": [
+       {
+        "en": "They hope that",
+        "ko": "그들은 바랍니다"
+       },
+       {
+        "en": "better signs, more cameras, and regular checks",
+        "ko": "더 나은 표지판, 더 많은 카메라, 그리고 정기적인 점검이"
+       },
+       {
+        "en": "will help keep children safe",
+        "ko": "어린이들을 안전하게 지키는 데 도움이 될 것을"
+       },
+       {
+        "en": "on their way to school.",
+        "ko": "학교 가는 길에"
+       }
+      ],
+      "rp": {
+       "situation": "학교에서 매달 한 번씩 안전 점검을 실시한다.",
+       "prompt": "How often do they check the school building?",
+       "options": [
+        "They do regular checks every month.",
+        "They do regularly checks every month."
+       ],
+       "answer": 0,
+       "why": "명사 checks를 꾸밀 때는 형용사 regular를 써야 합니다."
+      },
+      "topic": "학교 앞 안전 구역이 지켜지지 않는 이유"
+     },
+     {
+      "id": "junior:protect",
+      "word": "protect",
+      "ko": "보호하다",
+      "filled": "In these zones, drivers must slow down and follow strict rules to protect children.",
+      "sent_ko": "이 구역에서 운전자들은 속도를 줄이고 어린이를 보호하기 위한 엄격한 규칙을 따라야 합니다.",
+      "chunks": [
+       {
+        "en": "In these zones,",
+        "ko": "이 구역에서"
+       },
+       {
+        "en": "drivers must slow down",
+        "ko": "운전자들은 속도를 줄여야 합니다"
+       },
+       {
+        "en": "and follow strict rules",
+        "ko": "그리고 엄격한 규칙을 따라야 합니다"
+       },
+       {
+        "en": "to protect children.",
+        "ko": "어린이를 보호하기 위해"
+       }
+      ],
+      "rp": {
+       "situation": "부모님이 비가 오는 날 아이에게 우산을 챙겨 주고 있다.",
+       "prompt": "Why did your mom give you an umbrella?",
+       "options": [
+        "She gave it to me to protect me from the rain.",
+        "She gave it to me to prevention me from the rain."
+       ],
+       "answer": 0,
+       "why": "동사 자리에는 protect를 써야 하고 prevention은 명사라 틀립니다."
+      },
+      "topic": "학교 앞 안전 구역이 지켜지지 않는 이유"
+     }
+    ]
+   },
+   {
+    "id": "junior|옷을 고쳐 입는 수선 가게가 늘어난다",
+    "level": "junior",
+    "topic": "옷을 고쳐 입는 수선 가게가 늘어난다",
+    "section": "환경",
+    "cards": [
+     {
+      "id": "junior:repair",
+      "word": "repair",
+      "ko": "수리하다, 고치다",
+      "filled": "Repair shops offer a better and more sustainable choice.",
+      "sent_ko": "수리점은 더 좋고 더 지속 가능한 선택을 제공합니다.",
+      "chunks": [
+       {
+        "en": "Repair shops",
+        "ko": "수리점은"
+       },
+       {
+        "en": "offer",
+        "ko": "제공합니다"
+       },
+       {
+        "en": "a better and more sustainable choice.",
+        "ko": "더 좋고 더 지속 가능한 선택을"
+       }
+      ],
+      "rp": {
+       "situation": "오래된 자전거가 고장 났고, 새것을 살지 고칠지 고민 중이다.",
+       "prompt": "What should I do with my broken bike?",
+       "options": [
+        "You should repair it instead of buying a new one.",
+        "You should repairing it instead of buying a new one."
+       ],
+       "answer": 0,
+       "why": "동사 앞에 should가 있으면 동사원형을 써야 하므로 repair가 맞습니다."
+      },
+      "topic": "옷을 고쳐 입는 수선 가게가 늘어난다"
+     },
+     {
+      "id": "junior:tailor",
+      "word": "tailor",
+      "ko": "재단사, 옷을 맞춤 제작하는 사람",
+      "filled": "A skilled tailor can fix torn seams and broken zippers.",
+      "sent_ko": "숙련된 재단사는 찢어진 솔기와 망가진 지퍼를 고칠 수 있습니다.",
+      "chunks": [
+       {
+        "en": "A skilled tailor",
+        "ko": "숙련된 재단사는"
+       },
+       {
+        "en": "can fix",
+        "ko": "고칠 수 있습니다"
+       },
+       {
+        "en": "torn seams",
+        "ko": "찢어진 솔기와"
+       },
+       {
+        "en": "and broken zippers.",
+        "ko": "망가진 지퍼를"
+       }
+      ],
+      "rp": {
+       "situation": "바지 지퍼가 고장 나서 옷 수선집에 맡기려고 한다.",
+       "prompt": "Who can fix this for me?",
+       "options": [
+        "A skilled tailor can fix it for you.",
+        "A skilled tailoring can fix it for you."
+       ],
+       "answer": 0,
+       "why": "사람을 가리킬 때는 명사 tailor를 써야 하고, tailoring은 사람이 아니라 행위를 뜻합니다."
+      },
+      "topic": "옷을 고쳐 입는 수선 가게가 늘어난다"
+     },
+     {
+      "id": "junior:torn",
+      "word": "torn",
+      "ko": "찢어진",
+      "filled": "A skilled tailor can fix torn seams and broken zippers.",
+      "sent_ko": "숙련된 재단사는 찢어진 솔기와 망가진 지퍼를 고칠 수 있습니다.",
+      "chunks": [
+       {
+        "en": "A skilled tailor",
+        "ko": "숙련된 재단사는"
+       },
+       {
+        "en": "can fix",
+        "ko": "고칠 수 있습니다"
+       },
+       {
+        "en": "torn seams",
+        "ko": "찢어진 솔기와"
+       },
+       {
+        "en": "and broken zippers.",
+        "ko": "망가진 지퍼를"
+       }
+      ],
+      "rp": {
+       "situation": "좋아하는 티셔츠의 옆선이 찢어져 있다.",
+       "prompt": "What happened to your shirt?",
+       "options": [
+        "The side of my shirt is torn.",
+        "The side of my shirt is tearing."
+       ],
+       "answer": 0,
+       "why": "이미 찢어진 상태를 설명할 때는 형용사 torn을 쓰고, tearing은 지금 찢어지는 중임을 뜻합니다."
+      },
+      "topic": "옷을 고쳐 입는 수선 가게가 늘어난다"
+     },
+     {
+      "id": "junior:seam",
+      "word": "seam",
+      "ko": "솔기, 바느질로 이어진 선",
+      "filled": "A skilled tailor can fix torn seams and broken zippers.",
+      "sent_ko": "숙련된 재단사는 찢어진 솔기와 망가진 지퍼를 고칠 수 있습니다.",
+      "chunks": [
+       {
+        "en": "A skilled tailor",
+        "ko": "숙련된 재단사는"
+       },
+       {
+        "en": "can fix",
+        "ko": "고칠 수 있습니다"
+       },
+       {
+        "en": "torn seams",
+        "ko": "찢어진 솔기와"
+       },
+       {
+        "en": "and broken zippers.",
+        "ko": "망가진 지퍼를"
+       }
+      ],
+      "rp": {
+       "situation": "바지 안쪽의 바느질 선이 터져서 구멍이 생겼다.",
+       "prompt": "What part of the pants needs fixing?",
+       "options": [
+        "The seam came apart and needs to be sewn again.",
+        "The seam came apart and needs to be zipped again."
+       ],
+       "answer": 0,
+       "why": "솔기가 터지면 다시 바느질(sew)해야 하고, zip은 지퍼를 잠그는 동작이라 솔기 수선에 쓸 수 없습니다."
+      },
+      "topic": "옷을 고쳐 입는 수선 가게가 늘어난다"
+     },
+     {
+      "id": "junior:zipper",
+      "word": "zipper",
+      "ko": "지퍼",
+      "filled": "A skilled tailor can fix torn seams and broken zippers.",
+      "sent_ko": "숙련된 재단사는 찢어진 솔기와 망가진 지퍼를 고칠 수 있습니다.",
+      "chunks": [
+       {
+        "en": "A skilled tailor",
+        "ko": "숙련된 재단사는"
+       },
+       {
+        "en": "can fix",
+        "ko": "고칠 수 있습니다"
+       },
+       {
+        "en": "torn seams",
+        "ko": "찢어진 솔기와"
+       },
+       {
+        "en": "and broken zippers.",
+        "ko": "망가진 지퍼를"
+       }
+      ],
+      "rp": {
+       "situation": "가방의 지퍼가 망가져서 열리지도 닫히지도 않는다.",
+       "prompt": "What's wrong with your bag?",
+       "options": [
+        "The zipper is broken and won't close.",
+        "The zipper is broken and won't button."
+       ],
+       "answer": 0,
+       "why": "지퍼를 잠글 때는 close를 쓰고, button은 단추를 채울 때 쓰는 말이라 지퍼에는 어울리지 않습니다."
+      },
+      "topic": "옷을 고쳐 입는 수선 가게가 늘어난다"
+     },
+     {
+      "id": "junior:waste",
+      "word": "waste",
+      "ko": "낭비하다, 쓰레기",
+      "filled": "It creates a huge amount of waste every year.",
+      "sent_ko": "그것은 매년 엄청난 양의 쓰레기를 만들어 냅니다.",
+      "chunks": [
+       {
+        "en": "It creates",
+        "ko": "그것은 만들어 냅니다"
+       },
+       {
+        "en": "a huge amount of waste",
+        "ko": "엄청난 양의 쓰레기를"
+       },
+       {
+        "en": "every year.",
+        "ko": "매년"
+       }
+      ],
+      "rp": {
+       "situation": "친구가 음식을 반도 먹지 않고 버리려고 한다.",
+       "prompt": "Are you really going to throw all that away?",
+       "options": [
+        "Don't waste it — finish what's on your plate.",
+        "Don't wasting it — finish what's on your plate."
+       ],
+       "answer": 0,
+       "why": "Don't 뒤에는 동사원형이 와야 하므로 waste가 맞고, wasting은 쓸 수 없습니다."
+      },
+      "topic": "옷을 고쳐 입는 수선 가게가 늘어난다"
+     },
+     {
+      "id": "junior:environment",
+      "word": "environment",
+      "ko": "환경",
+      "filled": "We should all try to protect the environment by reducing the amount of trash we produce every day.",
+      "sent_ko": "우리는 모두 매일 만들어 내는 쓰레기의 양을 줄임으로써 환경을 보호하려고 노력해야 합니다.",
+      "chunks": [
+       {
+        "en": "We should all try",
+        "ko": "우리는 모두 노력해야 합니다"
+       },
+       {
+        "en": "to protect the environment",
+        "ko": "환경을 보호하려고"
+       },
+       {
+        "en": "by reducing the amount of trash",
+        "ko": "쓰레기의 양을 줄임으로써"
+       },
+       {
+        "en": "we produce every day.",
+        "ko": "우리가 매일 만들어 내는"
+       }
+      ],
+      "rp": {
+       "situation": "학교에서 환경 보호 포스터를 만들고 있다.",
+       "prompt": "What should we write on the poster?",
+       "options": [
+        "We should protect the environment by using less plastic.",
+        "We should protect the environmental by using less plastic."
+       ],
+       "answer": 0,
+       "why": "protect의 목적어 자리에는 명사 environment가 와야 하고, 형용사 environmental은 명사 자리에 쓸 수 없습니다."
+      },
+      "topic": "옷을 고쳐 입는 수선 가게가 늘어난다"
+     },
+     {
+      "id": "junior:fashion",
+      "word": "fashion",
+      "ko": "패션, 유행",
+      "filled": "Fast fashion means buying cheap clothes very often.",
+      "sent_ko": "패스트 패션은 매우 자주 저렴한 옷을 사는 것을 의미합니다.",
+      "chunks": [
+       {
+        "en": "Fast fashion",
+        "ko": "패스트 패션은"
+       },
+       {
+        "en": "means",
+        "ko": "의미합니다"
+       },
+       {
+        "en": "buying cheap clothes",
+        "ko": "저렴한 옷을 사는 것을"
+       },
+       {
+        "en": "very often.",
+        "ko": "매우 자주"
+       }
+      ],
+      "rp": {
+       "situation": "친구가 유행하는 옷을 계속 새로 사고 있다.",
+       "prompt": "Why do you keep buying new clothes every week?",
+       "options": [
+        "I love following fashion and wearing the latest styles.",
+        "I love following fashionable and wearing the latest styles."
+       ],
+       "answer": 0,
+       "why": "follow의 목적어 자리에는 명사 fashion이 와야 하고, 형용사 fashionable은 명사 자리에 쓸 수 없습니다."
+      },
+      "topic": "옷을 고쳐 입는 수선 가게가 늘어난다"
+     }
+    ]
+   },
+   {
+    "id": "junior|번역 이어폰이 바꾸는 여행",
+    "level": "junior",
+    "topic": "번역 이어폰이 바꾸는 여행",
+    "section": "기술",
+    "cards": [
+     {
+      "id": "junior:translate",
+      "word": "translate",
+      "ko": "번역하다",
+      "filled": "Some earbuds can now translate spoken words in real time.",
+      "sent_ko": "일부 이어버드는 이제 실시간으로 말해진 단어들을 번역할 수 있다.",
+      "chunks": [
+       {
+        "en": "Some earbuds",
+        "ko": "일부 이어버드는"
+       },
+       {
+        "en": "can now translate",
+        "ko": "이제 번역할 수 있다"
+       },
+       {
+        "en": "spoken words",
+        "ko": "말해진 단어들을"
+       },
+       {
+        "en": "in real time.",
+        "ko": "실시간으로"
+       }
+      ],
+      "rp": {
+       "situation": "너는 외국어로 된 편지를 받았고 그 내용을 한국어로 바꿔야 한다.",
+       "prompt": "What do you need to do with this letter?",
+       "options": [
+        "I need to translate it into Korean.",
+        "I need to translation it into Korean."
+       ],
+       "answer": 0,
+       "why": "translate는 동사이고 translation은 명사라서 동사 자리에 쓸 수 없다."
+      },
+      "topic": "번역 이어폰이 바꾸는 여행"
+     },
+     {
+      "id": "junior:real time",
+      "word": "real time",
+      "ko": "실시간",
+      "filled": "Some earbuds can now translate spoken words in real time.",
+      "sent_ko": "일부 이어버드는 이제 실시간으로 말해진 단어들을 번역할 수 있다.",
+      "chunks": [
+       {
+        "en": "Some earbuds",
+        "ko": "일부 이어버드는"
+       },
+       {
+        "en": "can now translate",
+        "ko": "이제 번역할 수 있다"
+       },
+       {
+        "en": "spoken words",
+        "ko": "말해진 단어들을"
+       },
+       {
+        "en": "in real time.",
+        "ko": "실시간으로"
+       }
+      ],
+      "rp": {
+       "situation": "축구 경기가 진행되는 동안 앱이 점수를 즉시 업데이트하고 있다.",
+       "prompt": "How does the app show the score?",
+       "options": [
+        "It updates the score in real time.",
+        "It updates the score in real times."
+       ],
+       "answer": 0,
+       "why": "real time은 셀 수 없는 표현으로 복수형 real times는 이 뜻으로 쓸 수 없다."
+      },
+      "topic": "번역 이어폰이 바꾸는 여행"
+     },
+     {
+      "id": "junior:device",
+      "word": "device",
+      "ko": "기기, 장치",
+      "filled": "These devices may also help people in new countries communicate with others around them.",
+      "sent_ko": "이 기기들은 또한 새로운 나라에 있는 사람들이 주변 사람들과 소통하는 데 도움을 줄 수도 있다.",
+      "chunks": [
+       {
+        "en": "These devices",
+        "ko": "이 기기들은"
+       },
+       {
+        "en": "may also help",
+        "ko": "또한 도움을 줄 수도 있다"
+       },
+       {
+        "en": "people in new countries",
+        "ko": "새로운 나라에 있는 사람들이"
+       },
+       {
+        "en": "communicate with others",
+        "ko": "다른 사람들과 소통하도록"
+       },
+       {
+        "en": "around them.",
+        "ko": "그들 주변의"
+       }
+      ],
+      "rp": {
+       "situation": "친구가 네 스마트워치를 가리키며 그게 뭔지 묻고 있다.",
+       "prompt": "What is that on your wrist?",
+       "options": [
+        "It's a device that tracks my steps.",
+        "It's a devices that tracks my steps."
+       ],
+       "answer": 0,
+       "why": "device는 단수 가산명사이므로 a devices처럼 a와 복수형을 함께 쓸 수 없다."
+      },
+      "topic": "번역 이어폰이 바꾸는 여행"
+     },
+     {
+      "id": "junior:built-in",
+      "word": "built-in",
+      "ko": "내장된",
+      "filled": "Companies like Waverly Labs and Google have made earbuds with built-in translation.",
+      "sent_ko": "Waverly Labs와 Google 같은 회사들은 번역 기능이 내장된 이어버드를 만들었다.",
+      "chunks": [
+       {
+        "en": "Companies like Waverly Labs and Google",
+        "ko": "Waverly Labs와 Google 같은 회사들은"
+       },
+       {
+        "en": "have made earbuds",
+        "ko": "이어버드를 만들었다"
+       },
+       {
+        "en": "with built-in translation.",
+        "ko": "내장된 번역 기능이 있는"
+       }
+      ],
+      "rp": {
+       "situation": "새 노트북을 설명하는데 카메라가 별도 장치 없이 본체에 포함되어 있다.",
+       "prompt": "Does it have a camera?",
+       "options": [
+        "Yes, it has a built-in camera.",
+        "Yes, it has a build-in camera."
+       ],
+       "answer": 0,
+       "why": "built-in은 build의 과거분사형을 쓴 형용사이며 build-in은 올바른 형태가 아니다."
+      },
+      "topic": "번역 이어폰이 바꾸는 여행"
+     },
+     {
+      "id": "junior:recognize",
+      "word": "recognize",
+      "ko": "인식하다, 알아보다",
+      "filled": "They connect to apps that recognize speech and translate it quickly.",
+      "sent_ko": "그것들은 음성을 인식하고 빠르게 번역하는 앱에 연결된다.",
+      "chunks": [
+       {
+        "en": "They connect to apps",
+        "ko": "그것들은 앱에 연결된다"
+       },
+       {
+        "en": "that recognize speech",
+        "ko": "음성을 인식하는"
+       },
+       {
+        "en": "and translate it quickly.",
+        "ko": "그리고 그것을 빠르게 번역하는"
+       }
+      ],
+      "rp": {
+       "situation": "보안 시스템이 등록된 사람의 얼굴을 보고 문을 자동으로 열어준다.",
+       "prompt": "How does the door open?",
+       "options": [
+        "The system recognizes your face and unlocks it.",
+        "The system recognizes your face and unlock it."
+       ],
+       "answer": 0,
+       "why": "주어가 3인칭 단수이므로 두 번째 동사도 unlocks로 수일치를 맞춰야 한다."
+      },
+      "topic": "번역 이어폰이 바꾸는 여행"
+     },
+     {
+      "id": "junior:local",
+      "word": "local",
+      "ko": "현지의, 지역의",
+      "filled": "A traveler can talk to a local person without knowing any of their words.",
+      "sent_ko": "여행자는 그 지역 사람의 언어를 전혀 몰라도 현지인과 이야기할 수 있다.",
+      "chunks": [
+       {
+        "en": "A traveler can talk",
+        "ko": "여행자는 이야기할 수 있다"
+       },
+       {
+        "en": "to a local person",
+        "ko": "현지인과"
+       },
+       {
+        "en": "without knowing",
+        "ko": "알지 못해도"
+       },
+       {
+        "en": "any of their words.",
+        "ko": "그들의 언어를 전혀"
+       }
+      ],
+      "rp": {
+       "situation": "외국에서 길을 잃었고 그 동네에 사는 주민에게 길을 묻고 싶다.",
+       "prompt": "Who should I ask for directions?",
+       "options": [
+        "Ask a local person — they'll know the area.",
+        "Ask a locally person — they'll know the area."
+       ],
+       "answer": 0,
+       "why": "local은 형용사이고 locally는 부사라서 명사 person 앞에 쓸 수 없다."
+      },
+      "topic": "번역 이어폰이 바꾸는 여행"
+     },
+     {
+      "id": "junior:support",
+      "word": "support",
+      "ko": "지원하다, 지지하다",
+      "filled": "As the technology improves, more languages will be supported.",
+      "sent_ko": "기술이 발전할수록 더 많은 언어들이 지원될 것이다.",
+      "chunks": [
+       {
+        "en": "As the technology improves,",
+        "ko": "기술이 발전할수록"
+       },
+       {
+        "en": "more languages",
+        "ko": "더 많은 언어들이"
+       },
+       {
+        "en": "will be supported.",
+        "ko": "지원될 것이다"
+       }
+      ],
+      "rp": {
+       "situation": "새 앱이 업데이트된 후 한국어로도 사용할 수 있게 되었다.",
+       "prompt": "Does the app work in Korean now?",
+       "options": [
+        "Yes, Korean is now supported.",
+        "Yes, Korean is now supporting."
+       ],
+       "answer": 0,
+       "why": "언어가 지원을 받는 대상이므로 수동태 supported가 맞고 능동형 supporting은 틀리다."
+      },
+      "topic": "번역 이어폰이 바꾸는 여행"
+     }
+    ]
+   },
+   {
+    "id": "junior|중고 교과서가 오가는 이유",
+    "level": "junior",
+    "topic": "중고 교과서가 오가는 이유",
+    "section": "경제",
+    "cards": [
+     {
+      "id": "junior:expensive",
+      "word": "expensive",
+      "ko": "비싼",
+      "filled": "But new textbooks can be very expensive, and families often look for a cheaper way.",
+      "sent_ko": "하지만 새 교과서는 매우 비쌀 수 있고, 가족들은 종종 더 저렴한 방법을 찾습니다.",
+      "chunks": [
+       {
+        "en": "But new textbooks",
+        "ko": "하지만 새 교과서는"
+       },
+       {
+        "en": "can be very expensive,",
+        "ko": "매우 비쌀 수 있고,"
+       },
+       {
+        "en": "and families",
+        "ko": "그래서 가족들은"
+       },
+       {
+        "en": "often look for",
+        "ko": "종종 찾습니다"
+       },
+       {
+        "en": "a cheaper way.",
+        "ko": "더 저렴한 방법을"
+       }
+      ],
+      "rp": {
+       "situation": "친구가 갖고 싶은 가방이 있는데 가격표를 보고 놀랐다.",
+       "prompt": "Wow, look at the price!",
+       "options": [
+        "This bag is too expensive for me to buy.",
+        "This bag is too expense for me to buy."
+       ],
+       "answer": 0,
+       "why": "'expensive'는 형용사이고 'expense'는 명사이므로 b는 문법적으로 틀립니다."
+      },
+      "topic": "중고 교과서가 오가는 이유"
+     },
+     {
+      "id": "junior:publisher",
+      "word": "publisher",
+      "ko": "출판사, 발행인",
+      "filled": "**The Cost Problem** Textbooks are costly because publishers spend a lot of money writing, printing, and updating them.",
+      "sent_ko": "교과서는 출판사들이 교과서를 집필하고 인쇄하고 개정하는 데 많은 돈을 쓰기 때문에 비쌉니다.",
+      "chunks": null,
+      "rp": {
+       "situation": "학교 도서관에 새로 들어온 책의 뒷표지에 회사 이름이 적혀 있다.",
+       "prompt": "Who made this book?",
+       "options": [
+        "A publisher called Bright Books made it.",
+        "A publish called Bright Books made it."
+       ],
+       "answer": 0,
+       "why": "'publisher'는 명사이고 'publish'는 동사이므로 b는 문법적으로 틀립니다."
+      },
+      "topic": "중고 교과서가 오가는 이유"
+     },
+     {
+      "id": "junior:edition",
+      "word": "edition",
+      "ko": "판, 호",
+      "filled": "Because of this, used copies of older editions can become very popular among students who want to save money.",
+      "sent_ko": "이 때문에 구형 판의 중고 교과서들은 돈을 절약하고 싶은 학생들 사이에서 매우 인기를 얻을 수 있습니다.",
+      "chunks": [
+       {
+        "en": "Because of this,",
+        "ko": "이 때문에,"
+       },
+       {
+        "en": "used copies of older editions",
+        "ko": "구형 판의 중고 교과서들은"
+       },
+       {
+        "en": "can become very popular",
+        "ko": "매우 인기를 얻을 수 있습니다"
+       },
+       {
+        "en": "among students",
+        "ko": "학생들 사이에서"
+       },
+       {
+        "en": "who want to save money.",
+        "ko": "돈을 절약하고 싶은"
+       }
+      ],
+      "rp": {
+       "situation": "친구가 작년에 나온 교과서와 올해 나온 같은 교과서를 들고 있다.",
+       "prompt": "Are these the same book?",
+       "options": [
+        "They are the same book but different editions.",
+        "They are the same book but different version."
+       ],
+       "answer": 0,
+       "why": "'editions'은 복수형이고 'version'은 단수형이라 문법적으로 짝이 맞지 않습니다."
+      },
+      "topic": "중고 교과서가 오가는 이유"
+     },
+     {
+      "id": "junior:platform",
+      "word": "platform",
+      "ko": "플랫폼, 매체",
+      "filled": "Online platforms have made this even easier.",
+      "sent_ko": "온라인 플랫폼들이 이것을 훨씬 더 쉽게 만들었습니다.",
+      "chunks": [
+       {
+        "en": "Online platforms",
+        "ko": "온라인 플랫폼들이"
+       },
+       {
+        "en": "have made",
+        "ko": "만들었습니다"
+       },
+       {
+        "en": "this even easier.",
+        "ko": "이것을 훨씬 더 쉽게"
+       }
+      ],
+      "rp": {
+       "situation": "중고 교과서를 사고 싶어서 인터넷에서 거래할 수 있는 웹사이트를 찾고 있다.",
+       "prompt": "How do you find used books online?",
+       "options": [
+        "I use an online platform to buy and sell them.",
+        "I use an online planetary to buy and sell them."
+       ],
+       "answer": 0,
+       "why": "'planetary'는 형용사로 이 문맥에 쓸 수 없고 'platform'이 올바른 명사입니다."
+      },
+      "topic": "중고 교과서가 오가는 이유"
+     },
+     {
+      "id": "junior:exchange",
+      "word": "exchange",
+      "ko": "교환하다, 교류",
+      "filled": "Some schools also set up their own exchange programs so students can trade books with each other.",
+      "sent_ko": "일부 학교들은 학생들이 서로 책을 교환할 수 있도록 자체 교환 프로그램을 운영하기도 합니다.",
+      "chunks": [
+       {
+        "en": "Some schools also",
+        "ko": "일부 학교들은 또한"
+       },
+       {
+        "en": "set up their own exchange programs",
+        "ko": "자체 교환 프로그램을 운영합니다"
+       },
+       {
+        "en": "so students can",
+        "ko": "학생들이 할 수 있도록"
+       },
+       {
+        "en": "trade books with each other.",
+        "ko": "서로 책을 교환"
+       }
+      ],
+      "rp": {
+       "situation": "두 학생이 각자 필요 없는 책을 서로 바꿔 가지려고 한다.",
+       "prompt": "What are you two doing?",
+       "options": [
+        "We are going to exchange our books.",
+        "We are going to exchanging our books."
+       ],
+       "answer": 0,
+       "why": "'going to' 뒤에는 동사원형이 와야 하므로 'exchanging'은 문법적으로 틀립니다."
+      },
+      "topic": "중고 교과서가 오가는 이유"
+     },
+     {
+      "id": "junior:demand",
+      "word": "demand",
+      "ko": "수요, 요구",
+      "filled": "This keeps the demand for new books high.",
+      "sent_ko": "이것은 새 책에 대한 수요를 높게 유지시킵니다.",
+      "chunks": [
+       {
+        "en": "This keeps",
+        "ko": "이것은 유지시킵니다"
+       },
+       {
+        "en": "the demand for new books",
+        "ko": "새 책에 대한 수요를"
+       },
+       {
+        "en": "high.",
+        "ko": "높게"
+       }
+      ],
+      "rp": {
+       "situation": "인기 있는 새 교과서가 서점에서 계속 팔려 재고가 없다.",
+       "prompt": "Why is it always sold out?",
+       "options": [
+        "The demand for this book is very high.",
+        "The demanding for this book is very high."
+       ],
+       "answer": 0,
+       "why": "'demanding'은 형용사이고 'demand'가 명사로 올바르게 쓰입니다."
+      },
+      "topic": "중고 교과서가 오가는 이유"
+     },
+     {
+      "id": "junior:benefit",
+      "word": "benefit",
+      "ko": "이점, 혜택",
+      "filled": "Both sides benefit from the deal.",
+      "sent_ko": "양쪽 모두 그 거래에서 이익을 얻습니다.",
+      "chunks": [
+       {
+        "en": "Both sides",
+        "ko": "양쪽 모두"
+       },
+       {
+        "en": "benefit from",
+        "ko": "이익을 얻습니다"
+       },
+       {
+        "en": "the deal.",
+        "ko": "그 거래에서"
+       }
+      ],
+      "rp": {
+       "situation": "중고 책 거래에서 파는 학생은 돈을 받고 사는 학생은 돈을 아꼈다.",
+       "prompt": "Did everyone get something good out of this?",
+       "options": [
+        "Yes, both sides benefit from the deal.",
+        "Yes, both sides are beneficial from the deal."
+       ],
+       "answer": 0,
+       "why": "'beneficial'은 형용사라 'from'과 함께 이 구조로 쓸 수 없고 동사 'benefit'이 올바릅니다."
+      },
+      "topic": "중고 교과서가 오가는 이유"
+     }
+    ]
+   },
+   {
+    "id": "junior|박물관이 유물을 돌려주는 문제",
+    "level": "junior",
+    "topic": "박물관이 유물을 돌려주는 문제",
+    "section": "문화",
+    "cards": [
+     {
+      "id": "junior:artifact",
+      "word": "artifact",
+      "ko": "유물, 공예품",
+      "filled": "Many people believe that artifacts belong with the culture that made them.",
+      "sent_ko": "많은 사람들은 유물이 그것을 만든 문화에 속한다고 믿는다.",
+      "chunks": [
+       {
+        "en": "Many people believe",
+        "ko": "많은 사람들은 믿는다"
+       },
+       {
+        "en": "that artifacts",
+        "ko": "유물이"
+       },
+       {
+        "en": "belong with the culture",
+        "ko": "문화에 속한다"
+       },
+       {
+        "en": "that made them.",
+        "ko": "그것을 만든"
+       }
+      ],
+      "rp": {
+       "situation": "박물관에서 고대 도자기를 보고 있다.",
+       "prompt": "What is this old pot called?",
+       "options": [
+        "It is an artifact from ancient Korea.",
+        "It is an artefacting from ancient Korea."
+       ],
+       "answer": 0,
+       "why": "artifact는 명사이고, artefacting은 존재하지 않는 형태다."
+      },
+      "topic": "박물관이 유물을 돌려주는 문제"
+     },
+     {
+      "id": "junior:return",
+      "word": "return",
+      "ko": "반환하다, 돌려주다",
+      "filled": "Returning an object to its home country is called repatriation.",
+      "sent_ko": "물건을 그것의 본국으로 돌려주는 것을 본국 송환이라고 한다.",
+      "chunks": [
+       {
+        "en": "Returning an object",
+        "ko": "물건을 돌려주는 것은"
+       },
+       {
+        "en": "to its home country",
+        "ko": "본국으로"
+       },
+       {
+        "en": "is called repatriation.",
+        "ko": "본국 송환이라고 불린다"
+       }
+      ],
+      "rp": {
+       "situation": "친구가 빌린 책을 아직 갖고 있다.",
+       "prompt": "Can you give me my book back?",
+       "options": [
+        "Sure, I will return it tomorrow.",
+        "Sure, I will return tomorrow."
+       ],
+       "answer": 0,
+       "why": "return 뒤에 돌려줄 대상(it)이 있어야 '반환하다' 의미가 된다."
+      },
+      "topic": "박물관이 유물을 돌려주는 문제"
+     },
+     {
+      "id": "junior:colonial",
+      "word": "colonial",
+      "ko": "식민지의",
+      "filled": "These objects were often taken from other countries long ago, during times of war or colonial rule.",
+      "sent_ko": "이 물건들은 전쟁이나 식민지 지배 시기에 오래전에 다른 나라에서 가져온 경우가 많았다.",
+      "chunks": [
+       {
+        "en": "These objects were often taken",
+        "ko": "이 물건들은 자주 가져와졌다"
+       },
+       {
+        "en": "from other countries",
+        "ko": "다른 나라에서"
+       },
+       {
+        "en": "long ago,",
+        "ko": "오래전에"
+       },
+       {
+        "en": "during times of war",
+        "ko": "전쟁의 시기에"
+       },
+       {
+        "en": "or colonial rule.",
+        "ko": "또는 식민지 지배 동안"
+       }
+      ],
+      "rp": {
+       "situation": "역사 수업에서 한 나라가 다른 나라를 지배했던 시기를 설명하고 있다.",
+       "prompt": "How do we describe that period of rule?",
+       "options": [
+        "It was a colonial period.",
+        "It was a colonize period."
+       ],
+       "answer": 0,
+       "why": "colonial은 형용사이고, colonize는 동사라서 명사 앞에 쓸 수 없다."
+      },
+      "topic": "박물관이 유물을 돌려주는 문제"
+     },
+     {
+      "id": "junior:repatriation",
+      "word": "repatriation",
+      "ko": "본국 송환, 반환",
+      "filled": "Returning an object to its home country is called repatriation.",
+      "sent_ko": "물건을 그것의 본국으로 돌려주는 것을 본국 송환이라고 한다.",
+      "chunks": [
+       {
+        "en": "Returning an object",
+        "ko": "물건을 돌려주는 것은"
+       },
+       {
+        "en": "to its home country",
+        "ko": "본국으로"
+       },
+       {
+        "en": "is called repatriation.",
+        "ko": "본국 송환이라고 불린다"
+       }
+      ],
+      "rp": {
+       "situation": "외국 박물관이 한국 문화재를 한국에 돌려보내기로 했다.",
+       "prompt": "What do we call this process?",
+       "options": [
+        "This process is called repatriation.",
+        "This process is called repatriate."
+       ],
+       "answer": 0,
+       "why": "repatriation은 명사이고, repatriate는 동사라서 called 뒤에 올 수 없다."
+      },
+      "topic": "박물관이 유물을 돌려주는 문제"
+     },
+     {
+      "id": "junior:culture",
+      "word": "culture",
+      "ko": "문화",
+      "filled": "Many people believe that artifacts belong with the culture that made them.",
+      "sent_ko": "많은 사람들은 유물이 그것을 만든 문화에 속한다고 믿는다.",
+      "chunks": [
+       {
+        "en": "Many people believe",
+        "ko": "많은 사람들은 믿는다"
+       },
+       {
+        "en": "that artifacts",
+        "ko": "유물이"
+       },
+       {
+        "en": "belong with the culture",
+        "ko": "문화에 속한다"
+       },
+       {
+        "en": "that made them.",
+        "ko": "그것을 만든"
+       }
+      ],
+      "rp": {
+       "situation": "전통 음식, 음악, 언어에 대해 이야기하고 있다.",
+       "prompt": "What connects all these things?",
+       "options": [
+        "They are all part of our culture.",
+        "They are all part of our cultural."
+       ],
+       "answer": 0,
+       "why": "culture는 명사이고, cultural은 형용사라서 part of our 뒤에 명사가 와야 한다."
+      },
+      "topic": "박물관이 유물을 돌려주는 문제"
+     },
+     {
+      "id": "junior:argue",
+      "word": "argue",
+      "ko": "주장하다, 논쟁하다",
+      "filled": "However, some museums argue that they can protect and share these objects with the world.",
+      "sent_ko": "하지만 일부 박물관들은 자신들이 이 물건들을 세계와 함께 보호하고 공유할 수 있다고 주장한다.",
+      "chunks": [
+       {
+        "en": "However, some museums argue",
+        "ko": "하지만 일부 박물관들은 주장한다"
+       },
+       {
+        "en": "that they can protect",
+        "ko": "자신들이 보호할 수 있다고"
+       },
+       {
+        "en": "and share these objects",
+        "ko": "그리고 이 물건들을 공유할 수 있다고"
+       },
+       {
+        "en": "with the world.",
+        "ko": "세계와 함께"
+       }
+      ],
+      "rp": {
+       "situation": "토론 시간에 자신의 의견을 말하고 있다.",
+       "prompt": "Do you think school should start later?",
+       "options": [
+        "Yes, I argue that later start times help students.",
+        "Yes, I argue later start times help students."
+       ],
+       "answer": 0,
+       "why": "argue 뒤에 절이 올 때는 that을 써야 자연스러운 영어 표현이 된다."
+      },
+      "topic": "박물관이 유물을 돌려주는 문제"
+     },
+     {
+      "id": "junior:debate",
+      "word": "debate",
+      "ko": "토론, 논쟁",
+      "filled": "This debate is growing louder around the world.",
+      "sent_ko": "이 논쟁은 전 세계적으로 점점 더 커지고 있다.",
+      "chunks": [
+       {
+        "en": "This debate",
+        "ko": "이 논쟁은"
+       },
+       {
+        "en": "is growing louder",
+        "ko": "점점 더 커지고 있다"
+       },
+       {
+        "en": "around the world.",
+        "ko": "전 세계적으로"
+       }
+      ],
+      "rp": {
+       "situation": "반 친구들이 교복 착용에 대해 찬반 의견을 나누고 있다.",
+       "prompt": "What is happening in class right now?",
+       "options": [
+        "We are having a debate about school uniforms.",
+        "We are having a debating about school uniforms."
+       ],
+       "answer": 0,
+       "why": "debate는 명사이고, debating은 동명사라서 a 뒤에 올 수 없다."
+      },
+      "topic": "박물관이 유물을 돌려주는 문제"
+     },
+     {
+      "id": "junior:protect",
+      "word": "protect",
+      "ko": "보호하다",
+      "filled": "However, some museums argue that they can protect and share these objects with the world.",
+      "sent_ko": "하지만 일부 박물관들은 자신들이 이 물건들을 세계와 함께 보호하고 공유할 수 있다고 주장한다.",
+      "chunks": [
+       {
+        "en": "However, some museums argue",
+        "ko": "하지만 일부 박물관들은 주장한다"
+       },
+       {
+        "en": "that they can protect",
+        "ko": "자신들이 보호할 수 있다고"
+       },
+       {
+        "en": "and share these objects",
+        "ko": "그리고 이 물건들을 공유할 수 있다고"
+       },
+       {
+        "en": "with the world.",
+        "ko": "세계와 함께"
+       }
+      ],
+      "rp": {
+       "situation": "비가 와서 강아지를 비로부터 지켜주고 싶다.",
+       "prompt": "What should we do for the dog?",
+       "options": [
+        "We should protect it from the rain.",
+        "We should protection it from the rain."
+       ],
+       "answer": 0,
+       "why": "protect는 동사이고, protection은 명사라서 should 뒤에 동사원형이 와야 한다."
+      },
+      "topic": "박물관이 유물을 돌려주는 문제"
+     }
+    ]
+   },
+   {
+    "id": "junior|사라져가는 언어를 기록하는 사람들",
+    "level": "junior",
+    "topic": "사라져가는 언어를 기록하는 사람들",
+    "section": "세계",
+    "cards": [
+     {
+      "id": "junior:disappear",
+      "word": "disappear",
+      "ko": "사라지다",
+      "filled": "Around the world, thousands of languages are slowly disappearing every year.",
+      "sent_ko": "전 세계적으로, 수천 개의 언어들이 매년 천천히 사라지고 있습니다.",
+      "chunks": [
+       {
+        "en": "Around the world,",
+        "ko": "전 세계적으로"
+       },
+       {
+        "en": "thousands of languages",
+        "ko": "수천 개의 언어들이"
+       },
+       {
+        "en": "are slowly disappearing",
+        "ko": "천천히 사라지고 있습니다"
+       },
+       {
+        "en": "every year.",
+        "ko": "매년"
+       }
+      ],
+      "rp": {
+       "situation": "좋아하던 분식집이 어느 날 갑자기 문을 닫았다.",
+       "prompt": "What happened to that snack shop?",
+       "options": [
+        "It disappeared overnight.",
+        "It disappeared away overnight."
+       ],
+       "answer": 0,
+       "why": "disappear은 이미 '사라지다'는 뜻이므로 away를 함께 쓰지 않습니다."
+      },
+      "topic": "사라져가는 언어를 기록하는 사람들"
+     },
+     {
+      "id": "junior:language",
+      "word": "language",
+      "ko": "언어",
+      "filled": "Around the world, thousands of languages are slowly disappearing every year.",
+      "sent_ko": "전 세계적으로, 수천 개의 언어들이 매년 천천히 사라지고 있습니다.",
+      "chunks": [
+       {
+        "en": "Around the world,",
+        "ko": "전 세계적으로"
+       },
+       {
+        "en": "thousands of languages",
+        "ko": "수천 개의 언어들이"
+       },
+       {
+        "en": "are slowly disappearing",
+        "ko": "천천히 사라지고 있습니다"
+       },
+       {
+        "en": "every year.",
+        "ko": "매년"
+       }
+      ],
+      "rp": {
+       "situation": "친구가 스페인어를 배우고 싶다고 말했다.",
+       "prompt": "What do you want to study?",
+       "options": [
+        "I want to learn a new language.",
+        "I want to learn a new linguistic."
+       ],
+       "answer": 0,
+       "why": "'언어'를 뜻하는 명사는 language이고, linguistic은 형용사입니다."
+      },
+      "topic": "사라져가는 언어를 기록하는 사람들"
+     },
+     {
+      "id": "junior:speaker",
+      "word": "speaker",
+      "ko": "사용자, 화자",
+      "filled": "Some languages have only a small number of elderly speakers left.",
+      "sent_ko": "어떤 언어들은 소수의 나이 든 사용자들만 남아 있습니다.",
+      "chunks": [
+       {
+        "en": "Some languages",
+        "ko": "어떤 언어들은"
+       },
+       {
+        "en": "have only a small number of",
+        "ko": "소수만 있습니다"
+       },
+       {
+        "en": "elderly speakers",
+        "ko": "나이 든 사용자들"
+       },
+       {
+        "en": "left.",
+        "ko": "남아 있는"
+       }
+      ],
+      "rp": {
+       "situation": "마을에서 그 방언을 말할 수 있는 할머니가 한 분뿐이다.",
+       "prompt": "Who still uses that dialect?",
+       "options": [
+        "There is only one speaker left.",
+        "There is only one teller left."
+       ],
+       "answer": 0,
+       "why": "언어를 사용하는 사람은 speaker이고, teller는 그 의미로 쓰이지 않습니다."
+      },
+      "topic": "사라져가는 언어를 기록하는 사람들"
+     },
+     {
+      "id": "junior:record",
+      "word": "record",
+      "ko": "기록하다",
+      "filled": "They record voices, write down words, and build dictionaries to preserve what remains.",
+      "sent_ko": "그들은 목소리를 녹음하고, 단어를 받아 적고, 남아 있는 것을 보존하기 위해 사전을 만듭니다.",
+      "chunks": [
+       {
+        "en": "They record voices,",
+        "ko": "그들은 목소리를 녹음하고"
+       },
+       {
+        "en": "write down words,",
+        "ko": "단어를 받아 적고"
+       },
+       {
+        "en": "and build dictionaries",
+        "ko": "사전을 만듭니다"
+       },
+       {
+        "en": "to preserve what remains.",
+        "ko": "남아 있는 것을 보존하기 위해"
+       }
+      ],
+      "rp": {
+       "situation": "할아버지의 옛날이야기를 나중에 다시 들을 수 있도록 남기고 싶다.",
+       "prompt": "How should I save Grandpa's story?",
+       "options": [
+        "You should record his voice.",
+        "You should recorded his voice."
+       ],
+       "answer": 0,
+       "why": "should 뒤에는 동사원형이 와야 하므로 recorded는 틀립니다."
+      },
+      "topic": "사라져가는 언어를 기록하는 사람들"
+     },
+     {
+      "id": "junior:linguist",
+      "word": "linguist",
+      "ko": "언어학자",
+      "filled": "Language experts called field linguists travel to remote areas to meet these speakers.",
+      "sent_ko": "현지 언어학자라고 불리는 언어 전문가들은 이 사용자들을 만나기 위해 외딴 지역으로 이동합니다.",
+      "chunks": [
+       {
+        "en": "Language experts called field linguists",
+        "ko": "현지 언어학자라고 불리는 언어 전문가들은"
+       },
+       {
+        "en": "travel to remote areas",
+        "ko": "외딴 지역으로 이동합니다"
+       },
+       {
+        "en": "to meet these speakers.",
+        "ko": "이 사용자들을 만나기 위해"
+       }
+      ],
+      "rp": {
+       "situation": "언어를 연구하는 학자가 사라져가는 방언을 조사하고 있다.",
+       "prompt": "What does she do?",
+       "options": [
+        "She is a linguist studying dying dialects.",
+        "She is a linguistics studying dying dialects."
+       ],
+       "answer": 0,
+       "why": "사람을 가리킬 때는 명사 linguist를 쓰고, linguistics는 학문 이름입니다."
+      },
+      "topic": "사라져가는 언어를 기록하는 사람들"
+     },
+     {
+      "id": "junior:endangered",
+      "word": "endangered",
+      "ko": "위기에 처한",
+      "filled": "Some languages are endangered because only a very small number of elderly people still speak them.",
+      "sent_ko": "어떤 언어들은 매우 적은 수의 노인들만 여전히 사용하기 때문에 위기에 처해 있습니다.",
+      "chunks": [
+       {
+        "en": "Some languages are endangered",
+        "ko": "어떤 언어들은 위기에 처해 있습니다"
+       },
+       {
+        "en": "because only a very small number of",
+        "ko": "왜냐하면 매우 적은 수의"
+       },
+       {
+        "en": "elderly people",
+        "ko": "노인들만"
+       },
+       {
+        "en": "still speak them.",
+        "ko": "여전히 사용하기 때문입니다"
+       }
+      ],
+      "rp": {
+       "situation": "야생에 몇 마리 남지 않은 호랑이에 대해 발표하고 있다.",
+       "prompt": "How would you describe tigers like this?",
+       "options": [
+        "Tigers are an endangered species.",
+        "Tigers are an endangering species."
+       ],
+       "answer": 0,
+       "why": "위험에 처한 대상에는 endangered를 쓰고, endangering은 위험을 끼치는 쪽에 씁니다."
+      },
+      "topic": "사라져가는 언어를 기록하는 사람들"
+     },
+     {
+      "id": "junior:digital",
+      "word": "digital",
+      "ko": "디지털의",
+      "filled": "Thanks to these dedicated researchers, some languages may survive as digital records for future generations.",
+      "sent_ko": "이 헌신적인 연구자들 덕분에, 일부 언어들은 미래 세대를 위한 디지털 기록으로 남을 수도 있습니다.",
+      "chunks": [
+       {
+        "en": "Thanks to these dedicated researchers,",
+        "ko": "이 헌신적인 연구자들 덕분에"
+       },
+       {
+        "en": "some languages may survive",
+        "ko": "일부 언어들은 남을 수도 있습니다"
+       },
+       {
+        "en": "as digital records",
+        "ko": "디지털 기록으로"
+       },
+       {
+        "en": "for future generations.",
+        "ko": "미래 세대를 위한"
+       }
+      ],
+      "rp": {
+       "situation": "박물관이 종이 문서 대신 컴퓨터 파일로 자료를 저장하기 시작했다.",
+       "prompt": "How are they saving the documents now?",
+       "options": [
+        "They are keeping digital copies.",
+        "They are keeping digitally copies."
+       ],
+       "answer": 0,
+       "why": "명사 copies를 꾸미려면 형용사 digital을 써야 하고, 부사 digitally는 명사를 수식할 수 없습니다."
+      },
+      "topic": "사라져가는 언어를 기록하는 사람들"
+     },
+     {
+      "id": "junior:generation",
+      "word": "generation",
+      "ko": "세대",
+      "filled": "Thanks to these dedicated researchers, some languages may survive as digital records for future generations.",
+      "sent_ko": "이 헌신적인 연구자들 덕분에, 일부 언어들은 미래 세대를 위한 디지털 기록으로 남을 수도 있습니다.",
+      "chunks": [
+       {
+        "en": "Thanks to these dedicated researchers,",
+        "ko": "이 헌신적인 연구자들 덕분에"
+       },
+       {
+        "en": "some languages may survive",
+        "ko": "일부 언어들은 남을 수도 있습니다"
+       },
+       {
+        "en": "as digital records",
+        "ko": "디지털 기록으로"
+       },
+       {
+        "en": "for future generations.",
+        "ko": "미래 세대를 위한"
+       }
+      ],
+      "rp": {
+       "situation": "할머니, 부모님, 나, 내 동생이 함께 가족사진을 찍었다.",
+       "prompt": "How many generations are in this photo?",
+       "options": [
+        "There are three generations in this photo.",
+        "There are three generation in this photo."
+       ],
+       "answer": 0,
+       "why": "셀 수 있는 명사를 three와 함께 쓸 때는 복수형 generations가 맞습니다."
+      },
+      "topic": "사라져가는 언어를 기록하는 사람들"
+     }
+    ]
+   },
+   {
+    "id": "junior|학교 운동부와 공부의 균형",
+    "level": "junior",
+    "topic": "학교 운동부와 공부의 균형",
+    "section": "스포츠",
+    "cards": [
+     {
+      "id": "junior:athlete",
+      "word": "athlete",
+      "ko": "운동선수",
+      "filled": "Student athletes often have very full schedules.",
+      "sent_ko": "학생 운동선수들은 종종 매우 빡빡한 일정을 가지고 있습니다.",
+      "chunks": [
+       {
+        "en": "Student athletes",
+        "ko": "학생 운동선수들은"
+       },
+       {
+        "en": "often have",
+        "ko": "종종 가지고 있다"
+       },
+       {
+        "en": "very full schedules.",
+        "ko": "매우 빡빡한 일정을"
+       }
+      ],
+      "rp": {
+       "situation": "축구부 친구가 매일 훈련하고 주말엔 시합에 나간다.",
+       "prompt": "Wow, you're so busy. What are you?",
+       "options": [
+        "I'm a student athlete.",
+        "I'm a student athletics."
+       ],
+       "answer": 0,
+       "why": "athlete는 사람을 가리키는 명사이고, athletics는 사람에게 쓸 수 없는 집합명사입니다."
+      },
+      "topic": "학교 운동부와 공부의 균형"
+     },
+     {
+      "id": "junior:schedule",
+      "word": "schedule",
+      "ko": "일정, 스케줄",
+      "filled": "Student athletes often have very full schedules.",
+      "sent_ko": "학생 운동선수들은 종종 매우 빡빡한 일정을 가지고 있습니다.",
+      "chunks": [
+       {
+        "en": "Student athletes",
+        "ko": "학생 운동선수들은"
+       },
+       {
+        "en": "often have",
+        "ko": "종종 가지고 있다"
+       },
+       {
+        "en": "very full schedules.",
+        "ko": "매우 빡빡한 일정을"
+       }
+      ],
+      "rp": {
+       "situation": "방과 후 연습, 숙제, 저녁 식사가 모두 같은 날에 잡혀 있다.",
+       "prompt": "How does your day look?",
+       "options": [
+        "I have a very full schedule today.",
+        "I have a very full scheduling today."
+       ],
+       "answer": 0,
+       "why": "schedule은 명사로 써야 하며, scheduling은 이 자리에 올 수 없는 동명사 형태입니다."
+      },
+      "topic": "학교 운동부와 공부의 균형"
+     },
+     {
+      "id": "junior:competition",
+      "word": "competition",
+      "ko": "대회, 경쟁",
+      "filled": "Practice sessions, travel to competitions, and physical tiredness can all make studying more difficult.",
+      "sent_ko": "연습 시간, 대회 이동, 그리고 신체적 피로는 모두 공부를 더 어렵게 만들 수 있습니다.",
+      "chunks": [
+       {
+        "en": "Practice sessions,",
+        "ko": "연습 시간,"
+       },
+       {
+        "en": "travel to competitions,",
+        "ko": "대회로의 이동,"
+       },
+       {
+        "en": "and physical tiredness",
+        "ko": "그리고 신체적 피로는"
+       },
+       {
+        "en": "can all make studying",
+        "ko": "모두 공부를 만들 수 있다"
+       },
+       {
+        "en": "more difficult.",
+        "ko": "더 어렵게"
+       }
+      ],
+      "rp": {
+       "situation": "학교 수영 팀이 다른 학교와 실력을 겨루는 행사에 참가한다.",
+       "prompt": "What is happening this weekend?",
+       "options": [
+        "We have a swimming competition.",
+        "We have a swimming compete."
+       ],
+       "answer": 0,
+       "why": "competition은 올바른 명사 형태이고, compete는 동사이므로 명사 자리에 쓸 수 없습니다."
+      },
+      "topic": "학교 운동부와 공부의 균형"
+     },
+     {
+      "id": "junior:manage",
+      "word": "manage",
+      "ko": "해내다, 관리하다",
+      "filled": "Some schools have put rules in place to help students manage both sports and studies.",
+      "sent_ko": "일부 학교들은 학생들이 스포츠와 학업 둘 다 해낼 수 있도록 돕는 규칙들을 마련했습니다.",
+      "chunks": [
+       {
+        "en": "Some schools have put rules in place",
+        "ko": "일부 학교들은 규칙을 마련했습니다"
+       },
+       {
+        "en": "to help students",
+        "ko": "학생들이 ~할 수 있도록 돕기 위해"
+       },
+       {
+        "en": "manage both sports and studies.",
+        "ko": "스포츠와 학업 둘 다 해낼 수 있게"
+       }
+      ],
+      "rp": {
+       "situation": "숙제도 많고 운동 연습도 있는데 둘 다 잘 해내고 있는 친구에게 말한다.",
+       "prompt": "How do you do it all?",
+       "options": [
+        "I manage my time really well.",
+        "I manage my time really good."
+       ],
+       "answer": 0,
+       "why": "동사 manage를 꾸미는 자리에는 부사 well이 와야 하며, 형용사 good은 쓸 수 없습니다."
+      },
+      "topic": "학교 운동부와 공부의 균형"
+     },
+     {
+      "id": "junior:grade",
+      "word": "grade",
+      "ko": "성적, 학점",
+      "filled": "For example, a student may need to keep their grades at a certain level to stay on the team.",
+      "sent_ko": "예를 들어, 학생은 팀에 남아 있으려면 성적을 일정 수준으로 유지해야 할 수도 있습니다.",
+      "chunks": [
+       {
+        "en": "For example,",
+        "ko": "예를 들어,"
+       },
+       {
+        "en": "a student may need to keep",
+        "ko": "학생은 유지해야 할 수도 있습니다"
+       },
+       {
+        "en": "their grades",
+        "ko": "자신의 성적을"
+       },
+       {
+        "en": "at a certain level",
+        "ko": "일정 수준으로"
+       },
+       {
+        "en": "to stay on the team.",
+        "ko": "팀에 남아 있으려면"
+       }
+      ],
+      "rp": {
+       "situation": "선생님이 시험지를 돌려줬는데 내 점수가 매우 낮다.",
+       "prompt": "How did you do on the test?",
+       "options": [
+        "I got a bad grade.",
+        "I got a bad grading."
+       ],
+       "answer": 0,
+       "why": "시험 점수는 grade(명사)로 표현하며, grading은 이 문맥에서 쓸 수 없는 형태입니다."
+      },
+      "topic": "학교 운동부와 공부의 균형"
+     },
+     {
+      "id": "junior:balance",
+      "word": "balance",
+      "ko": "균형",
+      "filled": "Finding the right balance is not always easy, but many students say it is possible with good time management.",
+      "sent_ko": "올바른 균형을 찾는 것이 항상 쉽지는 않지만, 많은 학생들은 올바른 시간 관리로 가능하다고 말합니다.",
+      "chunks": [
+       {
+        "en": "Finding the right balance",
+        "ko": "올바른 균형을 찾는 것은"
+       },
+       {
+        "en": "is not always easy,",
+        "ko": "항상 쉽지는 않습니다,"
+       },
+       {
+        "en": "but many students say",
+        "ko": "하지만 많은 학생들은 말합니다"
+       },
+       {
+        "en": "it is possible",
+        "ko": "가능하다고"
+       },
+       {
+        "en": "with good time management.",
+        "ko": "올바른 시간 관리로"
+       }
+      ],
+      "rp": {
+       "situation": "운동도 하고 공부도 잘 하려고 매일 시간을 조절하며 생활하고 있다.",
+       "prompt": "How do you handle school and sports?",
+       "options": [
+        "I try to find a good balance.",
+        "I try to find a good balanced."
+       ],
+       "answer": 0,
+       "why": "find의 목적어 자리에는 명사 balance가 와야 하며, 형용사 balanced는 쓸 수 없습니다."
+      },
+      "topic": "학교 운동부와 공부의 균형"
+     },
+     {
+      "id": "junior:productive",
+      "word": "productive",
+      "ko": "생산적인",
+      "filled": "Interestingly, staying active through sports may also help the brain stay focused, which can make study time more productive.",
+      "sent_ko": "흥미롭게도, 스포츠를 통해 활동적으로 지내는 것은 뇌가 집중력을 유지하는 데 도움이 될 수 있으며, 이것은 공부 시간을 더 생산적으로 만들 수 있습니다.",
+      "chunks": [
+       {
+        "en": "Interestingly, staying active through sports",
+        "ko": "흥미롭게도, 스포츠로 활동적으로 지내는 것은"
+       },
+       {
+        "en": "may also help the brain stay focused,",
+        "ko": "뇌가 집중력을 유지하는 데 도움이 될 수 있으며,"
+       },
+       {
+        "en": "which can make study time",
+        "ko": "이것은 공부 시간을 만들 수 있습니다"
+       },
+       {
+        "en": "more productive.",
+        "ko": "더 생산적으로"
+       }
+      ],
+      "rp": {
+       "situation": "도서관에서 두 시간 동안 집중해서 숙제를 모두 끝냈다.",
+       "prompt": "How was your study session?",
+       "options": [
+        "It was really productive.",
+        "It was really productively."
+       ],
+       "answer": 0,
+       "why": "be동사 뒤 보어 자리에는 형용사 productive가 와야 하며, 부사 productively는 쓸 수 없습니다."
+      },
+      "topic": "학교 운동부와 공부의 균형"
+     }
+    ]
+   },
+   {
+    "id": "junior|이어폰 볼륨과 청력 손상",
+    "level": "junior",
+    "topic": "이어폰 볼륨과 청력 손상",
+    "section": "건강",
+    "cards": [
+     {
+      "id": "junior:permanent",
+      "word": "permanent",
+      "ko": "영구적인, 영속적인",
+      "filled": "Once they are gone, the body cannot grow them back, and the hearing loss becomes permanent.",
+      "sent_ko": "일단 사라지면, 몸은 그것들을 다시 자라게 할 수 없고, 청력 손실은 영구적이 됩니다.",
+      "chunks": [
+       {
+        "en": "Once they are gone,",
+        "ko": "일단 사라지면"
+       },
+       {
+        "en": "the body cannot grow them back,",
+        "ko": "몸은 그것들을 다시 자라게 할 수 없고"
+       },
+       {
+        "en": "and the hearing loss",
+        "ko": "그리고 청력 손실은"
+       },
+       {
+        "en": "becomes permanent.",
+        "ko": "영구적이 됩니다"
+       }
+      ],
+      "rp": {
+       "situation": "친구가 넘어져서 무릎에 큰 흉터가 생겼고, 의사가 평생 없어지지 않을 거라고 했다.",
+       "prompt": "What did the doctor say about the scar?",
+       "options": [
+        "The doctor said the scar is permanent.",
+        "The doctor said the scar is temporarily."
+       ],
+       "answer": 0,
+       "why": "permanent은 형용사이고, temporarily는 부사라 be동사 뒤에 쓸 수 없습니다."
+      },
+      "topic": "이어폰 볼륨과 청력 손상"
+     },
+     {
+      "id": "junior:damage",
+      "word": "damage",
+      "ko": "손상, 피해",
+      "filled": "When sound is too loud, these hair cells can get damaged or even die.",
+      "sent_ko": "소리가 너무 크면, 이 유모세포들은 손상되거나 심지어 죽을 수도 있습니다.",
+      "chunks": [
+       {
+        "en": "When sound is too loud,",
+        "ko": "소리가 너무 크면"
+       },
+       {
+        "en": "these hair cells",
+        "ko": "이 유모세포들은"
+       },
+       {
+        "en": "can get damaged",
+        "ko": "손상될 수 있거나"
+       },
+       {
+        "en": "or even die.",
+        "ko": "심지어 죽을 수도 있습니다"
+       }
+      ],
+      "rp": {
+       "situation": "폭풍우가 지나간 후 집 지붕 일부가 부서지고 망가진 상황이다.",
+       "prompt": "What happened to the roof?",
+       "options": [
+        "The storm damaged the roof badly.",
+        "The storm damaging the roof badly."
+       ],
+       "answer": 0,
+       "why": "문장의 동사 자리에는 damaged(과거형)가 와야 하고, damaging은 동사로 쓸 수 없습니다."
+      },
+      "topic": "이어폰 볼륨과 청력 손상"
+     },
+     {
+      "id": "junior:exposure",
+      "word": "exposure",
+      "ko": "노출",
+      "filled": "Long exposure to the sun without sunscreen can burn your skin and cause serious health problems.",
+      "sent_ko": "자외선 차단제 없이 햇빛에 오래 노출되면 피부가 탈 수 있고 심각한 건강 문제를 일으킬 수 있습니다.",
+      "chunks": [
+       {
+        "en": "Long exposure to the sun",
+        "ko": "햇빛에 오래 노출되면"
+       },
+       {
+        "en": "without sunscreen",
+        "ko": "자외선 차단제 없이"
+       },
+       {
+        "en": "can burn your skin",
+        "ko": "피부가 탈 수 있고"
+       },
+       {
+        "en": "and cause serious health problems.",
+        "ko": "심각한 건강 문제를 일으킬 수 있습니다"
+       }
+      ],
+      "rp": {
+       "situation": "친구가 모자도 선크림도 없이 하루 종일 뙤약볕 아래서 야외활동을 했다.",
+       "prompt": "Why is your skin so red?",
+       "options": [
+        "It's because of my long exposure to the sun.",
+        "It's because of my long expose to the sun."
+       ],
+       "answer": 0,
+       "why": "exposure는 명사이고, expose는 동사라 전치사 뒤 명사 자리에 쓸 수 없습니다."
+      },
+      "topic": "이어폰 볼륨과 청력 손상"
+     },
+     {
+      "id": "junior:decibel",
+      "word": "decibel",
+      "ko": "데시벨 (소리의 크기 단위)",
+      "filled": "A whisper measures about 30 decibel, while a jet plane can reach over 140 ______.",
+      "sent_ko": "속삭임은 약 30데시벨이고, 반면에 제트기는 140데시벨이 넘을 수 있습니다.",
+      "chunks": [
+       {
+        "en": "A whisper measures about 30 decibel,",
+        "ko": "속삭임은 약 30데시벨이고"
+       },
+       {
+        "en": "while a jet plane",
+        "ko": "반면에 제트기는"
+       },
+       {
+        "en": "can reach over 140 ______.",
+        "ko": "140을 넘을 수 있습니다"
+       }
+      ],
+      "rp": {
+       "situation": "과학 시간에 선생님이 소리의 크기를 재는 단위가 무엇인지 물어보고 있다.",
+       "prompt": "What unit do we use to measure how loud a sound is?",
+       "options": [
+        "We measure sound loudness in decibels.",
+        "We measure sound loudness in decimals."
+       ],
+       "answer": 0,
+       "why": "소리의 크기 단위는 decibels이고, decimals는 소수를 뜻하는 전혀 다른 단어입니다."
+      },
+      "topic": "이어폰 볼륨과 청력 손상"
+     },
+     {
+      "id": "junior:eardrum",
+      "word": "eardrum",
+      "ko": "고막",
+      "filled": "Over-ear headphones are generally safer than in-ear earphones because they sit farther from the eardrum.",
+      "sent_ko": "오버이어 헤드폰은 고막에서 더 멀리 위치하기 때문에 일반적으로 인이어 이어폰보다 더 안전합니다.",
+      "chunks": [
+       {
+        "en": "Over-ear headphones are generally safer",
+        "ko": "오버이어 헤드폰은 일반적으로 더 안전합니다"
+       },
+       {
+        "en": "than in-ear earphones",
+        "ko": "인이어 이어폰보다"
+       },
+       {
+        "en": "because they sit farther",
+        "ko": "더 멀리 위치하기 때문에"
+       },
+       {
+        "en": "from the eardrum.",
+        "ko": "고막으로부터"
+       }
+      ],
+      "rp": {
+       "situation": "의사가 아이의 귀 안쪽을 검사하면서 소리 진동을 받아들이는 얇은 막에 대해 설명하고 있다.",
+       "prompt": "What part of the ear picks up sound vibrations first?",
+       "options": [
+        "The eardrum picks up sound vibrations.",
+        "The earworm picks up sound vibrations."
+       ],
+       "answer": 0,
+       "why": "eardrum은 고막을 뜻하는 단어이고, earworm은 머릿속에 맴도는 노래를 뜻해 문맥에 맞지 않습니다."
+      },
+      "topic": "이어폰 볼륨과 청력 손상"
+     },
+     {
+      "id": "junior:temptation",
+      "word": "temptation",
+      "ko": "유혹",
+      "filled": "She felt a strong temptation to check her phone during class, even though she knew it was not allowed.",
+      "sent_ko": "그녀는 수업 중에 휴대폰을 확인하고 싶은 강한 유혹을 느꼈는데, 그것이 허락되지 않는다는 것을 알면서도 그랬습니다.",
+      "chunks": [
+       {
+        "en": "She felt a strong temptation",
+        "ko": "그녀는 강한 유혹을 느꼈습니다"
+       },
+       {
+        "en": "to check her phone during class,",
+        "ko": "수업 중에 휴대폰을 확인하고 싶은"
+       },
+       {
+        "en": "even though she knew",
+        "ko": "알면서도"
+       },
+       {
+        "en": "it was not allowed.",
+        "ko": "그것이 허락되지 않는다는 것을"
+       }
+      ],
+      "rp": {
+       "situation": "시험 공부를 해야 하는데 게임을 하고 싶은 마음이 너무 강하게 드는 상황이다.",
+       "prompt": "How do you feel right now?",
+       "options": [
+        "I feel a strong temptation to play games.",
+        "I feel a strong temptational to play games."
+       ],
+       "answer": 0,
+       "why": "temptation은 명사이고, temptational은 존재하지 않는 잘못된 형태입니다."
+      },
+      "topic": "이어폰 볼륨과 청력 손상"
+     },
+     {
+      "id": "junior:recover",
+      "word": "recover",
+      "ko": "회복하다",
+      "filled": "Short breaks give your ears time to recover.",
+      "sent_ko": "짧은 휴식은 귀가 회복할 시간을 줍니다.",
+      "chunks": [
+       {
+        "en": "Short breaks",
+        "ko": "짧은 휴식은"
+       },
+       {
+        "en": "give your ears",
+        "ko": "귀에게 줍니다"
+       },
+       {
+        "en": "time to recover.",
+        "ko": "회복할 시간을"
+       }
+      ],
+      "rp": {
+       "situation": "마라톤을 뛴 선수가 경기 후 며칠 동안 충분히 쉬어서 몸 상태가 다시 좋아졌다.",
+       "prompt": "How is the runner feeling now?",
+       "options": [
+        "He has fully recovered after the race.",
+        "He has fully recovery after the race."
+       ],
+       "answer": 0,
+       "why": "recovered는 동사(과거분사)이고, recovery는 명사라 has 뒤에 쓸 수 없습니다."
+      },
+      "topic": "이어폰 볼륨과 청력 손상"
+     }
+    ]
+   }
+  ],
+  "times": [
+   {
+    "id": "times|반도체 보조금 경쟁의 득실",
+    "level": "times",
+    "topic": "반도체 보조금 경쟁의 득실",
+    "section": "경제",
+    "cards": [
+     {
+      "id": "times:semiconductor",
+      "word": "semiconductor",
+      "ko": "반도체",
+      "filled": "Semiconductors are tiny electronic components that power everything from smartphones to military systems.",
+      "sent_ko": "반도체는 스마트폰부터 군사 시스템까지 모든 것을 작동시키는 작은 전자 부품이다.",
+      "chunks": [
+       {
+        "en": "Semiconductors",
+        "ko": "반도체는"
+       },
+       {
+        "en": "are tiny electronic components",
+        "ko": "작은 전자 부품이다"
+       },
+       {
+        "en": "that power everything",
+        "ko": "모든 것을 작동시키는"
+       },
+       {
+        "en": "from smartphones to military systems.",
+        "ko": "스마트폰부터 군사 시스템까지"
+       }
+      ],
+      "rp": {
+       "situation": "친구가 반도체가 뭔지 묻는다.",
+       "prompt": "What are semiconductors exactly?",
+       "options": [
+        "They are electronic components that power devices like phones and computers.",
+        "They are electronic components who power devices like phones and computers."
+       ],
+       "answer": 0,
+       "why": "사물을 수식하는 관계절에는 who가 아닌 that/which를 써야 한다."
+      },
+      "topic": "반도체 보조금 경쟁의 득실"
+     },
+     {
+      "id": "times:subsidy",
+      "word": "subsidy",
+      "ko": "보조금",
+      "filled": "Some economists argue that large government subsidies can distort markets and lead to wasteful spending if political priorities drive funding decisions rather than economic ones.",
+      "sent_ko": "일부 경제학자들은 경제적 우선순위가 아닌 정치적 우선순위가 자금 결정을 이끌 경우, 대규모 정부 보조금이 시장을 왜곡하고 낭비적 지출로 이어질 수 있다고 주장한다.",
+      "chunks": [
+       {
+        "en": "Some economists argue",
+        "ko": "일부 경제학자들은 주장한다"
+       },
+       {
+        "en": "that large government subsidies",
+        "ko": "대규모 정부 보조금이"
+       },
+       {
+        "en": "can distort markets and lead to wasteful spending",
+        "ko": "시장을 왜곡하고 낭비적 지출로 이어질 수 있다고"
+       },
+       {
+        "en": "if political priorities drive funding decisions",
+        "ko": "정치적 우선순위가 자금 결정을 이끌 경우"
+       },
+       {
+        "en": "rather than economic ones.",
+        "ko": "경제적 우선순위가 아닌"
+       }
+      ],
+      "rp": {
+       "situation": "정부가 특정 기업에 막대한 자금을 지원하고 있다.",
+       "prompt": "How do you describe that government money given to the company?",
+       "options": [
+        "It is a subsidy that helps the company compete.",
+        "It is a subscription that helps the company compete."
+       ],
+       "answer": 0,
+       "why": "subscription은 구독료를 뜻하며, 정부 지원금은 subsidy가 올바른 표현이다."
+      },
+      "topic": "반도체 보조금 경쟁의 득실"
+     },
+     {
+      "id": "times:domestic",
+      "word": "domestic",
+      "ko": "국내의",
+      "filled": "Governments around the world are spending billions of dollars to build domestic semiconductor industries.",
+      "sent_ko": "전 세계 정부들은 자국 반도체 산업을 구축하기 위해 수십억 달러를 지출하고 있다.",
+      "chunks": [
+       {
+        "en": "Governments around the world",
+        "ko": "전 세계 정부들은"
+       },
+       {
+        "en": "are spending billions of dollars",
+        "ko": "수십억 달러를 지출하고 있다"
+       },
+       {
+        "en": "to build domestic semiconductor industries.",
+        "ko": "자국 반도체 산업을 구축하기 위해"
+       }
+      ],
+      "rp": {
+       "situation": "한 국가가 자국 내 반도체 공장 건설에 투자하고 있다.",
+       "prompt": "What kind of semiconductor industry are they building?",
+       "options": [
+        "They are building a domestic semiconductor industry.",
+        "They are building a domistic semiconductor industry."
+       ],
+       "answer": 0,
+       "why": "domistic은 존재하지 않는 철자이며, 올바른 단어는 domestic이다."
+      },
+      "topic": "반도체 보조금 경쟁의 득실"
+     },
+     {
+      "id": "times:supply chain",
+      "word": "supply chain",
+      "ko": "공급망",
+      "filled": "Because so much of global chip production is concentrated in Taiwan and South Korea, many governments grew worried about supply chain risks — especially after chip shortages hit the auto and electronics industries hard during the COVID-19 pandemic.",
+      "sent_ko": "전 세계 칩 생산의 상당 부분이 대만과 한국에 집중되어 있기 때문에, 특히 코로나19 팬데믹 기간 중 칩 부족이 자동차 및 전자 산업을 강타한 이후, 많은 정부들이 공급망 위험에 대해 우려하게 되었다.",
+      "chunks": [
+       {
+        "en": "Because so much of global chip production",
+        "ko": "전 세계 칩 생산의 상당 부분이"
+       },
+       {
+        "en": "is concentrated in Taiwan and South Korea,",
+        "ko": "대만과 한국에 집중되어 있기 때문에,"
+       },
+       {
+        "en": "many governments grew worried about supply chain risks —",
+        "ko": "많은 정부들이 공급망 위험을 우려하게 되었다 —"
+       },
+       {
+        "en": "especially after chip shortages",
+        "ko": "특히 칩 부족이 발생한 이후"
+       },
+       {
+        "en": "hit the auto and electronics industries hard",
+        "ko": "자동차 및 전자 산업을 강타한"
+       },
+       {
+        "en": "during the COVID-19 pandemic.",
+        "ko": "코로나19 팬데믹 기간 중"
+       }
+      ],
+      "rp": {
+       "situation": "공장이 부품을 제때 받지 못해 생산이 멈췄다.",
+       "prompt": "What problem are they facing?",
+       "options": [
+        "There is a supply chain disruption affecting their production.",
+        "There is a supply chain disruption effecting their production."
+       ],
+       "answer": 0,
+       "why": "affect는 동사로 '영향을 미치다'이고, effect는 명사이므로 affecting이 올바르다."
+      },
+      "topic": "반도체 보조금 경쟁의 득실"
+     },
+     {
+      "id": "times:shortage",
+      "word": "shortage",
+      "ko": "부족, 공급 부족",
+      "filled": "Because so much of global chip production is concentrated in Taiwan and South Korea, many governments grew worried about supply chain risks — especially after chip shortages hit the auto and electronics industries hard during the COVID-19 pandemic.",
+      "sent_ko": "전 세계 칩 생산의 상당 부분이 대만과 한국에 집중되어 있기 때문에, 특히 코로나19 팬데믹 기간 중 칩 부족이 자동차 및 전자 산업을 강타한 이후, 많은 정부들이 공급망 위험에 대해 우려하게 되었다.",
+      "chunks": [
+       {
+        "en": "Because so much of global chip production",
+        "ko": "전 세계 칩 생산의 상당 부분이"
+       },
+       {
+        "en": "is concentrated in Taiwan and South Korea,",
+        "ko": "대만과 한국에 집중되어 있기 때문에,"
+       },
+       {
+        "en": "many governments grew worried about supply chain risks —",
+        "ko": "많은 정부들이 공급망 위험을 우려하게 되었다 —"
+       },
+       {
+        "en": "especially after chip shortages",
+        "ko": "특히 칩 부족이 발생한 이후"
+       },
+       {
+        "en": "hit the auto and electronics industries hard",
+        "ko": "자동차 및 전자 산업을 강타한"
+       },
+       {
+        "en": "during the COVID-19 pandemic.",
+        "ko": "코로나19 팬데믹 기간 중"
+       }
+      ],
+      "rp": {
+       "situation": "가게에 재고가 없어 물건을 살 수 없다.",
+       "prompt": "Why can't we buy any chips right now?",
+       "options": [
+        "Because there is a shortage of chips in the market.",
+        "Because there is a shortness of chips in the market."
+       ],
+       "answer": 0,
+       "why": "공급 부족을 나타낼 때는 shortage를 쓰며, shortness는 이 맥락에 쓰이지 않는다."
+      },
+      "topic": "반도체 보조금 경쟁의 득실"
+     },
+     {
+      "id": "times:distort",
+      "word": "distort",
+      "ko": "왜곡하다",
+      "filled": "Some economists argue that large government subsidies can distort markets and lead to wasteful spending if political priorities drive funding decisions rather than economic ones.",
+      "sent_ko": "일부 경제학자들은 경제적 우선순위가 아닌 정치적 우선순위가 자금 결정을 이끌 경우, 대규모 정부 보조금이 시장을 왜곡하고 낭비적 지출로 이어질 수 있다고 주장한다.",
+      "chunks": [
+       {
+        "en": "Some economists argue",
+        "ko": "일부 경제학자들은 주장한다"
+       },
+       {
+        "en": "that large government subsidies",
+        "ko": "대규모 정부 보조금이"
+       },
+       {
+        "en": "can distort markets and lead to wasteful spending",
+        "ko": "시장을 왜곡하고 낭비적 지출로 이어질 수 있다고"
+       },
+       {
+        "en": "if political priorities drive funding decisions",
+        "ko": "정치적 우선순위가 자금 결정을 이끌 경우"
+       },
+       {
+        "en": "rather than economic ones.",
+        "ko": "경제적 우선순위가 아닌"
+       }
+      ],
+      "rp": {
+       "situation": "정부 개입으로 시장 가격이 비정상적으로 변했다.",
+       "prompt": "What did the government's intervention do to the market?",
+       "options": [
+        "It distorted the market by creating unfair price advantages.",
+        "It distorted the market by creating unfair price advantages, doesn't it?"
+       ],
+       "answer": 0,
+       "why": "과거 시제 문장에 doesn't it을 붙이면 시제가 일치하지 않아 비문법적이다."
+      },
+      "topic": "반도체 보조금 경쟁의 득실"
+     },
+     {
+      "id": "times:expertise",
+      "word": "expertise",
+      "ko": "전문 지식, 전문성",
+      "filled": "TSMC produces the most advanced chips in the world and benefits from decades of expertise and a deep local talent pool.",
+      "sent_ko": "TSMC는 세계에서 가장 첨단 칩을 생산하며, 수십 년간의 전문 지식과 깊은 지역 인재 풀의 혜택을 누리고 있다.",
+      "chunks": [
+       {
+        "en": "TSMC produces the most advanced chips in the world",
+        "ko": "TSMC는 세계에서 가장 첨단 칩을 생산하며"
+       },
+       {
+        "en": "and benefits from decades of expertise",
+        "ko": "수십 년간의 전문 지식의 혜택을 누리고 있다"
+       },
+       {
+        "en": "and a deep local talent pool.",
+        "ko": "그리고 깊은 지역 인재 풀로부터"
+       }
+      ],
+      "rp": {
+       "situation": "오랜 경험을 가진 엔지니어가 팀에 합류했다.",
+       "prompt": "What does she bring to the team?",
+       "options": [
+        "She brings a lot of expertise in chip design.",
+        "She brings a lot of experience knowledge in chip design."
+       ],
+       "answer": 0,
+       "why": "experience knowledge는 올바른 연어가 아니며, 전문 지식은 expertise 한 단어로 표현한다."
+      },
+      "topic": "반도체 보조금 경쟁의 득실"
+     }
+    ]
+   },
+   {
+    "id": "times|AI 번역이 바꾸는 통번역 직업",
+    "level": "times",
+    "topic": "AI 번역이 바꾸는 통번역 직업",
+    "section": "기술",
+    "cards": [
+     {
+      "id": "times:interpreter",
+      "word": "interpreter",
+      "ko": "통역사",
+      "filled": "This is changing the job market for professional translators and interpreters around the world.",
+      "sent_ko": "이것은 전 세계 전문 번역가와 통역사들의 취업 시장을 변화시키고 있다.",
+      "chunks": [
+       {
+        "en": "This is changing",
+        "ko": "이것은 변화시키고 있다"
+       },
+       {
+        "en": "the job market",
+        "ko": "취업 시장을"
+       },
+       {
+        "en": "for professional translators and interpreters",
+        "ko": "전문 번역가와 통역사를 위한"
+       },
+       {
+        "en": "around the world.",
+        "ko": "전 세계"
+       }
+      ],
+      "rp": {
+       "situation": "유엔 회의에서 두 나라 대표가 서로 다른 언어로 말하고 있다.",
+       "prompt": "Who is helping them understand each other?",
+       "options": [
+        "An interpreter is translating their words in real time.",
+        "An interpreter is translating their words in real tense."
+       ],
+       "answer": 0,
+       "why": "'in real time'이 올바른 표현이며 'in real tense'는 영어에 존재하지 않는 표현이다."
+      },
+      "topic": "AI 번역이 바꾸는 통번역 직업"
+     },
+     {
+      "id": "times:freelance",
+      "word": "freelance",
+      "ko": "프리랜서의, 자유 계약의",
+      "filled": "Research shows that AI tools have already reduced work for some freelance translators.",
+      "sent_ko": "연구에 따르면 AI 도구는 이미 일부 프리랜서 번역가들의 일감을 줄였다.",
+      "chunks": [
+       {
+        "en": "Research shows",
+        "ko": "연구에 따르면"
+       },
+       {
+        "en": "that AI tools",
+        "ko": "AI 도구가"
+       },
+       {
+        "en": "have already reduced work",
+        "ko": "이미 일감을 줄였다"
+       },
+       {
+        "en": "for some freelance translators.",
+        "ko": "일부 프리랜서 번역가들의"
+       }
+      ],
+      "rp": {
+       "situation": "번역가가 특정 회사에 고용되지 않고 여러 고객의 일을 따로따로 받아서 하고 있다.",
+       "prompt": "How does she work?",
+       "options": [
+        "She works as a freelance translator.",
+        "She works as a freelanced translator."
+       ],
+       "answer": 0,
+       "why": "'freelance'는 형용사로 쓰이며 'freelanced'처럼 과거분사 형태로는 쓰지 않는다."
+      },
+      "topic": "AI 번역이 바꾸는 통번역 직업"
+     },
+     {
+      "id": "times:routine",
+      "word": "routine",
+      "ko": "일과, 규칙적인 습관",
+      "filled": "Many companies now use AI tools for routine translation tasks instead of hiring people.",
+      "sent_ko": "많은 기업들은 이제 사람을 고용하는 대신 일상적인 번역 업무에 AI 도구를 사용한다.",
+      "chunks": [
+       {
+        "en": "Many companies now use AI tools",
+        "ko": "많은 기업들은 이제 AI 도구를 사용한다"
+       },
+       {
+        "en": "for routine translation tasks",
+        "ko": "일상적인 번역 업무에"
+       },
+       {
+        "en": "instead of hiring people.",
+        "ko": "사람을 고용하는 대신"
+       }
+      ],
+      "rp": {
+       "situation": "직원이 매일 같은 시간에 같은 방식으로 반복적인 보고서를 작성하고 있다.",
+       "prompt": "What kind of task is that?",
+       "options": [
+        "That's a routine task he does every day.",
+        "That's a routinely task he does every day."
+       ],
+       "answer": 0,
+       "why": "'routine'은 형용사로 명사를 수식하며, 'routinely'는 부사라 명사를 수식할 수 없다."
+      },
+      "topic": "AI 번역이 바꾸는 통번역 직업"
+     },
+     {
+      "id": "times:reliable",
+      "word": "reliable",
+      "ko": "믿을 수 있는, 신뢰할 수 있는",
+      "filled": "In medical or legal settings, small mistakes can have serious consequences, and AI tools are not yet reliable enough for these situations.",
+      "sent_ko": "의료나 법률 환경에서는 작은 실수가 심각한 결과를 초래할 수 있으며, AI 도구는 아직 이러한 상황에 충분히 신뢰할 만하지 않다.",
+      "chunks": [
+       {
+        "en": "In medical or legal settings,",
+        "ko": "의료나 법률 환경에서는"
+       },
+       {
+        "en": "small mistakes can have serious consequences,",
+        "ko": "작은 실수가 심각한 결과를 초래할 수 있으며"
+       },
+       {
+        "en": "and AI tools are not yet reliable enough",
+        "ko": "AI 도구는 아직 충분히 신뢰할 만하지 않다"
+       },
+       {
+        "en": "for these situations.",
+        "ko": "이러한 상황에"
+       }
+      ],
+      "rp": {
+       "situation": "병원에서 의사가 AI 번역 도구의 출력 결과를 매번 직접 확인하고 수정하고 있다.",
+       "prompt": "Why does she always double-check the AI output?",
+       "options": [
+        "Because the AI is not yet reliable enough for medical use.",
+        "Because the AI is not yet relying enough for medical use."
+       ],
+       "answer": 0,
+       "why": "'reliable'은 '믿을 수 있는'의 형용사이며, 'relying'은 동명사/현재분사로 이 자리에 쓸 수 없다."
+      },
+      "topic": "AI 번역이 바꾸는 통번역 직업"
+     },
+     {
+      "id": "times:productive",
+      "word": "productive",
+      "ko": "생산적인",
+      "filled": "Experts say that translators who learn to work alongside AI may actually become more productive.",
+      "sent_ko": "전문가들은 AI와 함께 일하는 법을 배운 번역가들이 실제로 더 생산적이 될 수 있다고 말한다.",
+      "chunks": [
+       {
+        "en": "Experts say",
+        "ko": "전문가들은 말한다"
+       },
+       {
+        "en": "that translators who learn to work alongside AI",
+        "ko": "AI와 함께 일하는 법을 배운 번역가들이"
+       },
+       {
+        "en": "may actually become more productive.",
+        "ko": "실제로 더 생산적이 될 수 있다고"
+       }
+      ],
+      "rp": {
+       "situation": "AI 도구를 활용한 후 번역가가 하루에 더 많은 분량을 완성하게 되었다.",
+       "prompt": "How has the AI tool affected her work?",
+       "options": [
+        "It has made her more productive.",
+        "It has made her more production."
+       ],
+       "answer": 0,
+       "why": "'productive'는 형용사로 보어 자리에 알맞으며, 'production'은 명사라 이 자리에 쓸 수 없다."
+      },
+      "topic": "AI 번역이 바꾸는 통번역 직업"
+     },
+     {
+      "id": "times:consequence",
+      "word": "consequence",
+      "ko": "결과, 영향",
+      "filled": "In medical or legal settings, small mistakes can have serious consequences, and AI tools are not yet reliable enough for these situations.",
+      "sent_ko": "의료나 법률 환경에서는 작은 실수가 심각한 결과를 초래할 수 있으며, AI 도구는 아직 이러한 상황에 충분히 신뢰할 만하지 않다.",
+      "chunks": [
+       {
+        "en": "In medical or legal settings,",
+        "ko": "의료나 법률 환경에서는"
+       },
+       {
+        "en": "small mistakes can have serious consequences,",
+        "ko": "작은 실수가 심각한 결과를 초래할 수 있으며"
+       },
+       {
+        "en": "and AI tools are not yet reliable enough",
+        "ko": "AI 도구는 아직 충분히 신뢰할 만하지 않다"
+       },
+       {
+        "en": "for these situations.",
+        "ko": "이러한 상황에"
+       }
+      ],
+      "rp": {
+       "situation": "의사가 잘못된 번역 때문에 환자에게 잘못된 약을 처방했다.",
+       "prompt": "What do you call the harm caused by that mistake?",
+       "options": [
+        "That mistake had a serious consequence.",
+        "That mistake had a serious consequent."
+       ],
+       "answer": 0,
+       "why": "'consequence'는 명사로 '결과'를 뜻하며, 'consequent'는 형용사라 명사 자리에 쓸 수 없다."
+      },
+      "topic": "AI 번역이 바꾸는 통번역 직업"
+     }
+    ]
+   },
+   {
+    "id": "times|해저 케이블과 통신 안보",
+    "level": "times",
+    "topic": "해저 케이블과 통신 안보",
+    "section": "기술",
+    "cards": [
+     {
+      "id": "times:fiber-optic",
+      "word": "fiber-optic",
+      "ko": "광섬유의",
+      "filled": "The city installed a new fiber-optic cable system so that residents could enjoy much faster internet speeds.",
+      "sent_ko": "시는 주민들이 훨씬 더 빠른 인터넷 속도를 즐길 수 있도록 새로운 광섬유 케이블 시스템을 설치했다.",
+      "chunks": [
+       {
+        "en": "The city installed",
+        "ko": "시가 설치했다"
+       },
+       {
+        "en": "a new fiber-optic cable system",
+        "ko": "새로운 광섬유 케이블 시스템을"
+       },
+       {
+        "en": "so that residents could enjoy",
+        "ko": "주민들이 즐길 수 있도록"
+       },
+       {
+        "en": "much faster internet speeds.",
+        "ko": "훨씬 더 빠른 인터넷 속도를"
+       }
+      ],
+      "rp": {
+       "situation": "공사팀이 건물 간 고속 인터넷망을 새로 깔았다.",
+       "prompt": "What kind of cable did they use?",
+       "options": [
+        "They installed a fiber-optic cable.",
+        "They installed a fiber-optic cables."
+       ],
+       "answer": 0,
+       "why": "단수 가산명사 앞에는 관사 a가 필요하며 복수형과 함께 쓸 수 없다."
+      },
+      "topic": "해저 케이블과 통신 안보"
+     },
+     {
+      "id": "times:transaction",
+      "word": "transaction",
+      "ko": "거래",
+      "filled": "These cables connect countries and continents, carrying everything from everyday messages to major financial transactions.",
+      "sent_ko": "이 케이블들은 나라와 대륙을 연결하며, 일상적인 메시지부터 대규모 금융 거래까지 모든 것을 전송한다.",
+      "chunks": [
+       {
+        "en": "These cables connect countries and continents,",
+        "ko": "이 케이블들은 나라와 대륙을 연결하며"
+       },
+       {
+        "en": "carrying everything",
+        "ko": "모든 것을 전송하며"
+       },
+       {
+        "en": "from everyday messages",
+        "ko": "일상적인 메시지부터"
+       },
+       {
+        "en": "to major financial transactions.",
+        "ko": "대규모 금융 거래까지"
+       }
+      ],
+      "rp": {
+       "situation": "은행 앱에서 계좌 이체를 방금 완료했다.",
+       "prompt": "Did it go through?",
+       "options": [
+        "Yes, the transaction was successful.",
+        "Yes, the transact was successful."
+       ],
+       "answer": 0,
+       "why": "transaction은 명사형이고 transact는 동사라서 명사 자리에 쓸 수 없다."
+      },
+      "topic": "해저 케이블과 통신 안보"
+     },
+     {
+      "id": "times:deliberate",
+      "word": "deliberate",
+      "ko": "의도적인",
+      "filled": "The damage to the computer system was deliberate, meaning someone had planned it on purpose.",
+      "sent_ko": "컴퓨터 시스템의 피해는 의도적인 것이었는데, 누군가가 일부러 계획한 것을 의미한다.",
+      "chunks": [
+       {
+        "en": "The damage to the computer system",
+        "ko": "컴퓨터 시스템의 피해는"
+       },
+       {
+        "en": "was deliberate,",
+        "ko": "의도적인 것이었는데"
+       },
+       {
+        "en": "meaning someone had planned it",
+        "ko": "누군가가 계획했음을 의미하며"
+       },
+       {
+        "en": "on purpose.",
+        "ko": "일부러"
+       }
+      ],
+      "rp": {
+       "situation": "조사관이 화재 원인을 분석한 결과 방화로 결론 내렸다.",
+       "prompt": "What did the report conclude?",
+       "options": [
+        "The fire was deliberate.",
+        "The fire was deliberately."
+       ],
+       "answer": 0,
+       "why": "be동사 뒤 보어 자리에는 형용사 deliberate가 와야 하며 부사 deliberately는 쓸 수 없다."
+      },
+      "topic": "해저 케이블과 통신 안보"
+     },
+     {
+      "id": "times:outage",
+      "word": "outage",
+      "ko": "정전, 서비스 중단",
+      "filled": "Ships' anchors, underwater earthquakes, and intentional damage have all caused serious outages in recent years.",
+      "sent_ko": "선박 닻, 수중 지진, 의도적인 파손 모두 최근 몇 년간 심각한 서비스 중단을 일으켰다.",
+      "chunks": [
+       {
+        "en": "Ships' anchors, underwater earthquakes,",
+        "ko": "선박 닻, 수중 지진"
+       },
+       {
+        "en": "and intentional damage",
+        "ko": "그리고 의도적인 파손"
+       },
+       {
+        "en": "have all caused",
+        "ko": "모두 일으켰다"
+       },
+       {
+        "en": "serious outages",
+        "ko": "심각한 서비스 중단을"
+       },
+       {
+        "en": "in recent years.",
+        "ko": "최근 몇 년간"
+       }
+      ],
+      "rp": {
+       "situation": "폭풍으로 인해 도시 전체의 전기와 인터넷이 몇 시간째 끊겼다.",
+       "prompt": "What is happening to the city?",
+       "options": [
+        "The city is experiencing a major outage.",
+        "The city is experiencing a major outlet."
+       ],
+       "answer": 0,
+       "why": "outage는 서비스 중단을 뜻하는 명사이고 outlet은 전혀 다른 뜻의 단어이다."
+      },
+      "topic": "해저 케이블과 통신 안보"
+     },
+     {
+      "id": "times:infrastructure",
+      "word": "infrastructure",
+      "ko": "기반 시설",
+      "filled": "Roads, bridges, and water pipes are all part of a country's infrastructure, which keeps everyday life running smoothly.",
+      "sent_ko": "도로, 교량, 수도관은 모두 한 나라의 기반 시설의 일부로, 일상생활이 원활하게 돌아가도록 유지해 준다.",
+      "chunks": [
+       {
+        "en": "Roads, bridges, and water pipes",
+        "ko": "도로, 교량, 수도관은"
+       },
+       {
+        "en": "are all part of",
+        "ko": "모두 일부이다"
+       },
+       {
+        "en": "a country's infrastructure,",
+        "ko": "한 나라의 기반 시설의"
+       },
+       {
+        "en": "which keeps everyday life",
+        "ko": "일상생활을 유지해 주는"
+       },
+       {
+        "en": "running smoothly.",
+        "ko": "원활하게 돌아가도록"
+       }
+      ],
+      "rp": {
+       "situation": "기자가 노후한 도로·교량·상하수도 문제를 보도하고 있다.",
+       "prompt": "What is the report about?",
+       "options": [
+        "The report is about aging infrastructure.",
+        "The report is about aging infrastructures."
+       ],
+       "answer": 0,
+       "why": "infrastructure는 불가산명사이므로 복수형 infrastructures로 쓸 수 없다."
+      },
+      "topic": "해저 케이블과 통신 안보"
+     },
+     {
+      "id": "times:sensor",
+      "word": "sensor",
+      "ko": "센서, 감지기",
+      "filled": "Governments are increasing patrols in key areas, and engineers are developing underwater sensors to detect damage more quickly.",
+      "sent_ko": "정부는 주요 지역의 순찰을 강화하고 있으며, 엔지니어들은 피해를 더 빨리 감지하기 위한 수중 센서를 개발하고 있다.",
+      "chunks": [
+       {
+        "en": "Governments are increasing patrols",
+        "ko": "정부는 순찰을 강화하고 있으며"
+       },
+       {
+        "en": "in key areas,",
+        "ko": "주요 지역에서"
+       },
+       {
+        "en": "and engineers are developing",
+        "ko": "그리고 엔지니어들은 개발하고 있다"
+       },
+       {
+        "en": "underwater sensors",
+        "ko": "수중 센서를"
+       },
+       {
+        "en": "to detect damage more quickly.",
+        "ko": "피해를 더 빨리 감지하기 위해"
+       }
+      ],
+      "rp": {
+       "situation": "연구팀이 강물 오염을 실시간으로 자동 측정하는 장치를 물속에 설치했다.",
+       "prompt": "How does the system work?",
+       "options": [
+        "Sensors in the water measure pollution levels automatically.",
+        "Sensings in the water measure pollution levels automatically."
+       ],
+       "answer": 0,
+       "why": "sensor의 복수형은 sensors이며 sensing은 장치를 가리키는 명사로 쓰이지 않는다."
+      },
+      "topic": "해저 케이블과 통신 안보"
+     },
+     {
+      "id": "times:detect",
+      "word": "detect",
+      "ko": "감지하다, 탐지하다",
+      "filled": "Governments are increasing patrols in key areas, and engineers are developing underwater sensors to detect damage more quickly.",
+      "sent_ko": "정부는 주요 지역의 순찰을 강화하고 있으며, 엔지니어들은 피해를 더 빨리 감지하기 위한 수중 센서를 개발하고 있다.",
+      "chunks": [
+       {
+        "en": "Governments are increasing patrols",
+        "ko": "정부는 순찰을 강화하고 있으며"
+       },
+       {
+        "en": "in key areas,",
+        "ko": "주요 지역에서"
+       },
+       {
+        "en": "and engineers are developing",
+        "ko": "그리고 엔지니어들은 개발하고 있다"
+       },
+       {
+        "en": "underwater sensors",
+        "ko": "수중 센서를"
+       },
+       {
+        "en": "to detect damage more quickly.",
+        "ko": "피해를 더 빨리 감지하기 위해"
+       }
+      ],
+      "rp": {
+       "situation": "보안 카메라가 건물 안에서 수상한 움직임을 자동으로 포착해 경보를 울렸다.",
+       "prompt": "What did the system do?",
+       "options": [
+        "It detected unusual movement inside the building.",
+        "It detected unusually movement inside the building."
+       ],
+       "answer": 0,
+       "why": "명사 movement를 꾸미려면 형용사 unusual이 와야 하며 부사 unusually는 쓸 수 없다."
+      },
+      "topic": "해저 케이블과 통신 안보"
+     }
+    ]
+   },
+   {
+    "id": "times|산불 대응과 산림 관리 정책",
+    "level": "times",
+    "topic": "산불 대응과 산림 관리 정책",
+    "section": "환경",
+    "cards": [
+     {
+      "id": "times:frequent",
+      "word": "frequent",
+      "ko": "잦은, 빈번한",
+      "filled": "Wildfires are becoming more frequent and more destructive around the world.",
+      "sent_ko": "산불은 전 세계적으로 점점 더 잦아지고 더 파괴적으로 변하고 있다.",
+      "chunks": [
+       {
+        "en": "Wildfires",
+        "ko": "산불은"
+       },
+       {
+        "en": "are becoming more frequent",
+        "ko": "점점 더 잦아지고 있다"
+       },
+       {
+        "en": "and more destructive",
+        "ko": "그리고 더 파괴적으로"
+       },
+       {
+        "en": "around the world.",
+        "ko": "전 세계적으로"
+       }
+      ],
+      "rp": {
+       "situation": "작년보다 올해 산불 발생 횟수가 두 배로 늘었다.",
+       "prompt": "How have wildfires changed this year?",
+       "options": [
+        "They have become more frequent.",
+        "They have become more frequency."
+       ],
+       "answer": 0,
+       "why": "frequent는 형용사, frequency는 명사이므로 become 뒤에는 형용사가 와야 한다."
+      },
+      "topic": "산불 대응과 산림 관리 정책"
+     },
+     {
+      "id": "times:destructive",
+      "word": "destructive",
+      "ko": "파괴적인",
+      "filled": "Wildfires are becoming more frequent and more destructive around the world.",
+      "sent_ko": "산불은 전 세계적으로 점점 더 잦아지고 더 파괴적으로 변하고 있다.",
+      "chunks": [
+       {
+        "en": "Wildfires",
+        "ko": "산불은"
+       },
+       {
+        "en": "are becoming more frequent",
+        "ko": "점점 더 잦아지고 있다"
+       },
+       {
+        "en": "and more destructive",
+        "ko": "그리고 더 파괴적으로"
+       },
+       {
+        "en": "around the world.",
+        "ko": "전 세계적으로"
+       }
+      ],
+      "rp": {
+       "situation": "올해 산불이 수천 채의 집을 태우고 숲을 황폐화시켰다.",
+       "prompt": "How would you describe this year's wildfires?",
+       "options": [
+        "They were incredibly destructive.",
+        "They were incredibly destructed."
+       ],
+       "answer": 0,
+       "why": "destructive는 형용사이고 destructed는 동사의 과거형이므로 보어 자리에 쓸 수 없다."
+      },
+      "topic": "산불 대응과 산림 관리 정책"
+     },
+     {
+      "id": "times:management",
+      "word": "management",
+      "ko": "관리, 경영",
+      "filled": "Experts say that better forest management is one of the most effective ways to reduce the damage.",
+      "sent_ko": "전문가들은 더 나은 산림 관리가 피해를 줄이는 가장 효과적인 방법 중 하나라고 말한다.",
+      "chunks": [
+       {
+        "en": "Experts say",
+        "ko": "전문가들은 말한다"
+       },
+       {
+        "en": "that better forest management",
+        "ko": "더 나은 산림 관리가"
+       },
+       {
+        "en": "is one of the most effective ways",
+        "ko": "가장 효과적인 방법 중 하나라고"
+       },
+       {
+        "en": "to reduce the damage.",
+        "ko": "피해를 줄이기 위한"
+       }
+      ],
+      "rp": {
+       "situation": "산림청 직원이 나무 벌채 계획과 화재 예방 일정을 총괄하고 있다.",
+       "prompt": "What is she responsible for?",
+       "options": [
+        "She is in charge of forest management.",
+        "She is in charge of forest manage."
+       ],
+       "answer": 0,
+       "why": "manage는 동사이므로 명사 자리에 올 수 없고 management를 써야 한다."
+      },
+      "topic": "산불 대응과 산림 관리 정책"
+     },
+     {
+      "id": "times:controlled",
+      "word": "controlled",
+      "ko": "통제된, 조절된",
+      "filled": "Controlled burns — small fires set on purpose — can also lower the risk by reducing the amount of material that could catch fire.",
+      "sent_ko": "통제된 연소 — 의도적으로 놓는 소규모 화재 — 는 화재로 번질 수 있는 연료의 양을 줄여 위험을 낮출 수도 있다.",
+      "chunks": [
+       {
+        "en": "Controlled burns —",
+        "ko": "통제된 연소는 —"
+       },
+       {
+        "en": "small fires set on purpose —",
+        "ko": "의도적으로 놓는 소규모 화재 —"
+       },
+       {
+        "en": "can also lower the risk",
+        "ko": "위험을 낮출 수도 있다"
+       },
+       {
+        "en": "by reducing the amount of material",
+        "ko": "연료의 양을 줄임으로써"
+       },
+       {
+        "en": "that could catch fire.",
+        "ko": "불이 붙을 수 있는"
+       }
+      ],
+      "rp": {
+       "situation": "소방관들이 허가를 받고 계획적으로 특정 구역에 불을 놓고 있다.",
+       "prompt": "What kind of burn is this?",
+       "options": [
+        "It is a controlled burn.",
+        "It is a controlling burn."
+       ],
+       "answer": 0,
+       "why": "controlled는 '통제된'의 수동 의미 형용사이고 controlling은 능동 의미로 이 문맥에 맞지 않는다."
+      },
+      "topic": "산불 대응과 산림 관리 정책"
+     },
+     {
+      "id": "times:prevention",
+      "word": "prevention",
+      "ko": "예방, 방지",
+      "filled": "Many governments are now increasing funding for these prevention efforts.",
+      "sent_ko": "많은 정부들이 이제 이러한 예방 활동에 대한 자금 지원을 늘리고 있다.",
+      "chunks": [
+       {
+        "en": "Many governments",
+        "ko": "많은 정부들이"
+       },
+       {
+        "en": "are now increasing funding",
+        "ko": "이제 자금 지원을 늘리고 있다"
+       },
+       {
+        "en": "for these prevention efforts.",
+        "ko": "이러한 예방 활동을 위해"
+       }
+      ],
+      "rp": {
+       "situation": "시청이 화재 발생을 막기 위한 캠페인에 예산을 배정했다.",
+       "prompt": "What is the money being used for?",
+       "options": [
+        "It is being used for fire prevention efforts.",
+        "It is being used for fire prevent efforts."
+       ],
+       "answer": 0,
+       "why": "prevent는 동사이므로 명사를 수식하는 자리에 올 수 없고 명사형 prevention을 써야 한다."
+      },
+      "topic": "산불 대응과 산림 관리 정책"
+     },
+     {
+      "id": "times:strategy",
+      "word": "strategy",
+      "ko": "전략, 계획",
+      "filled": "Specialists note that no single method can stop wildfires completely, but combining different strategies gives firefighters a much better chance of keeping fires under control.",
+      "sent_ko": "전문가들은 어떤 단일 방법도 산불을 완전히 막을 수는 없지만, 다양한 전략을 결합하면 소방관들이 화재를 통제하에 둘 훨씬 더 나은 기회를 갖게 된다고 지적한다.",
+      "chunks": [
+       {
+        "en": "Specialists note",
+        "ko": "전문가들은 지적한다"
+       },
+       {
+        "en": "that no single method can stop wildfires completely,",
+        "ko": "어떤 단일 방법도 산불을 완전히 막을 수 없지만,"
+       },
+       {
+        "en": "but combining different strategies",
+        "ko": "하지만 다양한 전략을 결합하면"
+       },
+       {
+        "en": "gives firefighters a much better chance",
+        "ko": "소방관들에게 훨씬 더 나은 기회를 준다"
+       },
+       {
+        "en": "of keeping fires under control.",
+        "ko": "화재를 통제하에 두는"
+       }
+      ],
+      "rp": {
+       "situation": "소방 팀장이 산불 대응을 위한 세부 행동 계획을 팀원들에게 설명하고 있다.",
+       "prompt": "What is the team leader presenting?",
+       "options": [
+        "She is presenting a strategy for fighting wildfires.",
+        "She is presenting a strategic for fighting wildfires."
+       ],
+       "answer": 0,
+       "why": "strategic은 형용사이므로 명사 자리에 올 수 없고 명사형 strategy를 써야 한다."
+      },
+      "topic": "산불 대응과 산림 관리 정책"
+     },
+     {
+      "id": "times:fuel",
+      "word": "fuel",
+      "ko": "연료; (감정·상황을) 부추기다",
+      "filled": "Clearing dead trees and dry brush removes fuel that fires need to grow.",
+      "sent_ko": "죽은 나무와 마른 덤불을 제거하면 화재가 성장하는 데 필요한 연료가 없어진다.",
+      "chunks": [
+       {
+        "en": "Clearing dead trees and dry brush",
+        "ko": "죽은 나무와 마른 덤불을 제거하면"
+       },
+       {
+        "en": "removes fuel",
+        "ko": "연료를 없앤다"
+       },
+       {
+        "en": "that fires need",
+        "ko": "화재가 필요로 하는"
+       },
+       {
+        "en": "to grow.",
+        "ko": "성장하기 위한"
+       }
+      ],
+      "rp": {
+       "situation": "마른 낙엽과 죽은 나뭇가지가 숲 바닥에 두껍게 쌓여 있다.",
+       "prompt": "Why is this dangerous during wildfire season?",
+       "options": [
+        "All that dry material fuels the fire and helps it spread.",
+        "All that dry material is fueled the fire and helps it spread."
+       ],
+       "answer": 0,
+       "why": "fuel은 여기서 능동태 동사로 쓰여야 하며 'is fueled'처럼 수동태로 쓰면 문법적으로 틀리다."
+      },
+      "topic": "산불 대응과 산림 관리 정책"
+     }
+    ]
+   },
+   {
+    "id": "times|직업 교육과 산업 수요의 불일치",
+    "level": "times",
+    "topic": "직업 교육과 산업 수요의 불일치",
+    "section": "교육",
+    "cards": [
+     {
+      "id": "times:graduate",
+      "word": "graduate",
+      "ko": "졸업하다 / 졸업생",
+      "filled": "As a result, graduates sometimes need extra training after they are already hired.",
+      "sent_ko": "그 결과, 졸업생들은 이미 채용된 후에도 추가 교육이 필요한 경우가 있다.",
+      "chunks": [
+       {
+        "en": "As a result,",
+        "ko": "그 결과"
+       },
+       {
+        "en": "graduates",
+        "ko": "졸업생들은"
+       },
+       {
+        "en": "sometimes need extra training",
+        "ko": "추가 교육이 필요한 경우가 있다"
+       },
+       {
+        "en": "after they are already hired.",
+        "ko": "이미 채용된 후에도"
+       }
+      ],
+      "rp": {
+       "situation": "대학을 막 졸업하고 첫 직장을 시작한 상황",
+       "prompt": "How do you feel about starting this job?",
+       "options": [
+        "I'm a recent graduate, so I still have a lot to learn.",
+        "I'm a recent graduating, so I still have a lot to learn."
+       ],
+       "answer": 0,
+       "why": "graduate는 명사로 써야 하며, graduating은 이 자리에 쓸 수 없다."
+      },
+      "topic": "직업 교육과 산업 수요의 불일치"
+     },
+     {
+      "id": "times:vocational",
+      "word": "vocational",
+      "ko": "직업의, 직업 훈련과 관련된",
+      "filled": "Vocational schools train students for specific careers, but their courses often fall behind changes in industry.",
+      "sent_ko": "직업 학교는 학생들을 특정 직업에 맞게 훈련시키지만, 교과 과정이 산업 변화를 따라가지 못하는 경우가 많다.",
+      "chunks": [
+       {
+        "en": "Vocational schools",
+        "ko": "직업 학교는"
+       },
+       {
+        "en": "train students for specific careers,",
+        "ko": "학생들을 특정 직업에 맞게 훈련시키지만"
+       },
+       {
+        "en": "but their courses",
+        "ko": "그러나 교과 과정이"
+       },
+       {
+        "en": "often fall behind",
+        "ko": "자주 뒤처진다"
+       },
+       {
+        "en": "changes in industry.",
+        "ko": "산업 변화에"
+       }
+      ],
+      "rp": {
+       "situation": "용접 기술을 가르치는 학교를 소개하는 상황",
+       "prompt": "What kind of school is it?",
+       "options": [
+        "It's a vocational school that teaches welding skills.",
+        "It's a vocal school that teaches welding skills."
+       ],
+       "answer": 0,
+       "why": "vocational은 직업 훈련 관련을 뜻하고, vocal은 목소리·발성 관련을 뜻한다."
+      },
+      "topic": "직업 교육과 산업 수요의 불일치"
+     },
+     {
+      "id": "times:industry",
+      "word": "industry",
+      "ko": "산업, 업계",
+      "filled": "In industries like technology, manufacturing, and healthcare, companies struggle to find workers with the right skills.",
+      "sent_ko": "기술, 제조업, 의료 등의 산업에서 기업들은 적합한 기술을 갖춘 직원을 찾는 데 어려움을 겪는다.",
+      "chunks": [
+       {
+        "en": "In industries like technology, manufacturing, and healthcare,",
+        "ko": "기술, 제조업, 의료 등의 산업에서"
+       },
+       {
+        "en": "companies",
+        "ko": "기업들은"
+       },
+       {
+        "en": "struggle to find",
+        "ko": "찾는 데 어려움을 겪는다"
+       },
+       {
+        "en": "workers with the right skills.",
+        "ko": "적합한 기술을 갖춘 직원을"
+       }
+      ],
+      "rp": {
+       "situation": "취업 박람회에서 채용 담당자와 대화하는 상황",
+       "prompt": "Which field are you hoping to work in?",
+       "options": [
+        "I want to work in the technology industry.",
+        "I want to work in the technology industrial."
+       ],
+       "answer": 0,
+       "why": "industry는 명사이고, industrial은 형용사라 이 자리에 쓸 수 없다."
+      },
+      "topic": "직업 교육과 산업 수요의 불일치"
+     },
+     {
+      "id": "times:manufacturing",
+      "word": "manufacturing",
+      "ko": "제조업, 생산",
+      "filled": "In industries like technology, manufacturing, and healthcare, companies struggle to find workers with the right skills.",
+      "sent_ko": "기술, 제조업, 의료 등의 산업에서 기업들은 적합한 기술을 갖춘 직원을 찾는 데 어려움을 겪는다.",
+      "chunks": [
+       {
+        "en": "In industries like technology, manufacturing, and healthcare,",
+        "ko": "기술, 제조업, 의료 등의 산업에서"
+       },
+       {
+        "en": "companies",
+        "ko": "기업들은"
+       },
+       {
+        "en": "struggle to find",
+        "ko": "찾는 데 어려움을 겪는다"
+       },
+       {
+        "en": "workers with the right skills.",
+        "ko": "적합한 기술을 갖춘 직원을"
+       }
+      ],
+      "rp": {
+       "situation": "공장에서 자동차 부품을 만드는 회사를 설명하는 상황",
+       "prompt": "What does that company do?",
+       "options": [
+        "It's a manufacturing company that produces car parts.",
+        "It's a manufactured company that produces car parts."
+       ],
+       "answer": 0,
+       "why": "manufacturing은 형용사로 '제조' 분야를 뜻하고, manufactured는 '만들어진'을 뜻해 회사 수식에 어색하다."
+      },
+      "topic": "직업 교육과 산업 수요의 불일치"
+     },
+     {
+      "id": "times:partnership",
+      "word": "partnership",
+      "ko": "협력 관계, 파트너십",
+      "filled": "Experts say stronger partnerships between schools and businesses could help close this gap.",
+      "sent_ko": "전문가들은 학교와 기업 간의 더 강력한 협력 관계가 이 격차를 줄이는 데 도움이 될 수 있다고 말한다.",
+      "chunks": [
+       {
+        "en": "Experts say",
+        "ko": "전문가들은 말한다"
+       },
+       {
+        "en": "stronger partnerships",
+        "ko": "더 강력한 협력 관계가"
+       },
+       {
+        "en": "between schools and businesses",
+        "ko": "학교와 기업 간의"
+       },
+       {
+        "en": "could help close this gap.",
+        "ko": "이 격차를 줄이는 데 도움이 될 수 있다고"
+       }
+      ],
+      "rp": {
+       "situation": "학교와 지역 기업이 함께 인턴십 프로그램을 운영하는 상황",
+       "prompt": "How is the program organized?",
+       "options": [
+        "It runs through a partnership between the school and local firms.",
+        "It runs through a partners between the school and local firms."
+       ],
+       "answer": 0,
+       "why": "partnership은 명사 단수형이고, partners는 복수 명사라 단수 관사 없이 이 자리에 쓸 수 없다."
+      },
+      "topic": "직업 교육과 산업 수요의 불일치"
+     },
+     {
+      "id": "times:update",
+      "word": "update",
+      "ko": "최신 정보, 업데이트 / 갱신하다",
+      "filled": "New tools and technologies appear faster than schools can update their programs.",
+      "sent_ko": "새로운 도구와 기술이 학교가 교육 과정을 갱신할 수 있는 속도보다 더 빠르게 등장한다.",
+      "chunks": [
+       {
+        "en": "New tools and technologies",
+        "ko": "새로운 도구와 기술이"
+       },
+       {
+        "en": "appear faster",
+        "ko": "더 빠르게 등장한다"
+       },
+       {
+        "en": "than schools can update",
+        "ko": "학교가 갱신할 수 있는 속도보다"
+       },
+       {
+        "en": "their programs.",
+        "ko": "교육 과정을"
+       }
+      ],
+      "rp": {
+       "situation": "오래된 교과서로 수업하는 선생님을 보고 있는 상황",
+       "prompt": "Is the curriculum still relevant?",
+       "options": [
+        "Not really — the school needs to update its materials.",
+        "Not really — the school needs to updating its materials."
+       ],
+       "answer": 0,
+       "why": "needs to 다음에는 동사원형이 와야 하며, updating은 쓸 수 없다."
+      },
+      "topic": "직업 교육과 산업 수요의 불일치"
+     },
+     {
+      "id": "times:promising",
+      "word": "promising",
+      "ko": "유망한, 가능성이 있는",
+      "filled": "Several countries are already testing such programs, and early results look promising.",
+      "sent_ko": "여러 나라에서 이미 이러한 프로그램을 시험 운영 중이며, 초기 결과는 유망해 보인다.",
+      "chunks": [
+       {
+        "en": "Several countries",
+        "ko": "여러 나라에서"
+       },
+       {
+        "en": "are already testing such programs,",
+        "ko": "이미 이러한 프로그램을 시험 운영 중이며"
+       },
+       {
+        "en": "and early results",
+        "ko": "그리고 초기 결과는"
+       },
+       {
+        "en": "look promising.",
+        "ko": "유망해 보인다"
+       }
+      ],
+      "rp": {
+       "situation": "신약 임상시험의 초기 데이터를 검토하는 연구원들의 상황",
+       "prompt": "What do you think of the trial data so far?",
+       "options": [
+        "The early results look promising.",
+        "The early results look promised."
+       ],
+       "answer": 0,
+       "why": "promising은 형용사로 '유망한'을 뜻하고, promised는 과거분사라 이 자리에 쓸 수 없다."
+      },
+      "topic": "직업 교육과 산업 수요의 불일치"
+     }
+    ]
+   },
+   {
+    "id": "times|만성 질환과 예방 의료의 경제학",
+    "level": "times",
+    "topic": "만성 질환과 예방 의료의 경제학",
+    "section": "건강",
+    "cards": [
+     {
+      "id": "times:chronic",
+      "word": "chronic",
+      "ko": "만성적인, 장기적인",
+      "filled": "Economic modelling shows that investing in chronic disease prevention pays off strongly.",
+      "sent_ko": "경제 모델링은 만성 질환 예방에 투자하는 것이 강력한 효과를 낸다는 것을 보여준다.",
+      "chunks": [
+       {
+        "en": "Economic modelling shows",
+        "ko": "경제 모델링은 보여준다"
+       },
+       {
+        "en": "that investing",
+        "ko": "투자하는 것이"
+       },
+       {
+        "en": "in chronic disease prevention",
+        "ko": "만성 질환 예방에"
+       },
+       {
+        "en": "pays off strongly.",
+        "ko": "강력한 효과를 낸다"
+       }
+      ],
+      "rp": {
+       "situation": "친구가 수년째 낫지 않는 허리 통증에 대해 이야기하고 있다.",
+       "prompt": "He's been dealing with back pain for years now.",
+       "options": [
+        "Yeah, it sounds like a chronic condition.",
+        "Yeah, it sounds like a chronical condition."
+       ],
+       "answer": 0,
+       "why": "chronic은 형용사 원형이며, chronical은 존재하지 않는 비표준 형태이다."
+      },
+      "topic": "만성 질환과 예방 의료의 경제학"
+     },
+     {
+      "id": "times:productivity",
+      "word": "productivity",
+      "ko": "생산성",
+      "filled": "This loss of productivity can reduce a nation's GDP by a significant amount over time.",
+      "sent_ko": "이러한 생산성 손실은 시간이 지남에 따라 한 나라의 GDP를 상당한 규모로 줄일 수 있다.",
+      "chunks": [
+       {
+        "en": "This loss of productivity",
+        "ko": "이러한 생산성 손실은"
+       },
+       {
+        "en": "can reduce",
+        "ko": "줄일 수 있다"
+       },
+       {
+        "en": "a nation's GDP",
+        "ko": "한 나라의 GDP를"
+       },
+       {
+        "en": "by a significant amount",
+        "ko": "상당한 규모로"
+       },
+       {
+        "en": "over time.",
+        "ko": "시간이 지남에 따라"
+       }
+      ],
+      "rp": {
+       "situation": "공장 관리자가 새 장비 도입 후 결과를 설명하고 있다.",
+       "prompt": "How did things change after the new equipment came in?",
+       "options": [
+        "Our productivity went up by 20 percent.",
+        "Our productiveness went up by 20 percent."
+       ],
+       "answer": 0,
+       "why": "경제·업무 맥락에서는 productivity가 표준 명사이며, productiveness는 어색한 표현이다."
+      },
+      "topic": "만성 질환과 예방 의료의 경제학"
+     },
+     {
+      "id": "times:prevention",
+      "word": "prevention",
+      "ko": "예방",
+      "filled": "Economic modelling shows that investing in chronic disease prevention pays off strongly.",
+      "sent_ko": "경제 모델링은 만성 질환 예방에 투자하는 것이 강력한 효과를 낸다는 것을 보여준다.",
+      "chunks": [
+       {
+        "en": "Economic modelling shows",
+        "ko": "경제 모델링은 보여준다"
+       },
+       {
+        "en": "that investing",
+        "ko": "투자하는 것이"
+       },
+       {
+        "en": "in chronic disease prevention",
+        "ko": "만성 질환 예방에"
+       },
+       {
+        "en": "pays off strongly.",
+        "ko": "강력한 효과를 낸다"
+       }
+      ],
+      "rp": {
+       "situation": "보건부 직원이 독감 시즌 전 백신 접종 캠페인을 설명하고 있다.",
+       "prompt": "Why launch the campaign before flu season?",
+       "options": [
+        "It's all about prevention — stopping illness before it starts.",
+        "It's all about preventing — stopping illness before it starts."
+       ],
+       "answer": 0,
+       "why": "전치사 about 뒤에는 명사 prevention이 와야 하며, 동명사 preventing은 문법적으로 맞지 않는다."
+      },
+      "topic": "만성 질환과 예방 의료의 경제학"
+     },
+     {
+      "id": "times:modelling",
+      "word": "modelling",
+      "ko": "모델링, 모형화",
+      "filled": "Economic modelling shows that investing in chronic disease prevention pays off strongly.",
+      "sent_ko": "경제 모델링은 만성 질환 예방에 투자하는 것이 강력한 효과를 낸다는 것을 보여준다.",
+      "chunks": [
+       {
+        "en": "Economic modelling shows",
+        "ko": "경제 모델링은 보여준다"
+       },
+       {
+        "en": "that investing",
+        "ko": "투자하는 것이"
+       },
+       {
+        "en": "in chronic disease prevention",
+        "ko": "만성 질환 예방에"
+       },
+       {
+        "en": "pays off strongly.",
+        "ko": "강력한 효과를 낸다"
+       }
+      ],
+      "rp": {
+       "situation": "연구팀이 기후 변화의 미래 영향을 예측하는 방법을 논의하고 있다.",
+       "prompt": "How are they predicting future climate impacts?",
+       "options": [
+        "They're using computer modelling to simulate different scenarios.",
+        "They're using computer modelled to simulate different scenarios."
+       ],
+       "answer": 0,
+       "why": "명사 역할을 해야 하므로 동명사/명사형 modelling이 옳고, 과거분사 modelled는 명사 자리에 올 수 없다."
+      },
+      "topic": "만성 질환과 예방 의료의 경제학"
+     },
+     {
+      "id": "times:policymakers",
+      "word": "policymakers",
+      "ko": "정책 입안자들",
+      "filled": "This makes it harder for policymakers to justify the spending in short budget cycles, even when the long-term case is strong.",
+      "sent_ko": "이것은 장기적인 근거가 충분할 때조차도 짧은 예산 주기 안에서 지출을 정당화하는 것을 정책 입안자들에게 더 어렵게 만든다.",
+      "chunks": [
+       {
+        "en": "This makes it harder",
+        "ko": "이것은 더 어렵게 만든다"
+       },
+       {
+        "en": "for policymakers",
+        "ko": "정책 입안자들에게"
+       },
+       {
+        "en": "to justify the spending",
+        "ko": "지출을 정당화하는 것을"
+       },
+       {
+        "en": "in short budget cycles,",
+        "ko": "짧은 예산 주기 안에서"
+       },
+       {
+        "en": "even when the long-term case is strong.",
+        "ko": "장기적인 근거가 충분할 때조차도"
+       }
+      ],
+      "rp": {
+       "situation": "정부 회의에서 새 환경 규제안을 논의하고 있다.",
+       "prompt": "Who needs to approve the new regulations?",
+       "options": [
+        "The policymakers will decide whether to adopt them.",
+        "The policy makers will decide whether to adopt them."
+       ],
+       "answer": 0,
+       "why": "policymakers는 한 단어로 붙여 쓰는 것이 표준이며, 두 단어로 띄어 쓰는 것은 비표준 표기이다."
+      },
+      "topic": "만성 질환과 예방 의료의 경제학"
+     },
+     {
+      "id": "times:screening",
+      "word": "screening",
+      "ko": "검진, 선별 검사",
+      "filled": "When governments fund programs that encourage healthier eating, regular exercise, and routine health screenings, fewer people develop serious conditions later in life.",
+      "sent_ko": "정부가 더 건강한 식습관, 규칙적인 운동, 그리고 정기적인 건강 검진을 장려하는 프로그램에 자금을 지원할 때, 나중에 심각한 질환이 생기는 사람이 줄어든다.",
+      "chunks": [
+       {
+        "en": "When governments fund programs",
+        "ko": "정부가 프로그램에 자금을 지원할 때"
+       },
+       {
+        "en": "that encourage healthier eating,",
+        "ko": "더 건강한 식습관을 장려하는"
+       },
+       {
+        "en": "regular exercise,",
+        "ko": "규칙적인 운동"
+       },
+       {
+        "en": "and routine health screenings,",
+        "ko": "그리고 정기적인 건강 검진"
+       },
+       {
+        "en": "fewer people develop serious conditions",
+        "ko": "심각한 질환이 생기는 사람이 줄어든다"
+       },
+       {
+        "en": "later in life.",
+        "ko": "나중에 삶에서"
+       }
+      ],
+      "rp": {
+       "situation": "병원에서 유방암 조기 발견 프로그램을 소개하고 있다.",
+       "prompt": "What does the program actually do for patients?",
+       "options": [
+        "It offers routine screening to catch cancer early.",
+        "It offers routine screen to catch cancer early."
+       ],
+       "answer": 0,
+       "why": "명사 자리에는 screening이 와야 하며, 동사 원형 screen은 명사로 사용될 수 없다."
+      },
+      "topic": "만성 질환과 예방 의료의 경제학"
+     },
+     {
+      "id": "times:outweigh",
+      "word": "outweigh",
+      "ko": "~보다 더 크다, ~을 능가하다",
+      "filled": "Analysts point out that prevention spending tends to generate returns that outweigh the initial cost.",
+      "sent_ko": "분석가들은 예방 지출이 초기 비용을 능가하는 수익을 창출하는 경향이 있다고 지적한다.",
+      "chunks": [
+       {
+        "en": "Analysts point out",
+        "ko": "분석가들은 지적한다"
+       },
+       {
+        "en": "that prevention spending",
+        "ko": "예방 지출이"
+       },
+       {
+        "en": "tends to generate returns",
+        "ko": "수익을 창출하는 경향이 있다"
+       },
+       {
+        "en": "that outweigh",
+        "ko": "능가하는"
+       },
+       {
+        "en": "the initial cost.",
+        "ko": "초기 비용을"
+       }
+      ],
+      "rp": {
+       "situation": "회사가 고가의 신기술 도입을 검토하고 있고, 재무팀이 결과를 발표하고 있다.",
+       "prompt": "Is the investment worth it based on the analysis?",
+       "options": [
+        "The long-term benefits outweigh the upfront costs.",
+        "The long-term benefits outweigh than the upfront costs."
+       ],
+       "answer": 0,
+       "why": "outweigh는 타동사로 목적어를 바로 취하며, than을 함께 쓰는 것은 문법 오류이다."
+      },
+      "topic": "만성 질환과 예방 의료의 경제학"
+     }
+    ]
+   },
+   {
+    "id": "times|지방 분권과 재정 자립",
+    "level": "times",
+    "topic": "지방 분권과 재정 자립",
+    "section": "정치",
+    "cards": [
+     {
+      "id": "times:decentralization",
+      "word": "decentralization",
+      "ko": "분권화, 권한 분산",
+      "filled": "Decentralization means that local governments take on more responsibility for decisions affecting their own communities.",
+      "sent_ko": "분권화란 지방 정부가 자신의 지역사회에 영향을 미치는 결정에 대해 더 많은 책임을 맡는 것을 의미한다.",
+      "chunks": [
+       {
+        "en": "Decentralization means",
+        "ko": "분권화는 의미한다"
+       },
+       {
+        "en": "that local governments",
+        "ko": "지방 정부가"
+       },
+       {
+        "en": "take on more responsibility",
+        "ko": "더 많은 책임을 맡는다"
+       },
+       {
+        "en": "for decisions",
+        "ko": "결정에 대해"
+       },
+       {
+        "en": "affecting their own communities.",
+        "ko": "자신의 지역사회에 영향을 미치는"
+       }
+      ],
+      "rp": {
+       "situation": "중앙 정부가 지역 교육 결정권을 지방에 넘겨주는 정책을 발표했다.",
+       "prompt": "What does this policy represent?",
+       "options": [
+        "It is an example of decentralization.",
+        "It is an example of decentralizing."
+       ],
+       "answer": 0,
+       "why": "명사 자리에는 명사형(decentralization)이 와야 하며, 동명사(decentralizing)는 어색하다."
+      },
+      "topic": "지방 분권과 재정 자립"
+     },
+     {
+      "id": "times:fiscal",
+      "word": "fiscal",
+      "ko": "재정의, 회계의",
+      "filled": "Building fiscal independence is not simple.",
+      "sent_ko": "재정적 독립을 구축하는 것은 간단하지 않다.",
+      "chunks": [
+       {
+        "en": "Building",
+        "ko": "구축하는 것은"
+       },
+       {
+        "en": "fiscal independence",
+        "ko": "재정적 독립을"
+       },
+       {
+        "en": "is not simple.",
+        "ko": "간단하지 않다"
+       }
+      ],
+      "rp": {
+       "situation": "지방 정부가 중앙 지원 없이 자체 예산으로만 운영하려는 계획을 세우고 있다.",
+       "prompt": "How would you describe this goal?",
+       "options": [
+        "They want to achieve fiscal independence.",
+        "They want to achieve fiscally independence."
+       ],
+       "answer": 0,
+       "why": "명사(independence)를 수식할 때는 형용사(fiscal)를 써야 하며, 부사형(fiscally)은 문법적으로 틀리다."
+      },
+      "topic": "지방 분권과 재정 자립"
+     },
+     {
+      "id": "times:authority",
+      "word": "authority",
+      "ko": "권한, 권력",
+      "filled": "However, greater authority only works when local governments have enough money to act on it.",
+      "sent_ko": "그러나 더 큰 권한은 지방 정부가 그것을 실행할 충분한 자금을 가질 때만 효과가 있다.",
+      "chunks": [
+       {
+        "en": "However,",
+        "ko": "그러나"
+       },
+       {
+        "en": "greater authority",
+        "ko": "더 큰 권한은"
+       },
+       {
+        "en": "only works",
+        "ko": "효과가 있다"
+       },
+       {
+        "en": "when local governments",
+        "ko": "지방 정부가"
+       },
+       {
+        "en": "have enough money",
+        "ko": "충분한 자금을 가질 때"
+       },
+       {
+        "en": "to act on it.",
+        "ko": "그것을 실행할"
+       }
+      ],
+      "rp": {
+       "situation": "시장이 새 조례를 통해 구청장에게 예산 집행 결정권을 공식적으로 부여했다.",
+       "prompt": "What did the mayor give the district chief?",
+       "options": [
+        "The mayor gave him more authority over the budget.",
+        "The mayor gave him more authoritative over the budget."
+       ],
+       "answer": 0,
+       "why": "명사 자리에는 명사(authority)가 와야 하며, 형용사(authoritative)는 문법적으로 틀리다."
+      },
+      "topic": "지방 분권과 재정 자립"
+     },
+     {
+      "id": "times:transfer",
+      "word": "transfer",
+      "ko": "이전, 이동, 양도",
+      "filled": "A region that depends heavily on transfers from the central government cannot truly govern itself.",
+      "sent_ko": "중앙 정부의 이전 자금에 크게 의존하는 지역은 진정으로 자치를 할 수 없다.",
+      "chunks": [
+       {
+        "en": "A region",
+        "ko": "지역은"
+       },
+       {
+        "en": "that depends heavily",
+        "ko": "크게 의존하는"
+       },
+       {
+        "en": "on transfers",
+        "ko": "이전 자금에"
+       },
+       {
+        "en": "from the central government",
+        "ko": "중앙 정부의"
+       },
+       {
+        "en": "cannot truly govern itself.",
+        "ko": "진정으로 자치를 할 수 없다"
+       }
+      ],
+      "rp": {
+       "situation": "중앙 정부가 지방 정부의 요청으로 복지 예산 일부를 지방으로 보내주기로 했다.",
+       "prompt": "What is the central government doing?",
+       "options": [
+        "It is making a transfer of funds to the local government.",
+        "It is making a transferring of funds to the local government."
+       ],
+       "answer": 0,
+       "why": "전치사 뒤에는 명사(transfer)가 와야 하며, 동명사(transferring)를 'a'와 함께 쓰는 것은 문법적으로 틀리다."
+      },
+      "topic": "지방 분권과 재정 자립"
+     },
+     {
+      "id": "times:budget",
+      "word": "budget",
+      "ko": "예산",
+      "filled": "Many local governments still rely on central funding for the majority of their budgets, which limits how freely they can plan.",
+      "sent_ko": "많은 지방 정부는 여전히 예산의 대부분을 중앙 재원에 의존하고 있으며, 이는 자유롭게 계획할 수 있는 범위를 제한한다.",
+      "chunks": [
+       {
+        "en": "Many local governments",
+        "ko": "많은 지방 정부는"
+       },
+       {
+        "en": "still rely on central funding",
+        "ko": "여전히 중앙 재원에 의존한다"
+       },
+       {
+        "en": "for the majority of their budgets,",
+        "ko": "예산의 대부분을"
+       },
+       {
+        "en": "which limits",
+        "ko": "이는 제한한다"
+       },
+       {
+        "en": "how freely they can plan.",
+        "ko": "얼마나 자유롭게 계획할 수 있는지를"
+       }
+      ],
+      "rp": {
+       "situation": "시의회가 내년도 지출 계획을 검토하고 있다.",
+       "prompt": "What are they reviewing?",
+       "options": [
+        "They are reviewing the city's budget for next year.",
+        "They are reviewing the city's budgeting for next year."
+       ],
+       "answer": 0,
+       "why": "지출 계획 문서 자체를 가리킬 때는 명사(budget)를 쓰며, 동명사(budgeting)는 '예산 편성 행위'를 뜻해 의미가 달라진다."
+      },
+      "topic": "지방 분권과 재정 자립"
+     },
+     {
+      "id": "times:residents",
+      "word": "residents",
+      "ko": "주민, 거주자",
+      "filled": "Local governments need strong tax bases, which means having enough businesses and residents to collect taxes from.",
+      "sent_ko": "지방 정부는 탄탄한 세원이 필요하며, 이는 세금을 징수할 수 있는 충분한 기업과 주민이 있어야 한다는 것을 의미한다.",
+      "chunks": [
+       {
+        "en": "Local governments need",
+        "ko": "지방 정부는 필요하다"
+       },
+       {
+        "en": "strong tax bases,",
+        "ko": "탄탄한 세원이"
+       },
+       {
+        "en": "which means",
+        "ko": "이는 의미한다"
+       },
+       {
+        "en": "having enough businesses and residents",
+        "ko": "충분한 기업과 주민이 있어야"
+       },
+       {
+        "en": "to collect taxes from.",
+        "ko": "세금을 징수할"
+       }
+      ],
+      "rp": {
+       "situation": "시 공무원이 세수 부족 원인을 분석하며 인구 현황을 언급하고 있다.",
+       "prompt": "What does the city need more of to collect more taxes?",
+       "options": [
+        "The city needs more residents and businesses.",
+        "The city needs more residences and businesses."
+       ],
+       "answer": 0,
+       "why": "세금을 내는 사람을 가리킬 때는 residents(주민)를 쓰며, residences는 '주거 건물'을 뜻해 문맥에 맞지 않는다."
+      },
+      "topic": "지방 분권과 재정 자립"
+     },
+     {
+      "id": "times:independent",
+      "word": "independent",
+      "ko": "독립적인, 자립적인",
+      "filled": "The small town became independent and was able to make its own rules without help from the bigger city.",
+      "sent_ko": "그 작은 마을은 독립하여 더 큰 도시의 도움 없이 자체적인 규칙을 만들 수 있게 되었다.",
+      "chunks": [
+       {
+        "en": "The small town",
+        "ko": "그 작은 마을은"
+       },
+       {
+        "en": "became independent",
+        "ko": "독립하게 되었다"
+       },
+       {
+        "en": "and was able to make",
+        "ko": "그리고 만들 수 있었다"
+       },
+       {
+        "en": "its own rules",
+        "ko": "자체적인 규칙을"
+       },
+       {
+        "en": "without help from the bigger city.",
+        "ko": "더 큰 도시의 도움 없이"
+       }
+      ],
+      "rp": {
+       "situation": "분리 독립 후 그 마을이 더 이상 도시의 지시를 따르지 않아도 되는 상황이다.",
+       "prompt": "How would you describe the town now?",
+       "options": [
+        "The town is now independent from the city.",
+        "The town is now independently from the city."
+       ],
+       "answer": 0,
+       "why": "be동사 뒤 보어 자리에는 형용사(independent)가 와야 하며, 부사(independently)는 문법적으로 틀리다."
+      },
+      "topic": "지방 분권과 재정 자립"
+     }
+    ]
+   },
+   {
+    "id": "times|식량 원조와 자립의 딜레마",
+    "level": "times",
+    "topic": "식량 원조와 자립의 딜레마",
+    "section": "세계",
+    "cards": [
+     {
+      "id": "times:humanitarian",
+      "word": "humanitarian",
+      "ko": "인도주의적, 인도주의자",
+      "filled": "Some humanitarian organizations have responded by shifting from direct food handouts to cash assistance programs.",
+      "sent_ko": "일부 인도주의 단체들은 직접적인 식량 배급에서 현금 지원 프로그램으로 전환함으로써 대응해 왔다.",
+      "chunks": [
+       {
+        "en": "Some humanitarian organizations",
+        "ko": "일부 인도주의 단체들은"
+       },
+       {
+        "en": "have responded",
+        "ko": "대응해 왔다"
+       },
+       {
+        "en": "by shifting",
+        "ko": "전환함으로써"
+       },
+       {
+        "en": "from direct food handouts",
+        "ko": "직접적인 식량 배급에서"
+       },
+       {
+        "en": "to cash assistance programs.",
+        "ko": "현금 지원 프로그램으로"
+       }
+      ],
+      "rp": {
+       "situation": "친구가 전쟁 피해 지역 구호 단체에 대해 묻는다.",
+       "prompt": "What kind of group is sending supplies to the war zone?",
+       "options": [
+        "It's a humanitarian organization helping civilians.",
+        "It's a humanitarianism organization helping civilians."
+       ],
+       "answer": 0,
+       "why": "humanitarian은 형용사/명사이고, humanitarianism은 명사라 형용사 자리에 쓸 수 없다."
+      },
+      "topic": "식량 원조와 자립의 딜레마"
+     },
+     {
+      "id": "times:dependency",
+      "word": "dependency",
+      "ko": "의존, 의존성",
+      "filled": "Critics argue that dependency, not recovery, becomes the real outcome in such cases.",
+      "sent_ko": "비평가들은 그러한 경우에 회복이 아니라 의존성이 실질적인 결과가 된다고 주장한다.",
+      "chunks": [
+       {
+        "en": "Critics argue",
+        "ko": "비평가들은 주장한다"
+       },
+       {
+        "en": "that dependency, not recovery,",
+        "ko": "회복이 아니라 의존성이"
+       },
+       {
+        "en": "becomes the real outcome",
+        "ko": "실질적인 결과가 된다고"
+       },
+       {
+        "en": "in such cases.",
+        "ko": "그러한 경우에"
+       }
+      ],
+      "rp": {
+       "situation": "선생님이 학생들이 번역기에만 의존하는 문제를 지적한다.",
+       "prompt": "What's the danger of always using a translation app?",
+       "options": [
+        "Students may develop a dependency on it instead of learning.",
+        "Students may develop a dependence it instead of learning."
+       ],
+       "answer": 0,
+       "why": "dependency는 올바른 명사형이며, 'develop a dependence it'은 전치사 on이 빠진 비문이다."
+      },
+      "topic": "식량 원조와 자립의 딜레마"
+     },
+     {
+      "id": "times:voucher",
+      "word": "voucher",
+      "ko": "상품권, 바우처",
+      "filled": "Rather than receiving bags of grain, families receive money or vouchers that they can spend at local markets.",
+      "sent_ko": "곡물 포대를 받는 대신, 가족들은 지역 시장에서 사용할 수 있는 돈이나 상품권을 받는다.",
+      "chunks": [
+       {
+        "en": "Rather than receiving bags of grain,",
+        "ko": "곡물 포대를 받는 대신"
+       },
+       {
+        "en": "families receive",
+        "ko": "가족들은 받는다"
+       },
+       {
+        "en": "money or vouchers",
+        "ko": "돈이나 상품권을"
+       },
+       {
+        "en": "that they can spend",
+        "ko": "사용할 수 있는"
+       },
+       {
+        "en": "at local markets.",
+        "ko": "지역 시장에서"
+       }
+      ],
+      "rp": {
+       "situation": "학교 행사에서 학생들이 상품권을 받아 매점에서 사용할 수 있다.",
+       "prompt": "What did you get at the event?",
+       "options": [
+        "I got a voucher I can use at the school store.",
+        "I got a voucher I can use to the school store."
+       ],
+       "answer": 0,
+       "why": "voucher는 'use at + 장소'와 결합하며, 'use to + 장소'는 비문법적 표현이다."
+      },
+      "topic": "식량 원조와 자립의 딜레마"
+     },
+     {
+      "id": "times:self-sufficiency",
+      "word": "self-sufficiency",
+      "ko": "자급자족, 자립",
+      "filled": "Aid experts say the answer is rarely one approach or the other, but rather a careful combination — one that responds to immediate suffering while actively planning for long-term recovery and local self-sufficiency.",
+      "sent_ko": "원조 전문가들은 답이 한 가지 접근법이나 다른 것이 아니라, 즉각적인 고통에 대응하면서 장기적인 회복과 지역의 자급자족을 적극적으로 계획하는 신중한 조합이라고 말한다.",
+      "chunks": [
+       {
+        "en": "Aid experts say",
+        "ko": "원조 전문가들은 말한다"
+       },
+       {
+        "en": "the answer is rarely one approach or the other,",
+        "ko": "답이 어느 한 접근법인 경우는 드물고"
+       },
+       {
+        "en": "but rather a careful combination —",
+        "ko": "오히려 신중한 조합이라고 —"
+       },
+       {
+        "en": "one that responds to immediate suffering",
+        "ko": "즉각적인 고통에 대응하면서"
+       },
+       {
+        "en": "while actively planning",
+        "ko": "적극적으로 계획하는"
+       },
+       {
+        "en": "for long-term recovery and local self-sufficiency.",
+        "ko": "장기적인 회복과 지역의 자급자족을 위한"
+       }
+      ],
+      "rp": {
+       "situation": "농촌 마을이 외부 지원 없이 자체 식량을 생산하게 됐다.",
+       "prompt": "How would you describe that village now?",
+       "options": [
+        "They've achieved self-sufficiency in food production.",
+        "They've achieved self-sufficient in food production."
+       ],
+       "answer": 0,
+       "why": "self-sufficiency는 명사로 achieve의 목적어 자리에 맞고, self-sufficient는 형용사라 쓸 수 없다."
+      },
+      "topic": "식량 원조와 자립의 딜레마"
+     },
+     {
+      "id": "times:collapse",
+      "word": "collapse",
+      "ko": "붕괴, 무너지다",
+      "filled": "Markets can collapse, and farmers who might otherwise sell their harvests earn little to nothing, which pushes them further into poverty over time.",
+      "sent_ko": "시장은 붕괴될 수 있고, 그렇지 않았다면 수확물을 팔았을 농부들은 거의 또는 전혀 수입을 얻지 못하며, 이는 시간이 지남에 따라 그들을 더 깊은 빈곤으로 몰아넣는다.",
+      "chunks": [
+       {
+        "en": "Markets can collapse,",
+        "ko": "시장은 붕괴될 수 있고"
+       },
+       {
+        "en": "and farmers who might otherwise sell their harvests",
+        "ko": "그렇지 않았다면 수확물을 팔았을 농부들은"
+       },
+       {
+        "en": "earn little to nothing,",
+        "ko": "거의 또는 전혀 수입을 얻지 못하며"
+       },
+       {
+        "en": "which pushes them further into poverty",
+        "ko": "이는 그들을 더 깊은 빈곤으로 몰아넣는다"
+       },
+       {
+        "en": "over time.",
+        "ko": "시간이 지남에 따라"
+       }
+      ],
+      "rp": {
+       "situation": "경제 위기로 주요 은행이 갑자기 문을 닫았다.",
+       "prompt": "What happened to the bank?",
+       "options": [
+        "The bank collapsed under the weight of its bad loans.",
+        "The bank collapses under the weight of its bad loans."
+       ],
+       "answer": 0,
+       "why": "과거 사건이므로 과거형 collapsed가 맞고, 현재형 collapses는 시제가 틀리다."
+      },
+      "topic": "식량 원조와 자립의 딜레마"
+     },
+     {
+      "id": "times:crisis",
+      "word": "crisis",
+      "ko": "위기",
+      "filled": "Every year, wealthy nations send millions of tonnes of food to countries facing hunger and crisis.",
+      "sent_ko": "매년 부유한 나라들은 기아와 위기에 처한 나라들에 수백만 톤의 식량을 보낸다.",
+      "chunks": [
+       {
+        "en": "Every year,",
+        "ko": "매년"
+       },
+       {
+        "en": "wealthy nations",
+        "ko": "부유한 나라들은"
+       },
+       {
+        "en": "send millions of tonnes of food",
+        "ko": "수백만 톤의 식량을 보낸다"
+       },
+       {
+        "en": "to countries facing hunger and crisis.",
+        "ko": "기아와 위기에 처한 나라들에"
+       }
+      ],
+      "rp": {
+       "situation": "뉴스에서 앵커가 심각한 경제 붕괴 상황을 보도하고 있다.",
+       "prompt": "How is the anchor describing the situation?",
+       "options": [
+        "The anchor is calling it a full-blown economic crisis.",
+        "The anchor is calling it a full-blown economic crises."
+       ],
+       "answer": 0,
+       "why": "crisis의 단수형은 crisis이고, crises는 복수형이라 단수 명사 자리에 쓸 수 없다."
+      },
+      "topic": "식량 원조와 자립의 딜레마"
+     },
+     {
+      "id": "times:assistance",
+      "word": "assistance",
+      "ko": "도움, 지원",
+      "filled": "Some humanitarian organizations have responded by shifting from direct food handouts to cash assistance programs.",
+      "sent_ko": "일부 인도주의 단체들은 직접적인 식량 배급에서 현금 지원 프로그램으로 전환함으로써 대응해 왔다.",
+      "chunks": [
+       {
+        "en": "Some humanitarian organizations",
+        "ko": "일부 인도주의 단체들은"
+       },
+       {
+        "en": "have responded",
+        "ko": "대응해 왔다"
+       },
+       {
+        "en": "by shifting",
+        "ko": "전환함으로써"
+       },
+       {
+        "en": "from direct food handouts",
+        "ko": "직접적인 식량 배급에서"
+       },
+       {
+        "en": "to cash assistance programs.",
+        "ko": "현금 지원 프로그램으로"
+       }
+      ],
+      "rp": {
+       "situation": "재난 현장에서 구조대원이 부상자를 돕고 있다.",
+       "prompt": "What are the rescue workers providing?",
+       "options": [
+        "They are providing medical assistance to the injured.",
+        "They are providing medical assist to the injured."
+       ],
+       "answer": 0,
+       "why": "assistance는 명사로 providing의 목적어 자리에 맞고, assist는 동사라 명사 자리에 쓸 수 없다."
+      },
+      "topic": "식량 원조와 자립의 딜레마"
+     }
+    ]
+   },
+   {
+    "id": "times|물 재이용 기술의 확산",
+    "level": "times",
+    "topic": "물 재이용 기술의 확산",
+    "section": "환경",
+    "cards": [
+     {
+      "id": "times:drought",
+      "word": "drought",
+      "ko": "가뭄",
+      "filled": "As droughts grow more frequent due to climate change, cities and governments are looking at water reuse technologies as a practical solution.",
+      "sent_ko": "기후 변화로 인해 가뭄이 더 자주 발생함에 따라, 도시와 정부는 물 재사용 기술을 실질적인 해결책으로 주목하고 있다.",
+      "chunks": [
+       {
+        "en": "As droughts grow more frequent",
+        "ko": "가뭄이 더 자주 발생함에 따라"
+       },
+       {
+        "en": "due to climate change,",
+        "ko": "기후 변화로 인해"
+       },
+       {
+        "en": "cities and governments are looking at",
+        "ko": "도시와 정부는 주목하고 있다"
+       },
+       {
+        "en": "water reuse technologies",
+        "ko": "물 재사용 기술을"
+       },
+       {
+        "en": "as a practical solution.",
+        "ko": "실질적인 해결책으로"
+       }
+      ],
+      "rp": {
+       "situation": "비가 몇 달째 내리지 않아 강이 말라가고 있다.",
+       "prompt": "What's causing the water shortage?",
+       "options": [
+        "We've had a severe drought this year.",
+        "We've had a severe droughting this year."
+       ],
+       "answer": 0,
+       "why": "drought는 명사로만 쓰이며 droughting이라는 형태는 존재하지 않는다."
+      },
+      "topic": "물 재이용 기술의 확산"
+     },
+     {
+      "id": "times:wastewater",
+      "word": "wastewater",
+      "ko": "폐수, 오수",
+      "filled": "Water reuse means treating used or wastewater so it can be used again — for farming, industry, or even drinking.",
+      "sent_ko": "물 재사용이란 사용된 물이나 폐수를 처리하여 농업, 산업, 심지어 음용 목적으로 다시 쓸 수 있게 하는 것을 의미한다.",
+      "chunks": [
+       {
+        "en": "Water reuse means treating",
+        "ko": "물 재사용이란 처리하는 것을 의미한다"
+       },
+       {
+        "en": "used or wastewater",
+        "ko": "사용된 물이나 폐수를"
+       },
+       {
+        "en": "so it can be used again —",
+        "ko": "다시 쓸 수 있도록 —"
+       },
+       {
+        "en": "for farming, industry,",
+        "ko": "농업, 산업,"
+       },
+       {
+        "en": "or even drinking.",
+        "ko": "심지어 음용을 위해"
+       }
+      ],
+      "rp": {
+       "situation": "공장에서 사용한 물을 강으로 그냥 흘려보내려 한다.",
+       "prompt": "Can we just release that water?",
+       "options": [
+        "No, that wastewater must be treated first.",
+        "No, that wasteful water must be treated first."
+       ],
+       "answer": 0,
+       "why": "wastewater는 '오수'라는 합성명사이고 wasteful water는 자연스러운 영어 표현이 아니다."
+      },
+      "topic": "물 재이용 기술의 확산"
+     },
+     {
+      "id": "times:treatment",
+      "word": "treatment",
+      "ko": "처리, 정화",
+      "filled": "Traditional water systems rely on large, centralized plants, but smaller, local treatment systems are now being tested in cities across the United States, Australia, and parts of Europe.",
+      "sent_ko": "전통적인 수도 시스템은 대규모 중앙 집중식 시설에 의존하지만, 더 작고 지역적인 처리 시스템이 현재 미국 전역, 호주, 유럽 일부 도시에서 시험 운영되고 있다.",
+      "chunks": [
+       {
+        "en": "Traditional water systems rely on",
+        "ko": "전통적인 수도 시스템은 의존한다"
+       },
+       {
+        "en": "large, centralized plants,",
+        "ko": "대규모 중앙 집중식 시설에"
+       },
+       {
+        "en": "but smaller, local treatment systems",
+        "ko": "하지만 더 작고 지역적인 처리 시스템이"
+       },
+       {
+        "en": "are now being tested",
+        "ko": "현재 시험 운영되고 있다"
+       },
+       {
+        "en": "in cities across the United States, Australia, and parts of Europe.",
+        "ko": "미국 전역, 호주, 유럽 일부 도시에서"
+       }
+      ],
+      "rp": {
+       "situation": "강물을 식수로 바꾸는 시설을 견학하고 있다.",
+       "prompt": "What happens to the river water here?",
+       "options": [
+        "It goes through a treatment process to become safe to drink.",
+        "It goes through a treating process to become safe to drink."
+       ],
+       "answer": 0,
+       "why": "treatment는 명사로 '처리 과정'을 뜻하며, treating을 명사처럼 쓰는 것은 비문법적이다."
+      },
+      "topic": "물 재이용 기술의 확산"
+     },
+     {
+      "id": "times:centralized",
+      "word": "centralized",
+      "ko": "중앙 집중식의",
+      "filled": "Traditional water systems rely on large, centralized plants, but smaller, local treatment systems are now being tested in cities across the United States, Australia, and parts of Europe.",
+      "sent_ko": "전통적인 수도 시스템은 대규모 중앙 집중식 시설에 의존하지만, 더 작고 지역적인 처리 시스템이 현재 미국 전역, 호주, 유럽 일부 도시에서 시험 운영되고 있다.",
+      "chunks": [
+       {
+        "en": "Traditional water systems rely on",
+        "ko": "전통적인 수도 시스템은 의존한다"
+       },
+       {
+        "en": "large, centralized plants,",
+        "ko": "대규모 중앙 집중식 시설에"
+       },
+       {
+        "en": "but smaller, local treatment systems",
+        "ko": "하지만 더 작고 지역적인 처리 시스템이"
+       },
+       {
+        "en": "are now being tested",
+        "ko": "현재 시험 운영되고 있다"
+       },
+       {
+        "en": "in cities across the United States, Australia, and parts of Europe.",
+        "ko": "미국 전역, 호주, 유럽 일부 도시에서"
+       }
+      ],
+      "rp": {
+       "situation": "한 나라의 전력망이 수도에 있는 단일 본부에서 모두 관리된다.",
+       "prompt": "How is the power grid managed?",
+       "options": [
+        "It's run by a centralized control system.",
+        "It's run by a centralizing control system."
+       ],
+       "answer": 0,
+       "why": "centralized는 '중앙 집중식으로 된' 상태를 나타내는 형용사이고, centralizing은 '중앙화하는 중인'이라는 뜻으로 문맥에 맞지 않는다."
+      },
+      "topic": "물 재이용 기술의 확산"
+     },
+     {
+      "id": "times:regulation",
+      "word": "regulation",
+      "ko": "규정, 규제",
+      "filled": "Regulations around water reuse are still catching up in many countries.",
+      "sent_ko": "물 재사용과 관련된 규정은 많은 나라에서 아직 따라가지 못하고 있다.",
+      "chunks": [
+       {
+        "en": "Regulations around water reuse",
+        "ko": "물 재사용과 관련된 규정은"
+       },
+       {
+        "en": "are still catching up",
+        "ko": "아직 따라가지 못하고 있다"
+       },
+       {
+        "en": "in many countries.",
+        "ko": "많은 나라에서"
+       }
+      ],
+      "rp": {
+       "situation": "새로운 식품 첨가물을 시장에 출시하려면 정부 승인이 필요하다.",
+       "prompt": "Why can't we sell it yet?",
+       "options": [
+        "We have to follow the regulations before selling it.",
+        "We have to follow the regulatings before selling it."
+       ],
+       "answer": 0,
+       "why": "regulation은 명사이고 regulatings라는 단어는 존재하지 않는다."
+      },
+      "topic": "물 재이용 기술의 확산"
+     },
+     {
+      "id": "times:on-site",
+      "word": "on-site",
+      "ko": "현장의, 현지의",
+      "filled": "These systems can clean water on-site and return it to use much faster.",
+      "sent_ko": "이 시스템들은 현장에서 물을 정화하고 훨씬 빠르게 다시 사용할 수 있도록 되돌려 보낼 수 있다.",
+      "chunks": [
+       {
+        "en": "These systems can clean water",
+        "ko": "이 시스템들은 물을 정화할 수 있다"
+       },
+       {
+        "en": "on-site",
+        "ko": "현장에서"
+       },
+       {
+        "en": "and return it to use",
+        "ko": "그리고 다시 사용할 수 있도록 되돌려 보낸다"
+       },
+       {
+        "en": "much faster.",
+        "ko": "훨씬 빠르게"
+       }
+      ],
+      "rp": {
+       "situation": "건설 현장에서 바로 물을 정화해 재사용하는 장비가 설치되어 있다.",
+       "prompt": "Where does the water get cleaned?",
+       "options": [
+        "It's cleaned on-site using a compact filter system.",
+        "It's cleaned on-sitely using a compact filter system."
+       ],
+       "answer": 0,
+       "why": "on-site는 부사로 그대로 쓰이며 on-sitely라는 형태는 존재하지 않는다."
+      },
+      "topic": "물 재이용 기술의 확산"
+     },
+     {
+      "id": "times:reliable",
+      "word": "reliable",
+      "ko": "믿을 수 있는, 신뢰할 수 있는",
+      "filled": "Researchers note that reliable testing and safety checks are essential before treated water can be widely accepted by the public.",
+      "sent_ko": "연구자들은 처리된 물이 대중에게 널리 받아들여지기 전에 신뢰할 수 있는 검사와 안전 점검이 필수적이라고 강조한다.",
+      "chunks": [
+       {
+        "en": "Researchers note that",
+        "ko": "연구자들은 강조한다"
+       },
+       {
+        "en": "reliable testing and safety checks",
+        "ko": "신뢰할 수 있는 검사와 안전 점검이"
+       },
+       {
+        "en": "are essential",
+        "ko": "필수적이라고"
+       },
+       {
+        "en": "before treated water",
+        "ko": "처리된 물이"
+       },
+       {
+        "en": "can be widely accepted by the public.",
+        "ko": "대중에게 널리 받아들여지기 전에"
+       }
+      ],
+      "rp": {
+       "situation": "매일 정확한 시간에 출발하는 버스 노선에 대해 이야기하고 있다.",
+       "prompt": "What do you think of this bus line?",
+       "options": [
+        "It's reliable — it always runs on schedule.",
+        "It's relying — it always runs on schedule."
+       ],
+       "answer": 0,
+       "why": "reliable은 '믿을 수 있는'이라는 형용사이고, relying은 동사형이라 보어 자리에 쓸 수 없다."
+      },
+      "topic": "물 재이용 기술의 확산"
+     }
+    ]
+   }
+  ]
+ }
+}
