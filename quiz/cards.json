@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-25 09:51:11",
+ "generated": "2026-08-25 10:22:49",
  "levels": {
   "kinder": [
    {
@@ -703,6 +703,226 @@
        "why": "주어가 복수(they)이면 동사에 s를 붙이지 않아요. hides는 틀려요."
       },
       "topic": "달팽이는 왜 느리게 갈까"
+     }
+    ]
+   },
+   {
+    "id": "kinder|그림자놀이는 어떻게 만들까",
+    "level": "kinder",
+    "topic": "그림자놀이는 어떻게 만들까",
+    "section": "과학",
+    "cards": [
+     {
+      "id": "kinder:shadow",
+      "word": "shadow",
+      "ko": "그림자",
+      "filled": "Do you like shadows?",
+      "sent_ko": "너는 그림자를 좋아하니?",
+      "chunks": [
+       {
+        "en": "Do you like",
+        "ko": "너는 좋아하니"
+       },
+       {
+        "en": "shadows?",
+        "ko": "그림자를?"
+       }
+      ],
+      "rp": {
+       "situation": "친구가 벽에 생긴 어두운 모양을 가리키고 있어요.",
+       "prompt": "What is that on the wall?",
+       "options": [
+        "It is a shadow.",
+        "It is a shadow's."
+       ],
+       "answer": 0,
+       "why": "명사 단독 사용이 맞고, 소유격 shadow's는 문법적으로 틀려요."
+      },
+      "topic": "그림자놀이는 어떻게 만들까"
+     },
+     {
+      "id": "kinder:light",
+      "word": "light",
+      "ko": "빛",
+      "filled": "You need a light and your hands.",
+      "sent_ko": "너는 빛과 손이 필요해.",
+      "chunks": [
+       {
+        "en": "You need",
+        "ko": "너는 필요해"
+       },
+       {
+        "en": "a light",
+        "ko": "빛이"
+       },
+       {
+        "en": "and your hands.",
+        "ko": "그리고 손이."
+       }
+      ],
+      "rp": {
+       "situation": "그림자 놀이를 하려고 준비하고 있어요.",
+       "prompt": "What do you need first?",
+       "options": [
+        "I need a light.",
+        "I need lighting."
+       ],
+       "answer": 0,
+       "why": "셀 수 있는 단수 명사 a light가 맞고, lighting은 이 문맥에서 어색해요."
+      },
+      "topic": "그림자놀이는 어떻게 만들까"
+     },
+     {
+      "id": "kinder:hand",
+      "word": "hand",
+      "ko": "손",
+      "filled": "You need a light and your hands.",
+      "sent_ko": "너는 빛과 손이 필요해.",
+      "chunks": [
+       {
+        "en": "You need",
+        "ko": "너는 필요해"
+       },
+       {
+        "en": "a light",
+        "ko": "빛이"
+       },
+       {
+        "en": "and your hands.",
+        "ko": "그리고 손이."
+       }
+      ],
+      "rp": {
+       "situation": "선생님이 그림자 만들기를 가르쳐 주고 있어요.",
+       "prompt": "What do you use to make a shadow?",
+       "options": [
+        "I use my hands.",
+        "I use my hand's."
+       ],
+       "answer": 0,
+       "why": "복수 명사 hands가 맞고, 소유격 hand's는 문법적으로 틀려요."
+      },
+      "topic": "그림자놀이는 어떻게 만들까"
+     },
+     {
+      "id": "kinder:wall",
+      "word": "wall",
+      "ko": "벽",
+      "filled": "A dark shape shows on the wall.",
+      "sent_ko": "어두운 모양이 벽에 나타나요.",
+      "chunks": [
+       {
+        "en": "A dark shape",
+        "ko": "어두운 모양이"
+       },
+       {
+        "en": "shows",
+        "ko": "나타나요"
+       },
+       {
+        "en": "on the wall.",
+        "ko": "벽에."
+       }
+      ],
+      "rp": {
+       "situation": "방 안에서 그림자가 벽에 생겼어요.",
+       "prompt": "Where is the shadow?",
+       "options": [
+        "It shows on the wall.",
+        "It shows the wall."
+       ],
+       "answer": 0,
+       "why": "장소를 나타낼 때 on the wall이 맞고, 전치사 없이 쓰면 문법적으로 틀려요."
+      },
+      "topic": "그림자놀이는 어떻게 만들까"
+     },
+     {
+      "id": "kinder:shape",
+      "word": "shape",
+      "ko": "모양",
+      "filled": "So it makes a dark shape.",
+      "sent_ko": "그래서 어두운 모양을 만들어요.",
+      "chunks": [
+       {
+        "en": "So it makes",
+        "ko": "그래서 만들어요"
+       },
+       {
+        "en": "a dark shape.",
+        "ko": "어두운 모양을."
+       }
+      ],
+      "rp": {
+       "situation": "손으로 빛 앞에서 모양을 만들고 있어요.",
+       "prompt": "What does your hand make?",
+       "options": [
+        "It makes a shape.",
+        "It makes shape."
+       ],
+       "answer": 0,
+       "why": "단수 가산명사 앞에는 관사 a가 필요해서 a shape이 맞아요."
+      },
+      "topic": "그림자놀이는 어떻게 만들까"
+     },
+     {
+      "id": "kinder:dark",
+      "word": "dark",
+      "ko": "어두운",
+      "filled": "So it makes a dark shape.",
+      "sent_ko": "그래서 어두운 모양을 만들어요.",
+      "chunks": [
+       {
+        "en": "So it makes",
+        "ko": "그래서 만들어요"
+       },
+       {
+        "en": "a dark shape.",
+        "ko": "어두운 모양을."
+       }
+      ],
+      "rp": {
+       "situation": "불을 끈 방에서 그림자가 생겼어요.",
+       "prompt": "What does the shadow look like?",
+       "options": [
+        "The shape is dark.",
+        "The shape is darkness."
+       ],
+       "answer": 0,
+       "why": "형용사 dark가 맞고, 명사 darkness는 보어 자리에 어색해요."
+      },
+      "topic": "그림자놀이는 어떻게 만들까"
+     },
+     {
+      "id": "kinder:move",
+      "word": "move",
+      "ko": "움직이다",
+      "filled": "Move your fingers and the shadow moves too.",
+      "sent_ko": "손가락을 움직이면 그림자도 움직여요.",
+      "chunks": [
+       {
+        "en": "Move your fingers",
+        "ko": "손가락을 움직이면"
+       },
+       {
+        "en": "and the shadow",
+        "ko": "그리고 그림자도"
+       },
+       {
+        "en": "moves too.",
+        "ko": "움직여요."
+       }
+      ],
+      "rp": {
+       "situation": "아이가 손가락을 흔들자 벽의 그림자가 바뀌었어요.",
+       "prompt": "What does the shadow do?",
+       "options": [
+        "The shadow moves.",
+        "The shadow is move."
+       ],
+       "answer": 0,
+       "why": "동사 원형 앞에 be동사를 쓰면 문법적으로 틀리고, moves가 맞아요."
+      },
+      "topic": "그림자놀이는 어떻게 만들까"
      }
     ]
    }
@@ -6894,6 +7114,278 @@
        "why": "reliable은 '믿을 수 있는'이라는 형용사이고, relying은 동사형이라 보어 자리에 쓸 수 없다."
       },
       "topic": "물 재이용 기술의 확산"
+     }
+    ]
+   },
+   {
+    "id": "times|고령 노동자의 재취업 시장",
+    "level": "times",
+    "topic": "고령 노동자의 재취업 시장",
+    "section": "경제",
+    "cards": [
+     {
+      "id": "times:discrimination",
+      "word": "discrimination",
+      "ko": "차별",
+      "filled": "One major obstacle is age discrimination.",
+      "sent_ko": "한 가지 주요 장애물은 나이 차별이다.",
+      "chunks": [
+       {
+        "en": "One major obstacle",
+        "ko": "한 가지 주요 장애물은"
+       },
+       {
+        "en": "is age discrimination.",
+        "ko": "나이 차별이다"
+       }
+      ],
+      "rp": {
+       "situation": "면접관이 지원자의 나이만 보고 채용을 거부했다.",
+       "prompt": "Why didn't they hire her?",
+       "options": [
+        "It looks like age discrimination.",
+        "It looks like age discriminating."
+       ],
+       "answer": 0,
+       "why": "discrimination은 명사; discriminating은 형용사/분사라 이 자리에 부적절하다."
+      },
+      "topic": "고령 노동자의 재취업 시장"
+     },
+     {
+      "id": "times:bias",
+      "word": "bias",
+      "ko": "편견, 편향",
+      "filled": "This bias can make the job search long and discouraging, even when the older worker has decades of valuable experience.",
+      "sent_ko": "이 편견은, 나이 든 근로자가 수십 년의 귀중한 경험을 갖고 있을 때조차, 구직 활동을 길고 낙담스럽게 만들 수 있다.",
+      "chunks": [
+       {
+        "en": "This bias",
+        "ko": "이 편견은"
+       },
+       {
+        "en": "can make the job search long and discouraging,",
+        "ko": "구직 활동을 길고 낙담스럽게 만들 수 있다,"
+       },
+       {
+        "en": "even when the older worker",
+        "ko": "나이 든 근로자가 ~일 때조차"
+       },
+       {
+        "en": "has decades of valuable experience.",
+        "ko": "수십 년의 귀중한 경험을 갖고 있을"
+       }
+      ],
+      "rp": {
+       "situation": "면접관이 50대 지원자를 능력과 무관하게 처음부터 부적합하다고 여긴다.",
+       "prompt": "What would you call that attitude?",
+       "options": [
+        "That's a bias against older workers.",
+        "That's a biased against older workers."
+       ],
+       "answer": 0,
+       "why": "bias는 명사; biased는 형용사라 관사 뒤 명사 자리에 쓸 수 없다."
+      },
+      "topic": "고령 노동자의 재취업 시장"
+     },
+     {
+      "id": "times:labor shortage",
+      "word": "labor shortage",
+      "ko": "노동력 부족",
+      "filled": "As birth rates fall and the older population grows, labor shortages are becoming a real concern in many industries.",
+      "sent_ko": "출생률이 떨어지고 고령 인구가 늘어남에 따라, 노동력 부족이 많은 산업에서 실질적인 우려가 되고 있다.",
+      "chunks": [
+       {
+        "en": "As birth rates fall",
+        "ko": "출생률이 떨어짐에 따라"
+       },
+       {
+        "en": "and the older population grows,",
+        "ko": "그리고 고령 인구가 늘어남에 따라,"
+       },
+       {
+        "en": "labor shortages are becoming",
+        "ko": "노동력 부족이 ~이 되고 있다"
+       },
+       {
+        "en": "a real concern",
+        "ko": "실질적인 우려"
+       },
+       {
+        "en": "in many industries.",
+        "ko": "많은 산업에서"
+       }
+      ],
+      "rp": {
+       "situation": "공장 두 곳이 일할 사람을 충분히 구하지 못하고 있다.",
+       "prompt": "What's the problem at those factories?",
+       "options": [
+        "They're facing a labor shortage.",
+        "They're facing a labor lacking."
+       ],
+       "answer": 0,
+       "why": "shortage는 명사로 쓰이는 올바른 표현; lacking은 이 자리에 명사로 쓸 수 없다."
+      },
+      "topic": "고령 노동자의 재취업 시장"
+     },
+     {
+      "id": "times:phased",
+      "word": "phased",
+      "ko": "단계적으로 시행된",
+      "filled": "Flexible hours, phased retirement programs, and retraining opportunities can all help older employees stay in or return to the workforce.",
+      "sent_ko": "유연한 근무 시간, 단계적으로 시행되는 은퇴 프로그램, 그리고 재교육 기회는 모두 나이 든 직원들이 노동 시장에 남아 있거나 복귀하는 데 도움을 줄 수 있다.",
+      "chunks": [
+       {
+        "en": "Flexible hours,",
+        "ko": "유연한 근무 시간,"
+       },
+       {
+        "en": "phased retirement programs,",
+        "ko": "단계적 은퇴 프로그램,"
+       },
+       {
+        "en": "and retraining opportunities",
+        "ko": "그리고 재교육 기회는"
+       },
+       {
+        "en": "can all help older employees",
+        "ko": "나이 든 직원들이 ~하도록 모두 도울 수 있다"
+       },
+       {
+        "en": "stay in or return to the workforce.",
+        "ko": "노동 시장에 남아 있거나 복귀하도록"
+       }
+      ],
+      "rp": {
+       "situation": "회사가 직원을 한꺼번에 퇴직시키지 않고 몇 년에 걸쳐 서서히 은퇴하도록 돕는 제도를 도입했다.",
+       "prompt": "How would you describe that retirement plan?",
+       "options": [
+        "It's a phased retirement program.",
+        "It's a phases retirement program."
+       ],
+       "answer": 0,
+       "why": "phased는 형용사(과거분사)로 명사 수식; phases는 명사라 이 자리에 쓸 수 없다."
+      },
+      "topic": "고령 노동자의 재취업 시장"
+     },
+     {
+      "id": "times:retraining",
+      "word": "retraining",
+      "ko": "재교육, 재훈련",
+      "filled": "Flexible hours, phased retirement programs, and retraining opportunities can all help older employees stay in or return to the workforce.",
+      "sent_ko": "유연한 근무 시간, 단계적으로 시행되는 은퇴 프로그램, 그리고 재교육 기회는 모두 나이 든 직원들이 노동 시장에 남아 있거나 복귀하는 데 도움을 줄 수 있다.",
+      "chunks": [
+       {
+        "en": "Flexible hours,",
+        "ko": "유연한 근무 시간,"
+       },
+       {
+        "en": "phased retirement programs,",
+        "ko": "단계적 은퇴 프로그램,"
+       },
+       {
+        "en": "and retraining opportunities",
+        "ko": "그리고 재교육 기회는"
+       },
+       {
+        "en": "can all help older employees",
+        "ko": "나이 든 직원들이 ~하도록 모두 도울 수 있다"
+       },
+       {
+        "en": "stay in or return to the workforce.",
+        "ko": "노동 시장에 남아 있거나 복귀하도록"
+       }
+      ],
+      "rp": {
+       "situation": "공장이 자동화로 바뀌면서 기존 직원들에게 새 기술을 가르치는 프로그램을 운영하고 있다.",
+       "prompt": "What do you call those programs?",
+       "options": [
+        "They offer retraining for the workers.",
+        "They offer retirement for the workers."
+       ],
+       "answer": 0,
+       "why": "retraining은 새 기술 교육; retirement는 은퇴로 문맥에 맞지 않는다."
+      },
+      "topic": "고령 노동자의 재취업 시장"
+     },
+     {
+      "id": "times:mentorship",
+      "word": "mentorship",
+      "ko": "멘토십, 지도 관계",
+      "filled": "Experts point to mentorship roles as one area where older workers offer clear value that younger employees cannot easily provide.",
+      "sent_ko": "전문가들은 나이 든 근로자들이 젊은 직원들이 쉽게 제공할 수 없는 명확한 가치를 발휘하는 영역 중 하나로 멘토십 역할을 꼽는다.",
+      "chunks": [
+       {
+        "en": "Experts point to mentorship roles",
+        "ko": "전문가들은 멘토십 역할을 꼽는다"
+       },
+       {
+        "en": "as one area",
+        "ko": "한 영역으로"
+       },
+       {
+        "en": "where older workers offer clear value",
+        "ko": "나이 든 근로자들이 명확한 가치를 발휘하는"
+       },
+       {
+        "en": "that younger employees cannot easily provide.",
+        "ko": "젊은 직원들이 쉽게 제공할 수 없는"
+       }
+      ],
+      "rp": {
+       "situation": "경험 많은 선배 직원이 신입 직원의 성장을 정기적으로 지도하고 있다.",
+       "prompt": "What kind of relationship is that?",
+       "options": [
+        "That's a mentorship relationship.",
+        "That's a mentoring relationship."
+       ],
+       "answer": 0,
+       "why": "mentorship은 명사로 지도 관계 자체를 가리키며, mentoring은 동명사/형용사로 이 명사 자리에 어색하다."
+      },
+      "topic": "고령 노동자의 재취업 시장"
+     },
+     {
+      "id": "times:policymaker",
+      "word": "policymaker",
+      "ko": "정책 입안자",
+      "filled": "For policymakers, supporting re-employment programs and updating anti-discrimination laws may be key steps toward building a workforce that works for all generations.",
+      "sent_ko": "정책 입안자들에게, 재취업 프로그램을 지원하고 반차별 법률을 개정하는 것은 모든 세대를 위해 작동하는 노동력을 구축하는 데 핵심적인 단계가 될 수 있다.",
+      "chunks": [
+       {
+        "en": "For policymakers,",
+        "ko": "정책 입안자들에게,"
+       },
+       {
+        "en": "supporting re-employment programs",
+        "ko": "재취업 프로그램을 지원하고"
+       },
+       {
+        "en": "and updating anti-discrimination laws",
+        "ko": "반차별 법률을 개정하는 것은"
+       },
+       {
+        "en": "may be key steps",
+        "ko": "핵심적인 단계가 될 수 있다"
+       },
+       {
+        "en": "toward building a workforce",
+        "ko": "노동력을 구축하는 방향으로"
+       },
+       {
+        "en": "that works for all generations.",
+        "ko": "모든 세대를 위해 작동하는"
+       }
+      ],
+      "rp": {
+       "situation": "정부 관리들이 고령 근로자 고용을 늘리기 위한 새 법안을 논의하고 있다.",
+       "prompt": "Who should be leading these efforts?",
+       "options": [
+        "Policymakers should take action on this.",
+        "Policy makers should take an action on this."
+       ],
+       "answer": 0,
+       "why": "policymakers는 한 단어이며, take action이 올바른 연어; take an action은 비문법적 표현이다."
+      },
+      "topic": "고령 노동자의 재취업 시장"
      }
     ]
    }
