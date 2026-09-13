@@ -798,39 +798,68 @@ function renderScramble(c, chunks){
 
   function order_(){ return [...built.children].map(t => +t.dataset.idx); }
 
+  /* 조각을 어디에 끼워 넣을지 — 앞에 넣을 조각을 돌려준다(없으면 맨 뒤).
+     조각은 여러 줄로 접히므로 줄(y)을 먼저 보고 그 줄 안에서 x 로 판단한다. */
+  function slotAt(x, y){
+    for(const c of built.children){
+      if(c === dragging) continue;
+      const r = c.getBoundingClientRect();
+      if(y < r.bottom && x < r.left + r.width / 2) return c;
+    }
+    return null;
+  }
+
   function put(idx, from){
     const t = document.createElement('button');
     t.className='tile two'; t.innerHTML = face(idx); t.dataset.idx = idx;
-    t.draggable = true;
-    t.onclick = () => { if(answered || dragging) return; from.classList.remove('ghost'); t.remove(); sync(); };
 
-    t.addEventListener('dragstart', e => {
-      if(answered) return;
-      dragging = t; t.classList.add('drag');
-      e.dataTransfer.effectAllowed = 'move';
-      try{ e.dataTransfer.setData('text/plain',''); }catch(_){}
-    });
-    t.addEventListener('dragend', () => {
-      t.classList.remove('drag');
-      [...built.children].forEach(x=>x.classList.remove('over'));
-      setTimeout(()=>{ dragging = null; }, 0);
-      sync();
-    });
-    t.addEventListener('dragover', e => {
-      if(!dragging || dragging === t) return;
-      e.preventDefault();
-      const r = t.getBoundingClientRect();
-      const before = e.clientX < r.left + r.width/2;
-      [...built.children].forEach(x=>x.classList.remove('over'));
-      t.classList.add('over');
-      built.insertBefore(dragging, before ? t : t.nextSibling);
+    /* 재배열은 포인터 이벤트로 한다. HTML5 드래그앤드롭(dragstart/dragover)은
+       모바일 터치에서 이벤트 자체가 발생하지 않아, 화면 안내대로 끌어도
+       순서가 바뀌지 않았다. 포인터 이벤트는 마우스·터치를 함께 받는다. */
+    let justDragged = false;
+    t.onclick = () => {
+      if(answered || justDragged) return;
+      from.classList.remove('ghost'); t.remove(); sync();
+    };
+
+    t.addEventListener('pointerdown', e => {
+      if(answered || (e.button && e.button !== 0)) return;
+      const sx = e.clientX, sy = e.clientY;
+      let moved = false;
+      try{ t.setPointerCapture(e.pointerId); }catch(_){}
+      const clearOver = () => [...built.children].forEach(x => x.classList.remove('over'));
+
+      const move = ev => {
+        // 살짝 눌린 것과 끄는 것을 가른다 — 이 문턱이 없으면 빼내려고 눌러도 끌린다
+        if(!moved){
+          if(Math.abs(ev.clientX - sx) + Math.abs(ev.clientY - sy) < 6) return;
+          moved = true; dragging = t; t.classList.add('drag');
+        }
+        const tgt = slotAt(ev.clientX, ev.clientY);
+        clearOver();
+        if(tgt) tgt.classList.add('over');
+        built.insertBefore(t, tgt);
+      };
+      const up = () => {
+        t.removeEventListener('pointermove', move);
+        t.removeEventListener('pointerup', up);
+        t.removeEventListener('pointercancel', up);
+        clearOver();
+        if(!moved) return;                 // 끌지 않았으면 click 이 빼내기를 처리한다
+        t.classList.remove('drag');
+        dragging = null;
+        justDragged = true;                // 끌고 난 뒤 이어 오는 click 은 무시
+        setTimeout(()=>{ justDragged = false; }, 0);
+        sync();
+      };
+      t.addEventListener('pointermove', move);
+      t.addEventListener('pointerup', up);
+      t.addEventListener('pointercancel', up);
     });
 
     built.appendChild(t);
     sync();
   }
-
-  built.addEventListener('dragover', e => { if(dragging) e.preventDefault(); });
 
   function sync(){
     const n = built.children.length;
@@ -846,7 +875,7 @@ function renderScramble(c, chunks){
     if(answered) return; answered = true;
     const placed = order_();
     const ok = placed.every((v,i)=>v===i);
-    [...built.children].forEach((t,i)=>{ t.draggable = false; t.disabled = true; t.classList.add(placed[i]===i ? 'right':'wrong'); });
+    [...built.children].forEach((t,i)=>{ t.disabled = true; t.classList.add(placed[i]===i ? 'right':'wrong'); });
     after.innerHTML = tail(ok, ok ? '' : '<p class="answer">' + markWord(text, c.word) + '</p>');
     bindTail(text, ok);
   }
