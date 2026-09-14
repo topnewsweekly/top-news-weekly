@@ -6,7 +6,7 @@
         "2026-09-14",
         "2026-09-20"
       ],
-      "generated_at": "2026-09-14T00:57:48",
+      "generated_at": "2026-09-14T01:22:29",
       "format": {
         "name": "tabloid",
         "width_mm": 279,
@@ -43,24 +43,24 @@
           "name": "TopNews_Junior_2026-09-14.pdf",
           "media": "TOP NEWS JUNIOR",
           "level": "junior",
-          "pages": 9,
-          "articles": 7,
+          "pages": 10,
+          "articles": 8,
           "quota": 8,
-          "found": 7,
-          "quota_status": "short",
-          "size_kb": 1071
+          "found": 8,
+          "quota_status": "ok",
+          "size_kb": 1206
         },
         {
           "file": "issues/2026-09-14/TopNews_Times_2026-09-14.pdf",
           "name": "TopNews_Times_2026-09-14.pdf",
           "media": "TOP NEWS TIMES",
           "level": "times",
-          "pages": 3,
-          "articles": 1,
+          "pages": 12,
+          "articles": 10,
           "quota": 10,
-          "found": 1,
-          "quota_status": "short",
-          "size_kb": 345
+          "found": 10,
+          "quota_status": "ok",
+          "size_kb": 1771
         }
       ]
     },
