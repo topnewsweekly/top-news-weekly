@@ -28,6 +28,10 @@ jobs:
     steps:
       - name: 사이트 저장소 체크아웃
         uses: actions/checkout@v4
+        with:
+          # 기본값(fetch-depth: 1)은 얕은 복제라 아래 '커밋 & 푸시'의 rebase가 실패한다.
+          # 0 = 전체 이력. 발행 중 쌓이는 퀴즈 카드 커밋 위에 얹으려면 필요하다.
+          fetch-depth: 0
 
       - name: 빌더 토큰 확인
         # top-news-paper가 비공개라 읽기 토큰이 필요하다. 없으면 checkout이
@@ -93,7 +97,20 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add issues
           git commit -m "주간 신문 PDF ${{ steps.week.outputs.monday }}"
-          git push
+          # 발행 중에는 서버가 퀴즈 카드(cards.json)를 기사마다 커밋한다. 빌드가 끝날
+          # 즈음이면 원격이 그만큼 앞서 있어 그냥 push하면 non-fast-forward로 거부된다
+          # — 2026-09-14 발행에서 이 이유로 빌드가 연달아 실패했다.
+          # rebase로 그 커밋들 위에 얹고, 얹는 사이 또 밀릴 수 있으니 몇 번 재시도한다.
+          for i in 1 2 3 4 5; do
+            if git pull --rebase origin main && git push; then
+              echo "푸시 성공 (시도 $i)"
+              exit 0
+            fi
+            echo "푸시 밀림 — 재시도 $i"
+            sleep 5
+          done
+          echo "5회 시도 후에도 푸시 실패"
+          exit 1
 
       - name: 실패 시 조판 로그 남기기
         if: failure()
