@@ -4,7 +4,7 @@
     "2026-09-14",
     "2026-09-20"
   ],
-  "generated_at": "2026-09-14T00:53:18",
+  "generated_at": "2026-09-14T00:57:48",
   "excluded_levels": [
     "junior_m"
   ],
@@ -15,6 +15,7 @@
     "times": "feature"
   },
   "photo_scores": {
+    "assets/junior/d59a80310fa8.jpg": 0.9015,
     "assets/kids/833caa5d0de9.jpg": 0.8494,
     "assets/kids/4671546136bb.jpg": 0.8025,
     "assets/kids/35b88b926532.jpg": 0.8004,
@@ -24,6 +25,7 @@
     "assets/kinder/aeb09e050859.jpg": 0.6569,
     "assets/junior/7ea921eda41a.jpg": 0.6498,
     "assets/kinder/46ef8e2b7056.jpg": 0.6449,
+    "assets/times/9b3f6b1e55a0.jpg": 0.6416,
     "assets/kinder/aa282aedb681.jpg": 0.5791,
     "assets/junior/ca696e18180f.jpg": 0.5248,
     "assets/kids/52e21b487a1f.jpg": 0.4658,
@@ -75,10 +77,11 @@
       "level": "junior",
       "title": "TOP NEWS JUNIOR",
       "quota": 8,
-      "found": 6,
+      "found": 7,
       "status": "short",
-      "message": "부족 2건 — 6/8건으로 조판",
+      "message": "부족 1건 — 7/8건으로 조판",
       "selected": [
+        "Why School Libraries Are Disappearing",
         "What Big Sporting Events Leave Behind",
         "The Hidden Art of Translating Words",
         "Why Subscription Services Are Growing Fast",
@@ -92,24 +95,16 @@
       "level": "times",
       "title": "TOP NEWS TIMES",
       "quota": 10,
-      "found": 0,
-      "status": "empty",
-      "message": "수집 0건 — 지면 생성 불가 (규정 10)",
-      "selected": [],
+      "found": 1,
+      "status": "short",
+      "message": "부족 9건 — 1/10건으로 조판",
+      "selected": [
+        "Housing Shortage Deepens as Builder Workforce Shrinks"
+      ],
       "dropped": []
     }
   ],
   "output": [
-    {
-      "level": "times",
-      "title": "TOP NEWS TIMES",
-      "pdf": null,
-      "pages": 0,
-      "error": "기사 0건 — 지면 생성 생략",
-      "quota": 10,
-      "found": 0,
-      "quota_status": "empty"
-    },
     {
       "level": "kinder",
       "title": "TOP NEWS KINDER",
@@ -156,12 +151,12 @@
       "level": "junior",
       "title": "TOP NEWS JUNIOR",
       "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-09-14/TopNews_Junior_2026-09-14.pdf",
-      "pages": 8,
-      "expected_pages": 8,
+      "pages": 9,
+      "expected_pages": 9,
       "cover": "feature",
       "cover_feature": {
-        "page": 5,
-        "article_no": 4,
+        "page": 6,
+        "article_no": 5,
         "title": "Why Are Teens Skipping Breakfast?",
         "photo": "assets/junior/21c3656e82bd.jpg",
         "score": 0.7849,
@@ -170,7 +165,28 @@
       "photos_missing": 0,
       "error": null,
       "quota": 8,
-      "found": 6,
+      "found": 7,
+      "quota_status": "short"
+    },
+    {
+      "level": "times",
+      "title": "TOP NEWS TIMES",
+      "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-09-14/TopNews_Times_2026-09-14.pdf",
+      "pages": 3,
+      "expected_pages": 3,
+      "cover": "feature",
+      "cover_feature": {
+        "page": 2,
+        "article_no": 1,
+        "title": "Housing Shortage Deepens as Builder Workforce Shrinks",
+        "photo": "assets/times/9b3f6b1e55a0.jpg",
+        "score": 0.6416,
+        "forced": false
+      },
+      "photos_missing": 0,
+      "error": null,
+      "quota": 10,
+      "found": 1,
       "quota_status": "short"
     }
   ]
