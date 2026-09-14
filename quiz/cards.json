@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14 09:46:13",
+ "generated": "2026-09-14 09:47:48",
  "levels": {
   "kinder": [
    {
@@ -7131,6 +7131,377 @@
        "why": "recovered는 동사(과거분사)이고, recovery는 명사라 has 뒤에 쓸 수 없습니다."
       },
       "topic": "이어폰 볼륨과 청력 손상"
+     }
+    ]
+   },
+   {
+    "id": "junior|도시 하천을 되살리는 공사",
+    "level": "junior",
+    "topic": "도시 하천을 되살리는 공사",
+    "section": "환경",
+    "week": "2026-09-14",
+    "tf": [
+     {
+      "s": "For many years, pollution and concrete walls made urban rivers dirty and unsafe.",
+      "a": true
+     },
+     {
+      "s": "The process of removing concrete from riverbeds and letting water flow naturally is called 'greenlighting.'",
+      "a": false
+     },
+     {
+      "s": "Healthier rivers can help improve air quality in city areas.",
+      "a": true
+     },
+     {
+      "s": "In the United States, buried streams were covered with more concrete to create new roads.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "junior:pollution",
+      "word": "pollution",
+      "ko": "오염",
+      "filled": "For years, pollution and concrete walls along riverbanks made urban rivers dirty and unsafe.",
+      "sent_ko": "수년간, 강둑을 따라 있는 오염과 콘크리트 벽이 도시의 강을 더럽고 안전하지 않게 만들었습니다.",
+      "chunks": [
+       {
+        "en": "For years,",
+        "ko": "수년간"
+       },
+       {
+        "en": "pollution and concrete walls along riverbanks",
+        "ko": "강둑을 따라 있는 오염과 콘크리트 벽이"
+       },
+       {
+        "en": "made urban rivers",
+        "ko": "도시의 강을 만들었다"
+       },
+       {
+        "en": "dirty and unsafe.",
+        "ko": "더럽고 안전하지 않게"
+       }
+      ],
+      "rp": {
+       "situation": "도시의 강이 오랫동안 오염되어 물고기가 살 수 없는 상황이다.",
+       "prompt": "Why did the fish disappear from the river?",
+       "options": [
+        "Because pollution made the water dirty and unsafe.",
+        "Because pollution made the water dirty and unnatural."
+       ],
+       "answer": 0,
+       "why": "기사에서 오염이 강을 'dirty and unsafe'하게 만들었다고 했으므로 a가 정확하다."
+      },
+      "topic": "도시 하천을 되살리는 공사"
+     },
+     {
+      "id": "junior:restore",
+      "word": "restore",
+      "ko": "복원하다, 회복시키다",
+      "filled": "Many cities around the world are working hard to clean up and restore their rivers.",
+      "sent_ko": "세계 많은 도시들이 강을 정화하고 복원하기 위해 열심히 노력하고 있습니다.",
+      "chunks": [
+       {
+        "en": "Many cities around the world",
+        "ko": "세계 많은 도시들이"
+       },
+       {
+        "en": "are working hard",
+        "ko": "열심히 노력하고 있다"
+       },
+       {
+        "en": "to clean up and restore",
+        "ko": "정화하고 복원하기 위해"
+       },
+       {
+        "en": "their rivers.",
+        "ko": "그들의 강을"
+       }
+      ],
+      "rp": {
+       "situation": "시 정부가 오염된 강을 되살리는 프로젝트를 시작했다.",
+       "prompt": "What is the city government trying to do?",
+       "options": [
+        "They are trying to restore the river.",
+        "They are trying to restoring the river."
+       ],
+       "answer": 0,
+       "why": "to 부정사 뒤에는 동사원형이 와야 하므로 'restore'가 올바르다."
+      },
+      "topic": "도시 하천을 되살리는 공사"
+     },
+     {
+      "id": "junior:riverbank",
+      "word": "riverbank",
+      "ko": "강둑, 강변",
+      "filled": "For years, pollution and concrete walls along riverbanks made urban rivers dirty and unsafe.",
+      "sent_ko": "수년간, 강둑을 따라 있는 오염과 콘크리트 벽이 도시의 강을 더럽고 안전하지 않게 만들었습니다.",
+      "chunks": [
+       {
+        "en": "For years,",
+        "ko": "수년간"
+       },
+       {
+        "en": "pollution and concrete walls along riverbanks",
+        "ko": "강둑을 따라 있는 오염과 콘크리트 벽이"
+       },
+       {
+        "en": "made urban rivers",
+        "ko": "도시의 강을 만들었다"
+       },
+       {
+        "en": "dirty and unsafe.",
+        "ko": "더럽고 안전하지 않게"
+       }
+      ],
+      "rp": {
+       "situation": "강 복원 프로젝트 전, 강둑에 콘크리트 벽이 세워져 있었다.",
+       "prompt": "Where were the concrete walls built?",
+       "options": [
+        "The concrete walls were built along the riverbanks.",
+        "The concrete walls were built along the riverbeds."
+       ],
+       "answer": 0,
+       "why": "기사에서 콘크리트 벽은 강둑(riverbanks)을 따라 있었다고 명시되어 있다."
+      },
+      "topic": "도시 하천을 되살리는 공사"
+     },
+     {
+      "id": "junior:concrete",
+      "word": "concrete",
+      "ko": "콘크리트",
+      "filled": "Some cities have removed concrete from riverbeds and let water flow naturally again.",
+      "sent_ko": "일부 도시들은 강바닥에서 콘크리트를 제거하고 물이 다시 자연스럽게 흐르도록 했습니다.",
+      "chunks": [
+       {
+        "en": "Some cities have removed concrete",
+        "ko": "일부 도시들은 콘크리트를 제거했다"
+       },
+       {
+        "en": "from riverbeds",
+        "ko": "강바닥에서"
+       },
+       {
+        "en": "and let water flow naturally again.",
+        "ko": "그리고 물이 다시 자연스럽게 흐르도록 했다"
+       }
+      ],
+      "rp": {
+       "situation": "강 복원 작업자들이 강바닥에서 콘크리트를 걷어내고 있다.",
+       "prompt": "What are the workers taking out of the riverbed?",
+       "options": [
+        "They are removing the concrete from the riverbed.",
+        "They are removing the concretes from the riverbed."
+       ],
+       "answer": 0,
+       "why": "concrete는 불가산 명사이므로 복수형 concretes는 쓸 수 없다."
+      },
+      "topic": "도시 하천을 되살리는 공사"
+     },
+     {
+      "id": "junior:natural",
+      "word": "natural",
+      "ko": "자연적인, 천연의",
+      "filled": "Clean, natural rivers can also help reduce flooding.",
+      "sent_ko": "깨끗하고 자연적인 강은 홍수를 줄이는 데에도 도움이 될 수 있습니다.",
+      "chunks": [
+       {
+        "en": "Clean, natural rivers",
+        "ko": "깨끗하고 자연적인 강은"
+       },
+       {
+        "en": "can also help",
+        "ko": "또한 도움이 될 수 있다"
+       },
+       {
+        "en": "reduce flooding.",
+        "ko": "홍수를 줄이는 데"
+       }
+      ],
+      "rp": {
+       "situation": "콘크리트가 제거된 후 강이 스스로 흐르며 식물과 물고기가 돌아오고 있다.",
+       "prompt": "How would you describe the river now?",
+       "options": [
+        "The river looks very natural now.",
+        "The river looks very naturally now."
+       ],
+       "answer": 0,
+       "why": "looks 같은 연결동사 뒤에는 형용사 natural이 와야 하며 부사 naturally는 쓸 수 없다."
+      },
+      "topic": "도시 하천을 되살리는 공사"
+     },
+     {
+      "id": "junior:flooding",
+      "word": "flooding",
+      "ko": "홍수, 침수",
+      "filled": "Clean, natural rivers can also help reduce flooding.",
+      "sent_ko": "깨끗하고 자연적인 강은 홍수를 줄이는 데에도 도움이 될 수 있습니다.",
+      "chunks": [
+       {
+        "en": "Clean, natural rivers",
+        "ko": "깨끗하고 자연적인 강은"
+       },
+       {
+        "en": "can also help",
+        "ko": "또한 도움이 될 수 있다"
+       },
+       {
+        "en": "reduce flooding.",
+        "ko": "홍수를 줄이는 데"
+       }
+      ],
+      "rp": {
+       "situation": "도시 강 복원 후 비가 많이 와도 주변 지역이 물에 잠기지 않았다.",
+       "prompt": "What did the restored river help prevent?",
+       "options": [
+        "It helped reduce flooding in the area.",
+        "It helped reduce to flood in the area."
+       ],
+       "answer": 0,
+       "why": "help reduce 뒤에는 명사 flooding이 와야 하며 'to flood'는 이 구조에서 자연스럽지 않다."
+      },
+      "topic": "도시 하천을 되살리는 공사"
+     },
+     {
+      "id": "junior:recover",
+      "word": "recover",
+      "ko": "회복하다",
+      "filled": "These projects show that rivers can recover if people take care of them.",
+      "sent_ko": "이 프로젝트들은 사람들이 강을 돌본다면 강이 회복될 수 있음을 보여줍니다.",
+      "chunks": [
+       {
+        "en": "These projects show",
+        "ko": "이 프로젝트들은 보여준다"
+       },
+       {
+        "en": "that rivers can recover",
+        "ko": "강이 회복될 수 있음을"
+       },
+       {
+        "en": "if people take care of them.",
+        "ko": "사람들이 강을 돌본다면"
+       }
+      ],
+      "rp": {
+       "situation": "오염됐던 강에서 복원 프로젝트가 진행된 후 물고기와 식물이 돌아오고 있다.",
+       "prompt": "Is the river getting better?",
+       "options": [
+        "Yes, the river is starting to recover.",
+        "Yes, the river is starting to recovery."
+       ],
+       "answer": 0,
+       "why": "to 부정사 뒤에는 동사원형 recover가 와야 하며 명사 recovery는 쓸 수 없다."
+      },
+      "topic": "도시 하천을 되살리는 공사"
+     },
+     {
+      "id": "junior:wildlife",
+      "word": "wildlife",
+      "ko": "야생 동물",
+      "filled": "Healthier rivers also improve air quality and bring wildlife back to city areas.",
+      "sent_ko": "더 건강한 강은 또한 대기 질을 개선하고 야생 동물을 도시 지역으로 다시 데려옵니다.",
+      "chunks": [
+       {
+        "en": "Healthier rivers",
+        "ko": "더 건강한 강은"
+       },
+       {
+        "en": "also improve air quality",
+        "ko": "또한 대기 질을 개선하고"
+       },
+       {
+        "en": "and bring wildlife back",
+        "ko": "야생 동물을 다시 데려온다"
+       },
+       {
+        "en": "to city areas.",
+        "ko": "도시 지역으로"
+       }
+      ],
+      "rp": {
+       "situation": "강이 복원된 후 새와 물고기 같은 동물들이 도시 강가로 돌아오고 있다.",
+       "prompt": "What has come back to the city river area?",
+       "options": [
+        "A lot of wildlife has come back to the river.",
+        "A lot of wildlife have come back to the river."
+       ],
+       "answer": 0,
+       "why": "wildlife는 단수 불가산 명사로 취급하므로 has가 올바른 동사 형태이다."
+      },
+      "topic": "도시 하천을 되살리는 공사"
+     },
+     {
+      "id": "junior:buried",
+      "word": "buried",
+      "ko": "묻힌, 매립된",
+      "filled": "In the United States, some buried streams have been uncovered and turned into green spaces for communities.",
+      "sent_ko": "미국에서는 일부 묻혀 있던 하천들이 발굴되어 지역 사회를 위한 녹지 공간으로 바뀌었습니다.",
+      "chunks": [
+       {
+        "en": "In the United States,",
+        "ko": "미국에서는"
+       },
+       {
+        "en": "some buried streams",
+        "ko": "일부 묻혀 있던 하천들이"
+       },
+       {
+        "en": "have been uncovered",
+        "ko": "발굴되었다"
+       },
+       {
+        "en": "and turned into green spaces for communities.",
+        "ko": "그리고 지역 사회를 위한 녹지 공간으로 바뀌었다"
+       }
+      ],
+      "rp": {
+       "situation": "미국의 한 도시에서 땅속에 덮여 있던 하천을 찾아내 공원으로 만들었다.",
+       "prompt": "What did they find under the city?",
+       "options": [
+        "They found a buried stream under the city.",
+        "They found a burying stream under the city."
+       ],
+       "answer": 0,
+       "why": "땅속에 덮혀 있는 상태를 나타낼 때는 과거분사 buried를 써야 한다."
+      },
+      "topic": "도시 하천을 되살리는 공사"
+     },
+     {
+      "id": "junior:community",
+      "word": "community",
+      "ko": "지역 사회, 공동체",
+      "filled": "In the United States, some buried streams have been uncovered and turned into green spaces for communities.",
+      "sent_ko": "미국에서는 일부 묻혀 있던 하천들이 발굴되어 지역 사회를 위한 녹지 공간으로 바뀌었습니다.",
+      "chunks": [
+       {
+        "en": "In the United States,",
+        "ko": "미국에서는"
+       },
+       {
+        "en": "some buried streams",
+        "ko": "일부 묻혀 있던 하천들이"
+       },
+       {
+        "en": "have been uncovered",
+        "ko": "발굴되었다"
+       },
+       {
+        "en": "and turned into green spaces for communities.",
+        "ko": "그리고 지역 사회를 위한 녹지 공간으로 바뀌었다"
+       }
+      ],
+      "rp": {
+       "situation": "미국의 복원된 강 주변이 녹지 공간으로 바뀌어 근처 주민들이 함께 이용하고 있다.",
+       "prompt": "Who are these green spaces made for?",
+       "options": [
+        "They are made for the local communities.",
+        "They are made by the local communities."
+       ],
+       "answer": 0,
+       "why": "녹지가 지역 사회를 위해 만들어진 것이므로 목적을 나타내는 for가 올바르다."
+      },
+      "topic": "도시 하천을 되살리는 공사"
      }
     ]
    }
