@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14 09:52:40",
+ "generated": "2026-09-14 09:52:43",
  "levels": {
   "kinder": [
    {
@@ -8961,6 +8961,397 @@
        "why": "afterward가 올바른 철자이며 afterword는 '후기(책의 맺음말)'를 뜻하는 전혀 다른 단어입니다."
       },
       "topic": "국제 대회가 도시에 남기는 것"
+     }
+    ]
+   },
+   {
+    "id": "junior|번역가가 고민하는 말맛",
+    "level": "junior",
+    "topic": "번역가가 고민하는 말맛",
+    "section": "문화",
+    "week": "2026-09-14",
+    "tf": [
+     {
+      "s": "The Korean word 'nunchi' has a single, clear translation in English.",
+      "a": false
+     },
+     {
+      "s": "Translating humor is difficult because jokes often depend on cultural background.",
+      "a": true
+     },
+     {
+      "s": "Transcreation means moving only the words of a sentence from one language to another.",
+      "a": false
+     },
+     {
+      "s": "Good translators try to carry both the feeling and meaning of a text across languages.",
+      "a": true
+     }
+    ],
+    "cards": [
+     {
+      "id": "junior:translate",
+      "word": "translate",
+      "ko": "번역하다",
+      "filled": "Humor is also hard to translate.",
+      "sent_ko": "유머는 번역하기도 어렵습니다.",
+      "chunks": [
+       {
+        "en": "Humor",
+        "ko": "유머는"
+       },
+       {
+        "en": "is also hard",
+        "ko": "또한 어렵습니다"
+       },
+       {
+        "en": "to translate.",
+        "ko": "번역하기"
+       }
+      ],
+      "rp": {
+       "situation": "번역가가 한국 유머를 영어로 옮기려 하고 있습니다.",
+       "prompt": "Why is your job so difficult?",
+       "options": [
+        "Jokes are very hard to translate.",
+        "Jokes are very hard to translation."
+       ],
+       "answer": 0,
+       "why": "'translate'는 동사이므로 'to translate'가 맞고, 명사형 'translation'은 이 자리에 쓸 수 없습니다."
+      },
+      "topic": "번역가가 고민하는 말맛"
+     },
+     {
+      "id": "junior:phrase",
+      "word": "phrase",
+      "ko": "구절, 표현",
+      "filled": "A translator must choose a phrase that gives readers a similar idea.",
+      "sent_ko": "번역가는 독자들에게 비슷한 생각을 전달하는 표현을 골라야 합니다.",
+      "chunks": [
+       {
+        "en": "A translator must choose",
+        "ko": "번역가는 골라야 합니다"
+       },
+       {
+        "en": "a phrase",
+        "ko": "표현을"
+       },
+       {
+        "en": "that gives readers",
+        "ko": "독자들에게 전달하는"
+       },
+       {
+        "en": "a similar idea.",
+        "ko": "비슷한 생각을"
+       }
+      ],
+      "rp": {
+       "situation": "번역가가 'nunchi'를 영어로 옮길 단어를 찾고 있습니다.",
+       "prompt": "Did you find one word for 'nunchi'?",
+       "options": [
+        "No, I had to choose a phrase instead.",
+        "No, I had to choose a word instead."
+       ],
+       "answer": 0,
+       "why": "기사에서 'nunchi'에 맞는 단어가 없어 'phrase(표현)'를 골라야 한다고 했습니다."
+      },
+      "topic": "번역가가 고민하는 말맛"
+     },
+     {
+      "id": "junior:match",
+      "word": "match",
+      "ko": "일치하다, 맞추다",
+      "filled": "Sometimes, a word or phrase in one language has no clear match in another.",
+      "sent_ko": "때로는 한 언어의 단어나 표현이 다른 언어에서 명확한 일치어를 찾지 못합니다.",
+      "chunks": [
+       {
+        "en": "Sometimes,",
+        "ko": "때로는"
+       },
+       {
+        "en": "a word or phrase",
+        "ko": "단어나 표현이"
+       },
+       {
+        "en": "in one language",
+        "ko": "한 언어에서"
+       },
+       {
+        "en": "has no clear match",
+        "ko": "명확한 일치어가 없습니다"
+       },
+       {
+        "en": "in another.",
+        "ko": "다른 언어에서"
+       }
+      ],
+      "rp": {
+       "situation": "번역가가 한국어 단어 'nunchi'의 영어 대응어를 찾고 있습니다.",
+       "prompt": "Is there an English word for 'nunchi'?",
+       "options": [
+        "No, there is no clear match in English.",
+        "No, there is no clear matching in English."
+       ],
+       "answer": 0,
+       "why": "'match'는 여기서 명사로 쓰이므로 동명사 'matching'이 아닌 'match'가 맞습니다."
+      },
+      "topic": "번역가가 고민하는 말맛"
+     },
+     {
+      "id": "junior:ability",
+      "word": "ability",
+      "ko": "능력",
+      "filled": "For example, the Korean word 'nunchi' means the ability to read a room and understand people's feelings quickly.",
+      "sent_ko": "예를 들어, 한국어 단어 'nunchi'는 분위기를 파악하고 사람들의 감정을 빠르게 이해하는 능력을 의미합니다.",
+      "chunks": [
+       {
+        "en": "For example,",
+        "ko": "예를 들어"
+       },
+       {
+        "en": "the Korean word 'nunchi'",
+        "ko": "한국어 단어 'nunchi'는"
+       },
+       {
+        "en": "means the ability",
+        "ko": "능력을 의미합니다"
+       },
+       {
+        "en": "to read a room",
+        "ko": "분위기를 파악하는"
+       },
+       {
+        "en": "and understand people's feelings quickly.",
+        "ko": "그리고 사람들의 감정을 빠르게 이해하는"
+       }
+      ],
+      "rp": {
+       "situation": "번역가가 'nunchi'의 뜻을 영어로 설명하고 있습니다.",
+       "prompt": "What does 'nunchi' mean exactly?",
+       "options": [
+        "It means the ability to read a room quickly.",
+        "It means the able to read a room quickly."
+       ],
+       "answer": 0,
+       "why": "'ability'는 명사이므로 'the ability'가 맞고, 형용사 'able'은 이 자리에 쓸 수 없습니다."
+      },
+      "topic": "번역가가 고민하는 말맛"
+     },
+     {
+      "id": "junior:cultural",
+      "word": "cultural",
+      "ko": "문화적인",
+      "filled": "A joke in one language often does not work in another because it depends on cultural background.",
+      "sent_ko": "한 언어의 농담은 문화적 배경에 따라 다르기 때문에 다른 언어에서는 종종 통하지 않습니다.",
+      "chunks": [
+       {
+        "en": "A joke in one language",
+        "ko": "한 언어의 농담은"
+       },
+       {
+        "en": "often does not work in another",
+        "ko": "다른 언어에서는 종종 통하지 않습니다"
+       },
+       {
+        "en": "because it depends on",
+        "ko": "왜냐하면 그것은 ~에 따라 다르기 때문입니다"
+       },
+       {
+        "en": "cultural background.",
+        "ko": "문화적 배경"
+       }
+      ],
+      "rp": {
+       "situation": "번역가가 왜 농담 번역이 어려운지 설명하고 있습니다.",
+       "prompt": "Why don't jokes work in other languages?",
+       "options": [
+        "Because they depend on cultural background.",
+        "Because they depend on culture background."
+       ],
+       "answer": 0,
+       "why": "'background'을 꾸미는 자리에는 형용사 'cultural'이 와야 하고, 명사 'culture'는 쓸 수 없습니다."
+      },
+      "topic": "번역가가 고민하는 말맛"
+     },
+     {
+      "id": "junior:humor",
+      "word": "humor",
+      "ko": "유머, 웃음",
+      "filled": "Humor is also hard to translate.",
+      "sent_ko": "유머는 번역하기도 어렵습니다.",
+      "chunks": [
+       {
+        "en": "Humor",
+        "ko": "유머는"
+       },
+       {
+        "en": "is also hard",
+        "ko": "또한 어렵습니다"
+       },
+       {
+        "en": "to translate.",
+        "ko": "번역하기"
+       }
+      ],
+      "rp": {
+       "situation": "번역가가 한국 코미디 프로그램을 영어로 옮기고 있습니다.",
+       "prompt": "How is the translation going?",
+       "options": [
+        "The humor is very hard to carry across.",
+        "The humorous is very hard to carry across."
+       ],
+       "answer": 0,
+       "why": "'humor'는 명사로 주어 자리에 써야 하며, 형용사 'humorous'는 주어로 쓸 수 없습니다."
+      },
+      "topic": "번역가가 고민하는 말맛"
+     },
+     {
+      "id": "junior:rewrite",
+      "word": "rewrite",
+      "ko": "다시 쓰다, 고쳐 쓰다",
+      "filled": "Translators must rewrite the joke so it feels funny to new readers.",
+      "sent_ko": "번역가들은 새로운 독자들에게 재미있게 느껴지도록 농담을 고쳐 써야 합니다.",
+      "chunks": [
+       {
+        "en": "Translators must rewrite",
+        "ko": "번역가들은 고쳐 써야 합니다"
+       },
+       {
+        "en": "the joke",
+        "ko": "농담을"
+       },
+       {
+        "en": "so it feels funny",
+        "ko": "재미있게 느껴지도록"
+       },
+       {
+        "en": "to new readers.",
+        "ko": "새로운 독자들에게"
+       }
+      ],
+      "rp": {
+       "situation": "번역가가 영어 독자를 위해 한국 농담을 다시 작업하고 있습니다.",
+       "prompt": "What do you do when a joke doesn't work?",
+       "options": [
+        "I rewrite it so it feels funny to new readers.",
+        "I rewrite it so it feels funnily to new readers."
+       ],
+       "answer": 0,
+       "why": "'feel'은 연결동사이므로 뒤에 형용사 'funny'가 와야 하고, 부사 'funnily'는 쓸 수 없습니다."
+      },
+      "topic": "번역가가 고민하는 말맛"
+     },
+     {
+      "id": "junior:creative",
+      "word": "creative",
+      "ko": "창의적인",
+      "filled": "This creative skill is called 'transcreation.' Good translators do not just move words from one language to another.",
+      "sent_ko": "이 창의적인 기술은 '트랜스크리에이션'이라고 불립니다. 훌륭한 번역가들은 단순히 한 언어에서 다른 언어로 단어를 옮기지 않습니다.",
+      "chunks": [
+       {
+        "en": "This creative skill",
+        "ko": "이 창의적인 기술은"
+       },
+       {
+        "en": "is called 'transcreation.'",
+        "ko": "'트랜스크리에이션'이라고 불립니다"
+       },
+       {
+        "en": "Good translators",
+        "ko": "훌륭한 번역가들은"
+       },
+       {
+        "en": "do not just move words",
+        "ko": "단순히 단어를 옮기지 않습니다"
+       },
+       {
+        "en": "from one language to another.",
+        "ko": "한 언어에서 다른 언어로"
+       }
+      ],
+      "rp": {
+       "situation": "선생님이 트랜스크리에이션이 무엇인지 설명하고 있습니다.",
+       "prompt": "What kind of skill is transcreation?",
+       "options": [
+        "It is a creative skill that carries meaning across.",
+        "It is a creatively skill that carries meaning across."
+       ],
+       "answer": 0,
+       "why": "명사 'skill'을 꾸미는 자리에는 형용사 'creative'가 와야 하고, 부사 'creatively'는 쓸 수 없습니다."
+      },
+      "topic": "번역가가 고민하는 말맛"
+     },
+     {
+      "id": "junior:feeling",
+      "word": "feeling",
+      "ko": "느낌, 감정",
+      "filled": "They carry the feeling and meaning across, so readers in any language can truly understand.",
+      "sent_ko": "그들은 느낌과 의미를 전달하여 어떤 언어의 독자들도 진정으로 이해할 수 있게 합니다.",
+      "chunks": [
+       {
+        "en": "They carry",
+        "ko": "그들은 전달합니다"
+       },
+       {
+        "en": "the feeling and meaning across,",
+        "ko": "느낌과 의미를"
+       },
+       {
+        "en": "so readers in any language",
+        "ko": "어떤 언어의 독자들도"
+       },
+       {
+        "en": "can truly understand.",
+        "ko": "진정으로 이해할 수 있게"
+       }
+      ],
+      "rp": {
+       "situation": "번역가가 자신의 목표를 설명하고 있습니다.",
+       "prompt": "What do you try to carry across when you translate?",
+       "options": [
+        "I try to carry the feeling and meaning across.",
+        "I try to carry the feel and meaning across."
+       ],
+       "answer": 0,
+       "why": "'감정'을 뜻하는 명사로 이 문맥에서는 'feeling'이 맞고, 'feel'은 이 자리에서 자연스럽지 않습니다."
+      },
+      "topic": "번역가가 고민하는 말맛"
+     },
+     {
+      "id": "junior:meaning",
+      "word": "meaning",
+      "ko": "의미, 뜻",
+      "filled": "They carry the feeling and meaning across, so readers in any language can truly understand.",
+      "sent_ko": "그들은 느낌과 의미를 전달하여 어떤 언어의 독자들도 진정으로 이해할 수 있게 합니다.",
+      "chunks": [
+       {
+        "en": "They carry",
+        "ko": "그들은 전달합니다"
+       },
+       {
+        "en": "the feeling and meaning across,",
+        "ko": "느낌과 의미를"
+       },
+       {
+        "en": "so readers in any language",
+        "ko": "어떤 언어의 독자들도"
+       },
+       {
+        "en": "can truly understand.",
+        "ko": "진정으로 이해할 수 있게"
+       }
+      ],
+      "rp": {
+       "situation": "번역가가 'nunchi'의 뜻을 영어 독자에게 전달하려 합니다.",
+       "prompt": "What is your job as a translator?",
+       "options": [
+        "My job is to carry the meaning across to new readers.",
+        "My job is to carry the meanings across to new readers."
+       ],
+       "answer": 0,
+       "why": "기사에서 'meaning'은 셀 수 없는 개념으로 단수형으로 쓰였으며, 복수형 'meanings'는 이 문맥에서 어색합니다."
+      },
+      "topic": "번역가가 고민하는 말맛"
      }
     ]
    }
