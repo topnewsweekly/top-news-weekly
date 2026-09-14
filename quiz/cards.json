@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14 09:44:28",
+ "generated": "2026-09-14 09:46:13",
  "levels": {
   "kinder": [
    {
@@ -4667,6 +4667,209 @@
        "why": "safe는 명사 way를 꾸미는 형용사이며, safely는 부사라 명사를 꾸밀 수 없습니다."
       },
       "topic": "지문으로 문이 열리는 원리"
+     }
+    ]
+   },
+   {
+    "id": "kids|나라마다 다른 추석 같은 명절",
+    "level": "kids",
+    "topic": "나라마다 다른 추석 같은 명절",
+    "section": "문화",
+    "week": "2026-09-14",
+    "tf": [
+     {
+      "s": "Chuseok is a holiday in South Korea that happens in autumn.",
+      "a": true
+     },
+     {
+      "s": "During the Mid-Autumn Festival, families in China eat round rice cakes.",
+      "a": false
+     },
+     {
+      "s": "Lanterns light up the streets in many cities during the Mid-Autumn Festival in China.",
+      "a": true
+     },
+     {
+      "s": "Japan's Labor Thanksgiving Day is celebrated on November 30th every year.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "kids:harvest",
+      "word": "harvest",
+      "ko": "수확, 추수",
+      "filled": "Let's look at three harvest holidays from around the world!",
+      "sent_ko": "전 세계의 세 가지 수확 명절을 살펴봅시다!",
+      "chunks": [
+       {
+        "en": "Let's look at",
+        "ko": "살펴봅시다"
+       },
+       {
+        "en": "three harvest holidays",
+        "ko": "세 가지 수확 명절"
+       },
+       {
+        "en": "from around the world!",
+        "ko": "전 세계의"
+       }
+      ],
+      "rp": {
+       "situation": "추석, 중추절, 근로감사의 날처럼 수확을 감사하는 명절들을 소개하고 있어요.",
+       "prompt": "What kind of holidays are Chuseok, the Mid-Autumn Festival, and Labor Thanksgiving Day?",
+       "options": [
+        "They are harvest holidays.",
+        "They are harvesting holidays."
+       ],
+       "answer": 0,
+       "why": "명절 이름 앞에는 명사 harvest를 써야 하고, harvesting은 어색해요."
+      },
+      "topic": "나라마다 다른 추석 같은 명절"
+     },
+     {
+      "id": "kids:ancestor",
+      "word": "ancestor",
+      "ko": "조상, 선조",
+      "filled": "Families come together and eat special rice cakes called 'songpyeon.' They also visit the graves of their ancestors to show respect.",
+      "sent_ko": "가족들이 함께 모여 '송편'이라는 특별한 떡을 먹습니다. 그들은 또한 조상들의 묘를 방문하여 존경을 표합니다.",
+      "chunks": null,
+      "rp": {
+       "situation": "추석에 가족들이 조상의 묘를 찾아가고 있어요.",
+       "prompt": "Why are the families going to the graves?",
+       "options": [
+        "They are visiting their ancestors.",
+        "They are visiting their ancestral."
+       ],
+       "answer": 0,
+       "why": "ancestors는 명사이고, ancestral은 형용사라서 단독으로 쓸 수 없어요."
+      },
+      "topic": "나라마다 다른 추석 같은 명절"
+     },
+     {
+      "id": "kids:respect",
+      "word": "respect",
+      "ko": "존경, 존중",
+      "filled": "Families come together and eat special rice cakes called 'songpyeon.' They also visit the graves of their ancestors to show respect.",
+      "sent_ko": "가족들이 함께 모여 '송편'이라는 특별한 떡을 먹습니다. 그들은 또한 조상들의 묘를 방문하여 존경을 표합니다.",
+      "chunks": null,
+      "rp": {
+       "situation": "추석에 가족들이 조상의 묘 앞에 서 있어요.",
+       "prompt": "What do the families do at the graves?",
+       "options": [
+        "They show respect.",
+        "They show respectful."
+       ],
+       "answer": 0,
+       "why": "show 뒤에는 명사 respect가 와야 하고, 형용사 respectful은 쓸 수 없어요."
+      },
+      "topic": "나라마다 다른 추석 같은 명절"
+     },
+     {
+      "id": "kids:togetherness",
+      "word": "togetherness",
+      "ko": "함께함, 유대감",
+      "filled": "The round shape means family and togetherness.",
+      "sent_ko": "둥근 모양은 가족과 함께함을 의미합니다.",
+      "chunks": [
+       {
+        "en": "The round shape",
+        "ko": "둥근 모양은"
+       },
+       {
+        "en": "means",
+        "ko": "의미합니다"
+       },
+       {
+        "en": "family and togetherness.",
+        "ko": "가족과 함께함을"
+       }
+      ],
+      "rp": {
+       "situation": "중추절에 가족들이 둥근 월병을 함께 먹고 있어요.",
+       "prompt": "What does the round shape of the moon cake mean?",
+       "options": [
+        "It means family and togetherness.",
+        "It means family and together."
+       ],
+       "answer": 0,
+       "why": "means 뒤에는 명사가 와야 해서 togetherness가 맞고, 부사 together는 쓸 수 없어요."
+      },
+      "topic": "나라마다 다른 추석 같은 명절"
+     },
+     {
+      "id": "kids:lantern",
+      "word": "lantern",
+      "ko": "등불, 초롱",
+      "filled": "Lanterns light up the streets in many cities.",
+      "sent_ko": "많은 도시의 거리를 등불들이 밝혀 줍니다.",
+      "chunks": [
+       {
+        "en": "Lanterns",
+        "ko": "등불들이"
+       },
+       {
+        "en": "light up",
+        "ko": "밝혀 줍니다"
+       },
+       {
+        "en": "the streets",
+        "ko": "거리를"
+       },
+       {
+        "en": "in many cities.",
+        "ko": "많은 도시의"
+       }
+      ],
+      "rp": {
+       "situation": "중추절 밤에 중국 도시 거리가 환하게 빛나고 있어요.",
+       "prompt": "What makes the streets bright on Mid-Autumn Festival night?",
+       "options": [
+        "Lanterns light up the streets.",
+        "Lanterns light the streets up on."
+       ],
+       "answer": 0,
+       "why": "'light up + 목적어' 순서가 맞고, b는 전치사 on이 잘못 붙어서 틀려요."
+      },
+      "topic": "나라마다 다른 추석 같은 명절"
+     },
+     {
+      "id": "kids:celebrate",
+      "word": "celebrate",
+      "ko": "기념하다, 축하하다",
+      "filled": "🏮 Mid-Autumn Festival — China People in China celebrate this holiday on a full moon night in autumn.",
+      "sent_ko": "중국 사람들은 가을의 보름달 밤에 이 명절을 기념합니다.",
+      "chunks": null,
+      "rp": {
+       "situation": "중추절 밤에 중국 가족들이 함께 월병을 먹고 달을 바라보고 있어요.",
+       "prompt": "What are the families doing tonight?",
+       "options": [
+        "They are celebrating the holiday.",
+        "They are celebrate the holiday."
+       ],
+       "answer": 0,
+       "why": "진행형에는 동사원형이 아닌 -ing형을 써야 해요."
+      },
+      "topic": "나라마다 다른 추석 같은 명절"
+     },
+     {
+      "id": "kids:autumn",
+      "word": "autumn",
+      "ko": "가을",
+      "filled": "🌕 Chuseok — South Korea Chuseok is a big Korean holiday in autumn.",
+      "sent_ko": "추석은 가을에 있는 큰 한국 명절입니다.",
+      "chunks": null,
+      "rp": {
+       "situation": "추석이 언제인지 친구에게 설명하고 있어요.",
+       "prompt": "When does Chuseok happen?",
+       "options": [
+        "It happens in autumn.",
+        "It happens in autumnal."
+       ],
+       "answer": 0,
+       "why": "in 뒤에는 명사 autumn이 와야 하고, 형용사 autumnal은 쓸 수 없어요."
+      },
+      "topic": "나라마다 다른 추석 같은 명절"
      }
     ]
    }
