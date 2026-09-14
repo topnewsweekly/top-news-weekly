@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14 09:39:38",
+ "generated": "2026-09-14 09:39:57",
  "levels": {
   "kinder": [
    {
@@ -1373,6 +1373,173 @@
        "why": "'dry'는 형용사로 상태를 나타내고, 'drying'은 이 문장에서 어색해요."
       },
       "topic": "거미는 왜 자기 줄에 안 붙을까"
+     }
+    ]
+   },
+   {
+    "id": "kinder|가을에는 왜 하늘이 높아 보일까",
+    "level": "kinder",
+    "topic": "가을에는 왜 하늘이 높아 보일까",
+    "section": "과학",
+    "week": "2026-09-14",
+    "tf": [
+     {
+      "s": "The sky looks very high in fall.",
+      "a": true
+     },
+     {
+      "s": "In summer, the air is dry.",
+      "a": false
+     },
+     {
+      "s": "Dry air is very clear.",
+      "a": true
+     },
+     {
+      "s": "In fall, the sky looks short and gray.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "kinder:sky",
+      "word": "sky",
+      "ko": "하늘",
+      "filled": "Look up at the sky!",
+      "sent_ko": "하늘을 올려다봐!",
+      "chunks": [
+       {
+        "en": "Look up",
+        "ko": "올려다봐"
+       },
+       {
+        "en": "at the sky!",
+        "ko": "하늘을"
+       }
+      ],
+      "rp": {
+       "situation": "가을 하늘이 높고 파랗게 보여요. 친구가 위를 가리켜요.",
+       "prompt": "What are you looking at?",
+       "options": [
+        "I'm looking at the sky.",
+        "I'm looking at the sky's."
+       ],
+       "answer": 0,
+       "why": "sky는 명사 단독으로 쓰고, sky's처럼 소유격을 붙이면 비문이에요."
+      },
+      "topic": "가을에는 왜 하늘이 높아 보일까"
+     },
+     {
+      "id": "kinder:fall",
+      "word": "fall",
+      "ko": "떨어지다",
+      "filled": "It looks very high in fall.",
+      "sent_ko": "가을에 하늘은 아주 높아 보여요.",
+      "chunks": [
+       {
+        "en": "It looks very high",
+        "ko": "아주 높아 보여요"
+       },
+       {
+        "en": "in fall.",
+        "ko": "가을에"
+       }
+      ],
+      "rp": {
+       "situation": "지금은 여름이 끝나고 나뭇잎이 물드는 계절이에요.",
+       "prompt": "What season is it?",
+       "options": [
+        "It is fall.",
+        "It is falls."
+       ],
+       "answer": 0,
+       "why": "계절 이름은 명사 단독으로 쓰고, falls처럼 -s를 붙이지 않아요."
+      },
+      "topic": "가을에는 왜 하늘이 높아 보일까"
+     },
+     {
+      "id": "kinder:air",
+      "word": "air",
+      "ko": "공기",
+      "filled": "Dry air is very clear.",
+      "sent_ko": "건조한 공기는 매우 맑아요.",
+      "chunks": [
+       {
+        "en": "Dry air",
+        "ko": "건조한 공기는"
+       },
+       {
+        "en": "is very clear.",
+        "ko": "매우 맑아요"
+       }
+      ],
+      "rp": {
+       "situation": "가을 하늘 아래에 서 있어요. 주변이 뽀송뽀송하게 느껴져요.",
+       "prompt": "How does it feel outside?",
+       "options": [
+        "The air is dry.",
+        "The air are dry."
+       ],
+       "answer": 0,
+       "why": "air는 셀 수 없는 명사라 동사는 is를 써요. are는 틀려요."
+      },
+      "topic": "가을에는 왜 하늘이 높아 보일까"
+     },
+     {
+      "id": "kinder:dry",
+      "word": "dry",
+      "ko": "건조한",
+      "filled": "Dry air is very clear.",
+      "sent_ko": "건조한 공기는 매우 맑아요.",
+      "chunks": [
+       {
+        "en": "Dry air",
+        "ko": "건조한 공기는"
+       },
+       {
+        "en": "is very clear.",
+        "ko": "매우 맑아요"
+       }
+      ],
+      "rp": {
+       "situation": "가을이라 하늘이 높고, 공기에 습기가 전혀 없어요.",
+       "prompt": "What is the air like in fall?",
+       "options": [
+        "The air is dry.",
+        "The air is drying."
+       ],
+       "answer": 0,
+       "why": "공기의 상태를 나타낼 때는 형용사 dry를 써요. drying은 동작을 뜻해서 어색해요."
+      },
+      "topic": "가을에는 왜 하늘이 높아 보일까"
+     },
+     {
+      "id": "kinder:clear",
+      "word": "clear",
+      "ko": "맑은, 명확한",
+      "filled": "Dry air is very clear.",
+      "sent_ko": "건조한 공기는 매우 맑아요.",
+      "chunks": [
+       {
+        "en": "Dry air",
+        "ko": "건조한 공기는"
+       },
+       {
+        "en": "is very clear.",
+        "ko": "매우 맑아요"
+       }
+      ],
+      "rp": {
+       "situation": "가을 공기가 건조해서 하늘이 멀리까지 잘 보여요.",
+       "prompt": "How is the fall air?",
+       "options": [
+        "The air is clear.",
+        "The air is clearly."
+       ],
+       "answer": 0,
+       "why": "be동사 뒤에는 형용사 clear를 써요. clearly는 부사라 여기서 쓸 수 없어요."
+      },
+      "topic": "가을에는 왜 하늘이 높아 보일까"
      }
     ]
    }
