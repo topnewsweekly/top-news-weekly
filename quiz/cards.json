@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14 10:14:24",
+ "generated": "2026-09-14 10:15:30",
  "levels": {
   "kinder": [
    {
@@ -16300,6 +16300,320 @@
        "why": "'정책'을 뜻하는 명사는 policy이며, politic은 이 명사 수식 용법으로 쓰이지 않는다."
       },
       "topic": "관세 전쟁과 소비자 물가"
+     }
+    ]
+   },
+   {
+    "id": "times|자율주행 사고의 책임 소재",
+    "level": "times",
+    "topic": "자율주행 사고의 책임 소재",
+    "section": "기술",
+    "week": "2026-09-14",
+    "tf": [
+     {
+      "s": "The 2025 Tesla court case resulted in the manufacturer being held partly responsible for the crash.",
+      "a": true
+     },
+     {
+      "s": "The US jury ordered Tesla to pay over $240 million after a crash linked to its self-driving system.",
+      "a": true
+     },
+     {
+      "s": "Current traffic laws were specifically written to address accidents involving self-driving vehicles.",
+      "a": false
+     },
+     {
+      "s": "In accidents involving self-driving technology, investigators only need to speak with witnesses — vehicle data is not considered useful.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "times:liable",
+      "word": "liable",
+      "ko": "(법적) 책임이 있는",
+      "filled": "The case was significant because it held the manufacturer partly liable, not just the person behind the wheel.",
+      "sent_ko": "이 사건은 운전자뿐만 아니라 제조업체에도 부분적인 법적 책임이 있다고 판단했기 때문에 중요했다.",
+      "chunks": null,
+      "rp": {
+       "situation": "테슬라 오토파일럿 사고 재판에서 배심원단이 제조사의 책임을 인정했다.",
+       "prompt": "What did the court decide about Tesla?",
+       "options": [
+        "The court held Tesla partly liable for the crash.",
+        "The court held Tesla partly liability for the crash."
+       ],
+       "answer": 0,
+       "why": "liable은 형용사, liability는 명사이므로 hold 뒤에는 형용사 liable이 맞다."
+      },
+      "topic": "자율주행 사고의 책임 소재"
+     },
+     {
+      "id": "times:self-driving",
+      "word": "self-driving",
+      "ko": "자율 주행의",
+      "filled": "Self-driving technology is advancing rapidly, but accidents still happen.",
+      "sent_ko": "자율 주행 기술은 빠르게 발전하고 있지만, 사고는 여전히 발생한다.",
+      "chunks": null,
+      "rp": {
+       "situation": "기자가 테슬라의 오토파일럿 기술에 대해 묻고 있다.",
+       "prompt": "How would you describe Autopilot?",
+       "options": [
+        "It is a self-driving system that controls the car automatically.",
+        "It is a self-driven system that controls the car automatically."
+       ],
+       "answer": 0,
+       "why": "self-driving은 '자율 주행하는'의 능동 형용사로, 기술 명칭에 쓰이는 올바른 형태다."
+      },
+      "topic": "자율주행 사고의 책임 소재"
+     },
+     {
+      "id": "times:manufacturer",
+      "word": "manufacturer",
+      "ko": "제조업체, 제조사",
+      "filled": "The case was significant because it held the manufacturer partly liable, not just the person behind the wheel.",
+      "sent_ko": "이 사건은 운전자뿐만 아니라 제조업체에도 부분적인 법적 책임이 있다고 판단했기 때문에 중요했다.",
+      "chunks": null,
+      "rp": {
+       "situation": "테슬라 사고 재판에서 피고가 누구인지 설명하는 상황이다.",
+       "prompt": "Who was held responsible in the Tesla case?",
+       "options": [
+        "The manufacturer was held partly liable for the crash.",
+        "The manufacturing was held partly liable for the crash."
+       ],
+       "answer": 0,
+       "why": "manufacturer는 '제조업체'라는 명사이고, manufacturing은 '제조 과정'을 뜻해 문맥에 맞지 않는다."
+      },
+      "topic": "자율주행 사고의 책임 소재"
+     },
+     {
+      "id": "times:jury",
+      "word": "jury",
+      "ko": "배심원단",
+      "filled": "In 2025, a US jury ordered Tesla to pay over $240 million after one of its Autopilot systems was linked to a serious crash.",
+      "sent_ko": "2025년에 미국 배심원단은 오토파일럿 시스템 중 하나가 심각한 사고와 연루된 후 테슬라에 2억 4천만 달러 이상을 지급하라고 명령했다.",
+      "chunks": null,
+      "rp": {
+       "situation": "테슬라 재판에서 2억 4천만 달러 지급 명령을 내린 주체를 설명하는 상황이다.",
+       "prompt": "Who ordered Tesla to pay the $240 million?",
+       "options": [
+        "A US jury ordered Tesla to pay the damages.",
+        "A US juror ordered Tesla to pay the damages."
+       ],
+       "answer": 0,
+       "why": "jury는 '배심원단' 전체를 뜻하고, juror는 배심원 한 명을 뜻해 문맥에 맞지 않는다."
+      },
+      "topic": "자율주행 사고의 책임 소재"
+     },
+     {
+      "id": "times:autopilot",
+      "word": "Autopilot",
+      "ko": "자동 조종 장치",
+      "filled": "In 2025, a US jury ordered Tesla to pay over $240 million after one of its Autopilot systems was linked to a serious crash.",
+      "sent_ko": "2025년에 미국 배심원단은 오토파일럿 시스템 중 하나가 심각한 사고와 연루된 후 테슬라에 2억 4천만 달러 이상을 지급하라고 명령했다.",
+      "chunks": null,
+      "rp": {
+       "situation": "테슬라 사고 조사관이 사고 당시 차량 제어 상태를 설명하고 있다.",
+       "prompt": "Was the driver controlling the car at the time?",
+       "options": [
+        "No, one of Tesla's Autopilot systems was in control.",
+        "No, one of Tesla's Autopilot system was in control."
+       ],
+       "answer": 0,
+       "why": "one of 뒤에는 복수 명사 systems가 와야 한다."
+      },
+      "topic": "자율주행 사고의 책임 소재"
+     },
+     {
+      "id": "times:significant",
+      "word": "significant",
+      "ko": "중요한, 상당한",
+      "filled": "The case was significant because it held the manufacturer partly liable, not just the person behind the wheel.",
+      "sent_ko": "이 사건은 운전자뿐만 아니라 제조업체에도 부분적인 법적 책임이 있다고 판단했기 때문에 중요했다.",
+      "chunks": null,
+      "rp": {
+       "situation": "테슬라 재판 결과가 자율 주행 법률에 미친 영향을 설명하는 상황이다.",
+       "prompt": "Why do legal experts keep talking about the Tesla case?",
+       "options": [
+        "Because the case was significant for self-driving liability law.",
+        "Because the case was significance for self-driving liability law."
+       ],
+       "answer": 0,
+       "why": "significant는 형용사이고, significance는 명사이므로 be동사 뒤 보어 자리에는 형용사가 맞다."
+      },
+      "topic": "자율주행 사고의 책임 소재"
+     },
+     {
+      "id": "times:liability",
+      "word": "liability",
+      "ko": "법적 책임",
+      "filled": "As more countries adopt self-driving technology, clearer rules about liability will become increasingly important.",
+      "sent_ko": "더 많은 국가들이 자율 주행 기술을 채택함에 따라, 법적 책임에 관한 더 명확한 규정이 점점 더 중요해질 것이다.",
+      "chunks": null,
+      "rp": {
+       "situation": "자율 주행차 사고 후 누가 법적 책임을 지는지 논의하는 상황이다.",
+       "prompt": "What is the biggest legal issue with self-driving cars?",
+       "options": [
+        "Determining liability when a self-driving car causes a crash.",
+        "Determining liable when a self-driving car causes a crash."
+       ],
+       "answer": 0,
+       "why": "liability는 '법적 책임'이라는 명사이고, liable은 형용사라 동명사 determining의 목적어 자리에 올 수 없다."
+      },
+      "topic": "자율주행 사고의 책임 소재"
+     },
+     {
+      "id": "times:investigate",
+      "word": "investigate",
+      "ko": "조사하다",
+      "filled": "Police were called to investigate the break-in at the museum after several valuable paintings went missing.",
+      "sent_ko": "테슬라 오토파일럿 사고가 발생한 후, 수사관들은 충돌 전에 시스템이 어떻게 작동했는지 조사하기 위해 차량 데이터를 검토했다.",
+      "chunks": null,
+      "rp": {
+       "situation": "테슬라 오토파일럿 사고 후 당국이 원인을 밝히려는 상황이다.",
+       "prompt": "What are the authorities doing after the crash?",
+       "options": [
+        "They are investigating how the Autopilot system behaved.",
+        "They are investigated how the Autopilot system behaved."
+       ],
+       "answer": 0,
+       "why": "진행 중인 동작이므로 be동사 뒤에는 현재분사 investigating이 와야 하고, investigated는 문법적으로 틀리다."
+      },
+      "topic": "자율주행 사고의 책임 소재"
+     },
+     {
+      "id": "times:vehicle",
+      "word": "vehicle",
+      "ko": "탈것, 차량",
+      "filled": "Investigators must examine vehicle data recorded before a crash to understand how the system behaved.",
+      "sent_ko": "수사관들은 시스템이 어떻게 작동했는지 이해하기 위해 충돌 전에 기록된 차량 데이터를 검토해야 한다.",
+      "chunks": null,
+      "rp": {
+       "situation": "테슬라 사고 원인 조사에서 핵심 증거가 무엇인지 설명하는 상황이다.",
+       "prompt": "What evidence did investigators focus on?",
+       "options": [
+        "They examined vehicle data recorded just before the crash.",
+        "They examined vehicles data recorded just before the crash."
+       ],
+       "answer": 0,
+       "why": "vehicle은 명사가 형용사처럼 명사를 수식할 때 단수형을 쓰며, vehicles data는 비문이다."
+      },
+      "topic": "자율주행 사고의 책임 소재"
+     },
+     {
+      "id": "times:adopt",
+      "word": "adopt",
+      "ko": "채택하다, 도입하다",
+      "filled": "As more countries adopt self-driving technology, clearer rules about liability will become increasingly important.",
+      "sent_ko": "더 많은 국가들이 자율 주행 기술을 채택함에 따라, 법적 책임에 관한 더 명확한 규정이 점점 더 중요해질 것이다.",
+      "chunks": null,
+      "rp": {
+       "situation": "여러 나라가 자율 주행 기술을 도입하면서 법률 정비의 필요성이 커지고 있는 상황이다.",
+       "prompt": "What happens as more countries start using self-driving technology?",
+       "options": [
+        "As more countries adopt it, clearer liability rules are needed.",
+        "As more countries are adopted it, clearer liability rules are needed."
+       ],
+       "answer": 0,
+       "why": "adopt은 타동사로 능동태로 쓰이며, are adopted는 수동태라 주어인 countries가 기술을 채택하는 문맥에 맞지 않는다."
+      },
+      "topic": "자율주행 사고의 책임 소재"
+     },
+     {
+      "id": "times:arises",
+      "word": "arises",
+      "ko": "(문제·상황이) 발생하다, 생겨나다",
+      "filled": "When they do, a key legal question arises: who is responsible — the driver, or the carmaker?",
+      "sent_ko": "그럴 때 핵심적인 법적 질문이 발생한다: 운전자가 책임이 있는가, 아니면 자동차 제조사가 책임이 있는가?",
+      "chunks": [
+       {
+        "en": "When they do,",
+        "ko": "그럴 때,"
+       },
+       {
+        "en": "a key legal question arises:",
+        "ko": "핵심적인 법적 질문이 발생한다:"
+       },
+       {
+        "en": "who is responsible —",
+        "ko": "누가 책임이 있는가 —"
+       },
+       {
+        "en": "the driver,",
+        "ko": "운전자인가,"
+       },
+       {
+        "en": "or the carmaker?",
+        "ko": "아니면 자동차 제조사인가?"
+       }
+      ],
+      "rp": {
+       "situation": "테슬라 오토파일럿 사고가 발생한 후 법정에서 책임 소재 논쟁이 시작된 상황이다.",
+       "prompt": "What happens after a self-driving car crash?",
+       "options": [
+        "A key legal question arises about who is responsible.",
+        "A key legal question raises about who is responsible."
+       ],
+       "answer": 0,
+       "why": "arises는 자동사로 '문제가 생겨나다'를 뜻하고, raises는 타동사라 목적어 없이 쓸 수 없다."
+      },
+      "topic": "자율주행 사고의 책임 소재"
+     },
+     {
+      "id": "times:pressure",
+      "word": "pressure",
+      "ko": "압박, 압력",
+      "filled": "Courts are now under pressure to update old traffic laws that were written before self-driving cars existed.",
+      "sent_ko": "법원은 자율 주행 자동차가 존재하기 전에 작성된 낡은 교통 법규를 개정하라는 압박을 받고 있다.",
+      "chunks": null,
+      "rp": {
+       "situation": "자율 주행차 사고 판결 이후 법원이 교통 법규를 바꿔야 한다는 요구를 받고 있는 상황이다.",
+       "prompt": "How are courts responding to the rise of self-driving cars?",
+       "options": [
+        "Courts are under pressure to update old traffic laws.",
+        "Courts are under pressure for updating old traffic laws."
+       ],
+       "answer": 0,
+       "why": "under pressure to+동사원형이 올바른 구조이며, under pressure for+-ing는 비표준 표현이다."
+      },
+      "topic": "자율주행 사고의 책임 소재"
+     },
+     {
+      "id": "times:existing",
+      "word": "existing",
+      "ko": "기존의, 현존하는",
+      "filled": "The city plans to repair all existing roads before building any new ones in the newly developed areas.",
+      "sent_ko": "더 많은 국가들이 자율 주행 기술을 채택함에 따라, 기존의 교통 법규가 시대에 뒤처지게 될 위험이 있다.",
+      "chunks": null,
+      "rp": {
+       "situation": "자율 주행차 등장 이전에 만들어진 교통 법규를 개정해야 한다고 논의하는 상황이다.",
+       "prompt": "What do courts need to do with old traffic laws?",
+       "options": [
+        "They need to update the existing traffic laws.",
+        "They need to update the existed traffic laws."
+       ],
+       "answer": 0,
+       "why": "existing은 '현재 존재하는'의 형용사이고, existed는 동사의 과거형이라 명사를 수식하는 형용사로 쓸 수 없다."
+      },
+      "topic": "자율주행 사고의 책임 소재"
+     },
+     {
+      "id": "times:technology",
+      "word": "technology",
+      "ko": "기술",
+      "filled": "Self-driving technology is advancing rapidly, but accidents still happen.",
+      "sent_ko": "자율 주행 기술은 빠르게 발전하고 있지만, 사고는 여전히 발생한다.",
+      "chunks": null,
+      "rp": {
+       "situation": "테슬라의 오토파일럿이 어느 분야에 속하는지 설명하는 상황이다.",
+       "prompt": "What field does Tesla's Autopilot belong to?",
+       "options": [
+        "It is part of self-driving technology.",
+        "It is part of self-driving technique."
+       ],
+       "answer": 0,
+       "why": "technology는 '(산업·공학적) 기술 체계'를 뜻하고, technique는 '개인적 기법·방법'을 뜻해 자율 주행 분야 전체를 가리키는 문맥에 맞지 않는다."
+      },
+      "topic": "자율주행 사고의 책임 소재"
      }
     ]
    }
