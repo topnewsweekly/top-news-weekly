@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14 09:53:35",
+ "generated": "2026-09-14 10:01:00",
  "levels": {
   "kinder": [
    {
@@ -12599,6 +12599,589 @@
        "why": "policymakers는 한 단어이며, take action이 올바른 연어; take an action은 비문법적 표현이다."
       },
       "topic": "고령 노동자의 재취업 시장"
+     }
+    ]
+   },
+   {
+    "id": "times|폭염 일수 증가와 도시 설계",
+    "level": "times",
+    "topic": "폭염 일수 증가와 도시 설계",
+    "section": "환경",
+    "week": "2026-09-14",
+    "tf": [
+     {
+      "s": "Urban areas tend to cool down more quickly at night than rural areas because of the materials used in city construction.",
+      "a": false
+     },
+     {
+      "s": "The urban heat island effect is caused in part by dense buildings and dark rooftops that trap heat in cities.",
+      "a": true
+     },
+     {
+      "s": "Painting rooftops white is one method that cities are using to help reduce local temperatures.",
+      "a": true
+     },
+     {
+      "s": "Asphalt and concrete release heat during the day and absorb it at night.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "times:extreme",
+      "word": "extreme",
+      "ko": "극단적인, 극심한",
+      "filled": "Extreme heat days are becoming more frequent around the world, and cities are feeling the effects more than rural areas.",
+      "sent_ko": "극심한 폭염일이 전 세계적으로 점점 더 잦아지고 있으며, 도시는 농촌 지역보다 그 영향을 더 많이 느끼고 있다.",
+      "chunks": [
+       {
+        "en": "Extreme heat days",
+        "ko": "극심한 폭염일이"
+       },
+       {
+        "en": "are becoming more frequent",
+        "ko": "점점 더 잦아지고 있으며"
+       },
+       {
+        "en": "around the world,",
+        "ko": "전 세계적으로,"
+       },
+       {
+        "en": "and cities are feeling the effects",
+        "ko": "도시는 그 영향을 느끼고 있다"
+       },
+       {
+        "en": "more than rural areas.",
+        "ko": "농촌 지역보다 더"
+       }
+      ],
+      "rp": {
+       "situation": "전 세계 도시에서 폭염일이 늘어나는 상황을 설명하고 있다.",
+       "prompt": "How would you describe these heat days?",
+       "options": [
+        "They are extreme — dangerously beyond the normal range.",
+        "They are extremity — dangerously beyond the normal range."
+       ],
+       "answer": 0,
+       "why": "extreme은 형용사로 명사를 수식하며, extremity는 명사라 이 자리에 쓸 수 없다."
+      },
+      "topic": "폭염 일수 증가와 도시 설계"
+     },
+     {
+      "id": "times:frequent",
+      "word": "frequent",
+      "ko": "잦은, 빈번한",
+      "filled": "Extreme heat days are becoming more frequent around the world, and cities are feeling the effects more than rural areas.",
+      "sent_ko": "극심한 폭염일이 전 세계적으로 점점 더 잦아지고 있으며, 도시는 농촌 지역보다 그 영향을 더 많이 느끼고 있다.",
+      "chunks": [
+       {
+        "en": "Extreme heat days",
+        "ko": "극심한 폭염일이"
+       },
+       {
+        "en": "are becoming more frequent",
+        "ko": "점점 더 잦아지고 있으며"
+       },
+       {
+        "en": "around the world,",
+        "ko": "전 세계적으로,"
+       },
+       {
+        "en": "and cities are feeling the effects",
+        "ko": "도시는 그 영향을 느끼고 있다"
+       },
+       {
+        "en": "more than rural areas.",
+        "ko": "농촌 지역보다 더"
+       }
+      ],
+      "rp": {
+       "situation": "기자가 전 세계 폭염일 증가 추세를 보도하고 있다.",
+       "prompt": "How are extreme heat days changing?",
+       "options": [
+        "They are becoming more frequent every year.",
+        "They are becoming more frequently every year."
+       ],
+       "answer": 0,
+       "why": "frequent은 형용사로 become의 보어 자리에 쓰이며, frequently는 부사라 이 자리에 올 수 없다."
+      },
+      "topic": "폭염 일수 증가와 도시 설계"
+     },
+     {
+      "id": "times:rural",
+      "word": "rural",
+      "ko": "시골의, 농촌의",
+      "filled": "Extreme heat days are becoming more frequent around the world, and cities are feeling the effects more than rural areas.",
+      "sent_ko": "극심한 폭염일이 전 세계적으로 점점 더 잦아지고 있으며, 도시는 농촌 지역보다 그 영향을 더 많이 느끼고 있다.",
+      "chunks": [
+       {
+        "en": "Extreme heat days",
+        "ko": "극심한 폭염일이"
+       },
+       {
+        "en": "are becoming more frequent",
+        "ko": "점점 더 잦아지고 있으며"
+       },
+       {
+        "en": "around the world,",
+        "ko": "전 세계적으로,"
+       },
+       {
+        "en": "and cities are feeling the effects",
+        "ko": "도시는 그 영향을 느끼고 있다"
+       },
+       {
+        "en": "more than rural areas.",
+        "ko": "농촌 지역보다 더"
+       }
+      ],
+      "rp": {
+       "situation": "도시와 농촌의 폭염 영향을 비교하는 기사를 읽고 있다.",
+       "prompt": "Which area feels the heat effects less?",
+       "options": [
+        "Rural areas feel the effects less than cities do.",
+        "Rural areas feel the effects less than cities are."
+       ],
+       "answer": 0,
+       "why": "대동사 자리에는 do를 써야 하며, are는 feel의 대동사로 쓸 수 없다."
+      },
+      "topic": "폭염 일수 증가와 도시 설계"
+     },
+     {
+      "id": "times:dense",
+      "word": "dense",
+      "ko": "빽빽한, 밀집한",
+      "filled": "Dense buildings, concrete roads, and dark rooftops trap heat and push urban temperatures several degrees higher than surrounding areas.",
+      "sent_ko": "빽빽한 건물들, 콘크리트 도로, 그리고 어두운 색 지붕들이 열을 가두고 도시 기온을 주변 지역보다 몇 도 더 높이 밀어 올린다.",
+      "chunks": [
+       {
+        "en": "Dense buildings, concrete roads, and dark rooftops",
+        "ko": "빽빽한 건물들, 콘크리트 도로, 그리고 어두운 색 지붕들이"
+       },
+       {
+        "en": "trap heat",
+        "ko": "열을 가두고"
+       },
+       {
+        "en": "and push urban temperatures",
+        "ko": "도시 기온을 밀어 올린다"
+       },
+       {
+        "en": "several degrees higher",
+        "ko": "몇 도 더 높이"
+       },
+       {
+        "en": "than surrounding areas.",
+        "ko": "주변 지역보다"
+       }
+      ],
+      "rp": {
+       "situation": "도시 건물이 밀집해 있어 열이 빠져나가지 못하는 상황이다.",
+       "prompt": "Why does heat get trapped so easily here?",
+       "options": [
+        "Because the buildings are dense and packed closely together.",
+        "Because the buildings are density and packed closely together."
+       ],
+       "answer": 0,
+       "why": "dense는 형용사로 보어 자리에 쓰이며, density는 명사라 이 자리에 올 수 없다."
+      },
+      "topic": "폭염 일수 증가와 도시 설계"
+     },
+     {
+      "id": "times:urban",
+      "word": "urban",
+      "ko": "도시의",
+      "filled": "Dense buildings, concrete roads, and dark rooftops trap heat and push urban temperatures several degrees higher than surrounding areas.",
+      "sent_ko": "빽빽한 건물들, 콘크리트 도로, 그리고 어두운 색 지붕들이 열을 가두고 도시 기온을 주변 지역보다 몇 도 더 높이 밀어 올린다.",
+      "chunks": [
+       {
+        "en": "Dense buildings, concrete roads, and dark rooftops",
+        "ko": "빽빽한 건물들, 콘크리트 도로, 그리고 어두운 색 지붕들이"
+       },
+       {
+        "en": "trap heat",
+        "ko": "열을 가두고"
+       },
+       {
+        "en": "and push urban temperatures",
+        "ko": "도시 기온을 밀어 올린다"
+       },
+       {
+        "en": "several degrees higher",
+        "ko": "몇 도 더 높이"
+       },
+       {
+        "en": "than surrounding areas.",
+        "ko": "주변 지역보다"
+       }
+      ],
+      "rp": {
+       "situation": "도시 열섬 현상으로 도심 기온이 높아지는 상황이다.",
+       "prompt": "What kind of temperatures are rising because of dense buildings?",
+       "options": [
+        "Urban temperatures are rising several degrees higher.",
+        "Urbanize temperatures are rising several degrees higher."
+       ],
+       "answer": 0,
+       "why": "urban은 형용사로 명사를 수식하며, urbanize는 동사라 이 자리에 쓸 수 없다."
+      },
+      "topic": "폭염 일수 증가와 도시 설계"
+     },
+     {
+      "id": "times:absorb",
+      "word": "absorb",
+      "ko": "흡수하다",
+      "filled": "Materials like asphalt and concrete absorb sunlight during the day and release it as heat at night.",
+      "sent_ko": "아스팔트와 콘크리트 같은 재료들은 낮 동안 햇빛을 흡수하고 밤에는 그것을 열로 방출한다.",
+      "chunks": [
+       {
+        "en": "Materials like asphalt and concrete",
+        "ko": "아스팔트와 콘크리트 같은 재료들은"
+       },
+       {
+        "en": "absorb sunlight",
+        "ko": "햇빛을 흡수하고"
+       },
+       {
+        "en": "during the day",
+        "ko": "낮 동안"
+       },
+       {
+        "en": "and release it as heat",
+        "ko": "그것을 열로 방출한다"
+       },
+       {
+        "en": "at night.",
+        "ko": "밤에"
+       }
+      ],
+      "rp": {
+       "situation": "도시의 아스팔트 도로가 낮 동안 햇빛을 받고 있는 상황이다.",
+       "prompt": "What does the asphalt do with sunlight during the day?",
+       "options": [
+        "It absorbs sunlight and stores the energy.",
+        "It absorption sunlight and stores the energy."
+       ],
+       "answer": 0,
+       "why": "absorbs는 동사로 주어 뒤에 쓰이며, absorption은 명사라 동사 자리에 올 수 없다."
+      },
+      "topic": "폭염 일수 증가와 도시 설계"
+     },
+     {
+      "id": "times:release",
+      "word": "release",
+      "ko": "방출하다, 내보내다",
+      "filled": "Materials like asphalt and concrete absorb sunlight during the day and release it as heat at night.",
+      "sent_ko": "아스팔트와 콘크리트 같은 재료들은 낮 동안 햇빛을 흡수하고 밤에는 그것을 열로 방출한다.",
+      "chunks": [
+       {
+        "en": "Materials like asphalt and concrete",
+        "ko": "아스팔트와 콘크리트 같은 재료들은"
+       },
+       {
+        "en": "absorb sunlight",
+        "ko": "햇빛을 흡수하고"
+       },
+       {
+        "en": "during the day",
+        "ko": "낮 동안"
+       },
+       {
+        "en": "and release it as heat",
+        "ko": "그것을 열로 방출한다"
+       },
+       {
+        "en": "at night.",
+        "ko": "밤에"
+       }
+      ],
+      "rp": {
+       "situation": "밤이 되자 도시의 콘크리트가 낮에 저장한 열을 내보내고 있다.",
+       "prompt": "What happens to the stored heat at night?",
+       "options": [
+        "The concrete releases it as heat into the air.",
+        "The concrete releases it like heat into the air."
+       ],
+       "answer": 0,
+       "why": "'release A as B'는 A를 B의 형태로 방출한다는 뜻이며, like는 이 구조에서 as 대신 쓸 수 없다."
+      },
+      "topic": "폭염 일수 증가와 도시 설계"
+     },
+     {
+      "id": "times:resident",
+      "word": "resident",
+      "ko": "주민, 거주자",
+      "filled": "This means cities cool down much more slowly, making hot spells longer and more dangerous for residents.",
+      "sent_ko": "이것은 도시들이 훨씬 더 천천히 식는다는 것을 의미하며, 주민들에게 폭염 기간을 더 길고 더 위험하게 만든다.",
+      "chunks": [
+       {
+        "en": "This means",
+        "ko": "이것은 ~을 의미한다"
+       },
+       {
+        "en": "cities cool down much more slowly,",
+        "ko": "도시들이 훨씬 더 천천히 식는다는 것을,"
+       },
+       {
+        "en": "making hot spells longer",
+        "ko": "폭염 기간을 더 길게 만들며"
+       },
+       {
+        "en": "and more dangerous",
+        "ko": "그리고 더 위험하게"
+       },
+       {
+        "en": "for residents.",
+        "ko": "주민들에게"
+       }
+      ],
+      "rp": {
+       "situation": "도시 폭염이 길어지면서 그 지역에 사는 사람들이 위험에 처해 있다.",
+       "prompt": "Who is most affected by longer hot spells in cities?",
+       "options": [
+        "The residents who live there are most at risk.",
+        "The residences who live there are most at risk."
+       ],
+       "answer": 0,
+       "why": "residents는 '주민'을 뜻하는 명사이며, residences는 '주거지, 건물'을 뜻해 사람을 가리킬 수 없다."
+      },
+      "topic": "폭염 일수 증가와 도시 설계"
+     },
+     {
+      "id": "times:asphalt",
+      "word": "asphalt",
+      "ko": "아스팔트",
+      "filled": "Materials like asphalt and concrete absorb sunlight during the day and release it as heat at night.",
+      "sent_ko": "아스팔트와 콘크리트 같은 재료들은 낮 동안 햇빛을 흡수하고 밤에는 그것을 열로 방출한다.",
+      "chunks": [
+       {
+        "en": "Materials like asphalt and concrete",
+        "ko": "아스팔트와 콘크리트 같은 재료들은"
+       },
+       {
+        "en": "absorb sunlight",
+        "ko": "햇빛을 흡수하고"
+       },
+       {
+        "en": "during the day",
+        "ko": "낮 동안"
+       },
+       {
+        "en": "and release it as heat",
+        "ko": "그것을 열로 방출한다"
+       },
+       {
+        "en": "at night.",
+        "ko": "밤에"
+       }
+      ],
+      "rp": {
+       "situation": "도시 도로에 깔린 아스팔트가 낮 동안 태양열을 받아 뜨거워지고 있다.",
+       "prompt": "What material covers most city roads and traps heat?",
+       "options": [
+        "Asphalt covers the roads and absorbs a lot of sunlight.",
+        "Asphalt covers the roads and absorbs a lot of sunlights."
+       ],
+       "answer": 0,
+       "why": "sunlight는 불가산명사이므로 복수형 sunlights는 쓸 수 없다."
+      },
+      "topic": "폭염 일수 증가와 도시 설계"
+     },
+     {
+      "id": "times:concrete",
+      "word": "concrete",
+      "ko": "콘크리트",
+      "filled": "Materials like asphalt and concrete absorb sunlight during the day and release it as heat at night.",
+      "sent_ko": "아스팔트와 콘크리트 같은 재료들은 낮 동안 햇빛을 흡수하고 밤에는 그것을 열로 방출한다.",
+      "chunks": [
+       {
+        "en": "Materials like asphalt and concrete",
+        "ko": "아스팔트와 콘크리트 같은 재료들은"
+       },
+       {
+        "en": "absorb sunlight",
+        "ko": "햇빛을 흡수하고"
+       },
+       {
+        "en": "during the day",
+        "ko": "낮 동안"
+       },
+       {
+        "en": "and release it as heat",
+        "ko": "그것을 열로 방출한다"
+       },
+       {
+        "en": "at night.",
+        "ko": "밤에"
+       }
+      ],
+      "rp": {
+       "situation": "도시의 콘크리트 건물과 도로가 열을 저장하는 원인으로 지목되고 있다.",
+       "prompt": "How do experts describe concrete as a building material in this context?",
+       "options": [
+        "Concrete is a material that absorbs and holds heat.",
+        "Concrete is a material that absorbs and holds heats."
+       ],
+       "answer": 0,
+       "why": "heat는 불가산명사이므로 복수형 heats로 쓸 수 없다."
+      },
+      "topic": "폭염 일수 증가와 도시 설계"
+     },
+     {
+      "id": "times:rooftop",
+      "word": "rooftop",
+      "ko": "옥상, 지붕 위",
+      "filled": "To fight rising temperatures, some cities are painting rooftops white, planting more trees, and using cooler building materials.",
+      "sent_ko": "치솟는 기온에 맞서기 위해 일부 도시들은 옥상을 흰색으로 칠하고, 더 많은 나무를 심고, 더 시원한 건축 자재를 사용하고 있다.",
+      "chunks": [
+       {
+        "en": "To fight rising temperatures,",
+        "ko": "치솟는 기온에 맞서기 위해,"
+       },
+       {
+        "en": "some cities are painting rooftops white,",
+        "ko": "일부 도시들은 옥상을 흰색으로 칠하고,"
+       },
+       {
+        "en": "planting more trees,",
+        "ko": "더 많은 나무를 심고,"
+       },
+       {
+        "en": "and using cooler building materials.",
+        "ko": "더 시원한 건축 자재를 사용하고 있다."
+       }
+      ],
+      "rp": {
+       "situation": "도시 당국이 폭염 대책으로 건물 지붕 위에 흰색 페인트를 칠하고 있다.",
+       "prompt": "What are city workers doing to the tops of buildings?",
+       "options": [
+        "They are painting the rooftops white to reflect sunlight.",
+        "They are painting the rooftops whiteness to reflect sunlight."
+       ],
+       "answer": 0,
+       "why": "white는 목적격 보어로 쓰이는 형용사이며, whiteness는 명사라 이 자리에 올 수 없다."
+      },
+      "topic": "폭염 일수 증가와 도시 설계"
+     },
+     {
+      "id": "times:priority",
+      "word": "priority",
+      "ko": "우선순위, 최우선 사항",
+      "filled": "As heat waves grow more intense due to climate change, experts say rethinking urban design is becoming an urgent priority.",
+      "sent_ko": "기후 변화로 인해 폭염이 더욱 강렬해지면서, 전문가들은 도시 설계를 재고하는 것이 시급한 우선순위가 되고 있다고 말한다.",
+      "chunks": [
+       {
+        "en": "As heat waves grow more intense",
+        "ko": "폭염이 더욱 강렬해지면서"
+       },
+       {
+        "en": "due to climate change,",
+        "ko": "기후 변화로 인해,"
+       },
+       {
+        "en": "experts say",
+        "ko": "전문가들은 말한다"
+       },
+       {
+        "en": "rethinking urban design",
+        "ko": "도시 설계를 재고하는 것이"
+       },
+       {
+        "en": "is becoming an urgent priority.",
+        "ko": "시급한 우선순위가 되고 있다고"
+       }
+      ],
+      "rp": {
+       "situation": "전문가들이 도시 설계 변화를 기후 대응의 가장 시급한 과제로 꼽고 있다.",
+       "prompt": "How do experts describe rethinking urban design now?",
+       "options": [
+        "They say it is becoming an urgent priority.",
+        "They say it is becoming an urgent prior."
+       ],
+       "answer": 0,
+       "why": "priority는 명사로 보어 자리에 쓰이며, prior는 형용사라 명사 보어 자리에 올 수 없다."
+      },
+      "topic": "폭염 일수 증가와 도시 설계"
+     },
+     {
+      "id": "times:intense",
+      "word": "intense",
+      "ko": "강렬한, 극심한",
+      "filled": "As heat waves grow more intense due to climate change, experts say rethinking urban design is becoming an urgent priority.",
+      "sent_ko": "기후 변화로 인해 폭염이 더욱 강렬해지면서, 전문가들은 도시 설계를 재고하는 것이 시급한 우선순위가 되고 있다고 말한다.",
+      "chunks": [
+       {
+        "en": "As heat waves grow more intense",
+        "ko": "폭염이 더욱 강렬해지면서"
+       },
+       {
+        "en": "due to climate change,",
+        "ko": "기후 변화로 인해,"
+       },
+       {
+        "en": "experts say",
+        "ko": "전문가들은 말한다"
+       },
+       {
+        "en": "rethinking urban design",
+        "ko": "도시 설계를 재고하는 것이"
+       },
+       {
+        "en": "is becoming an urgent priority.",
+        "ko": "시급한 우선순위가 되고 있다고"
+       }
+      ],
+      "rp": {
+       "situation": "기후 변화로 인해 도시의 폭염이 해마다 더 심해지고 있다.",
+       "prompt": "How are heat waves changing due to climate change?",
+       "options": [
+        "They are growing more intense each year.",
+        "They are growing more intensely each year."
+       ],
+       "answer": 0,
+       "why": "intense는 형용사로 grow의 보어 자리에 쓰이며, intensely는 부사라 이 자리에 올 수 없다."
+      },
+      "topic": "폭염 일수 증가와 도시 설계"
+     },
+     {
+      "id": "times:rethink",
+      "word": "rethink",
+      "ko": "재고하다, 다시 생각하다",
+      "filled": "As heat waves grow more intense due to climate change, experts say rethinking urban design is becoming an urgent priority.",
+      "sent_ko": "기후 변화로 인해 폭염이 더욱 강렬해지면서, 전문가들은 도시 설계를 재고하는 것이 시급한 우선순위가 되고 있다고 말한다.",
+      "chunks": [
+       {
+        "en": "As heat waves grow more intense",
+        "ko": "폭염이 더욱 강렬해지면서"
+       },
+       {
+        "en": "due to climate change,",
+        "ko": "기후 변화로 인해,"
+       },
+       {
+        "en": "experts say",
+        "ko": "전문가들은 말한다"
+       },
+       {
+        "en": "rethinking urban design",
+        "ko": "도시 설계를 재고하는 것이"
+       },
+       {
+        "en": "is becoming an urgent priority.",
+        "ko": "시급한 우선순위가 되고 있다고"
+       }
+      ],
+      "rp": {
+       "situation": "전문가들이 기후 변화 대응을 위해 도시 설계 방식을 다시 검토해야 한다고 촉구하고 있다.",
+       "prompt": "What do experts say cities must do with their current urban design?",
+       "options": [
+        "They must rethink urban design to deal with heat waves.",
+        "They must unthink urban design to deal with heat waves."
+       ],
+       "answer": 0,
+       "why": "rethink는 '재고하다'는 의미의 올바른 단어이며, unthink는 이 맥락에서 성립하지 않는 표현이다."
+      },
+      "topic": "폭염 일수 증가와 도시 설계"
      }
     ]
    }
