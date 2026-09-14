@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14 09:50:45",
+ "generated": "2026-09-14 09:52:40",
  "levels": {
   "kinder": [
    {
@@ -8616,6 +8616,351 @@
        "why": "'whole-grain'이 올바른 복합 형용사이며, 'whole-grained'는 표준 표현이 아닙니다."
       },
       "topic": "아침을 거르는 청소년들"
+     }
+    ]
+   },
+   {
+    "id": "junior|국제 대회가 도시에 남기는 것",
+    "level": "junior",
+    "topic": "국제 대회가 도시에 남기는 것",
+    "section": "세계",
+    "week": "2026-09-14",
+    "tf": [
+     {
+      "s": "Cities often build new stadiums and airports to prepare for major international events.",
+      "a": true
+     },
+     {
+      "s": "Every city that hosts a big event always has a long-term plan for its stadiums.",
+      "a": false
+     },
+     {
+      "s": "Athens and Rio de Janeiro are examples of cities that ended up with unused venues after their events.",
+      "a": true
+     },
+     {
+      "s": "The article says that new transport systems always make cities worse places to live in afterward.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "junior:host",
+      "word": "host",
+      "ko": "주최하다 / 개최국(도시)",
+      "filled": "Every few years, a city gets chosen to host a major international event such as the Olympics or the FIFA World Cup.",
+      "sent_ko": "몇 년마다 한 도시가 올림픽이나 FIFA 월드컵 같은 큰 국제 행사를 주최하도록 선택됩니다.",
+      "chunks": [
+       {
+        "en": "Every few years,",
+        "ko": "몇 년마다"
+       },
+       {
+        "en": "a city gets chosen",
+        "ko": "한 도시가 선택됩니다"
+       },
+       {
+        "en": "to host a major international event",
+        "ko": "큰 국제 행사를 주최하도록"
+       },
+       {
+        "en": "such as the Olympics or the FIFA World Cup.",
+        "ko": "올림픽이나 FIFA 월드컵 같은"
+       }
+      ],
+      "rp": {
+       "situation": "IOC가 2032년 올림픽 개최 도시를 발표하고 있다.",
+       "prompt": "What did the city agree to do?",
+       "options": [
+        "It agreed to host the Olympics.",
+        "It agreed to hosting the Olympics."
+       ],
+       "answer": 0,
+       "why": "agree 뒤에는 to부정사가 와야 하므로 b는 문법적으로 틀립니다."
+      },
+      "topic": "국제 대회가 도시에 남기는 것"
+     },
+     {
+      "id": "junior:facility",
+      "word": "facility",
+      "ko": "시설",
+      "filled": "When there is a clear plan, facilities can become schools, community centers, or public sports spaces.",
+      "sent_ko": "명확한 계획이 있을 때, 시설들은 학교, 커뮤니티 센터, 또는 공공 스포츠 공간이 될 수 있습니다.",
+      "chunks": [
+       {
+        "en": "When there is a clear plan,",
+        "ko": "명확한 계획이 있을 때"
+       },
+       {
+        "en": "facilities can become",
+        "ko": "시설들은 ~이 될 수 있습니다"
+       },
+       {
+        "en": "schools, community centers,",
+        "ko": "학교, 커뮤니티 센터"
+       },
+       {
+        "en": "or public sports spaces.",
+        "ko": "또는 공공 스포츠 공간"
+       }
+      ],
+      "rp": {
+       "situation": "올림픽이 끝난 후 선수촌 건물들을 어떻게 쓸지 도시 계획가들이 논의하고 있다.",
+       "prompt": "What should the city do with all the Olympic buildings?",
+       "options": [
+        "They should turn the facilities into community centers.",
+        "They should turn the facilitys into community centers."
+       ],
+       "answer": 0,
+       "why": "facility의 복수형은 facilities이며 facilitys는 잘못된 형태입니다."
+      },
+      "topic": "국제 대회가 도시에 남기는 것"
+     },
+     {
+      "id": "junior:transport",
+      "word": "transport",
+      "ko": "운송하다 / 교통수단",
+      "filled": "## A City Transformed To prepare for a big event, cities usually build new stadiums, airports, and transport systems.",
+      "sent_ko": "큰 행사를 준비하기 위해, 도시들은 보통 새로운 경기장, 공항, 그리고 교통 시스템을 건설합니다.",
+      "chunks": null,
+      "rp": {
+       "situation": "월드컵을 앞두고 한 도시가 지하철 노선을 새로 만들었다.",
+       "prompt": "What did the city build for the World Cup?",
+       "options": [
+        "They built new transport systems.",
+        "They built new transportation systems."
+       ],
+       "answer": 0,
+       "why": "기사에서 쓰인 표현은 transport systems이며 이것이 해당 문맥의 자연스러운 표현입니다."
+      },
+      "topic": "국제 대회가 도시에 남기는 것"
+     },
+     {
+      "id": "junior:abandoned",
+      "word": "abandoned",
+      "ko": "버려진 / 방치된",
+      "filled": "Large venues were abandoned because there was no long-term plan for them.",
+      "sent_ko": "장기적인 계획이 없었기 때문에 대형 행사장들은 방치되었습니다.",
+      "chunks": [
+       {
+        "en": "Large venues were abandoned",
+        "ko": "대형 행사장들은 방치되었습니다"
+       },
+       {
+        "en": "because there was no long-term plan",
+        "ko": "장기적인 계획이 없었기 때문에"
+       },
+       {
+        "en": "for them.",
+        "ko": "그것들을 위한"
+       }
+      ],
+      "rp": {
+       "situation": "아테네 올림픽 이후 아무도 사용하지 않는 경기장 사진을 보고 있다.",
+       "prompt": "What happened to the stadium after the Olympics?",
+       "options": [
+        "It was abandoned after the games ended.",
+        "It was abandoning after the games ended."
+       ],
+       "answer": 0,
+       "why": "주어가 행위를 당하는 수동의 의미이므로 수동태 was abandoned가 맞습니다."
+      },
+      "topic": "국제 대회가 도시에 남기는 것"
+     },
+     {
+      "id": "junior:venue",
+      "word": "venue",
+      "ko": "장소 / 행사장",
+      "filled": "Large venues were abandoned because there was no long-term plan for them.",
+      "sent_ko": "장기적인 계획이 없었기 때문에 대형 행사장들은 방치되었습니다.",
+      "chunks": [
+       {
+        "en": "Large venues were abandoned",
+        "ko": "대형 행사장들은 방치되었습니다"
+       },
+       {
+        "en": "because there was no long-term plan",
+        "ko": "장기적인 계획이 없었기 때문에"
+       },
+       {
+        "en": "for them.",
+        "ko": "그것들을 위한"
+       }
+      ],
+      "rp": {
+       "situation": "리우 올림픽 이후 올림픽 경기장 여러 곳이 텅 빈 채로 남아 있다.",
+       "prompt": "What do we call these Olympic stadiums and arenas?",
+       "options": [
+        "They are the venues for the Olympics.",
+        "They are the venues of hosting the Olympics."
+       ],
+       "answer": 0,
+       "why": "'행사장'을 나타낼 때 venue for가 자연스러운 연어이며 b는 어색한 표현입니다."
+      },
+      "topic": "국제 대회가 도시에 남기는 것"
+     },
+     {
+      "id": "junior:neighborhood",
+      "word": "neighborhood",
+      "ko": "동네 / 지역",
+      "filled": "Many cities have used this chance to update old neighborhoods and connect areas that were hard to reach before.",
+      "sent_ko": "많은 도시들이 이 기회를 이용해 오래된 동네를 정비하고 이전에는 접근하기 어려웠던 지역들을 연결했습니다.",
+      "chunks": [
+       {
+        "en": "Many cities have used this chance",
+        "ko": "많은 도시들이 이 기회를 이용했습니다"
+       },
+       {
+        "en": "to update old neighborhoods",
+        "ko": "오래된 동네를 정비하기 위해"
+       },
+       {
+        "en": "and connect areas",
+        "ko": "그리고 지역들을 연결하기 위해"
+       },
+       {
+        "en": "that were hard to reach before.",
+        "ko": "이전에는 접근하기 어려웠던"
+       }
+      ],
+      "rp": {
+       "situation": "올림픽 준비로 도로와 공원이 새로 생긴 오래된 주거 지역을 설명하고 있다.",
+       "prompt": "How would you describe that area of the city?",
+       "options": [
+        "It's an old neighborhood that was updated for the Olympics.",
+        "It's an old neighboorhood that was updated for the Olympics."
+       ],
+       "answer": 0,
+       "why": "neighborhood가 올바른 철자이며 neighboorhood는 잘못된 표기입니다."
+      },
+      "topic": "국제 대회가 도시에 남기는 것"
+     },
+     {
+      "id": "junior:residents",
+      "word": "residents",
+      "ko": "주민들",
+      "filled": "The residents of the small town gathered at the community center to discuss plans for a new playground in the park.",
+      "sent_ko": "그 작은 마을의 주민들이 공원에 새 놀이터를 만드는 계획을 논의하기 위해 커뮤니티 센터에 모였습니다.",
+      "chunks": [
+       {
+        "en": "The residents of the small town",
+        "ko": "그 작은 마을의 주민들이"
+       },
+       {
+        "en": "gathered at the community center",
+        "ko": "커뮤니티 센터에 모였습니다"
+       },
+       {
+        "en": "to discuss plans",
+        "ko": "계획을 논의하기 위해"
+       },
+       {
+        "en": "for a new playground in the park.",
+        "ko": "공원의 새 놀이터를 위한"
+       }
+      ],
+      "rp": {
+       "situation": "올림픽 경기장 근처 동네 사람들이 경기장의 미래 사용에 대해 회의를 열고 있다.",
+       "prompt": "Who came to the meeting about the stadium?",
+       "options": [
+        "The residents of the neighborhood came.",
+        "The residence of the neighborhood came."
+       ],
+       "answer": 0,
+       "why": "residents는 '주민들'을 뜻하는 명사이며 residence는 '거주지'를 뜻해 의미가 다릅니다."
+      },
+      "topic": "국제 대회가 도시에 남기는 것"
+     },
+     {
+      "id": "junior:prepare",
+      "word": "prepare",
+      "ko": "준비하다",
+      "filled": "## A City Transformed To prepare for a big event, cities usually build new stadiums, airports, and transport systems.",
+      "sent_ko": "큰 행사를 준비하기 위해, 도시들은 보통 새로운 경기장, 공항, 그리고 교통 시스템을 건설합니다.",
+      "chunks": null,
+      "rp": {
+       "situation": "FIFA 월드컵 개최를 앞두고 한 도시가 새 경기장 건설을 시작했다.",
+       "prompt": "What is the city doing before the World Cup?",
+       "options": [
+        "It is preparing for the World Cup.",
+        "It is preparing the World Cup."
+       ],
+       "answer": 0,
+       "why": "prepare for는 '~을 준비하다'는 올바른 표현이며 prepare the World Cup은 자연스럽지 않습니다."
+      },
+      "topic": "국제 대회가 도시에 남기는 것"
+     },
+     {
+      "id": "junior:community",
+      "word": "community",
+      "ko": "지역 사회 / 공동체",
+      "filled": "When there is a clear plan, facilities can become schools, community centers, or public sports spaces.",
+      "sent_ko": "명확한 계획이 있을 때, 시설들은 학교, 커뮤니티 센터, 또는 공공 스포츠 공간이 될 수 있습니다.",
+      "chunks": [
+       {
+        "en": "When there is a clear plan,",
+        "ko": "명확한 계획이 있을 때"
+       },
+       {
+        "en": "facilities can become",
+        "ko": "시설들은 ~이 될 수 있습니다"
+       },
+       {
+        "en": "schools, community centers,",
+        "ko": "학교, 커뮤니티 센터"
+       },
+       {
+        "en": "or public sports spaces.",
+        "ko": "또는 공공 스포츠 공간"
+       }
+      ],
+      "rp": {
+       "situation": "올림픽이 끝난 후 선수촌이 동네 주민 모두가 이용하는 공간으로 바뀌었다.",
+       "prompt": "What kind of center did the old Olympic village become?",
+       "options": [
+        "It became a community center for everyone.",
+        "It became a communal center for everyone."
+       ],
+       "answer": 0,
+       "why": "기사에서 쓰인 표현은 community center이며 communal center는 해당 문맥에서 쓰이지 않는 표현입니다."
+      },
+      "topic": "국제 대회가 도시에 남기는 것"
+     },
+     {
+      "id": "junior:afterward",
+      "word": "afterward",
+      "ko": "그 후에 / 나중에",
+      "filled": "These projects cost a lot of money, but they can make a city much easier to live in for years afterward.",
+      "sent_ko": "이 사업들은 많은 비용이 들지만, 그 이후 몇 년 동안 도시를 훨씬 살기 좋게 만들 수 있습니다.",
+      "chunks": [
+       {
+        "en": "These projects cost a lot of money,",
+        "ko": "이 사업들은 많은 비용이 들지만"
+       },
+       {
+        "en": "but they can make a city",
+        "ko": "하지만 그것들은 도시를 만들 수 있습니다"
+       },
+       {
+        "en": "much easier to live in",
+        "ko": "훨씬 살기 좋게"
+       },
+       {
+        "en": "for years afterward.",
+        "ko": "그 후 몇 년 동안"
+       }
+      ],
+      "rp": {
+       "situation": "올림픽을 위해 지어진 지하철이 대회가 끝난 뒤에도 시민들이 매일 이용하고 있다.",
+       "prompt": "Did the new subway only help during the Olympics?",
+       "options": [
+        "No, it helped the city for years afterward.",
+        "No, it helped the city for years afterword."
+       ],
+       "answer": 0,
+       "why": "afterward가 올바른 철자이며 afterword는 '후기(책의 맺음말)'를 뜻하는 전혀 다른 단어입니다."
+      },
+      "topic": "국제 대회가 도시에 남기는 것"
      }
     ]
    }
