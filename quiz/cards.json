@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14 10:09:47",
+ "generated": "2026-09-14 10:10:50",
  "levels": {
   "kinder": [
    {
@@ -14799,6 +14799,545 @@
        "why": "'reconsider'는 '재고하다'를 뜻하는 실제 단어이며, 'unconsider'는 존재하지 않는 단어이다."
       },
       "topic": "선거 연령과 청년 정치 참여"
+     }
+    ]
+   },
+   {
+    "id": "times|난민 수용을 둘러싼 유럽의 분열",
+    "level": "times",
+    "topic": "난민 수용을 둘러싼 유럽의 분열",
+    "section": "세계",
+    "week": "2026-09-14",
+    "tf": [
+     {
+      "s": "Anti-immigration parties have gained significant support in several European countries, including France, Germany, and Sweden.",
+      "a": true
+     },
+     {
+      "s": "All European Union member countries have agreed to accept the refugee quotas set by Brussels.",
+      "a": false
+     },
+     {
+      "s": "Critics have argued that race and religion may have influenced how European countries responded differently to Ukrainian refugees compared to those from the Middle East and Africa.",
+      "a": true
+     },
+     {
+      "s": "The article states that security concerns are never used to justify unequal treatment of refugee groups.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "times:persecution",
+      "word": "persecution",
+      "ko": "박해, 학대",
+      "filled": "When large numbers of people flee war or persecution, they often head toward Europe.",
+      "sent_ko": "많은 수의 사람들이 전쟁이나 박해를 피해 도망칠 때, 그들은 종종 유럽을 향해 나아간다.",
+      "chunks": [
+       {
+        "en": "When large numbers of people",
+        "ko": "많은 수의 사람들이"
+       },
+       {
+        "en": "flee war or persecution,",
+        "ko": "전쟁이나 박해를 피해 도망칠 때,"
+       },
+       {
+        "en": "they often head",
+        "ko": "그들은 종종 향해 나아간다"
+       },
+       {
+        "en": "toward Europe.",
+        "ko": "유럽을"
+       }
+      ],
+      "rp": {
+       "situation": "중동 출신 난민이 유럽으로 향한 이유를 설명하는 상황",
+       "prompt": "Why did so many people leave their home countries?",
+       "options": [
+        "They were fleeing persecution and violence.",
+        "They were fleeing from persecution and violence."
+       ],
+       "answer": 0,
+       "why": "flee는 전치사 없이 목적어를 바로 취하는 타동사다."
+      },
+      "topic": "난민 수용을 둘러싼 유럽의 분열"
+     },
+     {
+      "id": "times:asylum",
+      "word": "asylum",
+      "ko": "망명, 보호",
+      "filled": "Countries disagree on how to share responsibility for processing asylum applications, and some nations have simply refused to accept refugee quotas set by Brussels.",
+      "sent_ko": "각국은 망명 신청 처리에 대한 책임을 어떻게 나눌지에 대해 의견이 다르며, 일부 국가들은 브뤼셀이 정한 난민 할당량을 받아들이기를 거부했다.",
+      "chunks": [
+       {
+        "en": "Countries disagree on how to share responsibility",
+        "ko": "각국은 책임을 어떻게 나눌지에 대해 의견이 다르다"
+       },
+       {
+        "en": "for processing asylum applications,",
+        "ko": "망명 신청을 처리하는 것에 대해,"
+       },
+       {
+        "en": "and some nations have simply refused",
+        "ko": "그리고 일부 국가들은 단순히 거부했다"
+       },
+       {
+        "en": "to accept refugee quotas",
+        "ko": "난민 할당량을 받아들이기를"
+       },
+       {
+        "en": "set by Brussels.",
+        "ko": "브뤼셀이 정한"
+       }
+      ],
+      "rp": {
+       "situation": "EU 회의에서 각국의 망명 신청 처리 방식을 논의하는 상황",
+       "prompt": "What is the meeting about?",
+       "options": [
+        "They are discussing how to process asylum applications fairly.",
+        "They are discussing how to process asylum seekers fairly."
+       ],
+       "answer": 0,
+       "why": "처리 대상은 신청서(applications)이며, asylum seekers(신청자)를 process한다는 표현은 어색하다."
+      },
+      "topic": "난민 수용을 둘러싼 유럽의 분열"
+     },
+     {
+      "id": "times:anti-immigration",
+      "word": "anti-immigration",
+      "ko": "반이민의, 이민에 반대하는",
+      "filled": "In recent years, anti-immigration parties have gained significant support across Europe.",
+      "sent_ko": "최근 몇 년간, 반이민 정당들이 유럽 전역에서 상당한 지지를 얻었다.",
+      "chunks": [
+       {
+        "en": "In recent years,",
+        "ko": "최근 몇 년간,"
+       },
+       {
+        "en": "anti-immigration parties",
+        "ko": "반이민 정당들이"
+       },
+       {
+        "en": "have gained significant support",
+        "ko": "상당한 지지를 얻었다"
+       },
+       {
+        "en": "across Europe.",
+        "ko": "유럽 전역에서"
+       }
+      ],
+      "rp": {
+       "situation": "유럽에서 반이민 정당이 선거에서 득표율을 높이고 있는 상황",
+       "prompt": "How would you describe these political parties?",
+       "options": [
+        "They are anti-immigration parties opposed to open borders.",
+        "They are anti-immigrating parties opposed to open borders."
+       ],
+       "answer": 0,
+       "why": "anti-immigration은 형용사로 쓰이며, anti-immigrating은 올바른 형용사 형태가 아니다."
+      },
+      "topic": "난민 수용을 둘러싼 유럽의 분열"
+     },
+     {
+      "id": "times:border",
+      "word": "border",
+      "ko": "국경, 경계",
+      "filled": "In countries such as France, Italy, Germany, and Sweden, these parties have won large shares of the vote by promising tighter border controls and stricter limits on asylum seekers.",
+      "sent_ko": "프랑스, 이탈리아, 독일, 스웨덴과 같은 나라에서, 이 정당들은 더 엄격한 국경 통제와 망명 신청자에 대한 더 엄격한 제한을 약속함으로써 많은 득표를 했다.",
+      "chunks": [
+       {
+        "en": "In countries such as France, Italy, Germany, and Sweden,",
+        "ko": "프랑스, 이탈리아, 독일, 스웨덴과 같은 나라에서,"
+       },
+       {
+        "en": "these parties have won large shares of the vote",
+        "ko": "이 정당들은 많은 득표를 했다"
+       },
+       {
+        "en": "by promising tighter border controls",
+        "ko": "더 엄격한 국경 통제를 약속함으로써"
+       },
+       {
+        "en": "and stricter limits on asylum seekers.",
+        "ko": "그리고 망명 신청자에 대한 더 엄격한 제한"
+       }
+      ],
+      "rp": {
+       "situation": "반이민 정당 후보가 유권자들에게 국경 정책을 설명하는 상황",
+       "prompt": "What is your party promising voters?",
+       "options": [
+        "We will impose tighter border controls to limit migration.",
+        "We will impose tighter border controllings to limit migration."
+       ],
+       "answer": 0,
+       "why": "border controls는 명사구이며, controllings는 존재하지 않는 형태다."
+      },
+      "topic": "난민 수용을 둘러싼 유럽의 분열"
+     },
+     {
+      "id": "times:coordination",
+      "word": "coordination",
+      "ko": "조정, 협력",
+      "filled": "EU-wide coordination remains difficult.",
+      "sent_ko": "EU 전체의 협력은 여전히 어렵다.",
+      "chunks": [
+       {
+        "en": "EU-wide coordination",
+        "ko": "EU 전체의 협력은"
+       },
+       {
+        "en": "remains difficult.",
+        "ko": "여전히 어렵다"
+       }
+      ],
+      "rp": {
+       "situation": "EU 회원국들이 난민 정책을 함께 조율하려 하지만 합의에 실패하는 상황",
+       "prompt": "Why is this policy so hard to implement?",
+       "options": [
+        "Better coordination among member states is needed.",
+        "Better coordinate among member states is needed."
+       ],
+       "answer": 0,
+       "why": "coordination은 명사로 쓰여야 하며, coordinate는 동사라서 이 자리에 올 수 없다."
+      },
+      "topic": "난민 수용을 둘러싼 유럽의 분열"
+     },
+     {
+      "id": "times:refugee",
+      "word": "refugee",
+      "ko": "난민",
+      "filled": "Security concerns are another reason some governments resist taking in refugees.",
+      "sent_ko": "안보 우려는 일부 정부가 난민을 받아들이는 것에 저항하는 또 다른 이유다.",
+      "chunks": [
+       {
+        "en": "Security concerns",
+        "ko": "안보 우려는"
+       },
+       {
+        "en": "are another reason",
+        "ko": "또 다른 이유다"
+       },
+       {
+        "en": "some governments resist",
+        "ko": "일부 정부가 저항하는"
+       },
+       {
+        "en": "taking in refugees.",
+        "ko": "난민을 받아들이는 것에"
+       }
+      ],
+      "rp": {
+       "situation": "유럽 정부 관리가 난민 수용 정책에 대해 이야기하는 상황",
+       "prompt": "Why won't your government accept more people?",
+       "options": [
+        "We have security concerns about taking in refugees.",
+        "We have security concerns about taking in refuges."
+       ],
+       "answer": 0,
+       "why": "refugees는 난민을 뜻하는 명사이며, refuges는 '피난처'라는 전혀 다른 단어다."
+      },
+      "topic": "난민 수용을 둘러싼 유럽의 분열"
+     },
+     {
+      "id": "times:quota",
+      "word": "quota",
+      "ko": "할당량, 쿼터",
+      "filled": "Countries disagree on how to share responsibility for processing asylum applications, and some nations have simply refused to accept refugee quotas set by Brussels.",
+      "sent_ko": "각국은 망명 신청 처리에 대한 책임을 어떻게 나눌지에 대해 의견이 다르며, 일부 국가들은 브뤼셀이 정한 난민 할당량을 받아들이기를 거부했다.",
+      "chunks": [
+       {
+        "en": "Countries disagree on how to share responsibility",
+        "ko": "각국은 책임을 어떻게 나눌지에 대해 의견이 다르다"
+       },
+       {
+        "en": "for processing asylum applications,",
+        "ko": "망명 신청을 처리하는 것에 대해,"
+       },
+       {
+        "en": "and some nations have simply refused",
+        "ko": "그리고 일부 국가들은 단순히 거부했다"
+       },
+       {
+        "en": "to accept refugee quotas",
+        "ko": "난민 할당량을 받아들이기를"
+       },
+       {
+        "en": "set by Brussels.",
+        "ko": "브뤼셀이 정한"
+       }
+      ],
+      "rp": {
+       "situation": "EU가 각 회원국에 받아야 할 난민 수를 배분한 상황",
+       "prompt": "Did your country agree to the EU's plan?",
+       "options": [
+        "No, we refused to accept the refugee quotas set by Brussels.",
+        "No, we refused to accept the refugee quota's set by Brussels."
+       ],
+       "answer": 0,
+       "why": "quotas는 복수 명사이며, quota's는 잘못된 소유격 표기다."
+      },
+      "topic": "난민 수용을 둘러싼 유럽의 분열"
+     },
+     {
+      "id": "times:reception",
+      "word": "reception",
+      "ko": "수용, 접수, 환영",
+      "filled": "However, refugees from the Middle East and Africa have often faced a much colder reception, leading critics to argue that race and religion play a role in these decisions.",
+      "sent_ko": "그러나 중동과 아프리카 출신 난민들은 종종 훨씬 냉담한 수용을 받아, 비평가들은 인종과 종교가 이러한 결정에 역할을 한다고 주장하게 되었다.",
+      "chunks": [
+       {
+        "en": "However, refugees from the Middle East and Africa",
+        "ko": "그러나 중동과 아프리카 출신 난민들은"
+       },
+       {
+        "en": "have often faced a much colder reception,",
+        "ko": "종종 훨씬 냉담한 수용을 받아,"
+       },
+       {
+        "en": "leading critics to argue",
+        "ko": "비평가들이 주장하게 되었다"
+       },
+       {
+        "en": "that race and religion",
+        "ko": "인종과 종교가"
+       },
+       {
+        "en": "play a role in these decisions.",
+        "ko": "이러한 결정에 역할을 한다고"
+       }
+      ],
+      "rp": {
+       "situation": "유럽에서 우크라이나 난민과 중동 난민이 받은 대우를 비교하는 상황",
+       "prompt": "Were all refugee groups treated the same way?",
+       "options": [
+        "No, some groups faced a much colder reception than others.",
+        "No, some groups faced a much colder reception than the others."
+       ],
+       "answer": 0,
+       "why": "비교 대상이 막연한 다른 집단 전체일 때는 others를 쓰며, the others는 이미 특정된 나머지 전부를 가리킨다."
+      },
+      "topic": "난민 수용을 둘러싼 유럽의 분열"
+     },
+     {
+      "id": "times:discrimination",
+      "word": "discrimination",
+      "ko": "차별",
+      "filled": "Many refugees face discrimination when looking for work or housing because of where they come from.",
+      "sent_ko": "많은 난민들이 출신지 때문에 일자리나 주거를 구할 때 차별에 직면한다.",
+      "chunks": [
+       {
+        "en": "Many refugees",
+        "ko": "많은 난민들이"
+       },
+       {
+        "en": "face discrimination",
+        "ko": "차별에 직면한다"
+       },
+       {
+        "en": "when looking for work or housing",
+        "ko": "일자리나 주거를 구할 때"
+       },
+       {
+        "en": "because of where they come from.",
+        "ko": "출신지 때문에"
+       }
+      ],
+      "rp": {
+       "situation": "유럽에서 난민이 일자리를 구하려 하지만 출신지 때문에 거부당하는 상황",
+       "prompt": "What is happening to refugees in the job market?",
+       "options": [
+        "Many refugees face discrimination because of where they come from.",
+        "Many refugees face discriminate because of where they come from."
+       ],
+       "answer": 0,
+       "why": "face의 목적어는 명사인 discrimination이어야 하며, discriminate는 동사라서 올 수 없다."
+      },
+      "topic": "난민 수용을 둘러싼 유럽의 분열"
+     },
+     {
+      "id": "times:flee",
+      "word": "flee",
+      "ko": "도망치다, 피하다",
+      "filled": "When large numbers of people flee war or persecution, they often head toward Europe.",
+      "sent_ko": "많은 수의 사람들이 전쟁이나 박해를 피해 도망칠 때, 그들은 종종 유럽을 향해 나아간다.",
+      "chunks": [
+       {
+        "en": "When large numbers of people",
+        "ko": "많은 수의 사람들이"
+       },
+       {
+        "en": "flee war or persecution,",
+        "ko": "전쟁이나 박해를 피해 도망칠 때,"
+       },
+       {
+        "en": "they often head",
+        "ko": "그들은 종종 향해 나아간다"
+       },
+       {
+        "en": "toward Europe.",
+        "ko": "유럽을"
+       }
+      ],
+      "rp": {
+       "situation": "전쟁이 발발하여 중동 사람들이 자국을 떠나 유럽으로 이동하는 상황",
+       "prompt": "What are people doing as the conflict spreads?",
+       "options": [
+        "Thousands of people are beginning to flee the country.",
+        "Thousands of people are beginning to flight the country."
+       ],
+       "answer": 0,
+       "why": "flee는 동사로 쓰이며, flight는 이 문맥에서 동사로 쓸 수 없는 명사다."
+      },
+      "topic": "난민 수용을 둘러싼 유럽의 분열"
+     },
+     {
+      "id": "times:significant",
+      "word": "significant",
+      "ko": "중요한, 상당한",
+      "filled": "In recent years, anti-immigration parties have gained significant support across Europe.",
+      "sent_ko": "최근 몇 년간, 반이민 정당들이 유럽 전역에서 상당한 지지를 얻었다.",
+      "chunks": [
+       {
+        "en": "In recent years,",
+        "ko": "최근 몇 년간,"
+       },
+       {
+        "en": "anti-immigration parties",
+        "ko": "반이민 정당들이"
+       },
+       {
+        "en": "have gained significant support",
+        "ko": "상당한 지지를 얻었다"
+       },
+       {
+        "en": "across Europe.",
+        "ko": "유럽 전역에서"
+       }
+      ],
+      "rp": {
+       "situation": "유럽 선거에서 반이민 정당이 예상보다 훨씬 많은 표를 얻은 상황",
+       "prompt": "How did these parties perform in the election?",
+       "options": [
+        "They gained significant support across the continent.",
+        "They gained significance support across the continent."
+       ],
+       "answer": 0,
+       "why": "support를 수식하는 자리에는 형용사 significant가 와야 하며, significance는 명사라서 쓸 수 없다."
+      },
+      "topic": "난민 수용을 둘러싼 유럽의 분열"
+     },
+     {
+      "id": "times:displaced",
+      "word": "displaced",
+      "ko": "추방된, 이주를 강요당한",
+      "filled": "The situation in Lebanon, for example, raises fears of another large wave of displaced people heading toward Europe in the near future.",
+      "sent_ko": "예를 들어, 레바논의 상황은 가까운 미래에 또 다른 대규모 이주 강요 인파가 유럽을 향해 이동할 것이라는 우려를 불러일으킨다.",
+      "chunks": [
+       {
+        "en": "The situation in Lebanon, for example,",
+        "ko": "예를 들어, 레바논의 상황은"
+       },
+       {
+        "en": "raises fears of another large wave",
+        "ko": "또 다른 대규모 물결에 대한 우려를 불러일으킨다"
+       },
+       {
+        "en": "of displaced people",
+        "ko": "이주를 강요당한 사람들의"
+       },
+       {
+        "en": "heading toward Europe",
+        "ko": "유럽을 향해 이동하는"
+       },
+       {
+        "en": "in the near future.",
+        "ko": "가까운 미래에"
+       }
+      ],
+      "rp": {
+       "situation": "레바논 위기로 수많은 사람들이 집과 나라를 잃고 떠돌고 있는 상황",
+       "prompt": "How would you describe the people leaving Lebanon?",
+       "options": [
+        "They are displaced people with nowhere safe to go.",
+        "They are displace people with nowhere safe to go."
+       ],
+       "answer": 0,
+       "why": "displaced는 형용사로 쓰이며, displace는 동사라서 명사를 수식하는 자리에 올 수 없다."
+      },
+      "topic": "난민 수용을 둘러싼 유럽의 분열"
+     },
+     {
+      "id": "times:influence",
+      "word": "influence",
+      "ko": "영향, 영향을 미치다",
+      "filled": "Their growing influence has made it harder for EU governments to agree on a shared approach to refugees.",
+      "sent_ko": "그들의 커지는 영향력은 EU 정부들이 난민에 대한 공동 접근 방식에 합의하기를 더 어렵게 만들었다.",
+      "chunks": [
+       {
+        "en": "Their growing influence",
+        "ko": "그들의 커지는 영향력은"
+       },
+       {
+        "en": "has made it harder",
+        "ko": "더 어렵게 만들었다"
+       },
+       {
+        "en": "for EU governments to agree",
+        "ko": "EU 정부들이 합의하기를"
+       },
+       {
+        "en": "on a shared approach to refugees.",
+        "ko": "난민에 대한 공동 접근 방식에"
+       }
+      ],
+      "rp": {
+       "situation": "반이민 정당의 세력이 커지면서 EU 난민 정책 합의가 점점 어려워지는 상황",
+       "prompt": "Why can't EU governments agree on refugee policy?",
+       "options": [
+        "The growing influence of anti-immigration parties has made it harder.",
+        "The growing influential of anti-immigration parties has made it harder."
+       ],
+       "answer": 0,
+       "why": "influence는 명사로 쓰여야 하며, influential은 형용사라서 이 자리에 올 수 없다."
+      },
+      "topic": "난민 수용을 둘러싼 유럽의 분열"
+     },
+     {
+      "id": "times:justify",
+      "word": "justify",
+      "ko": "정당화하다",
+      "filled": "Some critics, however, argue that these concerns are sometimes used to justify unequal treatment of certain groups.",
+      "sent_ko": "그러나 일부 비평가들은 이러한 우려가 때로 특정 집단에 대한 불평등한 대우를 정당화하는 데 사용된다고 주장한다.",
+      "chunks": [
+       {
+        "en": "Some critics, however, argue",
+        "ko": "그러나 일부 비평가들은 주장한다"
+       },
+       {
+        "en": "that these concerns",
+        "ko": "이러한 우려가"
+       },
+       {
+        "en": "are sometimes used to justify",
+        "ko": "때로 정당화하는 데 사용된다고"
+       },
+       {
+        "en": "unequal treatment of certain groups.",
+        "ko": "특정 집단에 대한 불평등한 대우를"
+       }
+      ],
+      "rp": {
+       "situation": "유럽 정부 관리가 중동 난민에게 더 엄격한 보안 검사를 적용하는 이유를 설명하는 상황",
+       "prompt": "Why do you apply stricter checks to this group?",
+       "options": [
+        "We use security concerns to justify the stricter checks.",
+        "We use security concerns to justification the stricter checks."
+       ],
+       "answer": 0,
+       "why": "justify는 동사로 쓰여야 하며, justification은 명사라서 동사 자리에 올 수 없다."
+      },
+      "topic": "난민 수용을 둘러싼 유럽의 분열"
      }
     ]
    }
