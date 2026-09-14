@@ -1,0 +1,177 @@
+{
+  "week_monday": "2026-09-14",
+  "week_range": [
+    "2026-09-14",
+    "2026-09-20"
+  ],
+  "generated_at": "2026-09-14T00:53:18",
+  "excluded_levels": [
+    "junior_m"
+  ],
+  "cover_layouts": {
+    "kinder": "feature",
+    "kids": "feature",
+    "junior": "feature",
+    "times": "feature"
+  },
+  "photo_scores": {
+    "assets/kids/833caa5d0de9.jpg": 0.8494,
+    "assets/kids/4671546136bb.jpg": 0.8025,
+    "assets/kids/35b88b926532.jpg": 0.8004,
+    "assets/junior/21c3656e82bd.jpg": 0.7849,
+    "assets/junior/ce3ae3c42d2e.jpg": 0.7079,
+    "assets/junior/72720f4228a7.jpg": 0.6916,
+    "assets/kinder/aeb09e050859.jpg": 0.6569,
+    "assets/junior/7ea921eda41a.jpg": 0.6498,
+    "assets/kinder/46ef8e2b7056.jpg": 0.6449,
+    "assets/kinder/aa282aedb681.jpg": 0.5791,
+    "assets/junior/ca696e18180f.jpg": 0.5248,
+    "assets/kids/52e21b487a1f.jpg": 0.4658,
+    "assets/kinder/56032181b5ee.jpg": 0.415,
+    "assets/kids/630ffc1510a8.jpg": 0.3912,
+    "assets/junior/75aa675b1599.jpg": 0.3298,
+    "assets/kids/6da48155e3fd.jpg": 0.1523
+  },
+  "format": {
+    "name": "tabloid",
+    "width_mm": 279,
+    "height_mm": 432,
+    "margin_mm": 13
+  },
+  "validation": [
+    {
+      "level": "kinder",
+      "title": "TOP NEWS KINDER",
+      "quota": 4,
+      "found": 4,
+      "status": "ok",
+      "message": "규정 충족 (4/4)",
+      "selected": [
+        "How Do Whales Breathe?",
+        "Squirrels Plant Oak Trees by Hiding Acorns",
+        "Why Don't Spiders Stick to Their Webs?",
+        "Why Does the Sky Look So High in Fall?"
+      ],
+      "dropped": []
+    },
+    {
+      "level": "kids",
+      "title": "TOP NEWS KIDS",
+      "quota": 6,
+      "found": 6,
+      "status": "ok",
+      "message": "규정 충족 (6/6)",
+      "selected": [
+        "Harvest Holidays Around the World",
+        "How Your Fingerprint Can Open a Door",
+        "How Many Bones Are in Your Body?",
+        "Where Does Your Food Waste Go?",
+        "How Far Can Volcanic Ash Travel?",
+        "Why Do Migrating Birds Fly in a V?"
+      ],
+      "dropped": []
+    },
+    {
+      "level": "junior",
+      "title": "TOP NEWS JUNIOR",
+      "quota": 8,
+      "found": 6,
+      "status": "short",
+      "message": "부족 2건 — 6/8건으로 조판",
+      "selected": [
+        "What Big Sporting Events Leave Behind",
+        "The Hidden Art of Translating Words",
+        "Why Subscription Services Are Growing Fast",
+        "Why Are Teens Skipping Breakfast?",
+        "Can AI Job Interviews Be Fair?",
+        "Cities Are Bringing Their Rivers Back to Life"
+      ],
+      "dropped": []
+    },
+    {
+      "level": "times",
+      "title": "TOP NEWS TIMES",
+      "quota": 10,
+      "found": 0,
+      "status": "empty",
+      "message": "수집 0건 — 지면 생성 불가 (규정 10)",
+      "selected": [],
+      "dropped": []
+    }
+  ],
+  "output": [
+    {
+      "level": "times",
+      "title": "TOP NEWS TIMES",
+      "pdf": null,
+      "pages": 0,
+      "error": "기사 0건 — 지면 생성 생략",
+      "quota": 10,
+      "found": 0,
+      "quota_status": "empty"
+    },
+    {
+      "level": "kinder",
+      "title": "TOP NEWS KINDER",
+      "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-09-14/TopNews_Kinder_2026-09-14.pdf",
+      "pages": 6,
+      "expected_pages": 6,
+      "cover": "feature",
+      "cover_feature": {
+        "page": 3,
+        "article_no": 2,
+        "title": "Squirrels Plant Oak Trees by Hiding Acorns",
+        "photo": "assets/kinder/46ef8e2b7056.jpg",
+        "score": 0.6449,
+        "forced": false
+      },
+      "photos_missing": 0,
+      "error": null,
+      "quota": 4,
+      "found": 4,
+      "quota_status": "ok"
+    },
+    {
+      "level": "kids",
+      "title": "TOP NEWS KIDS",
+      "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-09-14/TopNews_Kids_2026-09-14.pdf",
+      "pages": 8,
+      "expected_pages": 8,
+      "cover": "feature",
+      "cover_feature": {
+        "page": 5,
+        "article_no": 4,
+        "title": "Where Does Your Food Waste Go?",
+        "photo": "assets/kids/4671546136bb.jpg",
+        "score": 0.8025,
+        "forced": false
+      },
+      "photos_missing": 0,
+      "error": null,
+      "quota": 6,
+      "found": 6,
+      "quota_status": "ok"
+    },
+    {
+      "level": "junior",
+      "title": "TOP NEWS JUNIOR",
+      "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-09-14/TopNews_Junior_2026-09-14.pdf",
+      "pages": 8,
+      "expected_pages": 8,
+      "cover": "feature",
+      "cover_feature": {
+        "page": 5,
+        "article_no": 4,
+        "title": "Why Are Teens Skipping Breakfast?",
+        "photo": "assets/junior/21c3656e82bd.jpg",
+        "score": 0.7849,
+        "forced": false
+      },
+      "photos_missing": 0,
+      "error": null,
+      "quota": 8,
+      "found": 6,
+      "quota_status": "short"
+    }
+  ]
+}

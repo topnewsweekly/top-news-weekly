@@ -1,6 +1,58 @@
 {
   "issues": [
     {
+      "week": "2026-09-14",
+      "week_range": [
+        "2026-09-14",
+        "2026-09-20"
+      ],
+      "generated_at": "2026-09-14T00:53:18",
+      "format": {
+        "name": "tabloid",
+        "width_mm": 279,
+        "height_mm": 432,
+        "margin_mm": 13
+      },
+      "files": [
+        {
+          "file": "issues/2026-09-14/TopNews_Kinder_2026-09-14.pdf",
+          "name": "TopNews_Kinder_2026-09-14.pdf",
+          "media": "TOP NEWS KINDER",
+          "level": "kinder",
+          "pages": 6,
+          "articles": 4,
+          "quota": 4,
+          "found": 4,
+          "quota_status": "ok",
+          "size_kb": 712
+        },
+        {
+          "file": "issues/2026-09-14/TopNews_Kids_2026-09-14.pdf",
+          "name": "TopNews_Kids_2026-09-14.pdf",
+          "media": "TOP NEWS KIDS",
+          "level": "kids",
+          "pages": 8,
+          "articles": 6,
+          "quota": 6,
+          "found": 6,
+          "quota_status": "ok",
+          "size_kb": 961
+        },
+        {
+          "file": "issues/2026-09-14/TopNews_Junior_2026-09-14.pdf",
+          "name": "TopNews_Junior_2026-09-14.pdf",
+          "media": "TOP NEWS JUNIOR",
+          "level": "junior",
+          "pages": 8,
+          "articles": 6,
+          "quota": 8,
+          "found": 6,
+          "quota_status": "short",
+          "size_kb": 911
+        }
+      ]
+    },
+    {
       "week": "2026-08-24",
       "week_range": [
         "2026-08-24",
