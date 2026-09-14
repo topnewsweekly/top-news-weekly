@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14 10:15:30",
+ "generated": "2026-09-14 10:17:31",
  "levels": {
   "kinder": [
    {
@@ -16614,6 +16614,549 @@
        "why": "technology는 '(산업·공학적) 기술 체계'를 뜻하고, technique는 '개인적 기법·방법'을 뜻해 자율 주행 분야 전체를 가리키는 문맥에 맞지 않는다."
       },
       "topic": "자율주행 사고의 책임 소재"
+     }
+    ]
+   },
+   {
+    "id": "times|감염병 감시 체계의 국제 공조",
+    "level": "times",
+    "topic": "감염병 감시 체계의 국제 공조",
+    "section": "건강",
+    "week": "2026-09-14",
+    "tf": [
+     {
+      "s": "Disease surveillance involves collecting data on infection rates and sharing findings with other countries.",
+      "a": true
+     },
+     {
+      "s": "The WHO works completely alone to handle global disease monitoring without any regional partners.",
+      "a": false
+     },
+     {
+      "s": "CORDS helps connect regional surveillance networks so they can share information and best practices.",
+      "a": true
+     },
+     {
+      "s": "The COVID-19 pandemic had little impact on how experts view international disease surveillance cooperation.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "times:infectious",
+      "word": "infectious",
+      "ko": "전염성의, 감염되는",
+      "filled": "When a new infectious disease appears in one country, it can spread across borders within days.",
+      "sent_ko": "새로운 전염성 질병이 한 나라에서 나타나면, 며칠 안에 국경을 넘어 퍼질 수 있다.",
+      "chunks": [
+       {
+        "en": "When a new infectious disease",
+        "ko": "새로운 전염성 질병이"
+       },
+       {
+        "en": "appears in one country,",
+        "ko": "한 나라에서 나타나면,"
+       },
+       {
+        "en": "it can spread across borders",
+        "ko": "국경을 넘어 퍼질 수 있다"
+       },
+       {
+        "en": "within days.",
+        "ko": "며칠 안에."
+       }
+      ],
+      "rp": {
+       "situation": "WHO 보고서에 새로운 질병이 국경을 넘어 빠르게 퍼지고 있다고 나와 있다.",
+       "prompt": "How would you describe this disease?",
+       "options": [
+        "It is an infectious disease that spreads easily across borders.",
+        "It is an infecting disease that spreads easily across borders."
+       ],
+       "answer": 0,
+       "why": "형용사는 infectious이며, infecting은 이 맥락에서 쓰지 않는다."
+      },
+      "topic": "감염병 감시 체계의 국제 공조"
+     },
+     {
+      "id": "times:surveillance",
+      "word": "surveillance",
+      "ko": "감시, 추적 관찰",
+      "filled": "Disease surveillance means tracking and monitoring the spread of illnesses in a population.",
+      "sent_ko": "질병 감시란 인구 집단에서 질병의 확산을 추적하고 관찰하는 것을 의미한다.",
+      "chunks": [
+       {
+        "en": "Disease surveillance",
+        "ko": "질병 감시란"
+       },
+       {
+        "en": "means tracking and monitoring",
+        "ko": "추적하고 관찰하는 것을 의미한다"
+       },
+       {
+        "en": "the spread of illnesses",
+        "ko": "질병의 확산을"
+       },
+       {
+        "en": "in a population.",
+        "ko": "인구 집단에서."
+       }
+      ],
+      "rp": {
+       "situation": "WHO 직원이 여러 나라의 감염 데이터를 지속적으로 수집하고 있다.",
+       "prompt": "What is the WHO doing?",
+       "options": [
+        "The WHO is conducting disease surveillance across multiple countries.",
+        "The WHO is conducting disease survey across multiple countries."
+       ],
+       "answer": 0,
+       "why": "surveillance는 지속적 감시를 뜻하며, survey는 일회성 조사를 뜻한다."
+      },
+      "topic": "감염병 감시 체계의 국제 공조"
+     },
+     {
+      "id": "times:cooperation",
+      "word": "cooperation",
+      "ko": "협력, 협조",
+      "filled": "This is why international cooperation in disease surveillance has become one of the most important issues in global public health.",
+      "sent_ko": "이것이 바로 질병 감시에서의 국제적 협력이 세계 공중보건의 가장 중요한 문제 중 하나가 된 이유이다.",
+      "chunks": [
+       {
+        "en": "This is why",
+        "ko": "이것이 바로 ~한 이유이다"
+       },
+       {
+        "en": "international cooperation in disease surveillance",
+        "ko": "질병 감시에서의 국제적 협력이"
+       },
+       {
+        "en": "has become one of the most important issues",
+        "ko": "가장 중요한 문제 중 하나가 된"
+       },
+       {
+        "en": "in global public health.",
+        "ko": "세계 공중보건에서."
+       }
+      ],
+      "rp": {
+       "situation": "아프리카 CDC와 WHO가 감염병 대응을 위해 함께 데이터를 공유하고 있다.",
+       "prompt": "How would you describe what they are doing?",
+       "options": [
+        "They are working in cooperation to fight the disease outbreak.",
+        "They are working in cooperative to fight the disease outbreak."
+       ],
+       "answer": 0,
+       "why": "cooperation은 명사이며, cooperative는 이 자리에 올 수 없다."
+      },
+      "topic": "감염병 감시 체계의 국제 공조"
+     },
+     {
+      "id": "times:outbreak",
+      "word": "outbreak",
+      "ko": "발생, 발병",
+      "filled": "The COVID-19 pandemic showed how quickly a local outbreak can become a global crisis.",
+      "sent_ko": "코로나19 팬데믹은 지역적인 발생이 얼마나 빠르게 세계적 위기가 될 수 있는지를 보여 주었다.",
+      "chunks": [
+       {
+        "en": "The COVID-19 pandemic showed",
+        "ko": "코로나19 팬데믹은 보여 주었다"
+       },
+       {
+        "en": "how quickly",
+        "ko": "얼마나 빠르게"
+       },
+       {
+        "en": "a local outbreak",
+        "ko": "지역적인 발생이"
+       },
+       {
+        "en": "can become a global crisis.",
+        "ko": "세계적 위기가 될 수 있는지를."
+       }
+      ],
+      "rp": {
+       "situation": "한 나라에서 새로운 감염병 사례가 갑자기 크게 늘었다는 보고가 들어왔다.",
+       "prompt": "What do health officials call this event?",
+       "options": [
+        "They call it a local outbreak that needs immediate monitoring.",
+        "They call it a local outburst that needs immediate monitoring."
+       ],
+       "answer": 0,
+       "why": "outbreak은 질병 발생을 뜻하며, outburst는 감정의 폭발을 뜻한다."
+      },
+      "topic": "감염병 감시 체계의 국제 공조"
+     },
+     {
+      "id": "times:epidemic",
+      "word": "epidemic",
+      "ko": "유행병, 전염병의 유행",
+      "filled": "The goal is to detect threats early — before they grow into full-scale epidemics or pandemics.",
+      "sent_ko": "목표는 위협이 본격적인 유행병이나 팬데믹으로 커지기 전에 조기에 감지하는 것이다.",
+      "chunks": [
+       {
+        "en": "The goal is to detect threats early —",
+        "ko": "목표는 위협을 조기에 감지하는 것이다 —"
+       },
+       {
+        "en": "before they grow",
+        "ko": "커지기 전에"
+       },
+       {
+        "en": "into full-scale epidemics",
+        "ko": "본격적인 유행병으로"
+       },
+       {
+        "en": "or pandemics.",
+        "ko": "또는 팬데믹으로."
+       }
+      ],
+      "rp": {
+       "situation": "WHO가 한 지역에서 감염병이 급속히 확산되고 있다고 경고하고 있다.",
+       "prompt": "What might this become if it is not contained?",
+       "options": [
+        "It could grow into a full-scale epidemic affecting the entire region.",
+        "It could grow into a full-scale epidemic affecting the entire local."
+       ],
+       "answer": 0,
+       "why": "region은 명사이며, local은 이 자리에 명사로 쓸 수 없다."
+      },
+      "topic": "감염병 감시 체계의 국제 공조"
+     },
+     {
+      "id": "times:pandemic",
+      "word": "pandemic",
+      "ko": "세계적 유행병, 팬데믹",
+      "filled": "The COVID-19 pandemic showed how quickly a local outbreak can become a global crisis.",
+      "sent_ko": "코로나19 팬데믹은 지역적인 발생이 얼마나 빠르게 세계적 위기가 될 수 있는지를 보여 주었다.",
+      "chunks": [
+       {
+        "en": "The COVID-19 pandemic showed",
+        "ko": "코로나19 팬데믹은 보여 주었다"
+       },
+       {
+        "en": "how quickly",
+        "ko": "얼마나 빠르게"
+       },
+       {
+        "en": "a local outbreak",
+        "ko": "지역적인 발생이"
+       },
+       {
+        "en": "can become a global crisis.",
+        "ko": "세계적 위기가 될 수 있는지를."
+       }
+      ],
+      "rp": {
+       "situation": "코로나19가 전 세계 거의 모든 나라로 퍼져 나갔던 상황을 설명하고 있다.",
+       "prompt": "What term best describes COVID-19?",
+       "options": [
+        "COVID-19 is described as a pandemic because it spread worldwide.",
+        "COVID-19 is described as an epidemic because it spread worldwide."
+       ],
+       "answer": 0,
+       "why": "pandemic은 전 세계적 확산을 뜻하며, epidemic은 특정 지역 유행을 뜻한다."
+      },
+      "topic": "감염병 감시 체계의 국제 공조"
+     },
+     {
+      "id": "times:monitor",
+      "word": "monitor",
+      "ko": "감시하다, 추적하다",
+      "filled": "Disease surveillance means tracking and monitoring the spread of illnesses in a population.",
+      "sent_ko": "질병 감시란 인구 집단에서 질병의 확산을 추적하고 관찰하는 것을 의미한다.",
+      "chunks": [
+       {
+        "en": "Disease surveillance",
+        "ko": "질병 감시란"
+       },
+       {
+        "en": "means tracking and monitoring",
+        "ko": "추적하고 관찰하는 것을 의미한다"
+       },
+       {
+        "en": "the spread of illnesses",
+        "ko": "질병의 확산을"
+       },
+       {
+        "en": "in a population.",
+        "ko": "인구 집단에서."
+       }
+      ],
+      "rp": {
+       "situation": "ECDC 팀이 유럽 전역의 감염 데이터를 매일 확인하고 있다.",
+       "prompt": "What is the team doing with the infection data?",
+       "options": [
+        "The team is monitoring the infection data every day.",
+        "The team is monitorizing the infection data every day."
+       ],
+       "answer": 0,
+       "why": "monitor의 올바른 동명사형은 monitoring이며, monitorizing은 존재하지 않는다."
+      },
+      "topic": "감염병 감시 체계의 국제 공조"
+     },
+     {
+      "id": "times:detect",
+      "word": "detect",
+      "ko": "발견하다, 감지하다",
+      "filled": "The goal is to detect threats early — before they grow into full-scale epidemics or pandemics.",
+      "sent_ko": "목표는 위협이 본격적인 유행병이나 팬데믹으로 커지기 전에 조기에 감지하는 것이다.",
+      "chunks": [
+       {
+        "en": "The goal is to detect threats early —",
+        "ko": "목표는 위협을 조기에 감지하는 것이다 —"
+       },
+       {
+        "en": "before they grow",
+        "ko": "커지기 전에"
+       },
+       {
+        "en": "into full-scale epidemics",
+        "ko": "본격적인 유행병으로"
+       },
+       {
+        "en": "or pandemics.",
+        "ko": "또는 팬데믹으로."
+       }
+      ],
+      "rp": {
+       "situation": "WHO 시스템이 한 나라에서 비정상적인 감염 급증을 발견했다.",
+       "prompt": "What did the surveillance system do?",
+       "options": [
+        "The surveillance system was able to detect the unusual outbreak early.",
+        "The surveillance system was able to detective the unusual outbreak early."
+       ],
+       "answer": 0,
+       "why": "detect는 동사이며, detective는 명사로 동사 자리에 쓸 수 없다."
+      },
+      "topic": "감염병 감시 체계의 국제 공조"
+     },
+     {
+      "id": "times:coordinate",
+      "word": "coordinate",
+      "ko": "조율하다, 조정하다",
+      "filled": "The World Health Organization (WHO) coordinates global disease monitoring and issues alerts when a serious outbreak is detected.",
+      "sent_ko": "세계보건기구(WHO)는 전 세계 질병 모니터링을 조율하고, 심각한 발생이 감지되면 경보를 발령한다.",
+      "chunks": [
+       {
+        "en": "The World Health Organization (WHO)",
+        "ko": "세계보건기구(WHO)는"
+       },
+       {
+        "en": "coordinates global disease monitoring",
+        "ko": "전 세계 질병 모니터링을 조율한다"
+       },
+       {
+        "en": "and issues alerts",
+        "ko": "그리고 경보를 발령한다"
+       },
+       {
+        "en": "when a serious outbreak is detected.",
+        "ko": "심각한 발생이 감지되면."
+       }
+      ],
+      "rp": {
+       "situation": "여러 나라의 보건 기관들이 WHO의 주도 아래 대응 계획을 함께 짜고 있다.",
+       "prompt": "What role does the WHO play?",
+       "options": [
+        "The WHO coordinates the response efforts of health agencies worldwide.",
+        "The WHO cooperates the response efforts of health agencies worldwide."
+       ],
+       "answer": 0,
+       "why": "coordinate는 타동사로 목적어를 직접 취하며, cooperate는 자동사라 이 구조에 쓸 수 없다."
+      },
+      "topic": "감염병 감시 체계의 국제 공조"
+     },
+     {
+      "id": "times:initiative",
+      "word": "initiative",
+      "ko": "계획, 주도적 행동",
+      "filled": "One lesser-known but valuable initiative is CORDS, or Connecting Organizations for Regional Disease Surveillance.",
+      "sent_ko": "덜 알려져 있지만 가치 있는 계획 중 하나가 바로 CORDS, 즉 지역 질병 감시 기관 연결체이다.",
+      "chunks": [
+       {
+        "en": "One lesser-known but valuable initiative",
+        "ko": "덜 알려져 있지만 가치 있는 계획 중 하나가"
+       },
+       {
+        "en": "is CORDS,",
+        "ko": "바로 CORDS이다,"
+       },
+       {
+        "en": "or Connecting Organizations",
+        "ko": "즉 기관 연결체"
+       },
+       {
+        "en": "for Regional Disease Surveillance.",
+        "ko": "지역 질병 감시를 위한."
+       }
+      ],
+      "rp": {
+       "situation": "CORDS가 지역 감시 네트워크들을 연결하기 위해 새롭게 출범한 상황이다.",
+       "prompt": "How would you describe CORDS?",
+       "options": [
+        "CORDS is a valuable initiative that links regional surveillance networks.",
+        "CORDS is a valuable initiation that links regional surveillance networks."
+       ],
+       "answer": 0,
+       "why": "initiative는 계획·사업을 뜻하며, initiation은 시작 의식이나 절차를 뜻한다."
+      },
+      "topic": "감염병 감시 체계의 국제 공조"
+     },
+     {
+      "id": "times:isolated",
+      "word": "isolated",
+      "ko": "고립된, 격리된",
+      "filled": "Experts say that closing the gaps between isolated regional systems is one of the biggest challenges in global health security.",
+      "sent_ko": "전문가들은 고립된 지역 시스템 간의 격차를 해소하는 것이 세계 보건 안보에서 가장 큰 도전 중 하나라고 말한다.",
+      "chunks": [
+       {
+        "en": "Experts say that",
+        "ko": "전문가들은 ~라고 말한다"
+       },
+       {
+        "en": "closing the gaps",
+        "ko": "격차를 해소하는 것이"
+       },
+       {
+        "en": "between isolated regional systems",
+        "ko": "고립된 지역 시스템 간의"
+       },
+       {
+        "en": "is one of the biggest challenges",
+        "ko": "가장 큰 도전 중 하나라고"
+       },
+       {
+        "en": "in global health security.",
+        "ko": "세계 보건 안보에서."
+       }
+      ],
+      "rp": {
+       "situation": "일부 저소득 국가들이 다른 감시 네트워크와 연결되지 않은 채 독자적으로 운영되고 있다.",
+       "prompt": "How do experts describe these regional systems?",
+       "options": [
+        "Experts describe them as isolated systems that are not connected to the global network.",
+        "Experts describe them as isolating systems that are not connected to the global network."
+       ],
+       "answer": 0,
+       "why": "isolated는 고립된 상태를 나타내며, isolating은 다른 것을 고립시키는 능동의 뜻이다."
+      },
+      "topic": "감염병 감시 체계의 국제 공조"
+     },
+     {
+      "id": "times:resources",
+      "word": "resources",
+      "ko": "자원, 물자",
+      "filled": "Many lower-income countries lack the resources to build strong surveillance systems, which creates blind spots in the global network.",
+      "sent_ko": "많은 저소득 국가들이 강력한 감시 시스템을 구축할 자원이 부족하며, 이는 전 세계 네트워크에 맹점을 만들어 낸다.",
+      "chunks": [
+       {
+        "en": "Many lower-income countries",
+        "ko": "많은 저소득 국가들이"
+       },
+       {
+        "en": "lack the resources",
+        "ko": "자원이 부족하다"
+       },
+       {
+        "en": "to build strong surveillance systems,",
+        "ko": "강력한 감시 시스템을 구축할,"
+       },
+       {
+        "en": "which creates blind spots",
+        "ko": "이는 맹점을 만들어 낸다"
+       },
+       {
+        "en": "in the global network.",
+        "ko": "전 세계 네트워크에."
+       }
+      ],
+      "rp": {
+       "situation": "저소득 국가들이 감시 시스템을 갖추지 못하는 이유를 보건 전문가가 설명하고 있다.",
+       "prompt": "Why can't these countries build strong surveillance systems?",
+       "options": [
+        "They lack the resources needed to build and maintain such systems.",
+        "They lack the sources needed to build and maintain such systems."
+       ],
+       "answer": 0,
+       "why": "resources는 자금·인력 등 자원을 뜻하며, sources는 출처·근원을 뜻해 이 맥락에 맞지 않는다."
+      },
+      "topic": "감염병 감시 체계의 국제 공조"
+     },
+     {
+      "id": "times:blind spot",
+      "word": "blind spot",
+      "ko": "맹점, 취약 지점",
+      "filled": "Many lower-income countries lack the resources to build strong surveillance systems, which creates blind spots in the global network.",
+      "sent_ko": "많은 저소득 국가들이 강력한 감시 시스템을 구축할 자원이 부족하며, 이는 전 세계 네트워크에 맹점을 만들어 낸다.",
+      "chunks": [
+       {
+        "en": "Many lower-income countries",
+        "ko": "많은 저소득 국가들이"
+       },
+       {
+        "en": "lack the resources",
+        "ko": "자원이 부족하다"
+       },
+       {
+        "en": "to build strong surveillance systems,",
+        "ko": "강력한 감시 시스템을 구축할,"
+       },
+       {
+        "en": "which creates blind spots",
+        "ko": "이는 맹점을 만들어 낸다"
+       },
+       {
+        "en": "in the global network.",
+        "ko": "전 세계 네트워크에."
+       }
+      ],
+      "rp": {
+       "situation": "저소득 국가들이 감시 데이터를 보고하지 못해 세계 네트워크에 탐지되지 않는 취약 지점이 생겼다.",
+       "prompt": "What do health experts call these unmonitored areas?",
+       "options": [
+        "Health experts call them blind spots in the global surveillance network.",
+        "Health experts call them dark spots in the global surveillance network."
+       ],
+       "answer": 0,
+       "why": "blind spot은 탐지 불가능한 취약 지점을 뜻하는 정해진 표현이며, dark spot은 이 맥락에서 쓰지 않는다."
+      },
+      "topic": "감염병 감시 체계의 국제 공조"
+     },
+     {
+      "id": "times:responsibility",
+      "word": "responsibility",
+      "ko": "책임, 의무",
+      "filled": "Strengthening international surveillance cooperation is no longer optional — it is a shared responsibility that affects every country on earth.",
+      "sent_ko": "국제적 감시 협력을 강화하는 것은 더 이상 선택 사항이 아니며, 이는 지구상의 모든 나라에 영향을 미치는 공동의 책임이다.",
+      "chunks": [
+       {
+        "en": "Strengthening international surveillance cooperation",
+        "ko": "국제적 감시 협력을 강화하는 것은"
+       },
+       {
+        "en": "is no longer optional —",
+        "ko": "더 이상 선택 사항이 아니다 —"
+       },
+       {
+        "en": "it is a shared responsibility",
+        "ko": "이는 공동의 책임이다"
+       },
+       {
+        "en": "that affects every country on earth.",
+        "ko": "지구상의 모든 나라에 영향을 미치는."
+       }
+      ],
+      "rp": {
+       "situation": "WHO가 각국에 국제 감시 협력 강화는 모든 나라가 함께 져야 할 의무라고 발표하고 있다.",
+       "prompt": "How does the WHO describe this duty?",
+       "options": [
+        "The WHO calls it a shared responsibility that every country must take seriously.",
+        "The WHO calls it a shared responsible that every country must take seriously."
+       ],
+       "answer": 0,
+       "why": "responsibility는 명사이며, responsible은 형용사라 이 자리에 쓸 수 없다."
+      },
+      "topic": "감염병 감시 체계의 국제 공조"
      }
     ]
    }
