@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14 10:10:50",
+ "generated": "2026-09-14 10:13:43",
  "levels": {
   "kinder": [
    {
@@ -9715,6 +9715,397 @@
        "why": "'guides'는 동사의 올바른 형태이고, 'guidances'는 동사로 쓸 수 없는 잘못된 형태이다."
       },
       "topic": "학교 도서관이 비어가는 이유"
+     }
+    ]
+   },
+   {
+    "id": "junior|1인 가구가 바꾸는 동네 풍경",
+    "level": "junior",
+    "topic": "1인 가구가 바꾸는 동네 풍경",
+    "section": "사회",
+    "week": "2026-09-14",
+    "tf": [
+     {
+      "s": "One-person households now make up about one-third of all homes in South Korea.",
+      "a": true
+     },
+     {
+      "s": "In the past, most shops and services were built for people who live alone.",
+      "a": false
+     },
+     {
+      "s": "Laundromats and small gyms are growing in popularity as neighbourhoods change.",
+      "a": true
+     },
+     {
+      "s": "Experts believe the number of single-person households will start to decrease soon.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "junior:household",
+      "word": "household",
+      "ko": "가정, 가구",
+      "filled": "In fact, one-person households now make up about one-third of all homes in the country.",
+      "sent_ko": "실제로, 1인 가구는 이제 한국 전체 가정의 약 3분의 1을 차지합니다.",
+      "chunks": [
+       {
+        "en": "In fact,",
+        "ko": "실제로,"
+       },
+       {
+        "en": "one-person households",
+        "ko": "1인 가구는"
+       },
+       {
+        "en": "now make up",
+        "ko": "이제 차지합니다"
+       },
+       {
+        "en": "about one-third of all homes",
+        "ko": "전체 가정의 약 3분의 1을"
+       },
+       {
+        "en": "in the country.",
+        "ko": "한국에서"
+       }
+      ],
+      "rp": {
+       "situation": "기사에서 한국의 1인 가구 수가 계속 늘고 있다고 합니다.",
+       "prompt": "How many people live in a one-person household?",
+       "options": [
+        "Only one person lives there.",
+        "Only one person lives there alone."
+       ],
+       "answer": 0,
+       "why": "'live alone'은 이미 혼자임을 뜻하므로 alone이 중복되어 어색합니다."
+      },
+      "topic": "1인 가구가 바꾸는 동네 풍경"
+     },
+     {
+      "id": "junior:neighbourhood",
+      "word": "neighbourhood",
+      "ko": "동네, 인근 지역",
+      "filled": "Neighbourhoods are changing in other ways, too.",
+      "sent_ko": "동네도 다른 방식으로 변화하고 있습니다.",
+      "chunks": [
+       {
+        "en": "Neighbourhoods",
+        "ko": "동네는"
+       },
+       {
+        "en": "are changing",
+        "ko": "변화하고 있습니다"
+       },
+       {
+        "en": "in other ways,",
+        "ko": "다른 방식으로,"
+       },
+       {
+        "en": "too.",
+        "ko": "또한"
+       }
+      ],
+      "rp": {
+       "situation": "기사에서 1인 가구가 늘면서 동네 모습이 달라지고 있다고 합니다.",
+       "prompt": "What word describes the area around where you live?",
+       "options": [
+        "My neighbourhood has many small cafes now.",
+        "My neighbouring has many small cafes now."
+       ],
+       "answer": 0,
+       "why": "neighbouring은 형용사이고 neighbourhood가 올바른 명사 형태입니다."
+      },
+      "topic": "1인 가구가 바꾸는 동네 풍경"
+     },
+     {
+      "id": "junior:reshape",
+      "word": "reshape",
+      "ko": "재편하다, 형태를 바꾸다",
+      "filled": "This change is reshaping the way neighbourhoods look and feel.",
+      "sent_ko": "이 변화는 동네의 모습과 느낌을 재편하고 있습니다.",
+      "chunks": [
+       {
+        "en": "This change",
+        "ko": "이 변화는"
+       },
+       {
+        "en": "is reshaping",
+        "ko": "재편하고 있습니다"
+       },
+       {
+        "en": "the way",
+        "ko": "방식을"
+       },
+       {
+        "en": "neighbourhoods look and feel.",
+        "ko": "동네가 보이고 느껴지는"
+       }
+      ],
+      "rp": {
+       "situation": "1인 가구 증가가 한국 동네의 모습을 바꾸고 있다는 기사를 읽었습니다.",
+       "prompt": "What is happening to neighbourhoods in South Korea?",
+       "options": [
+        "The trend is reshaping how neighbourhoods look and feel.",
+        "The trend is remaking how neighbourhoods look and feel."
+       ],
+       "answer": 0,
+       "why": "기사에서 쓰인 단어는 reshape이며, remake은 이 맥락에서 자연스럽지 않습니다."
+      },
+      "topic": "1인 가구가 바꾸는 동네 풍경"
+     },
+     {
+      "id": "junior:single",
+      "word": "single",
+      "ko": "1인의, 혼자인",
+      "filled": "Now, small restaurants, tiny supermarkets, and single-portion meal kits are appearing everywhere.",
+      "sent_ko": "지금은 작은 식당, 소형 슈퍼마켓, 그리고 1인분 밀키트가 곳곳에 등장하고 있습니다.",
+      "chunks": [
+       {
+        "en": "Now,",
+        "ko": "지금은,"
+       },
+       {
+        "en": "small restaurants, tiny supermarkets,",
+        "ko": "작은 식당, 소형 슈퍼마켓,"
+       },
+       {
+        "en": "and single-portion meal kits",
+        "ko": "그리고 1인분 밀키트가"
+       },
+       {
+        "en": "are appearing everywhere.",
+        "ko": "곳곳에 등장하고 있습니다"
+       }
+      ],
+      "rp": {
+       "situation": "혼자 사는 사람을 위한 밀키트가 슈퍼마켓에 많이 생겼다고 기사에서 말합니다.",
+       "prompt": "What kind of meal kits are sold for people who live alone?",
+       "options": [
+        "They sell single-portion meal kits.",
+        "They sell singleton-portion meal kits."
+       ],
+       "answer": 0,
+       "why": "singleton은 이 맥락에서 쓰지 않으며, single이 올바른 표현입니다."
+      },
+      "topic": "1인 가구가 바꾸는 동네 풍경"
+     },
+     {
+      "id": "junior:portion",
+      "word": "portion",
+      "ko": "부분, 일부분",
+      "filled": "Now, small restaurants, tiny supermarkets, and single-portion meal kits are appearing everywhere.",
+      "sent_ko": "지금은 작은 식당, 소형 슈퍼마켓, 그리고 1인분 밀키트가 곳곳에 등장하고 있습니다.",
+      "chunks": [
+       {
+        "en": "Now,",
+        "ko": "지금은,"
+       },
+       {
+        "en": "small restaurants, tiny supermarkets,",
+        "ko": "작은 식당, 소형 슈퍼마켓,"
+       },
+       {
+        "en": "and single-portion meal kits",
+        "ko": "그리고 1인분 밀키트가"
+       },
+       {
+        "en": "are appearing everywhere.",
+        "ko": "곳곳에 등장하고 있습니다"
+       }
+      ],
+      "rp": {
+       "situation": "혼자 사는 사람들을 위해 딱 한 명분의 음식이 담긴 밀키트가 팔리고 있습니다.",
+       "prompt": "How much food comes in these meal kits?",
+       "options": [
+        "Each kit has a single portion for one person.",
+        "Each kit has a single part for one person."
+       ],
+       "answer": 0,
+       "why": "음식의 1인분은 portion이며, part는 음식의 양을 나타낼 때 쓰지 않습니다."
+      },
+      "topic": "1인 가구가 바꾸는 동네 풍경"
+     },
+     {
+      "id": "junior:convenience",
+      "word": "convenience",
+      "ko": "편리함, 편의",
+      "filled": "Convenience stores have also become much more popular because they fit the needs of solo shoppers.",
+      "sent_ko": "편의점도 1인 쇼핑객의 요구에 맞기 때문에 훨씬 더 인기를 얻었습니다.",
+      "chunks": [
+       {
+        "en": "Convenience stores",
+        "ko": "편의점도"
+       },
+       {
+        "en": "have also become much more popular",
+        "ko": "훨씬 더 인기를 얻었습니다"
+       },
+       {
+        "en": "because they fit the needs",
+        "ko": "왜냐하면 요구에 맞기 때문에"
+       },
+       {
+        "en": "of solo shoppers.",
+        "ko": "1인 쇼핑객의"
+       }
+      ],
+      "rp": {
+       "situation": "기사에서 편의점이 혼자 사는 사람들의 필요에 잘 맞아 더 인기를 얻고 있다고 합니다.",
+       "prompt": "Why are convenience stores popular with solo shoppers?",
+       "options": [
+        "They offer convenience for people who live alone.",
+        "They offer convenient for people who live alone."
+       ],
+       "answer": 0,
+       "why": "offer 뒤에는 명사가 와야 하므로 형용사 convenient가 아닌 명사 convenience가 맞습니다."
+      },
+      "topic": "1인 가구가 바꾸는 동네 풍경"
+     },
+     {
+      "id": "junior:laundromat",
+      "word": "laundromat",
+      "ko": "빨래방, 셀프 세탁소",
+      "filled": "Laundromats, small gyms, and delivery services are growing fast.",
+      "sent_ko": "빨래방, 소형 헬스장, 그리고 배달 서비스가 빠르게 성장하고 있습니다.",
+      "chunks": [
+       {
+        "en": "Laundromats,",
+        "ko": "빨래방,"
+       },
+       {
+        "en": "small gyms,",
+        "ko": "소형 헬스장,"
+       },
+       {
+        "en": "and delivery services",
+        "ko": "그리고 배달 서비스가"
+       },
+       {
+        "en": "are growing fast.",
+        "ko": "빠르게 성장하고 있습니다"
+       }
+      ],
+      "rp": {
+       "situation": "혼자 사는 주민이 많아지면서 동네 빨래방 이용이 늘고 있다고 기사에서 말합니다.",
+       "prompt": "Where do many solo residents go to wash their clothes?",
+       "options": [
+        "They go to a laundromat in their neighbourhood.",
+        "They go to a laundry in their neighbourhood."
+       ],
+       "answer": 0,
+       "why": "셀프 세탁 기계가 있는 가게는 laundromat이며, laundry만으로는 그 장소를 가리키지 않습니다."
+      },
+      "topic": "1인 가구가 바꾸는 동네 풍경"
+     },
+     {
+      "id": "junior:resident",
+      "word": "resident",
+      "ko": "거주자, 주민",
+      "filled": "Many solo residents also spend more time in nearby cafes and local parks, so those spaces are becoming busier.",
+      "sent_ko": "혼자 사는 많은 주민들이 근처 카페와 지역 공원에서 더 많은 시간을 보내서 그 공간들이 더 붐비고 있습니다.",
+      "chunks": [
+       {
+        "en": "Many solo residents",
+        "ko": "혼자 사는 많은 주민들이"
+       },
+       {
+        "en": "also spend more time",
+        "ko": "또한 더 많은 시간을 보내서"
+       },
+       {
+        "en": "in nearby cafes and local parks,",
+        "ko": "근처 카페와 지역 공원에서,"
+       },
+       {
+        "en": "so those spaces are becoming busier.",
+        "ko": "그 공간들이 더 붐비고 있습니다"
+       }
+      ],
+      "rp": {
+       "situation": "기사에서 1인 가구 주민들이 동네 카페와 공원을 더 자주 이용한다고 합니다.",
+       "prompt": "Who spends more time in local parks and cafes?",
+       "options": [
+        "Solo residents spend more time there.",
+        "Solo residences spend more time there."
+       ],
+       "answer": 0,
+       "why": "사람을 가리킬 때는 residents(주민)를 쓰며, residences는 건물을 뜻합니다."
+      },
+      "topic": "1인 가구가 바꾸는 동네 풍경"
+     },
+     {
+      "id": "junior:trend",
+      "word": "trend",
+      "ko": "추세, 경향",
+      "filled": "Experts say this trend will continue because the number of single-person households is still rising.",
+      "sent_ko": "전문가들은 1인 가구 수가 여전히 증가하고 있기 때문에 이 추세가 계속될 것이라고 말합니다.",
+      "chunks": [
+       {
+        "en": "Experts say",
+        "ko": "전문가들은 말합니다"
+       },
+       {
+        "en": "this trend will continue",
+        "ko": "이 추세가 계속될 것이라고"
+       },
+       {
+        "en": "because the number of single-person households",
+        "ko": "왜냐하면 1인 가구 수가"
+       },
+       {
+        "en": "is still rising.",
+        "ko": "여전히 증가하고 있기 때문에"
+       }
+      ],
+      "rp": {
+       "situation": "기사에서 1인 가구가 늘어나는 추세가 앞으로도 이어질 것이라고 전문가들이 말합니다.",
+       "prompt": "What do experts say about single-person households in South Korea?",
+       "options": [
+        "Experts say this trend will continue.",
+        "Experts say this tendency will continue."
+       ],
+       "answer": 0,
+       "why": "사회 변화의 흐름을 나타낼 때는 trend를 쓰며, tendency는 이 맥락에서 자연스럽지 않습니다."
+      },
+      "topic": "1인 가구가 바꾸는 동네 풍경"
+     },
+     {
+      "id": "junior:design",
+      "word": "design",
+      "ko": "설계, 디자인",
+      "filled": "Cities are now thinking about how to design streets and services that work well for people who live on their own.",
+      "sent_ko": "도시들은 이제 혼자 사는 사람들에게 잘 맞는 거리와 서비스를 어떻게 설계할지 생각하고 있습니다.",
+      "chunks": [
+       {
+        "en": "Cities are now thinking about",
+        "ko": "도시들은 이제 생각하고 있습니다"
+       },
+       {
+        "en": "how to design streets and services",
+        "ko": "거리와 서비스를 어떻게 설계할지"
+       },
+       {
+        "en": "that work well",
+        "ko": "잘 맞는"
+       },
+       {
+        "en": "for people who live on their own.",
+        "ko": "혼자 사는 사람들에게"
+       }
+      ],
+      "rp": {
+       "situation": "기사에서 도시들이 1인 가구를 위한 거리와 서비스를 설계하려고 한다고 합니다.",
+       "prompt": "What are cities trying to do for people who live alone?",
+       "options": [
+        "Cities want to design streets that work for solo residents.",
+        "Cities want to decorate streets that work for solo residents."
+       ],
+       "answer": 0,
+       "why": "계획하고 구성한다는 의미는 design이며, decorate는 꾸민다는 뜻으로 맥락에 맞지 않습니다."
+      },
+      "topic": "1인 가구가 바꾸는 동네 풍경"
      }
     ]
    }
