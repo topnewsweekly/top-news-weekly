@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14 09:43:26",
+ "generated": "2026-09-14 09:43:39",
  "levels": {
   "kinder": [
    {
@@ -4204,6 +4204,218 @@
        "why": "여러 개의 세포를 말할 때는 복수형 cells를 써야 해요."
       },
       "topic": "우리 몸의 뼈는 몇 개일까"
+     }
+    ]
+   },
+   {
+    "id": "kids|음식물 쓰레기는 어디로 갈까",
+    "level": "kids",
+    "topic": "음식물 쓰레기는 어디로 갈까",
+    "section": "환경",
+    "week": "2026-09-14",
+    "tf": [
+     {
+      "s": "Most food waste ends up in a landfill.",
+      "a": true
+     },
+     {
+      "s": "When food rots in a landfill, it makes a gas called oxygen.",
+      "a": false
+     },
+     {
+      "s": "Banana peels and vegetable scraps can be put into a compost bin.",
+      "a": true
+     },
+     {
+      "s": "Pigs and chickens cannot eat leftover food scraps.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "kids:waste",
+      "word": "waste",
+      "ko": "쓰레기, 낭비하다",
+      "filled": "Landfills Most food waste goes to a landfill.",
+      "sent_ko": "대부분의 음식 쓰레기는 매립지로 갑니다.",
+      "chunks": null,
+      "rp": {
+       "situation": "매립지에 버려진 빵과 채소가 잔뜩 쌓여 있습니다.",
+       "prompt": "What is all that food doing here?",
+       "options": [
+        "It is food waste.",
+        "It is food wasting."
+       ],
+       "answer": 0,
+       "why": "'waste'는 명사로 쓰여야 하며, 'wasting'은 이 자리에 올 수 없습니다."
+      },
+      "topic": "음식물 쓰레기는 어디로 갈까"
+     },
+     {
+      "id": "kids:landfill",
+      "word": "landfill",
+      "ko": "매립지",
+      "filled": "Landfills Most food waste goes to a landfill.",
+      "sent_ko": "대부분의 음식 쓰레기는 매립지로 갑니다.",
+      "chunks": null,
+      "rp": {
+       "situation": "음식 쓰레기를 트럭에 싣고 쓰레기를 땅에 묻는 큰 장소로 가고 있습니다.",
+       "prompt": "Where are they taking the food waste?",
+       "options": [
+        "They are taking it to a landfill.",
+        "They are taking it to a landfills."
+       ],
+       "answer": 0,
+       "why": "'landfill'은 단수 명사이므로 복수형 'landfills'는 틀립니다."
+      },
+      "topic": "음식물 쓰레기는 어디로 갈까"
+     },
+     {
+      "id": "kids:rot",
+      "word": "rot",
+      "ko": "썩다, 부패하다",
+      "filled": "When food rots in a landfill, it makes a gas called methane.",
+      "sent_ko": "음식이 매립지에서 썩으면, 메탄이라고 불리는 가스를 만들어 냅니다.",
+      "chunks": [
+       {
+        "en": "When food rots in a landfill,",
+        "ko": "음식이 매립지에서 썩으면"
+       },
+       {
+        "en": "it makes",
+        "ko": "~을 만들어 냅니다"
+       },
+       {
+        "en": "a gas called methane.",
+        "ko": "메탄이라고 불리는 가스를"
+       }
+      ],
+      "rp": {
+       "situation": "매립지에 버려진 음식이 오랫동안 그대로 놓여 있습니다.",
+       "prompt": "What happens to the food over time?",
+       "options": [
+        "The food rots.",
+        "The food is rot."
+       ],
+       "answer": 0,
+       "why": "'rots'는 동사의 올바른 형태이고, 'is rot'는 문법적으로 틀립니다."
+      },
+      "topic": "음식물 쓰레기는 어디로 갈까"
+     },
+     {
+      "id": "kids:gas",
+      "word": "gas",
+      "ko": "가스",
+      "filled": "This gas is bad for the air and the planet.",
+      "sent_ko": "이 가스는 공기와 지구에 나쁩니다.",
+      "chunks": [
+       {
+        "en": "This gas",
+        "ko": "이 가스는"
+       },
+       {
+        "en": "is bad for",
+        "ko": "~에 나쁩니다"
+       },
+       {
+        "en": "the air and the planet.",
+        "ko": "공기와 지구에"
+       }
+      ],
+      "rp": {
+       "situation": "매립지에서 음식이 썩으면서 메탄이 나오고 있습니다.",
+       "prompt": "Is methane good for the air?",
+       "options": [
+        "No, this gas is bad for the air.",
+        "No, this gas is badly for the air."
+       ],
+       "answer": 0,
+       "why": "'bad'는 형용사로 쓰여야 하며, 부사 'badly'는 이 자리에 올 수 없습니다."
+      },
+      "topic": "음식물 쓰레기는 어디로 갈까"
+     },
+     {
+      "id": "kids:compost",
+      "word": "compost",
+      "ko": "퇴비",
+      "filled": "Compost Some people put food scraps into a compost bin.",
+      "sent_ko": "어떤 사람들은 음식 찌꺼기를 퇴비 통에 넣습니다.",
+      "chunks": null,
+      "rp": {
+       "situation": "바나나 껍질과 채소 찌꺼기를 특별한 통에 모으고 있습니다.",
+       "prompt": "What do you call the bin where food scraps break down into soil?",
+       "options": [
+        "It is a compost bin.",
+        "It is a compose bin."
+       ],
+       "answer": 0,
+       "why": "올바른 단어는 'compost'이며, 'compose'는 전혀 다른 뜻의 단어입니다."
+      },
+      "topic": "음식물 쓰레기는 어디로 갈까"
+     },
+     {
+      "id": "kids:scraps",
+      "word": "scraps",
+      "ko": "음식 찌꺼기, 자투리",
+      "filled": "This is a smart way to use food scraps.",
+      "sent_ko": "이것은 음식 찌꺼기를 사용하는 똑똑한 방법입니다.",
+      "chunks": [
+       {
+        "en": "This is",
+        "ko": "이것은 ~입니다"
+       },
+       {
+        "en": "a smart way",
+        "ko": "똑똑한 방법"
+       },
+       {
+        "en": "to use food scraps.",
+        "ko": "음식 찌꺼기를 사용하는"
+       }
+      ],
+      "rp": {
+       "situation": "농장에서 남은 채소 찌꺼기를 돼지와 닭에게 주고 있습니다.",
+       "prompt": "What are they feeding to the pigs and chickens?",
+       "options": [
+        "They are feeding them food scraps.",
+        "They are feeding them food scrap."
+       ],
+       "answer": 0,
+       "why": "여러 종류의 찌꺼기이므로 복수형 'scraps'가 올바릅니다."
+      },
+      "topic": "음식물 쓰레기는 어디로 갈까"
+     },
+     {
+      "id": "kids:soil",
+      "word": "soil",
+      "ko": "흙, 토양",
+      "filled": "Farmers can use this soil to grow new food!",
+      "sent_ko": "농부들은 새로운 음식을 키우기 위해 이 흙을 사용할 수 있습니다!",
+      "chunks": [
+       {
+        "en": "Farmers can use",
+        "ko": "농부들은 사용할 수 있습니다"
+       },
+       {
+        "en": "this soil",
+        "ko": "이 흙을"
+       },
+       {
+        "en": "to grow new food!",
+        "ko": "새로운 음식을 키우기 위해"
+       }
+      ],
+      "rp": {
+       "situation": "퇴비 통의 음식 찌꺼기가 시간이 지나 좋은 흙이 되었습니다.",
+       "prompt": "What did the farmer get from the compost bin?",
+       "options": [
+        "She got good soil.",
+        "She got good soils."
+       ],
+       "answer": 0,
+       "why": "'soil'은 셀 수 없는 명사이므로 복수형 'soils'는 틀립니다."
+      },
+      "topic": "음식물 쓰레기는 어디로 갈까"
      }
     ]
    }
