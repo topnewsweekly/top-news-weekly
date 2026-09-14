@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14 10:17:31",
+ "generated": "2026-09-14 10:20:04",
  "levels": {
   "kinder": [
    {
@@ -17157,6 +17157,565 @@
        "why": "responsibility는 명사이며, responsible은 형용사라 이 자리에 쓸 수 없다."
       },
       "topic": "감염병 감시 체계의 국제 공조"
+     }
+    ]
+   },
+   {
+    "id": "times|양자 컴퓨터와 암호 체계의 대비",
+    "level": "times",
+    "topic": "양자 컴퓨터와 암호 체계의 대비",
+    "section": "기술",
+    "week": "2026-09-14",
+    "tf": [
+     {
+      "s": "Today's most common encryption systems are based on the difficulty of factoring very large numbers into their prime factors.",
+      "a": true
+     },
+     {
+      "s": "Quantum computers process information the same way classical computers do, using ones and zeros.",
+      "a": false
+     },
+     {
+      "s": "Recent research suggests that a sufficiently powerful quantum computer could break Bitcoin's encryption in a matter of minutes.",
+      "a": true
+     },
+     {
+      "s": "The U.S. National Institute of Standards and Technology has decided to abandon post-quantum cryptography research because the threat is too far in the future.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "times:encryption",
+      "word": "encryption",
+      "ko": "암호화",
+      "filled": "The field known as post-quantum cryptography focuses on developing new encryption methods that even quantum computers cannot break.",
+      "sent_ko": "양자 내성 암호화로 알려진 분야는 양자 컴퓨터조차 해독할 수 없는 새로운 암호화 방식을 개발하는 데 집중한다.",
+      "chunks": [
+       {
+        "en": "The field known as post-quantum cryptography",
+        "ko": "양자 내성 암호화로 알려진 분야는"
+       },
+       {
+        "en": "focuses on developing",
+        "ko": "개발하는 데 집중한다"
+       },
+       {
+        "en": "new encryption methods",
+        "ko": "새로운 암호화 방식을"
+       },
+       {
+        "en": "that even quantum computers cannot break.",
+        "ko": "양자 컴퓨터조차 해독할 수 없는"
+       }
+      ],
+      "rp": {
+       "situation": "연구팀이 비트코인을 보호하는 새 암호화 방식을 설명하고 있다.",
+       "prompt": "What does this new system do?",
+       "options": [
+        "It uses new encryption methods that quantum computers cannot break.",
+        "It uses new encrypt methods that quantum computers cannot break."
+       ],
+       "answer": 0,
+       "why": "encryption은 명사, encrypt는 동사이므로 명사 자리에 동사 원형은 쓸 수 없다."
+      },
+      "topic": "양자 컴퓨터와 암호 체계의 대비"
+     },
+     {
+      "id": "times:assumption",
+      "word": "assumption",
+      "ko": "가정, 추정",
+      "filled": "Quantum computers, however, are now changing that assumption in a serious way.",
+      "sent_ko": "그러나 양자 컴퓨터는 이제 그 가정을 심각한 방식으로 바꾸고 있다.",
+      "chunks": [
+       {
+        "en": "Quantum computers, however,",
+        "ko": "그러나 양자 컴퓨터는"
+       },
+       {
+        "en": "are now changing",
+        "ko": "이제 바꾸고 있다"
+       },
+       {
+        "en": "that assumption",
+        "ko": "그 가정을"
+       },
+       {
+        "en": "in a serious way.",
+        "ko": "심각한 방식으로"
+       }
+      ],
+      "rp": {
+       "situation": "전문가들은 기존 암호화가 안전하다고 믿어 왔는데 양자 컴퓨터가 등장했다.",
+       "prompt": "Why is this such a big problem?",
+       "options": [
+        "Quantum computers are changing that assumption in a serious way.",
+        "Quantum computers are changing that assurance in a serious way."
+       ],
+       "answer": 0,
+       "why": "assumption(가정·추정)이 문맥에 맞고, assurance(보증)는 이 문장의 의미와 다르다."
+      },
+      "topic": "양자 컴퓨터와 암호 체계의 대비"
+     },
+     {
+      "id": "times:virtually",
+      "word": "virtually",
+      "ko": "사실상, 거의",
+      "filled": "For decades, this protection has been considered virtually unbreakable.",
+      "sent_ko": "수십 년 동안 이 보호 장치는 사실상 해독 불가능한 것으로 여겨져 왔다.",
+      "chunks": [
+       {
+        "en": "For decades,",
+        "ko": "수십 년 동안"
+       },
+       {
+        "en": "this protection",
+        "ko": "이 보호 장치는"
+       },
+       {
+        "en": "has been considered",
+        "ko": "여겨져 왔다"
+       },
+       {
+        "en": "virtually unbreakable.",
+        "ko": "사실상 해독 불가능한 것으로"
+       }
+      ],
+      "rp": {
+       "situation": "기자가 기존 암호화의 강도를 기사에서 설명하고 있다.",
+       "prompt": "How secure was the old encryption?",
+       "options": [
+        "For decades, it was considered virtually unbreakable.",
+        "For decades, it was considered virtual unbreakable."
+       ],
+       "answer": 0,
+       "why": "virtually는 부사로 형용사를 수식하고, virtual은 형용사라 부사 자리에 쓸 수 없다."
+      },
+      "topic": "양자 컴퓨터와 암호 체계의 대비"
+     },
+     {
+      "id": "times:prime factor",
+      "word": "prime factor",
+      "ko": "소인수",
+      "filled": "Most encryption used today relies on the extreme difficulty of solving certain math problems, such as finding the prime factors of very large numbers.",
+      "sent_ko": "오늘날 사용되는 대부분의 암호화는 매우 큰 수의 소인수를 찾는 것과 같은 특정 수학 문제를 푸는 극도의 어려움에 의존한다.",
+      "chunks": [
+       {
+        "en": "Most encryption used today",
+        "ko": "오늘날 사용되는 대부분의 암호화는"
+       },
+       {
+        "en": "relies on the extreme difficulty",
+        "ko": "극도의 어려움에 의존한다"
+       },
+       {
+        "en": "of solving certain math problems,",
+        "ko": "특정 수학 문제를 푸는"
+       },
+       {
+        "en": "such as finding the prime factors",
+        "ko": "소인수를 찾는 것과 같은"
+       },
+       {
+        "en": "of very large numbers.",
+        "ko": "매우 큰 수의"
+       }
+      ],
+      "rp": {
+       "situation": "수학자가 기존 암호화가 왜 안전한지 양자 연구팀에게 설명하고 있다.",
+       "prompt": "Why is it so hard to crack?",
+       "options": [
+        "Because finding the prime factors of huge numbers takes thousands of years.",
+        "Because finding the prime factoring of huge numbers takes thousands of years."
+       ],
+       "answer": 0,
+       "why": "prime factors는 명사(복수)이고, prime factoring은 비표준 표현으로 이 맥락에서 쓰지 않는다."
+      },
+      "topic": "양자 컴퓨터와 암호 체계의 대비"
+     },
+     {
+      "id": "times:classical",
+      "word": "classical",
+      "ko": "고전적인, 전통적인",
+      "filled": "This allows them to explore enormous numbers of possible solutions simultaneously, making them far faster at certain tasks than any classical machine.",
+      "sent_ko": "이것은 양자 컴퓨터가 어떤 고전적인 기계보다도 특정 작업에서 훨씬 더 빠르게 엄청난 수의 가능한 해결책을 동시에 탐색할 수 있게 해준다.",
+      "chunks": [
+       {
+        "en": "This allows them to explore",
+        "ko": "이것은 탐색할 수 있게 해준다"
+       },
+       {
+        "en": "enormous numbers of possible solutions simultaneously,",
+        "ko": "엄청난 수의 가능한 해결책을 동시에"
+       },
+       {
+        "en": "making them far faster",
+        "ko": "훨씬 더 빠르게 만들면서"
+       },
+       {
+        "en": "at certain tasks",
+        "ko": "특정 작업에서"
+       },
+       {
+        "en": "than any classical machine.",
+        "ko": "어떤 고전적인 기계보다도"
+       }
+      ],
+      "rp": {
+       "situation": "연구자가 양자 컴퓨터와 기존 컴퓨터의 속도를 비교하고 있다.",
+       "prompt": "How does a quantum computer compare to older computers?",
+       "options": [
+        "It is far faster than any classical machine at certain tasks.",
+        "It is far faster than any classic machine at certain tasks."
+       ],
+       "answer": 0,
+       "why": "classical은 '고전적·전통적 방식의'라는 기술 맥락의 표현이고, classic은 '명작의·대표적인'이라는 다른 뜻으로 이 맥락에 맞지 않는다."
+      },
+      "topic": "양자 컴퓨터와 암호 체계의 대비"
+     },
+     {
+      "id": "times:qubit",
+      "word": "qubit",
+      "ko": "큐비트 (양자 컴퓨터의 기본 정보 단위)",
+      "filled": "Instead of processing information as ones and zeros, they use quantum bits, or qubits, which can represent many states at the same time.",
+      "sent_ko": "정보를 1과 0으로 처리하는 대신, 양자 컴퓨터는 양자 비트, 즉 큐비트를 사용하는데, 이것은 동시에 많은 상태를 나타낼 수 있다.",
+      "chunks": [
+       {
+        "en": "Instead of processing information as ones and zeros,",
+        "ko": "정보를 1과 0으로 처리하는 대신"
+       },
+       {
+        "en": "they use quantum bits, or qubits,",
+        "ko": "양자 비트, 즉 큐비트를 사용한다"
+       },
+       {
+        "en": "which can represent many states",
+        "ko": "많은 상태를 나타낼 수 있는"
+       },
+       {
+        "en": "at the same time.",
+        "ko": "동시에"
+       }
+      ],
+      "rp": {
+       "situation": "학생이 양자 컴퓨터의 기본 정보 단위가 무엇인지 묻고 있다.",
+       "prompt": "What does a quantum computer use instead of ordinary bits?",
+       "options": [
+        "It uses qubits, which can represent many states at the same time.",
+        "It uses qubits, which can represent many states at the same moment in time."
+       ],
+       "answer": 0,
+       "why": "at the same time이 자연스러운 관용 표현이고, at the same moment in time은 부자연스러운 중복 표현이다."
+      },
+      "topic": "양자 컴퓨터와 암호 체계의 대비"
+     },
+     {
+      "id": "times:simultaneously",
+      "word": "simultaneously",
+      "ko": "동시에",
+      "filled": "This allows them to explore enormous numbers of possible solutions simultaneously, making them far faster at certain tasks than any classical machine.",
+      "sent_ko": "이것은 양자 컴퓨터가 엄청난 수의 가능한 해결책을 동시에 탐색할 수 있게 해주며, 특정 작업에서 어떤 고전적인 기계보다도 훨씬 더 빠르게 만든다.",
+      "chunks": [
+       {
+        "en": "This allows them to explore",
+        "ko": "이것은 탐색할 수 있게 해준다"
+       },
+       {
+        "en": "enormous numbers of possible solutions simultaneously,",
+        "ko": "엄청난 수의 가능한 해결책을 동시에"
+       },
+       {
+        "en": "making them far faster at certain tasks",
+        "ko": "특정 작업에서 훨씬 더 빠르게 만들면서"
+       },
+       {
+        "en": "than any classical machine.",
+        "ko": "어떤 고전적인 기계보다도"
+       }
+      ],
+      "rp": {
+       "situation": "연구자가 양자 컴퓨터가 수많은 해결책을 어떻게 처리하는지 설명하고 있다.",
+       "prompt": "How does it check so many solutions?",
+       "options": [
+        "It explores enormous numbers of possible solutions simultaneously.",
+        "It explores enormous numbers of possible solutions simultaneous."
+       ],
+       "answer": 0,
+       "why": "simultaneously는 동사를 수식하는 부사이고, simultaneous는 형용사라 부사 자리에 쓸 수 없다."
+      },
+      "topic": "양자 컴퓨터와 암호 체계의 대비"
+     },
+     {
+      "id": "times:elliptic curve",
+      "word": "elliptic curve",
+      "ko": "타원 곡선",
+      "filled": "Recent research suggests that a quantum computer with roughly half a million qubits could potentially break the elliptic curve encryption used by major cryptocurrencies like Bitcoin and Ethereum in just minutes.",
+      "sent_ko": "최근 연구에 따르면 약 50만 개의 큐비트를 가진 양자 컴퓨터가 비트코인과 이더리움 같은 주요 암호화폐에 사용되는 타원 곡선 암호화를 단 몇 분 만에 해독할 수 있다고 한다.",
+      "chunks": [
+       {
+        "en": "Recent research suggests that",
+        "ko": "최근 연구에 따르면"
+       },
+       {
+        "en": "a quantum computer with roughly half a million qubits",
+        "ko": "약 50만 개의 큐비트를 가진 양자 컴퓨터가"
+       },
+       {
+        "en": "could potentially break",
+        "ko": "해독할 수 있다고 한다"
+       },
+       {
+        "en": "the elliptic curve encryption",
+        "ko": "타원 곡선 암호화를"
+       },
+       {
+        "en": "used by major cryptocurrencies like Bitcoin and Ethereum",
+        "ko": "비트코인과 이더리움 같은 주요 암호화폐에 사용되는"
+       },
+       {
+        "en": "in just minutes.",
+        "ko": "단 몇 분 만에"
+       }
+      ],
+      "rp": {
+       "situation": "기자가 비트코인을 보호하는 암호화 유형을 기사에서 설명하고 있다.",
+       "prompt": "What kind of encryption protects Bitcoin?",
+       "options": [
+        "Bitcoin relies on elliptic curve encryption to stay secure.",
+        "Bitcoin relies on elliptic curve encrypting to stay secure."
+       ],
+       "answer": 0,
+       "why": "encryption은 명사로 올바른 형태이고, encrypting은 동명사라 명사 자리에서 이 콜로케이션에 쓰지 않는다."
+      },
+      "topic": "양자 컴퓨터와 암호 체계의 대비"
+     },
+     {
+      "id": "times:cryptocurrency",
+      "word": "cryptocurrency",
+      "ko": "암호화폐",
+      "filled": "Recent research suggests that a quantum computer with roughly half a million qubits could potentially break the elliptic curve encryption used by major cryptocurrencies like Bitcoin and Ethereum in just minutes.",
+      "sent_ko": "최근 연구에 따르면 약 50만 개의 큐비트를 가진 양자 컴퓨터가 비트코인과 이더리움 같은 주요 암호화폐에 사용되는 타원 곡선 암호화를 단 몇 분 만에 해독할 수 있다고 한다.",
+      "chunks": [
+       {
+        "en": "Recent research suggests that",
+        "ko": "최근 연구에 따르면"
+       },
+       {
+        "en": "a quantum computer with roughly half a million qubits",
+        "ko": "약 50만 개의 큐비트를 가진 양자 컴퓨터가"
+       },
+       {
+        "en": "could potentially break",
+        "ko": "해독할 수 있다고 한다"
+       },
+       {
+        "en": "the elliptic curve encryption",
+        "ko": "타원 곡선 암호화를"
+       },
+       {
+        "en": "used by major cryptocurrencies like Bitcoin and Ethereum",
+        "ko": "비트코인과 이더리움 같은 주요 암호화폐에 사용되는"
+       },
+       {
+        "en": "in just minutes.",
+        "ko": "단 몇 분 만에"
+       }
+      ],
+      "rp": {
+       "situation": "뉴스 앵커가 양자 컴퓨터의 위협을 받는 디지털 자산을 설명하고 있다.",
+       "prompt": "Which assets are most at risk from quantum computers?",
+       "options": [
+        "Major cryptocurrencies like Bitcoin and Ethereum could be broken in minutes.",
+        "Major cryptocurrencies like Bitcoin and Ethereum could be breached in minutes."
+       ],
+       "answer": 0,
+       "why": "break encryption은 암호화를 '해독하다'의 자연스러운 콜로케이션이고, breach는 보안 침해에 쓰이지만 encryption을 목적어로 취하는 일반적 표현이 아니다."
+      },
+      "topic": "양자 컴퓨터와 암호 체계의 대비"
+     },
+     {
+      "id": "times:urgency",
+      "word": "urgency",
+      "ko": "긴박함, 시급함",
+      "filled": "That timeline is far shorter than experts had previously estimated, raising new urgency around the issue.",
+      "sent_ko": "그 일정은 전문가들이 이전에 추정했던 것보다 훨씬 짧아서, 이 문제에 대한 새로운 긴박감을 높이고 있다.",
+      "chunks": [
+       {
+        "en": "That timeline",
+        "ko": "그 일정은"
+       },
+       {
+        "en": "is far shorter",
+        "ko": "훨씬 짧아서"
+       },
+       {
+        "en": "than experts had previously estimated,",
+        "ko": "전문가들이 이전에 추정했던 것보다"
+       },
+       {
+        "en": "raising new urgency",
+        "ko": "새로운 긴박감을 높이고 있다"
+       },
+       {
+        "en": "around the issue.",
+        "ko": "이 문제에 대한"
+       }
+      ],
+      "rp": {
+       "situation": "전문가들이 양자 컴퓨터 위협의 타임라인이 예상보다 짧다는 것을 알게 되었다.",
+       "prompt": "How did researchers react to the new timeline?",
+       "options": [
+        "The shorter timeline raised new urgency around the issue.",
+        "The shorter timeline raised new urgent around the issue."
+       ],
+       "answer": 0,
+       "why": "urgency는 명사로 올바른 형태이고, urgent는 형용사라 명사 자리에 쓸 수 없다."
+      },
+      "topic": "양자 컴퓨터와 암호 체계의 대비"
+     },
+     {
+      "id": "times:post-quantum cryptography",
+      "word": "post-quantum cryptography",
+      "ko": "양자 내성 암호화 (양자 컴퓨터로도 해독하기 어려운 암호화 기술)",
+      "filled": "The field known as post-quantum cryptography focuses on developing new encryption methods that even quantum computers cannot break.",
+      "sent_ko": "양자 내성 암호화로 알려진 분야는 양자 컴퓨터조차 해독할 수 없는 새로운 암호화 방식을 개발하는 데 집중한다.",
+      "chunks": [
+       {
+        "en": "The field known as post-quantum cryptography",
+        "ko": "양자 내성 암호화로 알려진 분야는"
+       },
+       {
+        "en": "focuses on developing",
+        "ko": "개발하는 데 집중한다"
+       },
+       {
+        "en": "new encryption methods",
+        "ko": "새로운 암호화 방식을"
+       },
+       {
+        "en": "that even quantum computers cannot break.",
+        "ko": "양자 컴퓨터조차 해독할 수 없는"
+       }
+      ],
+      "rp": {
+       "situation": "과학자가 양자 컴퓨터의 위협에 맞서는 연구 분야를 소개하고 있다.",
+       "prompt": "What field is working to protect us from quantum computer attacks?",
+       "options": [
+        "Post-quantum cryptography focuses on developing new encryption methods.",
+        "Post-quantum cryptography is focused to develop new encryption methods."
+       ],
+       "answer": 0,
+       "why": "focus on doing는 올바른 구조이고, focused to develop는 영어에서 쓰이지 않는 비문법적 표현이다."
+      },
+      "topic": "양자 컴퓨터와 암호 체계의 대비"
+     },
+     {
+      "id": "times:standardize",
+      "word": "standardize",
+      "ko": "표준화하다",
+      "filled": "National Institute of Standards and Technology has been leading an international effort to standardize these new approaches.",
+      "sent_ko": "미국 국립표준기술연구소는 이러한 새로운 접근 방식을 표준화하기 위한 국제적인 노력을 이끌어 왔다.",
+      "chunks": [
+       {
+        "en": "National Institute of Standards and Technology",
+        "ko": "미국 국립표준기술연구소는"
+       },
+       {
+        "en": "has been leading",
+        "ko": "이끌어 왔다"
+       },
+       {
+        "en": "an international effort",
+        "ko": "국제적인 노력을"
+       },
+       {
+        "en": "to standardize these new approaches.",
+        "ko": "이러한 새로운 접근 방식을 표준화하기 위한"
+       }
+      ],
+      "rp": {
+       "situation": "NIST가 전 세계 기관들과 새로운 암호화 방식을 통일하는 작업을 하고 있다.",
+       "prompt": "What is NIST trying to do with the new encryption approaches?",
+       "options": [
+        "NIST has been leading an effort to standardize these new approaches.",
+        "NIST has been leading an effort to standardized these new approaches."
+       ],
+       "answer": 0,
+       "why": "to부정사 뒤에는 동사 원형이 와야 하므로 standardize가 맞고, standardized는 과거형으로 쓸 수 없다."
+      },
+      "topic": "양자 컴퓨터와 암호 체계의 대비"
+     },
+     {
+      "id": "times:transition",
+      "word": "transition",
+      "ko": "전환, 이행",
+      "filled": "Updating encryption across banking systems, government networks, and everyday devices will take considerable time and resources, so the transition must begin well before quantum computers reach full capability.",
+      "sent_ko": "은행 시스템, 정부 네트워크, 일상 기기 전반에 걸쳐 암호화를 업데이트하는 데는 상당한 시간과 자원이 필요하므로, 양자 컴퓨터가 완전한 능력에 도달하기 훨씬 전에 전환이 시작되어야 한다.",
+      "chunks": [
+       {
+        "en": "Updating encryption across banking systems, government networks, and everyday devices",
+        "ko": "은행 시스템, 정부 네트워크, 일상 기기 전반의 암호화를 업데이트하는 것은"
+       },
+       {
+        "en": "will take considerable time and resources,",
+        "ko": "상당한 시간과 자원이 필요하므로"
+       },
+       {
+        "en": "so the transition must begin",
+        "ko": "전환이 시작되어야 한다"
+       },
+       {
+        "en": "well before quantum computers reach full capability.",
+        "ko": "양자 컴퓨터가 완전한 능력에 도달하기 훨씬 전에"
+       }
+      ],
+      "rp": {
+       "situation": "정부 관계자가 새 암호화 시스템으로 바꾸는 작업의 시급성을 논의하고 있다.",
+       "prompt": "When should countries start switching to new encryption?",
+       "options": [
+        "The transition must begin well before quantum computers reach full capability.",
+        "The transition must begin well before quantum computers reach full capably."
+       ],
+       "answer": 0,
+       "why": "capability는 명사로 올바른 형태이고, capably는 부사라 명사 자리에 쓸 수 없다."
+      },
+      "topic": "양자 컴퓨터와 암호 체계의 대비"
+     },
+     {
+      "id": "times:capability",
+      "word": "capability",
+      "ko": "능력, 역량",
+      "filled": "Updating encryption across banking systems, government networks, and everyday devices will take considerable time and resources, so the transition must begin well before quantum computers reach full capability.",
+      "sent_ko": "은행 시스템, 정부 네트워크, 일상 기기 전반에 걸쳐 암호화를 업데이트하는 데는 상당한 시간과 자원이 필요하므로, 양자 컴퓨터가 완전한 능력에 도달하기 훨씬 전에 전환이 시작되어야 한다.",
+      "chunks": [
+       {
+        "en": "Updating encryption across banking systems, government networks, and everyday devices",
+        "ko": "은행 시스템, 정부 네트워크, 일상 기기 전반의 암호화를 업데이트하는 것은"
+       },
+       {
+        "en": "will take considerable time and resources,",
+        "ko": "상당한 시간과 자원이 필요하므로"
+       },
+       {
+        "en": "so the transition must begin",
+        "ko": "전환이 시작되어야 한다"
+       },
+       {
+        "en": "well before quantum computers reach full capability.",
+        "ko": "양자 컴퓨터가 완전한 능력에 도달하기 훨씬 전에"
+       }
+      ],
+      "rp": {
+       "situation": "보안 전문가가 양자 컴퓨터가 완전히 발전하기 전에 대비해야 한다고 경고하고 있다.",
+       "prompt": "Why must governments act now?",
+       "options": [
+        "They must act before quantum computers reach full capability.",
+        "They must act before quantum computers reach full capable."
+       ],
+       "answer": 0,
+       "why": "capability는 명사로 reach의 목적어 자리에 맞고, capable은 형용사라 명사 자리에 쓸 수 없다."
+      },
+      "topic": "양자 컴퓨터와 암호 체계의 대비"
      }
     ]
    }
