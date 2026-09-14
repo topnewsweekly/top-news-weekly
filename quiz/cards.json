@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14 10:04:32",
+ "generated": "2026-09-14 10:09:47",
  "levels": {
   "kinder": [
    {
@@ -14280,6 +14280,525 @@
        "why": "기사는 10년(decade) 이내라고 명시하며, century(100년)는 기사의 내용과 다르다."
       },
       "topic": "학령 인구 감소와 대학 구조 조정"
+     }
+    ]
+   },
+   {
+    "id": "times|선거 연령과 청년 정치 참여",
+    "level": "times",
+    "topic": "선거 연령과 청년 정치 참여",
+    "section": "정치",
+    "week": "2026-09-14",
+    "tf": [
+     {
+      "s": "In South Korea, the voting age was lowered from 19 to 18, allowing high school students to vote in national elections for the first time.",
+      "a": true
+     },
+     {
+      "s": "All European countries now allow 16- and 17-year-olds to vote in every type of election.",
+      "a": false
+     },
+     {
+      "s": "Some researchers suggest that voting at a younger age may help people develop more consistent voting habits over their lifetime.",
+      "a": true
+     },
+     {
+      "s": "Opponents of lowering the voting age argue that teenagers' brains are fully developed by the age of 16.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "times:threshold",
+      "word": "threshold",
+      "ko": "문턱, 기준점, 한계",
+      "filled": "Yet a growing number of politicians, researchers, and young people themselves are asking whether that threshold should be lowered.",
+      "sent_ko": "그럼에도 불구하고, 점점 더 많은 수의 정치인, 연구자, 그리고 젊은이들 스스로가 그 기준점을 낮춰야 하는지 묻고 있다.",
+      "chunks": [
+       {
+        "en": "Yet a growing number of politicians, researchers, and young people themselves",
+        "ko": "그럼에도 점점 더 많은 정치인, 연구자, 그리고 젊은이들 스스로가"
+       },
+       {
+        "en": "are asking",
+        "ko": "묻고 있다"
+       },
+       {
+        "en": "whether that threshold",
+        "ko": "그 기준점을"
+       },
+       {
+        "en": "should be lowered.",
+        "ko": "낮춰야 하는지"
+       }
+      ],
+      "rp": {
+       "situation": "한국에서 투표 연령 기준점을 18세로 낮추는 논의가 진행 중이다.",
+       "prompt": "What are politicians debating right now?",
+       "options": [
+        "They are debating whether the voting age threshold should be lowered.",
+        "They are debating whether the voting age threshold should be raised up."
+       ],
+       "answer": 0,
+       "why": "기사에서 기준점을 '낮추는' 것이 논의의 방향이므로 b는 내용상 부자연스럽다."
+      },
+      "topic": "선거 연령과 청년 정치 참여"
+     },
+     {
+      "id": "times:participation",
+      "word": "participation",
+      "ko": "참여, 참가",
+      "filled": "Others question whether schools prepare teenagers adequately for civic participation.",
+      "sent_ko": "다른 이들은 학교가 십 대들을 시민 참여에 적절히 준비시키는지 의문을 제기한다.",
+      "chunks": [
+       {
+        "en": "Others question",
+        "ko": "다른 이들은 의문을 제기한다"
+       },
+       {
+        "en": "whether schools prepare teenagers adequately",
+        "ko": "학교가 십 대들을 적절히 준비시키는지"
+       },
+       {
+        "en": "for civic participation.",
+        "ko": "시민 참여를 위해"
+       }
+      ],
+      "rp": {
+       "situation": "학교가 십 대들을 시민 참여에 준비시키는지 토론하고 있다.",
+       "prompt": "Do you think schools do enough?",
+       "options": [
+        "Some critics question whether schools encourage enough civic participation.",
+        "Some critics question whether schools encourage enough civic participating."
+       ],
+       "answer": 0,
+       "why": "'participation'은 명사로 쓰여야 하며, 'participating'은 전치사 뒤 동명사 형태로 이 자리에 어울리지 않는다."
+      },
+      "topic": "선거 연령과 청년 정치 참여"
+     },
+     {
+      "id": "times:democracy",
+      "word": "democracy",
+      "ko": "민주주의",
+      "filled": "The debate has gained attention in South Korea and beyond, raising important questions about democracy and youth participation.",
+      "sent_ko": "이 논쟁은 한국과 그 너머에서 주목을 받으며, 민주주의와 청소년 참여에 관한 중요한 질문들을 제기하고 있다.",
+      "chunks": [
+       {
+        "en": "The debate has gained attention",
+        "ko": "이 논쟁은 주목을 받아 왔다"
+       },
+       {
+        "en": "in South Korea and beyond,",
+        "ko": "한국과 그 너머에서"
+       },
+       {
+        "en": "raising important questions",
+        "ko": "중요한 질문들을 제기하며"
+       },
+       {
+        "en": "about democracy and youth participation.",
+        "ko": "민주주의와 청소년 참여에 관한"
+       }
+      ],
+      "rp": {
+       "situation": "기사는 민주주의와 청소년 참여에 관한 중요한 질문들을 다루고 있다.",
+       "prompt": "What kind of system does the article focus on?",
+       "options": [
+        "The article raises important questions about democracy and youth participation.",
+        "The article raises important questions about democrat and youth participation."
+       ],
+       "answer": 0,
+       "why": "'democracy'가 올바른 명사형이며, 'democrat'는 '민주당원'을 뜻하는 다른 단어이다."
+      },
+      "topic": "선거 연령과 청년 정치 참여"
+     },
+     {
+      "id": "times:election",
+      "word": "election",
+      "ko": "선거",
+      "filled": "In several European countries, 16- and 17-year-olds are already allowed to vote in some or all elections.",
+      "sent_ko": "몇몇 유럽 국가들에서는 16세와 17세 청소년들이 이미 일부 또는 모든 선거에서 투표가 허용되어 있다.",
+      "chunks": [
+       {
+        "en": "In several European countries,",
+        "ko": "몇몇 유럽 국가들에서는"
+       },
+       {
+        "en": "16- and 17-year-olds",
+        "ko": "16세와 17세 청소년들이"
+       },
+       {
+        "en": "are already allowed to vote",
+        "ko": "이미 투표가 허용되어 있다"
+       },
+       {
+        "en": "in some or all elections.",
+        "ko": "일부 또는 모든 선거에서"
+       }
+      ],
+      "rp": {
+       "situation": "유럽의 일부 국가에서 16세 청소년들이 선거에 참여할 수 있다.",
+       "prompt": "Can 16-year-olds vote there?",
+       "options": [
+        "Yes, they are allowed to vote in some elections.",
+        "Yes, they are allowed to vote in some elects."
+       ],
+       "answer": 0,
+       "why": "'elections'가 올바른 명사형이며, 'elects'는 동사 형태로 이 자리에 쓸 수 없다."
+      },
+      "topic": "선거 연령과 청년 정치 참여"
+     },
+     {
+      "id": "times:informed",
+      "word": "informed",
+      "ko": "충분한 정보를 가진, 잘 아는",
+      "filled": "Critics, however, argued that teenagers lack the life experience needed to make fully informed political decisions.",
+      "sent_ko": "그러나 비평가들은 십 대들이 완전히 정보에 입각한 정치적 결정을 내리는 데 필요한 삶의 경험이 부족하다고 주장했다.",
+      "chunks": [
+       {
+        "en": "Critics, however, argued",
+        "ko": "그러나 비평가들은 주장했다"
+       },
+       {
+        "en": "that teenagers lack the life experience",
+        "ko": "십 대들이 삶의 경험이 부족하다고"
+       },
+       {
+        "en": "needed to make fully informed",
+        "ko": "완전히 정보에 입각한 것을 내리는 데 필요한"
+       },
+       {
+        "en": "political decisions.",
+        "ko": "정치적 결정을"
+       }
+      ],
+      "rp": {
+       "situation": "비평가들은 십 대들이 충분한 정보를 가진 정치적 결정을 내리지 못한다고 주장한다.",
+       "prompt": "What do critics say about teenage voters?",
+       "options": [
+        "They say teenagers struggle to make fully informed political decisions.",
+        "They say teenagers struggle to make fully informing political decisions."
+       ],
+       "answer": 0,
+       "why": "'informed'는 '정보에 입각한'의 형용사이며, 'informing'은 이 맥락에서 문법적으로 어울리지 않는다."
+      },
+      "topic": "선거 연령과 청년 정치 참여"
+     },
+     {
+      "id": "times:civic",
+      "word": "civic",
+      "ko": "시민의, 시민으로서의",
+      "filled": "Others question whether schools prepare teenagers adequately for civic participation.",
+      "sent_ko": "다른 이들은 학교가 십 대들을 시민 참여에 적절히 준비시키는지 의문을 제기한다.",
+      "chunks": [
+       {
+        "en": "Others question",
+        "ko": "다른 이들은 의문을 제기한다"
+       },
+       {
+        "en": "whether schools prepare teenagers adequately",
+        "ko": "학교가 십 대들을 적절히 준비시키는지"
+       },
+       {
+        "en": "for civic participation.",
+        "ko": "시민 참여를 위해"
+       }
+      ],
+      "rp": {
+       "situation": "기사에서 학교가 십 대들을 시민 참여에 준비시키는지 논의하고 있다.",
+       "prompt": "What do some critics worry about regarding schools?",
+       "options": [
+        "They worry that schools do not prepare students for civic participation.",
+        "They worry that schools do not prepare students for civil participation."
+       ],
+       "answer": 0,
+       "why": "'civic'은 '시민으로서의 권리·의무'에 쓰이는 단어이며, 'civil'은 다른 의미로 이 맥락에 어울리지 않는다."
+      },
+      "topic": "선거 연령과 청년 정치 참여"
+     },
+     {
+      "id": "times:consistent",
+      "word": "consistent",
+      "ko": "일관된, 꾸준한",
+      "filled": "One argument that appears in policy discussions is that people who vote early in life may be more likely to develop consistent voting habits over time.",
+      "sent_ko": "인생에서 일찍 투표하는 사람들이 시간이 지남에 따라 일관된 투표 습관을 형성할 가능성이 더 높다는 것이 정책 논의에서 나타나는 한 가지 주장이다.",
+      "chunks": [
+       {
+        "en": "One argument that appears in policy discussions",
+        "ko": "정책 논의에서 나타나는 한 가지 주장은"
+       },
+       {
+        "en": "is that people who vote early in life",
+        "ko": "인생에서 일찍 투표하는 사람들이"
+       },
+       {
+        "en": "may be more likely to develop",
+        "ko": "형성할 가능성이 더 높다는 것이다"
+       },
+       {
+        "en": "consistent voting habits",
+        "ko": "일관된 투표 습관을"
+       },
+       {
+        "en": "over time.",
+        "ko": "시간이 지남에 따라"
+       }
+      ],
+      "rp": {
+       "situation": "연구자들은 일찍 투표를 시작한 사람들이 일관된 투표 습관을 가질 수 있다고 말한다.",
+       "prompt": "What does the research suggest about early voters?",
+       "options": [
+        "Early voters may develop consistent voting habits over time.",
+        "Early voters may develop consisting voting habits over time."
+       ],
+       "answer": 0,
+       "why": "'consistent'가 올바른 형용사이며, 'consisting'은 이 자리에 쓸 수 없는 형태이다."
+      },
+      "topic": "선거 연령과 청년 정치 참여"
+     },
+     {
+      "id": "times:engagement",
+      "word": "engagement",
+      "ko": "참여, 관여, 관심",
+      "filled": "Some researchers suggest that earlier engagement could lead to stronger long-term democratic participation.",
+      "sent_ko": "일부 연구자들은 더 이른 참여가 더 강한 장기적인 민주주의 참여로 이어질 수 있다고 제안한다.",
+      "chunks": [
+       {
+        "en": "Some researchers suggest",
+        "ko": "일부 연구자들은 제안한다"
+       },
+       {
+        "en": "that earlier engagement",
+        "ko": "더 이른 참여가"
+       },
+       {
+        "en": "could lead to",
+        "ko": "이어질 수 있다고"
+       },
+       {
+        "en": "stronger long-term democratic participation.",
+        "ko": "더 강한 장기적인 민주주의 참여로"
+       }
+      ],
+      "rp": {
+       "situation": "연구자들은 청소년의 조기 정치 참여가 장기적인 민주주의 참여로 이어질 수 있다고 말한다.",
+       "prompt": "What do some researchers believe about young people voting early?",
+       "options": [
+        "They believe earlier engagement could lead to stronger democratic participation.",
+        "They believe earlier engage could lead to stronger democratic participation."
+       ],
+       "answer": 0,
+       "why": "'engagement'는 명사로 써야 하며, 'engage'는 동사이므로 이 자리에 올 수 없다."
+      },
+      "topic": "선거 연령과 청년 정치 참여"
+     },
+     {
+      "id": "times:formation",
+      "word": "formation",
+      "ko": "형성, 구성",
+      "filled": "The formation of good study habits early in life can lead to greater success in school and beyond.",
+      "sent_ko": "인생 초기에 좋은 학습 습관을 형성하는 것은 학교와 그 너머에서 더 큰 성공으로 이어질 수 있다.",
+      "chunks": [
+       {
+        "en": "The formation of good study habits",
+        "ko": "좋은 학습 습관의 형성은"
+       },
+       {
+        "en": "early in life",
+        "ko": "인생 초기에"
+       },
+       {
+        "en": "can lead to",
+        "ko": "이어질 수 있다"
+       },
+       {
+        "en": "greater success in school and beyond.",
+        "ko": "학교와 그 너머에서 더 큰 성공으로"
+       }
+      ],
+      "rp": {
+       "situation": "연구자들은 어릴 때 투표 습관을 형성하는 것이 중요하다고 말한다.",
+       "prompt": "Why do some researchers support lowering the voting age?",
+       "options": [
+        "They say the formation of voting habits early can lead to lifelong participation.",
+        "They say the forming of voting habits early can lead to lifelong participation."
+       ],
+       "answer": 0,
+       "why": "'formation'이 이 맥락에서 쓰이는 명사이며, 'forming'은 동명사로 이 자리에 어색하다."
+      },
+      "topic": "선거 연령과 청년 정치 참여"
+     },
+     {
+      "id": "times:policy",
+      "word": "policy",
+      "ko": "정책, 방침",
+      "filled": "One argument that appears in policy discussions is that people who vote early in life may be more likely to develop consistent voting habits over time.",
+      "sent_ko": "인생에서 일찍 투표하는 사람들이 시간이 지남에 따라 일관된 투표 습관을 형성할 가능성이 더 높다는 것이 정책 논의에서 나타나는 한 가지 주장이다.",
+      "chunks": [
+       {
+        "en": "One argument that appears in policy discussions",
+        "ko": "정책 논의에서 나타나는 한 가지 주장은"
+       },
+       {
+        "en": "is that people who vote early in life",
+        "ko": "인생에서 일찍 투표하는 사람들이"
+       },
+       {
+        "en": "may be more likely to develop",
+        "ko": "형성할 가능성이 더 높다는 것이다"
+       },
+       {
+        "en": "consistent voting habits",
+        "ko": "일관된 투표 습관을"
+       },
+       {
+        "en": "over time.",
+        "ko": "시간이 지남에 따라"
+       }
+      ],
+      "rp": {
+       "situation": "투표 연령 인하 논쟁은 교육·기후 등 정부 정책 논의와 연결되어 있다.",
+       "prompt": "Where does this argument about voting habits appear?",
+       "options": [
+        "It appears in policy discussions about government decisions.",
+        "It appears in politic discussions about government decisions."
+       ],
+       "answer": 0,
+       "why": "'policy discussions'가 올바른 표현이며, 'politic'은 단독으로 명사 수식어로 쓰지 않는다."
+      },
+      "topic": "선거 연령과 청년 정치 참여"
+     },
+     {
+      "id": "times:opponent",
+      "word": "opponent",
+      "ko": "상대방, 반대자",
+      "filled": "Opponents raise different concerns.",
+      "sent_ko": "반대자들은 다른 우려들을 제기한다.",
+      "chunks": [
+       {
+        "en": "Opponents",
+        "ko": "반대자들은"
+       },
+       {
+        "en": "raise",
+        "ko": "제기한다"
+       },
+       {
+        "en": "different concerns.",
+        "ko": "다른 우려들을"
+       }
+      ],
+      "rp": {
+       "situation": "투표 연령 인하에 반대하는 사람들이 십 대 유권자에 대한 우려를 표명하고 있다.",
+       "prompt": "What do you call people who argue against lowering the voting age?",
+       "options": [
+        "They are called opponents of lowering the voting age.",
+        "They are called opposites of lowering the voting age."
+       ],
+       "answer": 0,
+       "why": "'opponents'는 '반대자'를 뜻하는 명사이며, 'opposites'는 '정반대의 것'을 뜻해 이 맥락에 맞지 않는다."
+      },
+      "topic": "선거 연령과 청년 정치 참여"
+     },
+     {
+      "id": "times:disconnected",
+      "word": "disconnected",
+      "ko": "단절된, 연결이 끊긴",
+      "filled": "Polling data also shows that many young adults feel disconnected from the political system.",
+      "sent_ko": "여론조사 데이터는 또한 많은 젊은 성인들이 정치 시스템으로부터 단절감을 느낀다는 것을 보여준다.",
+      "chunks": [
+       {
+        "en": "Polling data also shows",
+        "ko": "여론조사 데이터는 또한 보여준다"
+       },
+       {
+        "en": "that many young adults",
+        "ko": "많은 젊은 성인들이"
+       },
+       {
+        "en": "feel disconnected",
+        "ko": "단절감을 느낀다는 것을"
+       },
+       {
+        "en": "from the political system.",
+        "ko": "정치 시스템으로부터"
+       }
+      ],
+      "rp": {
+       "situation": "많은 젊은이들이 정치 시스템과 단절되어 있다고 느낀다는 여론조사 결과가 있다.",
+       "prompt": "How do many young adults feel about the political system?",
+       "options": [
+        "They feel disconnected from the political system.",
+        "They feel disconnect from the political system."
+       ],
+       "answer": 0,
+       "why": "'disconnected'는 형용사로 feel 뒤에 써야 하며, 'disconnect'는 동사·명사 형태로 이 자리에 문법적으로 맞지 않는다."
+      },
+      "topic": "선거 연령과 청년 정치 참여"
+     },
+     {
+      "id": "times:adequately",
+      "word": "adequately",
+      "ko": "적절하게, 충분히",
+      "filled": "Others question whether schools prepare teenagers adequately for civic participation.",
+      "sent_ko": "다른 이들은 학교가 십 대들을 시민 참여에 적절히 준비시키는지 의문을 제기한다.",
+      "chunks": [
+       {
+        "en": "Others question",
+        "ko": "다른 이들은 의문을 제기한다"
+       },
+       {
+        "en": "whether schools prepare teenagers adequately",
+        "ko": "학교가 십 대들을 적절히 준비시키는지"
+       },
+       {
+        "en": "for civic participation.",
+        "ko": "시민 참여를 위해"
+       }
+      ],
+      "rp": {
+       "situation": "비평가들은 학교가 십 대들을 시민 참여에 충분히 준비시키지 못한다고 우려한다.",
+       "prompt": "Do critics think schools do a good job preparing teenagers?",
+       "options": [
+        "No, they question whether schools prepare teenagers adequately.",
+        "No, they question whether schools prepare teenagers adequate."
+       ],
+       "answer": 0,
+       "why": "'adequately'는 동사 'prepare'를 수식하는 부사이며, 형용사인 'adequate'는 이 자리에 올 수 없다."
+      },
+      "topic": "선거 연령과 청년 정치 참여"
+     },
+     {
+      "id": "times:reconsider",
+      "word": "reconsider",
+      "ko": "재고하다, 다시 생각하다",
+      "filled": "As more countries reconsider their rules, the conversation about youth political participation is likely to continue.",
+      "sent_ko": "더 많은 나라들이 자신들의 규칙을 재고함에 따라, 청소년 정치 참여에 대한 대화는 계속될 것으로 보인다.",
+      "chunks": [
+       {
+        "en": "As more countries reconsider their rules,",
+        "ko": "더 많은 나라들이 자신들의 규칙을 재고함에 따라"
+       },
+       {
+        "en": "the conversation about youth political participation",
+        "ko": "청소년 정치 참여에 대한 대화는"
+       },
+       {
+        "en": "is likely to continue.",
+        "ko": "계속될 것으로 보인다"
+       }
+      ],
+      "rp": {
+       "situation": "여러 나라들이 투표 연령에 관한 규칙을 다시 검토하고 있다.",
+       "prompt": "What are many countries doing about their voting age rules?",
+       "options": [
+        "Many countries are beginning to reconsider their voting age rules.",
+        "Many countries are beginning to unconsider their voting age rules."
+       ],
+       "answer": 0,
+       "why": "'reconsider'는 '재고하다'를 뜻하는 실제 단어이며, 'unconsider'는 존재하지 않는 단어이다."
+      },
+      "topic": "선거 연령과 청년 정치 참여"
      }
     ]
    }
