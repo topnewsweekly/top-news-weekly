@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14 09:43:39",
+ "generated": "2026-09-14 09:44:28",
  "levels": {
   "kinder": [
    {
@@ -4416,6 +4416,257 @@
        "why": "'soil'은 셀 수 없는 명사이므로 복수형 'soils'는 틀립니다."
       },
       "topic": "음식물 쓰레기는 어디로 갈까"
+     }
+    ]
+   },
+   {
+    "id": "kids|지문으로 문이 열리는 원리",
+    "level": "kids",
+    "topic": "지문으로 문이 열리는 원리",
+    "section": "기술",
+    "week": "2026-09-14",
+    "tf": [
+     {
+      "s": "Every person in the world has a different fingerprint.",
+      "a": true
+     },
+     {
+      "s": "A fingerprint scanner takes a video of your fingerprint.",
+      "a": false
+     },
+     {
+      "s": "Fingerprint scanners can be found in phones and offices.",
+      "a": true
+     },
+     {
+      "s": "A door with a fingerprint scanner opens even if the fingerprints do not match.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "kids:scanner",
+      "word": "scanner",
+      "ko": "스캐너, 스캔 장치",
+      "filled": "Some doors use a fingerprint scanner.",
+      "sent_ko": "어떤 문들은 지문 스캐너를 사용합니다.",
+      "chunks": [
+       {
+        "en": "Some doors",
+        "ko": "어떤 문들은"
+       },
+       {
+        "en": "use",
+        "ko": "사용합니다"
+       },
+       {
+        "en": "a fingerprint scanner.",
+        "ko": "지문 스캐너를"
+       }
+      ],
+      "rp": {
+       "situation": "학교 입구에 지문으로 문을 여는 장치가 있습니다.",
+       "prompt": "What is that machine by the door?",
+       "options": [
+        "It is a fingerprint scanner.",
+        "It is a fingerprint scanning."
+       ],
+       "answer": 0,
+       "why": "scanner는 명사이고, scanning은 이 자리에 명사로 쓸 수 없습니다."
+      },
+      "topic": "지문으로 문이 열리는 원리"
+     },
+     {
+      "id": "kids:fingerprint",
+      "word": "fingerprint",
+      "ko": "지문",
+      "filled": "Some doors use a fingerprint scanner.",
+      "sent_ko": "어떤 문들은 지문 스캐너를 사용합니다.",
+      "chunks": [
+       {
+        "en": "Some doors",
+        "ko": "어떤 문들은"
+       },
+       {
+        "en": "use",
+        "ko": "사용합니다"
+       },
+       {
+        "en": "a fingerprint scanner.",
+        "ko": "지문 스캐너를"
+       }
+      ],
+      "rp": {
+       "situation": "학교 문 앞에서 스캐너에 손가락을 대고 있습니다.",
+       "prompt": "What does the scanner read?",
+       "options": [
+        "It reads your fingerprint.",
+        "It reads your fingernail."
+       ],
+       "answer": 0,
+       "why": "스캐너는 손가락의 지문(fingerprint)을 읽으며, 손톱(fingernail)은 읽지 않습니다."
+      },
+      "topic": "지문으로 문이 열리는 원리"
+     },
+     {
+      "id": "kids:pattern",
+      "word": "pattern",
+      "ko": "패턴, 무늬, 규칙적인 형태",
+      "filled": "No two people in the world have the same pattern.",
+      "sent_ko": "세상에 같은 패턴을 가진 사람은 두 명도 없습니다.",
+      "chunks": [
+       {
+        "en": "No two people",
+        "ko": "두 명도 없습니다"
+       },
+       {
+        "en": "in the world",
+        "ko": "세상에"
+       },
+       {
+        "en": "have the same pattern.",
+        "ko": "같은 패턴을 가진"
+       }
+      ],
+      "rp": {
+       "situation": "두 학생이 자신들의 지문이 같은지 비교하고 있습니다.",
+       "prompt": "Do we have the same fingerprint pattern?",
+       "options": [
+        "No, everyone has a different pattern.",
+        "No, everyone has a different patterned."
+       ],
+       "answer": 0,
+       "why": "pattern은 명사로 써야 하며, patterned는 형용사라 이 자리에 맞지 않습니다."
+      },
+      "topic": "지문으로 문이 열리는 원리"
+     },
+     {
+      "id": "kids:compare",
+      "word": "compare",
+      "ko": "비교하다",
+      "filled": "Then it compares the picture to one saved inside the machine.",
+      "sent_ko": "그런 다음 기계는 그 사진을 기계 안에 저장된 것과 비교합니다.",
+      "chunks": [
+       {
+        "en": "Then it compares",
+        "ko": "그런 다음 기계는 비교합니다"
+       },
+       {
+        "en": "the picture",
+        "ko": "그 사진을"
+       },
+       {
+        "en": "to one saved inside the machine.",
+        "ko": "기계 안에 저장된 것과"
+       }
+      ],
+      "rp": {
+       "situation": "지문 스캐너가 방금 찍은 지문 사진을 확인하고 있습니다.",
+       "prompt": "What does the scanner do with the picture?",
+       "options": [
+        "It compares the picture to the saved one.",
+        "It comparing the picture to the saved one."
+       ],
+       "answer": 0,
+       "why": "주어가 3인칭 단수이므로 compares가 맞고, comparing은 동사 자리에 단독으로 쓸 수 없습니다."
+      },
+      "topic": "지문으로 문이 열리는 원리"
+     },
+     {
+      "id": "kids:match",
+      "word": "match",
+      "ko": "일치하다, 맞다",
+      "filled": "If they match, the door opens.",
+      "sent_ko": "만약 두 지문이 일치하면, 문이 열립니다.",
+      "chunks": [
+       {
+        "en": "If they match,",
+        "ko": "만약 일치하면"
+       },
+       {
+        "en": "the door",
+        "ko": "문이"
+       },
+       {
+        "en": "opens.",
+        "ko": "열립니다"
+       }
+      ],
+      "rp": {
+       "situation": "스캐너가 지문을 확인한 후 문이 열렸습니다.",
+       "prompt": "Why did the door open?",
+       "options": [
+        "Because the fingerprints match.",
+        "Because the fingerprints matching."
+       ],
+       "answer": 0,
+       "why": "match는 동사 원형으로 써야 하며, matching은 이 자리에 단독 동사로 쓸 수 없습니다."
+      },
+      "topic": "지문으로 문이 열리는 원리"
+     },
+     {
+      "id": "kids:unlock",
+      "word": "unlock",
+      "ko": "잠금을 해제하다, 열다",
+      "filled": "It is a fast and safe way to unlock things.",
+      "sent_ko": "그것은 물건의 잠금을 해제하는 빠르고 안전한 방법입니다.",
+      "chunks": [
+       {
+        "en": "It is",
+        "ko": "그것은 ~입니다"
+       },
+       {
+        "en": "a fast and safe way",
+        "ko": "빠르고 안전한 방법"
+       },
+       {
+        "en": "to unlock things.",
+        "ko": "물건의 잠금을 해제하는"
+       }
+      ],
+      "rp": {
+       "situation": "사무실 문에 지문 스캐너가 달려 있고 직원이 손가락을 대고 있습니다.",
+       "prompt": "What does the fingerprint scanner do to the door?",
+       "options": [
+        "It unlocks the door.",
+        "It unlocks to the door."
+       ],
+       "answer": 0,
+       "why": "unlock은 타동사라 바로 목적어가 오며, 뒤에 to를 쓰지 않습니다."
+      },
+      "topic": "지문으로 문이 열리는 원리"
+     },
+     {
+      "id": "kids:safe",
+      "word": "safe",
+      "ko": "안전한",
+      "filled": "It is a fast and safe way to unlock things.",
+      "sent_ko": "그것은 물건의 잠금을 해제하는 빠르고 안전한 방법입니다.",
+      "chunks": [
+       {
+        "en": "It is",
+        "ko": "그것은 ~입니다"
+       },
+       {
+        "en": "a fast and safe way",
+        "ko": "빠르고 안전한 방법"
+       },
+       {
+        "en": "to unlock things.",
+        "ko": "물건의 잠금을 해제하는"
+       }
+      ],
+      "rp": {
+       "situation": "선생님이 학교에서 지문 스캐너를 사용하는 이유를 설명하고 있습니다.",
+       "prompt": "Why do we use a fingerprint scanner at school?",
+       "options": [
+        "Because it is a safe way to unlock doors.",
+        "Because it is a safely way to unlock doors."
+       ],
+       "answer": 0,
+       "why": "safe는 명사 way를 꾸미는 형용사이며, safely는 부사라 명사를 꾸밀 수 없습니다."
+      },
+      "topic": "지문으로 문이 열리는 원리"
      }
     ]
    }
