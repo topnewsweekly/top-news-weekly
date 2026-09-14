@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14 10:03:31",
+ "generated": "2026-09-14 10:04:32",
  "levels": {
   "kinder": [
    {
@@ -13745,6 +13745,541 @@
        "why": "'mineral'이 명사를 수식하는 형용사적 용법일 때는 단수형 'mineral supply'가 올바른 복합명사다."
       },
       "topic": "전기차 배터리 원료의 재활용 경제"
+     }
+    ]
+   },
+   {
+    "id": "times|학령 인구 감소와 대학 구조 조정",
+    "level": "times",
+    "topic": "학령 인구 감소와 대학 구조 조정",
+    "section": "교육",
+    "week": "2026-09-14",
+    "tf": [
+     {
+      "s": "South Korea's falling birth rate is one of the main reasons universities are under pressure.",
+      "a": true
+     },
+     {
+      "s": "Large universities in major cities have been the most seriously affected by declining enrollment.",
+      "a": false
+     },
+     {
+      "s": "Some South Korean universities have already shut down as a result of having too few students.",
+      "a": true
+     },
+     {
+      "s": "The South Korean government has advised universities to avoid making any major organizational changes.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "times:sector",
+      "word": "sector",
+      "ko": "분야, 부문",
+      "filled": "South Korea's university sector is facing serious pressure as the number of school-age young people continues to fall.",
+      "sent_ko": "학령인구가 계속 줄어들면서 한국의 대학 분야는 심각한 압박에 직면해 있다.",
+      "chunks": [
+       {
+        "en": "South Korea's university sector",
+        "ko": "한국의 대학 분야는"
+       },
+       {
+        "en": "is facing serious pressure",
+        "ko": "심각한 압박에 직면해 있다"
+       },
+       {
+        "en": "as the number of school-age young people",
+        "ko": "학령인구의 수가"
+       },
+       {
+        "en": "continues to fall.",
+        "ko": "계속 줄어들면서"
+       }
+      ],
+      "rp": {
+       "situation": "기자가 한국 대학들이 처한 상황 전반에 대해 묻고 있다.",
+       "prompt": "Which part of South Korea's education system is under the most pressure?",
+       "options": [
+        "The university sector is facing serious problems due to falling student numbers.",
+        "The university section is facing serious problems due to falling student numbers."
+       ],
+       "answer": 0,
+       "why": "특정 산업·사회 분야를 가리킬 때는 sector를 쓰며, section은 부적절한 표현이다."
+      },
+      "topic": "학령 인구 감소와 대학 구조 조정"
+     },
+     {
+      "id": "times:pressure",
+      "word": "pressure",
+      "ko": "압박, 압력",
+      "filled": "South Korea's university sector is facing serious pressure as the number of school-age young people continues to fall.",
+      "sent_ko": "학령인구가 계속 줄어들면서 한국의 대학 분야는 심각한 압박에 직면해 있다.",
+      "chunks": [
+       {
+        "en": "South Korea's university sector",
+        "ko": "한국의 대학 분야는"
+       },
+       {
+        "en": "is facing serious pressure",
+        "ko": "심각한 압박에 직면해 있다"
+       },
+       {
+        "en": "as the number of school-age young people",
+        "ko": "학령인구의 수가"
+       },
+       {
+        "en": "continues to fall.",
+        "ko": "계속 줄어들면서"
+       }
+      ],
+      "rp": {
+       "situation": "학생 수 감소로 힘들어진 한국 대학의 상황을 설명하고 있다.",
+       "prompt": "How would you describe what these universities are experiencing?",
+       "options": [
+        "They are under serious pressure to survive as student numbers fall.",
+        "They are under serious stress to survive as student numbers fall."
+       ],
+       "answer": 0,
+       "why": "외부 상황이 가하는 압박은 pressure, stress는 내적 심리 상태에 더 적합하다."
+      },
+      "topic": "학령 인구 감소와 대학 구조 조정"
+     },
+     {
+      "id": "times:birth rate",
+      "word": "birth rate",
+      "ko": "출생률",
+      "filled": "Birth rates have dropped sharply over recent decades, meaning far fewer students are now entering higher education.",
+      "sent_ko": "출생률이 최근 수십 년간 급격히 떨어져, 현재 고등 교육에 진학하는 학생 수가 훨씬 줄었다.",
+      "chunks": [
+       {
+        "en": "Birth rates have dropped sharply",
+        "ko": "출생률이 급격히 떨어졌다"
+       },
+       {
+        "en": "over recent decades,",
+        "ko": "최근 수십 년간"
+       },
+       {
+        "en": "meaning far fewer students",
+        "ko": "훨씬 적은 학생들이"
+       },
+       {
+        "en": "are now entering higher education.",
+        "ko": "현재 고등 교육에 진학하고 있음을 의미한다"
+       }
+      ],
+      "rp": {
+       "situation": "전문가가 한국 대학 위기의 근본 원인을 설명하고 있다.",
+       "prompt": "What is the root cause of universities having fewer students?",
+       "options": [
+        "The birth rate has fallen sharply, so there are fewer young people overall.",
+        "The birth rate has fallen sharply, so there are fewer young people altogether."
+       ],
+       "answer": 0,
+       "why": "집합적 총량의 감소를 나타낼 때는 overall이 자연스럽고, altogether는 '전혀 없다'는 뉘앙스를 준다."
+      },
+      "topic": "학령 인구 감소와 대학 구조 조정"
+     },
+     {
+      "id": "times:enrollment",
+      "word": "enrollment",
+      "ko": "등록, 입학",
+      "filled": "In response, many universities are cutting staff, merging departments, and reducing enrollment caps.",
+      "sent_ko": "이에 대응하여 많은 대학들이 직원을 줄이고, 학과를 통합하며, 입학 정원을 축소하고 있다.",
+      "chunks": [
+       {
+        "en": "In response,",
+        "ko": "이에 대응하여"
+       },
+       {
+        "en": "many universities are cutting staff,",
+        "ko": "많은 대학들이 직원을 줄이고"
+       },
+       {
+        "en": "merging departments,",
+        "ko": "학과를 통합하며"
+       },
+       {
+        "en": "and reducing enrollment caps.",
+        "ko": "입학 정원을 축소하고 있다"
+       }
+      ],
+      "rp": {
+       "situation": "한국 대학이 학생 수 감소에 대응하는 방법을 논의하고 있다.",
+       "prompt": "What steps are universities taking to deal with fewer applicants?",
+       "options": [
+        "Many universities are reducing their enrollment caps to match lower demand.",
+        "Many universities are reducing their enrolling caps to match lower demand."
+       ],
+       "answer": 0,
+       "why": "명사형 enrollment가 올바른 형태이며, enrolling은 동명사로 caps를 수식할 수 없다."
+      },
+      "topic": "학령 인구 감소와 대학 구조 조정"
+     },
+     {
+      "id": "times:higher education",
+      "word": "higher education",
+      "ko": "고등 교육",
+      "filled": "Birth rates have dropped sharply over recent decades, meaning far fewer students are now entering higher education.",
+      "sent_ko": "출생률이 최근 수십 년간 급격히 떨어져, 현재 고등 교육에 진학하는 학생 수가 훨씬 줄었다.",
+      "chunks": [
+       {
+        "en": "Birth rates have dropped sharply",
+        "ko": "출생률이 급격히 떨어졌다"
+       },
+       {
+        "en": "over recent decades,",
+        "ko": "최근 수십 년간"
+       },
+       {
+        "en": "meaning far fewer students",
+        "ko": "훨씬 적은 학생들이"
+       },
+       {
+        "en": "are now entering higher education.",
+        "ko": "현재 고등 교육에 진학하고 있음을 의미한다"
+       }
+      ],
+      "rp": {
+       "situation": "한국 대학 진학률 감소를 설명하는 보고서를 읽고 있다.",
+       "prompt": "How do you describe university-level study in formal English?",
+       "options": [
+        "Fewer students are now entering higher education because of falling birth rates.",
+        "Fewer students are now entering advanced education because of falling birth rates."
+       ],
+       "answer": 0,
+       "why": "대학 이상의 교육 단계를 가리키는 정해진 표현은 higher education이며, advanced education은 다른 의미로 쓰인다."
+      },
+      "topic": "학령 인구 감소와 대학 구조 조정"
+     },
+     {
+      "id": "times:struggle",
+      "word": "struggle",
+      "ko": "어려움을 겪다, 힘겹게 노력하다",
+      "filled": "Some universities are already struggling to fill their seats.",
+      "sent_ko": "일부 대학들은 이미 정원을 채우는 데 어려움을 겪고 있다.",
+      "chunks": [
+       {
+        "en": "Some universities",
+        "ko": "일부 대학들은"
+       },
+       {
+        "en": "are already struggling",
+        "ko": "이미 어려움을 겪고 있다"
+       },
+       {
+        "en": "to fill their seats.",
+        "ko": "정원을 채우는 데"
+       }
+      ],
+      "rp": {
+       "situation": "학생 모집에 실패하고 있는 한국 지방 대학의 상황이다.",
+       "prompt": "What is happening to some universities that cannot attract enough students?",
+       "options": [
+        "Some universities are struggling to fill their seats each year.",
+        "Some universities are troubling to fill their seats each year."
+       ],
+       "answer": 0,
+       "why": "struggle to는 '~하는 데 어려움을 겪다'는 자연스러운 표현이고, trouble to는 이 의미로 쓸 수 없다."
+      },
+      "topic": "학령 인구 감소와 대학 구조 조정"
+     },
+     {
+      "id": "times:regional",
+      "word": "regional",
+      "ko": "지역의, 지방의",
+      "filled": "Smaller regional schools have been hit especially hard, and some have already closed.",
+      "sent_ko": "규모가 작은 지방 학교들이 특히 큰 타격을 받았으며, 일부는 이미 문을 닫았다.",
+      "chunks": [
+       {
+        "en": "Smaller regional schools",
+        "ko": "규모가 작은 지방 학교들이"
+       },
+       {
+        "en": "have been hit especially hard,",
+        "ko": "특히 큰 타격을 받았으며"
+       },
+       {
+        "en": "and some have already closed.",
+        "ko": "일부는 이미 문을 닫았다"
+       }
+      ],
+      "rp": {
+       "situation": "서울이 아닌 지방에 위치한 한국 대학들의 위기를 설명하고 있다.",
+       "prompt": "Which universities have suffered the most from declining enrollments?",
+       "options": [
+        "Smaller regional universities outside the capital have been hit especially hard.",
+        "Smaller local universities outside the capital have been hit especially hard."
+       ],
+       "answer": 0,
+       "why": "regional은 수도권 밖의 지리적 권역 단위를 가리키며, 기사의 표현과 일치한다. local은 더 좁은 동네 범위를 뜻한다."
+      },
+      "topic": "학령 인구 감소와 대학 구조 조정"
+     },
+     {
+      "id": "times:restructure",
+      "word": "restructure",
+      "ko": "재편하다, 구조를 바꾸다",
+      "filled": "The South Korean government has encouraged universities to restructure in order to stay financially stable.",
+      "sent_ko": "한국 정부는 대학들이 재정적으로 안정을 유지하기 위해 구조를 재편하도록 장려해 왔다.",
+      "chunks": [
+       {
+        "en": "The South Korean government",
+        "ko": "한국 정부는"
+       },
+       {
+        "en": "has encouraged universities",
+        "ko": "대학들이 ~하도록 장려해 왔다"
+       },
+       {
+        "en": "to restructure",
+        "ko": "구조를 재편하도록"
+       },
+       {
+        "en": "in order to stay financially stable.",
+        "ko": "재정적으로 안정을 유지하기 위해"
+       }
+      ],
+      "rp": {
+       "situation": "정부가 위기에 처한 한국 대학들에게 변화를 권고하고 있다.",
+       "prompt": "What has the government told universities to do to survive?",
+       "options": [
+        "The government has encouraged universities to restructure their operations.",
+        "The government has encouraged universities to restructure their operations."
+       ],
+       "answer": 0,
+       "why": "올바른 단어는 restructure이며, restructure는 표준 철자가 아니다."
+      },
+      "topic": "학령 인구 감소와 대학 구조 조정"
+     },
+     {
+      "id": "times:financially",
+      "word": "financially",
+      "ko": "재정적으로",
+      "filled": "The South Korean government has encouraged universities to restructure in order to stay financially stable.",
+      "sent_ko": "한국 정부는 대학들이 재정적으로 안정을 유지하기 위해 구조를 재편하도록 장려해 왔다.",
+      "chunks": [
+       {
+        "en": "The South Korean government",
+        "ko": "한국 정부는"
+       },
+       {
+        "en": "has encouraged universities",
+        "ko": "대학들이 ~하도록 장려해 왔다"
+       },
+       {
+        "en": "to restructure",
+        "ko": "구조를 재편하도록"
+       },
+       {
+        "en": "in order to stay financially stable.",
+        "ko": "재정적으로 안정을 유지하기 위해"
+       }
+      ],
+      "rp": {
+       "situation": "학생 수 감소로 수입이 줄어든 한국 대학의 상황을 논의하고 있다.",
+       "prompt": "Why must universities change the way they operate?",
+       "options": [
+        "They need to restructure in order to stay financially stable.",
+        "They need to restructure in order to stay financial stable."
+       ],
+       "answer": 0,
+       "why": "stable은 형용사이므로 부사 financially로 수식해야 하며, 형용사 financial은 명사를 수식한다."
+      },
+      "topic": "학령 인구 감소와 대학 구조 조정"
+     },
+     {
+      "id": "times:stable",
+      "word": "stable",
+      "ko": "안정적인",
+      "filled": "The South Korean government has encouraged universities to restructure in order to stay financially stable.",
+      "sent_ko": "한국 정부는 대학들이 재정적으로 안정을 유지하기 위해 구조를 재편하도록 장려해 왔다.",
+      "chunks": [
+       {
+        "en": "The South Korean government",
+        "ko": "한국 정부는"
+       },
+       {
+        "en": "has encouraged universities",
+        "ko": "대학들이 ~하도록 장려해 왔다"
+       },
+       {
+        "en": "to restructure",
+        "ko": "구조를 재편하도록"
+       },
+       {
+        "en": "in order to stay financially stable.",
+        "ko": "재정적으로 안정을 유지하기 위해"
+       }
+      ],
+      "rp": {
+       "situation": "구조 개편 후 한국 대학의 재정 상태를 설명하고 있다.",
+       "prompt": "What is the goal of the restructuring that the government has promoted?",
+       "options": [
+        "The goal is for universities to remain financially stable despite fewer students.",
+        "The goal is for universities to remain financially stability despite fewer students."
+       ],
+       "answer": 0,
+       "why": "remain 뒤에는 형용사 stable이 와야 하며, 명사 stability는 보어 자리에 올 수 없다."
+      },
+      "topic": "학령 인구 감소와 대학 구조 조정"
+     },
+     {
+      "id": "times:institution",
+      "word": "institution",
+      "ko": "기관, 단체",
+      "filled": "Experts warn that without major reform, dozens more institutions could shut down within the next decade.",
+      "sent_ko": "전문가들은 대대적인 개혁 없이는 향후 10년 안에 수십 개의 기관이 더 문을 닫을 수 있다고 경고한다.",
+      "chunks": [
+       {
+        "en": "Experts warn that",
+        "ko": "전문가들은 ~라고 경고한다"
+       },
+       {
+        "en": "without major reform,",
+        "ko": "대대적인 개혁 없이는"
+       },
+       {
+        "en": "dozens more institutions",
+        "ko": "수십 개의 기관이 더"
+       },
+       {
+        "en": "could shut down",
+        "ko": "문을 닫을 수 있다"
+       },
+       {
+        "en": "within the next decade.",
+        "ko": "향후 10년 안에"
+       }
+      ],
+      "rp": {
+       "situation": "한국에서 앞으로 문을 닫을 수 있는 대학들에 대해 이야기하고 있다.",
+       "prompt": "What word best describes universities as formal organizations in this context?",
+       "options": [
+        "Dozens more institutions could shut down if reforms are not made soon.",
+        "Dozens more institutes could shut down if reforms are not made soon."
+       ],
+       "answer": 0,
+       "why": "대학처럼 사회적으로 확립된 기관은 institution이며, institute는 주로 특정 연구·기술 기관을 가리킨다."
+      },
+      "topic": "학령 인구 감소와 대학 구조 조정"
+     },
+     {
+      "id": "times:reform",
+      "word": "reform",
+      "ko": "개혁, 개선",
+      "filled": "Experts warn that without major reform, dozens more institutions could shut down within the next decade.",
+      "sent_ko": "전문가들은 대대적인 개혁 없이는 향후 10년 안에 수십 개의 기관이 더 문을 닫을 수 있다고 경고한다.",
+      "chunks": [
+       {
+        "en": "Experts warn that",
+        "ko": "전문가들은 ~라고 경고한다"
+       },
+       {
+        "en": "without major reform,",
+        "ko": "대대적인 개혁 없이는"
+       },
+       {
+        "en": "dozens more institutions",
+        "ko": "수십 개의 기관이 더"
+       },
+       {
+        "en": "could shut down",
+        "ko": "문을 닫을 수 있다"
+       },
+       {
+        "en": "within the next decade.",
+        "ko": "향후 10년 안에"
+       }
+      ],
+      "rp": {
+       "situation": "전문가들이 한국 대학 시스템의 미래에 대해 경고하고 있다.",
+       "prompt": "What do experts say is necessary to prevent more universities from closing?",
+       "options": [
+        "Experts say major reform is needed to keep more institutions from shutting down.",
+        "Experts say major reformation is needed to keep more institutions from shutting down."
+       ],
+       "answer": 0,
+       "why": "제도적 변화를 뜻하는 명사는 reform이며, reformation은 주로 종교적·역사적 맥락에서 쓰인다."
+      },
+      "topic": "학령 인구 감소와 대학 구조 조정"
+     },
+     {
+      "id": "times:adapt",
+      "word": "adapt",
+      "ko": "적응하다, 조정하다",
+      "filled": "This situation raises important questions about how universities should adapt — and what kind of higher education system South Korea will need in the future.",
+      "sent_ko": "이 상황은 대학들이 어떻게 적응해야 하는지, 그리고 한국이 미래에 어떤 고등 교육 시스템을 필요로 할 것인지에 대한 중요한 질문을 제기한다.",
+      "chunks": [
+       {
+        "en": "This situation raises important questions",
+        "ko": "이 상황은 중요한 질문을 제기한다"
+       },
+       {
+        "en": "about how universities should adapt —",
+        "ko": "대학들이 어떻게 적응해야 하는지에 대해 —"
+       },
+       {
+        "en": "and what kind of higher education system",
+        "ko": "그리고 어떤 종류의 고등 교육 시스템을"
+       },
+       {
+        "en": "South Korea will need in the future.",
+        "ko": "한국이 미래에 필요로 할 것인지"
+       }
+      ],
+      "rp": {
+       "situation": "줄어드는 학생 수에 대응해야 하는 한국 대학들의 상황을 논의하고 있다.",
+       "prompt": "What must universities do to survive the changes caused by falling birth rates?",
+       "options": [
+        "Universities must adapt to the new situation or risk shutting down.",
+        "Universities must adopt to the new situation or risk shutting down."
+       ],
+       "answer": 0,
+       "why": "변화에 맞게 스스로를 바꾸는 것은 adapt to이며, adopt는 전치사 to와 함께 이 의미로 쓸 수 없다."
+      },
+      "topic": "학령 인구 감소와 대학 구조 조정"
+     },
+     {
+      "id": "times:decade",
+      "word": "decade",
+      "ko": "10년",
+      "filled": "Experts warn that without major reform, dozens more institutions could shut down within the next decade.",
+      "sent_ko": "전문가들은 대대적인 개혁 없이는 향후 10년 안에 수십 개의 기관이 더 문을 닫을 수 있다고 경고한다.",
+      "chunks": [
+       {
+        "en": "Experts warn that",
+        "ko": "전문가들은 ~라고 경고한다"
+       },
+       {
+        "en": "without major reform,",
+        "ko": "대대적인 개혁 없이는"
+       },
+       {
+        "en": "dozens more institutions",
+        "ko": "수십 개의 기관이 더"
+       },
+       {
+        "en": "could shut down",
+        "ko": "문을 닫을 수 있다"
+       },
+       {
+        "en": "within the next decade.",
+        "ko": "향후 10년 안에"
+       }
+      ],
+      "rp": {
+       "situation": "전문가들이 한국 대학 위기의 미래 전망을 경고하고 있다.",
+       "prompt": "How long do experts say it will take before more universities close?",
+       "options": [
+        "Experts warn that dozens more could shut down within the next decade.",
+        "Experts warn that dozens more could shut down within the next century."
+       ],
+       "answer": 0,
+       "why": "기사는 10년(decade) 이내라고 명시하며, century(100년)는 기사의 내용과 다르다."
+      },
+      "topic": "학령 인구 감소와 대학 구조 조정"
      }
     ]
    }
