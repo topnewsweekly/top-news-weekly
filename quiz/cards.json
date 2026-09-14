@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14 10:01:00",
+ "generated": "2026-09-14 10:03:31",
  "levels": {
   "kinder": [
    {
@@ -13182,6 +13182,569 @@
        "why": "rethink는 '재고하다'는 의미의 올바른 단어이며, unthink는 이 맥락에서 성립하지 않는 표현이다."
       },
       "topic": "폭염 일수 증가와 도시 설계"
+     }
+    ]
+   },
+   {
+    "id": "times|전기차 배터리 원료의 재활용 경제",
+    "level": "times",
+    "topic": "전기차 배터리 원료의 재활용 경제",
+    "section": "환경",
+    "week": "2026-09-14",
+    "tf": [
+     {
+      "s": "Hydrometallurgy uses chemical solutions to separate metals from battery materials and can recover over 90 percent of key minerals under the right conditions.",
+      "a": true
+     },
+     {
+      "s": "EV batteries are considered completely useless once they can no longer power a vehicle, so they must be discarded immediately.",
+      "a": false
+     },
+     {
+      "s": "Analysts believe that developing strong battery recycling systems could help reduce a country's reliance on imported raw minerals.",
+      "a": true
+     },
+     {
+      "s": "Pyrometallurgy is more energy-efficient than hydrometallurgy and recovers a greater variety of materials from used batteries.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "times:battery",
+      "word": "battery",
+      "ko": "배터리, 전지",
+      "filled": "EV batteries typically last between eight and fifteen years.",
+      "sent_ko": "전기차 배터리는 보통 8년에서 15년 사이 지속된다.",
+      "chunks": [
+       {
+        "en": "EV batteries",
+        "ko": "전기차 배터리는"
+       },
+       {
+        "en": "typically last",
+        "ko": "보통 지속된다"
+       },
+       {
+        "en": "between eight and fifteen years.",
+        "ko": "8년에서 15년 사이"
+       }
+      ],
+      "rp": {
+       "situation": "재활용 공장 직원이 수거된 전기차 배터리 수명에 대해 설명하고 있다.",
+       "prompt": "How long do EV batteries usually last?",
+       "options": [
+        "They typically last between eight and fifteen years.",
+        "They typically last from eight to fifteen years old."
+       ],
+       "answer": 0,
+       "why": "'years old'는 사람의 나이에 쓰고, 지속 기간에는 'years'만 쓴다."
+      },
+      "topic": "전기차 배터리 원료의 재활용 경제"
+     },
+     {
+      "id": "times:cobalt",
+      "word": "cobalt",
+      "ko": "코발트 (금속 원소)",
+      "filled": "When cobalt prices are high, recycling is clearly profitable.",
+      "sent_ko": "코발트 가격이 높을 때는 재활용이 분명히 수익성이 있다.",
+      "chunks": [
+       {
+        "en": "When cobalt prices are high,",
+        "ko": "코발트 가격이 높을 때"
+       },
+       {
+        "en": "recycling is clearly profitable.",
+        "ko": "재활용은 분명히 수익성이 있다"
+       }
+      ],
+      "rp": {
+       "situation": "배터리 재활용 회사 경영자가 코발트 시장 가격이 올랐다는 뉴스를 보고 있다.",
+       "prompt": "Is recycling worth it right now?",
+       "options": [
+        "Yes, when cobalt prices are high, recycling is clearly profitable.",
+        "Yes, when cobalt prices are high, recycling is clearly benefiting."
+       ],
+       "answer": 0,
+       "why": "'profitable'은 형용사로 올바르지만 'benefiting'은 이 구조에서 보어로 쓸 수 없다."
+      },
+      "topic": "전기차 배터리 원료의 재활용 경제"
+     },
+     {
+      "id": "times:manganese",
+      "word": "manganese",
+      "ko": "망간 (금속 원소)",
+      "filled": "Inside each battery pack are significant quantities of lithium, cobalt, nickel, and manganese — materials that are both expensive and difficult to mine.",
+      "sent_ko": "각 배터리 팩 안에는 리튬, 코발트, 니켈, 망간이 상당량 들어 있는데, 이 물질들은 비싸고 채굴하기도 어렵다.",
+      "chunks": [
+       {
+        "en": "Inside each battery pack",
+        "ko": "각 배터리 팩 안에는"
+       },
+       {
+        "en": "are significant quantities of",
+        "ko": "상당량이 들어 있다"
+       },
+       {
+        "en": "lithium, cobalt, nickel, and manganese —",
+        "ko": "리튬, 코발트, 니켈, 망간이"
+       },
+       {
+        "en": "materials that are both expensive",
+        "ko": "비싸기도 하고"
+       },
+       {
+        "en": "and difficult to mine.",
+        "ko": "채굴하기도 어려운 물질들"
+       }
+      ],
+      "rp": {
+       "situation": "연구원이 분해한 전기차 배터리 팩 안의 성분을 목록으로 정리하고 있다.",
+       "prompt": "What metals did you find inside the battery pack?",
+       "options": [
+        "We found lithium, cobalt, nickel, and manganese.",
+        "We found lithium, cobalt, nickel, and manganeses."
+       ],
+       "answer": 0,
+       "why": "'manganese'는 불가산 물질명사이므로 복수형 '-s'를 붙일 수 없다."
+      },
+      "topic": "전기차 배터리 원료의 재활용 경제"
+     },
+     {
+      "id": "times:recover",
+      "word": "recover",
+      "ko": "회수하다, 되찾다",
+      "filled": "Recovering these materials through recycling could reshape how the world thinks about critical mineral supply.",
+      "sent_ko": "재활용을 통해 이 물질들을 회수하는 것이 세계가 핵심 광물 공급에 대해 생각하는 방식을 바꿀 수 있다.",
+      "chunks": [
+       {
+        "en": "Recovering these materials",
+        "ko": "이 물질들을 회수하는 것이"
+       },
+       {
+        "en": "through recycling",
+        "ko": "재활용을 통해"
+       },
+       {
+        "en": "could reshape",
+        "ko": "바꿀 수 있다"
+       },
+       {
+        "en": "how the world thinks about",
+        "ko": "세계가 생각하는 방식을"
+       },
+       {
+        "en": "critical mineral supply.",
+        "ko": "핵심 광물 공급에 대해"
+       }
+      ],
+      "rp": {
+       "situation": "습식 야금술 연구팀이 배터리에서 리튬과 코발트를 90% 이상 다시 얻어내는 실험을 마쳤다.",
+       "prompt": "How did the experiment go?",
+       "options": [
+        "We managed to recover over 90 percent of the key minerals.",
+        "We managed to recovery over 90 percent of the key minerals."
+       ],
+       "answer": 0,
+       "why": "'managed to' 뒤에는 동사원형이 와야 하므로 명사형 'recovery'는 틀리다."
+      },
+      "topic": "전기차 배터리 원료의 재활용 경제"
+     },
+     {
+      "id": "times:capacity",
+      "word": "capacity",
+      "ko": "용량, 수용력",
+      "filled": "After that, their capacity drops too low for vehicle use, but they can still hold enough charge for smaller energy storage systems.",
+      "sent_ko": "그 이후에는 용량이 차량 사용에 비해 너무 낮아지지만, 더 소형 에너지 저장 시스템에는 여전히 충분한 전하를 보유할 수 있다.",
+      "chunks": [
+       {
+        "en": "After that,",
+        "ko": "그 이후에는"
+       },
+       {
+        "en": "their capacity drops too low",
+        "ko": "용량이 너무 낮아진다"
+       },
+       {
+        "en": "for vehicle use,",
+        "ko": "차량 사용에 비해"
+       },
+       {
+        "en": "but they can still hold enough charge",
+        "ko": "하지만 여전히 충분한 전하를 보유할 수 있다"
+       },
+       {
+        "en": "for smaller energy storage systems.",
+        "ko": "더 소형 에너지 저장 시스템에는"
+       }
+      ],
+      "rp": {
+       "situation": "오래된 전기차 배터리를 검사하는 기술자가 배터리가 차량 운행에 쓰기엔 충전 용량이 너무 줄었다고 보고하고 있다.",
+       "prompt": "Can this battery still power the car?",
+       "options": [
+        "No, its capacity has dropped too low for vehicle use.",
+        "No, its capably has dropped too low for vehicle use."
+       ],
+       "answer": 0,
+       "why": "'capably'는 부사이므로 명사 자리에 쓸 수 없고 'capacity'가 맞다."
+      },
+      "topic": "전기차 배터리 원료의 재활용 경제"
+     },
+     {
+      "id": "times:hydrometallurgy",
+      "word": "hydrometallurgy",
+      "ko": "습식 야금술 (액체를 이용해 금속을 추출하는 기술)",
+      "filled": "One widely used method, called hydrometallurgy, uses chemical solutions to dissolve and separate individual metals from battery materials.",
+      "sent_ko": "습식 야금술이라고 불리는 널리 사용되는 한 방법은 화학 용액을 이용해 배터리 물질에서 개별 금속을 용해하고 분리한다.",
+      "chunks": [
+       {
+        "en": "One widely used method,",
+        "ko": "널리 사용되는 한 방법은"
+       },
+       {
+        "en": "called hydrometallurgy,",
+        "ko": "습식 야금술이라고 불리는"
+       },
+       {
+        "en": "uses chemical solutions",
+        "ko": "화학 용액을 이용해"
+       },
+       {
+        "en": "to dissolve and separate",
+        "ko": "용해하고 분리한다"
+       },
+       {
+        "en": "individual metals from battery materials.",
+        "ko": "배터리 물질에서 개별 금속을"
+       }
+      ],
+      "rp": {
+       "situation": "재활용 공장 견학 중인 학생이 기술자에게 습식 야금술이 어떻게 금속을 분리하는지 묻고 있다.",
+       "prompt": "How does hydrometallurgy separate the metals?",
+       "options": [
+        "It uses chemical solutions to dissolve and separate them.",
+        "It uses chemical solutions to dissolution and separate them."
+       ],
+       "answer": 0,
+       "why": "'to' 뒤에는 동사원형이 와야 하므로 명사 'dissolution'은 틀리다."
+      },
+      "topic": "전기차 배터리 원료의 재활용 경제"
+     },
+     {
+      "id": "times:dissolve",
+      "word": "dissolve",
+      "ko": "용해시키다, 녹이다",
+      "filled": "One widely used method, called hydrometallurgy, uses chemical solutions to dissolve and separate individual metals from battery materials.",
+      "sent_ko": "습식 야금술이라고 불리는 널리 사용되는 한 방법은 화학 용액을 이용해 배터리 물질에서 개별 금속을 용해하고 분리한다.",
+      "chunks": [
+       {
+        "en": "One widely used method,",
+        "ko": "널리 사용되는 한 방법은"
+       },
+       {
+        "en": "called hydrometallurgy,",
+        "ko": "습식 야금술이라고 불리는"
+       },
+       {
+        "en": "uses chemical solutions",
+        "ko": "화학 용액을 이용해"
+       },
+       {
+        "en": "to dissolve and separate",
+        "ko": "용해하고 분리한다"
+       },
+       {
+        "en": "individual metals from battery materials.",
+        "ko": "배터리 물질에서 개별 금속을"
+       }
+      ],
+      "rp": {
+       "situation": "배터리 재활용 실험실에서 연구원이 화학 용액에 배터리 소재를 넣어 금속을 액체에 녹여내고 있다.",
+       "prompt": "What happens to the metals in the solution?",
+       "options": [
+        "The solution dissolves the metals so they can be separated.",
+        "The solution dissolves the metals so they can be separated out of."
+       ],
+       "answer": 0,
+       "why": "'separated out of'는 목적어 없이 전치사로 끝날 수 없어 비문이다."
+      },
+      "topic": "전기차 배터리 원료의 재활용 경제"
+     },
+     {
+      "id": "times:extract",
+      "word": "extract",
+      "ko": "추출하다, 뽑아내다",
+      "filled": "Another method, pyrometallurgy, uses high heat to extract metals but consumes more energy and recovers fewer materials.",
+      "sent_ko": "또 다른 방법인 건식 야금술은 높은 열을 이용해 금속을 추출하지만 더 많은 에너지를 소비하고 더 적은 물질을 회수한다.",
+      "chunks": [
+       {
+        "en": "Another method, pyrometallurgy,",
+        "ko": "또 다른 방법인 건식 야금술은"
+       },
+       {
+        "en": "uses high heat",
+        "ko": "높은 열을 이용해"
+       },
+       {
+        "en": "to extract metals",
+        "ko": "금속을 추출한다"
+       },
+       {
+        "en": "but consumes more energy",
+        "ko": "하지만 더 많은 에너지를 소비하고"
+       },
+       {
+        "en": "and recovers fewer materials.",
+        "ko": "더 적은 물질을 회수한다"
+       }
+      ],
+      "rp": {
+       "situation": "재활용 공장 관리자가 건식 야금술 공정으로 배터리에서 금속을 뽑아내는 과정을 설명하고 있다.",
+       "prompt": "How does pyrometallurgy get the metals out?",
+       "options": [
+        "It uses high heat to extract metals from the battery materials.",
+        "It uses high heat to extraction metals from the battery materials."
+       ],
+       "answer": 0,
+       "why": "'to' 뒤에는 동사원형이 와야 하므로 명사 'extraction'은 쓸 수 없다."
+      },
+      "topic": "전기차 배터리 원료의 재활용 경제"
+     },
+     {
+      "id": "times:margin",
+      "word": "margin",
+      "ko": "차이, 여유, 마진",
+      "filled": "When prices fall, margins shrink quickly.",
+      "sent_ko": "가격이 떨어지면 마진이 빠르게 줄어든다.",
+      "chunks": [
+       {
+        "en": "When prices fall,",
+        "ko": "가격이 떨어지면"
+       },
+       {
+        "en": "margins shrink quickly.",
+        "ko": "마진이 빠르게 줄어든다"
+       }
+      ],
+      "rp": {
+       "situation": "코발트 시장 가격이 급락하자 배터리 재활용 회사의 수익 차이가 급격히 좁아지고 있다.",
+       "prompt": "What happened to profits after cobalt prices fell?",
+       "options": [
+        "The margins shrank quickly.",
+        "The margins shrank tightly."
+       ],
+       "answer": 0,
+       "why": "마진이 줄어드는 표현은 'shrink quickly'이며, 'tightly'는 이 맥락에 어울리지 않는다."
+      },
+      "topic": "전기차 배터리 원료의 재활용 경제"
+     },
+     {
+      "id": "times:mandate",
+      "word": "mandate",
+      "ko": "명령, 지시; 의무화하다",
+      "filled": "Experts say consistent government policy — such as recycling mandates or tax credits — is often needed to keep the industry stable.",
+      "sent_ko": "전문가들은 재활용 의무화나 세금 혜택 같은 일관된 정부 정책이 산업을 안정적으로 유지하는 데 종종 필요하다고 말한다.",
+      "chunks": [
+       {
+        "en": "Experts say",
+        "ko": "전문가들은 말한다"
+       },
+       {
+        "en": "consistent government policy —",
+        "ko": "일관된 정부 정책이"
+       },
+       {
+        "en": "such as recycling mandates or tax credits —",
+        "ko": "재활용 의무화나 세금 혜택 같은"
+       },
+       {
+        "en": "is often needed",
+        "ko": "종종 필요하다"
+       },
+       {
+        "en": "to keep the industry stable.",
+        "ko": "산업을 안정적으로 유지하는 데"
+       }
+      ],
+      "rp": {
+       "situation": "정부가 배터리 재활용을 법으로 의무화하는 정책을 발표하자 업계 관계자가 반응하고 있다.",
+       "prompt": "Will this government recycling mandate help the industry?",
+       "options": [
+        "Yes, recycling mandates help keep the industry stable.",
+        "Yes, recycling mandatories help keep the industry stable."
+       ],
+       "answer": 0,
+       "why": "'mandatory'의 명사형 복수는 'mandatories'가 아니라 'mandates'이다."
+      },
+      "topic": "전기차 배터리 원료의 재활용 경제"
+     },
+     {
+      "id": "times:stable",
+      "word": "stable",
+      "ko": "안정적인",
+      "filled": "Experts say consistent government policy — such as recycling mandates or tax credits — is often needed to keep the industry stable.",
+      "sent_ko": "전문가들은 재활용 의무화나 세금 혜택 같은 일관된 정부 정책이 산업을 안정적으로 유지하는 데 종종 필요하다고 말한다.",
+      "chunks": [
+       {
+        "en": "Experts say",
+        "ko": "전문가들은 말한다"
+       },
+       {
+        "en": "consistent government policy —",
+        "ko": "일관된 정부 정책이"
+       },
+       {
+        "en": "such as recycling mandates or tax credits —",
+        "ko": "재활용 의무화나 세금 혜택 같은"
+       },
+       {
+        "en": "is often needed",
+        "ko": "종종 필요하다"
+       },
+       {
+        "en": "to keep the industry stable.",
+        "ko": "산업을 안정적으로 유지하는 데"
+       }
+      ],
+      "rp": {
+       "situation": "코발트 가격 변동으로 흔들리는 배터리 재활용 산업을 정부 정책으로 안정시켜야 한다고 전문가가 주장하고 있다.",
+       "prompt": "What does the recycling industry need most right now?",
+       "options": [
+        "It needs consistent government policy to keep the industry stable.",
+        "It needs consistent government policy to keep the industry stably."
+       ],
+       "answer": 0,
+       "why": "'keep+목적어+형용사'가 올바른 구조이므로 부사 'stably'는 쓸 수 없다."
+      },
+      "topic": "전기차 배터리 원료의 재활용 경제"
+     },
+     {
+      "id": "times:dependence",
+      "word": "dependence",
+      "ko": "의존, 의존성",
+      "filled": "Analysts believe that building strong recycling systems now could reduce dependence on raw mineral imports and lower the overall environmental cost of the EV transition.",
+      "sent_ko": "분석가들은 지금 강력한 재활용 시스템을 구축하면 원자재 광물 수입에 대한 의존도를 줄이고 전기차 전환의 전반적인 환경 비용을 낮출 수 있다고 믿는다.",
+      "chunks": [
+       {
+        "en": "Analysts believe that",
+        "ko": "분석가들은 믿는다"
+       },
+       {
+        "en": "building strong recycling systems now",
+        "ko": "지금 강력한 재활용 시스템을 구축하면"
+       },
+       {
+        "en": "could reduce dependence",
+        "ko": "의존도를 줄일 수 있다"
+       },
+       {
+        "en": "on raw mineral imports",
+        "ko": "원자재 광물 수입에 대한"
+       },
+       {
+        "en": "and lower the overall environmental cost",
+        "ko": "그리고 전반적인 환경 비용을 낮출 수 있다"
+       },
+       {
+        "en": "of the EV transition.",
+        "ko": "전기차 전환의"
+       }
+      ],
+      "rp": {
+       "situation": "분석가가 국내 배터리 재활용 시스템을 강화하면 해외 광물 수입에 덜 의존하게 된다고 설명하고 있다.",
+       "prompt": "Why is building a recycling system so important?",
+       "options": [
+        "It could reduce our dependence on raw mineral imports.",
+        "It could reduce our dependent on raw mineral imports."
+       ],
+       "answer": 0,
+       "why": "전치사 'on'의 목적어 자리에는 명사 'dependence'가 와야 하며 형용사 'dependent'는 쓸 수 없다."
+      },
+      "topic": "전기차 배터리 원료의 재활용 경제"
+     },
+     {
+      "id": "times:transition",
+      "word": "transition",
+      "ko": "전환, 변화",
+      "filled": "Analysts believe that building strong recycling systems now could reduce dependence on raw mineral imports and lower the overall environmental cost of the EV transition.",
+      "sent_ko": "분석가들은 지금 강력한 재활용 시스템을 구축하면 원자재 광물 수입에 대한 의존도를 줄이고 전기차 전환의 전반적인 환경 비용을 낮출 수 있다고 믿는다.",
+      "chunks": [
+       {
+        "en": "Analysts believe that",
+        "ko": "분석가들은 믿는다"
+       },
+       {
+        "en": "building strong recycling systems now",
+        "ko": "지금 강력한 재활용 시스템을 구축하면"
+       },
+       {
+        "en": "could reduce dependence",
+        "ko": "의존도를 줄일 수 있다"
+       },
+       {
+        "en": "on raw mineral imports",
+        "ko": "원자재 광물 수입에 대한"
+       },
+       {
+        "en": "and lower the overall environmental cost",
+        "ko": "그리고 전반적인 환경 비용을 낮출 수 있다"
+       },
+       {
+        "en": "of the EV transition.",
+        "ko": "전기차 전환의"
+       }
+      ],
+      "rp": {
+       "situation": "분석가가 화석연료 차량에서 전기차로 전환하는 과정의 환경 비용을 줄일 방법을 논의하고 있다.",
+       "prompt": "How can recycling help the EV transition?",
+       "options": [
+        "It can lower the overall environmental cost of the EV transition.",
+        "It can lower the overall environmental cost of the EV transitioning."
+       ],
+       "answer": 0,
+       "why": "전치사 'of' 뒤에는 명사가 와야 하므로 동명사 'transitioning'이 아닌 명사 'transition'이 맞다."
+      },
+      "topic": "전기차 배터리 원료의 재활용 경제"
+     },
+     {
+      "id": "times:mineral",
+      "word": "mineral",
+      "ko": "광물",
+      "filled": "Recovering these materials through recycling could reshape how the world thinks about critical mineral supply.",
+      "sent_ko": "재활용을 통해 이 물질들을 회수하는 것이 세계가 핵심 광물 공급에 대해 생각하는 방식을 바꿀 수 있다.",
+      "chunks": [
+       {
+        "en": "Recovering these materials",
+        "ko": "이 물질들을 회수하는 것이"
+       },
+       {
+        "en": "through recycling",
+        "ko": "재활용을 통해"
+       },
+       {
+        "en": "could reshape",
+        "ko": "바꿀 수 있다"
+       },
+       {
+        "en": "how the world thinks about",
+        "ko": "세계가 생각하는 방식을"
+       },
+       {
+        "en": "critical mineral supply.",
+        "ko": "핵심 광물 공급에 대해"
+       }
+      ],
+      "rp": {
+       "situation": "전기차 배터리 재활용 전문가가 리튬, 코발트 같은 핵심 광물의 안정적인 공급 문제를 논의하고 있다.",
+       "prompt": "Why is battery recycling important for mineral supply?",
+       "options": [
+        "Recycling could reshape how the world thinks about critical mineral supply.",
+        "Recycling could reshape how the world thinks about critical minerals supply."
+       ],
+       "answer": 0,
+       "why": "'mineral'이 명사를 수식하는 형용사적 용법일 때는 단수형 'mineral supply'가 올바른 복합명사다."
+      },
+      "topic": "전기차 배터리 원료의 재활용 경제"
      }
     ]
    }
