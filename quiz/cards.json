@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14 09:47:48",
+ "generated": "2026-09-14 09:48:38",
  "levels": {
   "kinder": [
    {
@@ -7502,6 +7502,376 @@
        "why": "녹지가 지역 사회를 위해 만들어진 것이므로 목적을 나타내는 for가 올바르다."
       },
       "topic": "도시 하천을 되살리는 공사"
+     }
+    ]
+   },
+   {
+    "id": "junior|AI 면접은 공정할 수 있을까",
+    "level": "junior",
+    "topic": "AI 면접은 공정할 수 있을까",
+    "section": "기술",
+    "week": "2026-09-14",
+    "tf": [
+     {
+      "s": "AI interview tools watch a person's face, voice, and words to judge if they are suitable for a job.",
+      "a": true
+     },
+     {
+      "s": "Researchers found that AI systems always treat every applicant equally, regardless of their name.",
+      "a": false
+     },
+     {
+      "s": "Some experts believe that stricter rules should be introduced before companies are allowed to use AI interview tools.",
+      "a": true
+     },
+     {
+      "s": "The problem of making AI interviews fair has already been fully solved around the world.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "junior:applicant",
+      "word": "applicant",
+      "ko": "지원자",
+      "filled": "Many companies now use AI to interview job applicants.",
+      "sent_ko": "많은 회사들이 이제 구직 지원자들을 면접하기 위해 AI를 사용합니다.",
+      "chunks": [
+       {
+        "en": "Many companies",
+        "ko": "많은 회사들이"
+       },
+       {
+        "en": "now use AI",
+        "ko": "이제 AI를 사용합니다"
+       },
+       {
+        "en": "to interview",
+        "ko": "면접하기 위해"
+       },
+       {
+        "en": "job applicants.",
+        "ko": "구직 지원자들을"
+       }
+      ],
+      "rp": {
+       "situation": "AI가 회사에 지원한 사람들을 검토하고 있다.",
+       "prompt": "Who does the AI evaluate?",
+       "options": [
+        "It evaluates job applicants.",
+        "It evaluates job appliers."
+       ],
+       "answer": 0,
+       "why": "'applicant'이 올바른 명사형이고 'applier'는 자연스럽지 않은 표현입니다."
+      },
+      "topic": "AI 면접은 공정할 수 있을까"
+     },
+     {
+      "id": "junior:interview",
+      "word": "interview",
+      "ko": "면접, 인터뷰",
+      "filled": "Many companies now use AI to interview job applicants.",
+      "sent_ko": "많은 회사들이 이제 구직 지원자들을 면접하기 위해 AI를 사용합니다.",
+      "chunks": [
+       {
+        "en": "Many companies",
+        "ko": "많은 회사들이"
+       },
+       {
+        "en": "now use AI",
+        "ko": "이제 AI를 사용합니다"
+       },
+       {
+        "en": "to interview",
+        "ko": "면접하기 위해"
+       },
+       {
+        "en": "job applicants.",
+        "ko": "구직 지원자들을"
+       }
+      ],
+      "rp": {
+       "situation": "AI가 지원자를 만나 질문을 하고 평가하고 있다.",
+       "prompt": "What does the AI do with job applicants?",
+       "options": [
+        "The AI interviews them.",
+        "The AI interrogates them."
+       ],
+       "answer": 0,
+       "why": "채용 과정에서는 'interview'가 자연스러운 표현이고 'interrogate'는 어울리지 않습니다."
+      },
+      "topic": "AI 면접은 공정할 수 있을까"
+     },
+     {
+      "id": "junior:fair",
+      "word": "fair",
+      "ko": "공정한",
+      "filled": "But is this system fair?",
+      "sent_ko": "하지만 이 시스템은 공정한가요?",
+      "chunks": [
+       {
+        "en": "But",
+        "ko": "하지만"
+       },
+       {
+        "en": "is this system",
+        "ko": "이 시스템은"
+       },
+       {
+        "en": "fair?",
+        "ko": "공정한가요?"
+       }
+      ],
+      "rp": {
+       "situation": "AI 면접 시스템이 모든 지원자를 동등하게 대하는지 논의 중이다.",
+       "prompt": "Do you think the AI interview system is good?",
+       "options": [
+        "I'm not sure it is fair.",
+        "I'm not sure it is fairly."
+       ],
+       "answer": 0,
+       "why": "'fair'는 형용사로 be동사 뒤에 쓰고, 부사 'fairly'는 쓸 수 없습니다."
+      },
+      "topic": "AI 면접은 공정할 수 있을까"
+     },
+     {
+      "id": "junior:system",
+      "word": "system",
+      "ko": "시스템, 체계",
+      "filled": "But is this system fair?",
+      "sent_ko": "하지만 이 시스템은 공정한가요?",
+      "chunks": [
+       {
+        "en": "But",
+        "ko": "하지만"
+       },
+       {
+        "en": "is this system",
+        "ko": "이 시스템은"
+       },
+       {
+        "en": "fair?",
+        "ko": "공정한가요?"
+       }
+      ],
+      "rp": {
+       "situation": "AI가 지원자를 평가하는 방식 전체에 대해 이야기하고 있다.",
+       "prompt": "What are people questioning about AI interviews?",
+       "options": [
+        "They are questioning the system.",
+        "They are questioning the systematic."
+       ],
+       "answer": 0,
+       "why": "'system'은 명사로 목적어 자리에 쓰고, 형용사 'systematic'은 쓸 수 없습니다."
+      },
+      "topic": "AI 면접은 공정할 수 있을까"
+     },
+     {
+      "id": "junior:score",
+      "word": "score",
+      "ko": "점수",
+      "filled": "For example, one study showed that people with white-sounding names sometimes received higher scores than others with the same skills.",
+      "sent_ko": "예를 들어, 한 연구에서 영미권 이름을 가진 사람들이 같은 실력을 가진 다른 사람들보다 더 높은 점수를 받는다는 것이 나타났습니다.",
+      "chunks": [
+       {
+        "en": "For example,",
+        "ko": "예를 들어,"
+       },
+       {
+        "en": "one study showed that",
+        "ko": "한 연구에서 ~이 나타났습니다"
+       },
+       {
+        "en": "people with white-sounding names",
+        "ko": "영미권 이름을 가진 사람들이"
+       },
+       {
+        "en": "sometimes received higher scores",
+        "ko": "더 높은 점수를 받는다는 것을"
+       },
+       {
+        "en": "than others with the same skills.",
+        "ko": "같은 실력을 가진 다른 사람들보다"
+       }
+      ],
+      "rp": {
+       "situation": "AI가 두 지원자를 평가한 후 각각 숫자로 결과를 냈다.",
+       "prompt": "What did the AI give each applicant?",
+       "options": [
+        "The AI gave each applicant a score.",
+        "The AI gave each applicant a scoring."
+       ],
+       "answer": 0,
+       "why": "'score'가 평가 결과를 나타내는 명사이고 'scoring'은 이 자리에 어색합니다."
+      },
+      "topic": "AI 면접은 공정할 수 있을까"
+     },
+     {
+      "id": "junior:data",
+      "word": "data",
+      "ko": "데이터, 자료",
+      "filled": "This happens because AI learns from old data, and that data can include unfair patterns from the past.",
+      "sent_ko": "이것은 AI가 오래된 데이터로부터 학습하기 때문에 발생하며, 그 데이터에는 과거의 불공정한 패턴이 포함될 수 있습니다.",
+      "chunks": [
+       {
+        "en": "This happens",
+        "ko": "이것이 발생합니다"
+       },
+       {
+        "en": "because AI learns from old data,",
+        "ko": "AI가 오래된 데이터로부터 학습하기 때문에"
+       },
+       {
+        "en": "and that data",
+        "ko": "그리고 그 데이터에는"
+       },
+       {
+        "en": "can include unfair patterns",
+        "ko": "불공정한 패턴이 포함될 수 있습니다"
+       },
+       {
+        "en": "from the past.",
+        "ko": "과거의"
+       }
+      ],
+      "rp": {
+       "situation": "AI가 과거의 정보를 이용해 지원자를 평가하는 방법을 배우고 있다.",
+       "prompt": "What does the AI learn from?",
+       "options": [
+        "The AI learns from old data.",
+        "The AI learns from old datas."
+       ],
+       "answer": 0,
+       "why": "'data'는 셀 수 없는 명사이므로 복수형 'datas'는 쓸 수 없습니다."
+      },
+      "topic": "AI 면접은 공정할 수 있을까"
+     },
+     {
+      "id": "junior:pattern",
+      "word": "pattern",
+      "ko": "패턴, 경향",
+      "filled": "This happens because AI learns from old data, and that data can include unfair patterns from the past.",
+      "sent_ko": "이것은 AI가 오래된 데이터로부터 학습하기 때문에 발생하며, 그 데이터에는 과거의 불공정한 패턴이 포함될 수 있습니다.",
+      "chunks": [
+       {
+        "en": "This happens",
+        "ko": "이것이 발생합니다"
+       },
+       {
+        "en": "because AI learns from old data,",
+        "ko": "AI가 오래된 데이터로부터 학습하기 때문에"
+       },
+       {
+        "en": "and that data",
+        "ko": "그리고 그 데이터에는"
+       },
+       {
+        "en": "can include unfair patterns",
+        "ko": "불공정한 패턴이 포함될 수 있습니다"
+       },
+       {
+        "en": "from the past.",
+        "ko": "과거의"
+       }
+      ],
+      "rp": {
+       "situation": "오래된 데이터 안에 특정 그룹을 불공정하게 대우하는 반복된 경향이 있다.",
+       "prompt": "What does the old data contain?",
+       "options": [
+        "It contains unfair patterns.",
+        "It contains unfair patterning."
+       ],
+       "answer": 0,
+       "why": "'patterns'는 명사로 목적어 자리에 알맞고 'patterning'은 이 문맥에 어색합니다."
+      },
+      "topic": "AI 면접은 공정할 수 있을까"
+     },
+     {
+      "id": "junior:decision",
+      "word": "decision",
+      "ko": "결정",
+      "filled": "Others say humans should always make the final decision.",
+      "sent_ko": "다른 전문가들은 인간이 항상 최종 결정을 내려야 한다고 말합니다.",
+      "chunks": [
+       {
+        "en": "Others say",
+        "ko": "다른 전문가들은 말합니다"
+       },
+       {
+        "en": "humans should always",
+        "ko": "인간이 항상"
+       },
+       {
+        "en": "make the final decision.",
+        "ko": "최종 결정을 내려야 한다고"
+       }
+      ],
+      "rp": {
+       "situation": "AI 면접 결과가 나온 후 누가 최종 결론을 내릴지 논의하고 있다.",
+       "prompt": "What do some experts say humans should do?",
+       "options": [
+        "Humans should make the final decision.",
+        "Humans should do the final decision."
+       ],
+       "answer": 0,
+       "why": "'decision'은 'make'와 함께 쓰는 것이 올바른 콜로케이션이고 'do'는 쓸 수 없습니다."
+      },
+      "topic": "AI 면접은 공정할 수 있을까"
+     },
+     {
+      "id": "junior:strict",
+      "word": "strict",
+      "ko": "엄격한",
+      "filled": "The school has strict rules about attendance, and students who are late must report to the office.",
+      "sent_ko": "일부 전문가들은 회사들이 AI 도구를 사용하기 전에 점검하기 위한 더 엄격한 규칙을 원합니다.",
+      "chunks": null,
+      "rp": {
+       "situation": "전문가들이 AI 면접 도구를 규제하는 규칙의 강도에 대해 이야기하고 있다.",
+       "prompt": "What kind of rules do some experts want for AI tools?",
+       "options": [
+        "They want stricter rules.",
+        "They want more strict rules."
+       ],
+       "answer": 0,
+       "why": "한 음절 형용사 'strict'의 비교급은 'stricter'이고 'more strict'는 비문법적입니다."
+      },
+      "topic": "AI 면접은 공정할 수 있을까"
+     },
+     {
+      "id": "junior:race",
+      "word": "race",
+      "ko": "인종",
+      "filled": "Researchers have found that some AI tools treat people differently because of their name, race, or gender.",
+      "sent_ko": "연구자들은 일부 AI 도구가 이름, 인종, 또는 성별 때문에 사람들을 다르게 대우한다는 것을 발견했습니다.",
+      "chunks": [
+       {
+        "en": "Researchers have found that",
+        "ko": "연구자들은 ~을 발견했습니다"
+       },
+       {
+        "en": "some AI tools",
+        "ko": "일부 AI 도구가"
+       },
+       {
+        "en": "treat people differently",
+        "ko": "사람들을 다르게 대우한다는 것을"
+       },
+       {
+        "en": "because of their name, race, or gender.",
+        "ko": "이름, 인종, 또는 성별 때문에"
+       }
+      ],
+      "rp": {
+       "situation": "AI가 지원자의 이름을 보고 그 사람의 인종을 추측해 다르게 평가했다.",
+       "prompt": "Why did the AI treat some applicants differently?",
+       "options": [
+        "It treated them differently because of race.",
+        "It treated them differently because of racial."
+       ],
+       "answer": 0,
+       "why": "'race'는 명사로 전치사 뒤에 쓰고, 형용사 'racial'은 쓸 수 없습니다."
+      },
+      "topic": "AI 면접은 공정할 수 있을까"
      }
     ]
    }
