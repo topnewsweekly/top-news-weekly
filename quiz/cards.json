@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14 09:41:41",
+ "generated": "2026-09-14 09:42:08",
  "levels": {
   "kinder": [
    {
@@ -3741,6 +3741,218 @@
        "why": "data는 복수형이 없는 단어라 datas라고 쓸 수 없어요."
       },
       "topic": "철새는 왜 V자로 날까"
+     }
+    ]
+   },
+   {
+    "id": "kids|화산재는 어디까지 날아갈까",
+    "level": "kids",
+    "topic": "화산재는 어디까지 날아갈까",
+    "section": "과학",
+    "week": "2026-09-14",
+    "tf": [
+     {
+      "s": "Volcanic ash can travel across countries and oceans.",
+      "a": true
+     },
+     {
+      "s": "All volcanic ash travels only a few kilometers away.",
+      "a": false
+     },
+     {
+      "s": "Scientists use satellites to track where ash goes.",
+      "a": true
+     },
+     {
+      "s": "Volcanic ash disappears from the sky within a few hours.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "kids:volcano",
+      "word": "volcano",
+      "ko": "화산",
+      "filled": "This ash can travel very far from the volcano.",
+      "sent_ko": "이 화산재는 화산으로부터 아주 멀리 이동할 수 있습니다.",
+      "chunks": [
+       {
+        "en": "This ash",
+        "ko": "이 화산재는"
+       },
+       {
+        "en": "can travel very far",
+        "ko": "아주 멀리 이동할 수 있다"
+       },
+       {
+        "en": "from the volcano.",
+        "ko": "화산으로부터"
+       }
+      ],
+      "rp": {
+       "situation": "루앙 화산이 폭발해서 화산재가 멀리 날아갔어요.",
+       "prompt": "What made all that ash in the sky?",
+       "options": [
+        "A volcano did.",
+        "A volcanoes did."
+       ],
+       "answer": 0,
+       "why": "단수 주어이므로 'a volcano'가 맞고 'a volcanoes'는 문법적으로 틀립니다."
+      },
+      "topic": "화산재는 어디까지 날아갈까"
+     },
+     {
+      "id": "kids:erupt",
+      "word": "erupt",
+      "ko": "분출하다, 폭발하다",
+      "filled": "In January 2026, a volcano called Ruang* in Indonesia erupted.",
+      "sent_ko": "2026년 1월, 인도네시아의 루앙이라는 화산이 폭발했습니다.",
+      "chunks": null,
+      "rp": {
+       "situation": "루앙 화산이 2026년 1월에 갑자기 활동을 시작했어요.",
+       "prompt": "What did the volcano do in January 2026?",
+       "options": [
+        "It erupted.",
+        "It eruption."
+       ],
+       "answer": 0,
+       "why": "동사 자리에는 'erupted'가 맞고 'eruption'은 명사라 틀립니다."
+      },
+      "topic": "화산재는 어디까지 날아갈까"
+     },
+     {
+      "id": "kids:ash",
+      "word": "ash",
+      "ko": "화산재, 재",
+      "filled": "Some ash goes only a few kilometers away.",
+      "sent_ko": "일부 화산재는 불과 몇 킬로미터 떨어진 곳으로만 이동합니다.",
+      "chunks": [
+       {
+        "en": "Some ash",
+        "ko": "일부 화산재는"
+       },
+       {
+        "en": "goes only a few kilometers",
+        "ko": "불과 몇 킬로미터만 이동한다"
+       },
+       {
+        "en": "away.",
+        "ko": "떨어진 곳으로"
+       }
+      ],
+      "rp": {
+       "situation": "루앙 화산이 폭발한 후 하늘에서 회색 가루가 내려오고 있어요.",
+       "prompt": "What is falling from the sky after the eruption?",
+       "options": [
+        "Ash is falling.",
+        "Ash are falling."
+       ],
+       "answer": 0,
+       "why": "'ash'는 셀 수 없는 명사라 'is'를 쓰고 'are'는 틀립니다."
+      },
+      "topic": "화산재는 어디까지 날아갈까"
+     },
+     {
+      "id": "kids:layer",
+      "word": "layer",
+      "ko": "층, 겹",
+      "filled": "It sent ash all the way into the stratosphere,* a very high layer of the sky.",
+      "sent_ko": "화산재를 성층권, 즉 하늘의 아주 높은 층까지 날려 보냈습니다.",
+      "chunks": null,
+      "rp": {
+       "situation": "선생님이 하늘이 여러 층으로 나뉘어 있다고 설명하고 있어요.",
+       "prompt": "What do we call each section of the sky?",
+       "options": [
+        "Each section is a layer.",
+        "Each section is a layers."
+       ],
+       "answer": 0,
+       "why": "단수 명사 앞에는 'a layer'가 맞고 'a layers'는 문법적으로 틀립니다."
+      },
+      "topic": "화산재는 어디까지 날아갈까"
+     },
+     {
+      "id": "kids:stratosphere",
+      "word": "stratosphere",
+      "ko": "성층권",
+      "filled": "It sent ash all the way into the stratosphere,* a very high layer of the sky.",
+      "sent_ko": "화산재를 성층권, 즉 하늘의 아주 높은 층까지 날려 보냈습니다.",
+      "chunks": null,
+      "rp": {
+       "situation": "루앙 화산의 화산재가 하늘 아주 높은 곳까지 올라갔어요.",
+       "prompt": "Where did the ash from Ruang go?",
+       "options": [
+        "It reached the stratosphere.",
+        "It reached the stratospheres."
+       ],
+       "answer": 0,
+       "why": "'stratosphere'는 하나의 고유한 층이므로 복수형 'stratospheres'는 틀립니다."
+      },
+      "topic": "화산재는 어디까지 날아갈까"
+     },
+     {
+      "id": "kids:satellite",
+      "word": "satellite",
+      "ko": "인공위성",
+      "filled": "Scientists track where ash goes using satellites and special tools.",
+      "sent_ko": "과학자들은 인공위성과 특수 도구를 사용하여 화산재가 어디로 가는지 추적합니다.",
+      "chunks": [
+       {
+        "en": "Scientists track where ash goes",
+        "ko": "과학자들은 화산재가 어디로 가는지 추적합니다"
+       },
+       {
+        "en": "using satellites",
+        "ko": "인공위성을 사용하여"
+       },
+       {
+        "en": "and special tools.",
+        "ko": "그리고 특수 도구로"
+       }
+      ],
+      "rp": {
+       "situation": "과학자들이 우주에 있는 기계로 화산재의 이동을 살펴보고 있어요.",
+       "prompt": "What are scientists using to watch the ash from space?",
+       "options": [
+        "They are using satellites.",
+        "They are using a satellite tool."
+       ],
+       "answer": 0,
+       "why": "'satellites'는 독립된 기계들이고 'a satellite tool'은 어색한 표현입니다."
+      },
+      "topic": "화산재는 어디까지 날아갈까"
+     },
+     {
+      "id": "kids:track",
+      "word": "track",
+      "ko": "추적하다, 관찰하다",
+      "filled": "Scientists track where ash goes using satellites and special tools.",
+      "sent_ko": "과학자들은 인공위성과 특수 도구를 사용하여 화산재가 어디로 가는지 추적합니다.",
+      "chunks": [
+       {
+        "en": "Scientists track where ash goes",
+        "ko": "과학자들은 화산재가 어디로 가는지 추적합니다"
+       },
+       {
+        "en": "using satellites",
+        "ko": "인공위성을 사용하여"
+       },
+       {
+        "en": "and special tools.",
+        "ko": "그리고 특수 도구로"
+       }
+      ],
+      "rp": {
+       "situation": "과학자들이 화산재가 어디로 움직이는지 계속 관찰하고 있어요.",
+       "prompt": "What do scientists do with the ash's movement?",
+       "options": [
+        "They track it.",
+        "They tracking it."
+       ],
+       "answer": 0,
+       "why": "주어가 3인칭이므로 동사원형 'track'이 맞고 'tracking'만 쓰면 틀립니다."
+      },
+      "topic": "화산재는 어디까지 날아갈까"
      }
     ]
    }
