@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14 09:40:58",
+ "generated": "2026-09-14 09:41:41",
  "levels": {
   "kinder": [
    {
@@ -3516,6 +3516,231 @@
        "why": "TV를 보는 사람을 나타내는 올바른 단어는 viewers이다."
       },
       "topic": "퀴즈"
+     }
+    ]
+   },
+   {
+    "id": "kids|철새는 왜 V자로 날까",
+    "level": "kids",
+    "topic": "철새는 왜 V자로 날까",
+    "section": "과학",
+    "week": "2026-09-14",
+    "tf": [
+     {
+      "s": "Birds flying in a V shape travel long distances together.",
+      "a": true
+     },
+     {
+      "s": "The bird at the front of the V shape has the easiest job.",
+      "a": false
+     },
+     {
+      "s": "When a bird flaps its wings, it pushes air up on the sides.",
+      "a": true
+     },
+     {
+      "s": "Scientists used trackers to study penguins.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "kids:distance",
+      "word": "distance",
+      "ko": "거리, 간격",
+      "filled": "Many birds do this when they travel long distances.",
+      "sent_ko": "많은 새들이 먼 거리를 이동할 때 이렇게 합니다.",
+      "chunks": [
+       {
+        "en": "Many birds do this",
+        "ko": "많은 새들이 이렇게 합니다"
+       },
+       {
+        "en": "when they travel",
+        "ko": "이동할 때"
+       },
+       {
+        "en": "long distances.",
+        "ko": "먼 거리를"
+       }
+      ],
+      "rp": {
+       "situation": "새들이 V 대형으로 아주 먼 곳까지 날아가고 있어요.",
+       "prompt": "How far are the birds flying?",
+       "options": [
+        "They travel long distances.",
+        "They travel long distance."
+       ],
+       "answer": 0,
+       "why": "distances처럼 셀 수 있는 명사는 복수형을 써야 해요."
+      },
+      "topic": "철새는 왜 V자로 날까"
+     },
+     {
+      "id": "kids:flap",
+      "word": "flap",
+      "ko": "(날개 등을) 퍼덕이다, 퍼덕임",
+      "filled": "**They Save Energy** When a bird flaps its wings, it pushes air up on the sides.",
+      "sent_ko": "새 한 마리가 날개를 퍼덕이면, 양 옆으로 공기를 위로 밀어냅니다.",
+      "chunks": null,
+      "rp": {
+       "situation": "V 대형의 앞에 있는 새가 날개를 움직이고 있어요.",
+       "prompt": "What is the bird doing with its wings?",
+       "options": [
+        "The bird is flapping its wings.",
+        "The bird is flapping its legs."
+       ],
+       "answer": 0,
+       "why": "날개를 퍼덕인다고 했으므로 wings가 맞아요."
+      },
+      "topic": "철새는 왜 V자로 날까"
+     },
+     {
+      "id": "kids:rising",
+      "word": "rising",
+      "ko": "상승하는, 올라가는",
+      "filled": "The bird flying behind can ride this rising air.",
+      "sent_ko": "뒤에서 날고 있는 새는 이 상승하는 공기를 타고 날 수 있습니다.",
+      "chunks": [
+       {
+        "en": "The bird flying behind",
+        "ko": "뒤에서 날고 있는 새는"
+       },
+       {
+        "en": "can ride",
+        "ko": "탈 수 있습니다"
+       },
+       {
+        "en": "this rising air.",
+        "ko": "이 상승하는 공기를"
+       }
+      ],
+      "rp": {
+       "situation": "앞 새가 날개를 퍼덕여서 공기가 위로 올라가고 있어요.",
+       "prompt": "What kind of air does the bird behind ride?",
+       "options": [
+        "It rides the rising air.",
+        "It rides the risen air."
+       ],
+       "answer": 0,
+       "why": "지금 올라가는 중이라 현재분사 rising이 맞아요."
+      },
+      "topic": "철새는 왜 V자로 날까"
+     },
+     {
+      "id": "kids:lead",
+      "word": "lead",
+      "ko": "이끌다, 선두에 서다",
+      "filled": "Each bird moves to the back after a while, and another bird leads.",
+      "sent_ko": "각 새는 잠시 후 뒤로 이동하고, 다른 새가 선두에 섭니다.",
+      "chunks": [
+       {
+        "en": "Each bird moves to the back",
+        "ko": "각 새는 뒤로 이동하고"
+       },
+       {
+        "en": "after a while,",
+        "ko": "잠시 후"
+       },
+       {
+        "en": "and another bird leads.",
+        "ko": "다른 새가 선두에 섭니다"
+       }
+      ],
+      "rp": {
+       "situation": "V 대형의 맨 앞에 있던 새가 뒤로 가고 다른 새가 앞으로 나왔어요.",
+       "prompt": "What does the new bird at the front do?",
+       "options": [
+        "It leads the group.",
+        "It leading the group."
+       ],
+       "answer": 0,
+       "why": "주어가 It이므로 동사원형 leads를 써야 해요."
+      },
+      "topic": "철새는 왜 V자로 날까"
+     },
+     {
+      "id": "kids:tracker",
+      "word": "tracker",
+      "ko": "추적 장치, 추적하는 사람",
+      "filled": "**Scientists Checked the Facts** Scientists studied a bird called the northern bald ibis.* They put small trackers on the birds.",
+      "sent_ko": "과학자들은 새들에게 작은 추적 장치를 달았습니다.",
+      "chunks": null,
+      "rp": {
+       "situation": "과학자들이 ibis 새의 몸에 작은 장치를 붙이고 있어요.",
+       "prompt": "What did the scientists put on the birds?",
+       "options": [
+        "They put small trackers on the birds.",
+        "They put small trackers in the birds."
+       ],
+       "answer": 0,
+       "why": "장치를 새 몸 위에 붙이므로 on이 맞아요."
+      },
+      "topic": "철새는 왜 V자로 날까"
+     },
+     {
+      "id": "kids:heartbeat",
+      "word": "heartbeat",
+      "ko": "심장 박동",
+      "filled": "The data showed that birds in the V had slower heartbeats.",
+      "sent_ko": "자료는 V 대형 안의 새들이 심장 박동이 더 느렸다는 것을 보여 주었습니다.",
+      "chunks": [
+       {
+        "en": "The data showed",
+        "ko": "자료는 보여 주었습니다"
+       },
+       {
+        "en": "that birds in the V",
+        "ko": "V 대형 안의 새들이"
+       },
+       {
+        "en": "had slower heartbeats.",
+        "ko": "심장 박동이 더 느렸다는 것을"
+       }
+      ],
+      "rp": {
+       "situation": "과학자들이 V 대형으로 나는 새들의 심장 박동을 확인했어요.",
+       "prompt": "What did the data show about the birds in the V?",
+       "options": [
+        "They had slower heartbeats.",
+        "They had more slow heartbeats."
+       ],
+       "answer": 0,
+       "why": "비교급은 slower처럼 -er 형태로 써야 해요."
+      },
+      "topic": "철새는 왜 V자로 날까"
+     },
+     {
+      "id": "kids:data",
+      "word": "data",
+      "ko": "자료, 데이터",
+      "filled": "The data showed that birds in the V had slower heartbeats.",
+      "sent_ko": "자료는 V 대형 안의 새들이 심장 박동이 더 느렸다는 것을 보여 주었습니다.",
+      "chunks": [
+       {
+        "en": "The data showed",
+        "ko": "자료는 보여 주었습니다"
+       },
+       {
+        "en": "that birds in the V",
+        "ko": "V 대형 안의 새들이"
+       },
+       {
+        "en": "had slower heartbeats.",
+        "ko": "심장 박동이 더 느렸다는 것을"
+       }
+      ],
+      "rp": {
+       "situation": "과학자들이 ibis 새에 달았던 추적 장치에서 정보를 얻었어요.",
+       "prompt": "What did the scientists use to learn about the birds?",
+       "options": [
+        "They used the data from the trackers.",
+        "They used the datas from the trackers."
+       ],
+       "answer": 0,
+       "why": "data는 복수형이 없는 단어라 datas라고 쓸 수 없어요."
+      },
+      "topic": "철새는 왜 V자로 날까"
      }
     ]
    }
