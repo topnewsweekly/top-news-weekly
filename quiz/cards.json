@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-25 16:34:12",
+ "generated": "2026-09-14 09:39:13",
  "levels": {
   "kinder": [
    {
@@ -999,6 +999,193 @@
        "why": "동사 원형 앞에 be동사를 쓰면 문법적으로 틀리고, moves가 맞아요."
       },
       "topic": "그림자놀이는 어떻게 만들까"
+     }
+    ]
+   },
+   {
+    "id": "kinder|도토리는 누가 심을까",
+    "level": "kinder",
+    "topic": "도토리는 누가 심을까",
+    "section": "과학",
+    "week": "2026-09-14",
+    "tf": [
+     {
+      "s": "Squirrels love to eat acorns.",
+      "a": true
+     },
+     {
+      "s": "An acorn comes from an apple tree.",
+      "a": false
+     },
+     {
+      "s": "Lost acorns can grow into big oak trees.",
+      "a": true
+     },
+     {
+      "s": "Squirrels always remember where they hide their acorns.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "kinder:acorn",
+      "word": "acorn",
+      "ko": "도토리",
+      "filled": "An acorn is a small seed.",
+      "sent_ko": "도토리는 작은 씨앗입니다.",
+      "chunks": [
+       {
+        "en": "An acorn",
+        "ko": "도토리는"
+       },
+       {
+        "en": "is",
+        "ko": "입니다"
+       },
+       {
+        "en": "a small seed.",
+        "ko": "작은 씨앗"
+       }
+      ],
+      "rp": {
+       "situation": "다람쥐가 땅에서 작고 둥근 도토리를 하나 집었어요.",
+       "prompt": "What is this?",
+       "options": [
+        "It is an acorn.",
+        "It is an acorns."
+       ],
+       "answer": 0,
+       "why": "하나를 가리킬 때는 단수형 acorn을 써야 해요."
+      },
+      "topic": "도토리는 누가 심을까"
+     },
+     {
+      "id": "kinder:squirrel",
+      "word": "squirrel",
+      "ko": "다람쥐",
+      "filled": "Squirrels hide acorns in the ground.",
+      "sent_ko": "다람쥐들은 도토리를 땅속에 숨깁니다.",
+      "chunks": [
+       {
+        "en": "Squirrels",
+        "ko": "다람쥐들은"
+       },
+       {
+        "en": "hide acorns",
+        "ko": "도토리를 숨깁니다"
+       },
+       {
+        "en": "in the ground.",
+        "ko": "땅속에"
+       }
+      ],
+      "rp": {
+       "situation": "나무 아래에서 도토리를 모으고 있는 작은 동물이 있어요.",
+       "prompt": "What animal is that?",
+       "options": [
+        "It is a squirrel.",
+        "It is a squirrels."
+       ],
+       "answer": 0,
+       "why": "한 마리를 가리킬 때는 단수형 squirrel을 써야 해요."
+      },
+      "topic": "도토리는 누가 심을까"
+     },
+     {
+      "id": "kinder:seed",
+      "word": "seed",
+      "ko": "씨앗",
+      "filled": "An acorn is a small seed.",
+      "sent_ko": "도토리는 작은 씨앗입니다.",
+      "chunks": [
+       {
+        "en": "An acorn",
+        "ko": "도토리는"
+       },
+       {
+        "en": "is",
+        "ko": "입니다"
+       },
+       {
+        "en": "a small seed.",
+        "ko": "작은 씨앗"
+       }
+      ],
+      "rp": {
+       "situation": "다람쥐가 땅에 묻은 도토리가 나중에 oak 나무가 되었어요.",
+       "prompt": "What was the acorn?",
+       "options": [
+        "It was a seed.",
+        "It was a seedy."
+       ],
+       "answer": 0,
+       "why": "씨앗은 명사 seed이고 seedy는 없는 표현이에요."
+      },
+      "topic": "도토리는 누가 심을까"
+     },
+     {
+      "id": "kinder:hide",
+      "word": "hide",
+      "ko": "숨다, 숨기다",
+      "filled": "Squirrels hide acorns in the ground.",
+      "sent_ko": "다람쥐들은 도토리를 땅속에 숨깁니다.",
+      "chunks": [
+       {
+        "en": "Squirrels",
+        "ko": "다람쥐들은"
+       },
+       {
+        "en": "hide acorns",
+        "ko": "도토리를 숨깁니다"
+       },
+       {
+        "en": "in the ground.",
+        "ko": "땅속에"
+       }
+      ],
+      "rp": {
+       "situation": "다람쥐가 도토리를 땅속에 넣고 흙으로 덮고 있어요.",
+       "prompt": "What do squirrels do with acorns?",
+       "options": [
+        "They hide acorns in the ground.",
+        "They hiding acorns in the ground."
+       ],
+       "answer": 0,
+       "why": "주어가 they일 때 동사 원형 hide를 써야 해요."
+      },
+      "topic": "도토리는 누가 심을까"
+     },
+     {
+      "id": "kinder:grow",
+      "word": "grow",
+      "ko": "자라다, 성장하다",
+      "filled": "They grow into big oak trees.",
+      "sent_ko": "그것들은 큰 oak 나무로 자랍니다.",
+      "chunks": [
+       {
+        "en": "They",
+        "ko": "그것들은"
+       },
+       {
+        "en": "grow",
+        "ko": "자랍니다"
+       },
+       {
+        "en": "into big oak trees.",
+        "ko": "큰 oak 나무로"
+       }
+      ],
+      "rp": {
+       "situation": "땅속에 있던 도토리가 싹을 틔워 나무가 되고 있어요.",
+       "prompt": "What do the lost acorns do?",
+       "options": [
+        "They grow into big oak trees.",
+        "They grow up big oak trees."
+       ],
+       "answer": 0,
+       "why": "나무가 '되다'는 grow into이고 grow up은 뒤에 into가 필요해요."
+      },
+      "topic": "도토리는 누가 심을까"
      }
     ]
    }
