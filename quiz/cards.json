@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14 09:39:13",
+ "generated": "2026-09-14 09:39:38",
  "levels": {
   "kinder": [
    {
@@ -1186,6 +1186,193 @@
        "why": "나무가 '되다'는 grow into이고 grow up은 뒤에 into가 필요해요."
       },
       "topic": "도토리는 누가 심을까"
+     }
+    ]
+   },
+   {
+    "id": "kinder|거미는 왜 자기 줄에 안 붙을까",
+    "level": "kinder",
+    "topic": "거미는 왜 자기 줄에 안 붙을까",
+    "section": "과학",
+    "week": "2026-09-14",
+    "tf": [
+     {
+      "s": "Spiders make webs to catch bugs.",
+      "a": true
+     },
+     {
+      "s": "Spiders always stick to their own webs.",
+      "a": false
+     },
+     {
+      "s": "Spider legs have a special oil.",
+      "a": true
+     },
+     {
+      "s": "Every part of a spider's web is sticky.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "kinder:spider",
+      "word": "spider",
+      "ko": "거미",
+      "filled": "Spiders make sticky webs.",
+      "sent_ko": "거미들은 끈적끈적한 거미줄을 만들어요.",
+      "chunks": [
+       {
+        "en": "Spiders",
+        "ko": "거미들은"
+       },
+       {
+        "en": "make",
+        "ko": "만들어요"
+       },
+       {
+        "en": "sticky webs.",
+        "ko": "끈적끈적한 거미줄을"
+       }
+      ],
+      "rp": {
+       "situation": "거미 한 마리가 거미줄을 만들고 있어요.",
+       "prompt": "What is making the web?",
+       "options": [
+        "A spider is.",
+        "A bug is."
+       ],
+       "answer": 0,
+       "why": "거미가 거미줄을 만든다고 글에 나와 있어요."
+      },
+      "topic": "거미는 왜 자기 줄에 안 붙을까"
+     },
+     {
+      "id": "kinder:web",
+      "word": "web",
+      "ko": "거미줄, 거미집",
+      "filled": "Spiders make sticky webs.",
+      "sent_ko": "거미들은 끈적끈적한 거미줄을 만들어요.",
+      "chunks": [
+       {
+        "en": "Spiders",
+        "ko": "거미들은"
+       },
+       {
+        "en": "make",
+        "ko": "만들어요"
+       },
+       {
+        "en": "sticky webs.",
+        "ko": "끈적끈적한 거미줄을"
+       }
+      ],
+      "rp": {
+       "situation": "거미가 만든 끈적끈적한 거미줄이 있어요.",
+       "prompt": "What do spiders make?",
+       "options": [
+        "They make webs.",
+        "They make webs making."
+       ],
+       "answer": 0,
+       "why": "'make webs'가 올바른 표현이고, 'webs making'은 문법적으로 틀려요."
+      },
+      "topic": "거미는 왜 자기 줄에 안 붙을까"
+     },
+     {
+      "id": "kinder:sticky",
+      "word": "sticky",
+      "ko": "끈적끈적한",
+      "filled": "Spiders make sticky webs.",
+      "sent_ko": "거미들은 끈적끈적한 거미줄을 만들어요.",
+      "chunks": [
+       {
+        "en": "Spiders",
+        "ko": "거미들은"
+       },
+       {
+        "en": "make",
+        "ko": "만들어요"
+       },
+       {
+        "en": "sticky webs.",
+        "ko": "끈적끈적한 거미줄을"
+       }
+      ],
+      "rp": {
+       "situation": "거미줄에 벌레가 붙어서 빠져나오지 못하고 있어요.",
+       "prompt": "How does the web feel?",
+       "options": [
+        "It is sticky.",
+        "It is stick."
+       ],
+       "answer": 0,
+       "why": "형용사 'sticky'가 맞고, 동사 'stick'은 이 자리에 쓸 수 없어요."
+      },
+      "topic": "거미는 왜 자기 줄에 안 붙을까"
+     },
+     {
+      "id": "kinder:oil",
+      "word": "oil",
+      "ko": "기름",
+      "filled": "Spider legs have a special oil.",
+      "sent_ko": "거미 다리에는 특별한 기름이 있어요.",
+      "chunks": [
+       {
+        "en": "Spider legs",
+        "ko": "거미 다리에는"
+       },
+       {
+        "en": "have",
+        "ko": "있어요"
+       },
+       {
+        "en": "a special oil.",
+        "ko": "특별한 기름이"
+       }
+      ],
+      "rp": {
+       "situation": "거미가 끈적한 거미줄 위를 걸어도 붙지 않아요.",
+       "prompt": "What do spider legs have?",
+       "options": [
+        "They have a special oil.",
+        "They have a special oils."
+       ],
+       "answer": 0,
+       "why": "'oil'은 셀 수 없는 명사이므로 복수형 'oils'를 쓸 수 없어요."
+      },
+      "topic": "거미는 왜 자기 줄에 안 붙을까"
+     },
+     {
+      "id": "kinder:dry",
+      "word": "dry",
+      "ko": "건조한, 마른",
+      "filled": "Also, spiders step on dry parts.",
+      "sent_ko": "또한, 거미들은 마른 부분을 밟아요.",
+      "chunks": [
+       {
+        "en": "Also,",
+        "ko": "또한"
+       },
+       {
+        "en": "spiders step on",
+        "ko": "거미들은 밟아요"
+       },
+       {
+        "en": "dry parts.",
+        "ko": "마른 부분을"
+       }
+      ],
+      "rp": {
+       "situation": "거미줄에는 끈적한 부분도 있고 끈적하지 않은 부분도 있어요. 거미가 걷고 있어요.",
+       "prompt": "Where do spiders step?",
+       "options": [
+        "They step on dry parts.",
+        "They step on drying parts."
+       ],
+       "answer": 0,
+       "why": "'dry'는 형용사로 상태를 나타내고, 'drying'은 이 문장에서 어색해요."
+      },
+      "topic": "거미는 왜 자기 줄에 안 붙을까"
      }
     ]
    }
