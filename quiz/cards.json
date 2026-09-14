@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14 09:42:08",
+ "generated": "2026-09-14 09:43:26",
  "levels": {
   "kinder": [
    {
@@ -3953,6 +3953,257 @@
        "why": "주어가 3인칭이므로 동사원형 'track'이 맞고 'tracking'만 쓰면 틀립니다."
       },
       "topic": "화산재는 어디까지 날아갈까"
+     }
+    ]
+   },
+   {
+    "id": "kids|우리 몸의 뼈는 몇 개일까",
+    "level": "kids",
+    "topic": "우리 몸의 뼈는 몇 개일까",
+    "section": "과학",
+    "week": "2026-09-14",
+    "tf": [
+     {
+      "s": "Babies are born with about 270 to 300 bones in their bodies.",
+      "a": true
+     },
+     {
+      "s": "As people grow, their bones disappear, so adults have fewer bones.",
+      "a": false
+     },
+     {
+      "s": "Bones help protect important organs like the heart, lungs, and brain.",
+      "a": true
+     },
+     {
+      "s": "You can get calcium from foods like candy and potato chips.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "kids:bone",
+      "word": "bone",
+      "ko": "뼈",
+      "filled": "That is many more bones than adults have!",
+      "sent_ko": "그것은 어른들이 가진 것보다 훨씬 더 많은 뼈입니다!",
+      "chunks": [
+       {
+        "en": "That is",
+        "ko": "그것은 ~입니다"
+       },
+       {
+        "en": "many more bones",
+        "ko": "훨씬 더 많은 뼈"
+       },
+       {
+        "en": "than adults have!",
+        "ko": "어른들이 가진 것보다"
+       }
+      ],
+      "rp": {
+       "situation": "아기의 몸에 뼈가 몇 개인지 이야기하고 있어요.",
+       "prompt": "Do babies have more bones than adults?",
+       "options": [
+        "Yes, babies have many more bones.",
+        "Yes, babies have many more bone."
+       ],
+       "answer": 0,
+       "why": "셀 수 있는 명사 bones는 복수형을 써야 해요."
+      },
+      "topic": "우리 몸의 뼈는 몇 개일까"
+     },
+     {
+      "id": "kids:fuse",
+      "word": "fuse",
+      "ko": "융합하다, 합쳐지다",
+      "filled": "They did not disappear — they fused, or joined together, to make bigger, stronger bones.",
+      "sent_ko": "그것들은 사라진 것이 아니라, 더 크고 강한 뼈를 만들기 위해 융합되거나 합쳐졌습니다.",
+      "chunks": [
+       {
+        "en": "They did not disappear —",
+        "ko": "그것들은 사라진 게 아니라"
+       },
+       {
+        "en": "they fused, or joined together,",
+        "ko": "융합되거나 합쳐졌어요"
+       },
+       {
+        "en": "to make bigger, stronger bones.",
+        "ko": "더 크고 강한 뼈를 만들기 위해"
+       }
+      ],
+      "rp": {
+       "situation": "작은 뼈들이 자라면서 어떻게 되는지 설명하고 있어요.",
+       "prompt": "What happened to the small bones?",
+       "options": [
+        "They fused to make bigger bones.",
+        "They fused making bigger bones."
+       ],
+       "answer": 0,
+       "why": "목적이나 결과를 나타낼 때 to+동사원형을 써야 해요."
+      },
+      "topic": "우리 몸의 뼈는 몇 개일까"
+     },
+     {
+      "id": "kids:protect",
+      "word": "protect",
+      "ko": "보호하다",
+      "filled": "They also protect your heart, lungs, and brain from getting hurt.",
+      "sent_ko": "뼈들은 또한 여러분의 심장, 폐, 그리고 뇌가 다치지 않도록 보호합니다.",
+      "chunks": [
+       {
+        "en": "They also protect",
+        "ko": "뼈들은 또한 보호합니다"
+       },
+       {
+        "en": "your heart, lungs, and brain",
+        "ko": "심장, 폐, 그리고 뇌를"
+       },
+       {
+        "en": "from getting hurt.",
+        "ko": "다치지 않도록"
+       }
+      ],
+      "rp": {
+       "situation": "갈비뼈가 심장과 폐를 지켜준다고 말하고 있어요.",
+       "prompt": "What do your ribs do for your heart and lungs?",
+       "options": [
+        "They protect your heart and lungs.",
+        "They protection your heart and lungs."
+       ],
+       "answer": 0,
+       "why": "동사 자리에는 명사형 protection이 아니라 동사 protect를 써야 해요."
+      },
+      "topic": "우리 몸의 뼈는 몇 개일까"
+     },
+     {
+      "id": "kids:marrow",
+      "word": "marrow",
+      "ko": "골수",
+      "filled": "Deep inside your bones, there is something called bone marrow.",
+      "sent_ko": "여러분의 뼈 깊숙한 곳에는 골수라고 불리는 것이 있습니다.",
+      "chunks": [
+       {
+        "en": "Deep inside your bones,",
+        "ko": "뼈 깊숙한 곳에"
+       },
+       {
+        "en": "there is something",
+        "ko": "~이 있습니다"
+       },
+       {
+        "en": "called bone marrow.",
+        "ko": "골수라고 불리는"
+       }
+      ],
+      "rp": {
+       "situation": "뼈 안쪽에 무엇이 있는지 묻고 있어요.",
+       "prompt": "What is deep inside your bones?",
+       "options": [
+        "There is something called bone marrow.",
+        "There is something calling bone marrow."
+       ],
+       "answer": 0,
+       "why": "이름이 붙여진 것을 설명할 때는 과거분사 called를 써야 해요."
+      },
+      "topic": "우리 몸의 뼈는 몇 개일까"
+     },
+     {
+      "id": "kids:calcium",
+      "word": "calcium",
+      "ko": "칼슘",
+      "filled": "Bones need calcium to stay strong and healthy.",
+      "sent_ko": "뼈는 강하고 건강하게 유지되기 위해 칼슘이 필요합니다.",
+      "chunks": [
+       {
+        "en": "Bones need calcium",
+        "ko": "뼈는 칼슘이 필요합니다"
+       },
+       {
+        "en": "to stay strong",
+        "ko": "강하게 유지되기 위해"
+       },
+       {
+        "en": "and healthy.",
+        "ko": "그리고 건강하게"
+       }
+      ],
+      "rp": {
+       "situation": "뼈를 튼튼하게 하려면 뭘 먹어야 하는지 이야기하고 있어요.",
+       "prompt": "What do your bones need to stay strong?",
+       "options": [
+        "My bones need calcium.",
+        "My bones need a calcium."
+       ],
+       "answer": 0,
+       "why": "물질명사 calcium은 셀 수 없어서 관사 a를 붙이지 않아요."
+      },
+      "topic": "우리 몸의 뼈는 몇 개일까"
+     },
+     {
+      "id": "kids:skeleton",
+      "word": "skeleton",
+      "ko": "골격, 뼈대",
+      "filled": "Your skeleton is amazing and always working hard — even while you sleep!",
+      "sent_ko": "여러분의 골격은 놀랍고 항상 열심히 일하고 있습니다 — 여러분이 자는 동안에도요!",
+      "chunks": [
+       {
+        "en": "Your skeleton is amazing",
+        "ko": "여러분의 골격은 놀랍습니다"
+       },
+       {
+        "en": "and always working hard —",
+        "ko": "그리고 항상 열심히 일하고 있어요"
+       },
+       {
+        "en": "even while you sleep!",
+        "ko": "여러분이 자는 동안에도"
+       }
+      ],
+      "rp": {
+       "situation": "밤에 잠을 자는 동안 골격이 어떤지 말하고 있어요.",
+       "prompt": "Does your skeleton stop working when you sleep?",
+       "options": [
+        "No, it is always working hard.",
+        "No, it is always work hard."
+       ],
+       "answer": 0,
+       "why": "is 뒤에는 동사원형이 아니라 현재분사 working을 써야 해요."
+      },
+      "topic": "우리 몸의 뼈는 몇 개일까"
+     },
+     {
+      "id": "kids:cell",
+      "word": "cell",
+      "ko": "세포",
+      "filled": "Bone marrow makes the blood cells that travel around your body.",
+      "sent_ko": "골수는 여러분의 몸 곳곳을 이동하는 혈액 세포를 만듭니다.",
+      "chunks": [
+       {
+        "en": "Bone marrow makes",
+        "ko": "골수는 만듭니다"
+       },
+       {
+        "en": "the blood cells",
+        "ko": "혈액 세포를"
+       },
+       {
+        "en": "that travel around your body.",
+        "ko": "몸 곳곳을 이동하는"
+       }
+      ],
+      "rp": {
+       "situation": "골수가 무엇을 만드는지 설명하고 있어요.",
+       "prompt": "What does bone marrow make?",
+       "options": [
+        "It makes blood cells.",
+        "It makes blood cell."
+       ],
+       "answer": 0,
+       "why": "여러 개의 세포를 말할 때는 복수형 cells를 써야 해요."
+      },
+      "topic": "우리 몸의 뼈는 몇 개일까"
      }
     ]
    }
