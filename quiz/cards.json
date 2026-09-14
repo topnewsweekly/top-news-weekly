@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14 09:50:17",
+ "generated": "2026-09-14 09:50:45",
  "levels": {
   "kinder": [
    {
@@ -8255,6 +8255,367 @@
        "why": "동사 choose를 꾸밀 때는 부사 carefully를 써야 하고, 형용사 careful은 쓸 수 없다."
       },
       "topic": "구독 서비스가 늘어난 이유"
+     }
+    ]
+   },
+   {
+    "id": "junior|아침을 거르는 청소년들",
+    "level": "junior",
+    "topic": "아침을 거르는 청소년들",
+    "section": "건강",
+    "week": "2026-09-14",
+    "tf": [
+     {
+      "s": "Researchers say that teenagers skipping breakfast is becoming a serious health concern.",
+      "a": true
+     },
+     {
+      "s": "Only a small number of teenagers around the world skip breakfast before school.",
+      "a": false
+     },
+     {
+      "s": "Teens who skip breakfast often find it harder to concentrate during morning lessons.",
+      "a": true
+     },
+     {
+      "s": "Health experts say that teens should only eat a large, full breakfast — a small meal is not enough.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "junior:researcher",
+      "word": "researcher",
+      "ko": "연구자, 연구원",
+      "filled": "Researchers say this is becoming a serious health concern for young people.",
+      "sent_ko": "연구자들은 이것이 젊은 사람들에게 심각한 건강 우려가 되고 있다고 말합니다.",
+      "chunks": [
+       {
+        "en": "Researchers say",
+        "ko": "연구자들은 말합니다"
+       },
+       {
+        "en": "this is becoming",
+        "ko": "이것이 되고 있다고"
+       },
+       {
+        "en": "a serious health concern",
+        "ko": "심각한 건강 우려가"
+       },
+       {
+        "en": "for young people.",
+        "ko": "젊은 사람들에게"
+       }
+      ],
+      "rp": {
+       "situation": "한 연구자가 청소년 아침 식사 건강 연구 결과를 발표하고 있다.",
+       "prompt": "Who found this information about teen breakfast habits?",
+       "options": [
+        "Researchers did, after studying many teens.",
+        "Researches did, after studying many teens."
+       ],
+       "answer": 0,
+       "why": "'researcher'의 복수형은 researchers이며, 'researches'는 동사 형태라 틀립니다."
+      },
+      "topic": "아침을 거르는 청소년들"
+     },
+     {
+      "id": "junior:concern",
+      "word": "concern",
+      "ko": "걱정, 우려",
+      "filled": "Researchers say this is becoming a serious health concern for young people.",
+      "sent_ko": "연구자들은 이것이 젊은 사람들에게 심각한 건강 우려가 되고 있다고 말합니다.",
+      "chunks": [
+       {
+        "en": "Researchers say",
+        "ko": "연구자들은 말합니다"
+       },
+       {
+        "en": "this is becoming",
+        "ko": "이것이 되고 있다고"
+       },
+       {
+        "en": "a serious health concern",
+        "ko": "심각한 건강 우려가"
+       },
+       {
+        "en": "for young people.",
+        "ko": "젊은 사람들에게"
+       }
+      ],
+      "rp": {
+       "situation": "전문가가 청소년들이 아침을 안 먹는 현상에 대해 이야기하고 있다.",
+       "prompt": "How do health experts feel about teens skipping breakfast?",
+       "options": [
+        "They say it is a serious health concern.",
+        "They say it is a serious health concerned."
+       ],
+       "answer": 0,
+       "why": "명사로 쓰인 'concern'이 맞고, 'concerned'는 형용사라 이 자리에 쓸 수 없습니다."
+      },
+      "topic": "아침을 거르는 청소년들"
+     },
+     {
+      "id": "junior:adolescent",
+      "word": "adolescent",
+      "ko": "청소년",
+      "filled": "## A Growing Habit Studies show that a large number of adolescents, or teens between the ages of 10 and 19, regularly skip their morning meal.",
+      "sent_ko": "연구들은 10세에서 19세 사이의 청소년인 많은 수의 청소년들이 아침 식사를 규칙적으로 건너뛴다는 것을 보여줍니다.",
+      "chunks": null,
+      "rp": {
+       "situation": "기사에서 아침을 자주 거르는 연령대를 설명하고 있다.",
+       "prompt": "Who does the article say often skips breakfast?",
+       "options": [
+        "Adolescents, or teens between the ages of 10 and 19.",
+        "Adolescence, or teens between the ages of 10 and 19."
+       ],
+       "answer": 0,
+       "why": "'adolescents'는 사람을 가리키는 복수 명사이고, 'adolescence'는 청소년기라는 추상명사라 틀립니다."
+      },
+      "topic": "아침을 거르는 청소년들"
+     },
+     {
+      "id": "junior:regularly",
+      "word": "regularly",
+      "ko": "규칙적으로, 정기적으로",
+      "filled": "## A Growing Habit Studies show that a large number of adolescents, or teens between the ages of 10 and 19, regularly skip their morning meal.",
+      "sent_ko": "연구들은 10세에서 19세 사이의 청소년인 많은 수의 청소년들이 아침 식사를 규칙적으로 건너뛴다는 것을 보여줍니다.",
+      "chunks": null,
+      "rp": {
+       "situation": "많은 청소년들이 매일 아침 식사를 습관적으로 거르고 있다.",
+       "prompt": "How often do these teens skip breakfast?",
+       "options": [
+        "They skip it regularly, almost every day.",
+        "They skip it regular, almost every day."
+       ],
+       "answer": 0,
+       "why": "동사를 꾸밀 때는 부사 'regularly'를 써야 하고, 형용사 'regular'는 쓸 수 없습니다."
+      },
+      "topic": "아침을 거르는 청소년들"
+     },
+     {
+      "id": "junior:concentrate",
+      "word": "concentrate",
+      "ko": "집중하다",
+      "filled": "When teens skip it, they often feel tired and find it harder to concentrate on lessons.",
+      "sent_ko": "청소년들이 아침을 거를 때, 그들은 종종 피곤함을 느끼고 수업에 집중하기가 더 어렵다고 느낍니다.",
+      "chunks": [
+       {
+        "en": "When teens skip it,",
+        "ko": "청소년들이 아침을 거를 때,"
+       },
+       {
+        "en": "they often feel tired",
+        "ko": "그들은 종종 피곤함을 느끼고"
+       },
+       {
+        "en": "and find it harder",
+        "ko": "더 어렵다고 느낍니다"
+       },
+       {
+        "en": "to concentrate on lessons.",
+        "ko": "수업에 집중하기가"
+       }
+      ],
+      "rp": {
+       "situation": "아침을 거른 학생이 오전 수업 중 공부에 집중하려고 애쓰고 있다.",
+       "prompt": "What is the student finding difficult in class?",
+       "options": [
+        "She finds it hard to concentrate on lessons.",
+        "She finds it hard to concentrate lessons."
+       ],
+       "answer": 0,
+       "why": "'concentrate'는 반드시 'on'과 함께 써야 하며, 바로 목적어를 취할 수 없습니다."
+      },
+      "topic": "아침을 거르는 청소년들"
+     },
+     {
+      "id": "junior:unhealthy",
+      "word": "unhealthy",
+      "ko": "건강에 해로운, 불건강한",
+      "filled": "Researchers have also found that teens who skip breakfast are more likely to eat unhealthy snacks later in the day.",
+      "sent_ko": "연구자들은 또한 아침을 거르는 청소년들이 나중에 하루 중 건강에 해로운 간식을 먹을 가능성이 더 높다는 것을 발견했습니다.",
+      "chunks": [
+       {
+        "en": "Researchers have also found that",
+        "ko": "연구자들은 또한 발견했습니다"
+       },
+       {
+        "en": "teens who skip breakfast",
+        "ko": "아침을 거르는 청소년들이"
+       },
+       {
+        "en": "are more likely to eat",
+        "ko": "먹을 가능성이 더 높다고"
+       },
+       {
+        "en": "unhealthy snacks",
+        "ko": "건강에 해로운 간식을"
+       },
+       {
+        "en": "later in the day.",
+        "ko": "나중에 하루 중"
+       }
+      ],
+      "rp": {
+       "situation": "아침을 거른 십 대가 오후에 과자와 사탕을 먹고 있다.",
+       "prompt": "What kind of snacks does the article say these teens eat?",
+       "options": [
+        "They eat unhealthy snacks like chips and candy.",
+        "They eat unhealth snacks like chips and candy."
+       ],
+       "answer": 0,
+       "why": "'unhealthy'가 올바른 형용사 형태이며, 'unhealth'는 존재하지 않는 단어입니다."
+      },
+      "topic": "아침을 거르는 청소년들"
+     },
+     {
+      "id": "junior:snack",
+      "word": "snack",
+      "ko": "간식",
+      "filled": "Researchers have also found that teens who skip breakfast are more likely to eat unhealthy snacks later in the day.",
+      "sent_ko": "연구자들은 또한 아침을 거르는 청소년들이 나중에 하루 중 건강에 해로운 간식을 먹을 가능성이 더 높다는 것을 발견했습니다.",
+      "chunks": [
+       {
+        "en": "Researchers have also found that",
+        "ko": "연구자들은 또한 발견했습니다"
+       },
+       {
+        "en": "teens who skip breakfast",
+        "ko": "아침을 거르는 청소년들이"
+       },
+       {
+        "en": "are more likely to eat",
+        "ko": "먹을 가능성이 더 높다고"
+       },
+       {
+        "en": "unhealthy snacks",
+        "ko": "건강에 해로운 간식을"
+       },
+       {
+        "en": "later in the day.",
+        "ko": "나중에 하루 중"
+       }
+      ],
+      "rp": {
+       "situation": "아침을 안 먹은 학생이 점심 전에 배가 고파서 무언가를 먹으려 한다.",
+       "prompt": "What does the student reach for before lunch?",
+       "options": [
+        "She grabs an unhealthy snack from her bag.",
+        "She grabs an unhealthy snacks from her bag."
+       ],
+       "answer": 0,
+       "why": "부정관사 'an' 뒤에는 단수 명사 'snack'이 와야 하고, 복수형 'snacks'는 쓸 수 없습니다."
+      },
+      "topic": "아침을 거르는 청소년들"
+     },
+     {
+      "id": "junior:recommend",
+      "word": "recommend",
+      "ko": "추천하다, 권고하다",
+      "filled": "Health experts recommend that teens eat a balanced breakfast every day.",
+      "sent_ko": "건강 전문가들은 청소년들이 매일 균형 잡힌 아침 식사를 먹도록 권고합니다.",
+      "chunks": [
+       {
+        "en": "Health experts recommend",
+        "ko": "건강 전문가들은 권고합니다"
+       },
+       {
+        "en": "that teens eat",
+        "ko": "청소년들이 먹도록"
+       },
+       {
+        "en": "a balanced breakfast",
+        "ko": "균형 잡힌 아침 식사를"
+       },
+       {
+        "en": "every day.",
+        "ko": "매일"
+       }
+      ],
+      "rp": {
+       "situation": "건강 전문가가 아침을 자주 거르는 십 대들에게 조언을 하고 있다.",
+       "prompt": "What do health experts say teens should do?",
+       "options": [
+        "They recommend that teens eat breakfast every day.",
+        "They recommend teens to eat breakfast every day."
+       ],
+       "answer": 0,
+       "why": "'recommend'는 'that+주어+동사원형' 구조를 쓰며, 'recommend+목적어+to부정사'는 비문입니다."
+      },
+      "topic": "아침을 거르는 청소년들"
+     },
+     {
+      "id": "junior:balanced",
+      "word": "balanced",
+      "ko": "균형 잡힌",
+      "filled": "Health experts recommend that teens eat a balanced breakfast every day.",
+      "sent_ko": "건강 전문가들은 청소년들이 매일 균형 잡힌 아침 식사를 먹도록 권고합니다.",
+      "chunks": [
+       {
+        "en": "Health experts recommend",
+        "ko": "건강 전문가들은 권고합니다"
+       },
+       {
+        "en": "that teens eat",
+        "ko": "청소년들이 먹도록"
+       },
+       {
+        "en": "a balanced breakfast",
+        "ko": "균형 잡힌 아침 식사를"
+       },
+       {
+        "en": "every day.",
+        "ko": "매일"
+       }
+      ],
+      "rp": {
+       "situation": "전문가가 청소년들에게 이상적인 아침 식사가 어떠해야 하는지 설명하고 있다.",
+       "prompt": "What kind of breakfast do health experts say teens should eat?",
+       "options": [
+        "They should eat a balanced breakfast every day.",
+        "They should eat a balance breakfast every day."
+       ],
+       "answer": 0,
+       "why": "명사 앞에서 형용사 'balanced'가 맞고, 명사 'balance'는 수식어로 쓸 수 없습니다."
+      },
+      "topic": "아침을 거르는 청소년들"
+     },
+     {
+      "id": "junior:whole-grain",
+      "word": "whole-grain",
+      "ko": "통곡물의, 전곡의",
+      "filled": "Even a small meal, like fruit or whole-grain bread, can make a big difference to both energy and focus.",
+      "sent_ko": "과일이나 통곡물 빵과 같은 작은 식사도 에너지와 집중력 모두에 큰 차이를 만들 수 있습니다.",
+      "chunks": [
+       {
+        "en": "Even a small meal,",
+        "ko": "작은 식사도,"
+       },
+       {
+        "en": "like fruit or whole-grain bread,",
+        "ko": "과일이나 통곡물 빵과 같은"
+       },
+       {
+        "en": "can make a big difference",
+        "ko": "큰 차이를 만들 수 있습니다"
+       },
+       {
+        "en": "to both energy and focus.",
+        "ko": "에너지와 집중력 모두에"
+       }
+      ],
+      "rp": {
+       "situation": "전문가가 아침을 거르는 십 대에게 간단한 아침 식사 예시를 들어 주고 있다.",
+       "prompt": "Can you give me an example of a quick healthy breakfast?",
+       "options": [
+        "Sure! Try some fruit or whole-grain bread.",
+        "Sure! Try some fruit or whole-grained bread."
+       ],
+       "answer": 0,
+       "why": "'whole-grain'이 올바른 복합 형용사이며, 'whole-grained'는 표준 표현이 아닙니다."
+      },
+      "topic": "아침을 거르는 청소년들"
      }
     ]
    }
