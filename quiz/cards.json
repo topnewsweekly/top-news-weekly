@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14 09:48:38",
+ "generated": "2026-09-14 09:50:17",
  "levels": {
   "kinder": [
    {
@@ -7872,6 +7872,389 @@
        "why": "'race'는 명사로 전치사 뒤에 쓰고, 형용사 'racial'은 쓸 수 없습니다."
       },
       "topic": "AI 면접은 공정할 수 있을까"
+     }
+    ]
+   },
+   {
+    "id": "junior|구독 서비스가 늘어난 이유",
+    "level": "junior",
+    "topic": "구독 서비스가 늘어난 이유",
+    "section": "경제",
+    "week": "2026-09-14",
+    "tf": [
+     {
+      "s": "Subscription services became more popular because of the COVID-19 pandemic.",
+      "a": true
+     },
+     {
+      "s": "Companies dislike subscription services because they do not make reliable money.",
+      "a": false
+     },
+     {
+      "s": "Netflix and Spotify are examples of streaming services mentioned in the article.",
+      "a": true
+     },
+     {
+      "s": "Subscription fatigue means people are excited about signing up for more services.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "junior:subscription",
+      "word": "subscription",
+      "ko": "구독, 정기 이용권",
+      "filled": "These days, many companies offer subscription services.",
+      "sent_ko": "요즘 많은 기업들이 구독 서비스를 제공한다.",
+      "chunks": [
+       {
+        "en": "These days,",
+        "ko": "요즘"
+       },
+       {
+        "en": "many companies",
+        "ko": "많은 기업들이"
+       },
+       {
+        "en": "offer",
+        "ko": "제공한다"
+       },
+       {
+        "en": "subscription services.",
+        "ko": "구독 서비스를"
+       }
+      ],
+      "rp": {
+       "situation": "넷플릭스처럼 매달 돈을 내고 이용하는 서비스에 대해 이야기하고 있다.",
+       "prompt": "What do you call a service you pay for every month?",
+       "options": [
+        "It's a subscription service.",
+        "It's a subscribe service."
+       ],
+       "answer": 0,
+       "why": "subscription은 명사이고, subscribe는 동사라서 명사 자리에 쓸 수 없다."
+      },
+      "topic": "구독 서비스가 늘어난 이유"
+     },
+     {
+      "id": "junior:regularly",
+      "word": "regularly",
+      "ko": "규칙적으로, 정기적으로",
+      "filled": "You pay a small amount every month, and you get music, movies, food, or other things regularly.",
+      "sent_ko": "당신은 매달 소액을 내고, 음악, 영화, 음식 또는 다른 것들을 정기적으로 받는다.",
+      "chunks": [
+       {
+        "en": "You pay a small amount every month,",
+        "ko": "매달 소액을 내면"
+       },
+       {
+        "en": "and you get",
+        "ko": "그러면 받는다"
+       },
+       {
+        "en": "music, movies, food, or other things",
+        "ko": "음악, 영화, 음식 또는 다른 것들을"
+       },
+       {
+        "en": "regularly.",
+        "ko": "정기적으로"
+       }
+      ],
+      "rp": {
+       "situation": "구독 서비스에 가입하면 매달 음악과 영화를 받을 수 있다고 설명하고 있다.",
+       "prompt": "How often do subscribers get their music and movies?",
+       "options": [
+        "They get them regularly.",
+        "They get them regular."
+       ],
+       "answer": 0,
+       "why": "동사를 꾸밀 때는 부사 regularly를 써야 하고, 형용사 regular는 쓸 수 없다."
+      },
+      "topic": "구독 서비스가 늘어난 이유"
+     },
+     {
+      "id": "junior:pandemic",
+      "word": "pandemic",
+      "ko": "전염병의 세계적 유행",
+      "filled": "Subscription services became much more popular during the COVID-19 pandemic.",
+      "sent_ko": "구독 서비스는 코로나19 팬데믹 기간 동안 훨씬 더 인기를 끌게 되었다.",
+      "chunks": [
+       {
+        "en": "Subscription services",
+        "ko": "구독 서비스는"
+       },
+       {
+        "en": "became much more popular",
+        "ko": "훨씬 더 인기를 끌게 되었다"
+       },
+       {
+        "en": "during the COVID-19 pandemic.",
+        "ko": "코로나19 팬데믹 기간 동안"
+       }
+      ],
+      "rp": {
+       "situation": "코로나19가 전 세계로 퍼져 사람들이 집에 머물렀던 시기를 설명하고 있다.",
+       "prompt": "What do we call the period when COVID-19 spread all over the world?",
+       "options": [
+        "We call it a pandemic.",
+        "We call it a pantomime."
+       ],
+       "answer": 0,
+       "why": "pandemic은 전염병의 세계적 유행을 뜻하며, pantomime은 무언극으로 전혀 다른 단어다."
+      },
+      "topic": "구독 서비스가 늘어난 이유"
+     },
+     {
+      "id": "junior:streaming",
+      "word": "streaming",
+      "ko": "스트리밍 (인터넷으로 영상·음악 등을 실시간 재생)",
+      "filled": "People stayed home, so they started using streaming services like Netflix and Spotify.",
+      "sent_ko": "사람들은 집에 머물렀고, 그래서 넷플릭스와 스포티파이 같은 스트리밍 서비스를 이용하기 시작했다.",
+      "chunks": [
+       {
+        "en": "People stayed home,",
+        "ko": "사람들은 집에 머물렀고"
+       },
+       {
+        "en": "so they started using",
+        "ko": "그래서 이용하기 시작했다"
+       },
+       {
+        "en": "streaming services",
+        "ko": "스트리밍 서비스를"
+       },
+       {
+        "en": "like Netflix and Spotify.",
+        "ko": "넷플릭스와 스포티파이 같은"
+       }
+      ],
+      "rp": {
+       "situation": "팬데믹 동안 사람들이 넷플릭스로 영화를 인터넷으로 실시간 재생해서 보고 있다.",
+       "prompt": "How were people watching movies on Netflix at home?",
+       "options": [
+        "They were using a streaming service.",
+        "They were using a stream service."
+       ],
+       "answer": 0,
+       "why": "streaming은 형용사로 명사 앞에서 쓰이며, stream만 단독으로 형용사처럼 쓰는 것은 자연스럽지 않다."
+      },
+      "topic": "구독 서비스가 늘어난 이유"
+     },
+     {
+      "id": "junior:steady",
+      "word": "steady",
+      "ko": "꾸준한, 안정적인",
+      "filled": "Companies also love subscriptions because they get steady money every month.",
+      "sent_ko": "기업들도 구독을 좋아하는데, 왜냐하면 매달 꾸준한 수입을 얻기 때문이다.",
+      "chunks": [
+       {
+        "en": "Companies also love subscriptions",
+        "ko": "기업들도 구독을 좋아한다"
+       },
+       {
+        "en": "because they get",
+        "ko": "왜냐하면 얻기 때문이다"
+       },
+       {
+        "en": "steady money",
+        "ko": "꾸준한 수입을"
+       },
+       {
+        "en": "every month.",
+        "ko": "매달"
+       }
+      ],
+      "rp": {
+       "situation": "구독 서비스 덕분에 한 회사가 매달 일정한 금액의 돈을 받고 있다.",
+       "prompt": "How would you describe the money this company earns each month?",
+       "options": [
+        "They earn steady money every month.",
+        "They earn studious money every month."
+       ],
+       "answer": 0,
+       "why": "steady는 꾸준하고 안정적이라는 뜻이고, studious는 공부를 열심히 한다는 뜻으로 돈에 어울리지 않는다."
+      },
+      "topic": "구독 서비스가 늘어난 이유"
+     },
+     {
+      "id": "junior:value",
+      "word": "value",
+      "ko": "가치, 값어치",
+      "filled": "These services were easy to use and felt good value for money.",
+      "sent_ko": "이 서비스들은 사용하기 쉬웠고 돈 대비 가치가 좋다고 느껴졌다.",
+      "chunks": [
+       {
+        "en": "These services",
+        "ko": "이 서비스들은"
+       },
+       {
+        "en": "were easy to use",
+        "ko": "사용하기 쉬웠고"
+       },
+       {
+        "en": "and felt good value",
+        "ko": "좋은 가치라고 느껴졌다"
+       },
+       {
+        "en": "for money.",
+        "ko": "돈 대비"
+       }
+      ],
+      "rp": {
+       "situation": "넷플릭스 구독자가 매달 내는 금액에 비해 콘텐츠가 충분히 만족스럽다고 느끼고 있다.",
+       "prompt": "What do you think of Netflix for the price you pay?",
+       "options": [
+        "I think it's good value for money.",
+        "I think it's good worth for money."
+       ],
+       "answer": 0,
+       "why": "value for money는 자연스러운 영어 표현이고, worth for money는 어색한 표현이다."
+      },
+      "topic": "구독 서비스가 늘어난 이유"
+     },
+     {
+      "id": "junior:fatigue",
+      "word": "fatigue",
+      "ko": "피로, 피로감",
+      "filled": "This is called 'subscription fatigue.' Experts say people are starting to choose more carefully which services they really need.",
+      "sent_ko": "이것은 '구독 피로'라고 불린다. 전문가들은 사람들이 자신에게 정말 필요한 서비스를 더 신중하게 선택하기 시작하고 있다고 말한다.",
+      "chunks": [
+       {
+        "en": "This is called 'subscription fatigue.'",
+        "ko": "이것은 '구독 피로'라고 불린다"
+       },
+       {
+        "en": "Experts say",
+        "ko": "전문가들은 말한다"
+       },
+       {
+        "en": "people are starting to choose more carefully",
+        "ko": "사람들이 더 신중하게 선택하기 시작하고 있다고"
+       },
+       {
+        "en": "which services they really need.",
+        "ko": "자신에게 정말 필요한 서비스를"
+       }
+      ],
+      "rp": {
+       "situation": "너무 많은 구독 서비스에 지쳐서 사람들이 힘들어하는 상황을 설명하고 있다.",
+       "prompt": "What is it called when people are tired of having too many subscriptions?",
+       "options": [
+        "It's called subscription fatigue.",
+        "It's called subscription failure."
+       ],
+       "answer": 0,
+       "why": "fatigue는 피로감을 뜻하고, failure는 실패를 뜻하므로 이 상황에 맞지 않는다."
+      },
+      "topic": "구독 서비스가 늘어난 이유"
+     },
+     {
+      "id": "junior:expert",
+      "word": "expert",
+      "ko": "전문가",
+      "filled": "This is called 'subscription fatigue.' Experts say people are starting to choose more carefully which services they really need.",
+      "sent_ko": "이것은 '구독 피로'라고 불린다. 전문가들은 사람들이 자신에게 정말 필요한 서비스를 더 신중하게 선택하기 시작하고 있다고 말한다.",
+      "chunks": [
+       {
+        "en": "This is called 'subscription fatigue.'",
+        "ko": "이것은 '구독 피로'라고 불린다"
+       },
+       {
+        "en": "Experts say",
+        "ko": "전문가들은 말한다"
+       },
+       {
+        "en": "people are starting to choose more carefully",
+        "ko": "사람들이 더 신중하게 선택하기 시작하고 있다고"
+       },
+       {
+        "en": "which services they really need.",
+        "ko": "자신에게 정말 필요한 서비스를"
+       }
+      ],
+      "rp": {
+       "situation": "구독 피로 현상에 대해 깊이 연구한 사람들이 자신의 의견을 발표하고 있다.",
+       "prompt": "Who is giving advice about subscription fatigue?",
+       "options": [
+        "Experts are sharing their opinions.",
+        "Exporters are sharing their opinions."
+       ],
+       "answer": 0,
+       "why": "expert는 전문가를 뜻하고, exporter는 수출업자를 뜻하므로 이 상황에 맞지 않는다."
+      },
+      "topic": "구독 서비스가 늘어난 이유"
+     },
+     {
+      "id": "junior:offer",
+      "word": "offer",
+      "ko": "제공하다, 제안하다",
+      "filled": "These days, many companies offer subscription services.",
+      "sent_ko": "요즘 많은 기업들이 구독 서비스를 제공한다.",
+      "chunks": [
+       {
+        "en": "These days,",
+        "ko": "요즘"
+       },
+       {
+        "en": "many companies",
+        "ko": "많은 기업들이"
+       },
+       {
+        "en": "offer",
+        "ko": "제공한다"
+       },
+       {
+        "en": "subscription services.",
+        "ko": "구독 서비스를"
+       }
+      ],
+      "rp": {
+       "situation": "한 음식점이 고객들에게 매달 식사를 받을 수 있는 새로운 구독 플랜을 시작했다.",
+       "prompt": "What is the restaurant doing with its new monthly plan?",
+       "options": [
+        "It is offering a subscription plan.",
+        "It is offering to subscribe a plan."
+       ],
+       "answer": 0,
+       "why": "offer a subscription plan은 올바른 표현이고, offer to subscribe a plan은 문법적으로 어색하다."
+      },
+      "topic": "구독 서비스가 늘어난 이유"
+     },
+     {
+      "id": "junior:carefully",
+      "word": "carefully",
+      "ko": "신중하게, 조심스럽게",
+      "filled": "This is called 'subscription fatigue.' Experts say people are starting to choose more carefully which services they really need.",
+      "sent_ko": "이것은 '구독 피로'라고 불린다. 전문가들은 사람들이 자신에게 정말 필요한 서비스를 더 신중하게 선택하기 시작하고 있다고 말한다.",
+      "chunks": [
+       {
+        "en": "This is called 'subscription fatigue.'",
+        "ko": "이것은 '구독 피로'라고 불린다"
+       },
+       {
+        "en": "Experts say",
+        "ko": "전문가들은 말한다"
+       },
+       {
+        "en": "people are starting to choose more carefully",
+        "ko": "사람들이 더 신중하게 선택하기 시작하고 있다고"
+       },
+       {
+        "en": "which services they really need.",
+        "ko": "자신에게 정말 필요한 서비스를"
+       }
+      ],
+      "rp": {
+       "situation": "구독 피로를 느낀 사람이 어떤 서비스를 계속 이용할지 결정하려고 하고 있다.",
+       "prompt": "How should this person decide which subscriptions to keep?",
+       "options": [
+        "They should choose carefully.",
+        "They should choose careful."
+       ],
+       "answer": 0,
+       "why": "동사 choose를 꾸밀 때는 부사 carefully를 써야 하고, 형용사 careful은 쓸 수 없다."
+      },
+      "topic": "구독 서비스가 늘어난 이유"
      }
     ]
    }
