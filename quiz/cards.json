@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14 09:52:43",
+ "generated": "2026-09-14 09:53:35",
  "levels": {
   "kinder": [
    {
@@ -9352,6 +9352,369 @@
        "why": "기사에서 'meaning'은 셀 수 없는 개념으로 단수형으로 쓰였으며, 복수형 'meanings'는 이 문맥에서 어색합니다."
       },
       "topic": "번역가가 고민하는 말맛"
+     }
+    ]
+   },
+   {
+    "id": "junior|학교 도서관이 비어가는 이유",
+    "level": "junior",
+    "topic": "학교 도서관이 비어가는 이유",
+    "section": "교육",
+    "week": "2026-09-14",
+    "tf": [
+     {
+      "s": "In Australia, some schools have turned their old library spaces into classrooms or storage areas.",
+      "a": true
+     },
+     {
+      "s": "Most schools today still employ a full-time librarian to help students.",
+      "a": false
+     },
+     {
+      "s": "Education experts argue that choosing reliable information is a skill that internet searches alone cannot fully teach.",
+      "a": true
+     },
+     {
+      "s": "All teachers agree that school libraries are more useful than the internet.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "junior:common",
+      "word": "common",
+      "ko": "흔한, 공통의",
+      "filled": "School libraries are becoming less common in many countries.",
+      "sent_ko": "학교 도서관은 많은 나라에서 점점 덜 흔해지고 있습니다.",
+      "chunks": [
+       {
+        "en": "School libraries",
+        "ko": "학교 도서관은"
+       },
+       {
+        "en": "are becoming less common",
+        "ko": "점점 덜 흔해지고 있다"
+       },
+       {
+        "en": "in many countries.",
+        "ko": "많은 나라에서"
+       }
+      ],
+      "rp": {
+       "situation": "호주의 많은 학교에서 도서관이 사라지고 있다는 뉴스를 읽었다.",
+       "prompt": "Are school libraries easy to find these days?",
+       "options": [
+        "No, they are becoming less common.",
+        "No, they are becoming less usual."
+       ],
+       "answer": 0,
+       "why": "'common'이 '흔한'의 자연스러운 표현이고, 'usual'은 이 맥락에서 어색한 단어 선택이다."
+      },
+      "topic": "학교 도서관이 비어가는 이유"
+     },
+     {
+      "id": "junior:remove",
+      "word": "remove",
+      "ko": "제거하다, 없애다",
+      "filled": "In Australia, hundreds of schools have removed their libraries in recent years.",
+      "sent_ko": "호주에서는 수백 개의 학교가 최근 몇 년 동안 도서관을 없앴습니다.",
+      "chunks": [
+       {
+        "en": "In Australia,",
+        "ko": "호주에서는"
+       },
+       {
+        "en": "hundreds of schools",
+        "ko": "수백 개의 학교가"
+       },
+       {
+        "en": "have removed their libraries",
+        "ko": "도서관을 없앴다"
+       },
+       {
+        "en": "in recent years.",
+        "ko": "최근 몇 년 동안"
+       }
+      ],
+      "rp": {
+       "situation": "호주의 한 학교가 도서관 공간을 없애기로 결정했다.",
+       "prompt": "What did the school do with the library?",
+       "options": [
+        "They removed the library to make more space.",
+        "They disposal the library to make more space."
+       ],
+       "answer": 0,
+       "why": "'removed'는 올바른 동사이고, 'disposal'은 동사로 쓸 수 없는 명사이다."
+      },
+      "topic": "학교 도서관이 비어가는 이유"
+     },
+     {
+      "id": "junior:storage",
+      "word": "storage",
+      "ko": "저장, 보관",
+      "filled": "Some have turned the space into extra classrooms or storage areas.",
+      "sent_ko": "일부 학교는 그 공간을 추가 교실이나 보관 공간으로 바꾸었습니다.",
+      "chunks": [
+       {
+        "en": "Some have turned the space",
+        "ko": "일부는 그 공간을 바꾸었다"
+       },
+       {
+        "en": "into extra classrooms",
+        "ko": "추가 교실로"
+       },
+       {
+        "en": "or storage areas.",
+        "ko": "또는 보관 공간으로"
+       }
+      ],
+      "rp": {
+       "situation": "학교 도서관이 없어진 후 그 공간을 다른 용도로 사용하게 되었다.",
+       "prompt": "What is the old library room used for now?",
+       "options": [
+        "It is used as a storage area for school supplies.",
+        "It is used as a storing area for school supplies."
+       ],
+       "answer": 0,
+       "why": "'storage'는 명사로 올바르게 쓰였고, 'storing'은 이 자리에 명사처럼 쓸 수 없는 동명사이다."
+      },
+      "topic": "학교 도서관이 비어가는 이유"
+     },
+     {
+      "id": "junior:research",
+      "word": "research",
+      "ko": "연구, 조사",
+      "filled": "A school library is a room where students can borrow books, do research, and study quietly.",
+      "sent_ko": "학교 도서관은 학생들이 책을 빌리고, 조사를 하고, 조용히 공부할 수 있는 공간입니다.",
+      "chunks": [
+       {
+        "en": "A school library is a room",
+        "ko": "학교 도서관은 공간이다"
+       },
+       {
+        "en": "where students can borrow books,",
+        "ko": "학생들이 책을 빌릴 수 있는"
+       },
+       {
+        "en": "do research,",
+        "ko": "조사를 할 수 있는"
+       },
+       {
+        "en": "and study quietly.",
+        "ko": "그리고 조용히 공부할 수 있는"
+       }
+      ],
+      "rp": {
+       "situation": "학생이 학교 도서관에서 어떤 주제에 대해 정보를 찾고 있다.",
+       "prompt": "What are you doing in the library?",
+       "options": [
+        "I am doing research for my project.",
+        "I am making research for my project."
+       ],
+       "answer": 0,
+       "why": "'do research'가 올바른 연어이고, 'make research'는 영어에서 쓰지 않는 표현이다."
+      },
+      "topic": "학교 도서관이 비어가는 이유"
+     },
+     {
+      "id": "junior:librarian",
+      "word": "librarian",
+      "ko": "사서",
+      "filled": "In the past, most schools had a full-time librarian who helped students find information.",
+      "sent_ko": "과거에는 대부분의 학교에 학생들이 정보를 찾도록 도와주는 전임 사서가 있었습니다.",
+      "chunks": [
+       {
+        "en": "In the past,",
+        "ko": "과거에는"
+       },
+       {
+        "en": "most schools had a full-time librarian",
+        "ko": "대부분의 학교에 전임 사서가 있었다"
+       },
+       {
+        "en": "who helped students",
+        "ko": "학생들을 도와주는"
+       },
+       {
+        "en": "find information.",
+        "ko": "정보를 찾도록"
+       }
+      ],
+      "rp": {
+       "situation": "과거에 학교 도서관에서 학생들의 정보 탐색을 도와주던 사람이 있었다.",
+       "prompt": "Who helped students find books and information?",
+       "options": [
+        "The librarian helped them find information.",
+        "The libraryst helped them find information."
+       ],
+       "answer": 0,
+       "why": "'librarian'은 올바른 단어이고, 'libraryst'는 존재하지 않는 단어이다."
+      },
+      "topic": "학교 도서관이 비어가는 이유"
+     },
+     {
+      "id": "junior:physical",
+      "word": "physical",
+      "ko": "신체적인, 물리적인",
+      "filled": "Some teachers also believe that the internet can replace physical books and library resources.",
+      "sent_ko": "일부 교사들은 또한 인터넷이 실제 책과 도서관 자료를 대체할 수 있다고 생각합니다.",
+      "chunks": [
+       {
+        "en": "Some teachers also believe",
+        "ko": "일부 교사들은 또한 생각한다"
+       },
+       {
+        "en": "that the internet can replace",
+        "ko": "인터넷이 대체할 수 있다고"
+       },
+       {
+        "en": "physical books",
+        "ko": "실제 책을"
+       },
+       {
+        "en": "and library resources.",
+        "ko": "그리고 도서관 자료를"
+       }
+      ],
+      "rp": {
+       "situation": "어떤 교사가 인터넷이 학교 도서관의 실제 책을 대신할 수 있다고 말하고 있다.",
+       "prompt": "Do we still need real books in the library?",
+       "options": [
+        "Some teachers think the internet can replace physical books.",
+        "Some teachers think the internet can replace physician books."
+       ],
+       "answer": 0,
+       "why": "'physical'은 '실제의, 물리적인'이라는 뜻이고, 'physician'은 '의사'라는 전혀 다른 단어이다."
+      },
+      "topic": "학교 도서관이 비어가는 이유"
+     },
+     {
+      "id": "junior:reliable",
+      "word": "reliable",
+      "ko": "믿을 수 있는, 신뢰할 수 있는",
+      "filled": "They say libraries teach students how to choose reliable information, which is a skill that internet searches alone cannot build.",
+      "sent_ko": "그들은 도서관이 학생들에게 믿을 수 있는 정보를 선택하는 방법을 가르쳐 주는데, 이것은 인터넷 검색만으로는 키울 수 없는 능력이라고 말합니다.",
+      "chunks": [
+       {
+        "en": "They say libraries teach students",
+        "ko": "그들은 도서관이 학생들에게 가르친다고 말한다"
+       },
+       {
+        "en": "how to choose reliable information,",
+        "ko": "믿을 수 있는 정보를 선택하는 방법을"
+       },
+       {
+        "en": "which is a skill",
+        "ko": "그것은 능력이다"
+       },
+       {
+        "en": "that internet searches alone cannot build.",
+        "ko": "인터넷 검색만으로는 키울 수 없는"
+       }
+      ],
+      "rp": {
+       "situation": "사서가 학생들에게 좋은 정보 출처를 고르는 법을 가르치고 있다.",
+       "prompt": "Why is the librarian's help important?",
+       "options": [
+        "She teaches students how to find reliable information.",
+        "She teaches students how to find relying information."
+       ],
+       "answer": 0,
+       "why": "'reliable'은 '믿을 수 있는'의 올바른 형용사이고, 'relying'은 이 자리에 쓸 수 없는 형태이다."
+      },
+      "topic": "학교 도서관이 비어가는 이유"
+     },
+     {
+      "id": "junior:source",
+      "word": "source",
+      "ko": "출처, 근원",
+      "filled": "Without a trained librarian to guide them, students may find it harder to tell good sources from bad ones.",
+      "sent_ko": "훈련받은 사서의 안내 없이는, 학생들이 좋은 출처와 나쁜 출처를 구별하기가 더 어렵다고 느낄 수 있습니다.",
+      "chunks": [
+       {
+        "en": "Without a trained librarian to guide them,",
+        "ko": "훈련받은 사서의 안내 없이는"
+       },
+       {
+        "en": "students may find it harder",
+        "ko": "학생들은 더 어렵다고 느낄 수 있다"
+       },
+       {
+        "en": "to tell good sources from bad ones.",
+        "ko": "좋은 출처와 나쁜 출처를 구별하기가"
+       }
+      ],
+      "rp": {
+       "situation": "학생이 도서관에서 숙제를 위해 정보를 어디서 얻었는지 설명하고 있다.",
+       "prompt": "Where did you get that information?",
+       "options": [
+        "I used a reliable source from the library.",
+        "I used a reliable origin from the library."
+       ],
+       "answer": 0,
+       "why": "'source'는 정보의 출처를 뜻하는 올바른 단어이고, 'origin'은 이 맥락에서 자연스럽지 않은 단어이다."
+      },
+      "topic": "학교 도서관이 비어가는 이유"
+     },
+     {
+      "id": "junior:shrink",
+      "word": "shrink",
+      "ko": "줄어들다, 수축하다",
+      "filled": "Several reasons explain why libraries are shrinking.",
+      "sent_ko": "몇 가지 이유들이 도서관이 왜 줄어들고 있는지를 설명합니다.",
+      "chunks": [
+       {
+        "en": "Several reasons explain",
+        "ko": "몇 가지 이유들이 설명한다"
+       },
+       {
+        "en": "why libraries are shrinking.",
+        "ko": "도서관이 왜 줄어들고 있는지를"
+       }
+      ],
+      "rp": {
+       "situation": "학교 도서관의 수와 크기가 점점 작아지고 있다는 기사를 읽었다.",
+       "prompt": "What is happening to school libraries?",
+       "options": [
+        "School libraries are shrinking every year.",
+        "School libraries are shrunking every year."
+       ],
+       "answer": 0,
+       "why": "'shrinking'이 올바른 현재진행형이고, 'shrunking'은 존재하지 않는 잘못된 형태이다."
+      },
+      "topic": "학교 도서관이 비어가는 이유"
+     },
+     {
+      "id": "junior:guide",
+      "word": "guide",
+      "ko": "안내하다, 안내자",
+      "filled": "Without a trained librarian to guide them, students may find it harder to tell good sources from bad ones.",
+      "sent_ko": "훈련받은 사서의 안내 없이는, 학생들이 좋은 출처와 나쁜 출처를 구별하기가 더 어렵다고 느낄 수 있습니다.",
+      "chunks": [
+       {
+        "en": "Without a trained librarian to guide them,",
+        "ko": "훈련받은 사서의 안내 없이는"
+       },
+       {
+        "en": "students may find it harder",
+        "ko": "학생들은 더 어렵다고 느낄 수 있다"
+       },
+       {
+        "en": "to tell good sources from bad ones.",
+        "ko": "좋은 출처와 나쁜 출처를 구별하기가"
+       }
+      ],
+      "rp": {
+       "situation": "학교 사서가 학생들이 올바른 정보를 찾도록 도와주고 있다.",
+       "prompt": "What does the librarian do for students?",
+       "options": [
+        "She guides students to find good information.",
+        "She guidances students to find good information."
+       ],
+       "answer": 0,
+       "why": "'guides'는 동사의 올바른 형태이고, 'guidances'는 동사로 쓸 수 없는 잘못된 형태이다."
+      },
+      "topic": "학교 도서관이 비어가는 이유"
      }
     ]
    }
