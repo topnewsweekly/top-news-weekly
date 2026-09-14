@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14 09:39:57",
+ "generated": "2026-09-14 09:40:58",
  "levels": {
   "kinder": [
    {
@@ -1540,6 +1540,189 @@
        "why": "be동사 뒤에는 형용사 clear를 써요. clearly는 부사라 여기서 쓸 수 없어요."
       },
       "topic": "가을에는 왜 하늘이 높아 보일까"
+     }
+    ]
+   },
+   {
+    "id": "kinder|고래는 어떻게 숨을 쉴까",
+    "level": "kinder",
+    "topic": "고래는 어떻게 숨을 쉴까",
+    "section": "과학",
+    "week": "2026-09-14",
+    "tf": [
+     {
+      "s": "Whales live in the sea.",
+      "a": true
+     },
+     {
+      "s": "Whales are fish.",
+      "a": false
+     },
+     {
+      "s": "You can see a big puff of mist when a whale breathes out.",
+      "a": true
+     },
+     {
+      "s": "A whale's blowhole is on the bottom of its body.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "kinder:breathe",
+      "word": "breathe",
+      "ko": "숨을 쉬다, 호흡하다",
+      "filled": "Then it breathes out.",
+      "sent_ko": "그러면 고래는 숨을 내쉬어요.",
+      "chunks": [
+       {
+        "en": "Then",
+        "ko": "그러면"
+       },
+       {
+        "en": "it breathes out.",
+        "ko": "숨을 내쉬어요"
+       }
+      ],
+      "rp": {
+       "situation": "고래가 물 위로 올라와서 블로홀로 공기를 내보내고 있어요.",
+       "prompt": "What does the whale do at the surface?",
+       "options": [
+        "It breathes out.",
+        "It breathes in out."
+       ],
+       "answer": 0,
+       "why": "'breathes out'이 맞고, 'breathes in out'은 영어에서 쓸 수 없는 표현이에요."
+      },
+      "topic": "고래는 어떻게 숨을 쉴까"
+     },
+     {
+      "id": "kinder:hole",
+      "word": "hole",
+      "ko": "구멍",
+      "filled": "They have a hole on top of their head.",
+      "sent_ko": "고래는 머리 위에 구멍이 있어요.",
+      "chunks": [
+       {
+        "en": "They have",
+        "ko": "고래는 ~이 있어요"
+       },
+       {
+        "en": "a hole",
+        "ko": "구멍"
+       },
+       {
+        "en": "on top of their head.",
+        "ko": "머리 위에"
+       }
+      ],
+      "rp": {
+       "situation": "고래 머리 위에 블로홀이라고 불리는 것이 있어요.",
+       "prompt": "What does a whale have on its head?",
+       "options": [
+        "It has a hole.",
+        "It has a hall."
+       ],
+       "answer": 0,
+       "why": "'hole'은 구멍이고, 'hall'은 복도라서 고래 머리에 어울리지 않아요."
+      },
+      "topic": "고래는 어떻게 숨을 쉴까"
+     },
+     {
+      "id": "kinder:mist",
+      "word": "mist",
+      "ko": "안개, 霧",
+      "filled": "You can see a big puff of mist!",
+      "sent_ko": "커다란 물안개 뭉게구름을 볼 수 있어요!",
+      "chunks": [
+       {
+        "en": "You can see",
+        "ko": "볼 수 있어요"
+       },
+       {
+        "en": "a big puff",
+        "ko": "커다란 뭉게"
+       },
+       {
+        "en": "of mist!",
+        "ko": "물안개를"
+       }
+      ],
+      "rp": {
+       "situation": "고래가 블로홀로 숨을 내쉬자 하얀 것이 위로 올라와요.",
+       "prompt": "What do you see above the whale?",
+       "options": [
+        "a big puff of mist",
+        "a big puff of fist"
+       ],
+       "answer": 0,
+       "why": "'mist'는 안개·수증기이고, 'fist'는 주먹이라서 고래 블로홀에 맞지 않아요."
+      },
+      "topic": "고래는 어떻게 숨을 쉴까"
+     },
+     {
+      "id": "kinder:swim",
+      "word": "swim",
+      "ko": "수영하다",
+      "filled": "A whale swims up to the top.",
+      "sent_ko": "고래는 물 위로 헤엄쳐 올라와요.",
+      "chunks": [
+       {
+        "en": "A whale",
+        "ko": "고래는"
+       },
+       {
+        "en": "swims up",
+        "ko": "헤엄쳐 올라가요"
+       },
+       {
+        "en": "to the top.",
+        "ko": "꼭대기까지"
+       }
+      ],
+      "rp": {
+       "situation": "고래가 바다 속에서 수면을 향해 올라가고 있어요.",
+       "prompt": "What is the whale doing?",
+       "options": [
+        "The whale swims up.",
+        "The whale swam up."
+       ],
+       "answer": 0,
+       "why": "지금 일어나는 일이니 현재형 'swims'를 써야 해요. 'swam'은 과거형이에요."
+      },
+      "topic": "고래는 어떻게 숨을 쉴까"
+     },
+     {
+      "id": "kinder:top",
+      "word": "top",
+      "ko": "꼭대기, 정상",
+      "filled": "A whale swims up to the top.",
+      "sent_ko": "고래는 물 위로 헤엄쳐 올라와요.",
+      "chunks": [
+       {
+        "en": "A whale",
+        "ko": "고래는"
+       },
+       {
+        "en": "swims up",
+        "ko": "헤엄쳐 올라가요"
+       },
+       {
+        "en": "to the top.",
+        "ko": "꼭대기까지"
+       }
+      ],
+      "rp": {
+       "situation": "고래가 바다 바닥에서 수면 쪽으로 올라오고 있어요.",
+       "prompt": "Where does the whale swim?",
+       "options": [
+        "It swims up to the top.",
+        "It swims up to the bottom."
+       ],
+       "answer": 0,
+       "why": "'top'은 위쪽 수면이고, 'bottom'은 바닥이라서 올라오는 방향과 반대예요."
+      },
+      "topic": "고래는 어떻게 숨을 쉴까"
      }
     ]
    }
