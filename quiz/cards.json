@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14 10:20:04",
+ "generated": "2026-09-23 08:36:08",
  "levels": {
   "kinder": [
    {
@@ -1723,6 +1723,193 @@
        "why": "'top'은 위쪽 수면이고, 'bottom'은 바닥이라서 올라오는 방향과 반대예요."
       },
       "topic": "고래는 어떻게 숨을 쉴까"
+     }
+    ]
+   },
+   {
+    "id": "kinder|무지개는 언제 생길까",
+    "level": "kinder",
+    "topic": "무지개는 언제 생길까",
+    "section": "과학",
+    "week": "2026-09-21",
+    "tf": [
+     {
+      "s": "A rainbow comes after rain.",
+      "a": true
+     },
+     {
+      "s": "You can see a rainbow when there is no sun.",
+      "a": false
+     },
+     {
+      "s": "Sunlight hits tiny drops of water to make a rainbow.",
+      "a": true
+     },
+     {
+      "s": "A rainbow has only one color.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "kinder:rainbow",
+      "word": "rainbow",
+      "ko": "무지개",
+      "filled": "A rainbow comes after rain.",
+      "sent_ko": "무지개는 비 다음에 나타나요.",
+      "chunks": [
+       {
+        "en": "A rainbow",
+        "ko": "무지개는"
+       },
+       {
+        "en": "comes",
+        "ko": "나타나요"
+       },
+       {
+        "en": "after rain.",
+        "ko": "비 다음에"
+       }
+      ],
+      "rp": {
+       "situation": "비가 그친 뒤 하늘에 무지개가 떴어요.",
+       "prompt": "What do you see in the sky?",
+       "options": [
+        "I see a rainbow!",
+        "I see a raining!"
+       ],
+       "answer": 0,
+       "why": "rainbow는 명사예요. raining은 이 자리에 쓸 수 없어요."
+      },
+      "topic": "무지개는 언제 생길까"
+     },
+     {
+      "id": "kinder:rain",
+      "word": "rain",
+      "ko": "비",
+      "filled": "A rainbow comes after rain.",
+      "sent_ko": "무지개는 비 다음에 나타나요.",
+      "chunks": [
+       {
+        "en": "A rainbow",
+        "ko": "무지개는"
+       },
+       {
+        "en": "comes",
+        "ko": "나타나요"
+       },
+       {
+        "en": "after rain.",
+        "ko": "비 다음에"
+       }
+      ],
+      "rp": {
+       "situation": "하늘에서 물이 떨어지고 있어요.",
+       "prompt": "What is happening outside?",
+       "options": [
+        "It is rain.",
+        "It is raining."
+       ],
+       "answer": 1,
+       "why": "지금 일어나는 일은 is raining처럼 진행형으로 써요."
+      },
+      "topic": "무지개는 언제 생길까"
+     },
+     {
+      "id": "kinder:sun",
+      "word": "sun",
+      "ko": "태양",
+      "filled": "The sun must shine too.",
+      "sent_ko": "태양도 반드시 빛나야 해요.",
+      "chunks": [
+       {
+        "en": "The sun",
+        "ko": "태양은"
+       },
+       {
+        "en": "must shine",
+        "ko": "반드시 빛나야 해요"
+       },
+       {
+        "en": "too.",
+        "ko": "또한"
+       }
+      ],
+      "rp": {
+       "situation": "무지개가 생기려면 태양이 빛나고 있어요.",
+       "prompt": "Is the sun shining?",
+       "options": [
+        "Yes, the sun shines.",
+        "Yes, the sun must shine."
+       ],
+       "answer": 1,
+       "why": "무지개가 생기려면 태양이 꼭 빛나야 하므로 must shine이 맞아요."
+      },
+      "topic": "무지개는 언제 생길까"
+     },
+     {
+      "id": "kinder:light",
+      "word": "light",
+      "ko": "빛",
+      "filled": "The light bends and splits.",
+      "sent_ko": "빛은 구부러지고 나뉘어요.",
+      "chunks": [
+       {
+        "en": "The light",
+        "ko": "빛은"
+       },
+       {
+        "en": "bends",
+        "ko": "구부러져요"
+       },
+       {
+        "en": "and splits.",
+        "ko": "그리고 나뉘어요"
+       }
+      ],
+      "rp": {
+       "situation": "햇빛이 물방울에 닿아 여러 색으로 나뉘고 있어요.",
+       "prompt": "What does the light do?",
+       "options": [
+        "The light bends and splits.",
+        "The light bending and splitting."
+       ],
+       "answer": 0,
+       "why": "문장에는 동사가 필요해요. bending and splitting만으로는 문장이 안 돼요."
+      },
+      "topic": "무지개는 언제 생길까"
+     },
+     {
+      "id": "kinder:color",
+      "word": "color",
+      "ko": "색깔",
+      "filled": "Then you can see colors!",
+      "sent_ko": "그러면 너는 색깔들을 볼 수 있어요!",
+      "chunks": [
+       {
+        "en": "Then",
+        "ko": "그러면"
+       },
+       {
+        "en": "you can see",
+        "ko": "너는 볼 수 있어요"
+       },
+       {
+        "en": "colors!",
+        "ko": "색깔들을"
+       }
+      ],
+      "rp": {
+       "situation": "무지개가 생긴 뒤 하늘에서 빨강, 초록 등이 보여요.",
+       "prompt": "What can you see in the rainbow?",
+       "options": [
+        "I can see colors!",
+        "I can see color!"
+       ],
+       "answer": 0,
+       "why": "무지개에는 색깔이 여러 개라서 복수형 colors가 맞아요."
+      },
+      "topic": "무지개는 언제 생길까"
      }
     ]
    }
