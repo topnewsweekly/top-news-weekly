@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23 08:51:01",
+ "generated": "2026-09-23 08:52:56",
  "levels": {
   "kinder": [
    {
@@ -22575,6 +22575,517 @@
        "why": "capability는 명사로 reach의 목적어 자리에 맞고, capable은 형용사라 명사 자리에 쓸 수 없다."
       },
       "topic": "양자 컴퓨터와 암호 체계의 대비"
+     }
+    ]
+   },
+   {
+    "id": "times|커피 원두 값이 오른 3년",
+    "level": "times",
+    "topic": "커피 원두 값이 오른 3년",
+    "section": "경제",
+    "week": "2026-09-21",
+    "tf": [
+     {
+      "s": "Brazil is responsible for producing more than one-third of the world's coffee supply.",
+      "a": true
+     },
+     {
+      "s": "Vietnam is best known for producing Arabica beans, which are commonly used in instant coffee.",
+      "a": false
+     },
+     {
+      "s": "Financial investors buying futures contracts can push coffee prices up even before a shortage actually occurs.",
+      "a": true
+     },
+     {
+      "s": "According to the article, coffee prices began rising sharply only in early 2025.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "times:producer",
+      "word": "producer",
+      "ko": "생산자, 생산국",
+      "filled": "Vietnam is the leading producer of Robusta beans, which are used in instant coffee and espresso blends.",
+      "sent_ko": "베트남은 로부스타 원두의 선도적인 생산국으로, 로부스타 원두는 인스턴트 커피와 에스프레소 블렌드에 사용됩니다.",
+      "chunks": [
+       {
+        "en": "Vietnam is the leading producer",
+        "ko": "베트남은 선도적인 생산국이다"
+       },
+       {
+        "en": "of Robusta beans,",
+        "ko": "로부스타 원두의"
+       },
+       {
+        "en": "which are used",
+        "ko": "사용되는"
+       },
+       {
+        "en": "in instant coffee and espresso blends.",
+        "ko": "인스턴트 커피와 에스프레소 블렌드에"
+       }
+      ],
+      "rp": {
+       "situation": "베트남이 전 세계 로부스타 원두를 가장 많이 생산하는 나라라고 설명하는 상황",
+       "prompt": "What do you call a country that makes the most of something?",
+       "options": [
+        "It is called the leading producer.",
+        "It is called the leading production."
+       ],
+       "answer": 0,
+       "why": "producer는 '생산국/생산자'를 뜻하는 명사이고, production은 '생산(행위)'을 뜻해 이 자리에 쓸 수 없다"
+      },
+      "topic": "커피 원두 값이 오른 3년"
+     },
+     {
+      "id": "times:harvest",
+      "word": "harvest",
+      "ko": "수확, 수확하다",
+      "filled": "Without investment in climate-resistant farming, another price spike may be only one bad harvest away.",
+      "sent_ko": "기후 저항성 농업에 대한 투자 없이는, 또 한 번의 가격 급등이 단 한 번의 흉작만큼이나 가까이 있을 수 있습니다.",
+      "chunks": [
+       {
+        "en": "Without investment in climate-resistant farming,",
+        "ko": "기후 저항성 농업에 대한 투자 없이는"
+       },
+       {
+        "en": "another price spike",
+        "ko": "또 한 번의 가격 급등이"
+       },
+       {
+        "en": "may be only one bad harvest away.",
+        "ko": "단 한 번의 흉작만큼 가까이 있을 수 있다"
+       }
+      ],
+      "rp": {
+       "situation": "브라질에 극심한 가뭄이 들어 커피 농가가 원두를 거의 거두지 못한 상황",
+       "prompt": "How was the coffee harvest in Brazil this year?",
+       "options": [
+        "It was a bad harvest — much less than expected.",
+        "It was a bad harvesting — much less than expected."
+       ],
+       "answer": 0,
+       "why": "harvest는 '수확(결과)'을 뜻하는 명사로 쓰이며, harvesting은 이 문맥에서 자연스럽지 않다"
+      },
+      "topic": "커피 원두 값이 오른 3년"
+     },
+     {
+      "id": "times:drought",
+      "word": "drought",
+      "ko": "가뭄",
+      "filled": "Brazil and Vietnam — the world's two largest coffee producers — have both suffered from droughts and extreme heat linked to climate change.",
+      "sent_ko": "브라질과 베트남 — 세계 최대 커피 생산국 두 나라 — 은 모두 기후 변화와 연관된 가뭄과 극심한 열기로 피해를 입었습니다.",
+      "chunks": [
+       {
+        "en": "Brazil and Vietnam —",
+        "ko": "브라질과 베트남은 —"
+       },
+       {
+        "en": "the world's two largest coffee producers —",
+        "ko": "세계 최대 커피 생산국 두 나라 —"
+       },
+       {
+        "en": "have both suffered",
+        "ko": "둘 다 피해를 입었다"
+       },
+       {
+        "en": "from droughts and extreme heat",
+        "ko": "가뭄과 극심한 열기로"
+       },
+       {
+        "en": "linked to climate change.",
+        "ko": "기후 변화와 연관된"
+       }
+      ],
+      "rp": {
+       "situation": "브라질에 오랫동안 비가 내리지 않아 커피 농장이 타들어가고 있는 상황",
+       "prompt": "What weather problem is hurting Brazil's coffee farms?",
+       "options": [
+        "The farms are suffering from a severe drought.",
+        "The farms are suffering from a severe flood."
+       ],
+       "answer": 0,
+       "why": "기사에서 브라질의 피해 원인은 drought(가뭄)이며, flood(홍수)는 반대 상황이라 틀리다"
+      },
+      "topic": "커피 원두 값이 오른 3년"
+     },
+     {
+      "id": "times:supply",
+      "word": "supply",
+      "ko": "공급, 공급량",
+      "filled": "With both major suppliers struggling at the same time, the global supply gap widened and prices rose further.",
+      "sent_ko": "두 주요 공급국이 동시에 어려움을 겪으면서, 전 세계 공급 격차가 커지고 가격은 더욱 올랐습니다.",
+      "chunks": [
+       {
+        "en": "With both major suppliers struggling at the same time,",
+        "ko": "두 주요 공급국이 동시에 어려움을 겪으면서"
+       },
+       {
+        "en": "the global supply gap widened",
+        "ko": "전 세계 공급 격차가 커졌다"
+       },
+       {
+        "en": "and prices rose further.",
+        "ko": "그리고 가격은 더욱 올랐다"
+       }
+      ],
+      "rp": {
+       "situation": "브라질과 베트남이 동시에 흉작을 겪어 전 세계 커피 공급량이 줄어드는 상황",
+       "prompt": "What happens to the market when both countries struggle?",
+       "options": [
+        "The global supply gap widens and prices rise.",
+        "The global supply gap raises and prices rise."
+       ],
+       "answer": 0,
+       "why": "gap은 widen(넓어지다)과 어울리며, raise는 타동사라 주어 없이 쓸 수 없어 비문이 된다"
+      },
+      "topic": "커피 원두 값이 오른 3년"
+     },
+     {
+      "id": "times:output",
+      "word": "output",
+      "ko": "생산량, 산출량",
+      "filled": "Dry conditions there in 2023 and 2024 cut output sharply.",
+      "sent_ko": "2023년과 2024년의 건조한 기후로 인해 그곳의 생산량이 급격히 줄었습니다.",
+      "chunks": [
+       {
+        "en": "Dry conditions there",
+        "ko": "그곳의 건조한 기후가"
+       },
+       {
+        "en": "in 2023 and 2024",
+        "ko": "2023년과 2024년에"
+       },
+       {
+        "en": "cut output sharply.",
+        "ko": "생산량을 급격히 줄였다"
+       }
+      ],
+      "rp": {
+       "situation": "베트남의 극심한 가뭄으로 2024년 로부스타 원두 생산량이 크게 감소한 상황",
+       "prompt": "What did the dry weather do to Vietnam's coffee output?",
+       "options": [
+        "It cut output sharply.",
+        "It cut output largely."
+       ],
+       "answer": 0,
+       "why": "sharply는 수치의 급격한 감소와 함께 쓰는 표현이고, largely는 이 문맥에서 자연스럽지 않다"
+      },
+      "topic": "커피 원두 값이 오른 3년"
+     },
+     {
+      "id": "times:shortage",
+      "word": "shortage",
+      "ko": "부족, 품귀",
+      "filled": "This activity pushes prices up even before the shortage actually arrives.",
+      "sent_ko": "이 활동은 공급 부족이 실제로 발생하기도 전에 가격을 끌어올립니다.",
+      "chunks": [
+       {
+        "en": "This activity",
+        "ko": "이 활동은"
+       },
+       {
+        "en": "pushes prices up",
+        "ko": "가격을 끌어올린다"
+       },
+       {
+        "en": "even before the shortage actually arrives.",
+        "ko": "공급 부족이 실제로 발생하기도 전에"
+       }
+      ],
+      "rp": {
+       "situation": "투자자들이 커피 공급 부족을 예상하고 선물 계약을 대량 매입하는 상황",
+       "prompt": "Why are traders buying so many futures contracts?",
+       "options": [
+        "They expect a coffee shortage soon.",
+        "They expect a coffee shortness soon."
+       ],
+       "answer": 0,
+       "why": "shortage는 '공급 부족'을 뜻하는 올바른 명사이고, shortness는 이 의미로 쓰지 않는다"
+      },
+      "topic": "커피 원두 값이 오른 3년"
+     },
+     {
+      "id": "times:futures contract",
+      "word": "futures contract",
+      "ko": "선물 계약 (미래의 가격을 미리 정하는 거래 계약)",
+      "filled": "When traders expect shortages, they buy futures contracts — agreements to purchase coffee at a set price later.",
+      "sent_ko": "거래자들이 공급 부족을 예상할 때, 그들은 선물 계약 — 나중에 정해진 가격으로 커피를 구매하기로 하는 약정 — 을 삽니다.",
+      "chunks": [
+       {
+        "en": "When traders expect shortages,",
+        "ko": "거래자들이 공급 부족을 예상할 때"
+       },
+       {
+        "en": "they buy futures contracts —",
+        "ko": "그들은 선물 계약을 산다 —"
+       },
+       {
+        "en": "agreements to purchase coffee",
+        "ko": "커피를 구매하기로 하는 약정"
+       },
+       {
+        "en": "at a set price later.",
+        "ko": "나중에 정해진 가격으로"
+       }
+      ],
+      "rp": {
+       "situation": "커피 공급 부족이 예상되자 금융 투자자들이 미리 커피를 사두는 계약을 체결하는 상황",
+       "prompt": "What exactly is a futures contract?",
+       "options": [
+        "It is an agreement to buy coffee at a set price later.",
+        "It is an agreement to buy coffee at a setting price later."
+       ],
+       "answer": 0,
+       "why": "set은 '정해진'이라는 형용사로 쓰이고, setting은 이 자리에 올 수 없는 형태다"
+      },
+      "topic": "커피 원두 값이 오른 3년"
+     },
+     {
+      "id": "times:speculative",
+      "word": "speculative",
+      "ko": "투기적인, 추측에 기반한",
+      "filled": "Analysts say this kind of speculative buying has made recent price swings larger than usual.",
+      "sent_ko": "분석가들은 이런 종류의 투기적 매수가 최근 가격 변동을 평소보다 더 크게 만들었다고 말합니다.",
+      "chunks": [
+       {
+        "en": "Analysts say",
+        "ko": "분석가들은 말한다"
+       },
+       {
+        "en": "this kind of speculative buying",
+        "ko": "이런 종류의 투기적 매수가"
+       },
+       {
+        "en": "has made recent price swings",
+        "ko": "최근 가격 변동을 만들었다고"
+       },
+       {
+        "en": "larger than usual.",
+        "ko": "평소보다 더 크게"
+       }
+      ],
+      "rp": {
+       "situation": "커피 공급 부족 소문만으로 투자자들이 앞다퉈 선물 계약을 사들이는 상황",
+       "prompt": "How would you describe this kind of buying?",
+       "options": [
+        "It is speculative buying driven by expectations.",
+        "It is speculation buying driven by expectations."
+       ],
+       "answer": 0,
+       "why": "speculative는 명사를 수식하는 형용사이고, speculation은 명사라 buying 앞에 바로 쓸 수 없다"
+      },
+      "topic": "커피 원두 값이 오른 3년"
+     },
+     {
+      "id": "times:swing",
+      "word": "swing",
+      "ko": "(가격·수치 등의) 변동, 급변",
+      "filled": "Analysts say this kind of speculative buying has made recent price swings larger than usual.",
+      "sent_ko": "분석가들은 이런 종류의 투기적 매수가 최근 가격 변동을 평소보다 더 크게 만들었다고 말합니다.",
+      "chunks": [
+       {
+        "en": "Analysts say",
+        "ko": "분석가들은 말한다"
+       },
+       {
+        "en": "this kind of speculative buying",
+        "ko": "이런 종류의 투기적 매수가"
+       },
+       {
+        "en": "has made recent price swings",
+        "ko": "최근 가격 변동을 만들었다고"
+       },
+       {
+        "en": "larger than usual.",
+        "ko": "평소보다 더 크게"
+       }
+      ],
+      "rp": {
+       "situation": "투기적 매수로 인해 커피 가격이 오르내림이 심해진 상황을 분석가가 설명하는 상황",
+       "prompt": "How have the price movements changed recently?",
+       "options": [
+        "Recent price swings have become larger than usual.",
+        "Recent price swings have become more largely than usual."
+       ],
+       "answer": 0,
+       "why": "larger는 형용사 large의 비교급이고, more largely는 부사 비교급이라 이 자리에 쓸 수 없다"
+      },
+      "topic": "커피 원두 값이 오른 3년"
+     },
+     {
+      "id": "times:alternative",
+      "word": "alternative",
+      "ko": "대안, 대체물",
+      "filled": "Some buyers in Asia and Europe are switching to cheaper alternatives, while others are simply paying more.",
+      "sent_ko": "아시아와 유럽의 일부 소비자들은 더 저렴한 대체품으로 바꾸고 있는 반면, 다른 소비자들은 그냥 더 많은 돈을 내고 있습니다.",
+      "chunks": [
+       {
+        "en": "Some buyers in Asia and Europe",
+        "ko": "아시아와 유럽의 일부 소비자들은"
+       },
+       {
+        "en": "are switching to cheaper alternatives,",
+        "ko": "더 저렴한 대체품으로 바꾸고 있는 반면"
+       },
+       {
+        "en": "while others are simply paying more.",
+        "ko": "다른 소비자들은 그냥 더 많은 돈을 내고 있다"
+       }
+      ],
+      "rp": {
+       "situation": "커피 가격이 오르자 아시아 소비자들이 더 싼 음료로 바꾸려는 상황",
+       "prompt": "What are some buyers doing because coffee is too expensive?",
+       "options": [
+        "They are switching to cheaper alternatives.",
+        "They are switching to cheaper alterations."
+       ],
+       "answer": 0,
+       "why": "alternative는 '대체품'을 뜻하고, alteration은 '변경, 수정'을 뜻해 이 문맥에 맞지 않는다"
+      },
+      "topic": "커피 원두 값이 오른 3년"
+     },
+     {
+      "id": "times:espresso",
+      "word": "espresso",
+      "ko": "에스프레소 (진하게 추출한 커피)",
+      "filled": "Vietnam is the leading producer of Robusta beans, which are used in instant coffee and espresso blends.",
+      "sent_ko": "베트남은 로부스타 원두의 선도적인 생산국으로, 로부스타 원두는 인스턴트 커피와 에스프레소 블렌드에 사용됩니다.",
+      "chunks": [
+       {
+        "en": "Vietnam is the leading producer",
+        "ko": "베트남은 선도적인 생산국이다"
+       },
+       {
+        "en": "of Robusta beans,",
+        "ko": "로부스타 원두의"
+       },
+       {
+        "en": "which are used",
+        "ko": "사용되는"
+       },
+       {
+        "en": "in instant coffee and espresso blends.",
+        "ko": "인스턴트 커피와 에스프레소 블렌드에"
+       }
+      ],
+      "rp": {
+       "situation": "카페 주인이 에스프레소용 블렌드에 어떤 원두가 쓰이는지 설명하는 상황",
+       "prompt": "Which beans go into espresso blends?",
+       "options": [
+        "Robusta beans are often used in espresso blends.",
+        "Robusta beans are often used for espresso blending."
+       ],
+       "answer": 0,
+       "why": "used in espresso blends는 기사의 표현과 일치하는 자연스러운 표현이고, for espresso blending은 어색한 콜로케이션이다"
+      },
+      "topic": "커피 원두 값이 오른 3년"
+     },
+     {
+      "id": "times:climate-resistant",
+      "word": "climate-resistant",
+      "ko": "기후 저항성이 있는, 기후 변화에 강한",
+      "filled": "Without investment in climate-resistant farming, another price spike may be only one bad harvest away.",
+      "sent_ko": "기후 저항성 농업에 대한 투자 없이는, 또 한 번의 가격 급등이 단 한 번의 흉작만큼이나 가까이 있을 수 있습니다.",
+      "chunks": [
+       {
+        "en": "Without investment in climate-resistant farming,",
+        "ko": "기후 저항성 농업에 대한 투자 없이는"
+       },
+       {
+        "en": "another price spike",
+        "ko": "또 한 번의 가격 급등이"
+       },
+       {
+        "en": "may be only one bad harvest away.",
+        "ko": "단 한 번의 흉작만큼 가까이 있을 수 있다"
+       }
+      ],
+      "rp": {
+       "situation": "전문가들이 기후 변화에도 잘 버티는 커피 농업 방식의 필요성을 강조하는 상황",
+       "prompt": "What kind of farming do experts say is needed?",
+       "options": [
+        "Farmers need to invest in climate-resistant farming.",
+        "Farmers need to invest in climate-resisting farming."
+       ],
+       "answer": 0,
+       "why": "climate-resistant는 '기후 변화에 강한'이라는 뜻의 올바른 복합 형용사이고, climate-resisting은 이 맥락에서 쓰지 않는 표현이다"
+      },
+      "topic": "커피 원두 값이 오른 3년"
+     },
+     {
+      "id": "times:adapt",
+      "word": "adapt",
+      "ko": "적응하다, 맞게 바꾸다",
+      "filled": "Experts say the deeper problem is that coffee farming has not adapted fast enough to changing climate conditions.",
+      "sent_ko": "전문가들은 더 근본적인 문제는 커피 농업이 변화하는 기후 조건에 충분히 빠르게 적응하지 못했다는 것이라고 말합니다.",
+      "chunks": [
+       {
+        "en": "Experts say",
+        "ko": "전문가들은 말한다"
+       },
+       {
+        "en": "the deeper problem is",
+        "ko": "더 근본적인 문제는 ~이라고"
+       },
+       {
+        "en": "that coffee farming has not adapted",
+        "ko": "커피 농업이 적응하지 못했다는 것"
+       },
+       {
+        "en": "fast enough",
+        "ko": "충분히 빠르게"
+       },
+       {
+        "en": "to changing climate conditions.",
+        "ko": "변화하는 기후 조건에"
+       }
+      ],
+      "rp": {
+       "situation": "기후가 빠르게 바뀌는데 커피 농가들이 여전히 전통적인 방식을 고집하는 상황",
+       "prompt": "What is the core problem experts identify?",
+       "options": [
+        "Coffee farming has not adapted fast enough to changing climate conditions.",
+        "Coffee farming has not adopted fast enough to changing climate conditions."
+       ],
+       "answer": 0,
+       "why": "adapt to는 '~에 적응하다'이고, adopt는 '채택하다'라는 다른 뜻이라 이 문맥에 맞지 않는다"
+      },
+      "topic": "커피 원두 값이 오른 3년"
+     },
+     {
+      "id": "times:spike",
+      "word": "spike",
+      "ko": "(가격·수치의) 급등, 급격한 상승",
+      "filled": "Without investment in climate-resistant farming, another price spike may be only one bad harvest away.",
+      "sent_ko": "기후 저항성 농업에 대한 투자 없이는, 또 한 번의 가격 급등이 단 한 번의 흉작만큼이나 가까이 있을 수 있습니다.",
+      "chunks": [
+       {
+        "en": "Without investment in climate-resistant farming,",
+        "ko": "기후 저항성 농업에 대한 투자 없이는"
+       },
+       {
+        "en": "another price spike",
+        "ko": "또 한 번의 가격 급등이"
+       },
+       {
+        "en": "may be only one bad harvest away.",
+        "ko": "단 한 번의 흉작만큼 가까이 있을 수 있다"
+       }
+      ],
+      "rp": {
+       "situation": "전문가들이 흉작이 한 번만 더 와도 커피 가격이 다시 치솟을 수 있다고 경고하는 상황",
+       "prompt": "What could one more bad harvest cause?",
+       "options": [
+        "It could cause another price spike in the coffee market.",
+        "It could cause another price spiky in the coffee market."
+       ],
+       "answer": 0,
+       "why": "spike는 '급등'을 뜻하는 명사이고, spiky는 형용사라 이 자리에 쓸 수 없다"
+      },
+      "topic": "커피 원두 값이 오른 3년"
      }
     ]
    }
