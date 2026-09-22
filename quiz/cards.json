@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23 08:53:30",
+ "generated": "2026-09-23 08:56:19",
  "levels": {
   "kinder": [
    {
@@ -23625,6 +23625,553 @@
        "why": "water footprint는 환경적 영향을 뜻하는 확립된 표현이며, water feet는 이 의미로 쓰이지 않는 잘못된 표현이다."
       },
       "topic": "데이터센터가 마시는 물"
+     }
+    ]
+   },
+   {
+    "id": "times|사라지는 모래와 건설업",
+    "level": "times",
+    "topic": "사라지는 모래와 건설업",
+    "section": "환경",
+    "week": "2026-09-21",
+    "tf": [
+     {
+      "s": "Desert sand is commonly used in the construction industry because it is widely available.",
+      "a": false
+     },
+     {
+      "s": "The world consumes an estimated 40 to 50 billion tonnes of sand and gravel every year.",
+      "a": true
+     },
+     {
+      "s": "Illegal sand mining networks have been reported in countries such as India, Vietnam, and parts of West Africa.",
+      "a": true
+     },
+     {
+      "s": "The construction industry is only a minor user of sand compared to other industries.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "times:resource",
+      "word": "resource",
+      "ko": "자원",
+      "filled": "Sand is one of the most widely used natural resources on Earth, yet most people never think twice about it.",
+      "sent_ko": "모래는 지구상에서 가장 널리 사용되는 천연자원 중 하나이지만, 대부분의 사람들은 그것에 대해 두 번 생각하는 일이 없다.",
+      "chunks": [
+       {
+        "en": "Sand is one of the most widely used natural resources on Earth,",
+        "ko": "모래는 지구상에서 가장 널리 사용되는 천연자원 중 하나이지만,"
+       },
+       {
+        "en": "yet most people",
+        "ko": "그러나 대부분의 사람들은"
+       },
+       {
+        "en": "never think twice about it.",
+        "ko": "그것에 대해 두 번 생각하는 일이 없다."
+       }
+      ],
+      "rp": {
+       "situation": "기자가 모래가 왜 중요한지 설명하고 있다.",
+       "prompt": "Why is sand so important?",
+       "options": [
+        "It is one of the most valuable natural resources on Earth.",
+        "It is one of the most valuable natural resourceful on Earth."
+       ],
+       "answer": 0,
+       "why": "resource는 명사이고, resourceful은 형용사라 명사 자리에 올 수 없다."
+      },
+      "topic": "사라지는 모래와 건설업"
+     },
+     {
+      "id": "times:consume",
+      "word": "consume",
+      "ko": "소비하다",
+      "filled": "Every year, the world consumes an estimated 40 to 50 billion tonnes of sand and gravel — enough to cover the entire country of England in a thick layer.",
+      "sent_ko": "매년 세계는 추정 400억~500억 톤의 모래와 자갈을 소비하는데, 이는 잉글랜드 전체를 두꺼운 층으로 덮기에 충분한 양이다.",
+      "chunks": [
+       {
+        "en": "Every year,",
+        "ko": "매년,"
+       },
+       {
+        "en": "the world consumes an estimated 40 to 50 billion tonnes of sand and gravel",
+        "ko": "세계는 추정 400억~500억 톤의 모래와 자갈을 소비한다"
+       },
+       {
+        "en": "— enough to cover the entire country of England",
+        "ko": "— 잉글랜드 전체를 덮기에 충분한"
+       },
+       {
+        "en": "in a thick layer.",
+        "ko": "두꺼운 층으로."
+       }
+      ],
+      "rp": {
+       "situation": "건설 붐으로 세계 모래 사용량이 급증하고 있다는 보도가 나왔다.",
+       "prompt": "How much sand does the world use each year?",
+       "options": [
+        "The world consumes billions of tonnes of sand every year.",
+        "The world is consumed billions of tonnes of sand every year."
+       ],
+       "answer": 0,
+       "why": "consume은 능동태로 써야 하며, is consumed는 수동태라 문법상 틀리다."
+      },
+      "topic": "사라지는 모래와 건설업"
+     },
+     {
+      "id": "times:ingredient",
+      "word": "ingredient",
+      "ko": "성분, 재료",
+      "filled": "Sand is a key ingredient in concrete, glass, and asphalt, making it essential for building roads, bridges, and cities.",
+      "sent_ko": "모래는 콘크리트, 유리, 아스팔트의 핵심 재료로, 도로, 교량, 도시 건설에 필수적이다.",
+      "chunks": [
+       {
+        "en": "Sand is a key ingredient",
+        "ko": "모래는 핵심 재료이다"
+       },
+       {
+        "en": "in concrete, glass, and asphalt,",
+        "ko": "콘크리트, 유리, 아스팔트의,"
+       },
+       {
+        "en": "making it essential",
+        "ko": "그것을 필수적으로 만들면서"
+       },
+       {
+        "en": "for building roads, bridges, and cities.",
+        "ko": "도로, 교량, 도시 건설을 위한."
+       }
+      ],
+      "rp": {
+       "situation": "건설 전문가가 콘크리트를 만들기 위해 모래가 필요한 이유를 설명하고 있다.",
+       "prompt": "What role does sand play in concrete?",
+       "options": [
+        "Sand is a key ingredient in making concrete strong and durable.",
+        "Sand is a key ingredient of making concrete strong and durable."
+       ],
+       "answer": 0,
+       "why": "ingredient 뒤에는 전치사 in을 써야 하며, of는 이 표현에서 비문법적이다."
+      },
+      "topic": "사라지는 모래와 건설업"
+     },
+     {
+      "id": "times:essential",
+      "word": "essential",
+      "ko": "필수적인",
+      "filled": "Sand is a key ingredient in concrete, glass, and asphalt, making it essential for building roads, bridges, and cities.",
+      "sent_ko": "모래는 콘크리트, 유리, 아스팔트의 핵심 재료로, 도로, 교량, 도시 건설에 필수적이다.",
+      "chunks": [
+       {
+        "en": "Sand is a key ingredient",
+        "ko": "모래는 핵심 재료이다"
+       },
+       {
+        "en": "in concrete, glass, and asphalt,",
+        "ko": "콘크리트, 유리, 아스팔트의,"
+       },
+       {
+        "en": "making it essential",
+        "ko": "그것을 필수적으로 만들면서"
+       },
+       {
+        "en": "for building roads, bridges, and cities.",
+        "ko": "도로, 교량, 도시 건설을 위한."
+       }
+      ],
+      "rp": {
+       "situation": "도시 건설 현장에서 모래 없이는 공사가 불가능하다는 상황이다.",
+       "prompt": "Can we build cities without sand?",
+       "options": [
+        "No — sand is essential for producing concrete and asphalt.",
+        "No — sand is essentially for producing concrete and asphalt."
+       ],
+       "answer": 0,
+       "why": "essential은 형용사이고, essentially는 부사라 보어 자리에 올 수 없다."
+      },
+      "topic": "사라지는 모래와 건설업"
+     },
+     {
+      "id": "times:extraction",
+      "word": "extraction",
+      "ko": "추출, 채굴",
+      "filled": "The sand that builders need comes mostly from riverbeds, lakes, and coastlines — places where extraction causes serious environmental damage.",
+      "sent_ko": "건설업자들이 필요로 하는 모래는 대부분 강바닥, 호수, 해안선에서 나오는데, 이곳들은 채굴이 심각한 환경 피해를 일으키는 장소이다.",
+      "chunks": [
+       {
+        "en": "The sand that builders need",
+        "ko": "건설업자들이 필요로 하는 모래는"
+       },
+       {
+        "en": "comes mostly from riverbeds, lakes, and coastlines",
+        "ko": "대부분 강바닥, 호수, 해안선에서 나온다"
+       },
+       {
+        "en": "— places where extraction",
+        "ko": "— 채굴이 일어나는 장소로,"
+       },
+       {
+        "en": "causes serious environmental damage.",
+        "ko": "심각한 환경 피해를 일으킨다."
+       }
+      ],
+      "rp": {
+       "situation": "환경 단체가 강바닥에서의 모래 채굴 문제를 보고서에 기술하고 있다.",
+       "prompt": "How do you describe the mining process in your report?",
+       "options": [
+        "Sand extraction from riverbeds is causing serious environmental damage.",
+        "Sand extracting from riverbeds is causing serious environmental damage."
+       ],
+       "answer": 0,
+       "why": "extraction은 명사로 올바른 형태이고, extracting은 동명사라 이 명사 자리에 어색하다."
+      },
+      "topic": "사라지는 모래와 건설업"
+     },
+     {
+      "id": "times:erosion",
+      "word": "erosion",
+      "ko": "침식, 부식",
+      "filled": "Desert sand is too smooth and rounded from wind erosion to bond properly in concrete.",
+      "sent_ko": "사막 모래는 바람의 침식으로 인해 너무 매끄럽고 둥글어서 콘크리트에 제대로 결합되지 않는다.",
+      "chunks": [
+       {
+        "en": "Desert sand is too smooth and rounded",
+        "ko": "사막 모래는 너무 매끄럽고 둥글다"
+       },
+       {
+        "en": "from wind erosion",
+        "ko": "바람의 침식으로 인해"
+       },
+       {
+        "en": "to bond properly in concrete.",
+        "ko": "콘크리트에 제대로 결합되기에."
+       }
+      ],
+      "rp": {
+       "situation": "사막 모래가 건설에 사용할 수 없는 이유를 설명하는 상황이다.",
+       "prompt": "Why can't desert sand be used for construction?",
+       "options": [
+        "Wind erosion makes desert sand too smooth to bond in concrete.",
+        "Wind erosion makes desert sand too smooth for bonding in concrete."
+       ],
+       "answer": 0,
+       "why": "too ~ to 구문이 자연스러운 표현이며, too ~ for bonding은 이 문맥에서 비문법적이다."
+      },
+      "topic": "사라지는 모래와 건설업"
+     },
+     {
+      "id": "times:unstable",
+      "word": "unstable",
+      "ko": "불안정한",
+      "filled": "When sand is removed from rivers faster than nature can replace it, riverbanks become unstable and fish habitats are destroyed.",
+      "sent_ko": "모래가 자연이 보충할 수 있는 속도보다 빠르게 강에서 제거되면, 강둑이 불안정해지고 어류의 서식지가 파괴된다.",
+      "chunks": [
+       {
+        "en": "When sand is removed from rivers",
+        "ko": "모래가 강에서 제거될 때"
+       },
+       {
+        "en": "faster than nature can replace it,",
+        "ko": "자연이 보충할 수 있는 것보다 빠르게,"
+       },
+       {
+        "en": "riverbanks become unstable",
+        "ko": "강둑이 불안정해지고"
+       },
+       {
+        "en": "and fish habitats are destroyed.",
+        "ko": "어류의 서식지가 파괴된다."
+       }
+      ],
+      "rp": {
+       "situation": "과도한 모래 채굴 이후 강둑이 무너지기 시작했다는 현장 보고이다.",
+       "prompt": "What happened to the riverbanks after heavy sand mining?",
+       "options": [
+        "The riverbanks became unstable and started to collapse.",
+        "The riverbanks became unsteadily and started to collapse."
+       ],
+       "answer": 0,
+       "why": "unstable은 형용사로 보어 역할을 하고, unsteadily는 부사라 보어 자리에 올 수 없다."
+      },
+      "topic": "사라지는 모래와 건설업"
+     },
+     {
+      "id": "times:habitat",
+      "word": "habitat",
+      "ko": "서식지",
+      "filled": "When sand is removed from rivers faster than nature can replace it, riverbanks become unstable and fish habitats are destroyed.",
+      "sent_ko": "모래가 자연이 보충할 수 있는 속도보다 빠르게 강에서 제거되면, 강둑이 불안정해지고 어류의 서식지가 파괴된다.",
+      "chunks": [
+       {
+        "en": "When sand is removed from rivers",
+        "ko": "모래가 강에서 제거될 때"
+       },
+       {
+        "en": "faster than nature can replace it,",
+        "ko": "자연이 보충할 수 있는 것보다 빠르게,"
+       },
+       {
+        "en": "riverbanks become unstable",
+        "ko": "강둑이 불안정해지고"
+       },
+       {
+        "en": "and fish habitats are destroyed.",
+        "ko": "어류의 서식지가 파괴된다."
+       }
+      ],
+      "rp": {
+       "situation": "모래 채굴로 강의 어류가 살 곳을 잃어가고 있다는 기사이다.",
+       "prompt": "What is happening to the fish in these rivers?",
+       "options": [
+        "Sand mining is destroying the fish habitats along the riverbanks.",
+        "Sand mining is destroying the fish habitually along the riverbanks."
+       ],
+       "answer": 0,
+       "why": "habitat은 명사(서식지)이고, habitually는 부사라 목적어 자리에 올 수 없다."
+      },
+      "topic": "사라지는 모래와 건설업"
+     },
+     {
+      "id": "times:shortage",
+      "word": "shortage",
+      "ko": "부족, 결핍",
+      "filled": "The shortage has also created a black market.",
+      "sent_ko": "이 부족 현상은 또한 암시장을 만들어냈다.",
+      "chunks": [
+       {
+        "en": "The shortage",
+        "ko": "이 부족 현상은"
+       },
+       {
+        "en": "has also created",
+        "ko": "또한 만들어냈다"
+       },
+       {
+        "en": "a black market.",
+        "ko": "암시장을."
+       }
+      ],
+      "rp": {
+       "situation": "모래 공급이 수요를 따라가지 못해 불법 거래가 생겨났다는 내용이다.",
+       "prompt": "Why did a black market for sand appear?",
+       "options": [
+        "A shortage of sand has driven people toward illegal mining.",
+        "A shortness of sand has driven people toward illegal mining."
+       ],
+       "answer": 0,
+       "why": "shortage는 공급 부족을 뜻하는 명사이고, shortness는 길이나 시간이 짧음을 뜻해 이 문맥에 맞지 않는다."
+      },
+      "topic": "사라지는 모래와 건설업"
+     },
+     {
+      "id": "times:criminal",
+      "word": "criminal",
+      "ko": "범죄자, 범죄의",
+      "filled": "Criminal networks in countries such as India, Vietnam, and parts of West Africa now control illegal sand mining operations worth billions of dollars annually.",
+      "sent_ko": "인도, 베트남, 서아프리카 일부 지역 등의 나라에서 범죄 조직들이 연간 수십억 달러 규모의 불법 모래 채굴 작업을 현재 통제하고 있다.",
+      "chunks": [
+       {
+        "en": "Criminal networks in countries such as India, Vietnam, and parts of West Africa",
+        "ko": "인도, 베트남, 서아프리카 일부 지역 같은 나라의 범죄 조직들이"
+       },
+       {
+        "en": "now control",
+        "ko": "현재 통제하고 있다"
+       },
+       {
+        "en": "illegal sand mining operations",
+        "ko": "불법 모래 채굴 작업을"
+       },
+       {
+        "en": "worth billions of dollars annually.",
+        "ko": "연간 수십억 달러 규모의."
+       }
+      ],
+      "rp": {
+       "situation": "경찰이 불법 모래 채굴을 조직적으로 운영하는 집단을 수사하고 있다.",
+       "prompt": "Who is behind the illegal sand mining?",
+       "options": [
+        "Criminal networks control the illegal sand mining operations.",
+        "Criminally networks control the illegal sand mining operations."
+       ],
+       "answer": 0,
+       "why": "criminal은 형용사로 명사 networks를 수식하고, criminally는 부사라 명사 수식이 불가하다."
+      },
+      "topic": "사라지는 모래와 건설업"
+     },
+     {
+      "id": "times:regulation",
+      "word": "regulation",
+      "ko": "규제, 규정",
+      "filled": "Without stronger international regulation and wider adoption of alternatives — such as recycled materials and industrial by-products — the pressure on the world's sand supplies is likely to keep growing alongside the demand for new infrastructure.",
+      "sent_ko": "더 강력한 국제 규제와 재활용 재료 및 산업 부산물 같은 대안의 더 광범위한 채택 없이는, 세계 모래 공급에 대한 압력이 새로운 사회 기반 시설에 대한 수요와 함께 계속 커질 가능성이 높다.",
+      "chunks": [
+       {
+        "en": "Without stronger international regulation",
+        "ko": "더 강력한 국제 규제 없이는"
+       },
+       {
+        "en": "and wider adoption of alternatives",
+        "ko": "그리고 대안의 더 광범위한 채택 없이는"
+       },
+       {
+        "en": "— such as recycled materials and industrial by-products —",
+        "ko": "— 재활용 재료 및 산업 부산물 같은 —"
+       },
+       {
+        "en": "the pressure on the world's sand supplies",
+        "ko": "세계 모래 공급에 대한 압력이"
+       },
+       {
+        "en": "is likely to keep growing",
+        "ko": "계속 커질 가능성이 높다"
+       },
+       {
+        "en": "alongside the demand for new infrastructure.",
+        "ko": "새로운 사회 기반 시설에 대한 수요와 함께."
+       }
+      ],
+      "rp": {
+       "situation": "환경 회의에서 불법 모래 채굴을 막을 방법을 논의하고 있다.",
+       "prompt": "What does the world need to protect sand supplies?",
+       "options": [
+        "Stronger international regulation of sand extraction is urgently needed.",
+        "Stronger international regulate of sand extraction is urgently needed."
+       ],
+       "answer": 0,
+       "why": "regulation은 명사로 주어 역할을 하고, regulate는 동사라 이 자리에 올 수 없다."
+      },
+      "topic": "사라지는 모래와 건설업"
+     },
+     {
+      "id": "times:adoption",
+      "word": "adoption",
+      "ko": "채택, 도입",
+      "filled": "Without stronger international regulation and wider adoption of alternatives — such as recycled materials and industrial by-products — the pressure on the world's sand supplies is likely to keep growing alongside the demand for new infrastructure.",
+      "sent_ko": "더 강력한 국제 규제와 재활용 재료 및 산업 부산물 같은 대안의 더 광범위한 채택 없이는, 세계 모래 공급에 대한 압력이 새로운 사회 기반 시설에 대한 수요와 함께 계속 커질 가능성이 높다.",
+      "chunks": [
+       {
+        "en": "Without stronger international regulation",
+        "ko": "더 강력한 국제 규제 없이는"
+       },
+       {
+        "en": "and wider adoption of alternatives",
+        "ko": "그리고 대안의 더 광범위한 채택 없이는"
+       },
+       {
+        "en": "— such as recycled materials and industrial by-products —",
+        "ko": "— 재활용 재료 및 산업 부산물 같은 —"
+       },
+       {
+        "en": "the pressure on the world's sand supplies",
+        "ko": "세계 모래 공급에 대한 압력이"
+       },
+       {
+        "en": "is likely to keep growing",
+        "ko": "계속 커질 가능성이 높다"
+       },
+       {
+        "en": "alongside the demand for new infrastructure.",
+        "ko": "새로운 사회 기반 시설에 대한 수요와 함께."
+       }
+      ],
+      "rp": {
+       "situation": "각국 정부가 모래 대신 재활용 재료를 건설에 쓰기 시작했다는 보도이다.",
+       "prompt": "What change are governments making in construction?",
+       "options": [
+        "The adoption of recycled materials is growing across many countries.",
+        "The adopting of recycled materials is growing across many countries."
+       ],
+       "answer": 0,
+       "why": "adoption은 명사로 주어 자리에 적합하고, adopting은 동명사라 the + 명사 구조에 어색하다."
+      },
+      "topic": "사라지는 모래와 건설업"
+     },
+     {
+      "id": "times:infrastructure",
+      "word": "infrastructure",
+      "ko": "사회 기반 시설",
+      "filled": "Without stronger international regulation and wider adoption of alternatives — such as recycled materials and industrial by-products — the pressure on the world's sand supplies is likely to keep growing alongside the demand for new infrastructure.",
+      "sent_ko": "더 강력한 국제 규제와 재활용 재료 및 산업 부산물 같은 대안의 더 광범위한 채택 없이는, 세계 모래 공급에 대한 압력이 새로운 사회 기반 시설에 대한 수요와 함께 계속 커질 가능성이 높다.",
+      "chunks": [
+       {
+        "en": "Without stronger international regulation",
+        "ko": "더 강력한 국제 규제 없이는"
+       },
+       {
+        "en": "and wider adoption of alternatives",
+        "ko": "그리고 대안의 더 광범위한 채택 없이는"
+       },
+       {
+        "en": "— such as recycled materials and industrial by-products —",
+        "ko": "— 재활용 재료 및 산업 부산물 같은 —"
+       },
+       {
+        "en": "the pressure on the world's sand supplies",
+        "ko": "세계 모래 공급에 대한 압력이"
+       },
+       {
+        "en": "is likely to keep growing",
+        "ko": "계속 커질 가능성이 높다"
+       },
+       {
+        "en": "alongside the demand for new infrastructure.",
+        "ko": "새로운 사회 기반 시설에 대한 수요와 함께."
+       }
+      ],
+      "rp": {
+       "situation": "아시아 도시들이 빠르게 성장하면서 도로와 교량 건설 수요가 급증하고 있다.",
+       "prompt": "Why is sand demand rising so fast in Asia?",
+       "options": [
+        "Growing cities need vast amounts of sand for new infrastructure.",
+        "Growing cities need vast amounts of sand for new infrastructural."
+       ],
+       "answer": 0,
+       "why": "infrastructure는 명사로 전치사 for의 목적어이고, infrastructural은 형용사라 이 자리에 올 수 없다."
+      },
+      "topic": "사라지는 모래와 건설업"
+     },
+     {
+      "id": "times:monitoring",
+      "word": "monitoring",
+      "ko": "모니터링, 감시",
+      "filled": "Monitoring of sand extraction has struggled to keep pace with the speed of demand, leaving many vulnerable ecosystems without adequate protection.",
+      "sent_ko": "모래 채굴에 대한 감시는 수요의 속도를 따라가기 위해 애써왔으며, 많은 취약한 생태계를 충분한 보호 없이 방치하고 있다.",
+      "chunks": [
+       {
+        "en": "Monitoring of sand extraction",
+        "ko": "모래 채굴에 대한 감시는"
+       },
+       {
+        "en": "has struggled to keep pace",
+        "ko": "속도를 따라가기 위해 애써왔다"
+       },
+       {
+        "en": "with the speed of demand,",
+        "ko": "수요의 속도와,"
+       },
+       {
+        "en": "leaving many vulnerable ecosystems",
+        "ko": "많은 취약한 생태계를 방치하면서"
+       },
+       {
+        "en": "without adequate protection.",
+        "ko": "충분한 보호 없이."
+       }
+      ],
+      "rp": {
+       "situation": "환경 기관이 불법 모래 채굴 현장을 제대로 감시하지 못하고 있다는 보고이다.",
+       "prompt": "Is the government tracking illegal sand mining effectively?",
+       "options": [
+        "No — monitoring of sand extraction has not kept pace with demand.",
+        "No — to monitor of sand extraction has not kept pace with demand."
+       ],
+       "answer": 0,
+       "why": "monitoring은 명사로 주어 역할을 하고, to monitor는 부정사라 이 주어 자리에 어색하다."
+      },
+      "topic": "사라지는 모래와 건설업"
      }
     ]
    }
