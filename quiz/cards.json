@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23 08:48:50",
+ "generated": "2026-09-23 08:50:23",
  "levels": {
   "kinder": [
    {
@@ -14227,6 +14227,361 @@
        "why": "style은 명사로 art style이라는 자연스러운 표현을 만들고, styling은 이 문맥에서 어색하다."
       },
       "topic": "웹툰이 해외로 나가는 길"
+     }
+    ]
+   },
+   {
+    "id": "junior|코딩 수업이 남긴 것",
+    "level": "junior",
+    "topic": "코딩 수업이 남긴 것",
+    "section": "교육",
+    "week": "2026-09-21",
+    "tf": [
+     {
+      "s": "Coding classes are now offered in many schools around the world.",
+      "a": true
+     },
+     {
+      "s": "Coding is only useful as a computer skill and does not help with other subjects.",
+      "a": false
+     },
+     {
+      "s": "Some studies suggest that learning to code may help students get better at math.",
+      "a": true
+     },
+     {
+      "s": "The article says that coding skills are becoming less important as technology grows.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "junior:coding",
+      "word": "coding",
+      "ko": "코딩, 컴퓨터 프로그래밍 언어를 작성하는 것",
+      "filled": "Coding is more than just a computer skill.",
+      "sent_ko": "코딩은 단순한 컴퓨터 기술 그 이상입니다.",
+      "chunks": [
+       {
+        "en": "Coding",
+        "ko": "코딩은"
+       },
+       {
+        "en": "is more than",
+        "ko": "~보다 더하다 / 그 이상이다"
+       },
+       {
+        "en": "just a computer skill.",
+        "ko": "단순한 컴퓨터 기술"
+       }
+      ],
+      "rp": {
+       "situation": "선생님이 학생들에게 코딩 수업에 대해 설명하고 있다.",
+       "prompt": "What do you think about coding class?",
+       "options": [
+        "Coding is more than just a computer skill.",
+        "Coding is more than just a computer skilled."
+       ],
+       "answer": 0,
+       "why": "명사 자리에는 형용사형 'skilled'가 아닌 명사 'skill'이 와야 한다."
+      },
+      "topic": "코딩 수업이 남긴 것"
+     },
+     {
+      "id": "junior:instruction",
+      "word": "instruction",
+      "ko": "지시, 설명, 사용 방법을 알려주는 안내",
+      "filled": "Students learn to write instructions that computers can follow.",
+      "sent_ko": "학생들은 컴퓨터가 따를 수 있는 지시문 쓰는 법을 배웁니다.",
+      "chunks": [
+       {
+        "en": "Students learn",
+        "ko": "학생들은 배운다"
+       },
+       {
+        "en": "to write instructions",
+        "ko": "지시문을 쓰는 것을"
+       },
+       {
+        "en": "that computers can follow.",
+        "ko": "컴퓨터가 따를 수 있는"
+       }
+      ],
+      "rp": {
+       "situation": "코딩 수업에서 학생이 컴퓨터에게 단계별 명령을 작성하고 있다.",
+       "prompt": "What are you writing for the computer?",
+       "options": [
+        "I'm writing instructions for it to follow.",
+        "I'm writing instruction for it to follow."
+       ],
+       "answer": 0,
+       "why": "컴퓨터가 따르는 여러 단계의 명령이므로 복수형 'instructions'가 맞다."
+      },
+      "topic": "코딩 수업이 남긴 것"
+     },
+     {
+      "id": "junior:programming",
+      "word": "programming",
+      "ko": "프로그래밍, 컴퓨터 프로그램을 만드는 과정",
+      "filled": "This kind of learning is called programming.",
+      "sent_ko": "이런 종류의 학습을 프로그래밍이라고 합니다.",
+      "chunks": [
+       {
+        "en": "This kind of learning",
+        "ko": "이런 종류의 학습을"
+       },
+       {
+        "en": "is called",
+        "ko": "~라고 불린다"
+       },
+       {
+        "en": "programming.",
+        "ko": "프로그래밍"
+       }
+      ],
+      "rp": {
+       "situation": "학생이 컴퓨터에 명령어를 입력해 프로그램을 만드는 수업을 듣고 있다.",
+       "prompt": "What is this kind of learning called?",
+       "options": [
+        "It is called programming.",
+        "It is called programmed."
+       ],
+       "answer": 0,
+       "why": "학습의 이름을 나타내는 명사 'programming'이 와야 하며, 과거분사 'programmed'는 틀리다."
+      },
+      "topic": "코딩 수업이 남긴 것"
+     },
+     {
+      "id": "junior:logical",
+      "word": "logical",
+      "ko": "논리적인, 이치에 맞는",
+      "filled": "This helps them practise logical thinking.",
+      "sent_ko": "이것은 학생들이 논리적 사고를 연습하는 데 도움이 됩니다.",
+      "chunks": [
+       {
+        "en": "This helps them",
+        "ko": "이것은 그들이 ~하도록 돕는다"
+       },
+       {
+        "en": "practise",
+        "ko": "연습하다"
+       },
+       {
+        "en": "logical thinking.",
+        "ko": "논리적 사고를"
+       }
+      ],
+      "rp": {
+       "situation": "코딩 수업에서 학생이 문제를 단계별로 차근차근 풀어나가고 있다.",
+       "prompt": "How would you describe this student's thinking?",
+       "options": [
+        "She is using logical thinking.",
+        "She is using logically thinking."
+       ],
+       "answer": 0,
+       "why": "명사 'thinking'을 수식할 때는 부사 'logically'가 아닌 형용사 'logical'이 와야 한다."
+      },
+      "topic": "코딩 수업이 남긴 것"
+     },
+     {
+      "id": "junior:solution",
+      "word": "solution",
+      "ko": "해결책, 문제를 해결하는 방법",
+      "filled": "When students work through a coding problem, they have to think carefully and try different solutions.",
+      "sent_ko": "학생들이 코딩 문제를 해결해 나갈 때, 그들은 신중하게 생각하고 다양한 해결책을 시도해야 합니다.",
+      "chunks": [
+       {
+        "en": "When students work through a coding problem,",
+        "ko": "학생들이 코딩 문제를 해결해 나갈 때"
+       },
+       {
+        "en": "they have to think carefully",
+        "ko": "그들은 신중하게 생각해야 한다"
+       },
+       {
+        "en": "and try different solutions.",
+        "ko": "그리고 다양한 해결책을 시도해야 한다"
+       }
+      ],
+      "rp": {
+       "situation": "코딩 수업에서 학생이 오류가 난 코드를 고치려고 여러 방법을 시도하고 있다.",
+       "prompt": "What should you do when your code doesn't work?",
+       "options": [
+        "Try different solutions until it works.",
+        "Try different solution until it works."
+       ],
+       "answer": 0,
+       "why": "여러 방법을 시도하는 상황이므로 복수형 'solutions'가 맞다."
+      },
+      "topic": "코딩 수업이 남긴 것"
+     },
+     {
+      "id": "junior:improve",
+      "word": "improve",
+      "ko": "향상시키다, 더 나아지게 하다",
+      "filled": "Some studies suggest that students who learn coding may also improve in subjects like math.",
+      "sent_ko": "일부 연구들은 코딩을 배우는 학생들이 수학 같은 과목에서도 향상될 수 있다고 제안합니다.",
+      "chunks": [
+       {
+        "en": "Some studies suggest",
+        "ko": "일부 연구들은 제안한다"
+       },
+       {
+        "en": "that students who learn coding",
+        "ko": "코딩을 배우는 학생들이"
+       },
+       {
+        "en": "may also improve",
+        "ko": "향상될 수도 있다고"
+       },
+       {
+        "en": "in subjects like math.",
+        "ko": "수학 같은 과목에서"
+       }
+      ],
+      "rp": {
+       "situation": "코딩 수업을 들은 학생이 수학 시험에서 더 좋은 점수를 받았다.",
+       "prompt": "What happened to her math grade after coding class?",
+       "options": [
+        "Her math grade started to improve.",
+        "Her math grade started to improving."
+       ],
+       "answer": 0,
+       "why": "'started to' 다음에는 동사원형이 와야 하므로 'improving'은 틀리다."
+      },
+      "topic": "코딩 수업이 남긴 것"
+     },
+     {
+      "id": "junior:valuable",
+      "word": "valuable",
+      "ko": "가치 있는, 소중한",
+      "filled": "As technology grows, coding skills are becoming more valuable.",
+      "sent_ko": "기술이 발전함에 따라, 코딩 기술은 점점 더 가치 있게 되고 있습니다.",
+      "chunks": [
+       {
+        "en": "As technology grows,",
+        "ko": "기술이 발전함에 따라"
+       },
+       {
+        "en": "coding skills",
+        "ko": "코딩 기술은"
+       },
+       {
+        "en": "are becoming more valuable.",
+        "ko": "점점 더 가치 있게 되고 있다"
+       }
+      ],
+      "rp": {
+       "situation": "선생님이 미래 직업 시장에서 코딩 능력의 중요성을 설명하고 있다.",
+       "prompt": "Why should students learn coding?",
+       "options": [
+        "Coding skills are becoming more valuable.",
+        "Coding skills are becoming more valuably."
+       ],
+       "answer": 0,
+       "why": "'becoming' 뒤에는 형용사 'valuable'이 와야 하며, 부사 'valuably'는 틀리다."
+      },
+      "topic": "코딩 수업이 남긴 것"
+     },
+     {
+      "id": "junior:technology",
+      "word": "technology",
+      "ko": "기술, 과학적 지식을 활용한 도구나 시스템",
+      "filled": "As technology grows, coding skills are becoming more valuable.",
+      "sent_ko": "기술이 발전함에 따라, 코딩 기술은 점점 더 가치 있게 되고 있습니다.",
+      "chunks": [
+       {
+        "en": "As technology grows,",
+        "ko": "기술이 발전함에 따라"
+       },
+       {
+        "en": "coding skills",
+        "ko": "코딩 기술은"
+       },
+       {
+        "en": "are becoming more valuable.",
+        "ko": "점점 더 가치 있게 되고 있다"
+       }
+      ],
+      "rp": {
+       "situation": "코딩 수업에서 선생님이 컴퓨터와 디지털 도구들이 세상에서 점점 커지고 있다고 말한다.",
+       "prompt": "What is happening in our world today?",
+       "options": [
+        "Technology is growing very fast.",
+        "Technology is grown very fast."
+       ],
+       "answer": 0,
+       "why": "현재 진행 중인 변화를 나타내므로 현재진행형 'is growing'이 맞고, 'is grown'은 틀리다."
+      },
+      "topic": "코딩 수업이 남긴 것"
+     },
+     {
+      "id": "junior:skill",
+      "word": "skill",
+      "ko": "기술, 능력, 숙련된 역량",
+      "filled": "Coding is more than just a computer skill.",
+      "sent_ko": "코딩은 단순한 컴퓨터 기술 그 이상입니다.",
+      "chunks": [
+       {
+        "en": "Coding",
+        "ko": "코딩은"
+       },
+       {
+        "en": "is more than",
+        "ko": "~보다 더하다 / 그 이상이다"
+       },
+       {
+        "en": "just a computer skill.",
+        "ko": "단순한 컴퓨터 기술"
+       }
+      ],
+      "rp": {
+       "situation": "학생이 코딩 수업을 통해 컴퓨터 다루는 능력을 키우고 있다.",
+       "prompt": "How would you describe what coding gives you?",
+       "options": [
+        "Coding gives you a useful skill.",
+        "Coding gives you a useful skills."
+       ],
+       "answer": 0,
+       "why": "부정관사 'a' 다음에는 단수명사가 와야 하므로 복수형 'skills'는 틀리다."
+      },
+      "topic": "코딩 수업이 남긴 것"
+     },
+     {
+      "id": "junior:future",
+      "word": "future",
+      "ko": "미래, 앞으로 올 시간",
+      "filled": "Many jobs in the future will need people who understand how computers work.",
+      "sent_ko": "미래의 많은 직업들은 컴퓨터가 어떻게 작동하는지 이해하는 사람들을 필요로 할 것입니다.",
+      "chunks": [
+       {
+        "en": "Many jobs in the future",
+        "ko": "미래의 많은 직업들은"
+       },
+       {
+        "en": "will need people",
+        "ko": "사람들을 필요로 할 것이다"
+       },
+       {
+        "en": "who understand",
+        "ko": "이해하는"
+       },
+       {
+        "en": "how computers work.",
+        "ko": "컴퓨터가 어떻게 작동하는지"
+       }
+      ],
+      "rp": {
+       "situation": "코딩 수업에서 선생님이 앞으로 생겨날 직업들에 대해 이야기하고 있다.",
+       "prompt": "Why is coding important for students today?",
+       "options": [
+        "Many future jobs will need coding skills.",
+        "Many future jobs will need coding skilled."
+       ],
+       "answer": 0,
+       "why": "명사 'jobs'에 필요한 것을 나타낼 때 명사 'skills'가 와야 하며, 형용사 'skilled'는 틀리다."
+      },
+      "topic": "코딩 수업이 남긴 것"
      }
     ]
    }
