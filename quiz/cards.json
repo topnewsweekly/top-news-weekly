@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23 08:46:20",
+ "generated": "2026-09-23 08:46:47",
  "levels": {
   "kinder": [
    {
@@ -13122,6 +13122,377 @@
        "why": "영어에서 형용사 보어는 동사 뒤에 오므로 sounded very different가 맞고, b의 어순은 틀렸다."
       },
       "topic": "챗봇이 쓴 숙제를 가려내는 학교"
+     }
+    ]
+   },
+   {
+    "id": "junior|배달비가 오르면 생기는 일",
+    "level": "junior",
+    "topic": "배달비가 오르면 생기는 일",
+    "section": "경제",
+    "week": "2026-09-21",
+    "tf": [
+     {
+      "s": "People in South Korea order food through apps millions of times every day.",
+      "a": true
+     },
+     {
+      "s": "Delivery fees have been going down because fuel has become cheaper.",
+      "a": false
+     },
+     {
+      "s": "Some customers stop using delivery apps and cook at home when fees get too high.",
+      "a": true
+     },
+     {
+      "s": "Higher delivery fees always mean that restaurants earn more profit.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "junior:delivery",
+      "word": "delivery",
+      "ko": "배달, 배송",
+      "filled": "Delivery fees go up for several reasons.",
+      "sent_ko": "배달 요금은 여러 가지 이유로 오릅니다.",
+      "chunks": [
+       {
+        "en": "Delivery fees",
+        "ko": "배달 요금은"
+       },
+       {
+        "en": "go up",
+        "ko": "오릅니다"
+       },
+       {
+        "en": "for several reasons.",
+        "ko": "여러 가지 이유로"
+       }
+      ],
+      "rp": {
+       "situation": "앱을 통해 음식을 주문하는 배달 서비스에 대해 이야기하고 있다.",
+       "prompt": "How do people get food without going to a restaurant?",
+       "options": [
+        "They use delivery apps to order meals.",
+        "They use deliver apps to order meals."
+       ],
+       "answer": 0,
+       "why": "'delivery'는 명사로 써야 하며, 'deliver'는 동사라 명사 자리에 쓸 수 없습니다."
+      },
+      "topic": "배달비가 오르면 생기는 일"
+     },
+     {
+      "id": "junior:fee",
+      "word": "fee",
+      "ko": "요금, 수수료",
+      "filled": "Delivery fees go up for several reasons.",
+      "sent_ko": "배달 요금은 여러 가지 이유로 오릅니다.",
+      "chunks": [
+       {
+        "en": "Delivery fees",
+        "ko": "배달 요금은"
+       },
+       {
+        "en": "go up",
+        "ko": "오릅니다"
+       },
+       {
+        "en": "for several reasons.",
+        "ko": "여러 가지 이유로"
+       }
+      ],
+      "rp": {
+       "situation": "손님이 앱으로 음식을 주문할 때 추가로 내는 돈에 대해 묻고 있다.",
+       "prompt": "What do customers have to pay extra when they order through the app?",
+       "options": [
+        "They have to pay a delivery fee.",
+        "They have to pay a delivery cost."
+       ],
+       "answer": 0,
+       "why": "앱 사용 시 부과되는 금액은 'fee'가 자연스러운 표현이고, 'cost'는 이 맥락에서 어색합니다."
+      },
+      "topic": "배달비가 오르면 생기는 일"
+     },
+     {
+      "id": "junior:rise",
+      "word": "rise",
+      "ko": "오르다, 상승",
+      "filled": "When fees rise too high, some people stop ordering delivery altogether.",
+      "sent_ko": "요금이 너무 많이 오르면, 어떤 사람들은 배달 음식 주문을 아예 그만둡니다.",
+      "chunks": [
+       {
+        "en": "When fees rise too high,",
+        "ko": "요금이 너무 많이 오르면"
+       },
+       {
+        "en": "some people",
+        "ko": "어떤 사람들은"
+       },
+       {
+        "en": "stop ordering delivery",
+        "ko": "배달 주문을 그만둡니다"
+       },
+       {
+        "en": "altogether.",
+        "ko": "아예"
+       }
+      ],
+      "rp": {
+       "situation": "기사에서 배달 요금이 계속 높아지는 상황을 설명하고 있다.",
+       "prompt": "What is happening to delivery fees in South Korea?",
+       "options": [
+        "Delivery fees are rising steadily.",
+        "Delivery fees are raising steadily."
+       ],
+       "answer": 0,
+       "why": "'rise'는 자동사로 주어가 스스로 오르고, 'raise'는 타동사라 목적어가 필요합니다."
+      },
+      "topic": "배달비가 오르면 생기는 일"
+     },
+     {
+      "id": "junior:fuel",
+      "word": "fuel",
+      "ko": "연료, 연료를 공급하다",
+      "filled": "Fuel costs more, so drivers spend more money on each trip.",
+      "sent_ko": "연료 값이 더 비싸서, 기사들은 매 운행마다 돈을 더 씁니다.",
+      "chunks": [
+       {
+        "en": "Fuel costs more,",
+        "ko": "연료 값이 더 비싸서"
+       },
+       {
+        "en": "so drivers",
+        "ko": "그래서 기사들은"
+       },
+       {
+        "en": "spend more money",
+        "ko": "돈을 더 씁니다"
+       },
+       {
+        "en": "on each trip.",
+        "ko": "매 운행마다"
+       }
+      ],
+      "rp": {
+       "situation": "배달 기사가 운행할 때 드는 비용에 대해 이야기하고 있다.",
+       "prompt": "Why do drivers spend more money on each trip now?",
+       "options": [
+        "Because fuel costs more these days.",
+        "Because fuel is more expensive to drive."
+       ],
+       "answer": 0,
+       "why": "'fuel costs more'는 자연스러운 표현이고, 'expensive to drive'는 fuel과 어울리지 않는 어색한 표현입니다."
+      },
+      "topic": "배달비가 오르면 생기는 일"
+     },
+     {
+      "id": "junior:charge",
+      "word": "charge",
+      "ko": "청구하다, 요금을 부과하다",
+      "filled": "Apps also charge higher service fees to both restaurants and customers to cover their costs.",
+      "sent_ko": "앱은 또한 비용을 충당하기 위해 식당과 고객 모두에게 더 높은 서비스 요금을 부과합니다.",
+      "chunks": [
+       {
+        "en": "Apps also charge",
+        "ko": "앱은 또한 부과합니다"
+       },
+       {
+        "en": "higher service fees",
+        "ko": "더 높은 서비스 요금을"
+       },
+       {
+        "en": "to both restaurants and customers",
+        "ko": "식당과 고객 모두에게"
+       },
+       {
+        "en": "to cover their costs.",
+        "ko": "비용을 충당하기 위해"
+       }
+      ],
+      "rp": {
+       "situation": "배달 앱이 식당과 고객에게 추가 요금을 부과하는 상황이다.",
+       "prompt": "What do delivery apps do to cover their costs?",
+       "options": [
+        "They charge higher service fees.",
+        "They cost higher service fees."
+       ],
+       "answer": 0,
+       "why": "'charge'는 요금을 부과한다는 동사로 맞고, 'cost'는 이 구조에서 동사로 쓸 수 없습니다."
+      },
+      "topic": "배달비가 오르면 생기는 일"
+     },
+     {
+      "id": "junior:service",
+      "word": "service",
+      "ko": "서비스, 용역",
+      "filled": "Apps also charge higher service fees to both restaurants and customers to cover their costs.",
+      "sent_ko": "앱은 또한 비용을 충당하기 위해 식당과 고객 모두에게 더 높은 서비스 요금을 부과합니다.",
+      "chunks": [
+       {
+        "en": "Apps also charge",
+        "ko": "앱은 또한 부과합니다"
+       },
+       {
+        "en": "higher service fees",
+        "ko": "더 높은 서비스 요금을"
+       },
+       {
+        "en": "to both restaurants and customers",
+        "ko": "식당과 고객 모두에게"
+       },
+       {
+        "en": "to cover their costs.",
+        "ko": "비용을 충당하기 위해"
+       }
+      ],
+      "rp": {
+       "situation": "배달 앱이 식당에 부과하는 요금의 종류를 설명하고 있다.",
+       "prompt": "What kind of fees do apps charge to restaurants?",
+       "options": [
+        "They charge service fees to restaurants.",
+        "They charge serving fees to restaurants."
+       ],
+       "answer": 0,
+       "why": "'service fee'는 고정된 표현이고, 'serving fee'는 존재하지 않는 어색한 표현입니다."
+      },
+      "topic": "배달비가 오르면 생기는 일"
+     },
+     {
+      "id": "junior:struggle",
+      "word": "struggle",
+      "ko": "어려움을 겪다, 힘들어하다",
+      "filled": "Small restaurants can struggle because they lose regular customers and earn less money.",
+      "sent_ko": "작은 식당들은 단골 고객을 잃고 수입이 줄기 때문에 어려움을 겪을 수 있습니다.",
+      "chunks": [
+       {
+        "en": "Small restaurants can struggle",
+        "ko": "작은 식당들은 어려움을 겪을 수 있습니다"
+       },
+       {
+        "en": "because they lose regular customers",
+        "ko": "단골 고객을 잃기 때문에"
+       },
+       {
+        "en": "and earn less money.",
+        "ko": "그리고 수입이 줄기 때문에"
+       }
+      ],
+      "rp": {
+       "situation": "배달 요금이 올라서 손님이 줄어든 작은 식당 주인에 대해 이야기하고 있다.",
+       "prompt": "How is the small restaurant doing after losing regular customers?",
+       "options": [
+        "The restaurant is struggling to earn enough money.",
+        "The restaurant is troubling to earn enough money."
+       ],
+       "answer": 0,
+       "why": "'struggle to'는 어려움을 겪는다는 자연스러운 표현이고, 'trouble to'는 이 의미로 쓸 수 없습니다."
+      },
+      "topic": "배달비가 오르면 생기는 일"
+     },
+     {
+      "id": "junior:afford",
+      "word": "afford",
+      "ko": "~할 여유가 있다, 감당할 수 있다",
+      "filled": "After losing his job, he could no longer afford to eat at restaurants or go on vacation.",
+      "sent_ko": "직장을 잃은 후, 그는 더 이상 식당에서 밥을 먹거나 휴가를 갈 여유가 없었습니다.",
+      "chunks": [
+       {
+        "en": "After losing his job,",
+        "ko": "직장을 잃은 후"
+       },
+       {
+        "en": "he could no longer",
+        "ko": "그는 더 이상 ~할 수 없었습니다"
+       },
+       {
+        "en": "afford to eat at restaurants",
+        "ko": "식당에서 밥을 먹을 여유가"
+       },
+       {
+        "en": "or go on vacation.",
+        "ko": "또는 휴가를 갈"
+       }
+      ],
+      "rp": {
+       "situation": "배달 요금이 너무 올라서 더 이상 배달 음식을 시키지 못하는 고객에 대해 이야기하고 있다.",
+       "prompt": "Why did the customer stop ordering delivery food?",
+       "options": [
+        "She can't afford the delivery fees anymore.",
+        "She can't afford the delivery fees no more."
+       ],
+       "answer": 0,
+       "why": "'anymore'가 부정문에서 쓰는 올바른 표현이고, 'no more'는 이 위치에서 문법적으로 틀립니다."
+      },
+      "topic": "배달비가 오르면 생기는 일"
+     },
+     {
+      "id": "junior:customer",
+      "word": "customer",
+      "ko": "고객, 손님",
+      "filled": "Customers spend more, and restaurants earn less profit.",
+      "sent_ko": "고객들은 더 많이 지출하고, 식당들은 이익을 덜 법니다.",
+      "chunks": [
+       {
+        "en": "Customers spend more,",
+        "ko": "고객들은 더 많이 지출하고"
+       },
+       {
+        "en": "and restaurants",
+        "ko": "그리고 식당들은"
+       },
+       {
+        "en": "earn less profit.",
+        "ko": "이익을 덜 법니다"
+       }
+      ],
+      "rp": {
+       "situation": "배달 앱을 통해 음식을 주문하는 사람들에 대해 이야기하고 있다.",
+       "prompt": "Who pays more because of the higher delivery fees?",
+       "options": [
+        "The customers pay more.",
+        "The consumers pay more."
+       ],
+       "answer": 0,
+       "why": "기사에서 배달 앱을 이용하는 사람을 'customer'로 표현했으므로 같은 단어를 써야 합니다."
+      },
+      "topic": "배달비가 오르면 생기는 일"
+     },
+     {
+      "id": "junior:fair",
+      "word": "fair",
+      "ko": "공정한, 합당한",
+      "filled": "Workers went on strike because they felt their wages were not fair for the amount of work they did.",
+      "sent_ko": "노동자들은 자신들이 하는 일의 양에 비해 임금이 공정하지 않다고 느꼈기 때문에 파업을 했습니다.",
+      "chunks": [
+       {
+        "en": "Workers went on strike",
+        "ko": "노동자들은 파업을 했습니다"
+       },
+       {
+        "en": "because they felt",
+        "ko": "왜냐하면 그들은 느꼈기 때문입니다"
+       },
+       {
+        "en": "their wages were not fair",
+        "ko": "임금이 공정하지 않다고"
+       },
+       {
+        "en": "for the amount of work they did.",
+        "ko": "그들이 한 일의 양에 비해"
+       }
+      ],
+      "rp": {
+       "situation": "배달 비용을 모두가 어떻게 나눠야 할지 논의하는 상황이다.",
+       "prompt": "How should delivery costs be shared between apps, restaurants, and customers?",
+       "options": [
+        "The costs should be shared fairly.",
+        "The costs should be shared fair."
+       ],
+       "answer": 0,
+       "why": "동사를 꾸밀 때는 부사 'fairly'를 써야 하며, 형용사 'fair'는 동사를 수식할 수 없습니다."
+      },
+      "topic": "배달비가 오르면 생기는 일"
      }
     ]
    }
