@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23 08:36:13",
+ "generated": "2026-09-23 08:36:24",
  "levels": {
   "kinder": [
    {
@@ -2097,6 +2097,193 @@
        "why": "sunlight는 명사로 '햇빛'이고, sunny는 형용사라 동사 use의 목적어로 쓸 수 없어요."
       },
       "topic": "낙엽은 왜 색이 변할까"
+     }
+    ]
+   },
+   {
+    "id": "kinder|개미는 길을 어떻게 찾을까",
+    "level": "kinder",
+    "topic": "개미는 길을 어떻게 찾을까",
+    "section": "과학",
+    "week": "2026-09-21",
+    "tf": [
+     {
+      "s": "Ants are tiny bugs.",
+      "a": true
+     },
+     {
+      "s": "Ants stay home and do not walk far.",
+      "a": false
+     },
+     {
+      "s": "Some ants look at the sun to find the way home.",
+      "a": true
+     },
+     {
+      "s": "Ants are not smart.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "kinder:ants",
+      "word": "ants",
+      "ko": "개미",
+      "filled": "Ants are tiny bugs.",
+      "sent_ko": "개미는 아주 작은 벌레예요.",
+      "chunks": [
+       {
+        "en": "Ants",
+        "ko": "개미는"
+       },
+       {
+        "en": "are",
+        "ko": "~이에요"
+       },
+       {
+        "en": "tiny bugs.",
+        "ko": "아주 작은 벌레"
+       }
+      ],
+      "rp": {
+       "situation": "땅 위를 줄지어 걷는 작은 벌레들을 보고 있어요.",
+       "prompt": "What are those?",
+       "options": [
+        "They are ants.",
+        "They is ants."
+       ],
+       "answer": 0,
+       "why": "주어가 복수(They)이므로 'are'를 써야 해요."
+      },
+      "topic": "개미는 길을 어떻게 찾을까"
+     },
+     {
+      "id": "kinder:trail",
+      "word": "trail",
+      "ko": "길, 흔적",
+      "filled": "They follow a smell trail!",
+      "sent_ko": "개미들은 냄새 길을 따라가요!",
+      "chunks": [
+       {
+        "en": "They",
+        "ko": "개미들은"
+       },
+       {
+        "en": "follow",
+        "ko": "따라가요"
+       },
+       {
+        "en": "a smell trail!",
+        "ko": "냄새 길을"
+       }
+      ],
+      "rp": {
+       "situation": "개미들이 냄새를 맡으며 집으로 돌아가고 있어요.",
+       "prompt": "How do the ants find their way?",
+       "options": [
+        "They follow a smell trail.",
+        "They follow a smell road."
+       ],
+       "answer": 0,
+       "why": "냄새로 만들어진 길은 'trail'이라고 해요. 'road'는 차가 다니는 도로예요."
+      },
+      "topic": "개미는 길을 어떻게 찾을까"
+     },
+     {
+      "id": "kinder:food",
+      "word": "food",
+      "ko": "음식",
+      "filled": "They walk far to find food.",
+      "sent_ko": "개미들은 음식을 찾으러 멀리 걸어가요.",
+      "chunks": [
+       {
+        "en": "They walk far",
+        "ko": "멀리 걸어가요"
+       },
+       {
+        "en": "to find",
+        "ko": "찾으러"
+       },
+       {
+        "en": "food.",
+        "ko": "음식을"
+       }
+      ],
+      "rp": {
+       "situation": "개미 한 마리가 땅 위를 멀리멀리 걸어가고 있어요.",
+       "prompt": "Why does the ant walk so far?",
+       "options": [
+        "It walks far to find food.",
+        "It walks far to found food."
+       ],
+       "answer": 0,
+       "why": "'to' 뒤에는 동사 원형 'find'를 써야 해요."
+      },
+      "topic": "개미는 길을 어떻게 찾을까"
+     },
+     {
+      "id": "kinder:home",
+      "word": "home",
+      "ko": "집",
+      "filled": "How do they get home?",
+      "sent_ko": "개미들은 어떻게 집에 돌아오나요?",
+      "chunks": [
+       {
+        "en": "How",
+        "ko": "어떻게"
+       },
+       {
+        "en": "do they",
+        "ko": "개미들은"
+       },
+       {
+        "en": "get home?",
+        "ko": "집에 돌아와요?"
+       }
+      ],
+      "rp": {
+       "situation": "개미들이 먹이를 찾은 뒤 집으로 돌아가려고 해요.",
+       "prompt": "Where are the ants going now?",
+       "options": [
+        "They are getting home.",
+        "They are getting house."
+       ],
+       "answer": 0,
+       "why": "'집으로 돌아가다'는 'get home'이에요. 'house'는 단독으로 목적지가 될 수 없어요."
+      },
+      "topic": "개미는 길을 어떻게 찾을까"
+     },
+     {
+      "id": "kinder:moon",
+      "word": "moon",
+      "ko": "달",
+      "filled": "Some ants even use the moon at night.",
+      "sent_ko": "어떤 개미들은 밤에 달을 이용하기도 해요.",
+      "chunks": [
+       {
+        "en": "Some ants",
+        "ko": "어떤 개미들은"
+       },
+       {
+        "en": "even use",
+        "ko": "이용하기도 해요"
+       },
+       {
+        "en": "the moon at night.",
+        "ko": "밤에 달을"
+       }
+      ],
+      "rp": {
+       "situation": "밤하늘 아래 개미들이 길을 찾고 있어요.",
+       "prompt": "What do some ants use at night?",
+       "options": [
+        "They use the moon.",
+        "They use a moon."
+       ],
+       "answer": 0,
+       "why": "달은 하나뿐이므로 'the moon'이라고 써야 해요."
+      },
+      "topic": "개미는 길을 어떻게 찾을까"
      }
     ]
    }
