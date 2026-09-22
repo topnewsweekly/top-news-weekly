@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23 08:50:23",
+ "generated": "2026-09-23 08:51:01",
  "levels": {
   "kinder": [
    {
@@ -14582,6 +14582,389 @@
        "why": "명사 'jobs'에 필요한 것을 나타낼 때 명사 'skills'가 와야 하며, 형용사 'skilled'는 틀리다."
       },
       "topic": "코딩 수업이 남긴 것"
+     }
+    ]
+   },
+   {
+    "id": "junior|우주 쓰레기를 치우는 계획",
+    "level": "junior",
+    "topic": "우주 쓰레기를 치우는 계획",
+    "section": "세계",
+    "week": "2026-09-21",
+    "tf": [
+     {
+      "s": "Space debris includes broken satellites and rocket pieces that float around Earth.",
+      "a": true
+     },
+     {
+      "s": "Small pieces of space debris are not dangerous because they move too slowly to cause damage.",
+      "a": false
+     },
+     {
+      "s": "One cleanup plan uses a spacecraft with robotic arms to grab old satellites.",
+      "a": true
+     },
+     {
+      "s": "NASA believes that cleaning up space is not yet an urgent problem.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "junior:debris",
+      "word": "debris",
+      "ko": "잔해, 파편",
+      "filled": "Another plan fires pulses of gas at debris to slow it down.",
+      "sent_ko": "또 다른 계획은 잔해의 속도를 늦추기 위해 잔해에 가스 펄스를 발사한다.",
+      "chunks": [
+       {
+        "en": "Another plan",
+        "ko": "또 다른 계획은"
+       },
+       {
+        "en": "fires pulses of gas",
+        "ko": "가스 펄스를 발사한다"
+       },
+       {
+        "en": "at debris",
+        "ko": "잔해에"
+       },
+       {
+        "en": "to slow it down.",
+        "ko": "속도를 늦추기 위해"
+       }
+      ],
+      "rp": {
+       "situation": "우주 청소 우주선이 떠다니는 파편에 가스를 쏘고 있다.",
+       "prompt": "What is the spacecraft shooting gas at?",
+       "options": [
+        "It is shooting gas at the debris.",
+        "It is shooting gas at the debrise."
+       ],
+       "answer": 0,
+       "why": "debris는 단수형과 복수형이 같으며 debrise는 잘못된 철자다."
+      },
+      "topic": "우주 쓰레기를 치우는 계획"
+     },
+     {
+      "id": "junior:satellite",
+      "word": "satellite",
+      "ko": "인공위성",
+      "filled": "This junk threatens working satellites that people depend on every day.",
+      "sent_ko": "이 쓰레기는 사람들이 매일 의존하는 작동 중인 인공위성들을 위협한다.",
+      "chunks": [
+       {
+        "en": "This junk threatens",
+        "ko": "이 쓰레기는 위협한다"
+       },
+       {
+        "en": "working satellites",
+        "ko": "작동 중인 인공위성들을"
+       },
+       {
+        "en": "that people depend on",
+        "ko": "사람들이 의존하는"
+       },
+       {
+        "en": "every day.",
+        "ko": "매일"
+       }
+      ],
+      "rp": {
+       "situation": "우주 파편이 지구 궤도를 돌며 통신 인공위성 쪽으로 빠르게 접근하고 있다.",
+       "prompt": "What could the debris hit?",
+       "options": [
+        "It could hit a working satellite.",
+        "It could hit a working satellites."
+       ],
+       "answer": 0,
+       "why": "a 뒤에는 단수형 satellite가 와야 하므로 복수형 satellites는 문법에 맞지 않다."
+      },
+      "topic": "우주 쓰레기를 치우는 계획"
+     },
+     {
+      "id": "junior:spacecraft",
+      "word": "spacecraft",
+      "ko": "우주선",
+      "filled": "It can also damage spacecraft that carry astronauts on important missions.",
+      "sent_ko": "그것은 또한 중요한 임무에서 우주 비행사들을 태우는 우주선도 손상시킬 수 있다.",
+      "chunks": [
+       {
+        "en": "It can also damage",
+        "ko": "그것은 또한 손상시킬 수 있다"
+       },
+       {
+        "en": "spacecraft",
+        "ko": "우주선을"
+       },
+       {
+        "en": "that carry astronauts",
+        "ko": "우주 비행사들을 태우는"
+       },
+       {
+        "en": "on important missions.",
+        "ko": "중요한 임무에서"
+       }
+      ],
+      "rp": {
+       "situation": "우주 파편이 우주 비행사들을 태우고 임무를 수행 중인 우주선 근처를 지나가고 있다.",
+       "prompt": "What might the debris damage?",
+       "options": [
+        "It might damage the spacecraft.",
+        "It might damage the spacecrafts."
+       ],
+       "answer": 0,
+       "why": "spacecraft는 복수형도 spacecraft로 같으므로 spacecrafts는 잘못된 형태다."
+      },
+      "topic": "우주 쓰레기를 치우는 계획"
+     },
+     {
+      "id": "junior:astronaut",
+      "word": "astronaut",
+      "ko": "우주 비행사",
+      "filled": "It can also damage spacecraft that carry astronauts on important missions.",
+      "sent_ko": "그것은 또한 중요한 임무에서 우주 비행사들을 태우는 우주선도 손상시킬 수 있다.",
+      "chunks": [
+       {
+        "en": "It can also damage",
+        "ko": "그것은 또한 손상시킬 수 있다"
+       },
+       {
+        "en": "spacecraft",
+        "ko": "우주선을"
+       },
+       {
+        "en": "that carry astronauts",
+        "ko": "우주 비행사들을 태우는"
+       },
+       {
+        "en": "on important missions.",
+        "ko": "중요한 임무에서"
+       }
+      ],
+      "rp": {
+       "situation": "우주선 안에서 임무를 수행 중인 사람들이 우주 파편의 위협을 받고 있다.",
+       "prompt": "Who is inside the spacecraft on the mission?",
+       "options": [
+        "There are astronauts inside.",
+        "There are astronomers inside."
+       ],
+       "answer": 0,
+       "why": "우주 임무를 수행하는 사람은 astronaut(우주 비행사)이고 astronomer는 천문학자라서 맞지 않다."
+      },
+      "topic": "우주 쓰레기를 치우는 계획"
+     },
+     {
+      "id": "junior:robotic",
+      "word": "robotic",
+      "ko": "로봇의, 로봇으로 작동하는",
+      "filled": "One idea uses a spacecraft with robotic arms to grab old satellites and bring them down.",
+      "sent_ko": "한 가지 아이디어는 낡은 인공위성을 잡아서 끌어내리기 위해 로봇 팔이 달린 우주선을 사용한다.",
+      "chunks": [
+       {
+        "en": "One idea uses",
+        "ko": "한 가지 아이디어는 사용한다"
+       },
+       {
+        "en": "a spacecraft with robotic arms",
+        "ko": "로봇 팔이 달린 우주선을"
+       },
+       {
+        "en": "to grab old satellites",
+        "ko": "낡은 인공위성을 잡기 위해"
+       },
+       {
+        "en": "and bring them down.",
+        "ko": "그리고 끌어내리기 위해"
+       }
+      ],
+      "rp": {
+       "situation": "우주 청소 우주선이 기계 팔을 뻗어 낡은 인공위성을 잡으려 하고 있다.",
+       "prompt": "How does the spacecraft grab old satellites?",
+       "options": [
+        "It uses robotic arms to grab them.",
+        "It uses robotic arm to grab them."
+       ],
+       "answer": 0,
+       "why": "arms는 복수형이 필요하며 단수형 arm은 문맥상 자연스럽지 않다."
+      },
+      "topic": "우주 쓰레기를 치우는 계획"
+     },
+     {
+      "id": "junior:gravity",
+      "word": "gravity",
+      "ko": "중력",
+      "filled": "When it slows, gravity pulls it back into Earth's atmosphere, where it safely burns up.",
+      "sent_ko": "속도가 느려지면, 중력이 그것을 지구의 대기권 안으로 다시 끌어당기고, 그곳에서 그것은 안전하게 타서 없어진다.",
+      "chunks": [
+       {
+        "en": "When it slows,",
+        "ko": "속도가 느려지면"
+       },
+       {
+        "en": "gravity pulls it back",
+        "ko": "중력이 그것을 다시 끌어당긴다"
+       },
+       {
+        "en": "into Earth's atmosphere,",
+        "ko": "지구의 대기권 안으로"
+       },
+       {
+        "en": "where it safely burns up.",
+        "ko": "그곳에서 안전하게 타서 없어진다"
+       }
+      ],
+      "rp": {
+       "situation": "가스 펄스를 맞은 우주 파편의 속도가 줄어들고 있다. 파편이 어떻게 될지 설명하는 상황이다.",
+       "prompt": "What happens to the debris after it slows down?",
+       "options": [
+        "Gravity pulls it back into the atmosphere.",
+        "Gravity pushes it back into the atmosphere."
+       ],
+       "answer": 0,
+       "why": "중력은 물체를 당기는(pull) 힘이므로 push는 중력의 작용을 잘못 표현한 것이다."
+      },
+      "topic": "우주 쓰레기를 치우는 계획"
+     },
+     {
+      "id": "junior:atmosphere",
+      "word": "atmosphere",
+      "ko": "대기, 대기권",
+      "filled": "When it slows, gravity pulls it back into Earth's atmosphere, where it safely burns up.",
+      "sent_ko": "속도가 느려지면, 중력이 그것을 지구의 대기권 안으로 다시 끌어당기고, 그곳에서 그것은 안전하게 타서 없어진다.",
+      "chunks": [
+       {
+        "en": "When it slows,",
+        "ko": "속도가 느려지면"
+       },
+       {
+        "en": "gravity pulls it back",
+        "ko": "중력이 그것을 다시 끌어당긴다"
+       },
+       {
+        "en": "into Earth's atmosphere,",
+        "ko": "지구의 대기권 안으로"
+       },
+       {
+        "en": "where it safely burns up.",
+        "ko": "그곳에서 안전하게 타서 없어진다"
+       }
+      ],
+      "rp": {
+       "situation": "중력에 의해 끌려온 우주 파편이 지구의 대기권으로 진입해 불에 타고 있다.",
+       "prompt": "Where does the debris burn up?",
+       "options": [
+        "It burns up in Earth's atmosphere.",
+        "It burns up in Earth's orbit."
+       ],
+       "answer": 0,
+       "why": "파편이 타서 없어지는 곳은 대기권(atmosphere)이며 궤도(orbit)는 타는 장소가 아니다."
+      },
+      "topic": "우주 쓰레기를 치우는 계획"
+     },
+     {
+      "id": "junior:urgent",
+      "word": "urgent",
+      "ko": "긴급한, 시급한",
+      "filled": "NASA and other space agencies agree that cleaning up space is now urgent.",
+      "sent_ko": "NASA와 다른 우주 기관들은 우주를 청소하는 것이 이제 시급하다는 데 동의한다.",
+      "chunks": [
+       {
+        "en": "NASA and other space agencies",
+        "ko": "NASA와 다른 우주 기관들은"
+       },
+       {
+        "en": "agree that",
+        "ko": "동의한다"
+       },
+       {
+        "en": "cleaning up space",
+        "ko": "우주를 청소하는 것이"
+       },
+       {
+        "en": "is now urgent.",
+        "ko": "이제 시급하다고"
+       }
+      ],
+      "rp": {
+       "situation": "NASA 과학자들이 회의에서 우주 파편 문제를 즉시 해결해야 한다고 말하고 있다.",
+       "prompt": "How do the scientists describe the cleanup?",
+       "options": [
+        "They say the cleanup is urgent.",
+        "They say the cleanup is urgently."
+       ],
+       "answer": 0,
+       "why": "주어를 설명하는 보어 자리에는 형용사 urgent가 와야 하며 부사 urgently는 쓸 수 없다."
+      },
+      "topic": "우주 쓰레기를 치우는 계획"
+     },
+     {
+      "id": "junior:launch",
+      "word": "launch",
+      "ko": "발사하다, 발사",
+      "filled": "More satellites are being launched every year, making the overall problem worse.",
+      "sent_ko": "매년 더 많은 인공위성이 발사되고 있어서, 전반적인 문제를 더 악화시키고 있다.",
+      "chunks": [
+       {
+        "en": "More satellites",
+        "ko": "더 많은 인공위성이"
+       },
+       {
+        "en": "are being launched every year,",
+        "ko": "매년 발사되고 있어서"
+       },
+       {
+        "en": "making the overall problem worse.",
+        "ko": "전반적인 문제를 더 악화시키고 있다"
+       }
+      ],
+      "rp": {
+       "situation": "우주 기업들이 올해 새로운 인공위성을 우주로 보내고 있다. 이 행동을 묘사하는 상황이다.",
+       "prompt": "What are the companies doing with the new satellites?",
+       "options": [
+        "They are launching new satellites into space.",
+        "They are launching new satellites to space."
+       ],
+       "answer": 0,
+       "why": "목적지 방향을 나타낼 때 into space가 자연스러운 표현이며 to space는 이 문맥에서 어색하다."
+      },
+      "topic": "우주 쓰레기를 치우는 계획"
+     },
+     {
+      "id": "junior:agency",
+      "word": "agency",
+      "ko": "기관, 청",
+      "filled": "Several cleanup plans are now being tested by space agencies around the world.",
+      "sent_ko": "여러 가지 청소 계획들이 현재 전 세계의 우주 기관들에 의해 시험되고 있다.",
+      "chunks": [
+       {
+        "en": "Several cleanup plans",
+        "ko": "여러 가지 청소 계획들이"
+       },
+       {
+        "en": "are now being tested",
+        "ko": "현재 시험되고 있다"
+       },
+       {
+        "en": "by space agencies",
+        "ko": "우주 기관들에 의해"
+       },
+       {
+        "en": "around the world.",
+        "ko": "전 세계의"
+       }
+      ],
+      "rp": {
+       "situation": "NASA와 여러 나라의 우주 기관들이 함께 우주 파편 청소 계획을 시험하고 있다.",
+       "prompt": "Who is testing the cleanup plans?",
+       "options": [
+        "Space agencies around the world are testing them.",
+        "Space agency around the world are testing them."
+       ],
+       "answer": 0,
+       "why": "복수 주어에는 복수형 agencies가 와야 하며 단수형 agency는 are와 함께 쓸 수 없다."
+      },
+      "topic": "우주 쓰레기를 치우는 계획"
      }
     ]
    }
