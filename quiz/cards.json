@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23 08:52:56",
+ "generated": "2026-09-23 08:53:30",
  "levels": {
   "kinder": [
    {
@@ -23086,6 +23086,545 @@
        "why": "spike는 '급등'을 뜻하는 명사이고, spiky는 형용사라 이 자리에 쓸 수 없다"
       },
       "topic": "커피 원두 값이 오른 3년"
+     }
+    ]
+   },
+   {
+    "id": "times|데이터센터가 마시는 물",
+    "level": "times",
+    "topic": "데이터센터가 마시는 물",
+    "section": "기술",
+    "week": "2026-09-21",
+    "tf": [
+     {
+      "s": "Data centers lose water permanently because much of it evaporates during the cooling process.",
+      "a": true
+     },
+     {
+      "s": "Most tech companies regularly publish detailed public reports about how much water their data centers use.",
+      "a": false
+     },
+     {
+      "s": "A single large data center can consume roughly as much water per day as a small city.",
+      "a": true
+     },
+     {
+      "s": "Critics of the tech industry believe that voluntary commitments from companies are sufficient to solve the water crisis.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "times:facility",
+      "word": "facility",
+      "ko": "시설, 기관",
+      "filled": "Most tech companies do not publicly report exactly how much water their facilities consume.",
+      "sent_ko": "대부분의 기술 기업들은 자사 시설이 얼마나 많은 물을 소비하는지 정확히 공개적으로 보고하지 않는다.",
+      "chunks": [
+       {
+        "en": "Most tech companies",
+        "ko": "대부분의 기술 기업들은"
+       },
+       {
+        "en": "do not publicly report",
+        "ko": "공개적으로 보고하지 않는다"
+       },
+       {
+        "en": "exactly how much water",
+        "ko": "정확히 얼마나 많은 물을"
+       },
+       {
+        "en": "their facilities consume.",
+        "ko": "자사 시설들이 소비하는지"
+       }
+      ],
+      "rp": {
+       "situation": "환경 단체가 데이터 센터 시설의 물 사용량을 조사하고 있다.",
+       "prompt": "What do we call this data center and others like it?",
+       "options": [
+        "They are facilities that consume millions of liters of water daily.",
+        "They are facilitations that consume millions of liters of water daily."
+       ],
+       "answer": 0,
+       "why": "facility는 명사로 '시설'을 뜻하며, facilitation은 이 문맥에 맞지 않는 다른 명사다."
+      },
+      "topic": "데이터센터가 마시는 물"
+     },
+     {
+      "id": "times:server",
+      "word": "server",
+      "ko": "서버 (데이터를 저장하고 처리하는 컴퓨터)",
+      "filled": "Others use water to chill the air around the servers.",
+      "sent_ko": "다른 시스템들은 서버 주변의 공기를 차갑게 식히기 위해 물을 사용한다.",
+      "chunks": [
+       {
+        "en": "Others use water",
+        "ko": "다른 시스템들은 물을 사용한다"
+       },
+       {
+        "en": "to chill the air",
+        "ko": "공기를 차갑게 식히기 위해"
+       },
+       {
+        "en": "around the servers.",
+        "ko": "서버들 주변의"
+       }
+      ],
+      "rp": {
+       "situation": "데이터 센터 직원이 냉각 방식을 동료에게 설명하고 있다.",
+       "prompt": "How does this cooling system work exactly?",
+       "options": [
+        "It chills the air around the servers to keep them cool.",
+        "It chills the air around the servings to keep them cool."
+       ],
+       "answer": 0,
+       "why": "server는 데이터를 처리하는 컴퓨터이며, serving은 전혀 다른 단어라 이 문맥에 쓸 수 없다."
+      },
+      "topic": "데이터센터가 마시는 물"
+     },
+     {
+      "id": "times:enormous",
+      "word": "enormous",
+      "ko": "거대한, 엄청난",
+      "filled": "These large facilities house thousands of servers that generate enormous heat, and cooling them requires water in quantities that many people would find shocking.",
+      "sent_ko": "이 대형 시설들은 수천 대의 서버를 수용하고 있으며, 그 서버들은 엄청난 열을 발생시키고, 이를 냉각하려면 많은 사람들이 충격적으로 느낄 만한 양의 물이 필요하다.",
+      "chunks": [
+       {
+        "en": "These large facilities",
+        "ko": "이 대형 시설들은"
+       },
+       {
+        "en": "house thousands of servers",
+        "ko": "수천 대의 서버를 수용하고 있으며"
+       },
+       {
+        "en": "that generate enormous heat,",
+        "ko": "엄청난 열을 발생시키는"
+       },
+       {
+        "en": "and cooling them requires water",
+        "ko": "그리고 이를 냉각하려면 물이 필요하다"
+       },
+       {
+        "en": "in quantities that many people would find shocking.",
+        "ko": "많은 사람들이 충격적으로 느낄 만한 양의"
+       }
+      ],
+      "rp": {
+       "situation": "기자가 데이터 센터에서 발생하는 열의 양을 기사에 묘사하고 있다.",
+       "prompt": "How would you describe the heat these servers produce?",
+       "options": [
+        "The servers generate enormous heat that is very hard to manage.",
+        "The servers generate enormously heat that is very hard to manage."
+       ],
+       "answer": 0,
+       "why": "enormous는 형용사로 명사 heat를 수식해야 하며, enormously는 부사라 명사를 수식할 수 없다."
+      },
+      "topic": "데이터센터가 마시는 물"
+     },
+     {
+      "id": "times:evaporate",
+      "word": "evaporate",
+      "ko": "증발하다",
+      "filled": "In both cases, much of that water evaporates and is lost permanently.",
+      "sent_ko": "두 경우 모두, 그 물의 상당 부분은 증발하여 영구적으로 사라진다.",
+      "chunks": [
+       {
+        "en": "In both cases,",
+        "ko": "두 경우 모두"
+       },
+       {
+        "en": "much of that water",
+        "ko": "그 물의 상당 부분은"
+       },
+       {
+        "en": "evaporates",
+        "ko": "증발하여"
+       },
+       {
+        "en": "and is lost permanently.",
+        "ko": "영구적으로 사라진다"
+       }
+      ],
+      "rp": {
+       "situation": "데이터 센터 냉각에 쓰인 물이 어떻게 되는지 설명하는 상황이다.",
+       "prompt": "What happens to the water after it is used for cooling?",
+       "options": [
+        "Most of it evaporates and cannot be recovered.",
+        "Most of it evaporates and cannot be recovered lately."
+       ],
+       "answer": 0,
+       "why": "permanently(영구적으로)의 의미를 나타내려면 cannot be recovered로 충분하며, lately(최근에)는 의미가 맞지 않아 부자연스럽다."
+      },
+      "topic": "데이터센터가 마시는 물"
+     },
+     {
+      "id": "times:consumption",
+      "word": "consumption",
+      "ko": "소비, 소모",
+      "filled": "The scale of this consumption is significant.",
+      "sent_ko": "이 소비의 규모는 상당하다.",
+      "chunks": [
+       {
+        "en": "The scale",
+        "ko": "규모는"
+       },
+       {
+        "en": "of this consumption",
+        "ko": "이 소비의"
+       },
+       {
+        "en": "is significant.",
+        "ko": "상당하다"
+       }
+      ],
+      "rp": {
+       "situation": "환경 보고서가 데이터 센터의 물 사용량 규모를 평가하고 있다.",
+       "prompt": "How does the report describe the amount of water used?",
+       "options": [
+        "The report says the consumption of water is significant.",
+        "The report says the consume of water is significant."
+       ],
+       "answer": 0,
+       "why": "consumption은 '소비량'을 뜻하는 명사이며, consume은 동사이므로 명사 자리에 쓸 수 없다."
+      },
+      "topic": "데이터센터가 마시는 물"
+     },
+     {
+      "id": "times:capacity",
+      "word": "capacity",
+      "ko": "용량, 수용 능력",
+      "filled": "As AI tools become more popular and more powerful, the demand for data center capacity keeps growing, and so does their water use.",
+      "sent_ko": "AI 도구들이 더 많이 보급되고 더 강력해짐에 따라, 데이터 센터 용량에 대한 수요는 계속 증가하고 있으며, 물 사용량도 마찬가지다.",
+      "chunks": [
+       {
+        "en": "As AI tools become more popular and more powerful,",
+        "ko": "AI 도구들이 더 많이 보급되고 더 강력해짐에 따라"
+       },
+       {
+        "en": "the demand for data center capacity",
+        "ko": "데이터 센터 용량에 대한 수요는"
+       },
+       {
+        "en": "keeps growing,",
+        "ko": "계속 증가하고 있으며"
+       },
+       {
+        "en": "and so does their water use.",
+        "ko": "물 사용량도 마찬가지다"
+       }
+      ],
+      "rp": {
+       "situation": "기술 전문가가 AI 성장으로 인한 데이터 센터 확장 필요성을 논의하고 있다.",
+       "prompt": "Why do data centers need to keep expanding?",
+       "options": [
+        "Growing AI demand requires greater data center capacity.",
+        "Growing AI demand requires greater data center capability."
+       ],
+       "answer": 0,
+       "why": "capacity는 처리·저장 가능한 용량을 뜻하고, capability는 기술적 능력을 뜻해 이 문맥에서 자연스럽지 않다."
+      },
+      "topic": "데이터센터가 마시는 물"
+     },
+     {
+      "id": "times:transparency",
+      "word": "transparency",
+      "ko": "투명성, 공개성",
+      "filled": "What makes this issue more complex is a lack of transparency.",
+      "sent_ko": "이 문제를 더 복잡하게 만드는 것은 투명성의 부족이다.",
+      "chunks": [
+       {
+        "en": "What makes this issue more complex",
+        "ko": "이 문제를 더 복잡하게 만드는 것은"
+       },
+       {
+        "en": "is a lack of transparency.",
+        "ko": "투명성의 부족이다"
+       }
+      ],
+      "rp": {
+       "situation": "환경 단체가 기술 기업들의 물 사용 보고 방식에 대해 비판하고 있다.",
+       "prompt": "What is the main problem with how tech companies report water use?",
+       "options": [
+        "There is a lack of transparency about how much water they use.",
+        "There is a lack of transparent about how much water they use."
+       ],
+       "answer": 0,
+       "why": "lack of 뒤에는 명사가 와야 하므로 transparency가 맞고, 형용사 transparent는 쓸 수 없다."
+      },
+      "topic": "데이터센터가 마시는 물"
+     },
+     {
+      "id": "times:assess",
+      "word": "assess",
+      "ko": "평가하다, 판단하다",
+      "filled": "Environmental groups say this makes it very difficult to assess the true impact on local water supplies, especially in dry regions where water is already scarce.",
+      "sent_ko": "환경 단체들은 이것이 특히 물이 이미 부족한 건조 지역에서 지역 수자원에 대한 실제 영향을 평가하는 것을 매우 어렵게 만든다고 말한다.",
+      "chunks": [
+       {
+        "en": "Environmental groups say",
+        "ko": "환경 단체들은 말한다"
+       },
+       {
+        "en": "this makes it very difficult",
+        "ko": "이것이 매우 어렵게 만든다고"
+       },
+       {
+        "en": "to assess the true impact",
+        "ko": "실제 영향을 평가하는 것을"
+       },
+       {
+        "en": "on local water supplies,",
+        "ko": "지역 수자원에 대한"
+       },
+       {
+        "en": "especially in dry regions",
+        "ko": "특히 건조 지역에서"
+       },
+       {
+        "en": "where water is already scarce.",
+        "ko": "물이 이미 부족한"
+       }
+      ],
+      "rp": {
+       "situation": "환경 단체가 데이터 센터가 지역 수자원에 미치는 영향을 조사하고 있다.",
+       "prompt": "Why is the investigation so difficult?",
+       "options": [
+        "It is hard to assess the true impact without full data from companies.",
+        "It is hard to assessments the true impact without full data from companies."
+       ],
+       "answer": 0,
+       "why": "assess는 동사이며, assessments는 명사이므로 to 부정사 자리에 쓸 수 없다."
+      },
+      "topic": "데이터센터가 마시는 물"
+     },
+     {
+      "id": "times:scarce",
+      "word": "scarce",
+      "ko": "부족한, 희귀한",
+      "filled": "Environmental groups say this makes it very difficult to assess the true impact on local water supplies, especially in dry regions where water is already scarce.",
+      "sent_ko": "환경 단체들은 이것이 특히 물이 이미 부족한 건조 지역에서 지역 수자원에 대한 실제 영향을 평가하는 것을 매우 어렵게 만든다고 말한다.",
+      "chunks": [
+       {
+        "en": "Environmental groups say",
+        "ko": "환경 단체들은 말한다"
+       },
+       {
+        "en": "this makes it very difficult",
+        "ko": "이것이 매우 어렵게 만든다고"
+       },
+       {
+        "en": "to assess the true impact",
+        "ko": "실제 영향을 평가하는 것을"
+       },
+       {
+        "en": "on local water supplies,",
+        "ko": "지역 수자원에 대한"
+       },
+       {
+        "en": "especially in dry regions",
+        "ko": "특히 건조 지역에서"
+       },
+       {
+        "en": "where water is already scarce.",
+        "ko": "물이 이미 부족한"
+       }
+      ],
+      "rp": {
+       "situation": "건조 지역의 주민이 데이터 센터의 물 사용에 대해 우려를 표하고 있다.",
+       "prompt": "Why are people in this region especially worried?",
+       "options": [
+        "Water is already scarce here, and data centers use millions of liters.",
+        "Water is already scarcely here, and data centers use millions of liters."
+       ],
+       "answer": 0,
+       "why": "scarce는 형용사로 주격 보어 자리에 쓰이며, scarcely는 부사라 이 자리에 쓸 수 없다."
+      },
+      "topic": "데이터센터가 마시는 물"
+     },
+     {
+      "id": "times:replenish",
+      "word": "replenish",
+      "ko": "보충하다, 다시 채우다",
+      "filled": "Microsoft, for example, has pledged to replenish more water than it uses by 2030.",
+      "sent_ko": "예를 들어, 마이크로소프트는 2030년까지 자사가 사용하는 것보다 더 많은 물을 보충하겠다고 약속했다.",
+      "chunks": [
+       {
+        "en": "Microsoft, for example,",
+        "ko": "예를 들어, 마이크로소프트는"
+       },
+       {
+        "en": "has pledged to replenish",
+        "ko": "보충하겠다고 약속했다"
+       },
+       {
+        "en": "more water than it uses",
+        "ko": "자사가 사용하는 것보다 더 많은 물을"
+       },
+       {
+        "en": "by 2030.",
+        "ko": "2030년까지"
+       }
+      ],
+      "rp": {
+       "situation": "마이크로소프트가 2030년 물 사용 관련 환경 목표를 발표하고 있다.",
+       "prompt": "What exactly did Microsoft promise to do about water?",
+       "options": [
+        "Microsoft pledged to replenish more water than it consumes by 2030.",
+        "Microsoft pledged to replenishment more water than it consumes by 2030."
+       ],
+       "answer": 0,
+       "why": "replenish는 동사로 to 부정사 자리에 쓰이며, replenishment는 명사이므로 이 자리에 올 수 없다."
+      },
+      "topic": "데이터센터가 마시는 물"
+     },
+     {
+      "id": "times:voluntary",
+      "word": "voluntary",
+      "ko": "자발적인, 자원하는",
+      "filled": "However, critics say voluntary commitments are not enough and that stronger regulations are needed.",
+      "sent_ko": "그러나 비평가들은 자발적인 약속만으로는 충분하지 않으며 더 강력한 규제가 필요하다고 말한다.",
+      "chunks": [
+       {
+        "en": "However,",
+        "ko": "그러나"
+       },
+       {
+        "en": "critics say",
+        "ko": "비평가들은 말한다"
+       },
+       {
+        "en": "voluntary commitments are not enough",
+        "ko": "자발적인 약속만으로는 충분하지 않으며"
+       },
+       {
+        "en": "and that stronger regulations are needed.",
+        "ko": "더 강력한 규제가 필요하다고"
+       }
+      ],
+      "rp": {
+       "situation": "비평가들이 기술 기업들의 물 절약 약속이 충분한지 토론하고 있다.",
+       "prompt": "Why do critics think company pledges are not enough?",
+       "options": [
+        "The pledges are voluntary, so companies face no penalty for ignoring them.",
+        "The pledges are voluntarily, so companies face no penalty for ignoring them."
+       ],
+       "answer": 0,
+       "why": "voluntary는 형용사로 주격 보어 자리에 쓰이며, voluntarily는 부사라 이 자리에 쓸 수 없다."
+      },
+      "topic": "데이터센터가 마시는 물"
+     },
+     {
+      "id": "times:commitment",
+      "word": "commitment",
+      "ko": "헌신, 약속, 의지",
+      "filled": "However, critics say voluntary commitments are not enough and that stronger regulations are needed.",
+      "sent_ko": "그러나 비평가들은 자발적인 약속만으로는 충분하지 않으며 더 강력한 규제가 필요하다고 말한다.",
+      "chunks": [
+       {
+        "en": "However,",
+        "ko": "그러나"
+       },
+       {
+        "en": "critics say",
+        "ko": "비평가들은 말한다"
+       },
+       {
+        "en": "voluntary commitments are not enough",
+        "ko": "자발적인 약속만으로는 충분하지 않으며"
+       },
+       {
+        "en": "and that stronger regulations are needed.",
+        "ko": "더 강력한 규제가 필요하다고"
+       }
+      ],
+      "rp": {
+       "situation": "비평가가 기술 기업들의 물 절약 서약이 실제로 효과가 있는지 의문을 제기하고 있다.",
+       "prompt": "What do critics say about tech companies' water pledges?",
+       "options": [
+        "They say the commitments are voluntary and lack any legal force.",
+        "They say the committed are voluntary and lack any legal force."
+       ],
+       "answer": 0,
+       "why": "commitments는 '약속들'을 뜻하는 명사이며, committed는 형용사 또는 과거형 동사라 주어 자리에 쓸 수 없다."
+      },
+      "topic": "데이터센터가 마시는 물"
+     },
+     {
+      "id": "times:regulation",
+      "word": "regulation",
+      "ko": "규정, 규제",
+      "filled": "However, critics say voluntary commitments are not enough and that stronger regulations are needed.",
+      "sent_ko": "그러나 비평가들은 자발적인 약속만으로는 충분하지 않으며 더 강력한 규제가 필요하다고 말한다.",
+      "chunks": [
+       {
+        "en": "However,",
+        "ko": "그러나"
+       },
+       {
+        "en": "critics say",
+        "ko": "비평가들은 말한다"
+       },
+       {
+        "en": "voluntary commitments are not enough",
+        "ko": "자발적인 약속만으로는 충분하지 않으며"
+       },
+       {
+        "en": "and that stronger regulations are needed.",
+        "ko": "더 강력한 규제가 필요하다고"
+       }
+      ],
+      "rp": {
+       "situation": "환경 단체가 정부에 데이터 센터 물 사용에 대한 법적 조치를 촉구하고 있다.",
+       "prompt": "What do environmental groups want governments to introduce?",
+       "options": [
+        "They want stronger regulations to control data center water use.",
+        "They want stronger regulatings to control data center water use."
+       ],
+       "answer": 0,
+       "why": "regulations는 '규제들'을 뜻하는 명사이며, regulatings는 존재하지 않는 형태라 쓸 수 없다."
+      },
+      "topic": "데이터센터가 마시는 물"
+     },
+     {
+      "id": "times:footprint",
+      "word": "footprint",
+      "ko": "발자국; (환경적) 영향",
+      "filled": "As global demand for AI continues to rise, how the tech industry manages its water footprint will likely become one of the defining environmental questions of the decade.",
+      "sent_ko": "전 세계 AI 수요가 계속 증가함에 따라, 기술 산업이 자사의 물 발자국을 어떻게 관리하느냐는 이 십 년의 핵심적인 환경 문제 중 하나가 될 것이다.",
+      "chunks": [
+       {
+        "en": "As global demand for AI continues to rise,",
+        "ko": "전 세계 AI 수요가 계속 증가함에 따라"
+       },
+       {
+        "en": "how the tech industry manages its water footprint",
+        "ko": "기술 산업이 자사의 물 발자국을 어떻게 관리하느냐는"
+       },
+       {
+        "en": "will likely become",
+        "ko": "될 것이다"
+       },
+       {
+        "en": "one of the defining environmental questions",
+        "ko": "핵심적인 환경 문제 중 하나가"
+       },
+       {
+        "en": "of the decade.",
+        "ko": "이 십 년의"
+       }
+      ],
+      "rp": {
+       "situation": "환경 전문가가 AI 성장이 물 자원에 미치는 영향을 논의하고 있다.",
+       "prompt": "How do experts describe the tech industry's overall water impact?",
+       "options": [
+        "They refer to it as the industry's water footprint.",
+        "They refer to it as the industry's water feet."
+       ],
+       "answer": 0,
+       "why": "water footprint는 환경적 영향을 뜻하는 확립된 표현이며, water feet는 이 의미로 쓰이지 않는 잘못된 표현이다."
+      },
+      "topic": "데이터센터가 마시는 물"
      }
     ]
    }
