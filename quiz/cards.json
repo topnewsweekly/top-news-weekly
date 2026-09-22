@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23 08:46:47",
+ "generated": "2026-09-23 08:47:00",
  "levels": {
   "kinder": [
    {
@@ -13493,6 +13493,373 @@
        "why": "동사를 꾸밀 때는 부사 'fairly'를 써야 하며, 형용사 'fair'는 동사를 수식할 수 없습니다."
       },
       "topic": "배달비가 오르면 생기는 일"
+     }
+    ]
+   },
+   {
+    "id": "junior|청소년 수면 시간과 등교 시각",
+    "level": "junior",
+    "topic": "청소년 수면 시간과 등교 시각",
+    "section": "건강",
+    "week": "2026-09-21",
+    "tf": [
+     {
+      "s": "Doctors say that teenagers need about eight to ten hours of sleep each night.",
+      "a": true
+     },
+     {
+      "s": "Teenagers feel sleepy early at night because of their natural body clock.",
+      "a": false
+     },
+     {
+      "s": "Students who do not sleep enough may find it harder to focus in class.",
+      "a": true
+     },
+     {
+      "s": "All schools around the world have already changed their start times to later in the morning.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "junior:teenager",
+      "word": "teenager",
+      "ko": "10대 청소년 (13~19세)",
+      "filled": "Many teenagers do not get enough sleep.",
+      "sent_ko": "많은 10대 청소년들은 충분한 수면을 취하지 못한다.",
+      "chunks": [
+       {
+        "en": "Many teenagers",
+        "ko": "많은 10대 청소년들은"
+       },
+       {
+        "en": "do not get",
+        "ko": "취하지 못한다"
+       },
+       {
+        "en": "enough sleep.",
+        "ko": "충분한 수면을"
+       }
+      ],
+      "rp": {
+       "situation": "의사가 10대 청소년들의 수면 시간이 부족하다고 설명하고 있다.",
+       "prompt": "Who needs more sleep according to doctors?",
+       "options": [
+        "Teenagers do not get enough sleep.",
+        "Teenage do not get enough sleep."
+       ],
+       "answer": 0,
+       "why": "'teenager'의 복수형은 teenagers이며, teenage는 형용사라 단독으로 주어가 될 수 없다."
+      },
+      "topic": "청소년 수면 시간과 등교 시각"
+     },
+     {
+      "id": "junior:enough",
+      "word": "enough",
+      "ko": "충분한, 충분히",
+      "filled": "Many teenagers do not get enough sleep.",
+      "sent_ko": "많은 10대 청소년들은 충분한 수면을 취하지 못한다.",
+      "chunks": [
+       {
+        "en": "Many teenagers",
+        "ko": "많은 10대 청소년들은"
+       },
+       {
+        "en": "do not get",
+        "ko": "취하지 못한다"
+       },
+       {
+        "en": "enough sleep.",
+        "ko": "충분한 수면을"
+       }
+      ],
+      "rp": {
+       "situation": "학생이 매일 밤 6시간밖에 자지 못한다고 말하고 있다.",
+       "prompt": "Is this student sleeping well?",
+       "options": [
+        "No, she does not get enough sleep.",
+        "No, she does not get enough sleepy."
+       ],
+       "answer": 0,
+       "why": "'충분한 수면'은 enough sleep이며, sleepy는 형용사라 명사 자리에 쓸 수 없다."
+      },
+      "topic": "청소년 수면 시간과 등교 시각"
+     },
+     {
+      "id": "junior:natural",
+      "word": "natural",
+      "ko": "자연적인, 타고난",
+      "filled": "This is because teenagers have a natural body clock that makes them feel sleepy later at night.",
+      "sent_ko": "이것은 10대 청소년들이 밤에 더 늦게 졸음을 느끼게 만드는 타고난 생체 시계를 가지고 있기 때문이다.",
+      "chunks": [
+       {
+        "en": "This is because",
+        "ko": "이것은 ~ 때문이다"
+       },
+       {
+        "en": "teenagers have a natural body clock",
+        "ko": "10대 청소년들이 타고난 생체 시계를 가지고 있다"
+       },
+       {
+        "en": "that makes them feel sleepy",
+        "ko": "그들을 졸리게 만드는"
+       },
+       {
+        "en": "later at night.",
+        "ko": "밤에 더 늦게"
+       }
+      ],
+      "rp": {
+       "situation": "선생님이 10대 청소년들이 왜 늦게까지 잠을 못 자는지 설명하고 있다.",
+       "prompt": "Why do teens stay awake late?",
+       "options": [
+        "They have a natural body clock that keeps them up.",
+        "They have a nature body clock that keeps them up."
+       ],
+       "answer": 0,
+       "why": "명사를 꾸밀 때는 형용사 natural을 써야 하며, 명사 nature는 형용사 자리에 쓸 수 없다."
+      },
+      "topic": "청소년 수면 시간과 등교 시각"
+     },
+     {
+      "id": "junior:body clock",
+      "word": "body clock",
+      "ko": "생체 시계 (수면·각성 주기를 조절하는 신체 내부 시스템)",
+      "filled": "This is because teenagers have a natural body clock that makes them feel sleepy later at night.",
+      "sent_ko": "이것은 10대 청소년들이 밤에 더 늦게 졸음을 느끼게 만드는 타고난 생체 시계를 가지고 있기 때문이다.",
+      "chunks": [
+       {
+        "en": "This is because",
+        "ko": "이것은 ~ 때문이다"
+       },
+       {
+        "en": "teenagers have a natural body clock",
+        "ko": "10대 청소년들이 타고난 생체 시계를 가지고 있다"
+       },
+       {
+        "en": "that makes them feel sleepy",
+        "ko": "그들을 졸리게 만드는"
+       },
+       {
+        "en": "later at night.",
+        "ko": "밤에 더 늦게"
+       }
+      ],
+      "rp": {
+       "situation": "기사에서 10대 청소년들이 밤 늦게까지 잠들기 어려운 이유를 설명하고 있다.",
+       "prompt": "What controls when teens feel sleepy?",
+       "options": [
+        "Their natural body clock makes them feel sleepy later.",
+        "Their natural body watch makes them feel sleepy later."
+       ],
+       "answer": 0,
+       "why": "수면·각성 주기를 조절하는 신체 내부 시스템은 body clock이며, body watch는 존재하지 않는 표현이다."
+      },
+      "topic": "청소년 수면 시간과 등교 시각"
+     },
+     {
+      "id": "junior:sleepy",
+      "word": "sleepy",
+      "ko": "졸린, 졸음이 오는",
+      "filled": "Some studies also show that sleepy teens are more likely to get sick.",
+      "sent_ko": "일부 연구들은 또한 졸린 10대 청소년들이 더 병에 걸리기 쉽다는 것을 보여준다.",
+      "chunks": [
+       {
+        "en": "Some studies also show",
+        "ko": "일부 연구들은 또한 보여준다"
+       },
+       {
+        "en": "that sleepy teens",
+        "ko": "졸린 10대 청소년들이"
+       },
+       {
+        "en": "are more likely to get sick.",
+        "ko": "더 병에 걸리기 쉽다는 것을"
+       }
+      ],
+      "rp": {
+       "situation": "연구 결과에 따르면 잠이 부족한 10대 청소년들이 더 자주 아프다고 한다.",
+       "prompt": "How are these teens described?",
+       "options": [
+        "The teens are sleepy and get sick more often.",
+        "The teens are sleep and get sick more often."
+       ],
+       "answer": 0,
+       "why": "'졸린'이라는 뜻의 형용사는 sleepy이며, 명사 sleep은 형용사 자리에 쓸 수 없다."
+      },
+      "topic": "청소년 수면 시간과 등교 시각"
+     },
+     {
+      "id": "junior:focus",
+      "word": "focus",
+      "ko": "집중하다, 집중",
+      "filled": "Tired students find it harder to focus in class and remember what they learn.",
+      "sent_ko": "피곤한 학생들은 수업 시간에 집중하고 배운 것을 기억하는 것이 더 어렵다는 것을 느낀다.",
+      "chunks": [
+       {
+        "en": "Tired students",
+        "ko": "피곤한 학생들은"
+       },
+       {
+        "en": "find it harder to",
+        "ko": "더 어렵다는 것을 느낀다"
+       },
+       {
+        "en": "focus in class",
+        "ko": "수업 시간에 집중하기"
+       },
+       {
+        "en": "and remember what they learn.",
+        "ko": "그리고 배운 것을 기억하기"
+       }
+      ],
+      "rp": {
+       "situation": "수업 중에 잠이 부족한 학생이 선생님 말씀에 집중하지 못하고 있다.",
+       "prompt": "What is hard for this tired student?",
+       "options": [
+        "It is hard to focus in class.",
+        "It is hard to focused in class."
+       ],
+       "answer": 0,
+       "why": "to 부정사 뒤에는 동사원형이 와야 하므로 focus가 맞고, focused는 쓸 수 없다."
+      },
+      "topic": "청소년 수면 시간과 등교 시각"
+     },
+     {
+      "id": "junior:serious",
+      "word": "serious",
+      "ko": "심각한, 진지한",
+      "filled": "Not getting enough sleep can cause serious problems.",
+      "sent_ko": "충분한 수면을 취하지 못하는 것은 심각한 문제들을 일으킬 수 있다.",
+      "chunks": [
+       {
+        "en": "Not getting enough sleep",
+        "ko": "충분한 수면을 취하지 못하는 것은"
+       },
+       {
+        "en": "can cause",
+        "ko": "일으킬 수 있다"
+       },
+       {
+        "en": "serious problems.",
+        "ko": "심각한 문제들을"
+       }
+      ],
+      "rp": {
+       "situation": "의사가 수면 부족이 건강에 미치는 영향에 대해 경고하고 있다.",
+       "prompt": "How does the doctor describe the problems from lack of sleep?",
+       "options": [
+        "Not sleeping enough can cause serious problems.",
+        "Not sleeping enough can cause seriously problems."
+       ],
+       "answer": 0,
+       "why": "명사 problems를 꾸미려면 형용사 serious를 써야 하며, 부사 seriously는 명사를 꾸밀 수 없다."
+      },
+      "topic": "청소년 수면 시간과 등교 시각"
+     },
+     {
+      "id": "junior:report",
+      "word": "report",
+      "ko": "보고서, 보도; 보고하다",
+      "filled": "Students in these places reported feeling more awake and doing better at school.",
+      "sent_ko": "이러한 지역의 학생들은 더 깨어 있는 느낌이 들고 학교에서 더 잘한다고 보고했다.",
+      "chunks": [
+       {
+        "en": "Students in these places",
+        "ko": "이러한 지역의 학생들은"
+       },
+       {
+        "en": "reported feeling more awake",
+        "ko": "더 깨어 있는 느낌이 든다고 보고했다"
+       },
+       {
+        "en": "and doing better at school.",
+        "ko": "그리고 학교에서 더 잘한다고"
+       }
+      ],
+      "rp": {
+       "situation": "등교 시간을 늦춘 나라의 학생들이 자신의 변화를 이야기하고 있다.",
+       "prompt": "What did the students say after school started later?",
+       "options": [
+        "They reported feeling more awake and doing better.",
+        "They reported to feel more awake and doing better."
+       ],
+       "answer": 0,
+       "why": "report 뒤에는 동명사(-ing)가 오는 것이 자연스럽고, report to feel은 올바른 표현이 아니다."
+      },
+      "topic": "청소년 수면 시간과 등교 시각"
+     },
+     {
+      "id": "junior:expert",
+      "word": "expert",
+      "ko": "전문가",
+      "filled": "Many health experts believe that changing school hours could help millions of young people.",
+      "sent_ko": "많은 건강 전문가들은 학교 시간을 바꾸는 것이 수백만 명의 젊은이들을 도울 수 있다고 믿는다.",
+      "chunks": [
+       {
+        "en": "Many health experts believe",
+        "ko": "많은 건강 전문가들은 믿는다"
+       },
+       {
+        "en": "that changing school hours",
+        "ko": "학교 시간을 바꾸는 것이"
+       },
+       {
+        "en": "could help",
+        "ko": "도울 수 있다고"
+       },
+       {
+        "en": "millions of young people.",
+        "ko": "수백만 명의 젊은이들을"
+       }
+      ],
+      "rp": {
+       "situation": "기사에서 학교 시간 변경에 대해 건강 전문가들의 의견을 소개하고 있다.",
+       "prompt": "Who believes changing school hours could help young people?",
+       "options": [
+        "Many health experts believe it could help.",
+        "Many health expertly believe it could help."
+       ],
+       "answer": 0,
+       "why": "'전문가들'은 명사 experts이며, expertly는 부사라 주어 자리에 쓸 수 없다."
+      },
+      "topic": "청소년 수면 시간과 등교 시각"
+     },
+     {
+      "id": "junior:millions",
+      "word": "millions",
+      "ko": "수백만 (명/개)",
+      "filled": "Many health experts believe that changing school hours could help millions of young people.",
+      "sent_ko": "많은 건강 전문가들은 학교 시간을 바꾸는 것이 수백만 명의 젊은이들을 도울 수 있다고 믿는다.",
+      "chunks": [
+       {
+        "en": "Many health experts believe",
+        "ko": "많은 건강 전문가들은 믿는다"
+       },
+       {
+        "en": "that changing school hours",
+        "ko": "학교 시간을 바꾸는 것이"
+       },
+       {
+        "en": "could help",
+        "ko": "도울 수 있다고"
+       },
+       {
+        "en": "millions of young people.",
+        "ko": "수백만 명의 젊은이들을"
+       }
+      ],
+      "rp": {
+       "situation": "건강 전문가가 학교 시간 변경으로 혜택을 받을 수 있는 학생 수에 대해 말하고 있다.",
+       "prompt": "How many young people could be helped by changing school hours?",
+       "options": [
+        "It could help millions of young people.",
+        "It could help million of young people."
+       ],
+       "answer": 0,
+       "why": "'수백만'을 뜻할 때는 복수형 millions of를 써야 하며, million of는 올바른 표현이 아니다."
+      },
+      "topic": "청소년 수면 시간과 등교 시각"
      }
     ]
    }
