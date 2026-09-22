@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23 08:56:50",
+ "generated": "2026-09-23 08:57:04",
  "levels": {
   "kinder": [
    {
@@ -24723,6 +24723,545 @@
        "why": "staffing은 '인력 배치'를 뜻하는 명사이고, staff는 이 문맥에서 같은 의미로 쓰일 수 없다."
       },
       "topic": "병원 없는 지역의 분만실"
+     }
+    ]
+   },
+   {
+    "id": "times|빈 상가가 늘어난 도심",
+    "level": "times",
+    "topic": "빈 상가가 늘어난 도심",
+    "section": "사회",
+    "week": "2026-09-21",
+    "tf": [
+     {
+      "s": "The rise of empty storefronts in city centers began entirely as a result of the COVID-19 pandemic.",
+      "a": false
+     },
+     {
+      "s": "Some cities have responded to high vacancy rates by waiving business registration fees or offering small grants to attract new tenants.",
+      "a": true
+     },
+     {
+      "s": "Urban planners believe that the only effective solution to empty storefronts is to wait for traditional retail businesses to return.",
+      "a": false
+     },
+     {
+      "s": "Cities like Montreal experienced vacancy rates in downtown retail zones that reached levels not seen in decades.",
+      "a": true
+     }
+    ],
+    "cards": [
+     {
+      "id": "times:storefront",
+      "word": "storefront",
+      "ko": "상점 앞면, 가게 전면부",
+      "filled": "The rise of empty storefronts has become one of the most visible urban challenges of the 2020s.",
+      "sent_ko": "빈 상점 전면부의 증가는 2020년대의 가장 눈에 띄는 도시 문제 중 하나가 되었다.",
+      "chunks": [
+       {
+        "en": "The rise of empty storefronts",
+        "ko": "빈 상점 전면부의 증가는"
+       },
+       {
+        "en": "has become",
+        "ko": "~이 되었다"
+       },
+       {
+        "en": "one of the most visible urban challenges",
+        "ko": "가장 눈에 띄는 도시 문제 중 하나"
+       },
+       {
+        "en": "of the 2020s.",
+        "ko": "2020년대의"
+       }
+      ],
+      "rp": {
+       "situation": "기자가 도심 거리의 빈 가게들을 보도하고 있다.",
+       "prompt": "What do you see on this street?",
+       "options": [
+        "Every other storefront is empty and boarded up.",
+        "Every other storefront is emptiedly boarded up."
+       ],
+       "answer": 0,
+       "why": "empty는 형용사로 써야 하며, emptiedly는 존재하지 않는 형태다."
+      },
+      "topic": "빈 상가가 늘어난 도심"
+     },
+     {
+      "id": "times:vacancy",
+      "word": "vacancy",
+      "ko": "공실, 빈 공간 (특히 임대 가능한 빈 건물이나 방)",
+      "filled": "In cities like Montreal and several major American cities, vacancy rates in downtown retail zones climbed to levels not seen in decades.",
+      "sent_ko": "몬트리올과 여러 주요 미국 도시들에서, 도심 소매 구역의 공실률이 수십 년 만에 볼 수 없었던 수준으로 올라갔다.",
+      "chunks": [
+       {
+        "en": "In cities like Montreal",
+        "ko": "몬트리올 같은 도시들에서"
+       },
+       {
+        "en": "and several major American cities,",
+        "ko": "그리고 여러 주요 미국 도시들에서"
+       },
+       {
+        "en": "vacancy rates in downtown retail zones",
+        "ko": "도심 소매 구역의 공실률이"
+       },
+       {
+        "en": "climbed to levels",
+        "ko": "수준으로 올라갔다"
+       },
+       {
+        "en": "not seen in decades.",
+        "ko": "수십 년 만에 볼 수 없었던"
+       }
+      ],
+      "rp": {
+       "situation": "도시 담당자가 도심 소매 구역의 빈 건물 현황을 설명하고 있다.",
+       "prompt": "How bad is the situation downtown?",
+       "options": [
+        "The vacancy rate has reached its highest point in thirty years.",
+        "The vacant rate has reached its highest point in thirty years."
+       ],
+       "answer": 0,
+       "why": "vacancy는 명사로 쓰여 rate를 수식하며, vacant는 형용사라 rate 앞에 올 수 없다."
+      },
+      "topic": "빈 상가가 늘어난 도심"
+     },
+     {
+      "id": "times:foot traffic",
+      "word": "foot traffic",
+      "ko": "유동 인구, 보행자 통행량",
+      "filled": "When the pandemic then forced millions of workers to stay home, foot traffic in downtown areas fell sharply, and many small businesses could no longer afford the rent.",
+      "sent_ko": "팬데믹이 수백만 명의 노동자들을 집에 머물도록 강제했을 때, 도심 지역의 유동 인구가 급격히 줄었고, 많은 소규모 사업체들은 더 이상 임대료를 감당할 수 없었다.",
+      "chunks": [
+       {
+        "en": "When the pandemic then forced millions of workers to stay home,",
+        "ko": "팬데믹이 수백만 명의 노동자들을 집에 머물도록 강제했을 때"
+       },
+       {
+        "en": "foot traffic in downtown areas fell sharply,",
+        "ko": "도심 지역의 유동 인구가 급격히 줄었고"
+       },
+       {
+        "en": "and many small businesses",
+        "ko": "그리고 많은 소규모 사업체들은"
+       },
+       {
+        "en": "could no longer afford the rent.",
+        "ko": "더 이상 임대료를 감당할 수 없었다"
+       }
+      ],
+      "rp": {
+       "situation": "팬데믹 기간 동안 도심 카페 주인이 손님이 없다고 말하고 있다.",
+       "prompt": "Why is your café struggling so much?",
+       "options": [
+        "Foot traffic downtown dropped sharply, so we have almost no customers.",
+        "Foot trafficking downtown dropped sharply, so we have almost no customers."
+       ],
+       "answer": 0,
+       "why": "foot traffic은 명사구이며, foot trafficking은 올바른 표현이 아니다."
+      },
+      "topic": "빈 상가가 늘어난 도심"
+     },
+     {
+      "id": "times:commute",
+      "word": "commute",
+      "ko": "통근, 통학 (집과 직장 또는 학교를 오가는 것)",
+      "filled": "When office workers no longer commute five days a week, nearby cafés, clothing shops, and service businesses lose a reliable base of customers.",
+      "sent_ko": "직장인들이 더 이상 주 5일 통근하지 않을 때, 인근 카페, 의류 매장, 서비스 업체들은 믿을 수 있는 고객층을 잃게 된다.",
+      "chunks": [
+       {
+        "en": "When office workers no longer commute five days a week,",
+        "ko": "직장인들이 더 이상 주 5일 통근하지 않을 때"
+       },
+       {
+        "en": "nearby cafés, clothing shops, and service businesses",
+        "ko": "인근 카페, 의류 매장, 서비스 업체들은"
+       },
+       {
+        "en": "lose a reliable base of customers.",
+        "ko": "믿을 수 있는 고객층을 잃게 된다"
+       }
+      ],
+      "rp": {
+       "situation": "도심 카페 주인이 재택근무 확산 이후 매출 감소를 설명하고 있다.",
+       "prompt": "Why have your sales fallen so much?",
+       "options": [
+        "Fewer office workers commute downtown, so we lost our regular customers.",
+        "Fewer office workers are commuting-less downtown, so we lost our regular customers."
+       ],
+       "answer": 0,
+       "why": "commute는 자동사로 단독으로 쓰이며, commuting-less는 존재하지 않는 형태다."
+      },
+      "topic": "빈 상가가 늘어난 도심"
+     },
+     {
+      "id": "times:tenant",
+      "word": "tenant",
+      "ko": "세입자, 임차인",
+      "filled": "Some US cities have responded by waiving business registration fees or offering small grants to attract new tenants into empty units.",
+      "sent_ko": "일부 미국 도시들은 빈 점포에 새로운 세입자를 유치하기 위해 사업자 등록비를 면제해 주거나 소액 보조금을 제공하는 방식으로 대응했다.",
+      "chunks": [
+       {
+        "en": "Some US cities have responded",
+        "ko": "일부 미국 도시들은 대응했다"
+       },
+       {
+        "en": "by waiving business registration fees",
+        "ko": "사업자 등록비를 면제해 주거나"
+       },
+       {
+        "en": "or offering small grants",
+        "ko": "소액 보조금을 제공함으로써"
+       },
+       {
+        "en": "to attract new tenants",
+        "ko": "새로운 세입자를 유치하기 위해"
+       },
+       {
+        "en": "into empty units.",
+        "ko": "빈 점포로"
+       }
+      ],
+      "rp": {
+       "situation": "시 공무원이 도심 빈 점포를 채우려는 정책을 설명하고 있다.",
+       "prompt": "Who are you trying to bring into these empty spaces?",
+       "options": [
+        "We want to attract new tenants who will open businesses here.",
+        "We want to attract new tenancies who will open businesses here."
+       ],
+       "answer": 0,
+       "why": "tenants는 사람을 가리키는 명사이고, tenancies는 임대 계약을 뜻해 문맥에 맞지 않는다."
+      },
+      "topic": "빈 상가가 늘어난 도심"
+     },
+     {
+      "id": "times:grant",
+      "word": "grant",
+      "ko": "보조금, 지원금 (상환 없이 주어지는 자금)",
+      "filled": "Some US cities have responded by waiving business registration fees or offering small grants to attract new tenants into empty units.",
+      "sent_ko": "일부 미국 도시들은 빈 점포에 새로운 세입자를 유치하기 위해 사업자 등록비를 면제해 주거나 소액 보조금을 제공하는 방식으로 대응했다.",
+      "chunks": [
+       {
+        "en": "Some US cities have responded",
+        "ko": "일부 미국 도시들은 대응했다"
+       },
+       {
+        "en": "by waiving business registration fees",
+        "ko": "사업자 등록비를 면제해 주거나"
+       },
+       {
+        "en": "or offering small grants",
+        "ko": "소액 보조금을 제공함으로써"
+       },
+       {
+        "en": "to attract new tenants",
+        "ko": "새로운 세입자를 유치하기 위해"
+       },
+       {
+        "en": "into empty units.",
+        "ko": "빈 점포로"
+       }
+      ],
+      "rp": {
+       "situation": "소규모 사업자가 시로부터 빈 점포 입주를 위한 자금을 받았다.",
+       "prompt": "Did you have to pay that money back to the city?",
+       "options": [
+        "No, it was a grant, so I don't need to repay it.",
+        "No, it was a loan, so I don't need to repay it."
+       ],
+       "answer": 0,
+       "why": "grant는 상환 없이 주어지는 보조금이고, loan은 갚아야 하는 대출이라 문맥에 맞지 않는다."
+      },
+      "topic": "빈 상가가 늘어난 도심"
+     },
+     {
+      "id": "times:retail",
+      "word": "retail",
+      "ko": "소매 (업), 소비자에게 직접 상품을 판매하는 것",
+      "filled": "In cities like Montreal and several major American cities, vacancy rates in downtown retail zones climbed to levels not seen in decades.",
+      "sent_ko": "몬트리올과 여러 주요 미국 도시들에서, 도심 소매 구역의 공실률이 수십 년 만에 볼 수 없었던 수준으로 올라갔다.",
+      "chunks": [
+       {
+        "en": "In cities like Montreal",
+        "ko": "몬트리올 같은 도시들에서"
+       },
+       {
+        "en": "and several major American cities,",
+        "ko": "그리고 여러 주요 미국 도시들에서"
+       },
+       {
+        "en": "vacancy rates in downtown retail zones",
+        "ko": "도심 소매 구역의 공실률이"
+       },
+       {
+        "en": "climbed to levels",
+        "ko": "수준으로 올라갔다"
+       },
+       {
+        "en": "not seen in decades.",
+        "ko": "수십 년 만에 볼 수 없었던"
+       }
+      ],
+      "rp": {
+       "situation": "도시 계획가가 도심 소매 구역의 빈 가게 문제를 논의하고 있다.",
+       "prompt": "What kind of businesses used to fill these empty spaces?",
+       "options": [
+        "These were retail shops selling clothes, food, and everyday goods directly to customers.",
+        "These were wholesale shops selling clothes, food, and everyday goods directly to customers."
+       ],
+       "answer": 0,
+       "why": "retail은 소비자에게 직접 판매하는 소매를 뜻하고, wholesale은 대량 거래를 뜻해 문맥에 맞지 않는다."
+      },
+      "topic": "빈 상가가 늘어난 도심"
+     },
+     {
+      "id": "times:convert",
+      "word": "convert",
+      "ko": "전환하다, 바꾸다 (용도나 형태를 변경하다)",
+      "filled": "Rather than waiting for traditional retail to return, some cities are converting empty storefronts into community centers, co-working spaces, or small creative studios.",
+      "sent_ko": "전통적인 소매업이 돌아오기를 기다리는 대신, 일부 도시들은 빈 상점 전면부를 커뮤니티 센터, 공유 작업 공간, 또는 소규모 창작 스튜디오로 전환하고 있다.",
+      "chunks": [
+       {
+        "en": "Rather than waiting for traditional retail to return,",
+        "ko": "전통적인 소매업이 돌아오기를 기다리는 대신"
+       },
+       {
+        "en": "some cities are converting",
+        "ko": "일부 도시들은 전환하고 있다"
+       },
+       {
+        "en": "empty storefronts",
+        "ko": "빈 상점 전면부를"
+       },
+       {
+        "en": "into community centers, co-working spaces, or small creative studios.",
+        "ko": "커뮤니티 센터, 공유 작업 공간, 또는 소규모 창작 스튜디오로"
+       }
+      ],
+      "rp": {
+       "situation": "도시 계획가가 도심 빈 가게들을 새로운 공간으로 바꾸는 계획을 발표하고 있다.",
+       "prompt": "What will happen to the empty storefronts?",
+       "options": [
+        "The city plans to convert them into community centers and co-working spaces.",
+        "The city plans to convert them to become community centers and co-working spaces."
+       ],
+       "answer": 0,
+       "why": "convert는 'convert A into B' 형태로 쓰이며, 'convert A to become B'는 비문법적이다."
+      },
+      "topic": "빈 상가가 늘어난 도심"
+     },
+     {
+      "id": "times:urban",
+      "word": "urban",
+      "ko": "도시의, 도시와 관련된",
+      "filled": "Urban planners suggest that the solution may involve rethinking what downtown spaces are actually for.",
+      "sent_ko": "도시 계획가들은 해결책이 도심 공간이 실제로 무엇을 위한 것인지 재고하는 것을 포함할 수 있다고 제안한다.",
+      "chunks": [
+       {
+        "en": "Urban planners suggest",
+        "ko": "도시 계획가들은 제안한다"
+       },
+       {
+        "en": "that the solution may involve",
+        "ko": "해결책이 ~을 포함할 수 있다고"
+       },
+       {
+        "en": "rethinking what downtown spaces",
+        "ko": "도심 공간이 무엇인지 재고하는 것"
+       },
+       {
+        "en": "are actually for.",
+        "ko": "실제로 무엇을 위한 것인지"
+       }
+      ],
+      "rp": {
+       "situation": "도심 빈 건물 문제를 다루는 전문가가 자신의 직업을 소개하고 있다.",
+       "prompt": "What do you do for work?",
+       "options": [
+        "I'm an urban planner — I work on city design and space use.",
+        "I'm an urbanic planner — I work on city design and space use."
+       ],
+       "answer": 0,
+       "why": "urban은 올바른 형용사이며, urbanic은 존재하지 않는 단어다."
+      },
+      "topic": "빈 상가가 늘어난 도심"
+     },
+     {
+      "id": "times:commerce",
+      "word": "commerce",
+      "ko": "상업, 무역 (상품이나 서비스의 거래 활동)",
+      "filled": "Downtown areas have historically been defined by commerce, but shifting habits may push cities toward more mixed-use neighborhoods where living, working, and leisure exist side by side.",
+      "sent_ko": "도심 지역은 역사적으로 상업에 의해 정의되어 왔지만, 변화하는 습관이 도시들을 주거, 직장, 여가가 나란히 공존하는 복합 용도 지구 쪽으로 밀어붙일 수 있다.",
+      "chunks": [
+       {
+        "en": "Downtown areas have historically been defined by commerce,",
+        "ko": "도심 지역은 역사적으로 상업에 의해 정의되어 왔지만"
+       },
+       {
+        "en": "but shifting habits may push cities",
+        "ko": "변화하는 습관이 도시들을 밀어붙일 수 있다"
+       },
+       {
+        "en": "toward more mixed-use neighborhoods",
+        "ko": "복합 용도 지구 쪽으로"
+       },
+       {
+        "en": "where living, working, and leisure exist side by side.",
+        "ko": "주거, 직장, 여가가 나란히 공존하는"
+       }
+      ],
+      "rp": {
+       "situation": "역사학자가 과거 도심 지역의 주된 기능을 설명하고 있다.",
+       "prompt": "What has traditionally defined downtown areas?",
+       "options": [
+        "Downtown areas were historically defined by commerce — buying and selling goods.",
+        "Downtown areas were historically defined by commercialism — buying and selling goods."
+       ],
+       "answer": 0,
+       "why": "commerce는 상업 활동 자체를 뜻하고, commercialism은 이윤 추구 성향을 비판적으로 가리키는 말로 문맥에 맞지 않는다."
+      },
+      "topic": "빈 상가가 늘어난 도심"
+     },
+     {
+      "id": "times:leisure",
+      "word": "leisure",
+      "ko": "여가, 자유 시간 (일하지 않고 즐기는 시간)",
+      "filled": "Downtown areas have historically been defined by commerce, but shifting habits may push cities toward more mixed-use neighborhoods where living, working, and leisure exist side by side.",
+      "sent_ko": "도심 지역은 역사적으로 상업에 의해 정의되어 왔지만, 변화하는 습관이 도시들을 주거, 직장, 여가가 나란히 공존하는 복합 용도 지구 쪽으로 밀어붙일 수 있다.",
+      "chunks": [
+       {
+        "en": "Downtown areas have historically been defined by commerce,",
+        "ko": "도심 지역은 역사적으로 상업에 의해 정의되어 왔지만"
+       },
+       {
+        "en": "but shifting habits may push cities",
+        "ko": "변화하는 습관이 도시들을 밀어붙일 수 있다"
+       },
+       {
+        "en": "toward more mixed-use neighborhoods",
+        "ko": "복합 용도 지구 쪽으로"
+       },
+       {
+        "en": "where living, working, and leisure exist side by side.",
+        "ko": "주거, 직장, 여가가 나란히 공존하는"
+       }
+      ],
+      "rp": {
+       "situation": "도시 계획가가 새로운 복합 용도 지구에 포함될 기능들을 설명하고 있다.",
+       "prompt": "What will people be able to do in these new mixed-use neighborhoods?",
+       "options": [
+        "Residents can live, work, and enjoy leisure activities all in the same area.",
+        "Residents can live, work, and enjoy leisurely activities all in the same area."
+       ],
+       "answer": 0,
+       "why": "leisure는 명사로 'leisure activities'가 자연스럽고, leisurely는 형용사로 activities와 어울리지 않는다."
+      },
+      "topic": "빈 상가가 늘어난 도심"
+     },
+     {
+      "id": "times:mixed-use",
+      "word": "mixed-use",
+      "ko": "복합 용도의 (주거, 상업, 여가 등 여러 기능을 함께 갖춘)",
+      "filled": "Downtown areas have historically been defined by commerce, but shifting habits may push cities toward more mixed-use neighborhoods where living, working, and leisure exist side by side.",
+      "sent_ko": "도심 지역은 역사적으로 상업에 의해 정의되어 왔지만, 변화하는 습관이 도시들을 주거, 직장, 여가가 나란히 공존하는 복합 용도 지구 쪽으로 밀어붙일 수 있다.",
+      "chunks": [
+       {
+        "en": "Downtown areas have historically been defined by commerce,",
+        "ko": "도심 지역은 역사적으로 상업에 의해 정의되어 왔지만"
+       },
+       {
+        "en": "but shifting habits may push cities",
+        "ko": "변화하는 습관이 도시들을 밀어붙일 수 있다"
+       },
+       {
+        "en": "toward more mixed-use neighborhoods",
+        "ko": "복합 용도 지구 쪽으로"
+       },
+       {
+        "en": "where living, working, and leisure exist side by side.",
+        "ko": "주거, 직장, 여가가 나란히 공존하는"
+       }
+      ],
+      "rp": {
+       "situation": "도시 계획가가 빈 도심 구역을 어떻게 재개발할지 설명하고 있다.",
+       "prompt": "What kind of neighborhood are you trying to create?",
+       "options": [
+        "We want a mixed-use neighborhood where people can live, work, and relax in one place.",
+        "We want a mixed-purposes neighborhood where people can live, work, and relax in one place."
+       ],
+       "answer": 0,
+       "why": "mixed-use는 복합 용도를 나타내는 굳어진 형용사이고, mixed-purposes는 문법적으로 올바르지 않은 형태다."
+      },
+      "topic": "빈 상가가 늘어난 도심"
+     },
+     {
+      "id": "times:visible",
+      "word": "visible",
+      "ko": "눈에 띄는, 잘 보이는",
+      "filled": "The rise of empty storefronts has become one of the most visible urban challenges of the 2020s.",
+      "sent_ko": "빈 상점 전면부의 증가는 2020년대의 가장 눈에 띄는 도시 문제 중 하나가 되었다.",
+      "chunks": [
+       {
+        "en": "The rise of empty storefronts",
+        "ko": "빈 상점 전면부의 증가는"
+       },
+       {
+        "en": "has become",
+        "ko": "~이 되었다"
+       },
+       {
+        "en": "one of the most visible urban challenges",
+        "ko": "가장 눈에 띄는 도시 문제 중 하나"
+       },
+       {
+        "en": "of the 2020s.",
+        "ko": "2020년대의"
+       }
+      ],
+      "rp": {
+       "situation": "기자가 도심 거리를 걸으며 빈 가게들이 줄지어 있는 모습을 묘사하고 있다.",
+       "prompt": "Can you easily notice the problem just by walking around downtown?",
+       "options": [
+        "Yes, the empty storefronts are the most visible sign of the city's struggle.",
+        "Yes, the empty storefronts are the most visibly sign of the city's struggle."
+       ],
+       "answer": 0,
+       "why": "visible은 형용사로 most visible이 올바르고, visibly는 부사라 명사 sign을 수식할 수 없다."
+      },
+      "topic": "빈 상가가 늘어난 도심"
+     },
+     {
+      "id": "times:reliable",
+      "word": "reliable",
+      "ko": "믿을 수 있는, 신뢰할 수 있는",
+      "filled": "When office workers no longer commute five days a week, nearby cafés, clothing shops, and service businesses lose a reliable base of customers.",
+      "sent_ko": "직장인들이 더 이상 주 5일 통근하지 않을 때, 인근 카페, 의류 매장, 서비스 업체들은 믿을 수 있는 고객층을 잃게 된다.",
+      "chunks": [
+       {
+        "en": "When office workers no longer commute five days a week,",
+        "ko": "직장인들이 더 이상 주 5일 통근하지 않을 때"
+       },
+       {
+        "en": "nearby cafés, clothing shops, and service businesses",
+        "ko": "인근 카페, 의류 매장, 서비스 업체들은"
+       },
+       {
+        "en": "lose a reliable base of customers.",
+        "ko": "믿을 수 있는 고객층을 잃게 된다"
+       }
+      ],
+      "rp": {
+       "situation": "도심 카페 주인이 재택근무 이전에 매일 오던 직장인 손님들을 설명하고 있다.",
+       "prompt": "Why were those office workers so important to your business?",
+       "options": [
+        "They were a reliable base of customers — we could count on them every weekday.",
+        "They were a relying base of customers — we could count on them every weekday."
+       ],
+       "answer": 0,
+       "why": "reliable은 '믿을 수 있는'을 뜻하는 형용사이고, relying은 능동 분사로 이 문맥에 쓸 수 없다."
+      },
+      "topic": "빈 상가가 늘어난 도심"
      }
     ]
    }
