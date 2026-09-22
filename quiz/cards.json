@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23 08:36:08",
+ "generated": "2026-09-23 08:36:13",
  "levels": {
   "kinder": [
    {
@@ -1910,6 +1910,193 @@
        "why": "무지개에는 색깔이 여러 개라서 복수형 colors가 맞아요."
       },
       "topic": "무지개는 언제 생길까"
+     }
+    ]
+   },
+   {
+    "id": "kinder|낙엽은 왜 색이 변할까",
+    "level": "kinder",
+    "topic": "낙엽은 왜 색이 변할까",
+    "section": "과학",
+    "week": "2026-09-21",
+    "tf": [
+     {
+      "s": "Leaves are green in spring and summer.",
+      "a": true
+     },
+     {
+      "s": "Leaves turn blue and purple in fall.",
+      "a": false
+     },
+     {
+      "s": "In fall, the days get shorter and colder.",
+      "a": true
+     },
+     {
+      "s": "Leaves have no colors hiding inside them.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "kinder:fall",
+      "word": "fall",
+      "ko": "가을",
+      "filled": "In fall, days get shorter.",
+      "sent_ko": "가을에는 낮이 더 짧아져요.",
+      "chunks": [
+       {
+        "en": "In fall,",
+        "ko": "가을에는"
+       },
+       {
+        "en": "days",
+        "ko": "낮이"
+       },
+       {
+        "en": "get shorter.",
+        "ko": "더 짧아져요"
+       }
+      ],
+      "rp": {
+       "situation": "나뭇잎이 빨갛고 노랗게 변하는 계절이에요.",
+       "prompt": "What season is it?",
+       "options": [
+        "It is fall.",
+        "It is fallen."
+       ],
+       "answer": 0,
+       "why": "fall은 명사로 '가을'이고, fallen은 형용사라 계절 이름으로 쓸 수 없어요."
+      },
+      "topic": "낙엽은 왜 색이 변할까"
+     },
+     {
+      "id": "kinder:leaf",
+      "word": "leaf",
+      "ko": "나뭇잎",
+      "filled": "The child picked up a red leaf from the ground and brought it home to show her parents.",
+      "sent_ko": "그 아이는 땅에서 빨간 나뭇잎 하나를 집어서 부모님께 보여 주려고 집에 가져왔어요.",
+      "chunks": [
+       {
+        "en": "The child picked up a red leaf",
+        "ko": "아이가 빨간 나뭇잎을 집었어요"
+       },
+       {
+        "en": "from the ground",
+        "ko": "땅에서"
+       },
+       {
+        "en": "and brought it home to show her parents.",
+        "ko": "부모님께 보여 주려고 집에 가져왔어요"
+       }
+      ],
+      "rp": {
+       "situation": "나무에서 빨간 나뭇잎 하나가 땅에 떨어져 있어요.",
+       "prompt": "What did the child pick up?",
+       "options": [
+        "She picked up a leaf.",
+        "She picked up a leave."
+       ],
+       "answer": 0,
+       "why": "나뭇잎의 올바른 단수형은 leaf이고, leave는 '떠나다'라는 동사예요."
+      },
+      "topic": "낙엽은 왜 색이 변할까"
+     },
+     {
+      "id": "kinder:color",
+      "word": "color",
+      "ko": "색깔",
+      "filled": "Then new colors come out!",
+      "sent_ko": "그러고 나서 새로운 색깔들이 나타나요!",
+      "chunks": [
+       {
+        "en": "Then",
+        "ko": "그러고 나서"
+       },
+       {
+        "en": "new colors",
+        "ko": "새로운 색깔들이"
+       },
+       {
+        "en": "come out!",
+        "ko": "나타나요"
+       }
+      ],
+      "rp": {
+       "situation": "가을이 되어 나뭇잎에서 빨강, 주황, 노랑이 보여요.",
+       "prompt": "What do you see on the leaves?",
+       "options": [
+        "I see new colors.",
+        "I see new color."
+       ],
+       "answer": 0,
+       "why": "빨강, 주황, 노랑 여러 색깔이 나오므로 복수형 colors가 맞아요."
+      },
+      "topic": "낙엽은 왜 색이 변할까"
+     },
+     {
+      "id": "kinder:green",
+      "word": "green",
+      "ko": "초록색",
+      "filled": "The green color slowly goes away.",
+      "sent_ko": "초록색이 천천히 사라져요.",
+      "chunks": [
+       {
+        "en": "The green color",
+        "ko": "초록색이"
+       },
+       {
+        "en": "slowly",
+        "ko": "천천히"
+       },
+       {
+        "en": "goes away.",
+        "ko": "사라져요"
+       }
+      ],
+      "rp": {
+       "situation": "가을이 되면서 나뭇잎의 초록색이 없어지고 있어요.",
+       "prompt": "What is happening to the green color?",
+       "options": [
+        "It slowly goes away.",
+        "It slowly goes green."
+       ],
+       "answer": 0,
+       "why": "초록색이 사라지는 상황이므로 goes away가 맞고, goes green은 '초록색이 된다'는 뜻이에요."
+      },
+      "topic": "낙엽은 왜 색이 변할까"
+     },
+     {
+      "id": "kinder:sunlight",
+      "word": "sunlight",
+      "ko": "햇빛",
+      "filled": "Chlorophyll helps leaves use sunlight.",
+      "sent_ko": "엽록소는 나뭇잎이 햇빛을 이용하도록 도와줘요.",
+      "chunks": [
+       {
+        "en": "Chlorophyll",
+        "ko": "엽록소는"
+       },
+       {
+        "en": "helps leaves",
+        "ko": "나뭇잎이 ~하도록 도와줘요"
+       },
+       {
+        "en": "use sunlight.",
+        "ko": "햇빛을 이용하게"
+       }
+      ],
+      "rp": {
+       "situation": "나뭇잎 속 엽록소가 무언가를 이용해서 일을 해요.",
+       "prompt": "What do leaves use with chlorophyll?",
+       "options": [
+        "They use sunlight.",
+        "They use sunny."
+       ],
+       "answer": 0,
+       "why": "sunlight는 명사로 '햇빛'이고, sunny는 형용사라 동사 use의 목적어로 쓸 수 없어요."
+      },
+      "topic": "낙엽은 왜 색이 변할까"
      }
     ]
    }
