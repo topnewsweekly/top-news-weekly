@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23 08:39:55",
+ "generated": "2026-09-23 08:40:28",
  "levels": {
   "kinder": [
    {
@@ -6383,6 +6383,249 @@
        "why": "'~에 좋다'는 표현은 good/great for를 쓰며, of는 이 문맥에서 쓸 수 없습니다."
       },
       "topic": "플라스틱 병이 옷이 되는 과정"
+     }
+    ]
+   },
+   {
+    "id": "kids|나라마다 다른 아침 식사",
+    "level": "kids",
+    "topic": "나라마다 다른 아침 식사",
+    "section": "문화",
+    "week": "2026-09-21",
+    "tf": [
+     {
+      "s": "In Japan, people eat rice, fish, and soup for breakfast.",
+      "a": true
+     },
+     {
+      "s": "In Turkey, people eat akamu for breakfast.",
+      "a": false
+     },
+     {
+      "s": "People in different countries eat different things in the morning.",
+      "a": true
+     },
+     {
+      "s": "Akamu is a type of soup eaten in Nigeria.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "kids:breakfast",
+      "word": "breakfast",
+      "ko": "아침 식사",
+      "filled": "What do you eat for breakfast?",
+      "sent_ko": "아침 식사로 무엇을 먹나요?",
+      "chunks": [
+       {
+        "en": "What do you eat",
+        "ko": "무엇을 먹나요"
+       },
+       {
+        "en": "for breakfast?",
+        "ko": "아침 식사로"
+       }
+      ],
+      "rp": {
+       "situation": "아침에 일어나서 밥을 먹으려고 해요.",
+       "prompt": "What are you doing?",
+       "options": [
+        "I am eating breakfast.",
+        "I am eating breakfasts."
+       ],
+       "answer": 0,
+       "why": "breakfast는 셀 수 없는 명사라서 복수형을 쓰지 않아요."
+      },
+      "topic": "나라마다 다른 아침 식사"
+     },
+     {
+      "id": "kids:different",
+      "word": "different",
+      "ko": "다른, 다양한",
+      "filled": "People in different countries eat very different things in the morning.",
+      "sent_ko": "다른 나라의 사람들은 아침에 매우 다양한 것들을 먹어요.",
+      "chunks": [
+       {
+        "en": "People in different countries",
+        "ko": "다른 나라의 사람들은"
+       },
+       {
+        "en": "eat very different things",
+        "ko": "매우 다양한 것들을 먹어요"
+       },
+       {
+        "en": "in the morning.",
+        "ko": "아침에"
+       }
+      ],
+      "rp": {
+       "situation": "일본 사람과 터키 사람의 아침 식사를 비교하고 있어요.",
+       "prompt": "Are their breakfasts the same?",
+       "options": [
+        "No, they eat different things.",
+        "No, they eat difference things."
+       ],
+       "answer": 0,
+       "why": "different는 형용사이고, difference는 명사라서 명사 앞에 쓸 수 없어요."
+      },
+      "topic": "나라마다 다른 아침 식사"
+     },
+     {
+      "id": "kids:country",
+      "word": "country",
+      "ko": "나라, 국가",
+      "filled": "Every country has its own breakfast.",
+      "sent_ko": "모든 나라는 자신만의 아침 식사가 있어요.",
+      "chunks": [
+       {
+        "en": "Every country",
+        "ko": "모든 나라는"
+       },
+       {
+        "en": "has its own breakfast.",
+        "ko": "자신만의 아침 식사가 있어요"
+       }
+      ],
+      "rp": {
+       "situation": "일본, 터키, 나이지리아의 아침 식사에 대해 이야기하고 있어요.",
+       "prompt": "Do all countries eat the same breakfast?",
+       "options": [
+        "No, every country has its own breakfast.",
+        "No, every country have its own breakfast."
+       ],
+       "answer": 0,
+       "why": "every country는 단수 취급이라서 동사는 has를 써야 해요."
+      },
+      "topic": "나라마다 다른 아침 식사"
+     },
+     {
+      "id": "kids:rice",
+      "word": "rice",
+      "ko": "쌀, 밥",
+      "filled": "In Japan, many people eat rice, fish, and soup.",
+      "sent_ko": "일본에서는 많은 사람들이 밥, 생선, 수프를 먹어요.",
+      "chunks": [
+       {
+        "en": "In Japan,",
+        "ko": "일본에서는"
+       },
+       {
+        "en": "many people eat",
+        "ko": "많은 사람들이 먹어요"
+       },
+       {
+        "en": "rice, fish, and soup.",
+        "ko": "밥, 생선, 그리고 수프를"
+       }
+      ],
+      "rp": {
+       "situation": "일본 사람이 아침 식사로 무엇을 먹는지 설명하고 있어요.",
+       "prompt": "What do many people in Japan eat for breakfast?",
+       "options": [
+        "They eat rice, fish, and soup.",
+        "They eat a rice, fish, and soup."
+       ],
+       "answer": 0,
+       "why": "rice는 셀 수 없는 명사라서 앞에 a를 쓰지 않아요."
+      },
+      "topic": "나라마다 다른 아침 식사"
+     },
+     {
+      "id": "kids:soup",
+      "word": "soup",
+      "ko": "수프, 국",
+      "filled": "In Japan, many people eat rice, fish, and soup.",
+      "sent_ko": "일본에서는 많은 사람들이 밥, 생선, 수프를 먹어요.",
+      "chunks": [
+       {
+        "en": "In Japan,",
+        "ko": "일본에서는"
+       },
+       {
+        "en": "many people eat",
+        "ko": "많은 사람들이 먹어요"
+       },
+       {
+        "en": "rice, fish, and soup.",
+        "ko": "밥, 생선, 그리고 수프를"
+       }
+      ],
+      "rp": {
+       "situation": "일본의 아침 식사 사진을 보고 수프에 대해 이야기하고 있어요.",
+       "prompt": "What is in the bowl?",
+       "options": [
+        "It is soup.",
+        "It is a soup."
+       ],
+       "answer": 0,
+       "why": "soup는 셀 수 없는 명사라서 a를 붙이지 않아요."
+      },
+      "topic": "나라마다 다른 아침 식사"
+     },
+     {
+      "id": "kids:cheese",
+      "word": "cheese",
+      "ko": "치즈",
+      "filled": "In Turkey, people often have bread, cheese, and olives.",
+      "sent_ko": "터키에서 사람들은 빵, 치즈, 그리고 올리브를 자주 먹어요.",
+      "chunks": [
+       {
+        "en": "In Turkey,",
+        "ko": "터키에서는"
+       },
+       {
+        "en": "people often have",
+        "ko": "사람들은 자주 먹어요"
+       },
+       {
+        "en": "bread, cheese, and olives.",
+        "ko": "빵, 치즈, 그리고 올리브를"
+       }
+      ],
+      "rp": {
+       "situation": "터키 사람의 아침 식사 접시에 치즈가 있어요.",
+       "prompt": "What is on the plate?",
+       "options": [
+        "There is cheese on the plate.",
+        "There is a cheese on the plate."
+       ],
+       "answer": 0,
+       "why": "cheese는 셀 수 없는 명사라서 a를 붙이지 않아요."
+      },
+      "topic": "나라마다 다른 아침 식사"
+     },
+     {
+      "id": "kids:culture",
+      "word": "culture",
+      "ko": "문화",
+      "filled": "The food people eat shows a lot about their culture.",
+      "sent_ko": "사람들이 먹는 음식은 그들의 문화에 대해 많은 것을 보여 줘요.",
+      "chunks": [
+       {
+        "en": "The food people eat",
+        "ko": "사람들이 먹는 음식은"
+       },
+       {
+        "en": "shows a lot",
+        "ko": "많은 것을 보여 줘요"
+       },
+       {
+        "en": "about their culture.",
+        "ko": "그들의 문화에 대해"
+       }
+      ],
+      "rp": {
+       "situation": "일본, 터키, 나이지리아의 아침 식사가 모두 다르다는 것을 배웠어요.",
+       "prompt": "What does different breakfast food tell us?",
+       "options": [
+        "It shows a lot about their culture.",
+        "It shows a lot about their cultural."
+       ],
+       "answer": 0,
+       "why": "culture는 명사이고, cultural은 형용사라서 이 자리에 쓸 수 없어요."
+      },
+      "topic": "나라마다 다른 아침 식사"
      }
     ]
    }
