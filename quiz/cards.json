@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23 08:37:53",
+ "generated": "2026-09-23 08:38:38",
  "levels": {
   "kinder": [
    {
@@ -5610,6 +5610,257 @@
        "why": "in 뒤에는 명사 autumn이 와야 하고, 형용사 autumnal은 쓸 수 없어요."
       },
       "topic": "나라마다 다른 추석 같은 명절"
+     }
+    ]
+   },
+   {
+    "id": "kids|별똥별은 어디서 올까",
+    "level": "kids",
+    "topic": "별똥별은 어디서 올까",
+    "section": "과학",
+    "week": "2026-09-21",
+    "tf": [
+     {
+      "s": "A shooting star is actually a small rock from space, not a real star.",
+      "a": true
+     },
+     {
+      "s": "Shooting stars are usually very large — bigger than a soccer ball.",
+      "a": false
+     },
+     {
+      "s": "When a rock enters Earth's air, it burns and glows, making a streak of light.",
+      "a": true
+     },
+     {
+      "s": "A meteor shower happens when Earth passes through dust left by another planet.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "kids:shooting star",
+      "word": "shooting star",
+      "ko": "별똥별",
+      "filled": "Sometimes, many shooting stars appear on the same night.",
+      "sent_ko": "때때로, 많은 별똥별들이 같은 날 밤에 나타납니다.",
+      "chunks": [
+       {
+        "en": "Sometimes,",
+        "ko": "때때로"
+       },
+       {
+        "en": "many shooting stars",
+        "ko": "많은 별똥별들이"
+       },
+       {
+        "en": "appear",
+        "ko": "나타납니다"
+       },
+       {
+        "en": "on the same night.",
+        "ko": "같은 날 밤에"
+       }
+      ],
+      "rp": {
+       "situation": "밤하늘에서 빠르게 빛나는 줄기를 봤어요.",
+       "prompt": "What did you see in the night sky?",
+       "options": [
+        "I saw a shooting star!",
+        "I saw a shooting rock!"
+       ],
+       "answer": 0,
+       "why": "'shooting star'가 별똥별을 뜻하는 올바른 표현입니다."
+      },
+      "topic": "별똥별은 어디서 올까"
+     },
+     {
+      "id": "kids:rock",
+      "word": "rock",
+      "ko": "돌, 암석",
+      "filled": "It is a small rock from space.",
+      "sent_ko": "그것은 우주에서 온 작은 돌입니다.",
+      "chunks": [
+       {
+        "en": "It is",
+        "ko": "그것은 ~입니다"
+       },
+       {
+        "en": "a small rock",
+        "ko": "작은 돌"
+       },
+       {
+        "en": "from space.",
+        "ko": "우주에서 온"
+       }
+      ],
+      "rp": {
+       "situation": "우주에서 지구로 날아오는 작은 물체를 설명하고 있어요.",
+       "prompt": "What is a shooting star really?",
+       "options": [
+        "It is a small rock from space.",
+        "It is a small stone from space."
+       ],
+       "answer": 0,
+       "why": "우주에서 온 물체는 'rock'으로 표현하는 것이 자연스럽습니다."
+      },
+      "topic": "별똥별은 어디서 올까"
+     },
+     {
+      "id": "kids:burn",
+      "word": "burn",
+      "ko": "타다, 연소하다",
+      "filled": "They burn up completely before they reach the ground.",
+      "sent_ko": "그것들은 땅에 닿기 전에 완전히 타 버립니다.",
+      "chunks": [
+       {
+        "en": "They burn up completely",
+        "ko": "완전히 타 버립니다"
+       },
+       {
+        "en": "before they reach",
+        "ko": "닿기 전에"
+       },
+       {
+        "en": "the ground.",
+        "ko": "땅에"
+       }
+      ],
+      "rp": {
+       "situation": "우주 돌이 지구의 공기 속으로 들어오고 있어요.",
+       "prompt": "What happens to the rock in Earth's air?",
+       "options": [
+        "The rock starts to burn.",
+        "The rock starts to burning."
+       ],
+       "answer": 0,
+       "why": "'starts to'뒤에는 동사원형이 와야 하므로 'burn'이 맞습니다."
+      },
+      "topic": "별똥별은 어디서 올까"
+     },
+     {
+      "id": "kids:glow",
+      "word": "glow",
+      "ko": "빛나다, 빛을 발하다",
+      "filled": "The air makes them burn and glow, so we see a streak of light.",
+      "sent_ko": "공기가 그것들을 타게 하고 빛나게 해서, 우리는 빛의 줄기를 봅니다.",
+      "chunks": [
+       {
+        "en": "The air makes them burn and glow,",
+        "ko": "공기가 그것들을 타고 빛나게 해서"
+       },
+       {
+        "en": "so we see",
+        "ko": "그래서 우리는 봅니다"
+       },
+       {
+        "en": "a streak of light.",
+        "ko": "빛의 줄기를"
+       }
+      ],
+      "rp": {
+       "situation": "밤하늘에서 우주 돌이 공기를 통과하고 있어요.",
+       "prompt": "Why can we see the rock in the sky?",
+       "options": [
+        "Because the rock starts to glow.",
+        "Because the rock starts to glowing."
+       ],
+       "answer": 0,
+       "why": "'starts to'뒤에는 동사원형이 와야 하므로 'glow'가 맞습니다."
+      },
+      "topic": "별똥별은 어디서 올까"
+     },
+     {
+      "id": "kids:streak",
+      "word": "streak",
+      "ko": "줄무늬, 빠르게 지나가는 빛의 선",
+      "filled": "The air makes them burn and glow, so we see a streak of light.",
+      "sent_ko": "공기가 그것들을 타게 하고 빛나게 해서, 우리는 빛의 줄기를 봅니다.",
+      "chunks": [
+       {
+        "en": "The air makes them burn and glow,",
+        "ko": "공기가 그것들을 타고 빛나게 해서"
+       },
+       {
+        "en": "so we see",
+        "ko": "그래서 우리는 봅니다"
+       },
+       {
+        "en": "a streak of light.",
+        "ko": "빛의 줄기를"
+       }
+      ],
+      "rp": {
+       "situation": "밤하늘을 가로질러 빠르게 지나가는 빛을 보고 있어요.",
+       "prompt": "What do you see when a shooting star passes?",
+       "options": [
+        "I see a streak of light.",
+        "I see a spot of light."
+       ],
+       "answer": 0,
+       "why": "빠르게 지나가는 빛의 선은 'streak'으로 표현하며 'spot'은 점을 뜻해 어울리지 않습니다."
+      },
+      "topic": "별똥별은 어디서 올까"
+     },
+     {
+      "id": "kids:shower",
+      "word": "shower",
+      "ko": "소나기; (유성)우",
+      "filled": "This is called a meteor shower.",
+      "sent_ko": "이것은 유성우라고 불립니다.",
+      "chunks": [
+       {
+        "en": "This is called",
+        "ko": "이것은 ~라고 불립니다"
+       },
+       {
+        "en": "a meteor shower.",
+        "ko": "유성우"
+       }
+      ],
+      "rp": {
+       "situation": "같은 날 밤에 별똥별이 아주 많이 나타나고 있어요.",
+       "prompt": "What do we call it when many shooting stars appear together?",
+       "options": [
+        "It is called a meteor shower.",
+        "It is called a meteor storm."
+       ],
+       "answer": 0,
+       "why": "많은 별똥별이 한꺼번에 나타나는 현상은 'meteor shower'가 올바른 표현입니다."
+      },
+      "topic": "별똥별은 어디서 올까"
+     },
+     {
+      "id": "kids:comet",
+      "word": "comet",
+      "ko": "혜성",
+      "filled": "It happens when Earth passes through dust left by a comet.",
+      "sent_ko": "그것은 지구가 혜성이 남긴 먼지를 통과할 때 일어납니다.",
+      "chunks": [
+       {
+        "en": "It happens",
+        "ko": "그것은 일어납니다"
+       },
+       {
+        "en": "when Earth passes through",
+        "ko": "지구가 통과할 때"
+       },
+       {
+        "en": "dust left by a comet.",
+        "ko": "혜성이 남긴 먼지를"
+       }
+      ],
+      "rp": {
+       "situation": "유성우가 왜 생기는지 설명하고 있어요.",
+       "prompt": "What leaves the dust that causes a meteor shower?",
+       "options": [
+        "A comet leaves the dust.",
+        "A planet leaves the dust."
+       ],
+       "answer": 0,
+       "why": "기사에서 먼지를 남기는 것은 'comet(혜성)'이라고 했습니다."
+      },
+      "topic": "별똥별은 어디서 올까"
      }
     ]
    }
