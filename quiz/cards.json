@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23 08:56:19",
+ "generated": "2026-09-23 08:56:50",
  "levels": {
   "kinder": [
    {
@@ -24172,6 +24172,557 @@
        "why": "monitoring은 명사로 주어 역할을 하고, to monitor는 부정사라 이 주어 자리에 어색하다."
       },
       "topic": "사라지는 모래와 건설업"
+     }
+    ]
+   },
+   {
+    "id": "times|병원 없는 지역의 분만실",
+    "level": "times",
+    "topic": "병원 없는 지역의 분만실",
+    "section": "건강",
+    "week": "2026-09-21",
+    "tf": [
+     {
+      "s": "More than half of rural hospitals in the United States have closed their labor and delivery units in recent years.",
+      "a": true
+     },
+     {
+      "s": "Hospitals say the main reasons for closing maternity units are increasing birth rates and growing profits.",
+      "a": false
+     },
+     {
+      "s": "Maternal mortality rates tend to be higher in rural areas than in cities, according to health researchers.",
+      "a": true
+     },
+     {
+      "s": "Telehealth services and mobile health clinics have been proven to fully replace hospital delivery rooms in rural areas.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "times:rural",
+      "word": "rural",
+      "ko": "시골의, 농촌의",
+      "filled": "Health researchers note that maternal mortality rates tend to be higher in rural areas than in cities.",
+      "sent_ko": "보건 연구자들은 산모 사망률이 도시보다 시골 지역에서 더 높은 경향이 있다고 지적한다.",
+      "chunks": [
+       {
+        "en": "Health researchers note",
+        "ko": "보건 연구자들은 지적한다"
+       },
+       {
+        "en": "that maternal mortality rates",
+        "ko": "산모 사망률이"
+       },
+       {
+        "en": "tend to be higher",
+        "ko": "더 높은 경향이 있다"
+       },
+       {
+        "en": "in rural areas",
+        "ko": "시골 지역에서"
+       },
+       {
+        "en": "than in cities.",
+        "ko": "도시보다"
+       }
+      ],
+      "rp": {
+       "situation": "연구자가 미국 농촌 지역의 산모 건강 데이터를 설명하고 있다.",
+       "prompt": "How would you describe the communities most affected by maternity care deserts?",
+       "options": [
+        "They are mostly rural communities far from city hospitals.",
+        "They are mostly rurally communities far from city hospitals."
+       ],
+       "answer": 0,
+       "why": "rural은 형용사이므로 부사형 rurally는 명사를 수식할 수 없다."
+      },
+      "topic": "병원 없는 지역의 분만실"
+     },
+     {
+      "id": "times:maternity",
+      "word": "maternity",
+      "ko": "출산(의), 산모(의)",
+      "filled": "This growing shortage has a name: maternity care deserts.",
+      "sent_ko": "이 심각해지는 부족 현상에는 이름이 있다: 바로 산모 케어 사막이다.",
+      "chunks": [
+       {
+        "en": "This growing shortage",
+        "ko": "이 심각해지는 부족 현상에는"
+       },
+       {
+        "en": "has a name:",
+        "ko": "이름이 있다:"
+       },
+       {
+        "en": "maternity care deserts.",
+        "ko": "산모 케어 사막."
+       }
+      ],
+      "rp": {
+       "situation": "플로리다 농촌 지역 병원이 새 서비스를 홍보하는 상황이다.",
+       "prompt": "What kind of ward did the hospital finally open?",
+       "options": [
+        "They opened a maternity ward for pregnant women.",
+        "They opened a maternal ward for pregnant women."
+       ],
+       "answer": 0,
+       "why": "maternity ward가 굳어진 표현이고, maternal ward는 자연스럽지 않은 조합이다."
+      },
+      "topic": "병원 없는 지역의 분만실"
+     },
+     {
+      "id": "times:obstetric",
+      "word": "obstetric",
+      "ko": "산과(학)의, 출산과 관련된",
+      "filled": "These are counties where there are no hospitals with obstetric services and no midwives or obstetricians practicing locally.",
+      "sent_ko": "이 지역들은 산과 서비스를 갖춘 병원도 없고, 지역 내에서 활동하는 조산사나 산부인과 의사도 없는 군(county)들이다.",
+      "chunks": [
+       {
+        "en": "These are counties",
+        "ko": "이 지역들은 군(county)들이다"
+       },
+       {
+        "en": "where there are no hospitals",
+        "ko": "병원이 없고"
+       },
+       {
+        "en": "with obstetric services",
+        "ko": "산과 서비스를 갖춘"
+       },
+       {
+        "en": "and no midwives or obstetricians",
+        "ko": "조산사나 산부인과 의사도 없는"
+       },
+       {
+        "en": "practicing locally.",
+        "ko": "지역 내에서 활동하는"
+       }
+      ],
+      "rp": {
+       "situation": "농촌 병원이 분만 관련 서비스를 제공하는지 묻는 상황이다.",
+       "prompt": "Does this rural hospital handle pregnancies and deliveries?",
+       "options": [
+        "No, it has no obstetric services at all.",
+        "No, it has no obstetrics services at all."
+       ],
+       "answer": 0,
+       "why": "obstetric은 형용사로 명사 services를 수식하며, obstetrics는 명사이므로 이 자리에 쓸 수 없다."
+      },
+      "topic": "병원 없는 지역의 분만실"
+     },
+     {
+      "id": "times:obstetrician",
+      "word": "obstetrician",
+      "ko": "산부인과 의사",
+      "filled": "These are counties where there are no hospitals with obstetric services and no midwives or obstetricians practicing locally.",
+      "sent_ko": "이 지역들은 산과 서비스를 갖춘 병원도 없고, 지역 내에서 활동하는 조산사나 산부인과 의사도 없는 군(county)들이다.",
+      "chunks": [
+       {
+        "en": "These are counties",
+        "ko": "이 지역들은 군(county)들이다"
+       },
+       {
+        "en": "where there are no hospitals",
+        "ko": "병원이 없고"
+       },
+       {
+        "en": "with obstetric services",
+        "ko": "산과 서비스를 갖춘"
+       },
+       {
+        "en": "and no midwives or obstetricians",
+        "ko": "조산사나 산부인과 의사도 없는"
+       },
+       {
+        "en": "practicing locally.",
+        "ko": "지역 내에서 활동하는"
+       }
+      ],
+      "rp": {
+       "situation": "산모 케어 사막 지역에서 임신부가 전문 의료인을 찾고 있다.",
+       "prompt": "Is there anyone here who specializes in pregnancy and delivery?",
+       "options": [
+        "No, there is no obstetrician practicing in this county.",
+        "No, there is no obstetric practicing in this county."
+       ],
+       "answer": 0,
+       "why": "obstetrician은 사람을 가리키는 명사이고, obstetric은 형용사라 이 자리에 쓸 수 없다."
+      },
+      "topic": "병원 없는 지역의 분만실"
+     },
+     {
+      "id": "times:midwife",
+      "word": "midwife",
+      "ko": "조산사, 산파",
+      "filled": "A midwife is a trained professional who helps women give birth and provides care during pregnancy.",
+      "sent_ko": "조산사는 여성이 출산하도록 돕고 임신 기간 동안 돌봄을 제공하는 훈련된 전문가이다.",
+      "chunks": [
+       {
+        "en": "A midwife is a trained professional",
+        "ko": "조산사는 훈련된 전문가이다"
+       },
+       {
+        "en": "who helps women give birth",
+        "ko": "여성이 출산하도록 돕는"
+       },
+       {
+        "en": "and provides care",
+        "ko": "그리고 돌봄을 제공하는"
+       },
+       {
+        "en": "during pregnancy.",
+        "ko": "임신 기간 동안"
+       }
+      ],
+      "rp": {
+       "situation": "산모 케어 사막 지역에서 출산을 도울 사람을 찾고 있다.",
+       "prompt": "Who can help this pregnant woman if there's no doctor here?",
+       "options": [
+        "A midwife can assist with the birth and provide basic care.",
+        "A midwife can assist with the birth and provide basic caring."
+       ],
+       "answer": 0,
+       "why": "provide care가 올바른 표현이며, provide caring은 자연스럽지 않은 조합이다."
+      },
+      "topic": "병원 없는 지역의 분만실"
+     },
+     {
+      "id": "times:anesthesiologist",
+      "word": "anesthesiologist",
+      "ko": "마취과 의사",
+      "filled": "Running a safe delivery ward requires round-the-clock staffing by trained nurses, doctors, and anesthesiologists — costs that become very difficult to cover when the number of births drops below a certain level each year.",
+      "sent_ko": "안전한 분만 병동을 운영하려면 훈련된 간호사, 의사, 마취과 의사에 의한 24시간 인력 배치가 필요한데, 이는 매년 출생 수가 일정 수준 아래로 떨어지면 충당하기 매우 어려운 비용이다.",
+      "chunks": [
+       {
+        "en": "Running a safe delivery ward",
+        "ko": "안전한 분만 병동을 운영하려면"
+       },
+       {
+        "en": "requires round-the-clock staffing",
+        "ko": "24시간 인력 배치가 필요하다"
+       },
+       {
+        "en": "by trained nurses, doctors, and anesthesiologists —",
+        "ko": "훈련된 간호사, 의사, 마취과 의사에 의한 —"
+       },
+       {
+        "en": "costs that become very difficult to cover",
+        "ko": "충당하기 매우 어려운 비용"
+       },
+       {
+        "en": "when the number of births drops below a certain level each year.",
+        "ko": "매년 출생 수가 일정 수준 아래로 떨어지면"
+       }
+      ],
+      "rp": {
+       "situation": "농촌 병원 원장이 분만 병동 운영의 어려움을 설명하고 있다.",
+       "prompt": "Why is it so expensive to keep the delivery ward open?",
+       "options": [
+        "We need an anesthesiologist available at all hours, which costs a lot.",
+        "We need an anesthesiology available at all hours, which costs a lot."
+       ],
+       "answer": 0,
+       "why": "anesthesiologist는 사람을 가리키는 명사이고, anesthesiology는 학문명이라 이 자리에 어울리지 않는다."
+      },
+      "topic": "병원 없는 지역의 분만실"
+     },
+     {
+      "id": "times:complication",
+      "word": "complication",
+      "ko": "합병증, 문제",
+      "filled": "When a complication arises during labor, every minute matters.",
+      "sent_ko": "분만 중 합병증이 생기면, 매 분이 중요하다.",
+      "chunks": [
+       {
+        "en": "When a complication arises",
+        "ko": "합병증이 생기면"
+       },
+       {
+        "en": "during labor,",
+        "ko": "분만 중"
+       },
+       {
+        "en": "every minute matters.",
+        "ko": "매 분이 중요하다"
+       }
+      ],
+      "rp": {
+       "situation": "농촌 지역 산모가 출산 도중 갑작스러운 이상 증세를 보이고 있다.",
+       "prompt": "What's happening with the mother right now?",
+       "options": [
+        "A complication has arisen and she needs emergency care immediately.",
+        "A complicate has arisen and she needs emergency care immediately."
+       ],
+       "answer": 0,
+       "why": "complication은 명사이고, complicate는 동사라 명사 자리에 쓸 수 없다."
+      },
+      "topic": "병원 없는 지역의 분만실"
+     },
+     {
+      "id": "times:mortality",
+      "word": "mortality",
+      "ko": "사망률, 사망",
+      "filled": "Health researchers note that maternal mortality rates tend to be higher in rural areas than in cities.",
+      "sent_ko": "보건 연구자들은 산모 사망률이 도시보다 시골 지역에서 더 높은 경향이 있다고 지적한다.",
+      "chunks": [
+       {
+        "en": "Health researchers note",
+        "ko": "보건 연구자들은 지적한다"
+       },
+       {
+        "en": "that maternal mortality rates",
+        "ko": "산모 사망률이"
+       },
+       {
+        "en": "tend to be higher",
+        "ko": "더 높은 경향이 있다"
+       },
+       {
+        "en": "in rural areas",
+        "ko": "시골 지역에서"
+       },
+       {
+        "en": "than in cities.",
+        "ko": "도시보다"
+       }
+      ],
+      "rp": {
+       "situation": "보건 연구자가 미국 농촌 지역 산모 데이터를 발표하고 있다.",
+       "prompt": "What do the statistics show about mothers in rural areas?",
+       "options": [
+        "The data shows higher maternal mortality rates in rural areas.",
+        "The data shows higher maternal mortal rates in rural areas."
+       ],
+       "answer": 0,
+       "why": "mortality는 명사로 rates를 수식할 수 있지만, mortal은 형용사라 이 구조에 쓸 수 없다."
+      },
+      "topic": "병원 없는 지역의 분만실"
+     },
+     {
+      "id": "times:prenatal",
+      "word": "prenatal",
+      "ko": "출산 전의, 태아기의",
+      "filled": "Mobile health clinics, for example, have been deployed in parts of Florida to bring prenatal checkups and maternal health services directly to underserved communities.",
+      "sent_ko": "예를 들어, 이동 건강 클리닉이 플로리다 일부 지역에 배치되어 산전 검진과 산모 건강 서비스를 소외된 지역사회에 직접 제공하고 있다.",
+      "chunks": [
+       {
+        "en": "Mobile health clinics, for example,",
+        "ko": "예를 들어, 이동 건강 클리닉이"
+       },
+       {
+        "en": "have been deployed in parts of Florida",
+        "ko": "플로리다 일부 지역에 배치되어"
+       },
+       {
+        "en": "to bring prenatal checkups",
+        "ko": "산전 검진을 제공하기 위해"
+       },
+       {
+        "en": "and maternal health services",
+        "ko": "그리고 산모 건강 서비스를"
+       },
+       {
+        "en": "directly to underserved communities.",
+        "ko": "소외된 지역사회에 직접"
+       }
+      ],
+      "rp": {
+       "situation": "플로리다 이동 클리닉이 임신부에게 제공하는 서비스를 설명하는 상황이다.",
+       "prompt": "What services does the mobile clinic offer to pregnant women?",
+       "options": [
+        "It offers prenatal checkups to monitor the health of mother and baby.",
+        "It offers postnatal checkups to monitor the health of mother and baby."
+       ],
+       "answer": 0,
+       "why": "기사에서 이동 클리닉은 출산 전(prenatal) 서비스를 제공하며, postnatal은 출산 후를 의미해 문맥에 맞지 않는다."
+      },
+      "topic": "병원 없는 지역의 분만실"
+     },
+     {
+      "id": "times:deploy",
+      "word": "deploy",
+      "ko": "배치하다, 파견하다",
+      "filled": "Mobile health clinics, for example, have been deployed in parts of Florida to bring prenatal checkups and maternal health services directly to underserved communities.",
+      "sent_ko": "예를 들어, 이동 건강 클리닉이 플로리다 일부 지역에 배치되어 산전 검진과 산모 건강 서비스를 소외된 지역사회에 직접 제공하고 있다.",
+      "chunks": [
+       {
+        "en": "Mobile health clinics, for example,",
+        "ko": "예를 들어, 이동 건강 클리닉이"
+       },
+       {
+        "en": "have been deployed in parts of Florida",
+        "ko": "플로리다 일부 지역에 배치되어"
+       },
+       {
+        "en": "to bring prenatal checkups",
+        "ko": "산전 검진을 제공하기 위해"
+       },
+       {
+        "en": "and maternal health services",
+        "ko": "그리고 산모 건강 서비스를"
+       },
+       {
+        "en": "directly to underserved communities.",
+        "ko": "소외된 지역사회에 직접"
+       }
+      ],
+      "rp": {
+       "situation": "플로리다 농촌 지역에서 이동 클리닉 운영 계획을 논의하고 있다.",
+       "prompt": "How are they getting healthcare to remote communities in Florida?",
+       "options": [
+        "They have deployed mobile clinics to reach underserved areas.",
+        "They have deployment mobile clinics to reach underserved areas."
+       ],
+       "answer": 0,
+       "why": "deployed는 동사의 과거분사형이고, deployment는 명사라 동사 자리에 쓸 수 없다."
+      },
+      "topic": "병원 없는 지역의 분만실"
+     },
+     {
+      "id": "times:underserved",
+      "word": "underserved",
+      "ko": "혜택을 받지 못하는, 소외된",
+      "filled": "Mobile health clinics, for example, have been deployed in parts of Florida to bring prenatal checkups and maternal health services directly to underserved communities.",
+      "sent_ko": "예를 들어, 이동 건강 클리닉이 플로리다 일부 지역에 배치되어 산전 검진과 산모 건강 서비스를 소외된 지역사회에 직접 제공하고 있다.",
+      "chunks": [
+       {
+        "en": "Mobile health clinics, for example,",
+        "ko": "예를 들어, 이동 건강 클리닉이"
+       },
+       {
+        "en": "have been deployed in parts of Florida",
+        "ko": "플로리다 일부 지역에 배치되어"
+       },
+       {
+        "en": "to bring prenatal checkups",
+        "ko": "산전 검진을 제공하기 위해"
+       },
+       {
+        "en": "and maternal health services",
+        "ko": "그리고 산모 건강 서비스를"
+       },
+       {
+        "en": "directly to underserved communities.",
+        "ko": "소외된 지역사회에 직접"
+       }
+      ],
+      "rp": {
+       "situation": "이동 클리닉이 서비스를 제공하는 대상 지역을 설명하는 상황이다.",
+       "prompt": "Which communities does the mobile clinic target?",
+       "options": [
+        "It targets underserved communities that lack access to maternity care.",
+        "It targets unserved communities that lack access to maternity care."
+       ],
+       "answer": 0,
+       "why": "underserved는 서비스가 불충분하다는 뜻이고, unserved는 전혀 서비스가 없다는 의미로 기사의 문맥에 맞지 않는다."
+      },
+      "topic": "병원 없는 지역의 분만실"
+     },
+     {
+      "id": "times:telehealth",
+      "word": "telehealth",
+      "ko": "원격 의료",
+      "filled": "Telehealth services, which connect patients with doctors by video, are also expanding.",
+      "sent_ko": "환자를 영상으로 의사와 연결해 주는 원격 의료 서비스도 확대되고 있다.",
+      "chunks": [
+       {
+        "en": "Telehealth services,",
+        "ko": "원격 의료 서비스도"
+       },
+       {
+        "en": "which connect patients with doctors by video,",
+        "ko": "환자를 영상으로 의사와 연결해 주는"
+       },
+       {
+        "en": "are also expanding.",
+        "ko": "확대되고 있다"
+       }
+      ],
+      "rp": {
+       "situation": "산모 케어 사막 지역 임신부가 의사와 상담하려는 상황이다.",
+       "prompt": "How is she speaking with a doctor without traveling to a hospital?",
+       "options": [
+        "She is using telehealth to consult a doctor by video from home.",
+        "She is using telehealth to consult a doctor by videos from home."
+       ],
+       "answer": 0,
+       "why": "by video는 굳어진 표현으로 관사나 복수형 없이 쓰이며, by videos는 자연스럽지 않다."
+      },
+      "topic": "병원 없는 지역의 분만실"
+     },
+     {
+      "id": "times:shortage",
+      "word": "shortage",
+      "ko": "부족, 결핍",
+      "filled": "This growing shortage has a name: maternity care deserts.",
+      "sent_ko": "이 심각해지는 부족 현상에는 이름이 있다: 바로 산모 케어 사막이다.",
+      "chunks": [
+       {
+        "en": "This growing shortage",
+        "ko": "이 심각해지는 부족 현상에는"
+       },
+       {
+        "en": "has a name:",
+        "ko": "이름이 있다:"
+       },
+       {
+        "en": "maternity care deserts.",
+        "ko": "산모 케어 사막."
+       }
+      ],
+      "rp": {
+       "situation": "농촌 지역에서 산과 서비스가 점점 사라지는 상황을 묘사하고 있다.",
+       "prompt": "How would you describe the maternity care situation in rural America?",
+       "options": [
+        "There is a serious shortage of maternity care in rural areas.",
+        "There is a serious scarce of maternity care in rural areas."
+       ],
+       "answer": 0,
+       "why": "shortage는 명사로 올바르게 쓰였고, scarce는 형용사라 명사 자리에 쓸 수 없다."
+      },
+      "topic": "병원 없는 지역의 분만실"
+     },
+     {
+      "id": "times:staffing",
+      "word": "staffing",
+      "ko": "인력 배치, 직원 충원",
+      "filled": "Running a safe delivery ward requires round-the-clock staffing by trained nurses, doctors, and anesthesiologists — costs that become very difficult to cover when the number of births drops below a certain level each year.",
+      "sent_ko": "안전한 분만 병동을 운영하려면 훈련된 간호사, 의사, 마취과 의사에 의한 24시간 인력 배치가 필요한데, 이는 매년 출생 수가 일정 수준 아래로 떨어지면 충당하기 매우 어려운 비용이다.",
+      "chunks": [
+       {
+        "en": "Running a safe delivery ward",
+        "ko": "안전한 분만 병동을 운영하려면"
+       },
+       {
+        "en": "requires round-the-clock staffing",
+        "ko": "24시간 인력 배치가 필요하다"
+       },
+       {
+        "en": "by trained nurses, doctors, and anesthesiologists —",
+        "ko": "훈련된 간호사, 의사, 마취과 의사에 의한 —"
+       },
+       {
+        "en": "costs that become very difficult to cover",
+        "ko": "충당하기 매우 어려운 비용"
+       },
+       {
+        "en": "when the number of births drops below a certain level each year.",
+        "ko": "매년 출생 수가 일정 수준 아래로 떨어지면"
+       }
+      ],
+      "rp": {
+       "situation": "농촌 병원 관리자가 분만 병동 유지의 어려움을 이야기하고 있다.",
+       "prompt": "What makes keeping the delivery ward open so costly?",
+       "options": [
+        "Round-the-clock staffing by nurses and doctors is very expensive.",
+        "Round-the-clock staff by nurses and doctors is very expensive."
+       ],
+       "answer": 0,
+       "why": "staffing은 '인력 배치'를 뜻하는 명사이고, staff는 이 문맥에서 같은 의미로 쓰일 수 없다."
+      },
+      "topic": "병원 없는 지역의 분만실"
      }
     ]
    }
