@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23 08:44:36",
+ "generated": "2026-09-23 08:46:20",
  "levels": {
   "kinder": [
    {
@@ -12747,6 +12747,381 @@
        "why": "가로수를 수단으로 표현할 때 tool이 맞고, work는 이 문맥에서 쓸 수 없습니다."
       },
       "topic": "도시의 가로수가 하는 일"
+     }
+    ]
+   },
+   {
+    "id": "junior|챗봇이 쓴 숙제를 가려내는 학교",
+    "level": "junior",
+    "topic": "챗봇이 쓴 숙제를 가려내는 학교",
+    "section": "기술",
+    "week": "2026-09-21",
+    "tf": [
+     {
+      "s": "GPTZero was built by a teacher at Princeton University.",
+      "a": false
+     },
+     {
+      "s": "ChatGPT is able to write essays very quickly.",
+      "a": true
+     },
+     {
+      "s": "The newer tool created by a high school student checks if new writing matches a student's usual writing style.",
+      "a": true
+     },
+     {
+      "s": "Schools are making homework easier so that students can use AI without any problems.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "junior:chatbot",
+      "word": "chatbot",
+      "ko": "챗봇 (자동 대화 프로그램)",
+      "filled": "This has become a big problem as chatbots like ChatGPT can write essays in seconds.",
+      "sent_ko": "ChatGPT 같은 챗봇이 몇 초 만에 에세이를 쓸 수 있기 때문에, 이것은 큰 문제가 되었습니다.",
+      "chunks": [
+       {
+        "en": "This has become a big problem",
+        "ko": "이것은 큰 문제가 되었습니다"
+       },
+       {
+        "en": "as chatbots like ChatGPT",
+        "ko": "ChatGPT 같은 챗봇이"
+       },
+       {
+        "en": "can write essays",
+        "ko": "에세이를 쓸 수 있기 때문에"
+       },
+       {
+        "en": "in seconds.",
+        "ko": "몇 초 만에"
+       }
+      ],
+      "rp": {
+       "situation": "선생님이 ChatGPT가 숙제를 대신 써줄 수 있다는 걸 설명하고 있다.",
+       "prompt": "What is ChatGPT?",
+       "options": [
+        "It is a chatbot that can write essays for students.",
+        "It is a chatting class that students take at school."
+       ],
+       "answer": 0,
+       "why": "chatbot은 자동 대화 프로그램이고, chatting class는 영어로 자연스럽지 않은 표현이다."
+      },
+      "topic": "챗봇이 쓴 숙제를 가려내는 학교"
+     },
+     {
+      "id": "junior:tool",
+      "word": "tool",
+      "ko": "도구, 수단",
+      "filled": "One well-known tool is called GPTZero.",
+      "sent_ko": "잘 알려진 도구 중 하나는 GPTZero라고 불립니다.",
+      "chunks": [
+       {
+        "en": "One well-known tool",
+        "ko": "잘 알려진 도구 중 하나는"
+       },
+       {
+        "en": "is called",
+        "ko": "라고 불립니다"
+       },
+       {
+        "en": "GPTZero.",
+        "ko": "GPTZero"
+       }
+      ],
+      "rp": {
+       "situation": "선생님이 GPTZero를 사용해서 학생의 글이 AI가 썼는지 확인하고 있다.",
+       "prompt": "What is GPTZero?",
+       "options": [
+        "It is a tool that helps teachers check student writing.",
+        "It is a tool that helps teachers write student essays."
+       ],
+       "answer": 0,
+       "why": "GPTZero는 글을 확인하는 도구이지, 교사가 글을 써주는 도구가 아니다."
+      },
+      "topic": "챗봇이 쓴 숙제를 가려내는 학교"
+     },
+     {
+      "id": "junior:essay",
+      "word": "essay",
+      "ko": "에세이, 글",
+      "filled": "This has become a big problem as chatbots like ChatGPT can write essays in seconds.",
+      "sent_ko": "ChatGPT 같은 챗봇이 몇 초 만에 에세이를 쓸 수 있기 때문에, 이것은 큰 문제가 되었습니다.",
+      "chunks": [
+       {
+        "en": "This has become a big problem",
+        "ko": "이것은 큰 문제가 되었습니다"
+       },
+       {
+        "en": "as chatbots like ChatGPT",
+        "ko": "ChatGPT 같은 챗봇이"
+       },
+       {
+        "en": "can write essays",
+        "ko": "에세이를 쓸 수 있기 때문에"
+       },
+       {
+        "en": "in seconds.",
+        "ko": "몇 초 만에"
+       }
+      ],
+      "rp": {
+       "situation": "학생이 ChatGPT로 숙제 글쓰기를 대신 했다는 것이 문제가 되고 있다.",
+       "prompt": "What did the student ask ChatGPT to do?",
+       "options": [
+        "The student asked ChatGPT to write an essay for them.",
+        "The student asked ChatGPT to essay the homework for them."
+       ],
+       "answer": 0,
+       "why": "essay는 명사로 쓰이고, 동사로는 쓸 수 없으므로 b는 문법적으로 틀렸다."
+      },
+      "topic": "챗봇이 쓴 숙제를 가려내는 학교"
+     },
+     {
+      "id": "junior:pattern",
+      "word": "pattern",
+      "ko": "패턴, 규칙적인 형태",
+      "filled": "The tool looks at patterns in the writing to decide.",
+      "sent_ko": "그 도구는 글쓰기에서 패턴을 살펴보고 판단합니다.",
+      "chunks": [
+       {
+        "en": "The tool",
+        "ko": "그 도구는"
+       },
+       {
+        "en": "looks at patterns",
+        "ko": "패턴을 살펴봅니다"
+       },
+       {
+        "en": "in the writing",
+        "ko": "글쓰기에서"
+       },
+       {
+        "en": "to decide.",
+        "ko": "판단하기 위해"
+       }
+      ],
+      "rp": {
+       "situation": "GPTZero가 학생 글에서 AI가 쓴 것인지 알아내려고 분석하고 있다.",
+       "prompt": "How does GPTZero decide if AI wrote the essay?",
+       "options": [
+        "It looks at patterns in the writing to decide.",
+        "It looks at patterns in the writing to deciding."
+       ],
+       "answer": 0,
+       "why": "to 부정사 다음에는 동사원형이 와야 하므로 deciding은 문법적으로 틀렸다."
+      },
+      "topic": "챗봇이 쓴 숙제를 가려내는 학교"
+     },
+     {
+      "id": "junior:check",
+      "word": "check",
+      "ko": "확인하다, 점검하다",
+      "filled": "Then it checks if new work matches how that student usually writes.",
+      "sent_ko": "그런 다음 그것은 새로운 과제가 그 학생이 보통 쓰는 방식과 일치하는지 확인합니다.",
+      "chunks": [
+       {
+        "en": "Then it checks",
+        "ko": "그런 다음 그것은 확인합니다"
+       },
+       {
+        "en": "if new work matches",
+        "ko": "새로운 과제가 일치하는지"
+       },
+       {
+        "en": "how that student",
+        "ko": "그 학생이"
+       },
+       {
+        "en": "usually writes.",
+        "ko": "보통 쓰는 방식과"
+       }
+      ],
+      "rp": {
+       "situation": "새로운 AI 탐지 도구가 학생의 새 숙제와 평소 글쓰기 방식을 비교하고 있다.",
+       "prompt": "What does the new tool do with a student's new homework?",
+       "options": [
+        "It checks if the new work matches the student's usual writing.",
+        "It checks if the new work matches the student's usual writing."
+       ],
+       "answer": 0,
+       "why": "check의 3인칭 단수 현재형은 checks이고 checks는 철자가 틀렸다."
+      },
+      "topic": "챗봇이 쓴 숙제를 가려내는 학교"
+     },
+     {
+      "id": "junior:create",
+      "word": "create",
+      "ko": "만들다, 창조하다",
+      "filled": "A high school student also created a newer tool.",
+      "sent_ko": "한 고등학생도 더 새로운 도구를 만들었습니다.",
+      "chunks": [
+       {
+        "en": "A high school student",
+        "ko": "한 고등학생이"
+       },
+       {
+        "en": "also created",
+        "ko": "또한 만들었습니다"
+       },
+       {
+        "en": "a newer tool.",
+        "ko": "더 새로운 도구를"
+       }
+      ],
+      "rp": {
+       "situation": "한 고등학생이 AI 글쓰기를 탐지하는 새 프로그램을 직접 개발했다.",
+       "prompt": "What did the high school student do?",
+       "options": [
+        "The student created a newer tool to detect AI writing.",
+        "The student creation a newer tool to detect AI writing."
+       ],
+       "answer": 0,
+       "why": "동사 자리에는 created가 와야 하고, creation은 명사이므로 문법적으로 틀렸다."
+      },
+      "topic": "챗봇이 쓴 숙제를 가려내는 학교"
+     },
+     {
+      "id": "junior:match",
+      "word": "match",
+      "ko": "일치하다, 맞다",
+      "filled": "Then it checks if new work matches how that student usually writes.",
+      "sent_ko": "그런 다음 그것은 새로운 과제가 그 학생이 보통 쓰는 방식과 일치하는지 확인합니다.",
+      "chunks": [
+       {
+        "en": "Then it checks",
+        "ko": "그런 다음 그것은 확인합니다"
+       },
+       {
+        "en": "if new work matches",
+        "ko": "새로운 과제가 일치하는지"
+       },
+       {
+        "en": "how that student",
+        "ko": "그 학생이"
+       },
+       {
+        "en": "usually writes.",
+        "ko": "보통 쓰는 방식과"
+       }
+      ],
+      "rp": {
+       "situation": "AI 탐지 도구가 학생의 새 글과 평소 글쓰기 스타일을 비교하고 있다.",
+       "prompt": "What happens if a student's new essay sounds very different from their usual writing?",
+       "options": [
+        "The new writing does not match the student's usual style.",
+        "The new writing does not matching the student's usual style."
+       ],
+       "answer": 0,
+       "why": "does not 다음에는 동사원형이 와야 하므로 matching은 문법적으로 틀렸다."
+      },
+      "topic": "챗봇이 쓴 숙제를 가려내는 학교"
+     },
+     {
+      "id": "junior:cheat",
+      "word": "cheat",
+      "ko": "부정행위를 하다, 속이다",
+      "filled": "This makes it harder for students to cheat.",
+      "sent_ko": "이것은 학생들이 부정행위를 하기 더 어렵게 만듭니다.",
+      "chunks": [
+       {
+        "en": "This makes it harder",
+        "ko": "이것은 더 어렵게 만듭니다"
+       },
+       {
+        "en": "for students",
+        "ko": "학생들이"
+       },
+       {
+        "en": "to cheat.",
+        "ko": "부정행위를 하기"
+       }
+      ],
+      "rp": {
+       "situation": "새 AI 탐지 도구 덕분에 학생들이 ChatGPT로 숙제를 대신하기가 어려워졌다.",
+       "prompt": "How has the new tool helped teachers?",
+       "options": [
+        "It has made it harder for students to cheat.",
+        "It has made it harder for students to cheating."
+       ],
+       "answer": 0,
+       "why": "to 부정사 다음에는 동사원형이 와야 하므로 cheating은 문법적으로 틀렸다."
+      },
+      "topic": "챗봇이 쓴 숙제를 가려내는 학교"
+     },
+     {
+      "id": "junior:honest",
+      "word": "honest",
+      "ko": "정직한, 솔직한",
+      "filled": "They also want students to think about why honest work matters.",
+      "sent_ko": "그들은 또한 학생들이 왜 정직한 과제가 중요한지 생각하기를 원합니다.",
+      "chunks": [
+       {
+        "en": "They also want students",
+        "ko": "그들은 또한 학생들이 원합니다"
+       },
+       {
+        "en": "to think about",
+        "ko": "생각하기를"
+       },
+       {
+        "en": "why honest work",
+        "ko": "왜 정직한 과제가"
+       },
+       {
+        "en": "matters.",
+        "ko": "중요한지"
+       }
+      ],
+      "rp": {
+       "situation": "선생님이 학생들에게 AI 없이 직접 숙제를 해야 하는 이유를 설명하고 있다.",
+       "prompt": "Why do teachers want students to do their own homework?",
+       "options": [
+        "Because honest work matters and shows real learning.",
+        "Because honestly work matters and shows real learning."
+       ],
+       "answer": 0,
+       "why": "명사 work를 꾸미는 자리에는 형용사 honest가 와야 하고, 부사 honestly는 쓸 수 없다."
+      },
+      "topic": "챗봇이 쓴 숙제를 가려내는 학교"
+     },
+     {
+      "id": "junior:notice",
+      "word": "notice",
+      "ko": "알아채다, 눈치채다",
+      "filled": "Did you notice that the writing in this paragraph sounds very different from the rest of the essay?",
+      "sent_ko": "이 단락의 글쓰기가 나머지 에세이와 매우 다르게 들린다는 것을 알아챘나요?",
+      "chunks": [
+       {
+        "en": "Did you notice",
+        "ko": "알아챘나요"
+       },
+       {
+        "en": "that the writing in this paragraph",
+        "ko": "이 단락의 글쓰기가"
+       },
+       {
+        "en": "sounds very different",
+        "ko": "매우 다르게 들린다는 것을"
+       },
+       {
+        "en": "from the rest of the essay?",
+        "ko": "나머지 에세이와"
+       }
+      ],
+      "rp": {
+       "situation": "선생님이 학생 에세이를 읽다가 한 단락의 문체가 갑자기 달라진 것을 발견했다.",
+       "prompt": "What did the teacher think when reading the essay?",
+       "options": [
+        "The teacher noticed that one paragraph sounded very different.",
+        "The teacher noticed that one paragraph very different sounded."
+       ],
+       "answer": 0,
+       "why": "영어에서 형용사 보어는 동사 뒤에 오므로 sounded very different가 맞고, b의 어순은 틀렸다."
+      },
+      "topic": "챗봇이 쓴 숙제를 가려내는 학교"
      }
     ]
    }
