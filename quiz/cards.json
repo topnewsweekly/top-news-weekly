@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23 08:38:38",
+ "generated": "2026-09-23 08:38:44",
  "levels": {
   "kinder": [
    {
@@ -5861,6 +5861,269 @@
        "why": "기사에서 먼지를 남기는 것은 'comet(혜성)'이라고 했습니다."
       },
       "topic": "별똥별은 어디서 올까"
+     }
+    ]
+   },
+   {
+    "id": "kids|우리는 왜 잠을 잘까",
+    "level": "kids",
+    "topic": "우리는 왜 잠을 잘까",
+    "section": "과학",
+    "week": "2026-09-21",
+    "tf": [
+     {
+      "s": "Sleep helps your body build stronger bones.",
+      "a": true
+     },
+     {
+      "s": "Your brain stores harmful waste while you sleep.",
+      "a": false
+     },
+     {
+      "s": "Sleep can help you heal small cuts faster.",
+      "a": true
+     },
+     {
+      "s": "You do not need sleep before a big test.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "kids:sleep",
+      "word": "sleep",
+      "ko": "수면, 잠",
+      "filled": "Sleep helps you remember things, too.",
+      "sent_ko": "잠은 당신이 것들을 기억하는 데도 도움을 줍니다.",
+      "chunks": [
+       {
+        "en": "Sleep",
+        "ko": "잠은"
+       },
+       {
+        "en": "helps you",
+        "ko": "당신을 돕습니다"
+       },
+       {
+        "en": "remember things,",
+        "ko": "것들을 기억하도록,"
+       },
+       {
+        "en": "too.",
+        "ko": "또한."
+       }
+      ],
+      "rp": {
+       "situation": "잠을 자고 나서 어젯밤에 배운 단어가 잘 기억난다.",
+       "prompt": "Why do you think you remember the word so well?",
+       "options": [
+        "Sleep helped me remember it.",
+        "Sleep helped me to forgot it."
+       ],
+       "answer": 0,
+       "why": "'forgot'은 동사 원형이 아닌 과거형이고 의미도 반대라 틀립니다."
+      },
+      "topic": "우리는 왜 잠을 잘까"
+     },
+     {
+      "id": "kids:brain",
+      "word": "brain",
+      "ko": "뇌",
+      "filled": "Your brain also cleans out harmful waste.",
+      "sent_ko": "당신의 뇌는 또한 해로운 노폐물을 청소합니다.",
+      "chunks": [
+       {
+        "en": "Your brain",
+        "ko": "당신의 뇌는"
+       },
+       {
+        "en": "also cleans out",
+        "ko": "또한 청소합니다"
+       },
+       {
+        "en": "harmful waste.",
+        "ko": "해로운 노폐물을."
+       }
+      ],
+      "rp": {
+       "situation": "밤에 자는 동안 뇌가 나쁜 물질을 없애고 있다.",
+       "prompt": "What is cleaning out harmful waste right now?",
+       "options": [
+        "Your brain is doing it.",
+        "Your brain are doing it."
+       ],
+       "answer": 0,
+       "why": "'brain'은 단수 명사이므로 'are'가 아닌 'is'를 써야 합니다."
+      },
+      "topic": "우리는 왜 잠을 잘까"
+     },
+     {
+      "id": "kids:heal",
+      "word": "heal",
+      "ko": "치유하다, 낫다",
+      "filled": "It builds stronger bones and heals small cuts faster.",
+      "sent_ko": "그것은 더 강한 뼈를 만들고 작은 상처를 더 빨리 치유합니다.",
+      "chunks": [
+       {
+        "en": "It builds stronger bones",
+        "ko": "그것은 더 강한 뼈를 만들고"
+       },
+       {
+        "en": "and heals",
+        "ko": "그리고 치유합니다"
+       },
+       {
+        "en": "small cuts",
+        "ko": "작은 상처를"
+       },
+       {
+        "en": "faster.",
+        "ko": "더 빨리."
+       }
+      ],
+      "rp": {
+       "situation": "자는 동안 몸이 손가락의 작은 상처를 낫게 하고 있다.",
+       "prompt": "What is your body doing to that small cut while you sleep?",
+       "options": [
+        "It is healing the cut.",
+        "It is healed the cut."
+       ],
+       "answer": 0,
+       "why": "진행 중인 동작에는 'is healing'을 써야 하며 'is healed'는 문법적으로 틀립니다."
+      },
+      "topic": "우리는 왜 잠을 잘까"
+     },
+     {
+      "id": "kids:bone",
+      "word": "bone",
+      "ko": "뼈",
+      "filled": "It builds stronger bones and heals small cuts faster.",
+      "sent_ko": "그것은 더 강한 뼈를 만들고 작은 상처를 더 빨리 치유합니다.",
+      "chunks": [
+       {
+        "en": "It builds stronger bones",
+        "ko": "그것은 더 강한 뼈를 만들고"
+       },
+       {
+        "en": "and heals",
+        "ko": "그리고 치유합니다"
+       },
+       {
+        "en": "small cuts",
+        "ko": "작은 상처를"
+       },
+       {
+        "en": "faster.",
+        "ko": "더 빨리."
+       }
+      ],
+      "rp": {
+       "situation": "잠을 자는 동안 몸이 뼈를 더 튼튼하게 만들고 있다.",
+       "prompt": "What does sleep help your body build?",
+       "options": [
+        "It helps build stronger bones.",
+        "It helps build stronger bones."
+       ],
+       "answer": 0,
+       "why": "'bones'의 철자는 b-o-n-e-s이며 'bones'가 맞고 'bones'로 쓴 b는 오탈자입니다. 올바른 단어는 'bones'입니다."
+      },
+      "topic": "우리는 왜 잠을 잘까"
+     },
+     {
+      "id": "kids:waste",
+      "word": "waste",
+      "ko": "노폐물, 낭비하다",
+      "filled": "Your brain also cleans out harmful waste.",
+      "sent_ko": "당신의 뇌는 또한 해로운 노폐물을 청소합니다.",
+      "chunks": [
+       {
+        "en": "Your brain",
+        "ko": "당신의 뇌는"
+       },
+       {
+        "en": "also cleans out",
+        "ko": "또한 청소합니다"
+       },
+       {
+        "en": "harmful waste.",
+        "ko": "해로운 노폐물을."
+       }
+      ],
+      "rp": {
+       "situation": "잠을 자는 동안 뇌가 몸에 해로운 물질을 제거한다는 내용을 읽었다.",
+       "prompt": "What does the brain clean out during sleep?",
+       "options": [
+        "It cleans out harmful waste.",
+        "It cleans out harmful wasted."
+       ],
+       "answer": 0,
+       "why": "'waste'는 명사로 써야 하며 'wasted'는 형용사나 과거형이라 이 자리에 맞지 않습니다."
+      },
+      "topic": "우리는 왜 잠을 잘까"
+     },
+     {
+      "id": "kids:store",
+      "word": "store",
+      "ko": "저장하다",
+      "filled": "Scientists found that sleep helps your brain store new information.",
+      "sent_ko": "과학자들은 잠이 당신의 뇌가 새로운 정보를 저장하는 데 도움을 준다는 것을 발견했습니다.",
+      "chunks": [
+       {
+        "en": "Scientists found",
+        "ko": "과학자들은 발견했습니다"
+       },
+       {
+        "en": "that sleep helps your brain",
+        "ko": "잠이 당신의 뇌를 돕는다는 것을"
+       },
+       {
+        "en": "store new information.",
+        "ko": "새로운 정보를 저장하도록."
+       }
+      ],
+      "rp": {
+       "situation": "잠을 잘 자면 뇌가 오늘 배운 영어 단어를 기억 속에 저장한다.",
+       "prompt": "What does sleep help your brain do with new information?",
+       "options": [
+        "It helps your brain store it.",
+        "It helps your brain storing it."
+       ],
+       "answer": 0,
+       "why": "'help'뒤에는 동사 원형을 써야 하므로 'storing'이 아닌 'store'가 맞습니다."
+      },
+      "topic": "우리는 왜 잠을 잘까"
+     },
+     {
+      "id": "kids:information",
+      "word": "information",
+      "ko": "정보",
+      "filled": "Scientists found that sleep helps your brain store new information.",
+      "sent_ko": "과학자들은 잠이 당신의 뇌가 새로운 정보를 저장하는 데 도움을 준다는 것을 발견했습니다.",
+      "chunks": [
+       {
+        "en": "Scientists found",
+        "ko": "과학자들은 발견했습니다"
+       },
+       {
+        "en": "that sleep helps your brain",
+        "ko": "잠이 당신의 뇌를 돕는다는 것을"
+       },
+       {
+        "en": "store new information.",
+        "ko": "새로운 정보를 저장하도록."
+       }
+      ],
+      "rp": {
+       "situation": "시험 전날 밤에 잠을 잘 자면 배운 정보가 뇌에 잘 저장된다.",
+       "prompt": "What does your brain save when you sleep well before a test?",
+       "options": [
+        "It saves new information.",
+        "It saves new informations."
+       ],
+       "answer": 0,
+       "why": "'information'은 셀 수 없는 명사라 복수형 's'를 붙일 수 없습니다."
+      },
+      "topic": "우리는 왜 잠을 잘까"
      }
     ]
    }
