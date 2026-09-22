@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23 08:40:28",
+ "generated": "2026-09-23 08:41:32",
  "levels": {
   "kinder": [
    {
@@ -6626,6 +6626,253 @@
        "why": "culture는 명사이고, cultural은 형용사라서 이 자리에 쓸 수 없어요."
       },
       "topic": "나라마다 다른 아침 식사"
+     }
+    ]
+   },
+   {
+    "id": "kids|드론은 어떻게 하늘에 떠 있을까",
+    "level": "kids",
+    "topic": "드론은 어떻게 하늘에 떠 있을까",
+    "section": "기술",
+    "week": "2026-09-21",
+    "tf": [
+     {
+      "s": "Drones use spinning blades to push air down and rise into the air.",
+      "a": true
+     },
+     {
+      "s": "A pilot controls a drone by touching it directly with their hands.",
+      "a": false
+     },
+     {
+      "s": "Most drones are powered by batteries.",
+      "a": true
+     },
+     {
+      "s": "All drones can fly for more than one hour without stopping.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "kids:drone",
+      "word": "drone",
+      "ko": "드론 (무인 비행체)",
+      "filled": "A small computer keeps the drone steady.",
+      "sent_ko": "작은 컴퓨터가 드론을 안정되게 유지합니다.",
+      "chunks": [
+       {
+        "en": "A small computer",
+        "ko": "작은 컴퓨터가"
+       },
+       {
+        "en": "keeps the drone",
+        "ko": "드론을 유지합니다"
+       },
+       {
+        "en": "steady.",
+        "ko": "안정되게"
+       }
+      ],
+      "rp": {
+       "situation": "드론이 공중에서 흔들리지 않고 떠 있습니다.",
+       "prompt": "What is keeping the drone stable?",
+       "options": [
+        "A small computer keeps the drone steady.",
+        "A small computer keeps the drone steadily."
+       ],
+       "answer": 0,
+       "why": "steady는 형용사로 드론의 상태를 설명하므로 맞고, steadily는 부사라 여기서 틀립니다."
+      },
+      "topic": "드론은 어떻게 하늘에 떠 있을까"
+     },
+     {
+      "id": "kids:rotor",
+      "word": "rotor",
+      "ko": "회전 날개, 로터",
+      "filled": "The rotor on top of the helicopter spins very fast to lift it off the ground.",
+      "sent_ko": "헬리콥터 위의 회전 날개가 매우 빠르게 돌면서 헬리콥터를 땅에서 들어 올립니다.",
+      "chunks": [
+       {
+        "en": "The rotor on top of the helicopter",
+        "ko": "헬리콥터 위의 회전 날개가"
+       },
+       {
+        "en": "spins very fast",
+        "ko": "매우 빠르게 돌면서"
+       },
+       {
+        "en": "to lift it off the ground.",
+        "ko": "땅에서 들어 올립니다"
+       }
+      ],
+      "rp": {
+       "situation": "드론의 날개가 빠르게 돌고 있습니다.",
+       "prompt": "What do you call the spinning blade on a drone?",
+       "options": [
+        "It is called a rotor.",
+        "It is called a motor."
+       ],
+       "answer": 0,
+       "why": "rotor는 회전 날개를 뜻하고, motor는 엔진을 뜻해서 spinning blade에 맞지 않습니다."
+      },
+      "topic": "드론은 어떻게 하늘에 떠 있을까"
+     },
+     {
+      "id": "kids:spin",
+      "word": "spin",
+      "ko": "회전하다, 돌다",
+      "filled": "Drones are small flying machines with spinning blades.",
+      "sent_ko": "드론은 회전하는 날개를 가진 작은 비행 기계입니다.",
+      "chunks": [
+       {
+        "en": "Drones are",
+        "ko": "드론은 ~입니다"
+       },
+       {
+        "en": "small flying machines",
+        "ko": "작은 비행 기계"
+       },
+       {
+        "en": "with spinning blades.",
+        "ko": "회전하는 날개를 가진"
+       }
+      ],
+      "rp": {
+       "situation": "드론의 날개가 움직이면서 드론이 하늘로 올라가고 있습니다.",
+       "prompt": "What are the blades doing?",
+       "options": [
+        "The blades are spinning.",
+        "The blades are spun."
+       ],
+       "answer": 0,
+       "why": "지금 날개가 스스로 돌고 있으므로 능동 진행형 spinning이 맞고, spun은 수동 과거형이라 틀립니다."
+      },
+      "topic": "드론은 어떻게 하늘에 떠 있을까"
+     },
+     {
+      "id": "kids:lift",
+      "word": "lift",
+      "ko": "양력, 들어 올리는 힘",
+      "filled": "The blades push air down and lift the drone up.",
+      "sent_ko": "날개들이 공기를 아래로 밀어내고 드론을 위로 들어 올립니다.",
+      "chunks": [
+       {
+        "en": "The blades push air down",
+        "ko": "날개들이 공기를 아래로 밀어내고"
+       },
+       {
+        "en": "and lift the drone up.",
+        "ko": "드론을 위로 들어 올립니다"
+       }
+      ],
+      "rp": {
+       "situation": "드론의 날개가 공기를 밀어내서 드론이 하늘로 올라갑니다.",
+       "prompt": "What do the blades do to the drone?",
+       "options": [
+        "The blades lift the drone up.",
+        "The blades lift up the drone up."
+       ],
+       "answer": 0,
+       "why": "up이 두 번 쓰이면 문법적으로 틀리므로 up은 한 번만 써야 합니다."
+      },
+      "topic": "드론은 어떻게 하늘에 떠 있을까"
+     },
+     {
+      "id": "kids:battery",
+      "word": "battery",
+      "ko": "배터리, 전지",
+      "filled": "Then the battery runs out.",
+      "sent_ko": "그러면 배터리가 다 됩니다.",
+      "chunks": [
+       {
+        "en": "Then",
+        "ko": "그러면"
+       },
+       {
+        "en": "the battery",
+        "ko": "배터리가"
+       },
+       {
+        "en": "runs out.",
+        "ko": "다 됩니다"
+       }
+      ],
+      "rp": {
+       "situation": "드론이 30분 동안 날다가 더 이상 날 수 없게 되었습니다.",
+       "prompt": "Why did the drone stop flying?",
+       "options": [
+        "The battery ran out.",
+        "The battery ran over."
+       ],
+       "answer": 0,
+       "why": "run out은 '다 떨어지다'라는 뜻이고, run over는 전혀 다른 뜻이라 틀립니다."
+      },
+      "topic": "드론은 어떻게 하늘에 떠 있을까"
+     },
+     {
+      "id": "kids:steady",
+      "word": "steady",
+      "ko": "안정된, 흔들리지 않는",
+      "filled": "A small computer keeps the drone steady.",
+      "sent_ko": "작은 컴퓨터가 드론을 안정되게 유지합니다.",
+      "chunks": [
+       {
+        "en": "A small computer",
+        "ko": "작은 컴퓨터가"
+       },
+       {
+        "en": "keeps the drone",
+        "ko": "드론을 유지합니다"
+       },
+       {
+        "en": "steady.",
+        "ko": "안정되게"
+       }
+      ],
+      "rp": {
+       "situation": "드론이 바람이 불어도 흔들리지 않고 공중에 떠 있습니다.",
+       "prompt": "How does the drone stay still in the air?",
+       "options": [
+        "A computer keeps the drone steady.",
+        "A computer keeps the drone steadily."
+       ],
+       "answer": 0,
+       "why": "keep+목적어+형용사 구조이므로 steady가 맞고, 부사 steadily는 이 자리에 올 수 없습니다."
+      },
+      "topic": "드론은 어떻게 하늘에 떠 있을까"
+     },
+     {
+      "id": "kids:remote",
+      "word": "remote",
+      "ko": "원격의, 멀리서 조종하는",
+      "filled": "The pilot uses a remote control to move it.",
+      "sent_ko": "조종사는 그것을 움직이기 위해 원격 조종기를 사용합니다.",
+      "chunks": [
+       {
+        "en": "The pilot uses",
+        "ko": "조종사는 사용합니다"
+       },
+       {
+        "en": "a remote control",
+        "ko": "원격 조종기를"
+       },
+       {
+        "en": "to move it.",
+        "ko": "그것을 움직이기 위해"
+       }
+      ],
+      "rp": {
+       "situation": "조종사가 드론에서 멀리 떨어진 곳에서 드론을 조종하고 있습니다.",
+       "prompt": "What is the pilot holding to control the drone?",
+       "options": [
+        "The pilot is holding a remote control.",
+        "The pilot is holding a distant control."
+       ],
+       "answer": 0,
+       "why": "remote control은 정해진 표현이고, distant control은 영어에 존재하지 않는 표현입니다."
+      },
+      "topic": "드론은 어떻게 하늘에 떠 있을까"
      }
     ]
    }
