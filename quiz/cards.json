@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23 08:36:24",
+ "generated": "2026-09-23 08:37:53",
  "levels": {
   "kinder": [
    {
@@ -2284,6 +2284,185 @@
        "why": "달은 하나뿐이므로 'the moon'이라고 써야 해요."
       },
       "topic": "개미는 길을 어떻게 찾을까"
+     }
+    ]
+   },
+   {
+    "id": "kinder|박쥐는 깜깜한데 어떻게 날까",
+    "level": "kinder",
+    "topic": "박쥐는 깜깜한데 어떻게 날까",
+    "section": "과학",
+    "week": "2026-09-21",
+    "tf": [
+     {
+      "s": "Bats are small animals.",
+      "a": true
+     },
+     {
+      "s": "Bats fly during the day.",
+      "a": false
+     },
+     {
+      "s": "Bats make sounds to find where things are.",
+      "a": true
+     },
+     {
+      "s": "Bats can see very well at night.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "kinder:bat",
+      "word": "bat",
+      "ko": "박쥐",
+      "filled": "Bats are small animals.",
+      "sent_ko": "박쥐는 작은 동물이에요.",
+      "chunks": [
+       {
+        "en": "Bats",
+        "ko": "박쥐는"
+       },
+       {
+        "en": "are",
+        "ko": "이에요"
+       },
+       {
+        "en": "small animals.",
+        "ko": "작은 동물"
+       }
+      ],
+      "rp": {
+       "situation": "밤하늘을 날아다니는 작은 박쥐를 보고 있어요.",
+       "prompt": "What are those small flying animals?",
+       "options": [
+        "They are bats.",
+        "They are bat."
+       ],
+       "answer": 0,
+       "why": "동물이 여러 마리일 때는 bats처럼 복수형을 써야 해요."
+      },
+      "topic": "박쥐는 깜깜한데 어떻게 날까"
+     },
+     {
+      "id": "kinder:dark",
+      "word": "dark",
+      "ko": "어두운",
+      "filled": "It is very dark at night.",
+      "sent_ko": "밤에는 매우 어두워요.",
+      "chunks": [
+       {
+        "en": "It is very dark",
+        "ko": "매우 어두워요"
+       },
+       {
+        "en": "at night.",
+        "ko": "밤에는"
+       }
+      ],
+      "rp": {
+       "situation": "박쥐가 날아다니는 밤하늘을 보고 있어요.",
+       "prompt": "Can you see anything outside right now?",
+       "options": [
+        "No, it is very dark.",
+        "No, it is very darkness."
+       ],
+       "answer": 0,
+       "why": "'어두운'은 형용사 dark를 써야 해요. darkness는 명사라서 틀려요."
+      },
+      "topic": "박쥐는 깜깜한데 어떻게 날까"
+     },
+     {
+      "id": "kinder:sound",
+      "word": "sound",
+      "ko": "소리",
+      "filled": "The sounds bounce back.",
+      "sent_ko": "소리들이 튕겨 돌아와요.",
+      "chunks": [
+       {
+        "en": "The sounds",
+        "ko": "소리들이"
+       },
+       {
+        "en": "bounce back.",
+        "ko": "튕겨 돌아와요"
+       }
+      ],
+      "rp": {
+       "situation": "박쥐가 소리를 내서 앞에 무엇이 있는지 알아내고 있어요.",
+       "prompt": "What does the bat make to find things?",
+       "options": [
+        "It makes sounds.",
+        "It makes listens."
+       ],
+       "answer": 0,
+       "why": "무언가를 만들어낼 때는 make sounds라고 해요. listens는 동사라서 틀려요."
+      },
+      "topic": "박쥐는 깜깜한데 어떻게 날까"
+     },
+     {
+      "id": "kinder:fly",
+      "word": "fly",
+      "ko": "날다",
+      "filled": "They fly at night.",
+      "sent_ko": "박쥐들은 밤에 날아요.",
+      "chunks": [
+       {
+        "en": "They",
+        "ko": "박쥐들은"
+       },
+       {
+        "en": "fly",
+        "ko": "날아요"
+       },
+       {
+        "en": "at night.",
+        "ko": "밤에"
+       }
+      ],
+      "rp": {
+       "situation": "밤에 박쥐들이 하늘에서 움직이고 있어요.",
+       "prompt": "What do bats do at night?",
+       "options": [
+        "They fly at night.",
+        "They flying at night."
+       ],
+       "answer": 0,
+       "why": "주어가 있는 문장에서 동사는 fly라고 써야 해요. flying은 혼자 동사로 쓸 수 없어요."
+      },
+      "topic": "박쥐는 깜깜한데 어떻게 날까"
+     },
+     {
+      "id": "kinder:hear",
+      "word": "hear",
+      "ko": "듣다",
+      "filled": "Bats hear where things are!",
+      "sent_ko": "박쥐들은 어디에 무엇이 있는지 들어요!",
+      "chunks": [
+       {
+        "en": "Bats",
+        "ko": "박쥐들은"
+       },
+       {
+        "en": "hear",
+        "ko": "들어요"
+       },
+       {
+        "en": "where things are!",
+        "ko": "어디에 무엇이 있는지"
+       }
+      ],
+      "rp": {
+       "situation": "박쥐가 튕겨 돌아온 소리로 벽이 어디 있는지 알아내고 있어요.",
+       "prompt": "How do bats know where the wall is?",
+       "options": [
+        "They hear where it is.",
+        "They listen where it is."
+       ],
+       "answer": 0,
+       "why": "무언가의 위치를 소리로 알아낼 때는 hear를 써요. listen은 뒤에 to가 있어야 해요."
+      },
+      "topic": "박쥐는 깜깜한데 어떻게 날까"
      }
     ]
    }
