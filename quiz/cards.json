@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23 08:43:20",
+ "generated": "2026-09-23 08:44:36",
  "levels": {
   "kinder": [
    {
@@ -12364,6 +12364,389 @@
        "why": "계획하고 구성한다는 의미는 design이며, decorate는 꾸민다는 뜻으로 맥락에 맞지 않습니다."
       },
       "topic": "1인 가구가 바꾸는 동네 풍경"
+     }
+    ]
+   },
+   {
+    "id": "junior|도시의 가로수가 하는 일",
+    "level": "junior",
+    "topic": "도시의 가로수가 하는 일",
+    "section": "환경",
+    "week": "2026-09-21",
+    "tf": [
+     {
+      "s": "Street trees help clean city air by absorbing harmful gases and catching dust particles.",
+      "a": true
+     },
+     {
+      "s": "Shaded streets feel warmer than streets without trees because trees trap heat.",
+      "a": false
+     },
+     {
+      "s": "Tree roots soak up rainwater, which helps reduce flooding on city streets.",
+      "a": true
+     },
+     {
+      "s": "City planners think that planting trees is too complicated to be a useful solution.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "junior:environment",
+      "word": "environment",
+      "ko": "환경",
+      "filled": "These trees do important jobs that help both people and the environment.",
+      "sent_ko": "이 나무들은 사람과 환경 모두를 돕는 중요한 역할을 합니다.",
+      "chunks": [
+       {
+        "en": "These trees",
+        "ko": "이 나무들은"
+       },
+       {
+        "en": "do important jobs",
+        "ko": "중요한 역할을 합니다"
+       },
+       {
+        "en": "that help both people",
+        "ko": "사람 모두를 돕는"
+       },
+       {
+        "en": "and the environment.",
+        "ko": "그리고 환경을"
+       }
+      ],
+      "rp": {
+       "situation": "가로수가 도시의 공기를 깨끗하게 해 주고 있다.",
+       "prompt": "What do street trees help?",
+       "options": [
+        "They help both people and the environment.",
+        "They help both people and the nature."
+       ],
+       "answer": 0,
+       "why": "'environment'가 올바른 표현이고 'the nature'는 자연스럽지 않은 영어 표현입니다."
+      },
+      "topic": "도시의 가로수가 하는 일"
+     },
+     {
+      "id": "junior:absorb",
+      "word": "absorb",
+      "ko": "흡수하다",
+      "filled": "They absorb harmful gases from cars and factories, and their leaves catch tiny dust particles.",
+      "sent_ko": "나무들은 자동차와 공장에서 나오는 해로운 가스를 흡수하고, 잎은 작은 먼지 입자를 잡아냅니다.",
+      "chunks": [
+       {
+        "en": "They absorb harmful gases",
+        "ko": "해로운 가스를 흡수하고"
+       },
+       {
+        "en": "from cars and factories,",
+        "ko": "자동차와 공장에서"
+       },
+       {
+        "en": "and their leaves catch",
+        "ko": "그리고 잎은 잡아냅니다"
+       },
+       {
+        "en": "tiny dust particles.",
+        "ko": "작은 먼지 입자를"
+       }
+      ],
+      "rp": {
+       "situation": "가로수가 자동차에서 나오는 해로운 가스를 처리하고 있다.",
+       "prompt": "What do street trees do with harmful gases?",
+       "options": [
+        "They absorb harmful gases from cars.",
+        "They release harmful gases from cars."
+       ],
+       "answer": 0,
+       "why": "나무는 가스를 '흡수'하므로 absorb가 맞고, release는 반대 의미입니다."
+      },
+      "topic": "도시의 가로수가 하는 일"
+     },
+     {
+      "id": "junior:harmful",
+      "word": "harmful",
+      "ko": "해로운",
+      "filled": "They absorb harmful gases from cars and factories, and their leaves catch tiny dust particles.",
+      "sent_ko": "나무들은 자동차와 공장에서 나오는 해로운 가스를 흡수하고, 잎은 작은 먼지 입자를 잡아냅니다.",
+      "chunks": [
+       {
+        "en": "They absorb harmful gases",
+        "ko": "해로운 가스를 흡수하고"
+       },
+       {
+        "en": "from cars and factories,",
+        "ko": "자동차와 공장에서"
+       },
+       {
+        "en": "and their leaves catch",
+        "ko": "그리고 잎은 잡아냅니다"
+       },
+       {
+        "en": "tiny dust particles.",
+        "ko": "작은 먼지 입자를"
+       }
+      ],
+      "rp": {
+       "situation": "도시 가로수가 자동차에서 나오는 가스를 흡수해 공기를 정화한다.",
+       "prompt": "What kind of gases do street trees absorb?",
+       "options": [
+        "They absorb harmful gases from cars.",
+        "They absorb harming gases from cars."
+       ],
+       "answer": 0,
+       "why": "'해로운'은 형용사 harmful이 맞고, harming은 이 자리에 쓰지 않습니다."
+      },
+      "topic": "도시의 가로수가 하는 일"
+     },
+     {
+      "id": "junior:particle",
+      "word": "particle",
+      "ko": "입자, 미세한 조각",
+      "filled": "They absorb harmful gases from cars and factories, and their leaves catch tiny dust particles.",
+      "sent_ko": "나무들은 자동차와 공장에서 나오는 해로운 가스를 흡수하고, 잎은 작은 먼지 입자를 잡아냅니다.",
+      "chunks": [
+       {
+        "en": "They absorb harmful gases",
+        "ko": "해로운 가스를 흡수하고"
+       },
+       {
+        "en": "from cars and factories,",
+        "ko": "자동차와 공장에서"
+       },
+       {
+        "en": "and their leaves catch",
+        "ko": "그리고 잎은 잡아냅니다"
+       },
+       {
+        "en": "tiny dust particles.",
+        "ko": "작은 먼지 입자를"
+       }
+      ],
+      "rp": {
+       "situation": "가로수 잎이 공기 중의 작은 먼지를 잡아낸다.",
+       "prompt": "What do the leaves of street trees catch?",
+       "options": [
+        "They catch tiny dust particles.",
+        "They catch tiny dust pieces."
+       ],
+       "answer": 0,
+       "why": "먼지 입자를 가리키는 올바른 단어는 particles이고, pieces는 이 문맥에 자연스럽지 않습니다."
+      },
+      "topic": "도시의 가로수가 하는 일"
+     },
+     {
+      "id": "junior:shade",
+      "word": "shade",
+      "ko": "그늘",
+      "filled": "On hot summer days, they provide shade and release water into the air.",
+      "sent_ko": "더운 여름날, 나무들은 그늘을 제공하고 물을 공기 중으로 내보냅니다.",
+      "chunks": [
+       {
+        "en": "On hot summer days,",
+        "ko": "더운 여름날"
+       },
+       {
+        "en": "they provide shade",
+        "ko": "그늘을 제공하고"
+       },
+       {
+        "en": "and release water",
+        "ko": "물을 내보냅니다"
+       },
+       {
+        "en": "into the air.",
+        "ko": "공기 중으로"
+       }
+      ],
+      "rp": {
+       "situation": "더운 여름날 가로수 아래에 사람들이 서 있다.",
+       "prompt": "What do the street trees give people on hot days?",
+       "options": [
+        "They provide shade for people.",
+        "They provide shadow for people."
+       ],
+       "answer": 0,
+       "why": "나무가 만들어 주는 그늘은 shade이고, shadow는 물체의 그림자를 뜻합니다."
+      },
+      "topic": "도시의 가로수가 하는 일"
+     },
+     {
+      "id": "junior:release",
+      "word": "release",
+      "ko": "방출하다, 내보내다",
+      "filled": "On hot summer days, they provide shade and release water into the air.",
+      "sent_ko": "더운 여름날, 나무들은 그늘을 제공하고 물을 공기 중으로 내보냅니다.",
+      "chunks": [
+       {
+        "en": "On hot summer days,",
+        "ko": "더운 여름날"
+       },
+       {
+        "en": "they provide shade",
+        "ko": "그늘을 제공하고"
+       },
+       {
+        "en": "and release water",
+        "ko": "물을 내보냅니다"
+       },
+       {
+        "en": "into the air.",
+        "ko": "공기 중으로"
+       }
+      ],
+      "rp": {
+       "situation": "가로수가 더운 여름날 수분을 공기 중으로 내보내고 있다.",
+       "prompt": "What do street trees do with water on hot days?",
+       "options": [
+        "They release water into the air.",
+        "They released water into the air."
+       ],
+       "answer": 0,
+       "why": "기사는 현재의 사실을 설명하므로 현재형 release가 맞고, released는 과거형입니다."
+      },
+      "topic": "도시의 가로수가 하는 일"
+     },
+     {
+      "id": "junior:root",
+      "word": "root",
+      "ko": "뿌리",
+      "filled": "In addition, tree roots soak up rainwater, which helps prevent flooding on city streets.",
+      "sent_ko": "또한, 나무 뿌리는 빗물을 흡수하여 도시 거리의 홍수를 예방하는 데 도움을 줍니다.",
+      "chunks": [
+       {
+        "en": "In addition,",
+        "ko": "또한"
+       },
+       {
+        "en": "tree roots soak up rainwater,",
+        "ko": "나무 뿌리는 빗물을 흡수하여"
+       },
+       {
+        "en": "which helps prevent flooding",
+        "ko": "홍수를 예방하는 데 도움을 줍니다"
+       },
+       {
+        "en": "on city streets.",
+        "ko": "도시 거리의"
+       }
+      ],
+      "rp": {
+       "situation": "비가 많이 온 날 가로수 뿌리가 빗물을 빨아들이고 있다.",
+       "prompt": "Which part of the tree soaks up rainwater?",
+       "options": [
+        "The roots soak up rainwater.",
+        "The root soak up rainwater."
+       ],
+       "answer": 0,
+       "why": "나무는 뿌리가 여러 개이므로 복수형 roots가 맞고, root는 단수라 동사와 맞지 않습니다."
+      },
+      "topic": "도시의 가로수가 하는 일"
+     },
+     {
+      "id": "junior:flooding",
+      "word": "flooding",
+      "ko": "홍수, 침수",
+      "filled": "In addition, tree roots soak up rainwater, which helps prevent flooding on city streets.",
+      "sent_ko": "또한, 나무 뿌리는 빗물을 흡수하여 도시 거리의 홍수를 예방하는 데 도움을 줍니다.",
+      "chunks": [
+       {
+        "en": "In addition,",
+        "ko": "또한"
+       },
+       {
+        "en": "tree roots soak up rainwater,",
+        "ko": "나무 뿌리는 빗물을 흡수하여"
+       },
+       {
+        "en": "which helps prevent flooding",
+        "ko": "홍수를 예방하는 데 도움을 줍니다"
+       },
+       {
+        "en": "on city streets.",
+        "ko": "도시 거리의"
+       }
+      ],
+      "rp": {
+       "situation": "폭우 후 도시 거리가 물에 잠길 위기에 처해 있다.",
+       "prompt": "What do tree roots help prevent on city streets?",
+       "options": [
+        "They help prevent flooding on city streets.",
+        "They help prevent flood on city streets."
+       ],
+       "answer": 0,
+       "why": "동사 prevent 뒤에 오는 이 자리에서는 명사형 flooding이 자연스럽고, flood는 어색합니다."
+      },
+      "topic": "도시의 가로수가 하는 일"
+     },
+     {
+      "id": "junior:prevent",
+      "word": "prevent",
+      "ko": "예방하다, 막다",
+      "filled": "In addition, tree roots soak up rainwater, which helps prevent flooding on city streets.",
+      "sent_ko": "또한, 나무 뿌리는 빗물을 흡수하여 도시 거리의 홍수를 예방하는 데 도움을 줍니다.",
+      "chunks": [
+       {
+        "en": "In addition,",
+        "ko": "또한"
+       },
+       {
+        "en": "tree roots soak up rainwater,",
+        "ko": "나무 뿌리는 빗물을 흡수하여"
+       },
+       {
+        "en": "which helps prevent flooding",
+        "ko": "홍수를 예방하는 데 도움을 줍니다"
+       },
+       {
+        "en": "on city streets.",
+        "ko": "도시 거리의"
+       }
+      ],
+      "rp": {
+       "situation": "가로수 뿌리가 빗물을 흡수해 거리 침수를 막고 있다.",
+       "prompt": "What do tree roots do about flooding?",
+       "options": [
+        "Tree roots help prevent flooding.",
+        "Tree roots help preventing flooding."
+       ],
+       "answer": 0,
+       "why": "help 다음에는 동사원형이 오므로 prevent가 맞고, preventing은 문법적으로 틀립니다."
+      },
+      "topic": "도시의 가로수가 하는 일"
+     },
+     {
+      "id": "junior:planner",
+      "word": "planner",
+      "ko": "계획자, 도시 설계자",
+      "filled": "Many city planners now see street trees as a simple but powerful tool.",
+      "sent_ko": "많은 도시 계획자들은 이제 가로수를 단순하지만 강력한 도구로 봅니다.",
+      "chunks": [
+       {
+        "en": "Many city planners",
+        "ko": "많은 도시 계획자들은"
+       },
+       {
+        "en": "now see street trees",
+        "ko": "이제 가로수를 봅니다"
+       },
+       {
+        "en": "as a simple but powerful tool.",
+        "ko": "단순하지만 강력한 도구로"
+       }
+      ],
+      "rp": {
+       "situation": "도시의 전문가들이 가로수를 도시 문제 해결 수단으로 검토하고 있다.",
+       "prompt": "What do city planners think about street trees?",
+       "options": [
+        "City planners see trees as a powerful tool.",
+        "City planners see trees as a powerful work."
+       ],
+       "answer": 0,
+       "why": "가로수를 수단으로 표현할 때 tool이 맞고, work는 이 문맥에서 쓸 수 없습니다."
+      },
+      "topic": "도시의 가로수가 하는 일"
      }
     ]
    }
