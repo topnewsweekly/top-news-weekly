@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23 08:47:00",
+ "generated": "2026-09-23 08:48:50",
  "levels": {
   "kinder": [
    {
@@ -13860,6 +13860,373 @@
        "why": "'수백만'을 뜻할 때는 복수형 millions of를 써야 하며, million of는 올바른 표현이 아니다."
       },
       "topic": "청소년 수면 시간과 등교 시각"
+     }
+    ]
+   },
+   {
+    "id": "junior|웹툰이 해외로 나가는 길",
+    "level": "junior",
+    "topic": "웹툰이 해외로 나가는 길",
+    "section": "문화",
+    "week": "2026-09-21",
+    "tf": [
+     {
+      "s": "Webtoons were originally created in South Korea.",
+      "a": true
+     },
+     {
+      "s": "Webtoons are designed to be read on large screens like televisions.",
+      "a": false
+     },
+     {
+      "s": "Some popular webtoons have been adapted into TV shows or movies.",
+      "a": true
+     },
+     {
+      "s": "All webtoons require readers to pay money before they can read them.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "junior:digital",
+      "word": "digital",
+      "ko": "디지털의",
+      "filled": "Webtoons are digital comics that you scroll through on a phone or computer.",
+      "sent_ko": "웹툰은 휴대폰이나 컴퓨터에서 스크롤하며 읽는 디지털 만화입니다.",
+      "chunks": [
+       {
+        "en": "Webtoons are digital comics",
+        "ko": "웹툰은 디지털 만화입니다"
+       },
+       {
+        "en": "that you scroll through",
+        "ko": "스크롤하며 읽는"
+       },
+       {
+        "en": "on a phone or computer.",
+        "ko": "휴대폰이나 컴퓨터에서"
+       }
+      ],
+      "rp": {
+       "situation": "친구가 웹툰이 어떤 종류의 만화인지 물어본다.",
+       "prompt": "What kind of comics are webtoons?",
+       "options": [
+        "They are digital comics you read on a screen.",
+        "They are digitally comics you read on a screen."
+       ],
+       "answer": 0,
+       "why": "digital은 형용사이므로 digitally(부사) 형태는 명사 앞에 쓸 수 없다."
+      },
+      "topic": "웹툰이 해외로 나가는 길"
+     },
+     {
+      "id": "junior:scroll",
+      "word": "scroll",
+      "ko": "스크롤하다 (화면을 위아래로 넘기다)",
+      "filled": "Webtoons are digital comics that you scroll through on a phone or computer.",
+      "sent_ko": "웹툰은 휴대폰이나 컴퓨터에서 스크롤하며 읽는 디지털 만화입니다.",
+      "chunks": [
+       {
+        "en": "Webtoons are digital comics",
+        "ko": "웹툰은 디지털 만화입니다"
+       },
+       {
+        "en": "that you scroll through",
+        "ko": "스크롤하며 읽는"
+       },
+       {
+        "en": "on a phone or computer.",
+        "ko": "휴대폰이나 컴퓨터에서"
+       }
+      ],
+      "rp": {
+       "situation": "독자가 휴대폰으로 웹툰을 읽는 방법을 설명한다.",
+       "prompt": "How do you read a webtoon on your phone?",
+       "options": [
+        "You scroll through it on your screen.",
+        "You scroll it through on your screen."
+       ],
+       "answer": 0,
+       "why": "scroll through는 동사+전치사 구조로, through가 목적어 앞에 와야 한다."
+      },
+      "topic": "웹툰이 해외로 나가는 길"
+     },
+     {
+      "id": "junior:episode",
+      "word": "episode",
+      "ko": "에피소드, (드라마·팟캐스트 등의) 1회분",
+      "filled": "The stories are split into short episodes, so readers can finish one quickly.",
+      "sent_ko": "이야기는 짧은 에피소드로 나뉘어 있어서, 독자들은 하나를 빠르게 끝낼 수 있습니다.",
+      "chunks": [
+       {
+        "en": "The stories are split into short episodes,",
+        "ko": "이야기는 짧은 에피소드로 나뉘어 있어서"
+       },
+       {
+        "en": "so readers can finish",
+        "ko": "독자들은 끝낼 수 있습니다"
+       },
+       {
+        "en": "one quickly.",
+        "ko": "하나를 빠르게"
+       }
+      ],
+      "rp": {
+       "situation": "웹툰 독자가 점심시간에 웹툰 한 편을 다 읽었다고 말한다.",
+       "prompt": "Did you finish reading?",
+       "options": [
+        "Yes, I finished one episode during lunch.",
+        "Yes, I finished one episodic during lunch."
+       ],
+       "answer": 0,
+       "why": "episode는 명사이고, episodic은 형용사라 이 자리에 쓸 수 없다."
+      },
+      "topic": "웹툰이 해외로 나가는 길"
+     },
+     {
+      "id": "junior:publisher",
+      "word": "publisher",
+      "ko": "출판사, 발행인",
+      "filled": "In recent years, webtoon publishers have translated popular series into many languages.",
+      "sent_ko": "최근 몇 년간, 웹툰 출판사들은 인기 시리즈를 여러 언어로 번역해 왔습니다.",
+      "chunks": [
+       {
+        "en": "In recent years,",
+        "ko": "최근 몇 년간"
+       },
+       {
+        "en": "webtoon publishers",
+        "ko": "웹툰 출판사들은"
+       },
+       {
+        "en": "have translated popular series",
+        "ko": "인기 시리즈를 번역해 왔습니다"
+       },
+       {
+        "en": "into many languages.",
+        "ko": "여러 언어로"
+       }
+      ],
+      "rp": {
+       "situation": "웹툰 출판사가 인기 시리즈를 스페인어로 번역하기로 했다.",
+       "prompt": "Who decided to translate the series into Spanish?",
+       "options": [
+        "The publisher made the decision.",
+        "The publish made the decision."
+       ],
+       "answer": 0,
+       "why": "publish는 동사이고, 이 자리에는 명사 publisher가 필요하다."
+      },
+      "topic": "웹툰이 해외로 나가는 길"
+     },
+     {
+      "id": "junior:translate",
+      "word": "translate",
+      "ko": "번역하다",
+      "filled": "In recent years, webtoon publishers have translated popular series into many languages.",
+      "sent_ko": "최근 몇 년간, 웹툰 출판사들은 인기 시리즈를 여러 언어로 번역해 왔습니다.",
+      "chunks": [
+       {
+        "en": "In recent years,",
+        "ko": "최근 몇 년간"
+       },
+       {
+        "en": "webtoon publishers",
+        "ko": "웹툰 출판사들은"
+       },
+       {
+        "en": "have translated popular series",
+        "ko": "인기 시리즈를 번역해 왔습니다"
+       },
+       {
+        "en": "into many languages.",
+        "ko": "여러 언어로"
+       }
+      ],
+      "rp": {
+       "situation": "출판사가 한국어 웹툰을 영어로 옮기는 작업을 했다.",
+       "prompt": "What did the publisher do with the Korean webtoon?",
+       "options": [
+        "They translated it into English.",
+        "They translated it to English."
+       ],
+       "answer": 0,
+       "why": "translate의 목적어 다음에는 전치사 into를 써야 한다."
+      },
+      "topic": "웹툰이 해외로 나가는 길"
+     },
+     {
+      "id": "junior:series",
+      "word": "series",
+      "ko": "시리즈, 연속물",
+      "filled": "In recent years, webtoon publishers have translated popular series into many languages.",
+      "sent_ko": "최근 몇 년간, 웹툰 출판사들은 인기 시리즈를 여러 언어로 번역해 왔습니다.",
+      "chunks": [
+       {
+        "en": "In recent years,",
+        "ko": "최근 몇 년간"
+       },
+       {
+        "en": "webtoon publishers",
+        "ko": "웹툰 출판사들은"
+       },
+       {
+        "en": "have translated popular series",
+        "ko": "인기 시리즈를 번역해 왔습니다"
+       },
+       {
+        "en": "into many languages.",
+        "ko": "여러 언어로"
+       }
+      ],
+      "rp": {
+       "situation": "출판사가 여러 편으로 이어지는 웹툰 작품을 번역했다.",
+       "prompt": "What did the publisher translate?",
+       "options": [
+        "They translated a popular webtoon series.",
+        "They translated a popular webtoon serial."
+       ],
+       "answer": 0,
+       "why": "series는 에피소드가 이어지는 연속물을 뜻하고, serial은 다른 장르적 의미를 가져 자연스럽지 않다."
+      },
+      "topic": "웹툰이 해외로 나가는 길"
+     },
+     {
+      "id": "junior:audience",
+      "word": "audience",
+      "ko": "시청자, 독자, 관객",
+      "filled": "English, Spanish, and French versions have found large audiences.",
+      "sent_ko": "영어, 스페인어, 프랑스어 버전은 많은 독자층을 확보했습니다.",
+      "chunks": [
+       {
+        "en": "English, Spanish, and French versions",
+        "ko": "영어, 스페인어, 프랑스어 버전은"
+       },
+       {
+        "en": "have found",
+        "ko": "확보했습니다"
+       },
+       {
+        "en": "large audiences.",
+        "ko": "많은 독자층을"
+       }
+      ],
+      "rp": {
+       "situation": "영어로 번역된 웹툰이 전 세계에서 많은 독자를 모았다.",
+       "prompt": "How did the English webtoon version do?",
+       "options": [
+        "It found a large audience around the world.",
+        "It found a large audient around the world."
+       ],
+       "answer": 0,
+       "why": "audient는 영어 단어가 아니며, 이 자리에는 명사 audience가 필요하다."
+      },
+      "topic": "웹툰이 해외로 나가는 길"
+     },
+     {
+      "id": "junior:platform",
+      "word": "platform",
+      "ko": "플랫폼 (콘텐츠를 제공하는 온라인 서비스)",
+      "filled": "Many young creators now make their own webtoons and share them on global platforms.",
+      "sent_ko": "많은 젊은 창작자들이 이제 자신만의 웹툰을 만들어 글로벌 플랫폼에 공유합니다.",
+      "chunks": [
+       {
+        "en": "Many young creators",
+        "ko": "많은 젊은 창작자들이"
+       },
+       {
+        "en": "now make their own webtoons",
+        "ko": "이제 자신만의 웹툰을 만들어"
+       },
+       {
+        "en": "and share them",
+        "ko": "그것을 공유합니다"
+       },
+       {
+        "en": "on global platforms.",
+        "ko": "글로벌 플랫폼에"
+       }
+      ],
+      "rp": {
+       "situation": "젊은 웹툰 작가가 자신의 작품을 온라인 서비스에 올려 전 세계 독자와 나눈다.",
+       "prompt": "Where do young creators share their webtoons?",
+       "options": [
+        "They share them on global platforms.",
+        "They share them on global platforming."
+       ],
+       "answer": 0,
+       "why": "platforms는 명사 복수형이고, platforming은 이 문장에서 명사 자리에 쓸 수 없다."
+      },
+      "topic": "웹툰이 해외로 나가는 길"
+     },
+     {
+      "id": "junior:creator",
+      "word": "creator",
+      "ko": "창작자, 크리에이터",
+      "filled": "Many young creators now make their own webtoons and share them on global platforms.",
+      "sent_ko": "많은 젊은 창작자들이 이제 자신만의 웹툰을 만들어 글로벌 플랫폼에 공유합니다.",
+      "chunks": [
+       {
+        "en": "Many young creators",
+        "ko": "많은 젊은 창작자들이"
+       },
+       {
+        "en": "now make their own webtoons",
+        "ko": "이제 자신만의 웹툰을 만들어"
+       },
+       {
+        "en": "and share them",
+        "ko": "그것을 공유합니다"
+       },
+       {
+        "en": "on global platforms.",
+        "ko": "글로벌 플랫폼에"
+       }
+      ],
+      "rp": {
+       "situation": "웹툰을 직접 그려서 온라인에 올리는 젊은이들을 설명한다.",
+       "prompt": "What do you call people who make their own webtoons?",
+       "options": [
+        "We call them creators.",
+        "We call them creations."
+       ],
+       "answer": 0,
+       "why": "creators는 만드는 사람을 뜻하고, creations는 만들어진 작품을 뜻하는 명사라 사람을 가리킬 수 없다."
+      },
+      "topic": "웹툰이 해외로 나가는 길"
+     },
+     {
+      "id": "junior:style",
+      "word": "style",
+      "ko": "스타일, 방식, 문체",
+      "filled": "Fans say the colorful art style and exciting stories make webtoons special.",
+      "sent_ko": "팬들은 화려한 아트 스타일과 흥미진진한 이야기가 웹툰을 특별하게 만든다고 말합니다.",
+      "chunks": [
+       {
+        "en": "Fans say",
+        "ko": "팬들은 말합니다"
+       },
+       {
+        "en": "the colorful art style and exciting stories",
+        "ko": "화려한 아트 스타일과 흥미진진한 이야기가"
+       },
+       {
+        "en": "make webtoons special.",
+        "ko": "웹툰을 특별하게 만든다고"
+       }
+      ],
+      "rp": {
+       "situation": "팬이 웹툰의 그림체가 왜 특별한지 설명하고 있다.",
+       "prompt": "What makes the webtoon art so special?",
+       "options": [
+        "Fans love the colorful art style.",
+        "Fans love the colorful art styling."
+       ],
+       "answer": 0,
+       "why": "style은 명사로 art style이라는 자연스러운 표현을 만들고, styling은 이 문맥에서 어색하다."
+      },
+      "topic": "웹툰이 해외로 나가는 길"
      }
     ]
    }
