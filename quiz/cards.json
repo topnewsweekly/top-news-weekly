@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23 08:41:32",
+ "generated": "2026-09-23 08:43:20",
  "levels": {
   "kinder": [
    {
@@ -6873,6 +6873,261 @@
        "why": "remote control은 정해진 표현이고, distant control은 영어에 존재하지 않는 표현입니다."
       },
       "topic": "드론은 어떻게 하늘에 떠 있을까"
+     }
+    ]
+   },
+   {
+    "id": "kids|손 씻기가 막아주는 것들",
+    "level": "kids",
+    "topic": "손 씻기가 막아주는 것들",
+    "section": "건강",
+    "week": "2026-09-21",
+    "tf": [
+     {
+      "s": "Germs are too small to see with your eyes.",
+      "a": true
+     },
+     {
+      "s": "Plain water cleans your hands just as well as soap.",
+      "a": false
+     },
+     {
+      "s": "Touching your face can let germs get into your body.",
+      "a": true
+     },
+     {
+      "s": "You should wash your hands for about 10 seconds.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "kids:germ",
+      "word": "germ",
+      "ko": "세균, 병균",
+      "filled": "Germs are very small living things.",
+      "sent_ko": "세균은 아주 작은 살아있는 것들입니다.",
+      "chunks": [
+       {
+        "en": "Germs",
+        "ko": "세균은"
+       },
+       {
+        "en": "are very small",
+        "ko": "아주 작은"
+       },
+       {
+        "en": "living things.",
+        "ko": "살아있는 것들입니다"
+       }
+      ],
+      "rp": {
+       "situation": "손에 세균이 있다고 선생님이 설명하고 있어요.",
+       "prompt": "What are germs?",
+       "options": [
+        "They are very small living things.",
+        "They are very small dead things."
+       ],
+       "answer": 0,
+       "why": "기사에서 세균은 살아있는(living) 것이라고 했어요."
+      },
+      "topic": "손 씻기가 막아주는 것들"
+     },
+     {
+      "id": "kids:spread",
+      "word": "spread",
+      "ko": "퍼지다, 전파되다",
+      "filled": "Washing your hands with soap and water can stop germs from spreading.",
+      "sent_ko": "비누와 물로 손을 씻으면 세균이 퍼지는 것을 막을 수 있습니다.",
+      "chunks": [
+       {
+        "en": "Washing your hands with soap and water",
+        "ko": "비누와 물로 손을 씻으면"
+       },
+       {
+        "en": "can stop germs",
+        "ko": "세균을 막을 수 있습니다"
+       },
+       {
+        "en": "from spreading.",
+        "ko": "퍼지는 것을"
+       }
+      ],
+      "rp": {
+       "situation": "친구가 손을 안 씻어서 세균이 퍼질 것 같아요.",
+       "prompt": "What happens if we don't wash our hands?",
+       "options": [
+        "Germs can stop spreading.",
+        "Germs can keep spreading."
+       ],
+       "answer": 1,
+       "why": "손을 씻지 않으면 세균이 계속 퍼져요(keep spreading)."
+      },
+      "topic": "손 씻기가 막아주는 것들"
+     },
+     {
+      "id": "kids:soap",
+      "word": "soap",
+      "ko": "비누",
+      "filled": "But why does soap work so well?",
+      "sent_ko": "그런데 왜 비누가 그렇게 잘 작동할까요?",
+      "chunks": [
+       {
+        "en": "But why",
+        "ko": "그런데 왜"
+       },
+       {
+        "en": "does soap",
+        "ko": "비누가"
+       },
+       {
+        "en": "work so well?",
+        "ko": "그렇게 잘 작동할까요?"
+       }
+      ],
+      "rp": {
+       "situation": "손을 씻으려고 세면대 앞에 서 있어요.",
+       "prompt": "What do you need to really clean your hands?",
+       "options": [
+        "You need soap and water.",
+        "You need soaping and water."
+       ],
+       "answer": 0,
+       "why": "soap은 명사로 써야 해요. soaping은 틀린 형태예요."
+      },
+      "topic": "손 씻기가 막아주는 것들"
+     },
+     {
+      "id": "kids:skin",
+      "word": "skin",
+      "ko": "피부",
+      "filled": "Soap breaks apart the oil and dirt on your skin.",
+      "sent_ko": "비누는 피부 위의 기름과 먼지를 분해합니다.",
+      "chunks": [
+       {
+        "en": "Soap breaks apart",
+        "ko": "비누는 분해합니다"
+       },
+       {
+        "en": "the oil and dirt",
+        "ko": "기름과 먼지를"
+       },
+       {
+        "en": "on your skin.",
+        "ko": "피부 위의"
+       }
+      ],
+      "rp": {
+       "situation": "비누가 손을 어떻게 깨끗하게 하는지 배우고 있어요.",
+       "prompt": "What does soap break apart?",
+       "options": [
+        "The oil and dirt on your skin.",
+        "The oil and dirt in your skin."
+       ],
+       "answer": 0,
+       "why": "기름과 먼지는 피부 표면 위에(on) 있어요."
+      },
+      "topic": "손 씻기가 막아주는 것들"
+     },
+     {
+      "id": "kids:illness",
+      "word": "illness",
+      "ko": "질병, 병",
+      "filled": "This can give you a cold, the flu, or a stomach illness.",
+      "sent_ko": "이것은 여러분에게 감기, 독감, 또는 배탈을 줄 수 있습니다.",
+      "chunks": [
+       {
+        "en": "This can give you",
+        "ko": "이것은 줄 수 있습니다"
+       },
+       {
+        "en": "a cold, the flu,",
+        "ko": "감기, 독감,"
+       },
+       {
+        "en": "or a stomach illness.",
+        "ko": "또는 배탈을"
+       }
+      ],
+      "rp": {
+       "situation": "세균이 몸속에 들어가서 배가 아픈 상황이에요.",
+       "prompt": "What do you have?",
+       "options": [
+        "I have a stomach illness.",
+        "I have a stomach ill."
+       ],
+       "answer": 0,
+       "why": "illness는 명사예요. ill은 형용사라서 여기에 쓸 수 없어요."
+      },
+      "topic": "손 씻기가 막아주는 것들"
+     },
+     {
+      "id": "kids:tiny",
+      "word": "tiny",
+      "ko": "아주 작은",
+      "filled": "They can pick up tiny germs you cannot see.",
+      "sent_ko": "손은 볼 수 없는 아주 작은 세균을 집어 올릴 수 있습니다.",
+      "chunks": [
+       {
+        "en": "They can pick up",
+        "ko": "손은 집어 올릴 수 있습니다"
+       },
+       {
+        "en": "tiny germs",
+        "ko": "아주 작은 세균을"
+       },
+       {
+        "en": "you cannot see.",
+        "ko": "볼 수 없는"
+       }
+      ],
+      "rp": {
+       "situation": "선생님이 세균의 크기에 대해 설명하고 있어요.",
+       "prompt": "Can you see germs on your hands?",
+       "options": [
+        "No, they are too tiny to see.",
+        "No, they are too tiny to seeing."
+       ],
+       "answer": 0,
+       "why": "too ~ to 다음에는 동사원형(see)을 써야 해요."
+      },
+      "topic": "손 씻기가 막아주는 것들"
+     },
+     {
+      "id": "kids:expert",
+      "word": "expert",
+      "ko": "전문가",
+      "filled": "A health expert explained that regular handwashing is the easiest way to prevent the spread of germs.",
+      "sent_ko": "이 단어는 기사에 나오지 않습니다.",
+      "chunks": [
+       {
+        "en": "A health expert explained",
+        "ko": "건강 전문가가 설명했습니다"
+       },
+       {
+        "en": "that regular handwashing",
+        "ko": "규칙적인 손 씻기가"
+       },
+       {
+        "en": "is the easiest way",
+        "ko": "가장 쉬운 방법이라고"
+       },
+       {
+        "en": "to prevent the spread of germs.",
+        "ko": "세균이 퍼지는 것을 막는"
+       }
+      ],
+      "rp": {
+       "situation": "손 씻기에 대해 건강 전문가가 학교에서 이야기해 주고 있어요.",
+       "prompt": "Who is telling us about handwashing?",
+       "options": [
+        "A health expert is telling us.",
+        "A health expertise is telling us."
+       ],
+       "answer": 0,
+       "why": "expert는 사람을 가리키는 명사예요. expertise는 사람이 아닌 전문 지식을 뜻해요."
+      },
+      "topic": "손 씻기가 막아주는 것들"
      }
     ]
    }
