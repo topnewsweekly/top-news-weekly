@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23 08:38:44",
+ "generated": "2026-09-23 08:39:55",
  "levels": {
   "kinder": [
    {
@@ -6124,6 +6124,265 @@
        "why": "'information'은 셀 수 없는 명사라 복수형 's'를 붙일 수 없습니다."
       },
       "topic": "우리는 왜 잠을 잘까"
+     }
+    ]
+   },
+   {
+    "id": "kids|플라스틱 병이 옷이 되는 과정",
+    "level": "kids",
+    "topic": "플라스틱 병이 옷이 되는 과정",
+    "section": "환경",
+    "week": "2026-09-21",
+    "tf": [
+     {
+      "s": "Machines cut plastic bottles into small pieces called flakes.",
+      "a": true
+     },
+     {
+      "s": "The plastic flakes are turned into fabric without melting first.",
+      "a": false
+     },
+     {
+      "s": "Clothes made from recycled plastic help take trash off our planet.",
+      "a": true
+     },
+     {
+      "s": "Companies like Patagonia make clothes from recycled paper.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "kids:collect",
+      "word": "collect",
+      "ko": "모으다, 수집하다",
+      "filled": "First, people collect used plastic bottles and clean them.",
+      "sent_ko": "먼저, 사람들은 다 쓴 플라스틱 병을 모아서 씻습니다.",
+      "chunks": [
+       {
+        "en": "First,",
+        "ko": "먼저,"
+       },
+       {
+        "en": "people collect used plastic bottles",
+        "ko": "사람들은 다 쓴 플라스틱 병을 모으고"
+       },
+       {
+        "en": "and clean them.",
+        "ko": "그것들을 씻습니다."
+       }
+      ],
+      "rp": {
+       "situation": "사람들이 다 쓴 플라스틱 병을 한곳에 모으고 있습니다.",
+       "prompt": "What are the people doing with the bottles?",
+       "options": [
+        "They are collecting the bottles.",
+        "They are collection the bottles."
+       ],
+       "answer": 0,
+       "why": "동사 자리에는 동사원형 collecting이나 collect를 써야 하고, collection은 명사라서 틀립니다."
+      },
+      "topic": "플라스틱 병이 옷이 되는 과정"
+     },
+     {
+      "id": "kids:melt",
+      "word": "melt",
+      "ko": "녹다, 녹이다",
+      "filled": "Next, the flakes melt and turn into very thin threads.",
+      "sent_ko": "다음으로, 조각들이 녹아서 아주 가는 실로 변합니다.",
+      "chunks": [
+       {
+        "en": "Next,",
+        "ko": "다음으로,"
+       },
+       {
+        "en": "the flakes melt",
+        "ko": "조각들이 녹아서"
+       },
+       {
+        "en": "and turn into",
+        "ko": "~로 변합니다"
+       },
+       {
+        "en": "very thin threads.",
+        "ko": "아주 가는 실로."
+       }
+      ],
+      "rp": {
+       "situation": "기계가 플라스틱 조각들을 뜨겁게 달궈서 실로 만들고 있습니다.",
+       "prompt": "What happens to the flakes when they get very hot?",
+       "options": [
+        "The flakes melt.",
+        "The flakes melting."
+       ],
+       "answer": 0,
+       "why": "주어 뒤에는 동사원형(melt)이 와야 하며, melting만 쓰면 문장이 완성되지 않습니다."
+      },
+      "topic": "플라스틱 병이 옷이 되는 과정"
+     },
+     {
+      "id": "kids:thread",
+      "word": "thread",
+      "ko": "실",
+      "filled": "Workers use these threads to make soft fabric.",
+      "sent_ko": "작업자들은 부드러운 천을 만들기 위해 이 실들을 사용합니다.",
+      "chunks": [
+       {
+        "en": "Workers use these threads",
+        "ko": "작업자들은 이 실들을 사용합니다"
+       },
+       {
+        "en": "to make",
+        "ko": "만들기 위해"
+       },
+       {
+        "en": "soft fabric.",
+        "ko": "부드러운 천을."
+       }
+      ],
+      "rp": {
+       "situation": "작업자들이 플라스틱을 녹여서 만든 실을 살펴보고 있습니다.",
+       "prompt": "What do you call this long, thin strand used to make fabric?",
+       "options": [
+        "It is a thread.",
+        "It is a trash."
+       ],
+       "answer": 0,
+       "why": "실처럼 가늘고 긴 것은 thread이고, trash는 쓰레기라는 뜻이라 문맥에 맞지 않습니다."
+      },
+      "topic": "플라스틱 병이 옷이 되는 과정"
+     },
+     {
+      "id": "kids:fabric",
+      "word": "fabric",
+      "ko": "직물, 천",
+      "filled": "Workers use these threads to make soft fabric.",
+      "sent_ko": "작업자들은 부드러운 천을 만들기 위해 이 실들을 사용합니다.",
+      "chunks": [
+       {
+        "en": "Workers use these threads",
+        "ko": "작업자들은 이 실들을 사용합니다"
+       },
+       {
+        "en": "to make",
+        "ko": "만들기 위해"
+       },
+       {
+        "en": "soft fabric.",
+        "ko": "부드러운 천을."
+       }
+      ],
+      "rp": {
+       "situation": "플라스틱 실들이 합쳐져서 부드러운 천이 만들어지고 있습니다.",
+       "prompt": "What is made from the threads?",
+       "options": [
+        "Soft fabric is made.",
+        "Soft fabrics are made."
+       ],
+       "answer": 0,
+       "why": "fabric은 셀 수 없는 명사로 복수형 fabrics를 쓰지 않는 것이 자연스럽습니다."
+      },
+      "topic": "플라스틱 병이 옷이 되는 과정"
+     },
+     {
+      "id": "kids:flake",
+      "word": "flake",
+      "ko": "조각, 파편 (눈송이 등의 작은 조각)",
+      "filled": "Then, machines cut the bottles into tiny pieces called flakes.",
+      "sent_ko": "그런 다음, 기계들이 병을 플레이크라고 불리는 아주 작은 조각들로 자릅니다.",
+      "chunks": [
+       {
+        "en": "Then,",
+        "ko": "그런 다음,"
+       },
+       {
+        "en": "machines cut the bottles",
+        "ko": "기계들이 병을 자릅니다"
+       },
+       {
+        "en": "into tiny pieces",
+        "ko": "아주 작은 조각들로"
+       },
+       {
+        "en": "called flakes.",
+        "ko": "플레이크라고 불리는."
+       }
+      ],
+      "rp": {
+       "situation": "기계가 플라스틱 병을 아주 작은 조각들로 잘라내고 있습니다.",
+       "prompt": "What are these tiny pieces of plastic called?",
+       "options": [
+        "They are called flakes.",
+        "They are called flaking."
+       ],
+       "answer": 0,
+       "why": "called 뒤에는 이름을 나타내는 명사(flakes)가 와야 하며, flaking은 동사 형태라서 틀립니다."
+      },
+      "topic": "플라스틱 병이 옷이 되는 과정"
+     },
+     {
+      "id": "kids:trash",
+      "word": "trash",
+      "ko": "쓰레기",
+      "filled": "It takes old plastic out of the trash and turns it into something useful.",
+      "sent_ko": "그것은 오래된 플라스틱을 쓰레기에서 꺼내 유용한 것으로 바꿉니다.",
+      "chunks": [
+       {
+        "en": "It takes old plastic",
+        "ko": "그것은 오래된 플라스틱을 꺼냅니다"
+       },
+       {
+        "en": "out of the trash",
+        "ko": "쓰레기에서"
+       },
+       {
+        "en": "and turns it into",
+        "ko": "그리고 그것을 바꿉니다"
+       },
+       {
+        "en": "something useful.",
+        "ko": "유용한 것으로."
+       }
+      ],
+      "rp": {
+       "situation": "다 쓴 플라스틱 병들이 버려져 쓰레기가 되어 있습니다.",
+       "prompt": "Where are the old plastic bottles before people collect them?",
+       "options": [
+        "They are in the trash.",
+        "They are in the trashes."
+       ],
+       "answer": 0,
+       "why": "trash는 셀 수 없는 명사이므로 복수형 trashes로 쓸 수 없습니다."
+      },
+      "topic": "플라스틱 병이 옷이 되는 과정"
+     },
+     {
+      "id": "kids:planet",
+      "word": "planet",
+      "ko": "행성",
+      "filled": "This is great for our planet.",
+      "sent_ko": "이것은 우리 지구에 좋습니다.",
+      "chunks": [
+       {
+        "en": "This is great",
+        "ko": "이것은 좋습니다"
+       },
+       {
+        "en": "for our planet.",
+        "ko": "우리 지구에."
+       }
+      ],
+      "rp": {
+       "situation": "플라스틱 병으로 옷을 만들어 쓰레기를 줄이고 지구를 돕고 있습니다.",
+       "prompt": "Why is making clothes from bottles a good idea?",
+       "options": [
+        "It is great for our planet.",
+        "It is great of our planet."
+       ],
+       "answer": 0,
+       "why": "'~에 좋다'는 표현은 good/great for를 쓰며, of는 이 문맥에서 쓸 수 없습니다."
+      },
+      "topic": "플라스틱 병이 옷이 되는 과정"
      }
     ]
    }
