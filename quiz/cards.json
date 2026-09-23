@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23 08:57:04",
+ "generated": "2026-09-23 09:00:19",
  "levels": {
   "kinder": [
    {
@@ -25262,6 +25262,1064 @@
        "why": "reliable은 '믿을 수 있는'을 뜻하는 형용사이고, relying은 능동 분사로 이 문맥에 쓸 수 없다."
       },
       "topic": "빈 상가가 늘어난 도심"
+     }
+    ]
+   },
+   {
+    "id": "times|파나마 운하의 가뭄",
+    "level": "times",
+    "topic": "파나마 운하의 가뭄",
+    "section": "세계",
+    "week": "2026-09-21",
+    "tf": [
+     {
+      "s": "The Panama Canal uses saltwater from the Atlantic and Pacific Oceans to operate its lock system.",
+      "a": false
+     },
+     {
+      "s": "During 2023, canal authorities reduced the number of ships allowed through each day because of low water levels in Gatun Lake.",
+      "a": true
+     },
+     {
+      "s": "The proposed new dam has received full support from farming communities in the region.",
+      "a": false
+     },
+     {
+      "s": "The Panama Canal handles approximately three percent of global trade.",
+      "a": true
+     }
+    ],
+    "cards": [
+     {
+      "id": "times:shipping",
+      "word": "shipping",
+      "ko": "화물 운송, 선적",
+      "filled": "Some vessels waited weeks for their turn, causing delays and rising shipping costs worldwide.",
+      "sent_ko": "일부 선박들은 자신의 차례를 몇 주씩 기다렸고, 이로 인해 전 세계적으로 지연과 화물 운송 비용 상승이 발생했다.",
+      "chunks": [
+       {
+        "en": "Some vessels",
+        "ko": "일부 선박들은"
+       },
+       {
+        "en": "waited weeks for their turn,",
+        "ko": "몇 주씩 차례를 기다렸고"
+       },
+       {
+        "en": "causing delays",
+        "ko": "지연을 야기하며"
+       },
+       {
+        "en": "and rising shipping costs",
+        "ko": "화물 운송 비용 상승과 함께"
+       },
+       {
+        "en": "worldwide.",
+        "ko": "전 세계적으로"
+       }
+      ],
+      "rp": {
+       "situation": "파나마 운하 통과를 기다리는 선박들로 인해 비용이 올랐다는 뉴스 보도를 보고 있다.",
+       "prompt": "What happened to costs while ships were waiting?",
+       "options": [
+        "Shipping costs rose worldwide during the delays.",
+        "Shipment costs rose worldwide during the delays."
+       ],
+       "answer": 0,
+       "why": "'shipping costs'는 고정된 복합명사 표현이며, 'shipment costs'는 자연스러운 영어 표현이 아니다."
+      },
+      "topic": "파나마 운하의 가뭄"
+     },
+     {
+      "id": "times:route",
+      "word": "route",
+      "ko": "경로, 노선",
+      "filled": "The Panama Canal is one of the world's most important shipping routes, connecting the Atlantic and Pacific Oceans through a narrow strip of land in Central America.",
+      "sent_ko": "파나마 운하는 중앙아메리카의 좁은 육지를 통해 대서양과 태평양을 연결하는, 세계에서 가장 중요한 해상 운송 경로 중 하나이다.",
+      "chunks": [
+       {
+        "en": "The Panama Canal",
+        "ko": "파나마 운하는"
+       },
+       {
+        "en": "is one of the world's most important shipping routes,",
+        "ko": "세계에서 가장 중요한 해상 운송 경로 중 하나이며"
+       },
+       {
+        "en": "connecting the Atlantic and Pacific Oceans",
+        "ko": "대서양과 태평양을 연결하며"
+       },
+       {
+        "en": "through a narrow strip of land",
+        "ko": "좁은 육지를 통해"
+       },
+       {
+        "en": "in Central America.",
+        "ko": "중앙아메리카에 있는"
+       }
+      ],
+      "rp": {
+       "situation": "파나마 운하가 두 대양을 잇는 경로라고 설명하는 수업 중이다.",
+       "prompt": "How would you describe the Panama Canal?",
+       "options": [
+        "It is one of the world's most important shipping routes.",
+        "It is one of the world's most important shipping roads."
+       ],
+       "answer": 0,
+       "why": "배가 다니는 수상 경로에는 'route'를 쓰며, 'road'는 육상 도로를 의미하므로 적절하지 않다."
+      },
+      "topic": "파나마 운하의 가뭄"
+     },
+     {
+      "id": "times:shortage",
+      "word": "shortage",
+      "ko": "부족, 결핍",
+      "filled": "But a serious water shortage is now threatening its ability to operate normally.",
+      "sent_ko": "하지만 심각한 물 부족이 현재 운하가 정상적으로 운영될 수 있는 능력을 위협하고 있다.",
+      "chunks": [
+       {
+        "en": "But a serious water shortage",
+        "ko": "하지만 심각한 물 부족이"
+       },
+       {
+        "en": "is now threatening",
+        "ko": "현재 위협하고 있다"
+       },
+       {
+        "en": "its ability",
+        "ko": "운하의 능력을"
+       },
+       {
+        "en": "to operate normally.",
+        "ko": "정상적으로 운영할"
+       }
+      ],
+      "rp": {
+       "situation": "가툰 호수 수위가 급격히 낮아져 운하 운영에 차질이 생겼다.",
+       "prompt": "What is the main problem at the canal right now?",
+       "options": [
+        "There is a serious water shortage threatening its operation.",
+        "There is a serious water lack threatening its operation."
+       ],
+       "answer": 0,
+       "why": "'shortage'는 공급 부족을 나타내는 명사로 자연스럽지만, 'lack'은 단독 명사로 이 문맥에서 어색한 표현이다."
+      },
+      "topic": "파나마 운하의 가뭄"
+     },
+     {
+      "id": "times:artificial",
+      "word": "artificial",
+      "ko": "인공의, 인위적인",
+      "filled": "Instead, it depends on freshwater from Gatun Lake, a large artificial lake created nearly a century ago.",
+      "sent_ko": "대신, 운하는 거의 한 세기 전에 만들어진 거대한 인공 호수인 가툰 호수의 민물에 의존한다.",
+      "chunks": [
+       {
+        "en": "Instead, it depends on freshwater",
+        "ko": "대신, 운하는 민물에 의존하며"
+       },
+       {
+        "en": "from Gatun Lake,",
+        "ko": "가툰 호수의"
+       },
+       {
+        "en": "a large artificial lake",
+        "ko": "거대한 인공 호수인"
+       },
+       {
+        "en": "created nearly a century ago.",
+        "ko": "거의 한 세기 전에 만들어진"
+       }
+      ],
+      "rp": {
+       "situation": "가툰 호수가 자연적으로 생긴 것이 아니라 사람이 만든 것임을 설명하는 상황이다.",
+       "prompt": "Is Gatun Lake a natural lake?",
+       "options": [
+        "No, it is a large artificial lake created by humans.",
+        "No, it is a large unnatural lake created by humans."
+       ],
+       "answer": 0,
+       "why": "'artificial'은 인공적으로 만들어진 것을 뜻하는 형용사이고, 'unnatural'은 부자연스럽다는 의미로 이 문맥에 맞지 않는다."
+      },
+      "topic": "파나마 운하의 가뭄"
+     },
+     {
+      "id": "times:lock",
+      "word": "lock",
+      "ko": "(수로의) 갑문, 수문",
+      "filled": "When ships pass through the canal's locks, huge amounts of water are released into the ocean.",
+      "sent_ko": "선박들이 운하의 갑문을 통과할 때, 엄청난 양의 물이 바다로 방류된다.",
+      "chunks": [
+       {
+        "en": "When ships pass through",
+        "ko": "선박들이 통과할 때"
+       },
+       {
+        "en": "the canal's locks,",
+        "ko": "운하의 갑문을"
+       },
+       {
+        "en": "huge amounts of water",
+        "ko": "엄청난 양의 물이"
+       },
+       {
+        "en": "are released into the ocean.",
+        "ko": "바다로 방류된다"
+       }
+      ],
+      "rp": {
+       "situation": "파나마 운하에서 배가 갑문을 지날 때 물이 방류된다고 설명하고 있다.",
+       "prompt": "What happens when a ship passes through the canal's locks?",
+       "options": [
+        "Huge amounts of water are released into the ocean.",
+        "Huge amounts of water are unlocked into the ocean."
+       ],
+       "answer": 0,
+       "why": "물은 'release(방류하다)'하는 것이며, 'unlock'은 자물쇠를 여는 동사로 이 문맥에서 쓸 수 없다."
+      },
+      "topic": "파나마 운하의 가뭄"
+     },
+     {
+      "id": "times:drought",
+      "word": "drought",
+      "ko": "가뭄",
+      "filled": "In 2023, an unusually strong El Niño weather pattern brought severe drought to the region.",
+      "sent_ko": "2023년에, 유난히 강력한 엘니뇨 기상 패턴이 그 지역에 심각한 가뭄을 가져왔다.",
+      "chunks": [
+       {
+        "en": "In 2023,",
+        "ko": "2023년에"
+       },
+       {
+        "en": "an unusually strong El Niño weather pattern",
+        "ko": "유난히 강력한 엘니뇨 기상 패턴이"
+       },
+       {
+        "en": "brought severe drought",
+        "ko": "심각한 가뭄을 가져왔다"
+       },
+       {
+        "en": "to the region.",
+        "ko": "그 지역에"
+       }
+      ],
+      "rp": {
+       "situation": "2023년 엘니뇨로 인해 파나마 운하 지역에 비가 거의 오지 않아 호수 수위가 떨어졌다.",
+       "prompt": "What did El Niño cause in the Panama Canal region in 2023?",
+       "options": [
+        "It brought severe drought, lowering the water levels.",
+        "It brought severe flood, lowering the water levels."
+       ],
+       "answer": 0,
+       "why": "기사에 따르면 엘니뇨는 가뭄(drought)을 초래했고, 홍수(flood)는 반대 현상이므로 틀리다."
+      },
+      "topic": "파나마 운하의 가뭄"
+     },
+     {
+      "id": "times:reservoir",
+      "word": "reservoir",
+      "ko": "저수지, 저장소",
+      "filled": "To prevent similar disruptions in the future, Panamanian authorities have proposed building a new dam to create an additional water reservoir.",
+      "sent_ko": "유사한 혼란을 미래에 방지하기 위해, 파나마 당국은 추가적인 저수지를 만들기 위한 새로운 댐 건설을 제안했다.",
+      "chunks": [
+       {
+        "en": "To prevent similar disruptions in the future,",
+        "ko": "유사한 혼란을 미래에 방지하기 위해"
+       },
+       {
+        "en": "Panamanian authorities",
+        "ko": "파나마 당국은"
+       },
+       {
+        "en": "have proposed building a new dam",
+        "ko": "새로운 댐 건설을 제안했다"
+       },
+       {
+        "en": "to create an additional water reservoir.",
+        "ko": "추가적인 저수지를 만들기 위해"
+       }
+      ],
+      "rp": {
+       "situation": "파나마 당국이 물 부족 해결을 위해 새 댐으로 물을 저장하려 한다고 설명하는 상황이다.",
+       "prompt": "Why does Panama want to build a new dam?",
+       "options": [
+        "To create an additional water reservoir for the canal.",
+        "To create an additional water container for the canal."
+       ],
+       "answer": 0,
+       "why": "대규모 수자원 저장 시설은 'reservoir'라고 하며, 'container'는 작은 용기를 뜻해 이 문맥에 맞지 않는다."
+      },
+      "topic": "파나마 운하의 가뭄"
+     },
+     {
+      "id": "times:disruption",
+      "word": "disruption",
+      "ko": "혼란, 방해, 차질",
+      "filled": "To prevent similar disruptions in the future, Panamanian authorities have proposed building a new dam to create an additional water reservoir.",
+      "sent_ko": "유사한 혼란을 미래에 방지하기 위해, 파나마 당국은 추가적인 저수지를 만들기 위한 새로운 댐 건설을 제안했다.",
+      "chunks": [
+       {
+        "en": "To prevent similar disruptions in the future,",
+        "ko": "유사한 혼란을 미래에 방지하기 위해"
+       },
+       {
+        "en": "Panamanian authorities",
+        "ko": "파나마 당국은"
+       },
+       {
+        "en": "have proposed building a new dam",
+        "ko": "새로운 댐 건설을 제안했다"
+       },
+       {
+        "en": "to create an additional water reservoir.",
+        "ko": "추가적인 저수지를 만들기 위해"
+       }
+      ],
+      "rp": {
+       "situation": "가뭄으로 선박 통행이 줄고 비용이 오른 사태가 다시 일어나지 않기를 바라는 상황이다.",
+       "prompt": "What does Panama want to avoid in the future?",
+       "options": [
+        "It wants to prevent similar disruptions to the canal's operation.",
+        "It wants to prevent similar disturbances to the canal's operation."
+       ],
+       "answer": 0,
+       "why": "운하 운영 차질처럼 시스템 전반의 방해에는 'disruption'을 쓰며, 'disturbance'는 소란이나 소요를 뜻해 어색하다."
+      },
+      "topic": "파나마 운하의 가뭄"
+     },
+     {
+      "id": "times:opposition",
+      "word": "opposition",
+      "ko": "반대, 저항",
+      "filled": "However, the plan has faced strong opposition from farming communities whose land would be flooded.",
+      "sent_ko": "그러나 그 계획은 토지가 침수될 농촌 지역사회로부터 강한 반대에 직면했다.",
+      "chunks": [
+       {
+        "en": "However, the plan",
+        "ko": "그러나 그 계획은"
+       },
+       {
+        "en": "has faced strong opposition",
+        "ko": "강한 반대에 직면했다"
+       },
+       {
+        "en": "from farming communities",
+        "ko": "농촌 지역사회로부터"
+       },
+       {
+        "en": "whose land would be flooded.",
+        "ko": "토지가 침수될"
+       }
+      ],
+      "rp": {
+       "situation": "새 댐 건설로 농지가 물에 잠길 것을 우려한 주민들이 계획에 반대하고 있다.",
+       "prompt": "How do the farming communities feel about the dam plan?",
+       "options": [
+        "They have shown strong opposition to the plan.",
+        "They have shown strong opposite to the plan."
+       ],
+       "answer": 0,
+       "why": "'opposition'은 명사로 반대를 뜻하지만, 'opposite'은 형용사 또는 명사로 이 문맥의 명사 자리에 쓸 수 없다."
+      },
+      "topic": "파나마 운하의 가뭄"
+     },
+     {
+      "id": "times:livelihood",
+      "word": "livelihood",
+      "ko": "생계, 생활 수단",
+      "filled": "Local residents worry about losing their homes and livelihoods, turning the water shortage into both an environmental and a social issue.",
+      "sent_ko": "지역 주민들은 자신들의 집과 생계를 잃는 것을 걱정하며, 물 부족 문제를 환경적이면서 사회적인 문제로 만들고 있다.",
+      "chunks": [
+       {
+        "en": "Local residents worry about",
+        "ko": "지역 주민들은 걱정한다"
+       },
+       {
+        "en": "losing their homes and livelihoods,",
+        "ko": "집과 생계를 잃는 것을"
+       },
+       {
+        "en": "turning the water shortage",
+        "ko": "물 부족 문제를 바꾸며"
+       },
+       {
+        "en": "into both an environmental and a social issue.",
+        "ko": "환경적이면서 사회적인 문제로"
+       }
+      ],
+      "rp": {
+       "situation": "댐이 건설되면 농지가 잠겨 주민들이 농사를 지을 수 없게 될 상황이다.",
+       "prompt": "What are the local residents most worried about losing?",
+       "options": [
+        "They are worried about losing their livelihoods and homes.",
+        "They are worried about losing their lifestyles and homes."
+       ],
+       "answer": 0,
+       "why": "'livelihood'는 생계 수단을 뜻하며, 'lifestyle'은 생활 방식을 의미해 생계를 잃는다는 맥락에 맞지 않는다."
+      },
+      "topic": "파나마 운하의 가뭄"
+     },
+     {
+      "id": "times:frequent",
+      "word": "frequent",
+      "ko": "빈번한, 잦은",
+      "filled": "Climate scientists warn that droughts in the region could become more frequent as global temperatures rise.",
+      "sent_ko": "기후 과학자들은 전 세계 기온이 상승함에 따라 그 지역의 가뭄이 더 잦아질 수 있다고 경고한다.",
+      "chunks": [
+       {
+        "en": "Climate scientists warn",
+        "ko": "기후 과학자들은 경고한다"
+       },
+       {
+        "en": "that droughts in the region",
+        "ko": "그 지역의 가뭄이"
+       },
+       {
+        "en": "could become more frequent",
+        "ko": "더 잦아질 수 있다고"
+       },
+       {
+        "en": "as global temperatures rise.",
+        "ko": "전 세계 기온이 상승함에 따라"
+       }
+      ],
+      "rp": {
+       "situation": "기후변화로 파나마 지역에 가뭄이 점점 더 자주 발생할 것이라고 과학자들이 경고하고 있다.",
+       "prompt": "What do climate scientists say about future droughts in the region?",
+       "options": [
+        "They warn that droughts could become more frequent.",
+        "They warn that droughts could become more frequently."
+       ],
+       "answer": 0,
+       "why": "'become'의 보어 자리에는 형용사 'frequent'가 와야 하며, 부사 'frequently'는 올 수 없다."
+      },
+      "topic": "파나마 운하의 가뭄"
+     },
+     {
+      "id": "times:reliable",
+      "word": "reliable",
+      "ko": "믿을 수 있는, 신뢰할 수 있는",
+      "filled": "For a waterway that handles roughly three percent of global trade, finding a reliable long-term solution is urgent.",
+      "sent_ko": "전 세계 무역의 약 3퍼센트를 처리하는 수로에 있어, 믿을 수 있는 장기적인 해결책을 찾는 것은 시급하다.",
+      "chunks": [
+       {
+        "en": "For a waterway that handles roughly three percent of global trade,",
+        "ko": "전 세계 무역의 약 3퍼센트를 처리하는 수로에 있어"
+       },
+       {
+        "en": "finding a reliable long-term solution",
+        "ko": "믿을 수 있는 장기적 해결책을 찾는 것은"
+       },
+       {
+        "en": "is urgent.",
+        "ko": "시급하다"
+       }
+      ],
+      "rp": {
+       "situation": "파나마 운하의 물 문제를 해결하기 위한 방안이 일관되게 작동해야 한다고 강조하는 상황이다.",
+       "prompt": "What kind of solution does the canal need?",
+       "options": [
+        "It needs a reliable long-term solution that works consistently.",
+        "It needs a relying long-term solution that works consistently."
+       ],
+       "answer": 0,
+       "why": "'reliable'은 형용사로 신뢰할 수 있다는 뜻이고, 'relying'은 현재분사로 형용사 역할을 할 수 없는 표현이다."
+      },
+      "topic": "파나마 운하의 가뭄"
+     },
+     {
+      "id": "times:tension",
+      "word": "tension",
+      "ko": "긴장(감), 갈등",
+      "filled": "The challenge facing Panama — balancing the canal's needs with those of its own people — reflects a tension that many countries around the world are beginning to feel.",
+      "sent_ko": "파나마가 직면한 도전 — 운하의 필요와 자국민의 필요를 균형 잡는 것 — 은 전 세계 많은 나라들이 느끼기 시작한 긴장감을 반영한다.",
+      "chunks": [
+       {
+        "en": "The challenge facing Panama —",
+        "ko": "파나마가 직면한 도전은 —"
+       },
+       {
+        "en": "balancing the canal's needs with those of its own people —",
+        "ko": "운하의 필요와 자국민의 필요를 균형 잡는 것 —"
+       },
+       {
+        "en": "reflects a tension",
+        "ko": "긴장감을 반영한다"
+       },
+       {
+        "en": "that many countries around the world",
+        "ko": "전 세계 많은 나라들이"
+       },
+       {
+        "en": "are beginning to feel.",
+        "ko": "느끼기 시작한"
+       }
+      ],
+      "rp": {
+       "situation": "운하의 필요와 주민들의 필요가 충돌하면서 파나마가 갈등을 겪고 있다고 설명하는 상황이다.",
+       "prompt": "How would you describe the situation Panama is facing?",
+       "options": [
+        "It reflects a tension between the canal's needs and its people's needs.",
+        "It reflects a tension between the canal's needs and its people's wants."
+       ],
+       "answer": 0,
+       "why": "기사에서 주민들의 '필요(needs)'와 운하의 '필요(needs)'가 대립한다고 했으며, 'wants'로 바꾸면 원문의 의미가 달라진다."
+      },
+      "topic": "파나마 운하의 가뭄"
+     },
+     {
+      "id": "times:vessel",
+      "word": "vessel",
+      "ko": "선박, 배",
+      "filled": "Some vessels waited weeks for their turn, causing delays and rising shipping costs worldwide.",
+      "sent_ko": "일부 선박들은 자신의 차례를 몇 주씩 기다렸고, 이로 인해 전 세계적으로 지연과 화물 운송 비용 상승이 발생했다.",
+      "chunks": [
+       {
+        "en": "Some vessels",
+        "ko": "일부 선박들은"
+       },
+       {
+        "en": "waited weeks for their turn,",
+        "ko": "몇 주씩 차례를 기다렸고"
+       },
+       {
+        "en": "causing delays",
+        "ko": "지연을 야기하며"
+       },
+       {
+        "en": "and rising shipping costs",
+        "ko": "화물 운송 비용 상승과 함께"
+       },
+       {
+        "en": "worldwide.",
+        "ko": "전 세계적으로"
+       }
+      ],
+      "rp": {
+       "situation": "가뭄으로 가툰 호수 수위가 낮아져 운하를 통과할 수 있는 배의 수가 줄었다.",
+       "prompt": "What happened to the ships during the water shortage?",
+       "options": [
+        "Many vessels had to wait weeks before passing through the canal.",
+        "Many vessels had to wait weeks before passing across the canal."
+       ],
+       "answer": 0,
+       "why": "운하를 통과하는 표현은 'pass through'이며, 'pass across'는 운하에 대해 쓰지 않는 비자연스러운 표현이다."
+      },
+      "topic": "파나마 운하의 가뭄"
+     }
+    ]
+   },
+   {
+    "id": "times|위성 인터넷이 닿는 오지",
+    "level": "times",
+    "topic": "위성 인터넷이 닿는 오지",
+    "section": "기술",
+    "week": "2026-09-21",
+    "tf": [
+     {
+      "s": "Traditional satellites orbit at an altitude of around 35,000 kilometers above Earth.",
+      "a": true
+     },
+     {
+      "s": "Starlink currently provides internet service in fewer than 50 countries.",
+      "a": false
+     },
+     {
+      "s": "Low-Earth orbit satellites fly at altitudes between 500 and 1,200 kilometers.",
+      "a": true
+     },
+     {
+      "s": "The article states that subscription costs for satellite internet are generally affordable for low-income communities.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "times:reliable",
+      "word": "reliable",
+      "ko": "믿을 수 있는, 신뢰할 수 있는",
+      "filled": "For roughly one-third of the world's population, reliable internet access remains out of reach.",
+      "sent_ko": "세계 인구의 대략 3분의 1에게는 믿을 수 있는 인터넷 접속이 여전히 닿지 않는 곳에 있다.",
+      "chunks": [
+       {
+        "en": "For roughly one-third of the world's population,",
+        "ko": "세계 인구의 대략 3분의 1에게는"
+       },
+       {
+        "en": "reliable internet access",
+        "ko": "믿을 수 있는 인터넷 접속이"
+       },
+       {
+        "en": "remains out of reach.",
+        "ko": "여전히 닿지 않는 곳에 있다"
+       }
+      ],
+      "rp": {
+       "situation": "오지 마을 주민들이 위성 인터넷 서비스를 평가하고 있다.",
+       "prompt": "How would you describe this satellite internet connection?",
+       "options": [
+        "It's reliable — the signal stays strong even during bad weather.",
+        "It's rely — the signal stays strong even during bad weather."
+       ],
+       "answer": 0,
+       "why": "reliable은 형용사이고, rely는 동사라 명사 앞에 쓸 수 없다."
+      },
+      "topic": "위성 인터넷이 닿는 오지"
+     },
+     {
+      "id": "times:isolated",
+      "word": "isolated",
+      "ko": "고립된, 외딴",
+      "filled": "Schools in isolated villages can access online learning resources.",
+      "sent_ko": "고립된 마을의 학교들은 온라인 학습 자료에 접근할 수 있다.",
+      "chunks": [
+       {
+        "en": "Schools in isolated villages",
+        "ko": "고립된 마을의 학교들은"
+       },
+       {
+        "en": "can access",
+        "ko": "접근할 수 있다"
+       },
+       {
+        "en": "online learning resources.",
+        "ko": "온라인 학습 자료에"
+       }
+      ],
+      "rp": {
+       "situation": "위성 인터넷 덕분에 외딴 마을 학교 학생들이 온라인 수업을 듣고 있다.",
+       "prompt": "What kind of villages are these schools in?",
+       "options": [
+        "They are in isolated villages far from any city.",
+        "They are in isolating villages far from any city."
+       ],
+       "answer": 0,
+       "why": "isolated는 '고립된' 상태를 나타내는 형용사이고, isolating은 '고립시키는' 능동 의미라 어색하다."
+      },
+      "topic": "위성 인터넷이 닿는 오지"
+     },
+     {
+      "id": "times:fiber",
+      "word": "fiber",
+      "ko": "광섬유, 섬유",
+      "filled": "Many of these people live in mountainous regions, isolated islands, or vast rural areas where building cable or fiber networks is simply too costly.",
+      "sent_ko": "이 사람들 중 많은 수가 케이블이나 광섬유 네트워크를 구축하기에 비용이 너무 많이 드는 산악 지역, 고립된 섬, 또는 광대한 농촌 지역에 살고 있다.",
+      "chunks": [
+       {
+        "en": "Many of these people live in",
+        "ko": "이 사람들 중 많은 수가 살고 있다"
+       },
+       {
+        "en": "mountainous regions, isolated islands, or vast rural areas",
+        "ko": "산악 지역, 고립된 섬, 또는 광대한 농촌 지역에"
+       },
+       {
+        "en": "where building cable or fiber networks",
+        "ko": "케이블이나 광섬유 네트워크를 구축하는 것이"
+       },
+       {
+        "en": "is simply too costly.",
+        "ko": "그냥 너무 비싸다"
+       }
+      ],
+      "rp": {
+       "situation": "오지 마을에 인터넷 인프라를 설치하려는 회사 관계자들이 논의 중이다.",
+       "prompt": "Why haven't they built a network here yet?",
+       "options": [
+        "Laying fiber cables through these mountains is simply too costly.",
+        "Laying fibrous cables through these mountains is simply too costly."
+       ],
+       "answer": 0,
+       "why": "fiber는 광섬유 케이블을 뜻하는 명사 수식어이고, fibrous는 '섬유질의'라는 뜻으로 이 문맥에 맞지 않는다."
+      },
+      "topic": "위성 인터넷이 닿는 오지"
+     },
+     {
+      "id": "times:orbit",
+      "word": "orbit",
+      "ko": "궤도, 궤도를 돌다",
+      "filled": "Traditional satellites orbit at about 35,000 kilometers above Earth.",
+      "sent_ko": "기존 위성들은 지구 위 약 35,000킬로미터에서 궤도를 돈다.",
+      "chunks": [
+       {
+        "en": "Traditional satellites",
+        "ko": "기존 위성들은"
+       },
+       {
+        "en": "orbit at about 35,000 kilometers",
+        "ko": "약 35,000킬로미터에서 궤도를 돈다"
+       },
+       {
+        "en": "above Earth.",
+        "ko": "지구 위"
+       }
+      ],
+      "rp": {
+       "situation": "수업 시간에 기존 위성이 지구 주변을 도는 방식을 설명하고 있다.",
+       "prompt": "What do traditional satellites do at 35,000 kilometers?",
+       "options": [
+        "They orbit Earth at that distance.",
+        "They orbital Earth at that distance."
+       ],
+       "answer": 0,
+       "why": "orbit은 동사로 쓰이고, orbital은 형용사라 동사 자리에 올 수 없다."
+      },
+      "topic": "위성 인터넷이 닿는 오지"
+     },
+     {
+      "id": "times:altitude",
+      "word": "altitude",
+      "ko": "고도, 높이",
+      "filled": "A newer generation of satellites, however, flies much lower — at altitudes between 500 and 1,200 kilometers — and delivers far faster, more responsive connections.",
+      "sent_ko": "하지만 새로운 세대의 위성들은 훨씬 낮은 500~1,200킬로미터 사이의 고도에서 비행하며, 훨씬 더 빠르고 반응성이 좋은 연결을 제공한다.",
+      "chunks": [
+       {
+        "en": "A newer generation of satellites, however,",
+        "ko": "하지만 새로운 세대의 위성들은"
+       },
+       {
+        "en": "flies much lower —",
+        "ko": "훨씬 낮게 비행하며 —"
+       },
+       {
+        "en": "at altitudes between 500 and 1,200 kilometers —",
+        "ko": "500~1,200킬로미터 사이의 고도에서 —"
+       },
+       {
+        "en": "and delivers far faster, more responsive connections.",
+        "ko": "훨씬 더 빠르고 반응성이 좋은 연결을 제공한다"
+       }
+      ],
+      "rp": {
+       "situation": "저궤도 위성과 기존 위성의 비행 높이를 비교하고 있다.",
+       "prompt": "How high do these new low-Earth orbit satellites fly?",
+       "options": [
+        "They fly at altitudes between 500 and 1,200 kilometers.",
+        "They fly at altitudes between 500 and 1,200 kilometers high."
+       ],
+       "answer": 0,
+       "why": "at altitudes already expresses the height; adding high after kilometers is redundant and unnatural."
+      },
+      "topic": "위성 인터넷이 닿는 오지"
+     },
+     {
+      "id": "times:responsive",
+      "word": "responsive",
+      "ko": "반응이 빠른, 즉각적으로 반응하는",
+      "filled": "A newer generation of satellites, however, flies much lower — at altitudes between 500 and 1,200 kilometers — and delivers far faster, more responsive connections.",
+      "sent_ko": "하지만 새로운 세대의 위성들은 훨씬 낮은 500~1,200킬로미터 사이의 고도에서 비행하며, 훨씬 더 빠르고 반응성이 좋은 연결을 제공한다.",
+      "chunks": [
+       {
+        "en": "A newer generation of satellites, however,",
+        "ko": "하지만 새로운 세대의 위성들은"
+       },
+       {
+        "en": "flies much lower —",
+        "ko": "훨씬 낮게 비행하며 —"
+       },
+       {
+        "en": "at altitudes between 500 and 1,200 kilometers —",
+        "ko": "500~1,200킬로미터 사이의 고도에서 —"
+       },
+       {
+        "en": "and delivers far faster, more responsive connections.",
+        "ko": "훨씬 더 빠르고 반응성이 좋은 연결을 제공한다"
+       }
+      ],
+      "rp": {
+       "situation": "저궤도 위성이 제공하는 인터넷 연결 품질을 설명하는 중이다.",
+       "prompt": "How are the connections from these new satellites described?",
+       "options": [
+        "They deliver far faster, more responsive connections.",
+        "They deliver far faster, more responsively connections."
+       ],
+       "answer": 0,
+       "why": "responsive는 형용사로 명사 connections를 수식하고, responsively는 부사라 명사를 수식할 수 없다."
+      },
+      "topic": "위성 인터넷이 닿는 오지"
+     },
+     {
+      "id": "times:launch",
+      "word": "launch",
+      "ko": "발사하다, 출시하다",
+      "filled": "Companies like SpaceX, with its Starlink service, and Amazon, with its Project Kuiper, are launching hundreds of these low-Earth orbit satellites to form large networks in space.",
+      "sent_ko": "스타링크 서비스를 보유한 스페이스엑스와 프로젝트 카이퍼를 보유한 아마존 같은 회사들이 우주에 대규모 네트워크를 형성하기 위해 이런 저궤도 위성 수백 개를 발사하고 있다.",
+      "chunks": [
+       {
+        "en": "Companies like SpaceX, with its Starlink service, and Amazon, with its Project Kuiper,",
+        "ko": "스타링크 서비스를 보유한 스페이스엑스와 프로젝트 카이퍼를 보유한 아마존 같은 회사들이"
+       },
+       {
+        "en": "are launching hundreds of these low-Earth orbit satellites",
+        "ko": "이런 저궤도 위성 수백 개를 발사하고 있다"
+       },
+       {
+        "en": "to form large networks in space.",
+        "ko": "우주에 대규모 네트워크를 형성하기 위해"
+       }
+      ],
+      "rp": {
+       "situation": "스페이스엑스가 저궤도 위성 수백 개를 우주로 보내고 있는 상황이다.",
+       "prompt": "What is SpaceX doing with these satellites?",
+       "options": [
+        "They are launching hundreds of satellites into low-Earth orbit.",
+        "They are launching hundred of satellites into low-Earth orbit."
+       ],
+       "answer": 0,
+       "why": "hundreds of는 '수백 개의'라는 올바른 표현이고, hundred of는 관사 없이 단독으로 쓸 수 없다."
+      },
+      "topic": "위성 인터넷이 닿는 오지"
+     },
+     {
+      "id": "times:constellation",
+      "word": "constellation",
+      "ko": "위성군, 별자리",
+      "filled": "The company plans to build a constellation of hundreds of satellites that will work together to provide global internet coverage.",
+      "sent_ko": "그 회사는 전 세계 인터넷 커버리지를 제공하기 위해 함께 작동할 수백 개의 위성으로 이루어진 위성군을 구축할 계획이다.",
+      "chunks": [
+       {
+        "en": "The company plans to build",
+        "ko": "그 회사는 구축할 계획이다"
+       },
+       {
+        "en": "a constellation of hundreds of satellites",
+        "ko": "수백 개의 위성으로 이루어진 위성군을"
+       },
+       {
+        "en": "that will work together",
+        "ko": "함께 작동할"
+       },
+       {
+        "en": "to provide global internet coverage.",
+        "ko": "전 세계 인터넷 커버리지를 제공하기 위해"
+       }
+      ],
+      "rp": {
+       "situation": "아마존이 프로젝트 카이퍼를 위해 대규모 위성 네트워크를 구성하고 있다.",
+       "prompt": "What is Amazon building with its Project Kuiper satellites?",
+       "options": [
+        "They are building a constellation of satellites to cover the globe.",
+        "They are building a constellations of satellites to cover the globe."
+       ],
+       "answer": 0,
+       "why": "a constellation에서 부정관사 a 다음에는 단수형이 와야 하므로 constellations는 틀리다."
+      },
+      "topic": "위성 인터넷이 닿는 오지"
+     },
+     {
+      "id": "times:connectivity",
+      "word": "connectivity",
+      "ko": "연결성, 접속 가능성",
+      "filled": "Analysts note that reliable connectivity in remote areas can raise local economic activity and improve public services significantly.",
+      "sent_ko": "분석가들은 오지에서의 믿을 수 있는 연결성이 지역 경제 활동을 높이고 공공 서비스를 크게 개선할 수 있다고 지적한다.",
+      "chunks": [
+       {
+        "en": "Analysts note that",
+        "ko": "분석가들은 지적한다"
+       },
+       {
+        "en": "reliable connectivity in remote areas",
+        "ko": "오지에서의 믿을 수 있는 연결성이"
+       },
+       {
+        "en": "can raise local economic activity",
+        "ko": "지역 경제 활동을 높일 수 있고"
+       },
+       {
+        "en": "and improve public services significantly.",
+        "ko": "공공 서비스를 크게 개선할 수 있다고"
+       }
+      ],
+      "rp": {
+       "situation": "위성 인터넷 덕분에 아프리카 오지 지역의 경제와 공공 서비스가 나아지고 있다.",
+       "prompt": "What do analysts say about satellite internet in remote areas?",
+       "options": [
+        "Reliable connectivity in remote areas can improve public services.",
+        "Reliable connection in remote areas can improve public services."
+       ],
+       "answer": 0,
+       "why": "connectivity는 '연결성'이라는 시스템 수준의 개념을 나타내고, connection은 단일 연결을 뜻해 이 문맥에서 자연스럽지 않다."
+      },
+      "topic": "위성 인터넷이 닿는 오지"
+     },
+     {
+      "id": "times:subscription",
+      "word": "subscription",
+      "ko": "구독, 정기 이용권",
+      "filled": "Monthly subscription costs can be high for low-income communities, and the equipment needed to connect is not cheap.",
+      "sent_ko": "월 구독 비용이 저소득 공동체에는 높을 수 있으며, 연결에 필요한 장비도 저렴하지 않다.",
+      "chunks": [
+       {
+        "en": "Monthly subscription costs",
+        "ko": "월 구독 비용이"
+       },
+       {
+        "en": "can be high for low-income communities,",
+        "ko": "저소득 공동체에는 높을 수 있으며"
+       },
+       {
+        "en": "and the equipment needed to connect",
+        "ko": "연결에 필요한 장비도"
+       },
+       {
+        "en": "is not cheap.",
+        "ko": "저렴하지 않다"
+       }
+      ],
+      "rp": {
+       "situation": "오지 마을 사람들이 위성 인터넷 서비스의 비용 부담을 논의하고 있다.",
+       "prompt": "What is one financial challenge with satellite internet for poor communities?",
+       "options": [
+        "The monthly subscription costs are too high for them to afford.",
+        "The monthly subscribe costs are too high for them to afford."
+       ],
+       "answer": 0,
+       "why": "subscription은 명사로 costs를 수식할 수 있고, subscribe는 동사라 명사 앞에서 수식어로 쓸 수 없다."
+      },
+      "topic": "위성 인터넷이 닿는 오지"
+     },
+     {
+      "id": "times:congestion",
+      "word": "congestion",
+      "ko": "혼잡, 과부하",
+      "filled": "Some experts also point to concerns about space congestion, as thousands of new satellites increase the risk of collisions in orbit.",
+      "sent_ko": "일부 전문가들은 수천 개의 새로운 위성이 궤도에서의 충돌 위험을 높이면서 우주 혼잡에 대한 우려도 지적한다.",
+      "chunks": [
+       {
+        "en": "Some experts also point to concerns about",
+        "ko": "일부 전문가들은 우려도 지적한다"
+       },
+       {
+        "en": "space congestion,",
+        "ko": "우주 혼잡에 대한"
+       },
+       {
+        "en": "as thousands of new satellites",
+        "ko": "수천 개의 새로운 위성이"
+       },
+       {
+        "en": "increase the risk of collisions in orbit.",
+        "ko": "궤도에서의 충돌 위험을 높이면서"
+       }
+      ],
+      "rp": {
+       "situation": "저궤도에 위성 수천 개가 늘어나면서 전문가들이 우주 혼잡 문제를 우려하고 있다.",
+       "prompt": "What problem are experts worried about as more satellites are launched?",
+       "options": [
+        "They are concerned about space congestion as thousands of satellites crowd low orbit.",
+        "They are concerned about space congested as thousands of satellites crowd low orbit."
+       ],
+       "answer": 0,
+       "why": "congestion은 명사로 about의 목적어 자리에 맞고, congested는 형용사라 그 자리에 쓸 수 없다."
+      },
+      "topic": "위성 인터넷이 닿는 오지"
+     },
+     {
+      "id": "times:collision",
+      "word": "collision",
+      "ko": "충돌",
+      "filled": "Some experts also point to concerns about space congestion, as thousands of new satellites increase the risk of collisions in orbit.",
+      "sent_ko": "일부 전문가들은 수천 개의 새로운 위성이 궤도에서의 충돌 위험을 높이면서 우주 혼잡에 대한 우려도 지적한다.",
+      "chunks": [
+       {
+        "en": "Some experts also point to concerns about",
+        "ko": "일부 전문가들은 우려도 지적한다"
+       },
+       {
+        "en": "space congestion,",
+        "ko": "우주 혼잡에 대한"
+       },
+       {
+        "en": "as thousands of new satellites",
+        "ko": "수천 개의 새로운 위성이"
+       },
+       {
+        "en": "increase the risk of collisions in orbit.",
+        "ko": "궤도에서의 충돌 위험을 높이면서"
+       }
+      ],
+      "rp": {
+       "situation": "저궤도에서 위성들이 서로 부딪힐 수 있다는 위험성을 설명하는 상황이다.",
+       "prompt": "What do experts say more satellites in orbit could lead to?",
+       "options": [
+        "They increase the risk of collisions between satellites in orbit.",
+        "They increase the risk of colliding between satellites in orbit."
+       ],
+       "answer": 0,
+       "why": "risk of 다음에는 명사 collisions가 와야 하고, colliding은 동명사라 risk of와 함께 쓰면 어색하다."
+      },
+      "topic": "위성 인터넷이 닿는 오지"
+     },
+     {
+      "id": "times:significant",
+      "word": "significant",
+      "ko": "중요한, 상당한",
+      "filled": "The new internet service made a significant difference for families in remote areas who had struggled to get online before.",
+      "sent_ko": "새로운 인터넷 서비스는 이전에 온라인 접속에 어려움을 겪었던 오지 지역 가정들에 상당한 변화를 가져왔다.",
+      "chunks": [
+       {
+        "en": "The new internet service",
+        "ko": "새로운 인터넷 서비스는"
+       },
+       {
+        "en": "made a significant difference",
+        "ko": "상당한 변화를 가져왔다"
+       },
+       {
+        "en": "for families in remote areas",
+        "ko": "오지 지역 가정들에"
+       },
+       {
+        "en": "who had struggled to get online before.",
+        "ko": "이전에 온라인 접속에 어려움을 겪었던"
+       }
+      ],
+      "rp": {
+       "situation": "위성 인터넷이 도입된 후 오지 마을 가정들의 생활이 크게 달라졌다.",
+       "prompt": "How would you describe the impact of the new satellite internet service?",
+       "options": [
+        "It made a significant difference for families in remote areas.",
+        "It made a significance difference for families in remote areas."
+       ],
+       "answer": 0,
+       "why": "significant는 형용사로 명사 difference를 수식하고, significance는 명사라 형용사 자리에 쓸 수 없다."
+      },
+      "topic": "위성 인터넷이 닿는 오지"
+     },
+     {
+      "id": "times:disconnected",
+      "word": "disconnected",
+      "ko": "연결이 끊긴, 단절된",
+      "filled": "How governments and companies manage these issues will shape whether satellite internet truly delivers on its promise for the world's most disconnected communities.",
+      "sent_ko": "정부와 기업들이 이러한 문제들을 어떻게 관리하느냐에 따라 위성 인터넷이 세계에서 가장 단절된 공동체들에 대한 약속을 실제로 이행하는지가 결정될 것이다.",
+      "chunks": [
+       {
+        "en": "How governments and companies manage these issues",
+        "ko": "정부와 기업들이 이러한 문제들을 어떻게 관리하느냐가"
+       },
+       {
+        "en": "will shape whether satellite internet",
+        "ko": "위성 인터넷이 ~인지를 결정할 것이다"
+       },
+       {
+        "en": "truly delivers on its promise",
+        "ko": "약속을 실제로 이행하는지"
+       },
+       {
+        "en": "for the world's most disconnected communities.",
+        "ko": "세계에서 가장 단절된 공동체들에 대한"
+       }
+      ],
+      "rp": {
+       "situation": "위성 인터넷 혜택을 아직 받지 못한 오지 공동체들의 상황을 설명하고 있다.",
+       "prompt": "How are the communities that still lack internet access described in the article?",
+       "options": [
+        "They are described as the world's most disconnected communities.",
+        "They are described as the world's most disconnect communities."
+       ],
+       "answer": 0,
+       "why": "disconnected는 형용사로 명사 communities를 수식하고, disconnect는 동사라 형용사 자리에 쓸 수 없다."
+      },
+      "topic": "위성 인터넷이 닿는 오지"
      }
     ]
    }
