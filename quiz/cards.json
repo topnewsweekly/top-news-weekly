@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23 09:05:00",
+ "generated": "2026-09-23 09:10:37",
  "levels": {
   "kinder": [
    {
@@ -14965,6 +14965,373 @@
        "why": "복수 주어에는 복수형 agencies가 와야 하며 단수형 agency는 are와 함께 쓸 수 없다."
       },
       "topic": "우주 쓰레기를 치우는 계획"
+     }
+    ]
+   },
+   {
+    "id": "junior|무인 점포가 늘어난 동네",
+    "level": "junior",
+    "topic": "무인 점포가 늘어난 동네",
+    "section": "사회",
+    "week": "2026-09-21",
+    "tf": [
+     {
+      "s": "In unmanned stores, customers must ask a staff member to help them pay for their items.",
+      "a": false
+     },
+     {
+      "s": "Some unmanned stores allow customers to enter by using a special smartphone app.",
+      "a": true
+     },
+     {
+      "s": "Unmanned stores cost owners more money each month because they need extra workers.",
+      "a": false
+     },
+     {
+      "s": "Cities are watching how unmanned stores affect local jobs and communities.",
+      "a": true
+     }
+    ],
+    "cards": [
+     {
+      "id": "junior:neighborhood",
+      "word": "neighborhood",
+      "ko": "동네, 이웃 지역",
+      "filled": "In many neighborhoods around the world, stores are opening without any staff at all.",
+      "sent_ko": "전 세계 많은 동네에서, 직원이 전혀 없는 가게들이 문을 열고 있다.",
+      "chunks": [
+       {
+        "en": "In many neighborhoods around the world,",
+        "ko": "전 세계 많은 동네에서"
+       },
+       {
+        "en": "stores are opening",
+        "ko": "가게들이 문을 열고 있다"
+       },
+       {
+        "en": "without any staff at all.",
+        "ko": "직원이 전혀 없이"
+       }
+      ],
+      "rp": {
+       "situation": "무인 가게들이 전 세계 여러 동네에 생기고 있다.",
+       "prompt": "Where are unmanned stores appearing?",
+       "options": [
+        "In many neighborhoods around the world.",
+        "In many neighbored places around the world."
+       ],
+       "answer": 0,
+       "why": "'neighborhood'가 명사이므로 'neighbored'처럼 형용사형으로 쓸 수 없다."
+      },
+      "topic": "무인 점포가 늘어난 동네"
+     },
+     {
+      "id": "junior:staff",
+      "word": "staff",
+      "ko": "직원",
+      "filled": "These shops help owners save money on staff costs every month.",
+      "sent_ko": "이 가게들은 주인들이 매달 직원 비용을 절약하는 데 도움을 준다.",
+      "chunks": [
+       {
+        "en": "These shops help owners",
+        "ko": "이 가게들은 주인들이 ~하도록 돕는다"
+       },
+       {
+        "en": "save money on staff costs",
+        "ko": "직원 비용을 절약하다"
+       },
+       {
+        "en": "every month.",
+        "ko": "매달"
+       }
+      ],
+      "rp": {
+       "situation": "무인 가게 주인이 매달 드는 비용을 설명하고 있다.",
+       "prompt": "What costs have gone down since you opened the unmanned store?",
+       "options": [
+        "Our staff costs have dropped a lot.",
+        "Our staff cost have dropped a lot."
+       ],
+       "answer": 0,
+       "why": "'costs'는 복수 명사이므로 반드시 복수형을 써야 한다."
+      },
+      "topic": "무인 점포가 늘어난 동네"
+     },
+     {
+      "id": "junior:self-service",
+      "word": "self-service",
+      "ko": "셀프서비스 (고객이 직접 하는 방식)",
+      "filled": "These types of stores are called unmanned stores, or self-service shops.",
+      "sent_ko": "이런 종류의 가게들은 무인 가게, 즉 셀프서비스 매장이라고 불린다.",
+      "chunks": [
+       {
+        "en": "These types of stores",
+        "ko": "이런 종류의 가게들은"
+       },
+       {
+        "en": "are called",
+        "ko": "~라고 불린다"
+       },
+       {
+        "en": "unmanned stores,",
+        "ko": "무인 가게"
+       },
+       {
+        "en": "or self-service shops.",
+        "ko": "또는 셀프서비스 매장"
+       }
+      ],
+      "rp": {
+       "situation": "손님이 무인 가게에서 직접 물건 값을 계산하고 있다.",
+       "prompt": "Do you need help paying?",
+       "options": [
+        "No thanks, this is a self-service shop.",
+        "No thanks, this is a self-serviced shop."
+       ],
+       "answer": 0,
+       "why": "'self-service'는 복합 형용사로 고정된 형태이며 'self-serviced'는 자연스럽지 않다."
+      },
+      "topic": "무인 점포가 늘어난 동네"
+     },
+     {
+      "id": "junior:unmanned",
+      "word": "unmanned",
+      "ko": "무인의 (사람이 없는)",
+      "filled": "These types of stores are called unmanned stores, or self-service shops.",
+      "sent_ko": "이런 종류의 가게들은 무인 가게, 즉 셀프서비스 매장이라고 불린다.",
+      "chunks": [
+       {
+        "en": "These types of stores",
+        "ko": "이런 종류의 가게들은"
+       },
+       {
+        "en": "are called",
+        "ko": "~라고 불린다"
+       },
+       {
+        "en": "unmanned stores,",
+        "ko": "무인 가게"
+       },
+       {
+        "en": "or self-service shops.",
+        "ko": "또는 셀프서비스 매장"
+       }
+      ],
+      "rp": {
+       "situation": "친구가 직원 없이 운영되는 가게에 대해 묻고 있다.",
+       "prompt": "What do you call a store with no workers at all?",
+       "options": [
+        "It is called an unmanned store.",
+        "It is called an unman store."
+       ],
+       "answer": 0,
+       "why": "'무인의'를 뜻하는 올바른 형용사는 'unmanned'이며, 'unman'은 형용사로 쓸 수 없다."
+      },
+      "topic": "무인 점포가 늘어난 동네"
+     },
+     {
+      "id": "junior:scan",
+      "word": "scan",
+      "ko": "스캔하다, 읽다 (기계로)",
+      "filled": "Shoppers scan their items and pay at a self-checkout machine near the exit.",
+      "sent_ko": "쇼핑객들은 자신의 물건을 스캔하고 출구 근처의 셀프 계산대에서 결제한다.",
+      "chunks": [
+       {
+        "en": "Shoppers scan their items",
+        "ko": "쇼핑객들은 자신의 물건을 스캔한다"
+       },
+       {
+        "en": "and pay",
+        "ko": "그리고 결제한다"
+       },
+       {
+        "en": "at a self-checkout machine",
+        "ko": "셀프 계산대에서"
+       },
+       {
+        "en": "near the exit.",
+        "ko": "출구 근처의"
+       }
+      ],
+      "rp": {
+       "situation": "무인 가게에서 손님이 셀프 계산대 앞에 서 있다.",
+       "prompt": "How do you pay for your items here?",
+       "options": [
+        "You scan each item and then pay.",
+        "You scanning each item and then pay."
+       ],
+       "answer": 0,
+       "why": "주어가 'you'일 때 동사 원형 'scan'을 써야 하며 'scanning'은 문법적으로 틀리다."
+      },
+      "topic": "무인 점포가 늘어난 동네"
+     },
+     {
+      "id": "junior:smartphone",
+      "word": "smartphone",
+      "ko": "스마트폰",
+      "filled": "Some stores even unlock automatically when customers use a special smartphone app to enter.",
+      "sent_ko": "어떤 가게들은 고객이 특별한 스마트폰 앱을 사용해 입장할 때 자동으로 문이 열리기도 한다.",
+      "chunks": [
+       {
+        "en": "Some stores even unlock automatically",
+        "ko": "어떤 가게들은 자동으로 문이 열리기도 한다"
+       },
+       {
+        "en": "when customers use",
+        "ko": "고객이 사용할 때"
+       },
+       {
+        "en": "a special smartphone app",
+        "ko": "특별한 스마트폰 앱을"
+       },
+       {
+        "en": "to enter.",
+        "ko": "입장하기 위해"
+       }
+      ],
+      "rp": {
+       "situation": "손님이 스마트폰 앱으로 무인 가게 문을 열려고 한다.",
+       "prompt": "How does the store door open?",
+       "options": [
+        "It unlocks when you use a smartphone app.",
+        "It unlocks when you use a smart phone app."
+       ],
+       "answer": 0,
+       "why": "'smartphone'은 한 단어로 붙여 써야 하며, 띄어 쓰면 비표준 표기이다."
+      },
+      "topic": "무인 점포가 늘어난 동네"
+     },
+     {
+      "id": "junior:machine",
+      "word": "machine",
+      "ko": "기계",
+      "filled": "Unmanned stores use cameras and smart machines instead of human workers.",
+      "sent_ko": "무인 가게는 사람 직원 대신 카메라와 스마트 기계를 사용한다.",
+      "chunks": [
+       {
+        "en": "Unmanned stores use",
+        "ko": "무인 가게는 사용한다"
+       },
+       {
+        "en": "cameras and smart machines",
+        "ko": "카메라와 스마트 기계를"
+       },
+       {
+        "en": "instead of human workers.",
+        "ko": "사람 직원 대신"
+       }
+      ],
+      "rp": {
+       "situation": "무인 가게 안에서 손님이 셀프 계산대를 바라보고 있다.",
+       "prompt": "What do you do with this at the checkout?",
+       "options": [
+        "You use the machine to pay for your items.",
+        "You use the machinery to pay for your items."
+       ],
+       "answer": 0,
+       "why": "계산대 한 대를 가리킬 때는 'machine'을 쓰며, 'machinery'는 셀 수 없는 명사로 어색하다."
+      },
+      "topic": "무인 점포가 늘어난 동네"
+     },
+     {
+      "id": "junior:owner",
+      "word": "owner",
+      "ko": "주인, 소유자",
+      "filled": "These shops help owners save money on staff costs every month.",
+      "sent_ko": "이 가게들은 주인들이 매달 직원 비용을 절약하는 데 도움을 준다.",
+      "chunks": [
+       {
+        "en": "These shops help owners",
+        "ko": "이 가게들은 주인들이 ~하도록 돕는다"
+       },
+       {
+        "en": "save money on staff costs",
+        "ko": "직원 비용을 절약하다"
+       },
+       {
+        "en": "every month.",
+        "ko": "매달"
+       }
+      ],
+      "rp": {
+       "situation": "무인 가게를 운영하는 사람이 비용 절감에 대해 이야기하고 있다.",
+       "prompt": "Why did you switch to an unmanned store?",
+       "options": [
+        "I'm the owner and I wanted to cut staff costs.",
+        "I'm the ownee and I wanted to cut staff costs."
+       ],
+       "answer": 0,
+       "why": "가게를 소유한 사람은 'owner'이며, 'ownee'는 존재하지 않는 단어이다."
+      },
+      "topic": "무인 점포가 늘어난 동네"
+     },
+     {
+      "id": "junior:affect",
+      "word": "affect",
+      "ko": "영향을 미치다",
+      "filled": "Cities are now carefully watching how these shops affect local jobs and communities.",
+      "sent_ko": "도시들은 이제 이 가게들이 지역 일자리와 지역 사회에 어떤 영향을 미치는지 주의 깊게 지켜보고 있다.",
+      "chunks": [
+       {
+        "en": "Cities are now carefully watching",
+        "ko": "도시들은 이제 주의 깊게 지켜보고 있다"
+       },
+       {
+        "en": "how these shops affect",
+        "ko": "이 가게들이 어떻게 영향을 미치는지"
+       },
+       {
+        "en": "local jobs and communities.",
+        "ko": "지역 일자리와 지역 사회에"
+       }
+      ],
+      "rp": {
+       "situation": "시 관계자가 무인 가게가 지역 일자리에 미치는 영향을 살펴보고 있다.",
+       "prompt": "Why is the city watching these unmanned stores so closely?",
+       "options": [
+        "They want to see how the stores affect local jobs.",
+        "They want to see how the stores effect local jobs."
+       ],
+       "answer": 0,
+       "why": "'영향을 미치다'는 동사 'affect'이며, 'effect'는 명사이므로 이 자리에 쓸 수 없다."
+      },
+      "topic": "무인 점포가 늘어난 동네"
+     },
+     {
+      "id": "junior:customer",
+      "word": "customer",
+      "ko": "고객, 손님",
+      "filled": "However, some customers find the machines confusing and difficult to use.",
+      "sent_ko": "하지만 일부 고객들은 기계가 혼란스럽고 사용하기 어렵다고 느낀다.",
+      "chunks": [
+       {
+        "en": "However,",
+        "ko": "하지만"
+       },
+       {
+        "en": "some customers find",
+        "ko": "일부 고객들은 ~라고 느낀다"
+       },
+       {
+        "en": "the machines confusing",
+        "ko": "기계가 혼란스럽다고"
+       },
+       {
+        "en": "and difficult to use.",
+        "ko": "그리고 사용하기 어렵다고"
+       }
+      ],
+      "rp": {
+       "situation": "한 노인이 무인 가게의 셀프 계산대 앞에서 어려움을 겪고 있다.",
+       "prompt": "Is she having trouble at the self-checkout?",
+       "options": [
+        "Yes, she is a customer who finds the machine confusing.",
+        "Yes, she is a customer who finds the machine confused."
+       ],
+       "answer": 0,
+       "why": "기계가 '혼란을 주는' 것이므로 능동의 'confusing'을 써야 하며, 'confused'는 사람이 느끼는 감정에 쓴다."
+      },
+      "topic": "무인 점포가 늘어난 동네"
      }
     ]
    }
