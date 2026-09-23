@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23 09:10:37",
+ "generated": "2026-09-23 09:12:32",
  "levels": {
   "kinder": [
    {
@@ -27769,6 +27769,487 @@
        "why": "기사에서 패스트 패션은 생산량을 '끌어올린다(drive up)'고 했으며, 'drive down'은 반대 의미다."
       },
       "topic": "중고 의류가 도착하는 나라"
+     }
+    ]
+   },
+   {
+    "id": "times|마을 극장을 되살린 사람들",
+    "level": "times",
+    "topic": "마을 극장을 되살린 사람들",
+    "section": "문화",
+    "week": "2026-09-21",
+    "tf": [
+     {
+      "s": "Before streaming services and multiplexes became popular, local playhouses played a central role in community life.",
+      "a": true
+     },
+     {
+      "s": "According to the article, all revival efforts around the world follow exactly the same approach to saving community theaters.",
+      "a": false
+     },
+     {
+      "s": "Researchers argue that when local theaters close, communities lose more than just a place to watch performances.",
+      "a": true
+     },
+     {
+      "s": "The article states that local governments have shown no interest in supporting the community theater movement.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "times:closure",
+      "word": "closure",
+      "ko": "폐쇄, 문을 닫음",
+      "filled": "Small community theaters around the world were once facing permanent closure, but now local volunteers, artists, and residents are working together to bring them back to life.",
+      "sent_ko": "전 세계의 작은 커뮤니티 극장들은 한때 영구적인 폐쇄에 직면했지만, 이제 지역 자원봉사자들, 예술가들, 그리고 주민들이 함께 힘을 모아 그것들을 되살리고 있다.",
+      "chunks": [
+       {
+        "en": "Small community theaters around the world",
+        "ko": "전 세계의 작은 커뮤니티 극장들은"
+       },
+       {
+        "en": "were once facing permanent closure,",
+        "ko": "한때 영구적인 폐쇄에 직면했지만,"
+       },
+       {
+        "en": "but now local volunteers, artists, and residents",
+        "ko": "이제 지역 자원봉사자들, 예술가들, 그리고 주민들이"
+       },
+       {
+        "en": "are working together",
+        "ko": "함께 힘을 모아"
+       },
+       {
+        "en": "to bring them back to life.",
+        "ko": "그것들을 되살리고 있다."
+       }
+      ],
+      "rp": {
+       "situation": "지역 커뮤니티 극장이 재정 문제로 영구히 문을 닫을 위기에 처해 있다.",
+       "prompt": "What is the theater facing?",
+       "options": [
+        "It is facing permanent closure due to rising costs.",
+        "It is facing permanent closing due to rising costs."
+       ],
+       "answer": 0,
+       "why": "'closure'는 명사로 올바른 형태이며, 'closing'은 이 문맥에서 부자연스럽다."
+      },
+      "topic": "마을 극장을 되살린 사람들"
+     },
+     {
+      "id": "times:volunteer",
+      "word": "volunteer",
+      "ko": "자원봉사자, 자원하다",
+      "filled": "In some towns, volunteers repair old buildings and raise funds through small community events and local fundraisers.",
+      "sent_ko": "일부 마을에서는 자원봉사자들이 오래된 건물을 수리하고 소규모 지역 행사와 모금 활동을 통해 기금을 모은다.",
+      "chunks": [
+       {
+        "en": "In some towns,",
+        "ko": "일부 마을에서는,"
+       },
+       {
+        "en": "volunteers repair old buildings",
+        "ko": "자원봉사자들이 오래된 건물을 수리하고"
+       },
+       {
+        "en": "and raise funds",
+        "ko": "기금을 모은다"
+       },
+       {
+        "en": "through small community events and local fundraisers.",
+        "ko": "소규모 지역 행사와 모금 활동을 통해."
+       }
+      ],
+      "rp": {
+       "situation": "커뮤니티 극장을 살리기 위해 급여 없이 건물 수리를 돕는 사람들에 대해 이야기하고 있다.",
+       "prompt": "Who is fixing the old theater building?",
+       "options": [
+        "Volunteers from the community are repairing it for free.",
+        "Volunteers from the community are repairing it for a fee."
+       ],
+       "answer": 0,
+       "why": "자원봉사자는 무보수로 일하므로 'for free'가 맞고 'for a fee'는 의미상 틀리다."
+      },
+      "topic": "마을 극장을 되살린 사람들"
+     },
+     {
+      "id": "times:revival",
+      "word": "revival",
+      "ko": "부활, 재생, 부흥",
+      "filled": "The revival effort looks quite different depending on where it takes place.",
+      "sent_ko": "부흥 노력은 그것이 이루어지는 곳에 따라 꽤 다르게 나타난다.",
+      "chunks": [
+       {
+        "en": "The revival effort",
+        "ko": "부흥 노력은"
+       },
+       {
+        "en": "looks quite different",
+        "ko": "꽤 다르게 나타난다"
+       },
+       {
+        "en": "depending on where it takes place.",
+        "ko": "그것이 이루어지는 곳에 따라."
+       }
+      ],
+      "rp": {
+       "situation": "한때 문을 닫았던 커뮤니티 극장이 지역 주민들의 노력으로 다시 활동을 시작하고 있다.",
+       "prompt": "How would you describe what is happening to the theater?",
+       "options": [
+        "The theater is experiencing a revival thanks to local efforts.",
+        "The theater is experiencing a revive thanks to local efforts."
+       ],
+       "answer": 0,
+       "why": "'revival'은 명사로 올바르고, 'revive'는 동사이므로 명사 자리에 쓸 수 없다."
+      },
+      "topic": "마을 극장을 되살린 사람들"
+     },
+     {
+      "id": "times:playhouse",
+      "word": "playhouse",
+      "ko": "소극장, 아이들이 노는 작은 집",
+      "filled": "Before streaming services and multiplexes took over, local playhouses were central to everyday community life.",
+      "sent_ko": "스트리밍 서비스와 복합 상영관이 자리를 잡기 전에는, 지역 소극장들이 일상적인 지역 사회 생활의 중심이었다.",
+      "chunks": [
+       {
+        "en": "Before streaming services and multiplexes took over,",
+        "ko": "스트리밍 서비스와 복합 상영관이 자리를 잡기 전에는,"
+       },
+       {
+        "en": "local playhouses",
+        "ko": "지역 소극장들이"
+       },
+       {
+        "en": "were central to everyday community life.",
+        "ko": "일상적인 지역 사회 생활의 중심이었다."
+       }
+      ],
+      "rp": {
+       "situation": "스트리밍이 등장하기 전, 마을 사람들이 공연을 보고 서로 만나던 지역 소극장에 대해 설명하고 있다.",
+       "prompt": "What were local playhouses before streaming became popular?",
+       "options": [
+        "They were central to everyday community life.",
+        "They were centers to everyday community life."
+       ],
+       "answer": 0,
+       "why": "'central to'는 관용적으로 올바른 표현이며, 'centers to'는 문법적으로 틀린 구조다."
+      },
+      "topic": "마을 극장을 되살린 사람들"
+     },
+     {
+      "id": "times:multiplex",
+      "word": "multiplex",
+      "ko": "복합 상영관, 멀티플렉스",
+      "filled": "Before streaming services and multiplexes took over, local playhouses were central to everyday community life.",
+      "sent_ko": "스트리밍 서비스와 복합 상영관이 자리를 잡기 전에는, 지역 소극장들이 일상적인 지역 사회 생활의 중심이었다.",
+      "chunks": [
+       {
+        "en": "Before streaming services and multiplexes took over,",
+        "ko": "스트리밍 서비스와 복합 상영관이 자리를 잡기 전에는,"
+       },
+       {
+        "en": "local playhouses",
+        "ko": "지역 소극장들이"
+       },
+       {
+        "en": "were central to everyday community life.",
+        "ko": "일상적인 지역 사회 생활의 중심이었다."
+       }
+      ],
+      "rp": {
+       "situation": "대형 복합 상영관과 스트리밍이 등장하면서 지역 소극장 관객이 줄어든 상황을 설명하고 있다.",
+       "prompt": "What happened when multiplexes and streaming services appeared?",
+       "options": [
+        "Local playhouses began to lose their audiences gradually.",
+        "Local playhouses began to loose their audiences gradually."
+       ],
+       "answer": 0,
+       "why": "'lose'는 '잃다'의 올바른 동사이고, 'loose'는 형용사이므로 이 자리에 쓸 수 없다."
+      },
+      "topic": "마을 극장을 되살린 사람들"
+     },
+     {
+      "id": "times:workshop",
+      "word": "workshop",
+      "ko": "워크숍, 작업장, 강습회",
+      "filled": "In others, local artists offer free workshops specifically designed to attract new and younger audiences to the theater.",
+      "sent_ko": "다른 곳에서는 지역 예술가들이 새롭고 더 젊은 관객을 극장으로 유치하기 위해 특별히 기획된 무료 워크숍을 제공한다.",
+      "chunks": [
+       {
+        "en": "In others,",
+        "ko": "다른 곳에서는,"
+       },
+       {
+        "en": "local artists offer free workshops",
+        "ko": "지역 예술가들이 무료 워크숍을 제공한다"
+       },
+       {
+        "en": "specifically designed",
+        "ko": "특별히 기획된"
+       },
+       {
+        "en": "to attract new and younger audiences to the theater.",
+        "ko": "새롭고 더 젊은 관객을 극장으로 유치하기 위해."
+       }
+      ],
+      "rp": {
+       "situation": "지역 예술가들이 젊은 관객을 극장으로 끌어들이기 위해 무료 강습 행사를 열고 있다.",
+       "prompt": "What are the local artists offering to bring in younger audiences?",
+       "options": [
+        "They are offering free workshops designed for new audiences.",
+        "They are offering free workshop designed for new audiences."
+       ],
+       "answer": 0,
+       "why": "'free'와 복수 명사 'workshops'가 함께 쓰여야 자연스럽고, 단수 'workshop'은 문법적으로 맞지 않다."
+      },
+      "topic": "마을 극장을 되살린 사람들"
+     },
+     {
+      "id": "times:gathering",
+      "word": "gathering",
+      "ko": "모임, 집회",
+      "filled": "They lose a valuable gathering space that actively supports mental well-being and a shared sense of belonging among residents.",
+      "sent_ko": "그들은 주민들 사이의 정신적 안녕과 소속감을 적극적으로 지원하는 소중한 모임 공간을 잃는다.",
+      "chunks": [
+       {
+        "en": "They lose a valuable gathering space",
+        "ko": "그들은 소중한 모임 공간을 잃는다"
+       },
+       {
+        "en": "that actively supports mental well-being",
+        "ko": "정신적 안녕을 적극적으로 지원하는"
+       },
+       {
+        "en": "and a shared sense of belonging",
+        "ko": "그리고 공유된 소속감"
+       },
+       {
+        "en": "among residents.",
+        "ko": "주민들 사이의."
+       }
+      ],
+      "rp": {
+       "situation": "커뮤니티 극장이 문을 닫아 주민들이 함께 모이던 공간을 잃게 된 상황이다.",
+       "prompt": "What did residents lose when the theater closed?",
+       "options": [
+        "They lost a valuable gathering space for the community.",
+        "They lost a valuable gathered space for the community."
+       ],
+       "answer": 0,
+       "why": "'gathering space'는 올바른 복합명사이고, 'gathered space'는 영어에서 쓰이지 않는 표현이다."
+      },
+      "topic": "마을 극장을 되살린 사람들"
+     },
+     {
+      "id": "times:well-being",
+      "word": "well-being",
+      "ko": "안녕, 행복, 건강한 상태",
+      "filled": "They lose a valuable gathering space that actively supports mental well-being and a shared sense of belonging among residents.",
+      "sent_ko": "그들은 주민들 사이의 정신적 안녕과 소속감을 적극적으로 지원하는 소중한 모임 공간을 잃는다.",
+      "chunks": [
+       {
+        "en": "They lose a valuable gathering space",
+        "ko": "그들은 소중한 모임 공간을 잃는다"
+       },
+       {
+        "en": "that actively supports mental well-being",
+        "ko": "정신적 안녕을 적극적으로 지원하는"
+       },
+       {
+        "en": "and a shared sense of belonging",
+        "ko": "그리고 공유된 소속감"
+       },
+       {
+        "en": "among residents.",
+        "ko": "주민들 사이의."
+       }
+      ],
+      "rp": {
+       "situation": "연구자들이 커뮤니티 극장이 주민들의 정신 건강에 미치는 긍정적 효과를 설명하고 있다.",
+       "prompt": "What do researchers say community theaters support?",
+       "options": [
+        "They say theaters support residents' mental well-being.",
+        "They say theaters support residents' mental wellness-being."
+       ],
+       "answer": 0,
+       "why": "'mental well-being'이 올바른 표현이고, 'wellness-being'은 존재하지 않는 단어다."
+      },
+      "topic": "마을 극장을 되살린 사람들"
+     },
+     {
+      "id": "times:modest",
+      "word": "modest",
+      "ko": "소박한, 겸손한, 크지 않은",
+      "filled": "Modest grants and community development funds have already helped several theaters stay open or successfully reopen their doors.",
+      "sent_ko": "소규모 보조금과 지역 개발 기금이 이미 여러 극장이 문을 계속 열거나 성공적으로 다시 문을 여는 데 도움을 주었다.",
+      "chunks": [
+       {
+        "en": "Modest grants and community development funds",
+        "ko": "소규모 보조금과 지역 개발 기금이"
+       },
+       {
+        "en": "have already helped several theaters",
+        "ko": "이미 여러 극장이 ~하도록 도움을 주었다"
+       },
+       {
+        "en": "stay open or successfully reopen their doors.",
+        "ko": "문을 계속 열거나 성공적으로 다시 문을 열도록."
+       }
+      ],
+      "rp": {
+       "situation": "지역 정부가 커뮤니티 극장을 돕기 위해 크지 않은 규모의 보조금을 지원하기 시작했다.",
+       "prompt": "How would you describe the grants the local government provided?",
+       "options": [
+        "The government offered modest grants to help the theaters.",
+        "The government offered modestly grants to help the theaters."
+       ],
+       "answer": 0,
+       "why": "'modest'는 명사 'grants'를 수식하는 형용사로 쓰여야 하며, 부사 'modestly'는 이 자리에 올 수 없다."
+      },
+      "topic": "마을 극장을 되살린 사람들"
+     },
+     {
+      "id": "times:grant",
+      "word": "grant",
+      "ko": "보조금, 지원금; 승인하다",
+      "filled": "Modest grants and community development funds have already helped several theaters stay open or successfully reopen their doors.",
+      "sent_ko": "소규모 보조금과 지역 개발 기금이 이미 여러 극장이 문을 계속 열거나 성공적으로 다시 문을 여는 데 도움을 주었다.",
+      "chunks": [
+       {
+        "en": "Modest grants and community development funds",
+        "ko": "소규모 보조금과 지역 개발 기금이"
+       },
+       {
+        "en": "have already helped several theaters",
+        "ko": "이미 여러 극장이 ~하도록 도움을 주었다"
+       },
+       {
+        "en": "stay open or successfully reopen their doors.",
+        "ko": "문을 계속 열거나 성공적으로 다시 문을 열도록."
+       }
+      ],
+      "rp": {
+       "situation": "지역 정부가 커뮤니티 극장에 공식적인 재정 지원금을 제공해 극장이 다시 문을 열 수 있게 된 상황이다.",
+       "prompt": "What did the local government give the theater to help it reopen?",
+       "options": [
+        "The government provided a grant to cover the reopening costs.",
+        "The government provided a donation to cover the reopening costs."
+       ],
+       "answer": 0,
+       "why": "정부의 공식 재정 지원은 'grant(보조금)'이며, 'donation'은 개인이 자발적으로 주는 기부금이다."
+      },
+      "topic": "마을 극장을 되살린 사람들"
+     },
+     {
+      "id": "times:fragility",
+      "word": "fragility",
+      "ko": "취약성, 연약함, 부서지기 쉬움",
+      "filled": "The fragility of the old paper documents meant that they had to be handled very carefully by museum staff.",
+      "sent_ko": "오래된 커뮤니티 극장 건물들의 취약성은 자원봉사자들이 수리 작업 중에 매우 조심스럽게 다루어야 한다는 것을 의미했다.",
+      "chunks": null,
+      "rp": {
+       "situation": "자원봉사자들이 낡고 손상되기 쉬운 커뮤니티 극장 건물을 수리하면서 조심스럽게 작업하고 있다.",
+       "prompt": "Why are the volunteers working so carefully on the old theater?",
+       "options": [
+        "Because of the fragility of the aging structure.",
+        "Because of the fragileness of the aging structure."
+       ],
+       "answer": 0,
+       "why": "'fragility'가 취약성을 나타내는 표준 명사이며, 'fragileness'는 비표준적이고 어색한 표현이다."
+      },
+      "topic": "마을 극장을 되살린 사람들"
+     },
+     {
+      "id": "times:investment",
+      "word": "investment",
+      "ko": "투자, 투자금",
+      "filled": "Arts supporters say this kind of public investment pays off — not just culturally, but socially, since shared creative spaces can significantly strengthen community bonds over time.",
+      "sent_ko": "예술 지지자들은 이런 종류의 공공 투자가 성과를 낸다고 말한다 — 문화적으로뿐만 아니라 사회적으로도, 공유된 창의적 공간이 시간이 지남에 따라 지역 사회의 유대를 크게 강화할 수 있기 때문이다.",
+      "chunks": [
+       {
+        "en": "Arts supporters say this kind of public investment pays off —",
+        "ko": "예술 지지자들은 이런 종류의 공공 투자가 성과를 낸다고 말한다 —"
+       },
+       {
+        "en": "not just culturally, but socially,",
+        "ko": "문화적으로뿐만 아니라 사회적으로도,"
+       },
+       {
+        "en": "since shared creative spaces",
+        "ko": "공유된 창의적 공간이"
+       },
+       {
+        "en": "can significantly strengthen community bonds over time.",
+        "ko": "시간이 지남에 따라 지역 사회의 유대를 크게 강화할 수 있기 때문이다."
+       }
+      ],
+      "rp": {
+       "situation": "지역 정부가 커뮤니티 극장에 공공 자금을 투입하는 것이 사회적으로 가치가 있는지 논의하고 있다.",
+       "prompt": "What do arts supporters say about public funding for theaters?",
+       "options": [
+        "They say public investment in theaters pays off socially.",
+        "They say public investing in theaters pays off socially."
+       ],
+       "answer": 0,
+       "why": "'investment'는 명사로 올바르게 쓰였고, 'investing'은 동명사로 이 문장 구조에서 어색하다."
+      },
+      "topic": "마을 극장을 되살린 사람들"
+     },
+     {
+      "id": "times:bond",
+      "word": "bond",
+      "ko": "유대, 결속, 연결",
+      "filled": "Arts supporters say this kind of public investment pays off — not just culturally, but socially, since shared creative spaces can significantly strengthen community bonds over time.",
+      "sent_ko": "예술 지지자들은 이런 종류의 공공 투자가 성과를 낸다고 말한다 — 문화적으로뿐만 아니라 사회적으로도, 공유된 창의적 공간이 시간이 지남에 따라 지역 사회의 유대를 크게 강화할 수 있기 때문이다.",
+      "chunks": [
+       {
+        "en": "Arts supporters say this kind of public investment pays off —",
+        "ko": "예술 지지자들은 이런 종류의 공공 투자가 성과를 낸다고 말한다 —"
+       },
+       {
+        "en": "not just culturally, but socially,",
+        "ko": "문화적으로뿐만 아니라 사회적으로도,"
+       },
+       {
+        "en": "since shared creative spaces",
+        "ko": "공유된 창의적 공간이"
+       },
+       {
+        "en": "can significantly strengthen community bonds over time.",
+        "ko": "시간이 지남에 따라 지역 사회의 유대를 크게 강화할 수 있기 때문이다."
+       }
+      ],
+      "rp": {
+       "situation": "예술 지지자들이 커뮤니티 극장 같은 공유 공간이 주민들 사이의 유대를 강하게 만든다고 주장하고 있다.",
+       "prompt": "What can shared creative spaces like community theaters do over time?",
+       "options": [
+        "They can strengthen the bonds between community members.",
+        "They can strengthen the bonding between community members."
+       ],
+       "answer": 0,
+       "why": "'bonds'는 유대를 뜻하는 복수 명사로 올바르고, 'bonding'은 동명사로 이 문맥에서 어색하다."
+      },
+      "topic": "마을 극장을 되살린 사람들"
+     },
+     {
+      "id": "times:venue",
+      "word": "venue",
+      "ko": "장소, 개최지",
+      "filled": "The concert venue was so large that it could hold more than five thousand people at once.",
+      "sent_ko": "커뮤니티 극장은 주민들이 공연을 보고 서로 만날 수 있는 가장 중요한 지역 장소 중 하나였다.",
+      "chunks": null,
+      "rp": {
+       "situation": "커뮤니티 극장이 주민들이 공연을 관람하고 함께 모이는 장소로서의 역할을 설명하고 있다.",
+       "prompt": "How would you describe the community theater's role in town?",
+       "options": [
+        "It served as the main venue for local performances and gatherings.",
+        "It served as the main venue for local performing and gatherings."
+       ],
+       "answer": 0,
+       "why": "'performances'는 명사로 올바르고, 'performing'은 동명사로 'main venue for'와 어울리지 않는다."
+      },
+      "topic": "마을 극장을 되살린 사람들"
      }
     ]
    }
