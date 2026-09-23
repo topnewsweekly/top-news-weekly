@@ -1,0 +1,209 @@
+{
+  "week_monday": "2026-09-21",
+  "week_range": [
+    "2026-09-21",
+    "2026-09-27"
+  ],
+  "generated_at": "2026-09-23T00:05:44",
+  "excluded_levels": [
+    "junior_m"
+  ],
+  "cover_layouts": {
+    "kinder": "feature",
+    "kids": "feature",
+    "junior": "feature",
+    "times": "feature"
+  },
+  "photo_scores": {
+    "assets/kids/839c467b2bc8.jpg": 0.8846,
+    "assets/junior/06fb03dbd147.jpg": 0.8797,
+    "assets/kinder/443740630d6b.jpg": 0.8754,
+    "assets/junior/5bb2b5184b02.jpg": 0.8588,
+    "assets/times/e27e8a698d80.jpg": 0.7764,
+    "assets/times/b545968d3409.jpg": 0.7723,
+    "assets/kids/efaff7a2364d.jpg": 0.76,
+    "assets/times/18463f7a8d59.jpg": 0.7506,
+    "assets/times/12fb955f6da2.jpg": 0.72,
+    "assets/times/37f6542b0c3c.jpg": 0.7168,
+    "assets/kinder/e5ee693477f1.jpg": 0.7141,
+    "assets/kids/2e8dadac2d8b.jpg": 0.7113,
+    "assets/junior/44c4acf74123.jpg": 0.7034,
+    "assets/kids/0ce819df15c0.jpg": 0.6754,
+    "assets/kids/7779cb92b98e.jpg": 0.6658,
+    "assets/kinder/14d378f1fb80.jpg": 0.6609,
+    "assets/junior/29cf6e0f8072.jpg": 0.6605,
+    "assets/kinder/bf28d8fa3a07.jpg": 0.6283,
+    "assets/junior/3b22e6e6f3ae.jpg": 0.6188,
+    "assets/junior/3c42b304eb59.jpg": 0.5979,
+    "assets/times/1f6b467a0136.jpg": 0.5936,
+    "assets/times/ff68dfd3eae7.jpg": 0.5652,
+    "assets/times/5bf8088571ff.jpg": 0.5008,
+    "assets/times/7aafac90808a.jpg": 0.4935,
+    "assets/kids/0ef924ff14d2.jpg": 0.438,
+    "assets/junior/4a472f470155.jpg": 0.4099
+  },
+  "format": {
+    "name": "tabloid",
+    "width_mm": 279,
+    "height_mm": 432,
+    "margin_mm": 13
+  },
+  "validation": [
+    {
+      "level": "kinder",
+      "title": "TOP NEWS KINDER",
+      "quota": 4,
+      "found": 4,
+      "status": "ok",
+      "message": "규정 충족 (4/4)",
+      "selected": [
+        "Bats Can Fly in the Dark!",
+        "When Do You See a Rainbow?",
+        "Why Do Leaves Change Color?",
+        "How Do Ants Find Their Way Home?"
+      ],
+      "dropped": []
+    },
+    {
+      "level": "kids",
+      "title": "TOP NEWS KIDS",
+      "quota": 6,
+      "found": 6,
+      "status": "ok",
+      "message": "규정 충족 (6/6)",
+      "selected": [
+        "Why Washing Your Hands Keeps You Safe",
+        "How Do Drones Stay Up in the Sky?",
+        "Morning Meals Look Different Around the World",
+        "Your Old Bottle Can Become a Jacket!",
+        "Where Do Shooting Stars Come From?",
+        "Why Do We Need to Sleep?"
+      ],
+      "dropped": []
+    },
+    {
+      "level": "junior",
+      "title": "TOP NEWS JUNIOR",
+      "quota": 8,
+      "found": 7,
+      "status": "short",
+      "message": "부족 1건 — 7/8건으로 조판",
+      "selected": [
+        "What Coding Classes Can Do for You",
+        "Scientists Plan to Clean Up Space Junk",
+        "Korean Webtoons Find Fans Around the World",
+        "New Tools Help Schools Catch AI Homework",
+        "Why Are Delivery Fees Going Up?",
+        "Should Schools Start Later for Teens?",
+        "Street Trees Do More Than Look Pretty"
+      ],
+      "dropped": []
+    },
+    {
+      "level": "times",
+      "title": "TOP NEWS TIMES",
+      "quota": 10,
+      "found": 9,
+      "status": "short",
+      "message": "부족 1건 — 9/10건으로 조판",
+      "selected": [
+        "Where the World's Used Clothes End Up",
+        "When Pro Sports Teams Leave Their Cities",
+        "Panama Canal Faces a Growing Water Crisis",
+        "Satellite Internet Reaches the World's Most Remote Places",
+        "The World Is Running Out of Sand",
+        "When the Nearest Delivery Room Is Miles Away",
+        "Empty Storefronts Reshape City Centers Worldwide",
+        "Data Centers Are Draining Our Water Supplies",
+        "Three Years of Rising Coffee Prices"
+      ],
+      "dropped": []
+    }
+  ],
+  "output": [
+    {
+      "level": "kinder",
+      "title": "TOP NEWS KINDER",
+      "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-09-21/TopNews_Kinder_2026-09-21.pdf",
+      "pages": 6,
+      "expected_pages": 6,
+      "cover": "feature",
+      "cover_feature": {
+        "page": 4,
+        "article_no": 3,
+        "title": "Why Do Leaves Change Color?",
+        "photo": "assets/kinder/443740630d6b.jpg",
+        "score": 0.8754,
+        "forced": false
+      },
+      "photos_missing": 0,
+      "error": null,
+      "quota": 4,
+      "found": 4,
+      "quota_status": "ok"
+    },
+    {
+      "level": "kids",
+      "title": "TOP NEWS KIDS",
+      "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-09-21/TopNews_Kids_2026-09-21.pdf",
+      "pages": 8,
+      "expected_pages": 8,
+      "cover": "feature",
+      "cover_feature": {
+        "page": 4,
+        "article_no": 3,
+        "title": "Morning Meals Look Different Around the World",
+        "photo": "assets/kids/839c467b2bc8.jpg",
+        "score": 0.8846,
+        "forced": false
+      },
+      "photos_missing": 0,
+      "error": null,
+      "quota": 6,
+      "found": 6,
+      "quota_status": "ok"
+    },
+    {
+      "level": "junior",
+      "title": "TOP NEWS JUNIOR",
+      "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-09-21/TopNews_Junior_2026-09-21.pdf",
+      "pages": 9,
+      "expected_pages": 9,
+      "cover": "feature",
+      "cover_feature": {
+        "page": 5,
+        "article_no": 4,
+        "title": "New Tools Help Schools Catch AI Homework",
+        "photo": "assets/junior/06fb03dbd147.jpg",
+        "score": 0.8797,
+        "forced": false
+      },
+      "photos_missing": 0,
+      "error": null,
+      "quota": 8,
+      "found": 7,
+      "quota_status": "short"
+    },
+    {
+      "level": "times",
+      "title": "TOP NEWS TIMES",
+      "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-09-21/TopNews_Times_2026-09-21.pdf",
+      "pages": 11,
+      "expected_pages": 11,
+      "cover": "feature",
+      "cover_feature": {
+        "page": 6,
+        "article_no": 5,
+        "title": "The World Is Running Out of Sand",
+        "photo": "assets/times/e27e8a698d80.jpg",
+        "score": 0.7764,
+        "forced": false
+      },
+      "photos_missing": 0,
+      "error": null,
+      "quota": 10,
+      "found": 9,
+      "quota_status": "short"
+    }
+  ]
+}
