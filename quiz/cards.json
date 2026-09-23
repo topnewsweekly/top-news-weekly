@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23 09:00:19",
+ "generated": "2026-09-23 09:03:49",
  "levels": {
   "kinder": [
    {
@@ -26320,6 +26320,529 @@
        "why": "disconnected는 형용사로 명사 communities를 수식하고, disconnect는 동사라 형용사 자리에 쓸 수 없다."
       },
       "topic": "위성 인터넷이 닿는 오지"
+     }
+    ]
+   },
+   {
+    "id": "times|프로 구단의 연고지 이전",
+    "level": "times",
+    "topic": "프로 구단의 연고지 이전",
+    "section": "스포츠",
+    "week": "2026-09-21",
+    "tf": [
+     {
+      "s": "The Oakland Athletics played in Oakland, California for more than 50 years before moving.",
+      "a": true
+     },
+     {
+      "s": "Franchise relocations are very rare events in American professional sports history.",
+      "a": false
+     },
+     {
+      "s": "Local businesses near Oakland's old stadium were negatively affected after the team left.",
+      "a": true
+     },
+     {
+      "s": "Team owners move their franchises mainly because they want to be closer to their original fan base.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "times:professional",
+      "word": "professional",
+      "ko": "전문적인; 직업적인",
+      "filled": "When a professional sports team moves to a new city, it can break the hearts of fans left behind.",
+      "sent_ko": "프로 스포츠 팀이 새로운 도시로 이전할 때, 그것은 뒤에 남겨진 팬들의 마음을 아프게 할 수 있다.",
+      "chunks": [
+       {
+        "en": "When a professional sports team",
+        "ko": "프로 스포츠 팀이"
+       },
+       {
+        "en": "moves to a new city,",
+        "ko": "새로운 도시로 이전할 때,"
+       },
+       {
+        "en": "it can break the hearts",
+        "ko": "마음을 아프게 할 수 있다"
+       },
+       {
+        "en": "of fans left behind.",
+        "ko": "뒤에 남겨진 팬들의"
+       }
+      ],
+      "rp": {
+       "situation": "오클랜드 A's가 라스베이거스로 떠난 후, 한 팬이 그 팀에 대해 이야기한다.",
+       "prompt": "Were the Oakland Athletics a professional team?",
+       "options": [
+        "Yes, they were a professional baseball team.",
+        "Yes, they were a profession baseball team."
+       ],
+       "answer": 0,
+       "why": "명사 profession이 아니라 형용사 professional이 명사를 수식해야 한다."
+      },
+      "topic": "프로 구단의 연고지 이전"
+     },
+     {
+      "id": "times:franchise",
+      "word": "franchise",
+      "ko": "프랜차이즈; (스포츠) 구단",
+      "filled": "This is called a franchise relocation, and it happens more often than many people realize.",
+      "sent_ko": "이것은 프랜차이즈 이전이라고 불리며, 많은 사람들이 인식하는 것보다 더 자주 발생한다.",
+      "chunks": [
+       {
+        "en": "This is called",
+        "ko": "이것은 ~라고 불린다"
+       },
+       {
+        "en": "a franchise relocation,",
+        "ko": "프랜차이즈 이전"
+       },
+       {
+        "en": "and it happens more often",
+        "ko": "그리고 더 자주 발생한다"
+       },
+       {
+        "en": "than many people realize.",
+        "ko": "많은 사람들이 인식하는 것보다"
+       }
+      ],
+      "rp": {
+       "situation": "오클랜드 A's의 라스베이거스 이전 소식을 들은 두 사람이 대화한다.",
+       "prompt": "What do you call it when a sports team moves to a new city?",
+       "options": [
+        "It's called a franchise relocation.",
+        "It's called a franchising relocation."
+       ],
+       "answer": 0,
+       "why": "franchise는 명사로 명사를 수식하고, franchising은 이 맥락에서 어색한 형태이다."
+      },
+      "topic": "프로 구단의 연고지 이전"
+     },
+     {
+      "id": "times:relocation",
+      "word": "relocation",
+      "ko": "이전; 이동",
+      "filled": "This is called a franchise relocation, and it happens more often than many people realize.",
+      "sent_ko": "이것은 프랜차이즈 이전이라고 불리며, 많은 사람들이 인식하는 것보다 더 자주 발생한다.",
+      "chunks": [
+       {
+        "en": "This is called",
+        "ko": "이것은 ~라고 불린다"
+       },
+       {
+        "en": "a franchise relocation,",
+        "ko": "프랜차이즈 이전"
+       },
+       {
+        "en": "and it happens more often",
+        "ko": "그리고 더 자주 발생한다"
+       },
+       {
+        "en": "than many people realize.",
+        "ko": "많은 사람들이 인식하는 것보다"
+       }
+      ],
+      "rp": {
+       "situation": "오클랜드 A's가 라스베이거스로 옮긴 것을 설명하는 상황이다.",
+       "prompt": "How would you describe what the Oakland A's did in 2025?",
+       "options": [
+        "It was a franchise relocation to Las Vegas.",
+        "It was a franchise relocate to Las Vegas."
+       ],
+       "answer": 0,
+       "why": "relocation은 명사이고, relocate는 동사이므로 명사 자리에 올 수 없다."
+      },
+      "topic": "프로 구단의 연고지 이전"
+     },
+     {
+      "id": "times:decade",
+      "word": "decade",
+      "ko": "10년",
+      "filled": "In the United States, teams in major leagues like the NFL, NBA, and MLB have moved dozens of times over the past several decades.",
+      "sent_ko": "미국에서, NFL, NBA, MLB 같은 주요 리그의 팀들은 지난 수십 년에 걸쳐 수십 번 이전했다.",
+      "chunks": [
+       {
+        "en": "In the United States,",
+        "ko": "미국에서,"
+       },
+       {
+        "en": "teams in major leagues like the NFL, NBA, and MLB",
+        "ko": "NFL, NBA, MLB 같은 주요 리그의 팀들은"
+       },
+       {
+        "en": "have moved dozens of times",
+        "ko": "수십 번 이전했다"
+       },
+       {
+        "en": "over the past several decades.",
+        "ko": "지난 수십 년에 걸쳐"
+       }
+      ],
+      "rp": {
+       "situation": "미국 프로 스포츠 팀 이전의 역사에 대해 이야기하는 상황이다.",
+       "prompt": "How long has franchise relocation been happening in the US?",
+       "options": [
+        "It has been happening for several decades.",
+        "It has been happening for several decade."
+       ],
+       "answer": 0,
+       "why": "several 뒤에는 복수형 decades가 와야 한다."
+      },
+      "topic": "프로 구단의 연고지 이전"
+     },
+     {
+      "id": "times:relocate",
+      "word": "relocate",
+      "ko": "이전하다; 이사하다",
+      "filled": "After more than 50 years in Oakland, California, the team relocated to Las Vegas in 2025.",
+      "sent_ko": "캘리포니아 오클랜드에서 50년 이상을 보낸 후, 그 팀은 2025년에 라스베이거스로 이전했다.",
+      "chunks": [
+       {
+        "en": "After more than 50 years",
+        "ko": "50년 이상을 보낸 후"
+       },
+       {
+        "en": "in Oakland, California,",
+        "ko": "캘리포니아 오클랜드에서"
+       },
+       {
+        "en": "the team relocated",
+        "ko": "그 팀은 이전했다"
+       },
+       {
+        "en": "to Las Vegas",
+        "ko": "라스베이거스로"
+       },
+       {
+        "en": "in 2025.",
+        "ko": "2025년에"
+       }
+      ],
+      "rp": {
+       "situation": "오클랜드 A's가 오클랜드를 떠난 것에 대해 이야기하는 상황이다.",
+       "prompt": "What happened to the Oakland A's in 2025?",
+       "options": [
+        "They relocated to Las Vegas.",
+        "They were relocated Las Vegas."
+       ],
+       "answer": 0,
+       "why": "relocate는 자동사로 쓰이므로 수동태가 틀리고, to 없이 목적지를 쓸 수 없다."
+      },
+      "topic": "프로 구단의 연고지 이전"
+     },
+     {
+      "id": "times:abandoned",
+      "word": "abandoned",
+      "ko": "버려진; 방치된",
+      "filled": "Many longtime fans felt angry and abandoned.",
+      "sent_ko": "많은 오랜 팬들은 화가 나고 버려진 느낌을 받았다.",
+      "chunks": [
+       {
+        "en": "Many longtime fans",
+        "ko": "많은 오랜 팬들은"
+       },
+       {
+        "en": "felt angry",
+        "ko": "화가 난 느낌을 받았다"
+       },
+       {
+        "en": "and abandoned.",
+        "ko": "그리고 버려진"
+       }
+      ],
+      "rp": {
+       "situation": "오클랜드 A's가 라스베이거스로 떠난 후 오클랜드 팬들의 감정을 묘사하는 상황이다.",
+       "prompt": "How did the Oakland fans feel after the team left?",
+       "options": [
+        "They felt angry and abandoned.",
+        "They felt angry and abandoning."
+       ],
+       "answer": 0,
+       "why": "팬들은 버려진 대상이므로 과거분사 abandoned가 맞고, abandoning은 능동 의미라 틀리다."
+      },
+      "topic": "프로 구단의 연고지 이전"
+     },
+     {
+      "id": "times:stadium",
+      "word": "stadium",
+      "ko": "경기장",
+      "filled": "Owners look for cities that offer newer stadiums, larger fan bases, or better financial deals.",
+      "sent_ko": "구단주들은 더 새로운 경기장, 더 큰 팬층, 또는 더 좋은 재정적 거래를 제공하는 도시를 찾는다.",
+      "chunks": [
+       {
+        "en": "Owners look for cities",
+        "ko": "구단주들은 도시를 찾는다"
+       },
+       {
+        "en": "that offer newer stadiums,",
+        "ko": "더 새로운 경기장을 제공하는"
+       },
+       {
+        "en": "larger fan bases,",
+        "ko": "더 큰 팬층,"
+       },
+       {
+        "en": "or better financial deals.",
+        "ko": "또는 더 좋은 재정적 거래를"
+       }
+      ],
+      "rp": {
+       "situation": "라스베이거스가 오클랜드 A's를 유치한 이유를 설명하는 상황이다.",
+       "prompt": "Why did the A's choose Las Vegas over Oakland?",
+       "options": [
+        "Las Vegas offered a newer stadium.",
+        "Las Vegas offered a newer stadiums."
+       ],
+       "answer": 0,
+       "why": "부정관사 a 뒤에는 단수형 stadium이 와야 하고, stadiums는 복수라 함께 쓸 수 없다."
+      },
+      "topic": "프로 구단의 연고지 이전"
+     },
+     {
+      "id": "times:longtime",
+      "word": "longtime",
+      "ko": "오랜; 오랫동안의",
+      "filled": "Many longtime fans felt angry and abandoned.",
+      "sent_ko": "많은 오랜 팬들은 화가 나고 버려진 느낌을 받았다.",
+      "chunks": [
+       {
+        "en": "Many longtime fans",
+        "ko": "많은 오랜 팬들은"
+       },
+       {
+        "en": "felt angry",
+        "ko": "화가 난 느낌을 받았다"
+       },
+       {
+        "en": "and abandoned.",
+        "ko": "그리고 버려진"
+       }
+      ],
+      "rp": {
+       "situation": "오클랜드 A's를 수십 년간 응원해 온 팬에 대해 이야기하는 상황이다.",
+       "prompt": "How would you describe a fan who supported the A's for over 30 years?",
+       "options": [
+        "She is a longtime fan of the A's.",
+        "She is a long-timed fan of the A's."
+       ],
+       "answer": 0,
+       "why": "longtime은 정해진 복합형용사이고, long-timed는 존재하지 않는 비문법적인 표현이다."
+      },
+      "topic": "프로 구단의 연고지 이전"
+     },
+     {
+      "id": "times:financial",
+      "word": "financial",
+      "ko": "재정적인; 금융의",
+      "filled": "Owners look for cities that offer newer stadiums, larger fan bases, or better financial deals.",
+      "sent_ko": "구단주들은 더 새로운 경기장, 더 큰 팬층, 또는 더 좋은 재정적 거래를 제공하는 도시를 찾는다.",
+      "chunks": [
+       {
+        "en": "Owners look for cities",
+        "ko": "구단주들은 도시를 찾는다"
+       },
+       {
+        "en": "that offer newer stadiums,",
+        "ko": "더 새로운 경기장을 제공하는"
+       },
+       {
+        "en": "larger fan bases,",
+        "ko": "더 큰 팬층,"
+       },
+       {
+        "en": "or better financial deals.",
+        "ko": "또는 더 좋은 재정적 거래를"
+       }
+      ],
+      "rp": {
+       "situation": "라스베이거스가 오클랜드 A's에게 제시한 조건을 설명하는 상황이다.",
+       "prompt": "What kind of deals did Las Vegas offer the A's?",
+       "options": [
+        "They offered better financial deals.",
+        "They offered better finance deals."
+       ],
+       "answer": 0,
+       "why": "명사를 수식하는 자리에는 형용사 financial이 와야 하고, 명사 finance는 수식어 자리에 어울리지 않는다."
+      },
+      "topic": "프로 구단의 연고지 이전"
+     },
+     {
+      "id": "times:tax",
+      "word": "tax",
+      "ko": "세금",
+      "filled": "However, the original city often loses tax income and jobs as a result.",
+      "sent_ko": "그러나 원래 도시는 그 결과로 세금 수입과 일자리를 잃는 경우가 많다.",
+      "chunks": [
+       {
+        "en": "However,",
+        "ko": "그러나,"
+       },
+       {
+        "en": "the original city",
+        "ko": "원래 도시는"
+       },
+       {
+        "en": "often loses tax income and jobs",
+        "ko": "세금 수입과 일자리를 잃는 경우가 많다"
+       },
+       {
+        "en": "as a result.",
+        "ko": "그 결과로"
+       }
+      ],
+      "rp": {
+       "situation": "오클랜드 A's가 떠난 후 오클랜드시의 재정 상황을 설명하는 상황이다.",
+       "prompt": "What did Oakland lose after the A's left?",
+       "options": [
+        "Oakland lost tax income from game-day activities.",
+        "Oakland lost taxing income from game-day activities."
+       ],
+       "answer": 0,
+       "why": "tax는 명사로 income을 수식하고, taxing은 형용사로 '힘든'의 뜻이 되어 의미가 틀리다."
+      },
+      "topic": "프로 구단의 연고지 이전"
+     },
+     {
+      "id": "times:income",
+      "word": "income",
+      "ko": "수입; 소득",
+      "filled": "However, the original city often loses tax income and jobs as a result.",
+      "sent_ko": "그러나 원래 도시는 그 결과로 세금 수입과 일자리를 잃는 경우가 많다.",
+      "chunks": [
+       {
+        "en": "However,",
+        "ko": "그러나,"
+       },
+       {
+        "en": "the original city",
+        "ko": "원래 도시는"
+       },
+       {
+        "en": "often loses tax income and jobs",
+        "ko": "세금 수입과 일자리를 잃는 경우가 많다"
+       },
+       {
+        "en": "as a result.",
+        "ko": "그 결과로"
+       }
+      ],
+      "rp": {
+       "situation": "오클랜드 A's가 떠난 후 오클랜드시에 미친 경제적 영향을 이야기하는 상황이다.",
+       "prompt": "What happened to Oakland's finances after the team left?",
+       "options": [
+        "The city lost a lot of tax income.",
+        "The city lost a lot of tax incoming."
+       ],
+       "answer": 0,
+       "why": "income은 명사이고, incoming은 형용사라 tax의 수식을 받는 명사 자리에 올 수 없다."
+      },
+      "topic": "프로 구단의 연고지 이전"
+     },
+     {
+      "id": "times:fan base",
+      "word": "fan base",
+      "ko": "팬층; 팬들",
+      "filled": "Owners look for cities that offer newer stadiums, larger fan bases, or better financial deals.",
+      "sent_ko": "구단주들은 더 새로운 경기장, 더 큰 팬층, 또는 더 좋은 재정적 거래를 제공하는 도시를 찾는다.",
+      "chunks": [
+       {
+        "en": "Owners look for cities",
+        "ko": "구단주들은 도시를 찾는다"
+       },
+       {
+        "en": "that offer newer stadiums,",
+        "ko": "더 새로운 경기장을 제공하는"
+       },
+       {
+        "en": "larger fan bases,",
+        "ko": "더 큰 팬층,"
+       },
+       {
+        "en": "or better financial deals.",
+        "ko": "또는 더 좋은 재정적 거래를"
+       }
+      ],
+      "rp": {
+       "situation": "라스베이거스가 오클랜드보다 더 매력적이었던 이유를 설명하는 상황이다.",
+       "prompt": "Why was Las Vegas attractive to the A's ownership?",
+       "options": [
+        "Las Vegas had a larger fan base to offer.",
+        "Las Vegas had a larger fans base to offer."
+       ],
+       "answer": 0,
+       "why": "fan base는 fan이 명사를 수식하는 복합명사이므로 fan은 단수형으로 써야 한다."
+      },
+      "topic": "프로 구단의 연고지 이전"
+     },
+     {
+      "id": "times:owner",
+      "word": "owner",
+      "ko": "소유자; 구단주",
+      "filled": "Owners look for cities that offer newer stadiums, larger fan bases, or better financial deals.",
+      "sent_ko": "구단주들은 더 새로운 경기장, 더 큰 팬층, 또는 더 좋은 재정적 거래를 제공하는 도시를 찾는다.",
+      "chunks": [
+       {
+        "en": "Owners look for cities",
+        "ko": "구단주들은 도시를 찾는다"
+       },
+       {
+        "en": "that offer newer stadiums,",
+        "ko": "더 새로운 경기장을 제공하는"
+       },
+       {
+        "en": "larger fan bases,",
+        "ko": "더 큰 팬층,"
+       },
+       {
+        "en": "or better financial deals.",
+        "ko": "또는 더 좋은 재정적 거래를"
+       }
+      ],
+      "rp": {
+       "situation": "오클랜드 A's의 라스베이거스 이전 결정을 내린 사람에 대해 이야기하는 상황이다.",
+       "prompt": "Who decided to move the Oakland A's to Las Vegas?",
+       "options": [
+        "The team's owners made that decision.",
+        "The team's ownerships made that decision."
+       ],
+       "answer": 0,
+       "why": "결정을 내린 사람을 가리키려면 명사 owners를 써야 하고, ownership은 소유권이라는 추상명사라 어울리지 않는다."
+      },
+      "topic": "프로 구단의 연고지 이전"
+     },
+     {
+      "id": "times:support",
+      "word": "support",
+      "ko": "지지; 응원; 지원",
+      "filled": "Some fans never support the team again after it leaves.",
+      "sent_ko": "일부 팬들은 팀이 떠난 후 다시는 그 팀을 응원하지 않는다.",
+      "chunks": [
+       {
+        "en": "Some fans",
+        "ko": "일부 팬들은"
+       },
+       {
+        "en": "never support the team again",
+        "ko": "다시는 그 팀을 응원하지 않는다"
+       },
+       {
+        "en": "after it leaves.",
+        "ko": "팀이 떠난 후"
+       }
+      ],
+      "rp": {
+       "situation": "오클랜드 A's가 떠난 후 오클랜드 팬들의 태도를 묘사하는 상황이다.",
+       "prompt": "Do Oakland fans still cheer for the A's in Las Vegas?",
+       "options": [
+        "No, many fans never support the team again.",
+        "No, many fans never supportive the team again."
+       ],
+       "answer": 0,
+       "why": "동사 자리에는 동사원형 support가 와야 하고, supportive는 형용사라 동사로 쓸 수 없다."
+      },
+      "topic": "프로 구단의 연고지 이전"
      }
     ]
    }
