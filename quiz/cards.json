@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23 09:03:49",
+ "generated": "2026-09-23 09:05:00",
  "levels": {
   "kinder": [
    {
@@ -26843,6 +26843,565 @@
        "why": "동사 자리에는 동사원형 support가 와야 하고, supportive는 형용사라 동사로 쓸 수 없다."
       },
       "topic": "프로 구단의 연고지 이전"
+     }
+    ]
+   },
+   {
+    "id": "times|중고 의류가 도착하는 나라",
+    "level": "times",
+    "topic": "중고 의류가 도착하는 나라",
+    "section": "경제",
+    "week": "2026-09-21",
+    "tf": [
+     {
+      "s": "Traders at the Kantamanto market in Accra can inspect the contents of clothing bales before purchasing them.",
+      "a": false
+     },
+     {
+      "s": "Environmental groups have documented textile waste building up along Ghana's coastline.",
+      "a": true
+     },
+     {
+      "s": "Chile's Atacama Desert receives secondhand clothing through the port of Iquique, which operates as a duty-free zone.",
+      "a": true
+     },
+     {
+      "s": "All supporters and critics of the secondhand clothing trade agree that it causes more harm than good to developing countries.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "times:export",
+      "word": "export",
+      "ko": "수출(하다)",
+      "filled": "Critics, however, say rich countries are effectively exporting their waste problem.",
+      "sent_ko": "그러나 비평가들은 부유한 나라들이 사실상 자국의 쓰레기 문제를 수출하고 있다고 말한다.",
+      "chunks": [
+       {
+        "en": "Critics, however,",
+        "ko": "그러나 비평가들은"
+       },
+       {
+        "en": "say",
+        "ko": "말한다"
+       },
+       {
+        "en": "rich countries",
+        "ko": "부유한 나라들이"
+       },
+       {
+        "en": "are effectively exporting",
+        "ko": "사실상 수출하고 있다고"
+       },
+       {
+        "en": "their waste problem.",
+        "ko": "자국의 쓰레기 문제를"
+       }
+      ],
+      "rp": {
+       "situation": "비평가들이 선진국의 중고 의류 수출 관행을 비판하고 있다.",
+       "prompt": "What do critics say about rich countries sending used clothes abroad?",
+       "options": [
+        "They say rich countries are exporting their waste problem.",
+        "They say rich countries are exported their waste problem."
+       ],
+       "answer": 0,
+       "why": "현재진행형은 'are exporting'이 맞고, 'are exported'는 문법적으로 틀린 수동태 형태다."
+      },
+      "topic": "중고 의류가 도착하는 나라"
+     },
+     {
+      "id": "times:garment",
+      "word": "garment",
+      "ko": "의류, 옷",
+      "filled": "These garments — sorted, bundled, and shipped in large bales — travel to markets across Africa, South Asia, and Latin America, where they are resold at low prices.",
+      "sent_ko": "이 의류들은 — 분류되고, 묶이고, 큰 꾸러미에 담겨 배송된 채로 — 아프리카, 남아시아, 라틴아메리카 전역의 시장으로 이동하며, 그곳에서 저렴한 가격에 재판매된다.",
+      "chunks": [
+       {
+        "en": "These garments —",
+        "ko": "이 의류들은 —"
+       },
+       {
+        "en": "sorted, bundled, and shipped in large bales —",
+        "ko": "분류·묶음·배송된 채로 —"
+       },
+       {
+        "en": "travel to markets",
+        "ko": "시장으로 이동하며"
+       },
+       {
+        "en": "across Africa, South Asia, and Latin America,",
+        "ko": "아프리카, 남아시아, 라틴아메리카 전역의"
+       },
+       {
+        "en": "where they are resold at low prices.",
+        "ko": "그곳에서 저렴한 가격에 재판매된다"
+       }
+      ],
+      "rp": {
+       "situation": "칸타만토 시장에서 판매되는 중고 의류 꾸러미에 대해 이야기하고 있다.",
+       "prompt": "What do we call a single piece of clothing in formal or written English?",
+       "options": [
+        "Each garment in the bale was checked for damage.",
+        "Each garments in the bale was checked for damage."
+       ],
+       "answer": 0,
+       "why": "'each' 뒤에는 단수 명사 'garment'가 와야 하며, 'garments'처럼 복수형은 쓸 수 없다."
+      },
+      "topic": "중고 의류가 도착하는 나라"
+     },
+     {
+      "id": "times:bale",
+      "word": "bale",
+      "ko": "(압축하여 묶은) 꾸러미, 더미",
+      "filled": "Traders buy bales sight unseen from importers, not knowing what is inside until they cut them open.",
+      "sent_ko": "상인들은 수입업자로부터 내용물을 모른 채 꾸러미를 구매하며, 직접 열어보기 전까지 안에 무엇이 있는지 알 수 없다.",
+      "chunks": [
+       {
+        "en": "Traders buy bales",
+        "ko": "상인들은 꾸러미를 구매하며"
+       },
+       {
+        "en": "sight unseen",
+        "ko": "내용물을 모른 채"
+       },
+       {
+        "en": "from importers,",
+        "ko": "수입업자로부터"
+       },
+       {
+        "en": "not knowing what is inside",
+        "ko": "안에 무엇이 있는지 모른 채"
+       },
+       {
+        "en": "until they cut them open.",
+        "ko": "직접 열어보기 전까지"
+       }
+      ],
+      "rp": {
+       "situation": "칸타만토 시장 상인이 방금 도착한 중고 의류 꾸러미를 열려고 한다.",
+       "prompt": "What is the trader about to open?",
+       "options": [
+        "She is about to open a bale of secondhand clothing.",
+        "She is about to open a bail of secondhand clothing."
+       ],
+       "answer": 0,
+       "why": "압축 묶음 꾸러미는 'bale'이고, 'bail'은 보석금 등 전혀 다른 의미의 단어다."
+      },
+      "topic": "중고 의류가 도착하는 나라"
+     },
+     {
+      "id": "times:affordable",
+      "word": "affordable",
+      "ko": "저렴한, 감당할 수 있는",
+      "filled": "Supporters of the secondhand trade argue that it creates jobs and gives low-income households access to affordable clothes.",
+      "sent_ko": "중고 거래 지지자들은 그것이 일자리를 창출하고 저소득 가정이 저렴한 의류를 구입할 수 있게 해준다고 주장한다.",
+      "chunks": [
+       {
+        "en": "Supporters of the secondhand trade",
+        "ko": "중고 거래 지지자들은"
+       },
+       {
+        "en": "argue that it creates jobs",
+        "ko": "일자리를 창출한다고 주장한다"
+       },
+       {
+        "en": "and gives low-income households",
+        "ko": "그리고 저소득 가정에게"
+       },
+       {
+        "en": "access to affordable clothes.",
+        "ko": "저렴한 의류를 구입할 기회를 준다"
+       }
+      ],
+      "rp": {
+       "situation": "칸타만토 시장에서 저소득 가정이 중고 의류를 구입하는 상황이다.",
+       "prompt": "Why do low-income families shop at Kantamanto market?",
+       "options": [
+        "They can find affordable clothes there.",
+        "They can find affording clothes there."
+       ],
+       "answer": 0,
+       "why": "'저렴한'은 형용사 'affordable'이 맞고, 'affording'은 이 의미로 쓰이지 않는 잘못된 형태다."
+      },
+      "topic": "중고 의류가 도착하는 나라"
+     },
+     {
+      "id": "times:destination",
+      "word": "destination",
+      "ko": "목적지, 도착지",
+      "filled": "Ghana is one of the world's largest destinations for used clothing.",
+      "sent_ko": "가나는 세계에서 중고 의류의 가장 큰 목적지 중 하나다.",
+      "chunks": [
+       {
+        "en": "Ghana is",
+        "ko": "가나는 ~이다"
+       },
+       {
+        "en": "one of the world's largest destinations",
+        "ko": "세계에서 가장 큰 목적지 중 하나"
+       },
+       {
+        "en": "for used clothing.",
+        "ko": "중고 의류의"
+       }
+      ],
+      "rp": {
+       "situation": "기자가 중고 의류 수입국으로서 가나의 위상을 설명하고 있다.",
+       "prompt": "How would you describe Ghana in the global secondhand clothing trade?",
+       "options": [
+        "Ghana is one of the largest destinations for used clothing.",
+        "Ghana is one of the largest destinies for used clothing."
+       ],
+       "answer": 0,
+       "why": "'목적지'는 'destination'이고, 'destiny'는 '운명'이라는 뜻으로 이 문맥에 쓸 수 없다."
+      },
+      "topic": "중고 의류가 도착하는 나라"
+     },
+     {
+      "id": "times:importer",
+      "word": "importer",
+      "ko": "수입업자, 수입국",
+      "filled": "Traders buy bales sight unseen from importers, not knowing what is inside until they cut them open.",
+      "sent_ko": "상인들은 수입업자로부터 내용물을 모른 채 꾸러미를 구매하며, 직접 열어보기 전까지 안에 무엇이 있는지 알 수 없다.",
+      "chunks": [
+       {
+        "en": "Traders buy bales",
+        "ko": "상인들은 꾸러미를 구매하며"
+       },
+       {
+        "en": "sight unseen",
+        "ko": "내용물을 모른 채"
+       },
+       {
+        "en": "from importers,",
+        "ko": "수입업자로부터"
+       },
+       {
+        "en": "not knowing what is inside",
+        "ko": "안에 무엇이 있는지 모른 채"
+       },
+       {
+        "en": "until they cut them open.",
+        "ko": "직접 열어보기 전까지"
+       }
+      ],
+      "rp": {
+       "situation": "칸타만토 시장 상인이 의류 꾸러미를 누구에게서 구매하는지 설명하는 상황이다.",
+       "prompt": "Who do the traders in Accra buy their bales from?",
+       "options": [
+        "They buy bales from importers who bring clothing into the country.",
+        "They buy bales from exporters who bring clothing into the country."
+       ],
+       "answer": 0,
+       "why": "의류를 나라 안으로 들여오는 사람은 'importer(수입업자)'이고, 'exporter'는 반대로 내보내는 사람이다."
+      },
+      "topic": "중고 의류가 도착하는 나라"
+     },
+     {
+      "id": "times:unsellable",
+      "word": "unsellable",
+      "ko": "팔 수 없는",
+      "filled": "A large share of what arrives turns out to be worn out or simply unsellable.",
+      "sent_ko": "도착하는 물건의 상당 부분은 낡아 있거나 그냥 팔 수 없는 것으로 드러난다.",
+      "chunks": [
+       {
+        "en": "A large share of what arrives",
+        "ko": "도착하는 물건의 상당 부분은"
+       },
+       {
+        "en": "turns out to be",
+        "ko": "~으로 드러난다"
+       },
+       {
+        "en": "worn out",
+        "ko": "낡아 있거나"
+       },
+       {
+        "en": "or simply unsellable.",
+        "ko": "또는 그냥 팔 수 없는 것으로"
+       }
+      ],
+      "rp": {
+       "situation": "상인이 칸타만토 시장에서 꾸러미를 열었더니 상태가 나쁜 옷들이 가득하다.",
+       "prompt": "What can the trader do with the badly damaged clothes?",
+       "options": [
+        "Those clothes are unsellable, so they will be thrown away.",
+        "Those clothes are unselling, so they will be thrown away."
+       ],
+       "answer": 0,
+       "why": "'팔 수 없는'은 형용사 'unsellable'이 맞고, 'unselling'은 존재하지 않는 형태다."
+      },
+      "topic": "중고 의류가 도착하는 나라"
+     },
+     {
+      "id": "times:landfill",
+      "word": "landfill",
+      "ko": "쓰레기 매립지",
+      "filled": "Clothing that cannot be sold often ends up in landfills or washes into rivers and eventually onto beaches.",
+      "sent_ko": "팔 수 없는 의류는 종종 쓰레기 매립지에 버려지거나 강으로 흘러들어 결국 해변까지 밀려온다.",
+      "chunks": [
+       {
+        "en": "Clothing that cannot be sold",
+        "ko": "팔 수 없는 의류는"
+       },
+       {
+        "en": "often ends up in landfills",
+        "ko": "종종 쓰레기 매립지에 버려지거나"
+       },
+       {
+        "en": "or washes into rivers",
+        "ko": "강으로 흘러들거나"
+       },
+       {
+        "en": "and eventually onto beaches.",
+        "ko": "결국 해변까지 밀려온다"
+       }
+      ],
+      "rp": {
+       "situation": "가나에서 팔리지 않은 중고 의류의 처리 방식을 설명하는 상황이다.",
+       "prompt": "Where does unsold clothing in Ghana often end up?",
+       "options": [
+        "Much of it ends up in landfills or flows into rivers.",
+        "Much of it ends up at landfills or flows into rivers."
+       ],
+       "answer": 0,
+       "why": "매립지 안에 있는 상태는 'in landfills'가 맞는 표현이며, 'at landfills'는 이 문맥에서 자연스럽지 않다."
+      },
+      "topic": "중고 의류가 도착하는 나라"
+     },
+     {
+      "id": "times:pollution",
+      "word": "pollution",
+      "ko": "오염",
+      "filled": "Environmental groups have documented serious pollution along Ghana's coastline, where piles of discarded textiles have built up over the years.",
+      "sent_ko": "환경 단체들은 가나 해안선을 따라 심각한 오염을 기록했으며, 그곳에는 버려진 섬유 더미가 수년에 걸쳐 쌓여 있다.",
+      "chunks": [
+       {
+        "en": "Environmental groups have documented",
+        "ko": "환경 단체들은 기록했다"
+       },
+       {
+        "en": "serious pollution",
+        "ko": "심각한 오염을"
+       },
+       {
+        "en": "along Ghana's coastline,",
+        "ko": "가나 해안선을 따라"
+       },
+       {
+        "en": "where piles of discarded textiles",
+        "ko": "그곳에는 버려진 섬유 더미가"
+       },
+       {
+        "en": "have built up over the years.",
+        "ko": "수년에 걸쳐 쌓여 있다"
+       }
+      ],
+      "rp": {
+       "situation": "환경 단체가 가나 해안가에 쌓인 중고 의류로 인한 피해를 조사하고 있다.",
+       "prompt": "What have environmental groups found along Ghana's coastline?",
+       "options": [
+        "They have documented serious pollution caused by discarded textiles.",
+        "They have documented serious pollute caused by discarded textiles."
+       ],
+       "answer": 0,
+       "why": "'오염'은 명사 'pollution'이 맞고, 'pollute'는 동사이므로 명사 자리에 쓸 수 없다."
+      },
+      "topic": "중고 의류가 도착하는 나라"
+     },
+     {
+      "id": "times:discard",
+      "word": "discard",
+      "ko": "버리다, 폐기하다",
+      "filled": "Environmental groups have documented serious pollution along Ghana's coastline, where piles of discarded textiles have built up over the years.",
+      "sent_ko": "환경 단체들은 가나 해안선을 따라 심각한 오염을 기록했으며, 그곳에는 버려진 섬유 더미가 수년에 걸쳐 쌓여 있다.",
+      "chunks": [
+       {
+        "en": "Environmental groups have documented",
+        "ko": "환경 단체들은 기록했다"
+       },
+       {
+        "en": "serious pollution",
+        "ko": "심각한 오염을"
+       },
+       {
+        "en": "along Ghana's coastline,",
+        "ko": "가나 해안선을 따라"
+       },
+       {
+        "en": "where piles of discarded textiles",
+        "ko": "그곳에는 버려진 섬유 더미가"
+       },
+       {
+        "en": "have built up over the years.",
+        "ko": "수년에 걸쳐 쌓여 있다"
+       }
+      ],
+      "rp": {
+       "situation": "가나 해변에 쌓인 중고 의류 더미를 환경 단체가 촬영하고 있다.",
+       "prompt": "How would you describe the textiles piled up on Ghana's beaches?",
+       "options": [
+        "The beaches are covered with discarded textiles no one wanted.",
+        "The beaches are covered with discarding textiles no one wanted."
+       ],
+       "answer": 0,
+       "why": "'버려진'은 과거분사 형용사 'discarded'가 맞고, 'discarding'은 능동의 현재분사로 이 문맥에 맞지 않다."
+      },
+      "topic": "중고 의류가 도착하는 나라"
+     },
+     {
+      "id": "times:duty-free",
+      "word": "duty-free",
+      "ko": "관세 없는, 면세의",
+      "filled": "Used clothing enters through the port of Iquique, a duty-free zone, and floods local markets.",
+      "sent_ko": "중고 의류는 면세 구역인 이키케 항구를 통해 들어와 지역 시장에 넘쳐난다.",
+      "chunks": [
+       {
+        "en": "Used clothing enters",
+        "ko": "중고 의류는 들어와"
+       },
+       {
+        "en": "through the port of Iquique,",
+        "ko": "이키케 항구를 통해"
+       },
+       {
+        "en": "a duty-free zone,",
+        "ko": "면세 구역인"
+       },
+       {
+        "en": "and floods local markets.",
+        "ko": "그리고 지역 시장에 넘쳐난다"
+       }
+      ],
+      "rp": {
+       "situation": "칠레 이키케 항구를 통해 수입되는 중고 의류의 특징을 설명하는 상황이다.",
+       "prompt": "What is special about the port of Iquique for clothing importers?",
+       "options": [
+        "It is a duty-free zone, so clothing enters without tariffs.",
+        "It is a duty-free zone, so clothing enters without tarrifs."
+       ],
+       "answer": 0,
+       "why": "'관세'의 올바른 철자는 'tariffs'이며, 'tarrifs'는 잘못된 철자다."
+      },
+      "topic": "중고 의류가 도착하는 나라"
+     },
+     {
+      "id": "times:textile",
+      "word": "textile",
+      "ko": "직물, 섬유",
+      "filled": "Environmental groups have documented serious pollution along Ghana's coastline, where piles of discarded textiles have built up over the years.",
+      "sent_ko": "환경 단체들은 가나 해안선을 따라 심각한 오염을 기록했으며, 그곳에는 버려진 섬유 더미가 수년에 걸쳐 쌓여 있다.",
+      "chunks": [
+       {
+        "en": "Environmental groups have documented",
+        "ko": "환경 단체들은 기록했다"
+       },
+       {
+        "en": "serious pollution",
+        "ko": "심각한 오염을"
+       },
+       {
+        "en": "along Ghana's coastline,",
+        "ko": "가나 해안선을 따라"
+       },
+       {
+        "en": "where piles of discarded textiles",
+        "ko": "그곳에는 버려진 섬유 더미가"
+       },
+       {
+        "en": "have built up over the years.",
+        "ko": "수년에 걸쳐 쌓여 있다"
+       }
+      ],
+      "rp": {
+       "situation": "가나 해변에 쌓인 버려진 옷감 더미를 보고 피해를 논의하는 상황이다.",
+       "prompt": "What material is piling up along Ghana's coastline?",
+       "options": [
+        "Piles of discarded textiles have built up along the coast.",
+        "Piles of discarded textures have built up along the coast."
+       ],
+       "answer": 0,
+       "why": "천이나 직물을 뜻하는 단어는 'textile'이고, 'texture'는 '질감'이라는 전혀 다른 뜻이다."
+      },
+      "topic": "중고 의류가 도착하는 나라"
+     },
+     {
+      "id": "times:effectively",
+      "word": "effectively",
+      "ko": "효과적으로, 사실상",
+      "filled": "Critics, however, say rich countries are effectively exporting their waste problem.",
+      "sent_ko": "그러나 비평가들은 부유한 나라들이 사실상 자국의 쓰레기 문제를 수출하고 있다고 말한다.",
+      "chunks": [
+       {
+        "en": "Critics, however,",
+        "ko": "그러나 비평가들은"
+       },
+       {
+        "en": "say",
+        "ko": "말한다"
+       },
+       {
+        "en": "rich countries",
+        "ko": "부유한 나라들이"
+       },
+       {
+        "en": "are effectively exporting",
+        "ko": "사실상 수출하고 있다고"
+       },
+       {
+        "en": "their waste problem.",
+        "ko": "자국의 쓰레기 문제를"
+       }
+      ],
+      "rp": {
+       "situation": "비평가가 부유한 나라들의 중고 의류 수출이 실제로 어떤 결과를 낳는지 설명하고 있다.",
+       "prompt": "How do critics describe what rich countries are doing with their waste problem?",
+       "options": [
+        "Rich countries are effectively exporting their waste problem to poorer nations.",
+        "Rich countries are effective exporting their waste problem to poorer nations."
+       ],
+       "answer": 0,
+       "why": "동사를 꾸미는 부사는 'effectively'가 맞고, 형용사 'effective'는 동사를 수식할 수 없다."
+      },
+      "topic": "중고 의류가 도착하는 나라"
+     },
+     {
+      "id": "times:fast fashion",
+      "word": "fast fashion",
+      "ko": "패스트 패션 (빠르게 생산·소비되는 저가 의류 트렌드)",
+      "filled": "As fast fashion continues to drive up clothing production globally, the pressure on receiving countries is only expected to grow.",
+      "sent_ko": "패스트 패션이 전 세계적으로 의류 생산을 계속 끌어올리면서, 수입국에 가해지는 압박은 더욱 커질 것으로 예상된다.",
+      "chunks": [
+       {
+        "en": "As fast fashion",
+        "ko": "패스트 패션이"
+       },
+       {
+        "en": "continues to drive up clothing production globally,",
+        "ko": "전 세계적으로 의류 생산을 계속 끌어올리면서"
+       },
+       {
+        "en": "the pressure on receiving countries",
+        "ko": "수입국에 가해지는 압박은"
+       },
+       {
+        "en": "is only expected to grow.",
+        "ko": "더욱 커질 것으로 예상된다"
+       }
+      ],
+      "rp": {
+       "situation": "기사 마지막 부분에서 중고 의류 문제가 앞으로 더 심해질 이유를 설명하고 있다.",
+       "prompt": "Why is the pressure on receiving countries expected to grow?",
+       "options": [
+        "Fast fashion keeps driving up clothing production, creating more waste.",
+        "Fast fashion keeps driving down clothing production, creating more waste."
+       ],
+       "answer": 0,
+       "why": "기사에서 패스트 패션은 생산량을 '끌어올린다(drive up)'고 했으며, 'drive down'은 반대 의미다."
+      },
+      "topic": "중고 의류가 도착하는 나라"
      }
     ]
    }
