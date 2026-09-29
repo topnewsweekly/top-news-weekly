@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30 08:34:22",
+ "generated": "2026-09-30 08:35:49",
  "levels": {
   "kinder": [
    {
@@ -2837,6 +2837,193 @@
        "why": "'a'는 단수와 함께 쓰이므로 plants처럼 복수형을 쓸 수 없어요."
       },
       "topic": "씨앗은 어떻게 물을 먹을까"
+     }
+    ]
+   },
+   {
+    "id": "kinder|소리는 어떻게 귀에 올까",
+    "level": "kinder",
+    "topic": "소리는 어떻게 귀에 올까",
+    "section": "과학",
+    "week": "2026-09-28",
+    "tf": [
+     {
+      "s": "Sound travels through the air.",
+      "a": true
+     },
+     {
+      "s": "Sound moves in a straight line, like an arrow.",
+      "a": false
+     },
+     {
+      "s": "Your ear has a small hole for sound to go into.",
+      "a": true
+     },
+     {
+      "s": "Your eyes get the message when you hear a sound.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "kinder:sound",
+      "word": "sound",
+      "ko": "소리",
+      "filled": "Sound travels through the air.",
+      "sent_ko": "소리는 공기를 통해 이동합니다.",
+      "chunks": [
+       {
+        "en": "Sound",
+        "ko": "소리는"
+       },
+       {
+        "en": "travels",
+        "ko": "이동합니다"
+       },
+       {
+        "en": "through the air.",
+        "ko": "공기를 통해"
+       }
+      ],
+      "rp": {
+       "situation": "귀 안에서 소리가 고막을 흔들고 있어요.",
+       "prompt": "What hits the eardrum?",
+       "options": [
+        "Sound hits it.",
+        "Sounds hit it."
+       ],
+       "answer": 0,
+       "why": "기사에서 sound는 셀 수 없는 명사로 단수 취급해요."
+      },
+      "topic": "소리는 어떻게 귀에 올까"
+     },
+     {
+      "id": "kinder:air",
+      "word": "air",
+      "ko": "공기",
+      "filled": "Sound travels through the air.",
+      "sent_ko": "소리는 공기를 통해 이동합니다.",
+      "chunks": [
+       {
+        "en": "Sound",
+        "ko": "소리는"
+       },
+       {
+        "en": "travels",
+        "ko": "이동합니다"
+       },
+       {
+        "en": "through the air.",
+        "ko": "공기를 통해"
+       }
+      ],
+      "rp": {
+       "situation": "소리가 파동처럼 움직이며 귀로 향하고 있어요.",
+       "prompt": "How does sound move to your ear?",
+       "options": [
+        "It travels through the air.",
+        "It travels through air."
+       ],
+       "answer": 0,
+       "why": "기사 문장에 the air로 특정 공기를 가리키므로 the가 필요해요."
+      },
+      "topic": "소리는 어떻게 귀에 올까"
+     },
+     {
+      "id": "kinder:wave",
+      "word": "wave",
+      "ko": "파동, 파장",
+      "filled": "It moves like tiny waves.",
+      "sent_ko": "그것은 작은 파동처럼 움직입니다.",
+      "chunks": [
+       {
+        "en": "It moves",
+        "ko": "그것은 움직입니다"
+       },
+       {
+        "en": "like",
+        "ko": "~처럼"
+       },
+       {
+        "en": "tiny waves.",
+        "ko": "작은 파동"
+       }
+      ],
+      "rp": {
+       "situation": "소리가 공기 속에서 어떻게 움직이는지 설명하고 있어요.",
+       "prompt": "How does sound move?",
+       "options": [
+        "It moves like tiny waves.",
+        "It moves like a tiny wave."
+       ],
+       "answer": 0,
+       "why": "기사는 waves로 복수를 써서 여러 파동을 나타내요."
+      },
+      "topic": "소리는 어떻게 귀에 올까"
+     },
+     {
+      "id": "kinder:ear",
+      "word": "ear",
+      "ko": "귀",
+      "filled": "Isn't your ear amazing?",
+      "sent_ko": "당신의 귀는 정말 놀랍지 않나요?",
+      "chunks": [
+       {
+        "en": "Isn't",
+        "ko": "~하지 않나요"
+       },
+       {
+        "en": "your ear",
+        "ko": "당신의 귀는"
+       },
+       {
+        "en": "amazing?",
+        "ko": "놀라운"
+       }
+      ],
+      "rp": {
+       "situation": "소리가 귀 안으로 들어가 고막을 흔들고 있어요.",
+       "prompt": "What do you think about your ear?",
+       "options": [
+        "My ear is amazing.",
+        "My ear is amazed."
+       ],
+       "answer": 0,
+       "why": "amazing은 귀의 성질을 나타내고, amazed는 감정을 느끼는 사람에게 써요."
+      },
+      "topic": "소리는 어떻게 귀에 올까"
+     },
+     {
+      "id": "kinder:brain",
+      "word": "brain",
+      "ko": "뇌",
+      "filled": "Then your brain gets the message.",
+      "sent_ko": "그러면 당신의 뇌가 메시지를 받습니다.",
+      "chunks": [
+       {
+        "en": "Then",
+        "ko": "그러면"
+       },
+       {
+        "en": "your brain",
+        "ko": "당신의 뇌가"
+       },
+       {
+        "en": "gets the message.",
+        "ko": "메시지를 받습니다"
+       }
+      ],
+      "rp": {
+       "situation": "고막이 흔들린 후 뇌가 소리 신호를 받고 있어요.",
+       "prompt": "What happens after the eardrum shakes?",
+       "options": [
+        "My brain gets the message.",
+        "My brain gets message."
+       ],
+       "answer": 0,
+       "why": "message는 셀 수 있는 명사라서 앞에 the가 필요해요."
+      },
+      "topic": "소리는 어떻게 귀에 올까"
      }
     ]
    }
