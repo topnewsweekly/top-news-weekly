@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30 08:35:49",
+ "generated": "2026-09-30 08:36:56",
  "levels": {
   "kinder": [
    {
@@ -7689,6 +7689,244 @@
        "why": "expert는 사람을 가리키는 명사예요. expertise는 사람이 아닌 전문 지식을 뜻해요."
       },
       "topic": "손 씻기가 막아주는 것들"
+     }
+    ]
+   },
+   {
+    "id": "kids|얼음은 왜 물에 뜰까",
+    "level": "kids",
+    "topic": "얼음은 왜 물에 뜰까",
+    "section": "과학",
+    "week": "2026-09-28",
+    "tf": [
+     {
+      "s": "Most solid things float in liquid.",
+      "a": false
+     },
+     {
+      "s": "When water gets cold, its molecules spread apart.",
+      "a": true
+     },
+     {
+      "s": "Ice takes up less space than liquid water.",
+      "a": false
+     },
+     {
+      "s": "Polar bears can walk on ice that floats on the ocean.",
+      "a": true
+     }
+    ],
+    "cards": [
+     {
+      "id": "kids:float",
+      "word": "float",
+      "ko": "뜨다, 떠 있다",
+      "filled": "Ice floats in your drink.",
+      "sent_ko": "얼음은 음료 안에서 떠 있어요.",
+      "chunks": [
+       {
+        "en": "Ice",
+        "ko": "얼음은"
+       },
+       {
+        "en": "floats",
+        "ko": "떠 있어요"
+       },
+       {
+        "en": "in your drink.",
+        "ko": "음료 안에서"
+       }
+      ],
+      "rp": {
+       "situation": "얼음이 음료컵 안에서 가라앉지 않고 위에 있어요.",
+       "prompt": "Look at the ice in the cup!",
+       "options": [
+        "It floats on top.",
+        "It is floating good."
+       ],
+       "answer": 0,
+       "why": "'floating good'은 자연스럽지 않고, 'floats on top'이 올바른 표현이에요."
+      },
+      "topic": "얼음은 왜 물에 뜰까"
+     },
+     {
+      "id": "kids:solid",
+      "word": "solid",
+      "ko": "고체, 단단한",
+      "filled": "Most solid things sink in liquid, but ice does not.",
+      "sent_ko": "대부분의 고체 물건은 액체에 가라앉지만, 얼음은 그렇지 않아요.",
+      "chunks": [
+       {
+        "en": "Most solid things",
+        "ko": "대부분의 고체 물건은"
+       },
+       {
+        "en": "sink in liquid,",
+        "ko": "액체에 가라앉지만"
+       },
+       {
+        "en": "but ice does not.",
+        "ko": "얼음은 그렇지 않아요"
+       }
+      ],
+      "rp": {
+       "situation": "얼음과 돌멩이를 물에 넣었어요. 돌멩이는 가라앉았어요.",
+       "prompt": "Why did the rock sink?",
+       "options": [
+        "Because it is a solid thing.",
+        "Because it is a solids thing."
+       ],
+       "answer": 0,
+       "why": "'solids'는 형용사로 쓸 수 없고, 형용사는 'solid'가 맞아요."
+      },
+      "topic": "얼음은 왜 물에 뜰까"
+     },
+     {
+      "id": "kids:liquid",
+      "word": "liquid",
+      "ko": "액체",
+      "filled": "Ice takes up more space than liquid water.",
+      "sent_ko": "얼음은 액체 상태의 물보다 더 많은 공간을 차지해요.",
+      "chunks": [
+       {
+        "en": "Ice",
+        "ko": "얼음은"
+       },
+       {
+        "en": "takes up more space",
+        "ko": "더 많은 공간을 차지해요"
+       },
+       {
+        "en": "than liquid water.",
+        "ko": "액체 상태의 물보다"
+       }
+      ],
+      "rp": {
+       "situation": "컵 안에 물이 있고, 얼음도 있어요. 물에 대해 이야기하고 있어요.",
+       "prompt": "What is the water in the cup?",
+       "options": [
+        "It is a liquid.",
+        "It is a liquids."
+       ],
+       "answer": 0,
+       "why": "'a liquid'가 올바른 표현이고, 'a liquids'는 문법적으로 틀려요."
+      },
+      "topic": "얼음은 왜 물에 뜰까"
+     },
+     {
+      "id": "kids:molecule",
+      "word": "molecule",
+      "ko": "분자",
+      "filled": "Water has tiny pieces inside called molecules.",
+      "sent_ko": "물 안에는 분자라고 불리는 아주 작은 조각들이 있어요.",
+      "chunks": [
+       {
+        "en": "Water has",
+        "ko": "물 안에는"
+       },
+       {
+        "en": "tiny pieces inside",
+        "ko": "아주 작은 조각들이 있어요"
+       },
+       {
+        "en": "called molecules.",
+        "ko": "분자라고 불리는"
+       }
+      ],
+      "rp": {
+       "situation": "물 안에 눈에 보이지 않는 아주 작은 조각들이 있다고 배웠어요.",
+       "prompt": "What are the tiny pieces inside water called?",
+       "options": [
+        "They are called molecules.",
+        "They are calls molecules."
+       ],
+       "answer": 0,
+       "why": "'called'가 올바른 과거분사 형태이고, 'calls'는 여기서 쓸 수 없어요."
+      },
+      "topic": "얼음은 왜 물에 뜰까"
+     },
+     {
+      "id": "kids:spread",
+      "word": "spread",
+      "ko": "퍼지다, 번지다",
+      "filled": "When water gets cold, these molecules spread apart and form ice.",
+      "sent_ko": "물이 차가워지면, 분자들은 퍼져서 얼음이 돼요.",
+      "chunks": [
+       {
+        "en": "When water gets cold,",
+        "ko": "물이 차가워지면"
+       },
+       {
+        "en": "these molecules spread apart",
+        "ko": "분자들은 퍼져요"
+       },
+       {
+        "en": "and form ice.",
+        "ko": "그리고 얼음이 돼요"
+       }
+      ],
+      "rp": {
+       "situation": "물이 차가워지면서 분자들이 서로 멀어지고 있어요.",
+       "prompt": "What do the molecules do when water gets cold?",
+       "options": [
+        "They spread apart.",
+        "They spreading apart."
+       ],
+       "answer": 0,
+       "why": "주어 다음에는 동사원형 'spread'가 오고, 'spreading'만 단독으로 쓸 수 없어요."
+      },
+      "topic": "얼음은 왜 물에 뜰까"
+     },
+     {
+      "id": "kids:form",
+      "word": "form",
+      "ko": "형태, 형성하다",
+      "filled": "When water gets cold, these molecules spread apart and form ice.",
+      "sent_ko": "물이 차가워지면, 분자들은 퍼져서 얼음이 돼요.",
+      "chunks": [
+       {
+        "en": "When water gets cold,",
+        "ko": "물이 차가워지면"
+       },
+       {
+        "en": "these molecules spread apart",
+        "ko": "분자들은 퍼져요"
+       },
+       {
+        "en": "and form ice.",
+        "ko": "그리고 얼음이 돼요"
+       }
+      ],
+      "rp": {
+       "situation": "차가운 물 안에서 분자들이 퍼지면서 무언가가 만들어지고 있어요.",
+       "prompt": "What do the molecules make when water is very cold?",
+       "options": [
+        "They form ice.",
+        "They form an ice."
+       ],
+       "answer": 0,
+       "why": "'ice'는 셀 수 없는 명사라서 'an ice'라고 쓸 수 없어요."
+      },
+      "topic": "얼음은 왜 물에 뜰까"
+     },
+     {
+      "id": "kids:light",
+      "word": "light",
+      "ko": "가벼운, 빛",
+      "filled": "A feather floats in the air because it is very light and weighs almost nothing.",
+      "sent_ko": "얼음은 더 가볍기 때문에 떠 있어요.",
+      "chunks": null,
+      "rp": {
+       "situation": "얼음이 음료 위에 떠 있어요. 왜 그런지 이야기하고 있어요.",
+       "prompt": "Why does ice float in the drink?",
+       "options": [
+        "Because ice is light.",
+        "Because ice is lightly."
+       ],
+       "answer": 0,
+       "why": "'light'는 형용사로 써야 하고, 'lightly'는 부사라서 여기서 쓸 수 없어요."
+      },
+      "topic": "얼음은 왜 물에 뜰까"
      }
     ]
    }
