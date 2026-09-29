@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23 09:12:32",
+ "generated": "2026-09-30 08:34:22",
  "levels": {
   "kinder": [
    {
@@ -2463,6 +2463,380 @@
        "why": "무언가의 위치를 소리로 알아낼 때는 hear를 써요. listen은 뒤에 to가 있어야 해요."
       },
       "topic": "박쥐는 깜깜한데 어떻게 날까"
+     }
+    ]
+   },
+   {
+    "id": "kinder|토끼 귀는 왜 길까",
+    "level": "kinder",
+    "topic": "토끼 귀는 왜 길까",
+    "section": "과학",
+    "week": "2026-09-28",
+    "tf": [
+     {
+      "s": "Rabbits have very long ears.",
+      "a": true
+     },
+     {
+      "s": "Rabbits use their ears to see far away.",
+      "a": false
+     },
+     {
+      "s": "Blood moves through a rabbit's ears.",
+      "a": true
+     },
+     {
+      "s": "Rabbit ears do only one job.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "kinder:ears",
+      "word": "ears",
+      "ko": "귀",
+      "filled": "Rabbits have very long ears.",
+      "sent_ko": "토끼는 매우 긴 귀를 가지고 있어요.",
+      "chunks": [
+       {
+        "en": "Rabbits",
+        "ko": "토끼는"
+       },
+       {
+        "en": "have",
+        "ko": "가지고 있어요"
+       },
+       {
+        "en": "very long ears.",
+        "ko": "매우 긴 귀를"
+       }
+      ],
+      "rp": {
+       "situation": "토끼의 긴 귀를 보고 있어요.",
+       "prompt": "What does a rabbit have?",
+       "options": [
+        "It has very long ears.",
+        "It has very long ear."
+       ],
+       "answer": 0,
+       "why": "토끼는 귀가 두 개이므로 복수형 ears가 맞아요."
+      },
+      "topic": "토끼 귀는 왜 길까"
+     },
+     {
+      "id": "kinder:hear",
+      "word": "hear",
+      "ko": "듣다",
+      "filled": "Their ears help them hear.",
+      "sent_ko": "토끼의 귀는 소리를 듣는 것을 도와줘요.",
+      "chunks": [
+       {
+        "en": "Their ears",
+        "ko": "토끼의 귀는"
+       },
+       {
+        "en": "help them",
+        "ko": "도와줘요"
+       },
+       {
+        "en": "hear.",
+        "ko": "듣는 것을"
+       }
+      ],
+      "rp": {
+       "situation": "여우가 가까이 오고 있고 토끼가 귀를 쫑긋 세워요.",
+       "prompt": "What do the rabbit's ears do?",
+       "options": [
+        "They help the rabbit hear.",
+        "They help the rabbit to heard."
+       ],
+       "answer": 0,
+       "why": "help+목적어 다음에는 동사원형이 와야 해요."
+      },
+      "topic": "토끼 귀는 왜 길까"
+     },
+     {
+      "id": "kinder:sound",
+      "word": "sound",
+      "ko": "소리",
+      "filled": "They can hear sounds far away.",
+      "sent_ko": "토끼는 멀리 있는 소리를 들을 수 있어요.",
+      "chunks": [
+       {
+        "en": "They can hear",
+        "ko": "들을 수 있어요"
+       },
+       {
+        "en": "sounds",
+        "ko": "소리를"
+       },
+       {
+        "en": "far away.",
+        "ko": "멀리서"
+       }
+      ],
+      "rp": {
+       "situation": "토끼가 멀리서 나는 소리를 듣고 있어요.",
+       "prompt": "What can rabbits hear?",
+       "options": [
+        "They can hear sounds far away.",
+        "They can hear sound far away."
+       ],
+       "answer": 0,
+       "why": "여러 소리를 듣기 때문에 복수형 sounds가 맞아요."
+      },
+      "topic": "토끼 귀는 왜 길까"
+     },
+     {
+      "id": "kinder:cool",
+      "word": "cool",
+      "ko": "시원한, 차가운",
+      "filled": "Big ears also help rabbits stay cool.",
+      "sent_ko": "큰 귀는 토끼가 시원하게 유지되도록 도와주기도 해요.",
+      "chunks": [
+       {
+        "en": "Big ears",
+        "ko": "큰 귀는"
+       },
+       {
+        "en": "also help rabbits",
+        "ko": "토끼를 도와주기도 해요"
+       },
+       {
+        "en": "stay cool.",
+        "ko": "시원하게 유지되도록"
+       }
+      ],
+      "rp": {
+       "situation": "날씨가 덥고 토끼의 큰 귀가 열을 내보내고 있어요.",
+       "prompt": "How do big ears help rabbits?",
+       "options": [
+        "They help rabbits stay cool.",
+        "They help rabbits stay coldly."
+       ],
+       "answer": 0,
+       "why": "stay 다음에는 형용사 cool이 와야 해요. coldly는 부사라서 틀려요."
+      },
+      "topic": "토끼 귀는 왜 길까"
+     },
+     {
+      "id": "kinder:blood",
+      "word": "blood",
+      "ko": "피, 혈액",
+      "filled": "Blood moves through the ears.",
+      "sent_ko": "피가 귀를 통해 흘러요.",
+      "chunks": [
+       {
+        "en": "Blood",
+        "ko": "피가"
+       },
+       {
+        "en": "moves",
+        "ko": "흘러요"
+       },
+       {
+        "en": "through the ears.",
+        "ko": "귀를 통해"
+       }
+      ],
+      "rp": {
+       "situation": "토끼 귀 안에서 피가 움직이며 열을 내보내고 있어요.",
+       "prompt": "What moves through the ears?",
+       "options": [
+        "Blood moves through the ears.",
+        "Blood is move through the ears."
+       ],
+       "answer": 0,
+       "why": "일반적인 사실을 말할 때는 단순현재 moves를 써요. is move는 틀린 표현이에요."
+      },
+      "topic": "토끼 귀는 왜 길까"
+     }
+    ]
+   },
+   {
+    "id": "kinder|씨앗은 어떻게 물을 먹을까",
+    "level": "kinder",
+    "topic": "씨앗은 어떻게 물을 먹을까",
+    "section": "과학",
+    "week": "2026-09-28",
+    "tf": [
+     {
+      "s": "Seeds need water to grow.",
+      "a": true
+     },
+     {
+      "s": "Water goes through the seed's skin to get inside.",
+      "a": true
+     },
+     {
+      "s": "Seeds get small and hard after they drink water.",
+      "a": false
+     },
+     {
+      "s": "You can grow a seed in dry soil at home.",
+      "a": false
+     }
+    ],
+    "cards": [
+     {
+      "id": "kinder:seed",
+      "word": "seed",
+      "ko": "씨앗",
+      "filled": "How Do Seeds Drink?",
+      "sent_ko": "씨앗들은 어떻게 물을 마실까요?",
+      "chunks": [
+       {
+        "en": "How",
+        "ko": "어떻게"
+       },
+       {
+        "en": "Do Seeds",
+        "ko": "씨앗들은"
+       },
+       {
+        "en": "Drink?",
+        "ko": "마실까요?"
+       }
+      ],
+      "rp": {
+       "situation": "씨앗에 물을 주고 싶어요. 씨앗이 하나 있어요.",
+       "prompt": "What do you have?",
+       "options": [
+        "I have a seed.",
+        "I have a seed's."
+       ],
+       "answer": 0,
+       "why": "명사 단독으로 쓸 때는 소유격('s)을 붙이지 않아요."
+      },
+      "topic": "씨앗은 어떻게 물을 먹을까"
+     },
+     {
+      "id": "kinder:water",
+      "word": "water",
+      "ko": "물",
+      "filled": "Seeds need water to grow.",
+      "sent_ko": "씨앗들은 자라기 위해 물이 필요해요.",
+      "chunks": [
+       {
+        "en": "Seeds need",
+        "ko": "씨앗들은 필요해요"
+       },
+       {
+        "en": "water",
+        "ko": "물이"
+       },
+       {
+        "en": "to grow.",
+        "ko": "자라기 위해"
+       }
+      ],
+      "rp": {
+       "situation": "씨앗이 잘 자라려면 무엇이 필요한지 이야기하고 있어요.",
+       "prompt": "What do seeds need to grow?",
+       "options": [
+        "Seeds need water.",
+        "Seeds need watering."
+       ],
+       "answer": 0,
+       "why": "필요한 것은 명사 water이고, watering(동명사)은 여기서 어색해요."
+      },
+      "topic": "씨앗은 어떻게 물을 먹을까"
+     },
+     {
+      "id": "kinder:soil",
+      "word": "soil",
+      "ko": "흙, 토양",
+      "filled": "They drink it from the soil!",
+      "sent_ko": "씨앗들은 흙에서 물을 마셔요!",
+      "chunks": [
+       {
+        "en": "They drink it",
+        "ko": "씨앗들은 그것을 마셔요"
+       },
+       {
+        "en": "from",
+        "ko": "~에서"
+       },
+       {
+        "en": "the soil!",
+        "ko": "흙"
+       }
+      ],
+      "rp": {
+       "situation": "씨앗이 흙 속의 물을 빨아들이고 있어요.",
+       "prompt": "Where does the seed drink water from?",
+       "options": [
+        "It drinks from the soil.",
+        "It drinks from the soils."
+       ],
+       "answer": 0,
+       "why": "soil은 셀 수 없는 명사라서 복수형 soils를 쓰지 않아요."
+      },
+      "topic": "씨앗은 어떻게 물을 먹을까"
+     },
+     {
+      "id": "kinder:grow",
+      "word": "grow",
+      "ko": "자라다, 성장하다",
+      "filled": "Seeds need water to grow.",
+      "sent_ko": "씨앗들은 자라기 위해 물이 필요해요.",
+      "chunks": [
+       {
+        "en": "Seeds need",
+        "ko": "씨앗들은 필요해요"
+       },
+       {
+        "en": "water",
+        "ko": "물이"
+       },
+       {
+        "en": "to grow.",
+        "ko": "자라기 위해"
+       }
+      ],
+      "rp": {
+       "situation": "화분 속 씨앗에 물을 준 뒤 씨앗이 변하고 있어요.",
+       "prompt": "What is the seed doing?",
+       "options": [
+        "The seed starts to grow.",
+        "The seed starts to growing."
+       ],
+       "answer": 0,
+       "why": "'start to' 뒤에는 동사원형(grow)이 와야 해요."
+      },
+      "topic": "씨앗은 어떻게 물을 먹을까"
+     },
+     {
+      "id": "kinder:plant",
+      "word": "plant",
+      "ko": "식물",
+      "filled": "A small plant comes out.",
+      "sent_ko": "작은 식물이 나와요.",
+      "chunks": [
+       {
+        "en": "A small plant",
+        "ko": "작은 식물이"
+       },
+       {
+        "en": "comes",
+        "ko": "나와요"
+       },
+       {
+        "en": "out.",
+        "ko": "밖으로"
+       }
+      ],
+      "rp": {
+       "situation": "씨앗이 열리고 안에서 무언가 나오고 있어요.",
+       "prompt": "What comes out of the seed?",
+       "options": [
+        "A small plant comes out.",
+        "A small plants comes out."
+       ],
+       "answer": 0,
+       "why": "'a'는 단수와 함께 쓰이므로 plants처럼 복수형을 쓸 수 없어요."
+      },
+      "topic": "씨앗은 어떻게 물을 먹을까"
      }
     ]
    }
