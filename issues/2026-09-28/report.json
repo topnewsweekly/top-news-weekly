@@ -4,7 +4,7 @@
     "2026-09-28",
     "2026-10-04"
   ],
-  "generated_at": "2026-09-30T00:06:14",
+  "generated_at": "2026-09-30T00:11:24",
   "excluded_levels": [
     "junior_m"
   ],
@@ -15,6 +15,7 @@
     "times": "feature"
   },
   "photo_scores": {
+    "assets/kids/3a379cc143e0.jpg": 0.8196,
     "assets/times/8f461632a8dd.jpg": 0.7956,
     "assets/junior/6fe1804b4058.jpg": 0.7851,
     "assets/junior/c8684f306f0c.jpg": 0.7491,
@@ -26,6 +27,7 @@
     "assets/times/b458134aa98e.jpg": 0.6721,
     "assets/times/14650bd14c1d.jpg": 0.6644,
     "assets/junior/74e0198ea7f8.jpg": 0.6495,
+    "assets/times/aded3f6843ca.jpg": 0.6307,
     "assets/times/cd8ee02afcfd.jpg": 0.6115,
     "assets/kinder/4cb1efadae47.jpg": 0.6097,
     "assets/times/17061c414ea3.jpg": 0.5681,
@@ -37,7 +39,7 @@
     "assets/kids/2b2399a725e1.jpg": 0.4995,
     "assets/kids/4a70ac674071.jpg": 0.467,
     "assets/kinder/814c3e3324fc.jpg": 0.4385,
-    "assets/kinder/16c384d7cf8a.jpg": 0.4201,
+    "assets/kinder/16c384d7cf8a.jpg": 0.42,
     "assets/kids/57ffd7ace313.jpg": 0.4165,
     "assets/times/ca529cfc9255.jpg": 0.3957,
     "assets/junior/d3ba7db79e9a.jpg": 0.0953
@@ -68,10 +70,11 @@
       "level": "kids",
       "title": "TOP NEWS KIDS",
       "quota": 6,
-      "found": 5,
-      "status": "short",
-      "message": "부족 1건 — 5/6건으로 조판",
+      "found": 6,
+      "status": "ok",
+      "message": "규정 충족 (6/6)",
       "selected": [
+        "Where Do Old Bikes Go?",
         "Sunshine Helps Build Strong Bones",
         "Hello! How Do You Greet Around the World?",
         "How Does an Elevator Know Which Floor?",
@@ -103,10 +106,11 @@
       "level": "times",
       "title": "TOP NEWS TIMES",
       "quota": 10,
-      "found": 9,
-      "status": "short",
-      "message": "부족 1건 — 9/10건으로 조판",
+      "found": 10,
+      "status": "ok",
+      "message": "규정 충족 (10/10)",
       "selected": [
+        "More Cities Are Building Dedicated Bike Lanes",
         "Life After Sport: What Comes Next?",
         "Rising Prices Push Sea Cucumbers Toward Extinction",
         "Closed Schools Find New Life as Art Spaces",
@@ -146,22 +150,22 @@
       "level": "kids",
       "title": "TOP NEWS KIDS",
       "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-09-28/TopNews_Kids_2026-09-28.pdf",
-      "pages": 7,
-      "expected_pages": 7,
+      "pages": 8,
+      "expected_pages": 8,
       "cover": "feature",
       "cover_feature": {
-        "page": 4,
-        "article_no": 3,
-        "title": "How Does an Elevator Know Which Floor?",
-        "photo": "assets/kids/45e4699378de.jpg",
-        "score": 0.7081,
+        "page": 3,
+        "article_no": 2,
+        "title": "Sunshine Helps Build Strong Bones",
+        "photo": "assets/kids/e041a0158997.jpg",
+        "score": 0.7325,
         "forced": false
       },
       "photos_missing": 0,
       "error": null,
       "quota": 6,
-      "found": 5,
-      "quota_status": "short"
+      "found": 6,
+      "quota_status": "ok"
     },
     {
       "level": "junior",
@@ -188,22 +192,22 @@
       "level": "times",
       "title": "TOP NEWS TIMES",
       "pdf": "/home/runner/work/top-news-weekly/top-news-weekly/builder/dist/2026-09-28/TopNews_Times_2026-09-28.pdf",
-      "pages": 11,
-      "expected_pages": 11,
+      "pages": 12,
+      "expected_pages": 12,
       "cover": "feature",
       "cover_feature": {
-        "page": 8,
-        "article_no": 7,
-        "title": "Empty Containers Pile Up at Ports Worldwide",
-        "photo": "assets/times/922cada72802.jpg",
-        "score": 0.727,
+        "page": 3,
+        "article_no": 2,
+        "title": "Life After Sport: What Comes Next?",
+        "photo": "assets/times/8f461632a8dd.jpg",
+        "score": 0.7956,
         "forced": false
       },
       "photos_missing": 0,
       "error": null,
       "quota": 10,
-      "found": 9,
-      "quota_status": "short"
+      "found": 10,
+      "quota_status": "ok"
     }
   ]
 }
